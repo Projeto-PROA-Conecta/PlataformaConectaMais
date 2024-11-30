@@ -1,0 +1,71 @@
+/***************************************************************************
+ * The contents of this file were generated with Amplify Studio.           *
+ * Please refrain from making any modifications to this file.              *
+ * Any changes to this file will be overwritten when running amplify pull. *
+ **************************************************************************/
+
+export { default as Cadastro1 } from "./Cadastro1";
+export { default as Cadastro3 } from "./Cadastro3";
+export { default as Cadastro4 } from "./Cadastro4";
+export { default as Cadastro5 } from "./Cadastro5";
+export { default as Cadastro6 } from "./Cadastro6";
+export { default as Cadastro7 } from "./Cadastro7";
+export { default as Cadastro8 } from "./Cadastro8";
+export { default as Cadastro9 } from "./Cadastro9";
+export { default as CadastroEmpresas1 } from "./CadastroEmpresas1";
+export { default as CadastroFoto } from "./CadastroFoto";
+export { default as CadastroUsuario1 } from "./CadastroUsuario1";
+export { default as CadastroUsuario2 } from "./CadastroUsuario2";
+export { default as CadastroUsuario3 } from "./CadastroUsuario3";
+export { default as CadastroUsuario4 } from "./CadastroUsuario4";
+export { default as CadastroUsuario5 } from "./CadastroUsuario5";
+export { default as CondicoesLegaisEmpresa } from "./CondicoesLegaisEmpresa";
+export { default as CondicoesLegaisPessoa } from "./CondicoesLegaisPessoa";
+export { default as Configs } from "./Configs";
+export { default as ConfigsAcessibilidade } from "./ConfigsAcessibilidade";
+export { default as ConfigsAlterarSenha } from "./ConfigsAlterarSenha";
+export { default as ConfigsEmail1 } from "./ConfigsEmail1";
+export { default as ConfigsEmail2 } from "./ConfigsEmail2";
+export { default as ConfigsNotificacoes1 } from "./ConfigsNotificacoes1";
+export { default as ConfigsPersonalizacao } from "./ConfigsPersonalizacao";
+export { default as ConfigsSessao } from "./ConfigsSessao";
+export { default as ConfigsTelefone1 } from "./ConfigsTelefone1";
+export { default as ConfigsTelefone2 } from "./ConfigsTelefone2";
+export { default as ConfigsTelefone3 } from "./ConfigsTelefone3";
+export { default as ConfigsTelefone4 } from "./ConfigsTelefone4";
+export { default as ConfigsVerificacaoEtapas1 } from "./ConfigsVerificacaoEtapas1";
+export { default as ConfigsVerificacaoEtapas3 } from "./ConfigsVerificacaoEtapas3";
+export { default as ConfigsVerificacaoEtapas4 } from "./ConfigsVerificacaoEtapas4";
+export { default as EscolhaDeConta } from "./EscolhaDeConta";
+export { default as EsqueceuSenhaEmail } from "./EsqueceuSenhaEmail";
+export { default as EsqueceuSenhaEmail2 } from "./EsqueceuSenhaEmail2";
+export { default as EsqueceuSenhaTelefone } from "./EsqueceuSenhaTelefone";
+export { default as EsqueceuSenhaTelefone2 } from "./EsqueceuSenhaTelefone2";
+export { default as Home1 } from "./Home1";
+export { default as Home2 } from "./Home2";
+export { default as Home3 } from "./Home3";
+export { default as Home4 } from "./Home4";
+export { default as Home5 } from "./Home5";
+export { default as Home6 } from "./Home6";
+export { default as MensagensNotificaes } from "./MensagensNotificaes";
+export { default as MeuPerfil } from "./MeuPerfil";
+export { default as MeuPerfil1 } from "./MeuPerfil1";
+export { default as MeuPerfil2 } from "./MeuPerfil2";
+export { default as MeuPerfil4 } from "./MeuPerfil4";
+export { default as MeuPerfil5 } from "./MeuPerfil5";
+export { default as MinhasVagas } from "./MinhasVagas";
+export { default as PhoneNumberFieldlargefalsefalsequiet } from "./PhoneNumberFieldlargefalsefalsequiet";
+export { default as PoliticaDePrivacidadeUsuario } from "./PoliticaDePrivacidadeUsuario";
+export { default as PoliticaPrivacidadeEmpresa } from "./PoliticaPrivacidadeEmpresa";
+export { default as Premium1 } from "./Premium1";
+export { default as Premium2 } from "./Premium2";
+export { default as TelaDeLogin } from "./TelaDeLogin";
+export { default as Vagas1 } from "./Vagas1";
+export { default as Vagas2 } from "./Vagas2";
+export { default as Vagas3 } from "./Vagas3";
+export { default as Vagas4 } from "./Vagas4";
+export { default as Vagas5 } from "./Vagas5";
+export { default as Vagas6 } from "./Vagas6";
+export { default as Vagas7 } from "./Vagas7";
+export { default as VerificacaoEtapas } from "./VerificacaoEtapas";
+export { default as studioTheme } from "./studioTheme";
