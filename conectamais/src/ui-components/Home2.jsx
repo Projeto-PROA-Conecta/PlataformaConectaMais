@@ -9,7 +9,7 @@ import * as React from "react";
 import { getOverrideProps } from "./utils";
 import { Button, Icon, Image, Text, View } from "@aws-amplify/ui-react";
 export default function Home2(props) {
-  const { bancoImagens, overrides, ...rest } = props;
+  const { overrides, ...rest } = props;
   return (
     <View
       width="1728px"
@@ -122,7 +122,6 @@ export default function Home2(props) {
             left="616px"
             padding="0px 0px 0px 0px"
             objectFit="cover"
-            src={bancoImagens?.LogoBrancaConecta}
             {...getOverrideProps(overrides, "logo_branca_conecta 1")}
           ></Image>
           <Icon
@@ -1014,7 +1013,6 @@ export default function Home2(props) {
             right="30.1%"
             padding="0px 0px 0px 0px"
             objectFit="cover"
-            src={bancoImagens?.LogoBrancaConecta}
             {...getOverrideProps(overrides, "logo_branca_conecta 4")}
           ></Image>
           <Icon
@@ -1928,7 +1926,7 @@ export default function Home2(props) {
             minX: 0,
             minY: 0,
             width: 275.7903642193669,
-            height: 71.53666664710454,
+            height: 71.53666664710363,
           }}
           paths={[
             {

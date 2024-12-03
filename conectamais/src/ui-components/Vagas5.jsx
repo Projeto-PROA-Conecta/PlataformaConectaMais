@@ -9,7 +9,7 @@ import * as React from "react";
 import { getOverrideProps } from "./utils";
 import { Button, Icon, Image, Text, View } from "@aws-amplify/ui-react";
 export default function Vagas5(props) {
-  const { bancoImagens, overrides, ...rest } = props;
+  const { overrides, ...rest } = props;
   return (
     <View
       width="1728px"
@@ -83,7 +83,6 @@ export default function Vagas5(props) {
         padding="0px 0px 0px 0px"
         opacity="0.44999998807907104"
         objectFit="cover"
-        src={bancoImagens?.Background2}
         {...getOverrideProps(
           overrides,
           "DALL\u00B7E 2024-11-02 01.57.03 - A softer abstract background with a pattern of faceted polygons in calming colors such as soft blues, greens, purples, and muted yellows. The shapes s 1"
@@ -1479,7 +1478,6 @@ export default function Vagas5(props) {
           left="612.36px"
           padding="0px 0px 0px 0px"
           objectFit="cover"
-          src={bancoImagens?.LogoBrancaConecta}
           {...getOverrideProps(overrides, "image-removebg-preview (4) 4")}
         ></Image>
         <View
@@ -1757,7 +1755,7 @@ export default function Vagas5(props) {
         viewBox={{
           minX: 0,
           minY: 0,
-          width: 0.9999999460451363,
+          width: 0.9999999460487743,
           height: 590.9999832500071,
         }}
         paths={[
@@ -1810,12 +1808,7 @@ export default function Vagas5(props) {
       <Icon
         width="223px"
         height="0px"
-        viewBox={{
-          minX: 0,
-          minY: 0,
-          width: 223,
-          height: 2.2037966118659824e-8,
-        }}
+        viewBox={{ minX: 0, minY: 0, width: 223, height: 2.203705662395805e-8 }}
         paths={[
           {
             d: "M0 0L223 0L223 -1L0 -1L0 0Z",
@@ -4279,7 +4272,6 @@ export default function Vagas5(props) {
         left="1601px"
         padding="0px 0px 0px 0px"
         objectFit="cover"
-        src={bancoImagens?.PerfilAvatar}
         {...getOverrideProps(overrides, "AvatarPerfil 1")}
       ></Image>
       <View

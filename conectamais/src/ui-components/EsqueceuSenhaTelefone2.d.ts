@@ -5,7 +5,6 @@
  **************************************************************************/
 
 import * as React from "react";
-import { BancoImagens } from "../models";
 import { ButtonProps, IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
@@ -39,8 +38,6 @@ export declare type EsqueceuSenhaTelefone2OverridesProps = {
     "a5d60461-159b-4858-a7b6-e072ac5bf0b8-removebg-preview 1"?: PrimitiveOverrideProps<ImageProps>;
 } & EscapeHatchProps;
 export declare type EsqueceuSenhaTelefone2Props = React.PropsWithChildren<Partial<ViewProps> & {
-    bancoImagens?: BancoImagens;
-} & {
     overrides?: EsqueceuSenhaTelefone2OverridesProps | undefined | null;
 }>;
 export default function EsqueceuSenhaTelefone2(props: EsqueceuSenhaTelefone2Props): React.ReactElement;

@@ -9,7 +9,7 @@ import * as React from "react";
 import { getOverrideProps } from "./utils";
 import { Button, Image, Text, View } from "@aws-amplify/ui-react";
 export default function PoliticaDePrivacidadeUsuario(props) {
-  const { bancoImagens, overrides, ...rest } = props;
+  const { overrides, ...rest } = props;
   return (
     <View
       width="1728px"
@@ -37,7 +37,6 @@ export default function PoliticaDePrivacidadeUsuario(props) {
         left="0px"
         padding="0px 0px 0px 0px"
         objectFit="cover"
-        src={bancoImagens?.Background2}
         {...getOverrideProps(overrides, "image 28")}
       ></Image>
       <View
@@ -108,7 +107,6 @@ export default function PoliticaDePrivacidadeUsuario(props) {
           left="398px"
           padding="0px 0px 0px 0px"
           objectFit="cover"
-          src={bancoImagens?.LogoPretaConecta}
           {...getOverrideProps(
             overrides,
             "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"

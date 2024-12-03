@@ -5,7 +5,6 @@
  **************************************************************************/
 
 import * as React from "react";
-import { BancoImagens } from "../models";
 import { ButtonProps, IconProps, ImageProps, PasswordFieldProps, TextFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
@@ -87,7 +86,7 @@ export declare type TelaDeLoginOverridesProps = {
     Button?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type TelaDeLoginProps = React.PropsWithChildren<Partial<ViewProps> & {
-    bancoImagens?: BancoImagens;
+    bancoImagens?: any;
 } & {
     overrides?: TelaDeLoginOverridesProps | undefined | null;
 }>;

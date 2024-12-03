@@ -5,8 +5,7 @@
  **************************************************************************/
 
 import * as React from "react";
-import { BancoImagens } from "../models";
-import { CheckboxFieldProps, ImageProps, TextFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+import { CheckboxFieldProps, IconProps, ImageProps, TextFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
 } | null;
@@ -22,7 +21,12 @@ export declare type CadastroEmpresas1OverridesProps = {
     CadastroEmpresas1?: PrimitiveOverrideProps<ViewProps>;
     Cadastro?: PrimitiveOverrideProps<ViewProps>;
     "Noise & Texture"?: PrimitiveOverrideProps<ImageProps>;
-    "DALL\u00B7E 2024-11-02 01.57.03 - A softer abstract background with a pattern of faceted polygons in calming colors such as soft blues, greens, purples, and muted yellows. The shapes s 1"?: PrimitiveOverrideProps<ImageProps>;
+    "Group 394"?: PrimitiveOverrideProps<ViewProps>;
+    "back gorund"?: PrimitiveOverrideProps<ViewProps>;
+    Vector42342805?: PrimitiveOverrideProps<IconProps>;
+    Vector42342806?: PrimitiveOverrideProps<IconProps>;
+    Group?: PrimitiveOverrideProps<ViewProps>;
+    Rectangle?: PrimitiveOverrideProps<ImageProps>;
     "Rectangle 7"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 2"?: PrimitiveOverrideProps<ViewProps>;
     "Group 4"?: PrimitiveOverrideProps<ViewProps>;
@@ -47,7 +51,7 @@ export declare type CadastroEmpresas1OverridesProps = {
     CheckboxField?: PrimitiveOverrideProps<CheckboxFieldProps>;
 } & EscapeHatchProps;
 export declare type CadastroEmpresas1Props = React.PropsWithChildren<Partial<ViewProps> & {
-    bancoImagens?: BancoImagens;
+    bancoImagens?: any;
 } & {
     overrides?: CadastroEmpresas1OverridesProps | undefined | null;
 }>;

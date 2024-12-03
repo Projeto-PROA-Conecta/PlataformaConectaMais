@@ -9,7 +9,7 @@ import * as React from "react";
 import { getOverrideProps } from "./utils";
 import { Button, Icon, Image, Text, View } from "@aws-amplify/ui-react";
 export default function Home4(props) {
-  const { bancoImagens, overrides, ...rest } = props;
+  const { overrides, ...rest } = props;
   return (
     <View
       width="1728px"
@@ -106,7 +106,6 @@ export default function Home4(props) {
             left="616px"
             padding="0px 0px 0px 0px"
             objectFit="cover"
-            src={bancoImagens?.LogoBrancaConecta}
             {...getOverrideProps(overrides, "logo_branca_conecta 1")}
           ></Image>
           <Icon
@@ -2764,7 +2763,6 @@ export default function Home4(props) {
           borderRadius="100px"
           padding="0px 0px 0px 0px"
           objectFit="cover"
-          src={bancoImagens?.MonicaIPerfil}
           {...getOverrideProps(
             overrides,
             "robot-modern-flat-style-vector-removebg-preview 2"
@@ -2784,7 +2782,6 @@ export default function Home4(props) {
           borderRadius="100px"
           padding="0px 0px 0px 0px"
           objectFit="cover"
-          src={bancoImagens?.PerfilFotoExemploReal}
           {...getOverrideProps(
             overrides,
             "robot-modern-flat-style-vector-removebg-preview 33995651"
@@ -2866,7 +2863,6 @@ export default function Home4(props) {
         borderRadius="100px"
         padding="0px 0px 0px 0px"
         objectFit="cover"
-        src={bancoImagens?.MonicaIPerfil}
         {...getOverrideProps(
           overrides,
           "robot-modern-flat-style-vector-removebg-preview 339887130"
@@ -2906,7 +2902,6 @@ export default function Home4(props) {
         left="1579px"
         padding="0px 0px 0px 0px"
         objectFit="cover"
-        src={bancoImagens?.PerfilAvatar}
         {...getOverrideProps(overrides, "AvatarPerfil 1")}
       ></Image>
       <View

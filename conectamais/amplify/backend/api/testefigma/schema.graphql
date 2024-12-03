@@ -22,5 +22,4 @@ type BancoImagens @model @auth(rules: [{allow: public}]) {
   Post4: AWSURL
   Post5: AWSURL
   MonicaIPerfil: AWSURL
-}
- 
+} 

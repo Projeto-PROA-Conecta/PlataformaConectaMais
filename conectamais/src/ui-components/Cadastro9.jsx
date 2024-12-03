@@ -9,10 +9,10 @@ import * as React from "react";
 import { getOverrideProps } from "./utils";
 import { Icon, Image, Text, View } from "@aws-amplify/ui-react";
 export default function Cadastro9(props) {
-  const { bancoImagens, overrides, ...rest } = props;
+  const { overrides, ...rest } = props;
   return (
     <View
-      width="1728px"
+      width="1519px"
       height="1117px"
       display="block"
       gap="unset"
@@ -122,7 +122,6 @@ export default function Cadastro9(props) {
             right="0%"
             padding="0px 0px 0px 0px"
             objectFit="unset"
-            src={bancoImagens?.Background2}
             {...getOverrideProps(overrides, "Rectangle")}
           ></Image>
         </View>

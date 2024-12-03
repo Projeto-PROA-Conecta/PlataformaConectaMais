@@ -5,7 +5,6 @@
  **************************************************************************/
 
 import * as React from "react";
-import { BancoImagens } from "../models";
 import { ButtonProps, IconProps, ImageProps, PasswordFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
@@ -70,8 +69,6 @@ export declare type ConfigsAlterarSenhaOverridesProps = {
     Button41021450?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type ConfigsAlterarSenhaProps = React.PropsWithChildren<Partial<ViewProps> & {
-    bancoImagens?: BancoImagens;
-} & {
     overrides?: ConfigsAlterarSenhaOverridesProps | undefined | null;
 }>;
 export default function ConfigsAlterarSenha(props: ConfigsAlterarSenhaProps): React.ReactElement;

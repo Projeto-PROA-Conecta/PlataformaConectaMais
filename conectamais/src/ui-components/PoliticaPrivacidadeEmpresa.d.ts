@@ -5,7 +5,6 @@
  **************************************************************************/
 
 import * as React from "react";
-import { BancoImagens } from "../models";
 import { ButtonProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
@@ -32,8 +31,6 @@ export declare type PoliticaPrivacidadeEmpresaOverridesProps = {
     "Rectangle 99"?: PrimitiveOverrideProps<ViewProps>;
 } & EscapeHatchProps;
 export declare type PoliticaPrivacidadeEmpresaProps = React.PropsWithChildren<Partial<ViewProps> & {
-    bancoImagens?: BancoImagens;
-} & {
     overrides?: PoliticaPrivacidadeEmpresaOverridesProps | undefined | null;
 }>;
 export default function PoliticaPrivacidadeEmpresa(props: PoliticaPrivacidadeEmpresaProps): React.ReactElement;

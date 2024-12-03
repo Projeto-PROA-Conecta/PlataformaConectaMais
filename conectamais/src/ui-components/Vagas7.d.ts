@@ -5,7 +5,6 @@
  **************************************************************************/
 
 import * as React from "react";
-import { BancoImagens } from "../models";
 import { ButtonProps, IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
@@ -120,8 +119,6 @@ export declare type Vagas7OverridesProps = {
     Button41001977?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type Vagas7Props = React.PropsWithChildren<Partial<ViewProps> & {
-    bancoImagens?: BancoImagens;
-} & {
     overrides?: Vagas7OverridesProps | undefined | null;
 }>;
 export default function Vagas7(props: Vagas7Props): React.ReactElement;

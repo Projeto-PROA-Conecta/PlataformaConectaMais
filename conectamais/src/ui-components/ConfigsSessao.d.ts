@@ -5,7 +5,6 @@
  **************************************************************************/
 
 import * as React from "react";
-import { BancoImagens } from "../models";
 import { ButtonProps, IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
@@ -71,8 +70,6 @@ export declare type ConfigsSessaoOverridesProps = {
     Button41021464?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type ConfigsSessaoProps = React.PropsWithChildren<Partial<ViewProps> & {
-    bancoImagens?: BancoImagens;
-} & {
     overrides?: ConfigsSessaoOverridesProps | undefined | null;
 }>;
 export default function ConfigsSessao(props: ConfigsSessaoProps): React.ReactElement;

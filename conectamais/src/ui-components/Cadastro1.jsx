@@ -9,10 +9,10 @@ import * as React from "react";
 import { getOverrideProps } from "./utils";
 import { Button, Icon, Image, View } from "@aws-amplify/ui-react";
 export default function Cadastro1(props) {
-  const { bancoImagens, overrides, ...rest } = props;
+  const { overrides, ...rest } = props;
   return (
     <View
-      width="1728px"
+      width="1519px"
       height="1117px"
       display="block"
       gap="unset"
@@ -25,17 +25,17 @@ export default function Cadastro1(props) {
       {...rest}
     >
       <Icon
-        width="2073.6px"
+        width="1822.8px"
         height="1340.4px"
         viewBox={{
           minX: 0,
           minY: 0,
-          width: 2073.60009765625,
+          width: 1822.800048828125,
           height: 1340.4000244140625,
         }}
         paths={[
           {
-            d: "M2073.6 0L0 0L0 1340.4L2073.6 1340.4L2073.6 0Z",
+            d: "M1822.8 0L0 0L0 1340.4L1822.8 1340.4L1822.8 0Z",
             fill: "rgba(255,255,255,1)",
             fillRule: "nonzero",
           },
@@ -52,17 +52,17 @@ export default function Cadastro1(props) {
         {...getOverrideProps(overrides, "Vector40211818")}
       ></Icon>
       <Icon
-        width="2073.6px"
+        width="1822.8px"
         height="1340.4px"
         viewBox={{
           minX: 0,
           minY: 0,
-          width: 2073.60009765625,
+          width: 1822.800048828125,
           height: 1340.4000244140625,
         }}
         paths={[
           {
-            d: "M2073.6 0L0 0L0 1340.4L2073.6 1340.4L2073.6 0Z",
+            d: "M1822.8 0L0 0L0 1340.4L1822.8 1340.4L1822.8 0Z",
             fill: "rgba(255,255,255,1)",
             fillRule: "nonzero",
           },
@@ -80,7 +80,7 @@ export default function Cadastro1(props) {
       ></Icon>
       <View
         padding="0px 0px 0px 0px"
-        width="1728px"
+        width="1519px"
         height="1117px"
         display="block"
         gap="unset"
@@ -107,12 +107,11 @@ export default function Cadastro1(props) {
           right="0%"
           padding="0px 0px 0px 0px"
           objectFit="unset"
-          src={bancoImagens?.Background2}
           {...getOverrideProps(overrides, "Rectangle")}
         ></Image>
         <View
           padding="0px 0px 0px 0px"
-          width="227.17px"
+          width="199.7px"
           height="217.88px"
           display="block"
           gap="unset"
@@ -139,12 +138,11 @@ export default function Cadastro1(props) {
             right="3.16%"
             padding="0px 0px 0px 0px"
             objectFit="cover"
-            src={bancoImagens?.PerfilAvatar}
             {...getOverrideProps(overrides, "AvatarPerfil 1")}
           ></Image>
           <View
             padding="0px 0px 0px 0px"
-            width="74.17px"
+            width="65.2px"
             height="74.38px"
             display="block"
             gap="unset"
@@ -158,17 +156,17 @@ export default function Cadastro1(props) {
             {...getOverrideProps(overrides, "Group 6")}
           >
             <Icon
-              width="74.17px"
+              width="65.2px"
               height="74.38px"
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 74.171630859375,
+                width: 65.20063781738281,
                 height: 74.38282775878906,
               }}
               paths={[
                 {
-                  d: "M74.1716 37.1914C74.1716 57.7317 57.5677 74.3828 37.0858 74.3828C16.6039 74.3828 0 57.7317 0 37.1914C0 16.6512 16.6039 0 37.0858 0C57.5677 0 74.1716 16.6512 74.1716 37.1914Z",
+                  d: "M65.2006 37.1914C65.2006 57.7317 50.605 74.3828 32.6003 74.3828C14.5957 74.3828 0 57.7317 0 37.1914C0 16.6512 14.5957 0 32.6003 0C50.605 0 65.2006 16.6512 65.2006 37.1914Z",
                   fill: "rgba(38,25,13,1)",
                   fillRule: "nonzero",
                 },
@@ -185,7 +183,7 @@ export default function Cadastro1(props) {
               {...getOverrideProps(overrides, "Ellipse 2")}
             ></Icon>
             <View
-              width="30px"
+              width="26.37px"
               height="30px"
               display="block"
               gap="unset"
@@ -201,12 +199,17 @@ export default function Cadastro1(props) {
               {...getOverrideProps(overrides, "EditIcon 1")}
             >
               <Icon
-                width="22.5px"
+                width="19.78px"
                 height="22.5px"
-                viewBox={{ minX: 0, minY: 0, width: 22.5, height: 22.5 }}
+                viewBox={{
+                  minX: 0,
+                  minY: 0,
+                  width: 19.77864646911621,
+                  height: 22.5,
+                }}
                 paths={[
                   {
-                    d: "M2.5 20L4.28125 20L16.5 7.78125L14.7188 6L2.5 18.2188L2.5 20ZM0 22.5L0 17.1875L16.5 0.71875C16.75 0.489583 17.026 0.3125 17.3281 0.1875C17.6302 0.0625 17.9479 0 18.2812 0C18.6146 0 18.9375 0.0625 19.25 0.1875C19.5625 0.3125 19.8333 0.5 20.0625 0.75L21.7812 2.5C22.0312 2.72917 22.2135 3 22.3281 3.3125C22.4427 3.625 22.5 3.9375 22.5 4.25C22.5 4.58333 22.4427 4.90104 22.3281 5.20312C22.2135 5.50521 22.0312 5.78125 21.7812 6.03125L5.3125 22.5L0 22.5ZM15.5938 6.90625L14.7188 6L16.5 7.78125L15.5938 6.90625Z",
+                    d: "M2.19763 20L3.76344 20L14.5043 7.78125L12.9385 6L2.19763 18.2188L2.19763 20ZM0 22.5L0 17.1875L14.5043 0.71875C14.7241 0.489583 14.9668 0.3125 15.2323 0.1875C15.4979 0.0625 15.7771 0 16.0702 0C16.3632 0 16.647 0.0625 16.9217 0.1875C17.1964 0.3125 17.4345 0.5 17.636 0.75L19.1468 2.5C19.3666 2.72917 19.5268 3 19.6276 3.3125C19.7283 3.625 19.7786 3.9375 19.7786 4.25C19.7786 4.58333 19.7283 4.90104 19.6276 5.20312C19.5268 5.50521 19.3666 5.78125 19.1468 6.03125L4.66996 22.5L0 22.5ZM13.7077 6.90625L12.9385 6L14.5043 7.78125L13.7077 6.90625Z",
                     fill: "rgba(255,255,255,1)",
                     fillRule: "nonzero",
                   },
@@ -241,11 +244,10 @@ export default function Cadastro1(props) {
         borderRadius="87px"
         padding="0px 0px 0px 0px"
         objectFit="cover"
-        src={bancoImagens?.LogoBrancaConecta}
         {...getOverrideProps(overrides, "logo_branca_conecta 1")}
       ></Image>
       <Button
-        width="210px"
+        width="184.6px"
         height="79px"
         position="absolute"
         borderRadius="20px"
@@ -261,14 +263,14 @@ export default function Cadastro1(props) {
         {...getOverrideProps(overrides, "Button40211828")}
       ></Button>
       <Button
-        width="212px"
+        width="186.6px"
         height="81px"
         position="absolute"
         borderRadius="21px"
         top="65.8%"
         bottom="26.95%"
-        left="35.19%"
-        right="52.55%"
+        left="35.18%"
+        right="52.54%"
         backgroundColor="rgba(255,255,255,1)"
         size="small"
         isDisabled={false}
@@ -277,14 +279,14 @@ export default function Cadastro1(props) {
         {...getOverrideProps(overrides, "Button40211829")}
       ></Button>
       <Button
-        width="253px"
+        width="222.64px"
         height="68px"
         position="absolute"
         borderRadius="21px"
         top="79.23%"
         bottom="14.68%"
-        left="42.65%"
-        right="42.71%"
+        left="42.64%"
+        right="42.7%"
         backgroundColor="rgba(255,255,255,1)"
         size="small"
         isDisabled={false}

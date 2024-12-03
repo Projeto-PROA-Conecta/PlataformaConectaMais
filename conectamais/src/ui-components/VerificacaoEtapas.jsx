@@ -9,7 +9,7 @@ import * as React from "react";
 import { getOverrideProps } from "./utils";
 import { Button, Image, Text, TextField, View } from "@aws-amplify/ui-react";
 export default function VerificacaoEtapas(props) {
-  const { bancoImagens, overrides, ...rest } = props;
+  const { overrides, ...rest } = props;
   return (
     <View
       width="1728px"
@@ -66,7 +66,6 @@ export default function VerificacaoEtapas(props) {
           left="0px"
           padding="0px 0px 0px 0px"
           objectFit="cover"
-          src={bancoImagens?.Background2}
           {...getOverrideProps(
             overrides,
             "DALL\u00B7E 2024-11-02 01.57.03 - A softer abstract background with a pattern of faceted polygons in calming colors such as soft blues, greens, purples, and muted yellows. The shapes s 1"
@@ -162,7 +161,6 @@ export default function VerificacaoEtapas(props) {
             left="191px"
             padding="0px 0px 0px 0px"
             objectFit="cover"
-            src={bancoImagens?.LogoPretaConecta}
             {...getOverrideProps(
               overrides,
               "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"

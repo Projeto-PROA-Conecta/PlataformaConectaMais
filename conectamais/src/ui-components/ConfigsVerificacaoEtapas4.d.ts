@@ -5,7 +5,6 @@
  **************************************************************************/
 
 import * as React from "react";
-import { BancoImagens } from "../models";
 import { ButtonProps, IconProps, ImageProps, TextFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
@@ -71,8 +70,6 @@ export declare type ConfigsVerificacaoEtapas4OverridesProps = {
     Button41021478?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type ConfigsVerificacaoEtapas4Props = React.PropsWithChildren<Partial<ViewProps> & {
-    bancoImagens?: BancoImagens;
-} & {
     overrides?: ConfigsVerificacaoEtapas4OverridesProps | undefined | null;
 }>;
 export default function ConfigsVerificacaoEtapas4(props: ConfigsVerificacaoEtapas4Props): React.ReactElement;

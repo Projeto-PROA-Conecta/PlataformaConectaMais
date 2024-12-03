@@ -5,7 +5,6 @@
  **************************************************************************/
 
 import * as React from "react";
-import { BancoImagens } from "../models";
 import { ButtonProps, IconProps, ImageProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
@@ -46,8 +45,6 @@ export declare type Cadastro6OverridesProps = {
     Button40241176?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type Cadastro6Props = React.PropsWithChildren<Partial<ViewProps> & {
-    bancoImagens?: BancoImagens;
-} & {
     overrides?: Cadastro6OverridesProps | undefined | null;
 }>;
 export default function Cadastro6(props: Cadastro6Props): React.ReactElement;

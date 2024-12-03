@@ -9,7 +9,7 @@ import * as React from "react";
 import { getOverrideProps } from "./utils";
 import { Button, Icon, Image, Text, View } from "@aws-amplify/ui-react";
 export default function EsqueceuSenhaEmail2(props) {
-  const { bancoImagens, overrides, ...rest } = props;
+  const { overrides, ...rest } = props;
   return (
     <View
       width="1728px"
@@ -66,7 +66,6 @@ export default function EsqueceuSenhaEmail2(props) {
           left="0px"
           padding="0px 0px 0px 0px"
           objectFit="cover"
-          src={bancoImagens?.Background2}
           {...getOverrideProps(
             overrides,
             "DALL\u00B7E 2024-11-02 01.57.03 - A softer abstract background with a pattern of faceted polygons in calming colors such as soft blues, greens, purples, and muted yellows. The shapes s 1"
@@ -305,7 +304,6 @@ export default function EsqueceuSenhaEmail2(props) {
         left="773px"
         padding="0px 0px 0px 0px"
         objectFit="cover"
-        src={bancoImagens?.JoiaSenha}
         {...getOverrideProps(
           overrides,
           "9a6b8051-61b0-4dfd-8a7a-e250b23885e7-removebg-preview (2) 1"

@@ -5,7 +5,6 @@
  **************************************************************************/
 
 import * as React from "react";
-import { BancoImagens } from "../models";
 import { ButtonProps, IconProps, ImageProps, SelectFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
@@ -21,16 +20,23 @@ export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes
 export declare type CadastroUsuario4OverridesProps = {
     CadastroUsuario4?: PrimitiveOverrideProps<ViewProps>;
     Cadastro?: PrimitiveOverrideProps<ViewProps>;
-    "DALL\u00B7E 2024-11-02 01.57.03 - A softer abstract background with a pattern of faceted polygons in calming colors such as soft blues, greens, purples, and muted yellows. The shapes s 1"?: PrimitiveOverrideProps<ImageProps>;
-    "Rectangle 7"?: PrimitiveOverrideProps<ViewProps>;
+    "Group 394"?: PrimitiveOverrideProps<ViewProps>;
+    "back gorund"?: PrimitiveOverrideProps<ViewProps>;
+    Vector42343685?: PrimitiveOverrideProps<IconProps>;
+    Vector42343686?: PrimitiveOverrideProps<IconProps>;
+    Group42343687?: PrimitiveOverrideProps<ViewProps>;
+    Rectangle?: PrimitiveOverrideProps<ImageProps>;
     "Rectangle 2"?: PrimitiveOverrideProps<ViewProps>;
+    "Group 462"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 7"?: PrimitiveOverrideProps<ViewProps>;
     "Group 6"?: PrimitiveOverrideProps<ViewProps>;
     "Queremos conhecer\u2028mais um pouco sobre\u2028voc\u00EA"?: PrimitiveOverrideProps<TextProps>;
     "Rectangle 11"?: PrimitiveOverrideProps<ViewProps>;
+    "image-removebg-preview (4) 4"?: PrimitiveOverrideProps<ImageProps>;
+    "Group 463"?: PrimitiveOverrideProps<ViewProps>;
     "Group 4"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 1"?: PrimitiveOverrideProps<ViewProps>;
-    "image-removebg-preview (4) 4"?: PrimitiveOverrideProps<ImageProps>;
-    "question\u00E1rio"?: PrimitiveOverrideProps<TextProps>;
+    "Question\u00E1rio"?: PrimitiveOverrideProps<TextProps>;
     "Line 71"?: PrimitiveOverrideProps<IconProps>;
     "Ellipse 108"?: PrimitiveOverrideProps<IconProps>;
     "Ellipse 109"?: PrimitiveOverrideProps<IconProps>;
@@ -129,7 +135,7 @@ export declare type CadastroUsuario4OverridesProps = {
     "Voc\u00EA possui alguma outra condi\u00E7\u00E3o diagnosticada al\u00E9m do TEA?"?: PrimitiveOverrideProps<TextProps>;
 } & EscapeHatchProps;
 export declare type CadastroUsuario4Props = React.PropsWithChildren<Partial<ViewProps> & {
-    bancoImagens?: BancoImagens;
+    bancoImagens?: any;
 } & {
     overrides?: CadastroUsuario4OverridesProps | undefined | null;
 }>;

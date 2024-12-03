@@ -20,7 +20,7 @@ export default function CadastroUsuario1(props) {
   const { bancoImagens, overrides, ...rest } = props;
   return (
     <View
-      width="1728px"
+      width="1519px"
       height="1117px"
       display="block"
       gap="unset"
@@ -62,7 +62,8 @@ export default function CadastroUsuario1(props) {
           objectFit="unset"
           {...getOverrideProps(overrides, "Noise & Texture")}
         ></Image>
-        <Image
+        <View
+          padding="0px 0px 0px 0px"
           width="1728px"
           height="1117px"
           display="block"
@@ -72,29 +73,110 @@ export default function CadastroUsuario1(props) {
           position="absolute"
           top="0px"
           left="0px"
-          padding="0px 0px 0px 0px"
-          objectFit="cover"
-          src={bancoImagens?.Background2}
-          {...getOverrideProps(
-            overrides,
-            "DALL\u00B7E 2024-11-02 01.57.03 - A softer abstract background with a pattern of faceted polygons in calming colors such as soft blues, greens, purples, and muted yellows. The shapes s 1"
-          )}
-        ></Image>
-        <View
-          width="100px"
-          height="40px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="659px"
-          left="1058px"
-          borderRadius="10px"
-          padding="0px 0px 0px 0px"
-          backgroundColor="rgba(0,0,0,1)"
-          {...getOverrideProps(overrides, "Rectangle 7")}
-        ></View>
+          {...getOverrideProps(overrides, "Group 394")}
+        >
+          <View
+            width="1728px"
+            height="1117px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            overflow="hidden"
+            position="absolute"
+            top="0px"
+            left="0px"
+            padding="0px 0px 0px 0px"
+            {...getOverrideProps(overrides, "back gorund")}
+          >
+            <Icon
+              width="2073.6px"
+              height="1340.4px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 2073.60009765625,
+                height: 1340.400146484375,
+              }}
+              paths={[
+                {
+                  d: "M2073.6 0L0 0L0 1340.4L2073.6 1340.4L2073.6 0Z",
+                  fill: "rgba(0,0,0,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="-10%"
+              bottom="-10%"
+              left="-10%"
+              right="-10%"
+              {...getOverrideProps(overrides, "Vector42343671")}
+            ></Icon>
+            <Icon
+              width="2073.6px"
+              height="1340.4px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 2073.60009765625,
+                height: 1340.400146484375,
+              }}
+              paths={[
+                {
+                  d: "M2073.6 0L0 0L0 1340.4L2073.6 1340.4L2073.6 0Z",
+                  fill: "rgba(0,0,0,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="-10%"
+              bottom="-10%"
+              left="-10%"
+              right="-10%"
+              {...getOverrideProps(overrides, "Vector42343672")}
+            ></Icon>
+            <View
+              padding="0px 0px 0px 0px"
+              width="1728px"
+              height="1117px"
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="0%"
+              bottom="0%"
+              left="0%"
+              right="0%"
+              {...getOverrideProps(overrides, "Group")}
+            >
+              <Image
+                width="100%"
+                height="100%"
+                display="block"
+                gap="unset"
+                alignItems="unset"
+                justifyContent="unset"
+                position="absolute"
+                top="0%"
+                bottom="0%"
+                left="0%"
+                right="0%"
+                padding="0px 0px 0px 0px"
+                objectFit="unset"
+                {...getOverrideProps(overrides, "Rectangle")}
+              ></Image>
+            </View>
+          </View>
+        </View>
         <View
           width="630px"
           height="815px"
@@ -109,25 +191,54 @@ export default function CadastroUsuario1(props) {
           backgroundColor="rgba(217,217,217,1)"
           {...getOverrideProps(overrides, "Rectangle 2")}
         ></View>
+      </View>
+      <View
+        padding="0px 0px 0px 0px"
+        width="1356px"
+        height="901px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="108px"
+        left="79px"
+        {...getOverrideProps(overrides, "Group 456")}
+      >
         <View
-          padding="0px 0px 0px 0px"
-          width="544px"
-          height="110px"
+          width="100px"
+          height="40px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="calc(50% - 55px - 10.5px)"
+          top="555px"
+          left="844px"
+          borderRadius="10px"
+          padding="0px 0px 0px 0px"
+          backgroundColor="rgba(0,0,0,1)"
+          {...getOverrideProps(overrides, "Rectangle 7")}
+        ></View>
+        <View
+          padding="0px 0px 0px 0px"
+          width="387px"
+          height="78px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="calc(50% - 39px - 33.5px)"
           left="83px"
           {...getOverrideProps(overrides, "Group 6")}
         >
           <Text
             fontFamily="Montserrat"
-            fontSize="90px"
+            fontSize="64px"
             fontWeight="700"
             color="rgba(255,255,255,1)"
-            lineHeight="109.70999908447266px"
+            lineHeight="78.01599884033203px"
             textAlign="left"
             display="block"
             direction="column"
@@ -154,8 +265,8 @@ export default function CadastroUsuario1(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="104px"
-          left="792px"
+          top="0px"
+          left="578px"
           {...getOverrideProps(overrides, "Group 4")}
         >
           <View
@@ -189,20 +300,20 @@ export default function CadastroUsuario1(props) {
             alignItems="unset"
             position="absolute"
             top="653.41px"
-            left="414.9px"
+            left="414.91px"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="Pronto"
             {...getOverrideProps(overrides, "Pronto")}
           ></Text>
           <PasswordField
-            width="266.74px"
-            height="92.08px"
+            width="267px"
+            height="100px"
             label="Senha"
             placeholder="Crie uma senha"
             position="absolute"
-            top="556px"
-            left="387px"
+            top="552px"
+            left="366px"
             size="large"
             isDisabled={false}
             labelHidden={false}
@@ -263,8 +374,8 @@ export default function CadastroUsuario1(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="167px"
-          left="1158px"
+          top="63px"
+          left="944px"
           {...getOverrideProps(overrides, "Ellipse 10039885530")}
         ></Icon>
         <Icon
@@ -283,16 +394,16 @@ export default function CadastroUsuario1(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="167px"
-          left="1186px"
+          top="63px"
+          left="972px"
           {...getOverrideProps(overrides, "Ellipse 10039885531")}
         ></Icon>
         <Text
           fontFamily="Montserrat"
-          fontSize="50px"
+          fontSize="40px"
           fontWeight="700"
           color="rgba(255,255,255,1)"
-          lineHeight="60.95000076293945px"
+          lineHeight="48.7599983215332px"
           textAlign="left"
           display="block"
           direction="column"
@@ -302,8 +413,8 @@ export default function CadastroUsuario1(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="635px"
-          left="58px"
+          top="496px"
+          left="25px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Que bom que você quer"
@@ -311,10 +422,10 @@ export default function CadastroUsuario1(props) {
         ></Text>
         <Text
           fontFamily="Montserrat"
-          fontSize="50px"
+          fontSize="40px"
           fontWeight="700"
           color="rgba(255,255,255,1)"
-          lineHeight="60.95000076293945px"
+          lineHeight="48.7599983215332px"
           textAlign="left"
           display="block"
           direction="column"
@@ -324,8 +435,8 @@ export default function CadastroUsuario1(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="709px"
-          left="154px"
+          top="570px"
+          left="121px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children=" Se juntar a nós "
@@ -339,8 +450,8 @@ export default function CadastroUsuario1(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="222px"
-          left="79px"
+          top="114px"
+          left="0px"
           padding="0px 0px 0px 0px"
           objectFit="cover"
           src={bancoImagens?.LogoAzulConecta}
@@ -352,8 +463,8 @@ export default function CadastroUsuario1(props) {
           label="Nome completo"
           placeholder="Insira seu nome completo"
           position="absolute"
-          top="343px"
-          left="909px"
+          top="239px"
+          left="695px"
           size="large"
           isDisabled={false}
           labelHidden={false}
@@ -366,65 +477,43 @@ export default function CadastroUsuario1(props) {
           label="Email"
           placeholder="Insira seu email"
           position="absolute"
-          top="499px"
-          left="909px"
+          top="395px"
+          left="695px"
           size="large"
           isDisabled={false}
           labelHidden={false}
           variation="default"
           {...getOverrideProps(overrides, "TextField40191415")}
         ></TextField>
+        <Button
+          width="167px"
+          height="55px"
+          position="absolute"
+          borderRadius="10px"
+          top="800px"
+          left="1077px"
+          backgroundColor="rgba(0,0,0,1)"
+          size="default"
+          isDisabled={false}
+          variation="primary"
+          children="Proxima"
+          {...getOverrideProps(overrides, "Button39885537")}
+        ></Button>
+        <Button
+          width="167px"
+          height="55px"
+          position="absolute"
+          border="1px SOLID rgba(0,0,0,1)"
+          borderRadius="10px"
+          top="800px"
+          left="712px"
+          size="default"
+          isDisabled={false}
+          variation="primary"
+          children="Voltar"
+          {...getOverrideProps(overrides, "Button39885538")}
+        ></Button>
       </View>
-      <Button
-        width="167px"
-        height="55px"
-        position="absolute"
-        borderRadius="10px"
-        top="904px"
-        left="1291px"
-        backgroundColor="rgba(0,0,0,1)"
-        size="default"
-        isDisabled={false}
-        variation="primary"
-        children="Proxima"
-        {...getOverrideProps(overrides, "Button39885537")}
-      ></Button>
-      <Button
-        width="167px"
-        height="55px"
-        position="absolute"
-        border="1px SOLID rgba(0,0,0,1)"
-        borderRadius="10px"
-        top="904px"
-        left="926px"
-        size="default"
-        isDisabled={false}
-        variation="primary"
-        children="Voltar"
-        {...getOverrideProps(overrides, "Button39885538")}
-      ></Button>
-      <Text
-        fontFamily="Inter"
-        fontSize="16px"
-        fontWeight="700"
-        color="rgba(255,255,255,1)"
-        lineHeight="24px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="unset"
-        height="unset"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="calc(50% - 12px - -373.5px)"
-        left="1335px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Continuar"
-        {...getOverrideProps(overrides, "label")}
-      ></Text>
     </View>
   );
 }

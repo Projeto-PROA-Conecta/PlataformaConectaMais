@@ -5,7 +5,6 @@
  **************************************************************************/
 
 import * as React from "react";
-import { BancoImagens } from "../models";
 import { ButtonProps, ImageProps, TextFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
@@ -34,8 +33,6 @@ export declare type VerificacaoEtapasOverridesProps = {
     "Insira o c\u00F3digo exibido no seu aplicativo de autentica\u00E7\u00E3o"?: PrimitiveOverrideProps<TextProps>;
 } & EscapeHatchProps;
 export declare type VerificacaoEtapasProps = React.PropsWithChildren<Partial<ViewProps> & {
-    bancoImagens?: BancoImagens;
-} & {
     overrides?: VerificacaoEtapasOverridesProps | undefined | null;
 }>;
 export default function VerificacaoEtapas(props: VerificacaoEtapasProps): React.ReactElement;

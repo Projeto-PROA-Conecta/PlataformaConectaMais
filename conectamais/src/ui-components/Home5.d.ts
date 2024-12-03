@@ -5,7 +5,6 @@
  **************************************************************************/
 
 import * as React from "react";
-import { BancoImagens } from "../models";
 import { ButtonProps, IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
@@ -122,62 +121,8 @@ export declare type Home5OverridesProps = {
     Vector39886938?: PrimitiveOverrideProps<IconProps>;
     Vector39886939?: PrimitiveOverrideProps<IconProps>;
     Vector39886940?: PrimitiveOverrideProps<IconProps>;
-    "robot-modern-flat-style-vector-removebg-preview 1"?: PrimitiveOverrideProps<ImageProps>;
-    "Rectangle 188"?: PrimitiveOverrideProps<ViewProps>;
-    "Ol\u00E1, como posso te ajudar hoje ?"?: PrimitiveOverrideProps<TextProps>;
-    "D\u00DAVIDAS FREQUENTES"?: PrimitiveOverrideProps<TextProps>;
-    Monica?: PrimitiveOverrideProps<TextProps>;
-    "Rectangle 189"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 190"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 191"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 192"?: PrimitiveOverrideProps<ViewProps>;
-    "Digite sua d\u00FAvida..."?: PrimitiveOverrideProps<TextProps>;
-    "Cadastro e Perfil"?: PrimitiveOverrideProps<TextProps>;
-    "Aplica\u00E7\u00E3o a Vagas"?: PrimitiveOverrideProps<TextProps>;
-    "Comunica\u00E7\u00E3o e Servi\u00E7os"?: PrimitiveOverrideProps<TextProps>;
     "Line 54"?: PrimitiveOverrideProps<IconProps>;
-    "undraw_chat_bot_re_e2gj 1"?: PrimitiveOverrideProps<ViewProps>;
-    Vector39886957?: PrimitiveOverrideProps<IconProps>;
-    Vector39886958?: PrimitiveOverrideProps<IconProps>;
-    Vector39886959?: PrimitiveOverrideProps<IconProps>;
-    Vector39886960?: PrimitiveOverrideProps<IconProps>;
-    Vector39886961?: PrimitiveOverrideProps<IconProps>;
-    Vector39886962?: PrimitiveOverrideProps<IconProps>;
-    Vector39886963?: PrimitiveOverrideProps<IconProps>;
-    Vector39886964?: PrimitiveOverrideProps<IconProps>;
-    Vector39886965?: PrimitiveOverrideProps<IconProps>;
-    Vector39886966?: PrimitiveOverrideProps<IconProps>;
-    Vector39886967?: PrimitiveOverrideProps<IconProps>;
-    Vector39886968?: PrimitiveOverrideProps<IconProps>;
-    Vector39886969?: PrimitiveOverrideProps<IconProps>;
-    Vector39886970?: PrimitiveOverrideProps<IconProps>;
-    Vector39886971?: PrimitiveOverrideProps<IconProps>;
-    Vector39886972?: PrimitiveOverrideProps<IconProps>;
-    Vector39886973?: PrimitiveOverrideProps<IconProps>;
-    Vector39886974?: PrimitiveOverrideProps<IconProps>;
-    Vector39886975?: PrimitiveOverrideProps<IconProps>;
-    Vector39886976?: PrimitiveOverrideProps<IconProps>;
-    Vector39886977?: PrimitiveOverrideProps<IconProps>;
-    Vector39886978?: PrimitiveOverrideProps<IconProps>;
-    Vector39886979?: PrimitiveOverrideProps<IconProps>;
-    Vector39886980?: PrimitiveOverrideProps<IconProps>;
-    Vector39886981?: PrimitiveOverrideProps<IconProps>;
-    Vector39886982?: PrimitiveOverrideProps<IconProps>;
-    Vector39886983?: PrimitiveOverrideProps<IconProps>;
-    Vector39886984?: PrimitiveOverrideProps<IconProps>;
-    Vector39886985?: PrimitiveOverrideProps<IconProps>;
-    Vector39886986?: PrimitiveOverrideProps<IconProps>;
-    Vector39886987?: PrimitiveOverrideProps<IconProps>;
-    Vector39886988?: PrimitiveOverrideProps<IconProps>;
-    Vector39886989?: PrimitiveOverrideProps<IconProps>;
-    Vector39886990?: PrimitiveOverrideProps<IconProps>;
-    Vector39886991?: PrimitiveOverrideProps<IconProps>;
-    "robot-modern-flat-style-vector-removebg-preview 2"?: PrimitiveOverrideProps<ImageProps>;
     Vector39886993?: PrimitiveOverrideProps<IconProps>;
-    "close_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 2"?: PrimitiveOverrideProps<ViewProps>;
-    Vector39886995?: PrimitiveOverrideProps<IconProps>;
-    Vector39886996?: PrimitiveOverrideProps<IconProps>;
-    Vector39886997?: PrimitiveOverrideProps<IconProps>;
     "AvatarPerfil 1"?: PrimitiveOverrideProps<ImageProps>;
     "Rectangle 20"?: PrimitiveOverrideProps<ViewProps>;
     Button40901317?: PrimitiveOverrideProps<ButtonProps>;
@@ -185,8 +130,6 @@ export declare type Home5OverridesProps = {
     Button40901327?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type Home5Props = React.PropsWithChildren<Partial<ViewProps> & {
-    bancoImagens?: BancoImagens;
-} & {
     overrides?: Home5OverridesProps | undefined | null;
 }>;
 export default function Home5(props: Home5Props): React.ReactElement;

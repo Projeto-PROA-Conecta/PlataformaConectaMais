@@ -9,6 +9,7 @@ import * as React from "react";
 import { getOverrideProps } from "./utils";
 import {
   CheckboxField,
+  Icon,
   Image,
   Text,
   TextField,
@@ -18,7 +19,7 @@ export default function CadastroEmpresas1(props) {
   const { bancoImagens, overrides, ...rest } = props;
   return (
     <View
-      width="1726px"
+      width="1517px"
       height="1117px"
       display="block"
       gap="unset"
@@ -32,7 +33,7 @@ export default function CadastroEmpresas1(props) {
       {...rest}
     >
       <View
-        width="1728px"
+        width="1519px"
         height="1117px"
         display="block"
         gap="unset"
@@ -47,7 +48,7 @@ export default function CadastroEmpresas1(props) {
         {...getOverrideProps(overrides, "Cadastro")}
       >
         <Image
-          width="1728px"
+          width="1519px"
           height="1115px"
           display="block"
           gap="unset"
@@ -60,9 +61,10 @@ export default function CadastroEmpresas1(props) {
           objectFit="unset"
           {...getOverrideProps(overrides, "Noise & Texture")}
         ></Image>
-        <Image
-          width="1728px"
-          height="1117px"
+        <View
+          padding="0px 0px 0px 0px"
+          width="1519px"
+          height="1115px"
           display="block"
           gap="unset"
           alignItems="unset"
@@ -70,14 +72,110 @@ export default function CadastroEmpresas1(props) {
           position="absolute"
           top="0px"
           left="0px"
-          padding="0px 0px 0px 0px"
-          objectFit="cover"
-          src={bancoImagens?.ImagemDeFundo}
-          {...getOverrideProps(
-            overrides,
-            "DALL\u00B7E 2024-11-02 01.57.03 - A softer abstract background with a pattern of faceted polygons in calming colors such as soft blues, greens, purples, and muted yellows. The shapes s 1"
-          )}
-        ></Image>
+          {...getOverrideProps(overrides, "Group 394")}
+        >
+          <View
+            width="1519px"
+            height="1115px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            overflow="hidden"
+            position="absolute"
+            top="0px"
+            left="0px"
+            padding="0px 0px 0px 0px"
+            {...getOverrideProps(overrides, "back gorund")}
+          >
+            <Icon
+              width="1822.8px"
+              height="1338px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 1822.800048828125,
+                height: 1338.0001220703125,
+              }}
+              paths={[
+                {
+                  d: "M1822.8 0L0 0L0 1338L1822.8 1338L1822.8 0Z",
+                  fill: "rgba(0,0,0,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="-10%"
+              bottom="-10%"
+              left="-10%"
+              right="-10%"
+              {...getOverrideProps(overrides, "Vector42342805")}
+            ></Icon>
+            <Icon
+              width="1822.8px"
+              height="1338px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 1822.800048828125,
+                height: 1338.0001220703125,
+              }}
+              paths={[
+                {
+                  d: "M1822.8 0L0 0L0 1338L1822.8 1338L1822.8 0Z",
+                  fill: "rgba(0,0,0,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="-10%"
+              bottom="-10%"
+              left="-10%"
+              right="-10%"
+              {...getOverrideProps(overrides, "Vector42342806")}
+            ></Icon>
+            <View
+              padding="0px 0px 0px 0px"
+              width="1519px"
+              height="1115px"
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="0%"
+              bottom="0%"
+              left="0%"
+              right="0%"
+              {...getOverrideProps(overrides, "Group")}
+            >
+              <Image
+                width="100%"
+                height="100%"
+                display="block"
+                gap="unset"
+                alignItems="unset"
+                justifyContent="unset"
+                position="absolute"
+                top="0%"
+                bottom="0%"
+                left="0%"
+                right="0%"
+                padding="0px 0px 0px 0px"
+                objectFit="unset"
+                {...getOverrideProps(overrides, "Rectangle")}
+              ></Image>
+            </View>
+          </View>
+        </View>
         <View
           width="100px"
           height="40px"
@@ -379,12 +477,12 @@ export default function CadastroEmpresas1(props) {
           fontSize="50px"
           fontWeight="700"
           color="rgba(255,255,255,1)"
-          lineHeight="60.95000076293945px"
+          lineHeight="75px"
           textAlign="left"
           display="block"
           direction="column"
           justifyContent="unset"
-          width="648px"
+          width="491px"
           height="unset"
           gap="unset"
           alignItems="unset"

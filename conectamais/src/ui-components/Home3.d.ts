@@ -5,7 +5,6 @@
  **************************************************************************/
 
 import * as React from "react";
-import { BancoImagens } from "../models";
 import { ButtonProps, IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
@@ -116,8 +115,6 @@ export declare type Home3OverridesProps = {
     "\uD83D\uDD12Icon"?: PrimitiveOverrideProps<ViewProps>;
 } & EscapeHatchProps;
 export declare type Home3Props = React.PropsWithChildren<Partial<ViewProps> & {
-    bancoImagens?: BancoImagens;
-} & {
     overrides?: Home3OverridesProps | undefined | null;
 }>;
 export default function Home3(props: Home3Props): React.ReactElement;

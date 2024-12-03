@@ -5,7 +5,6 @@
  **************************************************************************/
 
 import * as React from "react";
-import { BancoImagens } from "../models";
 import { ButtonProps, CheckboxFieldProps, IconProps, ImageProps, PhoneNumberFieldProps, TextFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
@@ -22,22 +21,34 @@ export declare type CadastroUsuario2OverridesProps = {
     CadastroUsuario2?: PrimitiveOverrideProps<ViewProps>;
     Cadastro?: PrimitiveOverrideProps<ViewProps>;
     "Noise & Texture"?: PrimitiveOverrideProps<ImageProps>;
-    "DALL\u00B7E 2024-11-02 01.57.03 - A softer abstract background with a pattern of faceted polygons in calming colors such as soft blues, greens, purples, and muted yellows. The shapes s 1"?: PrimitiveOverrideProps<ImageProps>;
-    "Rectangle 7"?: PrimitiveOverrideProps<ViewProps>;
+    "Group 394"?: PrimitiveOverrideProps<ViewProps>;
+    "back gorund"?: PrimitiveOverrideProps<ViewProps>;
+    Vector42343678?: PrimitiveOverrideProps<IconProps>;
+    Vector42343679?: PrimitiveOverrideProps<IconProps>;
+    Group42343680?: PrimitiveOverrideProps<ViewProps>;
+    Rectangle?: PrimitiveOverrideProps<ImageProps>;
     "Rectangle 2"?: PrimitiveOverrideProps<ViewProps>;
+    "undraw_absorbed_in_re_ymd6 1"?: PrimitiveOverrideProps<ViewProps>;
+    "undraw_working_out_re_nhkg 1"?: PrimitiveOverrideProps<ViewProps>;
+    "image 22"?: PrimitiveOverrideProps<ImageProps>;
+    "Group 457"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 7"?: PrimitiveOverrideProps<ViewProps>;
     "Group 51"?: PrimitiveOverrideProps<ViewProps>;
     "Group 6"?: PrimitiveOverrideProps<ViewProps>;
     "J\u00E1 estamos"?: PrimitiveOverrideProps<TextProps>;
     "quase l\u00E1"?: PrimitiveOverrideProps<TextProps>;
     "Group 4"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 1"?: PrimitiveOverrideProps<IconProps>;
-    Pronto?: PrimitiveOverrideProps<TextProps>;
     PhoneNumberField?: PrimitiveOverrideProps<PhoneNumberFieldProps>;
     TextField?: PrimitiveOverrideProps<TextFieldProps>;
     "Crie sua conta"?: PrimitiveOverrideProps<TextProps>;
     CheckboxField40211601?: PrimitiveOverrideProps<CheckboxFieldProps>;
     CheckboxField40211592?: PrimitiveOverrideProps<CheckboxFieldProps>;
-    "undraw_absorbed_in_re_ymd6 1"?: PrimitiveOverrideProps<ViewProps>;
+    "Group 458"?: PrimitiveOverrideProps<ViewProps>;
+    Group39885805?: PrimitiveOverrideProps<ViewProps>;
+    Vector39885807?: PrimitiveOverrideProps<IconProps>;
+    "Group 459"?: PrimitiveOverrideProps<ViewProps>;
+    Pronto?: PrimitiveOverrideProps<TextProps>;
     Group39885793?: PrimitiveOverrideProps<ViewProps>;
     Vector39885794?: PrimitiveOverrideProps<IconProps>;
     Vector39885795?: PrimitiveOverrideProps<IconProps>;
@@ -50,9 +61,7 @@ export declare type CadastroUsuario2OverridesProps = {
     Vector39885802?: PrimitiveOverrideProps<IconProps>;
     Vector39885803?: PrimitiveOverrideProps<IconProps>;
     Vector39885804?: PrimitiveOverrideProps<IconProps>;
-    Group39885805?: PrimitiveOverrideProps<ViewProps>;
     Vector39885806?: PrimitiveOverrideProps<IconProps>;
-    Vector39885807?: PrimitiveOverrideProps<IconProps>;
     Group39885808?: PrimitiveOverrideProps<ViewProps>;
     Vector39885809?: PrimitiveOverrideProps<IconProps>;
     Vector39885810?: PrimitiveOverrideProps<IconProps>;
@@ -70,7 +79,6 @@ export declare type CadastroUsuario2OverridesProps = {
     Vector39885822?: PrimitiveOverrideProps<IconProps>;
     Vector39885823?: PrimitiveOverrideProps<IconProps>;
     Vector39885824?: PrimitiveOverrideProps<IconProps>;
-    "undraw_working_out_re_nhkg 1"?: PrimitiveOverrideProps<ViewProps>;
     Vector39885826?: PrimitiveOverrideProps<IconProps>;
     Group39885827?: PrimitiveOverrideProps<ViewProps>;
     Vector39885828?: PrimitiveOverrideProps<IconProps>;
@@ -101,14 +109,13 @@ export declare type CadastroUsuario2OverridesProps = {
     Vector39885853?: PrimitiveOverrideProps<IconProps>;
     "Ellipse 10039885854"?: PrimitiveOverrideProps<IconProps>;
     "Ellipse 10039885855"?: PrimitiveOverrideProps<IconProps>;
-    "image 22"?: PrimitiveOverrideProps<ImageProps>;
     "image-removebg-preview (4) 4"?: PrimitiveOverrideProps<ImageProps>;
     Button39885858?: PrimitiveOverrideProps<ButtonProps>;
     Button39885859?: PrimitiveOverrideProps<ButtonProps>;
     label?: PrimitiveOverrideProps<TextProps>;
 } & EscapeHatchProps;
 export declare type CadastroUsuario2Props = React.PropsWithChildren<Partial<ViewProps> & {
-    bancoImagens?: BancoImagens;
+    bancoImagens?: any;
 } & {
     overrides?: CadastroUsuario2OverridesProps | undefined | null;
 }>;

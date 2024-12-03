@@ -5,8 +5,8 @@
  **************************************************************************/
 
 import * as React from "react";
-import { BancoImagens } from "../models";
-import { IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+import { ButtonProps, IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+import { Vagas2Props } from "./Vagas2";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
 } | null;
@@ -21,20 +21,11 @@ export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes
 export declare type MensagensNotificaesOverridesProps = {
     MensagensNotificaes?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 27"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 26"?: PrimitiveOverrideProps<ViewProps>;
-    "Group 394"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 19"?: PrimitiveOverrideProps<ViewProps>;
-    "Group 430"?: PrimitiveOverrideProps<ViewProps>;
-    Vector41051352?: PrimitiveOverrideProps<IconProps>;
-    Ajuda?: PrimitiveOverrideProps<TextProps>;
-    Vector41051354?: PrimitiveOverrideProps<IconProps>;
-    Vector41051355?: PrimitiveOverrideProps<IconProps>;
-    Vector41051356?: PrimitiveOverrideProps<IconProps>;
-    "image-removebg-preview (4) 4"?: PrimitiveOverrideProps<ImageProps>;
-    "Noise & Texture"?: PrimitiveOverrideProps<ImageProps>;
-    "DALL\u00B7E 2024-11-02 01.57.03 - A softer abstract background with a pattern of faceted polygons in calming colors such as soft blues, greens, purples, and muted yellows. The shapes s 1"?: PrimitiveOverrideProps<ImageProps>;
-    "Line 19"?: PrimitiveOverrideProps<IconProps>;
-    "Line 20"?: PrimitiveOverrideProps<IconProps>;
+    "back gorund"?: PrimitiveOverrideProps<ViewProps>;
+    Vector42342779?: PrimitiveOverrideProps<IconProps>;
+    Vector42342780?: PrimitiveOverrideProps<IconProps>;
+    Group?: PrimitiveOverrideProps<ViewProps>;
+    Rectangle?: PrimitiveOverrideProps<ImageProps>;
     "Rectangle 109"?: PrimitiveOverrideProps<IconProps>;
     "Group 395"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 107"?: PrimitiveOverrideProps<ViewProps>;
@@ -58,11 +49,17 @@ export declare type MensagensNotificaesOverridesProps = {
     Conversas?: PrimitiveOverrideProps<TextProps>;
     "Voc\u00EA ainda n\u00E3o tem mensagens :(\u2028\u2028"?: PrimitiveOverrideProps<TextProps>;
     "Vamos nos Conetar+ mande messagens para as pessoas ou empresas"?: PrimitiveOverrideProps<TextProps>;
-    "Jo\u00E3o Pedro Borges"?: PrimitiveOverrideProps<TextProps>;
     "AvatarPerfil 1"?: PrimitiveOverrideProps<ImageProps>;
+    "Group 443"?: PrimitiveOverrideProps<ViewProps>;
+    Vagas2?: Vagas2Props;
+    "Group 441"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 23"?: PrimitiveOverrideProps<ViewProps>;
+    Button42381848?: PrimitiveOverrideProps<ButtonProps>;
+    Button42381849?: PrimitiveOverrideProps<ButtonProps>;
+    Button42381850?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type MensagensNotificaesProps = React.PropsWithChildren<Partial<ViewProps> & {
-    bancoImagens?: BancoImagens;
+    bancoImagens?: any;
 } & {
     overrides?: MensagensNotificaesOverridesProps | undefined | null;
 }>;

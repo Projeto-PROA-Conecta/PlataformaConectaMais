@@ -9,7 +9,7 @@ import * as React from "react";
 import { getOverrideProps } from "./utils";
 import { Button, Icon, Image, Text, View } from "@aws-amplify/ui-react";
 export default function Home6(props) {
-  const { bancoImagens, overrides, ...rest } = props;
+  const { overrides, ...rest } = props;
   return (
     <View
       width="1728px"
@@ -246,7 +246,7 @@ export default function Home6(props) {
             minX: 0,
             minY: 0,
             width: 24.644378255707124,
-            height: 12.49395000109871,
+            height: 12.49395000110053,
           }}
           paths={[
             {
@@ -669,7 +669,7 @@ export default function Home6(props) {
             minX: 0,
             minY: 0,
             width: 19.43193570755102,
-            height: 36.374908741569925,
+            height: 36.374908741570835,
           }}
           paths={[
             {
@@ -755,7 +755,6 @@ export default function Home6(props) {
               left="598px"
               padding="0px 0px 0px 0px"
               objectFit="cover"
-              src={bancoImagens?.LogoBrancaConecta}
               {...getOverrideProps(overrides, "logo_branca_conecta 1")}
             ></Image>
             <Icon
@@ -922,7 +921,7 @@ export default function Home6(props) {
           minX: 0,
           minY: 0,
           width: 1721.9998993516347,
-          height: 16.999999248530912,
+          height: 16.999999248530003,
         }}
         paths={[
           {
@@ -1117,7 +1116,6 @@ export default function Home6(props) {
             borderRadius="20px"
             padding="0px 0px 0px 0px"
             objectFit="cover"
-            src={bancoImagens?.EmpresaExemplo}
             {...getOverrideProps(overrides, "image 7")}
           ></Image>
           <Text
@@ -1279,7 +1277,6 @@ export default function Home6(props) {
         borderRadius="100px"
         padding="0px 0px 0px 0px"
         objectFit="cover"
-        src={bancoImagens?.MonicaIPerfil}
         {...getOverrideProps(
           overrides,
           "robot-modern-flat-style-vector-removebg-preview 1"
@@ -1381,7 +1378,6 @@ export default function Home6(props) {
         left="1582px"
         padding="0px 0px 0px 0px"
         objectFit="cover"
-        src={bancoImagens?.PerfilAvatar}
         {...getOverrideProps(overrides, "AvatarPerfil 1")}
       ></Image>
       <Button
@@ -1849,7 +1845,7 @@ export default function Home6(props) {
             minX: 0,
             minY: 0,
             width: 23.7362954687851,
-            height: 25.88768049310147,
+            height: 25.88768049310238,
           }}
           paths={[
             {

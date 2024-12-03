@@ -4,6 +4,8 @@
  * Any changes to this file will be overwritten when running amplify pull. *
  **************************************************************************/
 
+export { default as BancoImagensCreateForm } from "./BancoImagensCreateForm";
+export { default as BancoImagensUpdateForm } from "./BancoImagensUpdateForm";
 export { default as Cadastro1 } from "./Cadastro1";
 export { default as Cadastro3 } from "./Cadastro3";
 export { default as Cadastro4 } from "./Cadastro4";
@@ -54,11 +56,11 @@ export { default as MeuPerfil2 } from "./MeuPerfil2";
 export { default as MeuPerfil4 } from "./MeuPerfil4";
 export { default as MeuPerfil5 } from "./MeuPerfil5";
 export { default as MinhasVagas } from "./MinhasVagas";
-export { default as PhoneNumberFieldlargefalsefalsequiet } from "./PhoneNumberFieldlargefalsefalsequiet";
 export { default as PoliticaDePrivacidadeUsuario } from "./PoliticaDePrivacidadeUsuario";
 export { default as PoliticaPrivacidadeEmpresa } from "./PoliticaPrivacidadeEmpresa";
 export { default as Premium1 } from "./Premium1";
 export { default as Premium2 } from "./Premium2";
+export { default as TTela } from "./TTela";
 export { default as TelaDeLogin } from "./TelaDeLogin";
 export { default as Vagas1 } from "./Vagas1";
 export { default as Vagas2 } from "./Vagas2";

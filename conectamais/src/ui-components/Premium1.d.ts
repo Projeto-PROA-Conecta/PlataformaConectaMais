@@ -5,8 +5,8 @@
  **************************************************************************/
 
 import * as React from "react";
-import { BancoImagens } from "../models";
 import { ButtonProps, IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+import { Vagas2Props } from "./Vagas2";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
 } | null;
@@ -20,17 +20,13 @@ export declare type Variant = {
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type Premium1OverridesProps = {
     Premium1?: PrimitiveOverrideProps<ViewProps>;
-    "DALL\u00B7E 2024-11-02 01.57.03 - A softer abstract background with a pattern of faceted polygons in calming colors such as soft blues, greens, purples, and muted yellows. The shapes s 1"?: PrimitiveOverrideProps<ImageProps>;
+    "back gorund"?: PrimitiveOverrideProps<ViewProps>;
+    Vector42342785?: PrimitiveOverrideProps<IconProps>;
+    Vector42342786?: PrimitiveOverrideProps<IconProps>;
+    Group?: PrimitiveOverrideProps<ViewProps>;
+    Rectangle?: PrimitiveOverrideProps<ImageProps>;
     "Rectangle 26"?: PrimitiveOverrideProps<ViewProps>;
-    "Group 394"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 19"?: PrimitiveOverrideProps<ViewProps>;
-    "image-removebg-preview (4) 4"?: PrimitiveOverrideProps<ImageProps>;
-    "Group 432"?: PrimitiveOverrideProps<ViewProps>;
-    Ajuda?: PrimitiveOverrideProps<TextProps>;
-    Vector41051390?: PrimitiveOverrideProps<IconProps>;
-    Vector41051391?: PrimitiveOverrideProps<IconProps>;
-    Vector41051392?: PrimitiveOverrideProps<IconProps>;
-    Vector41051393?: PrimitiveOverrideProps<IconProps>;
+    "Group 448"?: PrimitiveOverrideProps<ViewProps>;
     "Group 85"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 165"?: PrimitiveOverrideProps<IconProps>;
     "Muitos usu\u00E1rios do Conecta+ escolhem o Premium para impulsionar suas carreiras profissionais."?: PrimitiveOverrideProps<TextProps>;
@@ -73,15 +69,17 @@ export declare type Premium1OverridesProps = {
     "Path 643"?: PrimitiveOverrideProps<IconProps>;
     "Ellipse 99"?: PrimitiveOverrideProps<IconProps>;
     Button39885196?: PrimitiveOverrideProps<ButtonProps>;
-    "Jo\u00E3o Pedro Borges"?: PrimitiveOverrideProps<TextProps>;
     "AvatarPerfil 1"?: PrimitiveOverrideProps<ImageProps>;
-    "Rectangle 21"?: PrimitiveOverrideProps<ViewProps>;
-    Button40981922?: PrimitiveOverrideProps<ButtonProps>;
-    Button40981923?: PrimitiveOverrideProps<ButtonProps>;
-    Button40981924?: PrimitiveOverrideProps<ButtonProps>;
+    "Group 446"?: PrimitiveOverrideProps<ViewProps>;
+    Vagas2?: Vagas2Props;
+    "Group 441"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 23"?: PrimitiveOverrideProps<ViewProps>;
+    Button42382617?: PrimitiveOverrideProps<ButtonProps>;
+    Button42382618?: PrimitiveOverrideProps<ButtonProps>;
+    Button42382619?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type Premium1Props = React.PropsWithChildren<Partial<ViewProps> & {
-    bancoImagens?: BancoImagens;
+    bancoImagens?: any;
 } & {
     overrides?: Premium1OverridesProps | undefined | null;
 }>;

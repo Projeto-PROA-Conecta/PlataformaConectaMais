@@ -12,7 +12,7 @@ export default function Vagas2(props) {
   const { bancoImagens, overrides, ...rest } = props;
   return (
     <View
-      width="1728px"
+      width="1519px"
       height="1117px"
       display="block"
       gap="unset"
@@ -67,24 +67,717 @@ export default function Vagas2(props) {
         objectFit="unset"
         {...getOverrideProps(overrides, "Noise & Texture")}
       ></Image>
-      <Image
-        width="1728px"
-        height="893px"
+      <View
+        padding="0px 0px 0px 0px"
+        width="1519px"
+        height="865px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="224px"
+        top="252px"
         left="0px"
-        padding="0px 0px 0px 0px"
-        objectFit="cover"
-        src={bancoImagens?.Background2}
-        {...getOverrideProps(
-          overrides,
-          "DALL\u00B7E 2024-11-02 01.57.03 - A softer abstract background with a pattern of faceted polygons in calming colors such as soft blues, greens, purples, and muted yellows. The shapes s 1"
-        )}
-      ></Image>
+        {...getOverrideProps(overrides, "Group 44042342817")}
+      >
+        <View
+          width="1519px"
+          height="865px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          overflow="hidden"
+          position="absolute"
+          top="0px"
+          left="0px"
+          padding="0px 0px 0px 0px"
+          {...getOverrideProps(overrides, "back gorund")}
+        >
+          <Icon
+            width="1822.8px"
+            height="1038px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 1822.800048828125,
+              height: 1038.0001220703125,
+            }}
+            paths={[
+              {
+                d: "M1822.8 0L0 0L0 1038L1822.8 1038L1822.8 0Z",
+                fill: "rgba(0,0,0,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="-10%"
+            bottom="-10%"
+            left="-10%"
+            right="-10%"
+            {...getOverrideProps(overrides, "Vector42342819")}
+          ></Icon>
+          <Icon
+            width="1822.8px"
+            height="1038px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 1822.800048828125,
+              height: 1038.0001220703125,
+            }}
+            paths={[
+              {
+                d: "M1822.8 0L0 0L0 1038L1822.8 1038L1822.8 0Z",
+                fill: "rgba(0,0,0,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="-10%"
+            bottom="-10%"
+            left="-10%"
+            right="-10%"
+            {...getOverrideProps(overrides, "Vector42342820")}
+          ></Icon>
+          <View
+            padding="0px 0px 0px 0px"
+            width="1519px"
+            height="865px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="0%"
+            bottom="0%"
+            left="0%"
+            right="0%"
+            {...getOverrideProps(overrides, "Group")}
+          >
+            <Image
+              width="100%"
+              height="100%"
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="0%"
+              bottom="0%"
+              left="0%"
+              right="0%"
+              padding="0px 0px 0px 0px"
+              objectFit="unset"
+              {...getOverrideProps(overrides, "Rectangle")}
+            ></Image>
+          </View>
+          <View
+            width="730px"
+            height="694px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="7.98%"
+            bottom="11.79%"
+            left="2.9%"
+            right="49.05%"
+            borderRadius="15px"
+            padding="0px 0px 0px 0px"
+            backgroundColor="rgba(255,255,255,1)"
+            {...getOverrideProps(overrides, "Rectangle 152")}
+          ></View>
+          <Text
+            fontFamily="Montserrat"
+            fontSize="16px"
+            fontWeight="300"
+            color="rgba(0,0,0,1)"
+            lineHeight="19.503999710083008px"
+            textAlign="left"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="128px"
+            height="19px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="19.54%"
+            bottom="78.27%"
+            left="20.41%"
+            right="71.17%"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="1.783 avaliações"
+            {...getOverrideProps(overrides, "1.783 avalia\u00E7\u00F5es")}
+          ></Text>
+          <Text
+            fontFamily="Montserrat"
+            fontSize="20px"
+            fontWeight="400"
+            color="rgba(0,0,0,1)"
+            lineHeight="24.3799991607666px"
+            textAlign="left"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="151px"
+            height="22px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="25.43%"
+            bottom="72.02%"
+            left="6.71%"
+            right="83.34%"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="São Paulo - SP"
+            {...getOverrideProps(overrides, "S\u00E3o Paulo - SP39885920")}
+          ></Text>
+          <Text
+            fontFamily="Montserrat"
+            fontSize="20px"
+            fontWeight="400"
+            color="rgba(0,0,0,1)"
+            lineHeight="24.3799991607666px"
+            textAlign="left"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="121px"
+            height="23px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="29.83%"
+            bottom="67.51%"
+            left="6.71%"
+            right="85.32%"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="R$ 5.200,00"
+            {...getOverrideProps(overrides, "R$ 5.200,00")}
+          ></Text>
+          <Text
+            fontFamily="Montserrat"
+            fontSize="20px"
+            fontWeight="400"
+            color="rgba(0,0,0,1)"
+            lineHeight="24.3799991607666px"
+            textAlign="left"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="78px"
+            height="22px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="34.1%"
+            bottom="63.35%"
+            left="9.81%"
+            right="85.06%"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="Híbrido"
+            {...getOverrideProps(overrides, "H\u00EDbrido39885922")}
+          ></Text>
+          <Text
+            fontFamily="Montserrat"
+            fontSize="20px"
+            fontWeight="300"
+            color="rgba(0,0,0,1)"
+            lineHeight="24.3799991607666px"
+            textAlign="left"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="47.99px"
+            height="26.46px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="11.81%"
+            bottom="85.13%"
+            left="46.09%"
+            right="50.75%"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="Hoje"
+            {...getOverrideProps(overrides, "Hoje")}
+          ></Text>
+          <Text
+            fontFamily="Montserrat"
+            fontSize="30px"
+            fontWeight="700"
+            color="rgba(0,0,0,1)"
+            lineHeight="36.56999969482422px"
+            textAlign="left"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="352px"
+            height="35px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="12.83%"
+            bottom="83.12%"
+            left="6.85%"
+            right="69.98%"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="ANALISTA DE DADOS"
+            {...getOverrideProps(overrides, "ANALISTA DE DADOS")}
+          ></Text>
+          <Image
+            width="9.61%"
+            height="12.95%"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="16.88%"
+            bottom="70.17%"
+            left="39.63%"
+            right="50.76%"
+            borderRadius="20px"
+            padding="0px 0px 0px 0px"
+            objectFit="cover"
+            src={bancoImagens?.EmpresaExemplo}
+            {...getOverrideProps(overrides, "image 7")}
+          ></Image>
+          <Text
+            fontFamily="Montserrat"
+            fontSize="20px"
+            fontWeight="700"
+            color="rgba(0,0,0,1)"
+            lineHeight="24.3799991607666px"
+            textAlign="left"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="34px"
+            height="23px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="19.42%"
+            bottom="77.92%"
+            left="6.71%"
+            right="91.05%"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="4,5"
+            {...getOverrideProps(overrides, "4,5")}
+          ></Text>
+          <Text
+            fontFamily="Montserrat"
+            fontSize="20px"
+            fontWeight="700"
+            color="rgba(0,148,255,1)"
+            lineHeight="24.3799991607666px"
+            textAlign="left"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="172px"
+            height="23px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="19.42%"
+            bottom="77.92%"
+            left="11.78%"
+            right="76.89%"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="REKTR TEC"
+            {...getOverrideProps(overrides, "REKTR TEC")}
+          ></Text>
+          <Button
+            width="302px"
+            height="61px"
+            position="absolute"
+            borderRadius="20px"
+            top="41.16%"
+            bottom="51.79%"
+            left="5.07%"
+            right="75.05%"
+            backgroundColor="rgba(22,73,86,1)"
+            size="default"
+            isDisabled={false}
+            variation="primary"
+            children="Quero me candidatar"
+            {...getOverrideProps(overrides, "Button39885929")}
+          ></Button>
+          <Icon
+            width="730px"
+            height="0px"
+            viewBox={{ minX: 0, minY: 0, width: 730, height: 1 }}
+            paths={[
+              {
+                d: "M0 0L730 0L730 -1L0 -1L0 0Z",
+                stroke: "rgba(0,0,0,0.5)",
+                fillRule: "nonzero",
+                strokeWidth: 1,
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="54.22%"
+            bottom="45.78%"
+            left="2.9%"
+            right="49.05%"
+            transformOrigin="top left"
+            transform="rotate(0deg)"
+            {...getOverrideProps(overrides, "Line 33")}
+          ></Icon>
+          <Text
+            fontFamily="Montserrat"
+            fontSize="16px"
+            fontWeight="500"
+            color="rgba(0,0,0,1)"
+            lineHeight="19.503999710083008px"
+            textAlign="center"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="67px"
+            height="17px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="50.75%"
+            bottom="47.28%"
+            left="5.53%"
+            right="90.06%"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="Vaga"
+            {...getOverrideProps(overrides, "Vaga")}
+          ></Text>
+          <Text
+            fontFamily="Montserrat"
+            fontSize="16px"
+            fontWeight="500"
+            color="rgba(0,0,0,1)"
+            lineHeight="19.503999710083008px"
+            textAlign="center"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="90px"
+            height="17px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="50.75%"
+            bottom="47.28%"
+            left="12.05%"
+            right="82.03%"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="Empresa"
+            {...getOverrideProps(overrides, "Empresa")}
+          ></Text>
+          <Text
+            fontFamily="Montserrat"
+            fontSize="14px"
+            fontWeight="400"
+            color="rgba(0,0,0,1)"
+            lineHeight="17.06599998474121px"
+            textAlign="left"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="673px"
+            height="188px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="58.61%"
+            bottom="19.65%"
+            left="4.67%"
+            right="51.02%"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="-Descrição: Uma empresa busca um Analista de Dados para integrar sua equipe de tecnologia e inovação. O profissional será responsável por coletar, organizar e analisar grandes volumes de dados, fornecendo insights valiosos para a tomada de decisões estratégicas. Entre as principais responsabilidades estão a criação de relatórios, identificação de padrões e tendências, e o desenvolvimento de soluções para otimizar processos internos. O Analista de Dados trabalhará em colaboração com diferentes departamentos, como marketing, vendas e operações, para garantir que as decisões baseadas em dados sejam precisas e eficazes.&#xA;&#xA;&#xA;-Requisitos:&#xA;Graduação em Ciência de Dados, Engenharia, Estatística, TI ou áreas relacionadas;&#xA;Experiência em análise de dados e utilização de ferramentas como Excel, SQL, Python, R ou Power BI;"
+            {...getOverrideProps(
+              overrides,
+              "-Descri\u00E7\u00E3o: Uma empresa busca um Analista de Dados para integrar sua equipe de tecnologia e inova\u00E7\u00E3o. O profissional ser\u00E1 respons\u00E1vel por coletar, organizar e analisar grandes volumes de dados, fornecendo insights valiosos para a tomada de decis\u00F5es estrat\u00E9gicas. Entre as principais responsabilidades est\u00E3o a cria\u00E7\u00E3o de relat\u00F3rios, identifica\u00E7\u00E3o de padr\u00F5es e tend\u00EAncias, e o desenvolvimento de solu\u00E7\u00F5es para otimizar processos internos. O Analista de Dados trabalhar\u00E1 em colabora\u00E7\u00E3o com diferentes departamentos, como marketing, vendas e opera\u00E7\u00F5es, para garantir que as decis\u00F5es baseadas em dados sejam precisas e eficazes. -Requisitos: Gradua\u00E7\u00E3o em Ci\u00EAncia de Dados, Engenharia, Estat\u00EDstica, TI ou \u00E1reas relacionadas; Experi\u00EAncia em an\u00E1lise de dados e utiliza\u00E7\u00E3o de ferramentas como Excel, SQL, Python, R ou Power BI;"
+            )}
+          ></Text>
+          <Text
+            fontFamily="Montserrat"
+            fontSize="16px"
+            fontWeight="500"
+            color="rgba(0,0,0,1)"
+            lineHeight="19.503999710083008px"
+            textAlign="center"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="113px"
+            height="17px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="50.75%"
+            bottom="47.28%"
+            left="20.08%"
+            right="72.48%"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="Valorações"
+            {...getOverrideProps(overrides, "Valora\u00E7\u00F5es")}
+          ></Text>
+          <View
+            width="91px"
+            height="7px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="53.41%"
+            bottom="45.78%"
+            left="4.74%"
+            right="89.27%"
+            borderRadius="2px"
+            padding="0px 0px 0px 0px"
+            backgroundColor="rgba(22,70,89,1)"
+            {...getOverrideProps(overrides, "Rectangle 157")}
+          ></View>
+          <View
+            width="33px"
+            height="28px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            overflow="hidden"
+            position="absolute"
+            top="18.84%"
+            bottom="77.92%"
+            left="9.28%"
+            right="88.55%"
+            padding="0px 0px 0px 0px"
+            {...getOverrideProps(
+              overrides,
+              "star_24dp_000000_FILL0_wght400_GRAD0_opsz24 139885997"
+            )}
+          >
+            <Icon
+              width="27.5px"
+              height="22.17px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 27.5,
+                height: 22.16666603088379,
+              }}
+              paths={[
+                {
+                  d: "M9.41875 17.2958L13.75 15.0792L18.0813 17.325L16.9469 13.125L20.7625 10.325L15.7438 9.94583L13.75 5.97917L11.7563 9.91667L6.7375 10.2958L10.5531 13.125L9.41875 17.2958ZM5.25938 22.1667L7.49375 13.9708L0 8.45833L9.9 7.72917L13.75 0L17.6 7.72917L27.5 8.45833L20.0063 13.9708L22.2406 22.1667L13.75 17.8208L5.25938 22.1667Z",
+                  fill: "rgba(255,255,0,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="8.33%"
+              bottom="12.5%"
+              left="8.33%"
+              right="8.33%"
+              {...getOverrideProps(overrides, "Vector39885998")}
+            ></Icon>
+          </View>
+          <View
+            width="24px"
+            height="21px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            overflow="hidden"
+            position="absolute"
+            top="19.42%"
+            bottom="78.15%"
+            left="29.3%"
+            right="69.12%"
+            padding="0px 0px 0px 0px"
+            {...getOverrideProps(
+              overrides,
+              "new_releases_24dp_4B77D1_FILL0_wght400_GRAD0_opsz24 139885999"
+            )}
+          >
+            <Icon
+              width="22px"
+              height="18.38px"
+              viewBox={{ minX: 0, minY: 0, width: 22, height: 18.375 }}
+              paths={[
+                {
+                  d: "M7.6 18.375L5.7 15.575L2.1 14.875L2.45 11.6375L0 9.1875L2.45 6.7375L2.1 3.5L5.7 2.8L7.6 0L11 1.26875L14.4 0L16.3 2.8L19.9 3.5L19.55 6.7375L22 9.1875L19.55 11.6375L19.9 14.875L16.3 15.575L14.4 18.375L11 17.1062L7.6 18.375ZM8.45 16.1437L11 15.1812L13.6 16.1437L15 14.0437L17.75 13.475L17.5 11.025L19.35 9.1875L17.5 7.30625L17.75 4.85625L15 4.33125L13.55 2.23125L11 3.19375L8.4 2.23125L7 4.33125L4.25 4.85625L4.5 7.30625L2.65 9.1875L4.5 11.025L4.25 13.5188L7 14.0437L8.45 16.1437ZM9.95 12.2937L15.6 7.35L14.2 6.08125L9.95 9.8L7.8 7.9625L6.4 9.1875L9.95 12.2937Z",
+                  fill: "rgba(75,119,209,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="6.25%"
+              bottom="6.25%"
+              left="4.17%"
+              right="4.17%"
+              {...getOverrideProps(overrides, "Vector39886000")}
+            ></Icon>
+          </View>
+          <View
+            width="32px"
+            height="27px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            overflow="hidden"
+            position="absolute"
+            top="33.53%"
+            bottom="63.35%"
+            left="6.85%"
+            right="91.05%"
+            padding="0px 0px 0px 0px"
+            {...getOverrideProps(
+              overrides,
+              "source_environment_24dp_4B77D1_FILL0_wght400_GRAD0_opsz24 1"
+            )}
+          >
+            <Icon
+              width="26.67px"
+              height="22.5px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 26.66666603088379,
+                height: 22.5,
+              }}
+              paths={[
+                {
+                  d: "M0 22.5L0 4.21875L6.66667 0L13.3333 4.21875L13.3333 6.75L26.6667 6.75L26.6667 22.5L0 22.5ZM2.66667 20.25L5.33333 20.25L5.33333 18L2.66667 18L2.66667 20.25ZM2.66667 15.75L5.33333 15.75L5.33333 13.5L2.66667 13.5L2.66667 15.75ZM2.66667 11.25L5.33333 11.25L5.33333 9L2.66667 9L2.66667 11.25ZM2.66667 6.75L5.33333 6.75L5.33333 4.5L2.66667 4.5L2.66667 6.75ZM8 6.75L10.6667 6.75L10.6667 4.5L8 4.5L8 6.75ZM8 20.25L24 20.25L24 9L8 9L8 20.25ZM16 13.5L16 11.25L21.3333 11.25L21.3333 13.5L16 13.5ZM16 18L16 15.75L21.3333 15.75L21.3333 18L16 18ZM10.6667 13.5L10.6667 11.25L13.3333 11.25L13.3333 13.5L10.6667 13.5ZM10.6667 18L10.6667 15.75L13.3333 15.75L13.3333 18L10.6667 18Z",
+                  fill: "rgba(75,119,209,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="4.17%"
+              bottom="12.5%"
+              left="8.33%"
+              right="8.33%"
+              {...getOverrideProps(overrides, "Vector39886002")}
+            ></Icon>
+          </View>
+          <View
+            padding="0px 0px 0px 0px"
+            width="65px"
+            height="46.78px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="41.04%"
+            bottom="53.55%"
+            left="40.2%"
+            right="55.52%"
+            {...getOverrideProps(overrides, "Group 439")}
+          >
+            <Icon
+              width="65px"
+              height="46.78px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 65,
+                height: 46.783931732177734,
+              }}
+              paths={[
+                {
+                  d: "M63 23.392C63 29.0447 59.8203 34.3452 54.3126 38.3093C48.808 42.2713 41.1025 44.7839 32.5 44.7839L32.5 48.7839C41.8468 48.7839 50.3913 46.0601 56.6493 41.5558C62.9044 37.0538 67 30.6582 67 23.392L63 23.392ZM32.5 44.7839C23.8975 44.7839 16.192 42.2713 10.6874 38.3093C5.17973 34.3452 2 29.0447 2 23.392L-2 23.392C-2 30.6582 2.09565 37.0538 8.35068 41.5558C14.6087 46.0601 23.1532 48.7839 32.5 48.7839L32.5 44.7839ZM2 23.392C2 17.7392 5.17973 12.4388 10.6874 8.47461C16.192 4.51263 23.8975 2 32.5 2L32.5 -2C23.1532 -2 14.6087 0.723844 8.35068 5.22809C2.09565 9.73017 -2 16.1257 -2 23.392L2 23.392ZM32.5 2C41.1025 2 48.808 4.51263 54.3126 8.47461C59.8203 12.4388 63 17.7392 63 23.392L67 23.392C67 16.1257 62.9044 9.73017 56.6493 5.22809C50.3913 0.723844 41.8468 -2 32.5 -2L32.5 2Z",
+                  stroke: "rgba(22,70,89,1)",
+                  fillRule: "nonzero",
+                  strokeWidth: 2,
+                },
+                {
+                  d: "M65 23.392C65 36.311 50.4493 46.7839 32.5 46.7839C14.5507 46.7839 0 36.311 0 23.392C0 10.4729 14.5507 0 32.5 0C50.4493 0 65 10.4729 65 23.392Z",
+                  fill: "rgba(255,255,255,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="0%"
+              bottom="0%"
+              left="0%"
+              right="0%"
+              {...getOverrideProps(overrides, "Ellipse 106")}
+            ></Icon>
+            <Icon
+              width="22.86px"
+              height="21.27px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 22.855323791503906,
+                height: 21.265422821044922,
+              }}
+              paths={[
+                {
+                  d: "M5.07896 14.1769L5.07896 7.08847C5.07896 6.4387 5.32762 5.88245 5.82493 5.41973C6.32225 4.95701 6.92008 4.72565 7.61844 4.72565L17.9668 4.72565L14.6972 1.68351L16.5066 0L22.8553 5.90706L16.5066 11.8141L14.6972 10.1601L17.9668 7.08847L7.61844 7.08847L7.61844 14.1769L5.07896 14.1769ZM2.53948 21.2654C1.84112 21.2654 1.24329 21.0341 0.745972 20.5713C0.248657 20.1086 0 19.5524 0 18.9026L0 1.18141L2.53948 1.18141L2.53948 18.9026L17.7764 18.9026L17.7764 14.1769L20.3158 14.1769L20.3158 18.9026C20.3158 19.5524 20.0672 20.1086 19.5699 20.5713C19.0726 21.0341 18.4747 21.2654 17.7764 21.2654L2.53948 21.2654Z",
+                  fill: "rgba(0,0,0,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="26.59%"
+              bottom="27.96%"
+              left="32.65%"
+              right="32.19%"
+              {...getOverrideProps(overrides, "Vector39886006")}
+            ></Icon>
+          </View>
+        </View>
+      </View>
       <View
         width="24px"
         height="24px"
@@ -101,30 +794,7 @@ export default function Vagas2(props) {
           overrides,
           "share_windows_24dp_4B77D1_FILL0_wght400_GRAD0_opsz24 139885911"
         )}
-      >
-        <Icon
-          width="18px"
-          height="18px"
-          viewBox={{ minX: 0, minY: 0, width: 18, height: 18 }}
-          paths={[
-            {
-              d: "M4 12L4 6C4 5.45 4.19583 4.97917 4.5875 4.5875C4.97917 4.19583 5.45 4 6 4L14.15 4L11.575 1.425L13 0L18 5L13 10L11.575 8.6L14.15 6L6 6L6 12L4 12ZM2 18C1.45 18 0.979167 17.8042 0.5875 17.4125C0.195833 17.0208 0 16.55 0 16L0 1L2 1L2 16L14 16L14 12L16 12L16 16C16 16.55 15.8042 17.0208 15.4125 17.4125C15.0208 17.8042 14.55 18 14 18L2 18Z",
-              fill: "rgba(75,119,209,1)",
-              fillRule: "nonzero",
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="12.5%"
-          bottom="12.5%"
-          left="12.5%"
-          right="12.5%"
-          {...getOverrideProps(overrides, "Vector39885912")}
-        ></Icon>
-      </View>
+      ></View>
       <View
         width="24px"
         height="24px"
@@ -207,419 +877,15 @@ export default function Vagas2(props) {
       </View>
       <View
         padding="0px 0px 0px 0px"
-        width="1752.01px"
-        height="1093px"
+        width="628px"
+        height="512px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="294px"
-        left="51.99px"
-        {...getOverrideProps(overrides, "Group 399")}
-      >
-        <View
-          width="916px"
-          height="815.88px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="0px"
-          left="0.01px"
-          borderRadius="15px"
-          padding="0px 0px 0px 0px"
-          backgroundColor="rgba(255,255,255,1)"
-          {...getOverrideProps(overrides, "Rectangle 152")}
-        ></View>
-        <Text
-          fontFamily="Montserrat"
-          fontSize="16px"
-          fontWeight="300"
-          color="rgba(0,0,0,1)"
-          lineHeight="19.503999710083008px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="159.65px"
-          height="22.05px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="117.28px"
-          left="372.98px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="1.783 avaliações"
-          {...getOverrideProps(overrides, "1.783 avalia\u00E7\u00F5es")}
-        ></Text>
-        <Text
-          fontFamily="Montserrat"
-          fontSize="20px"
-          fontWeight="400"
-          color="rgba(0,0,0,1)"
-          lineHeight="24.3799991607666px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="188.43px"
-          height="26.46px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="178.61px"
-          left="73.29px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="São Paulo - SP"
-          {...getOverrideProps(overrides, "S\u00E3o Paulo - SP39885920")}
-        ></Text>
-        <Text
-          fontFamily="Montserrat"
-          fontSize="20px"
-          fontWeight="400"
-          color="rgba(0,0,0,1)"
-          lineHeight="24.3799991607666px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="151.79px"
-          height="26.46px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="223.82px"
-          left="73.29px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="R$ 5.200,00"
-          {...getOverrideProps(overrides, "R$ 5.200,00")}
-        ></Text>
-        <Text
-          fontFamily="Montserrat"
-          fontSize="20px"
-          fontWeight="400"
-          color="rgba(0,0,0,1)"
-          lineHeight="24.3799991607666px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="98.14px"
-          height="26.46px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="266.81px"
-          left="126.94px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Híbrido"
-          {...getOverrideProps(overrides, "H\u00EDbrido39885922")}
-        ></Text>
-        <Text
-          fontFamily="Montserrat"
-          fontSize="20px"
-          fontWeight="300"
-          color="rgba(0,0,0,1)"
-          lineHeight="24.3799991607666px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="60.19px"
-          height="26.46px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="34.18px"
-          left="823.1px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Hoje"
-          {...getOverrideProps(overrides, "Hoje")}
-        ></Text>
-        <Text
-          fontFamily="Montserrat"
-          fontSize="30px"
-          fontWeight="700"
-          color="rgba(0,0,0,1)"
-          lineHeight="36.56999969482422px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="440.99px"
-          height="40.79px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="50.72px"
-          left="75.25px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="ANALISTA DE DADOS"
-          {...getOverrideProps(overrides, "ANALISTA DE DADOS")}
-        ></Text>
-        <Image
-          width="183.2px"
-          height="132.3px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="91.51px"
-          left="700.09px"
-          borderRadius="20px"
-          padding="0px 0px 0px 0px"
-          objectFit="cover"
-          src={bancoImagens?.EmpresaExemplo}
-          {...getOverrideProps(overrides, "image 7")}
-        ></Image>
-        <Text
-          fontFamily="Montserrat"
-          fontSize="20px"
-          fontWeight="700"
-          color="rgba(0,0,0,1)"
-          lineHeight="24.3799991607666px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="41.87px"
-          height="26.46px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="117.97px"
-          left="73.29px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="4,5"
-          {...getOverrideProps(overrides, "4,5")}
-        ></Text>
-        <Text
-          fontFamily="Montserrat"
-          fontSize="20px"
-          fontWeight="700"
-          color="rgba(0,148,255,1)"
-          lineHeight="24.3799991607666px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="215.91px"
-          height="26.46px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="117.07px"
-          left="169.29px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="REKTR TEC"
-          {...getOverrideProps(overrides, "REKTR TEC")}
-        ></Text>
-        <Button
-          width="1238px"
-          height="90px"
-          position="absolute"
-          borderRadius="10px"
-          top="1003px"
-          left="514.01px"
-          backgroundColor="rgba(38,25,13,1)"
-          size="large"
-          isDisabled={false}
-          variation="primary"
-          children=""
-          {...getOverrideProps(overrides, "Button39885928")}
-        ></Button>
-        <Button
-          width="379px"
-          height="72px"
-          position="absolute"
-          borderRadius="20px"
-          top="337px"
-          left="41.01px"
-          backgroundColor="rgba(22,73,86,1)"
-          size="default"
-          isDisabled={false}
-          variation="primary"
-          children="Quero me candidatar"
-          {...getOverrideProps(overrides, "Button39885929")}
-        ></Button>
-        <Icon
-          width="65px"
-          height="55px"
-          viewBox={{ minX: 0, minY: 0, width: 65, height: 55 }}
-          paths={[
-            {
-              d: "M63 27.5C63 41.2831 49.6709 53 32.5 53L32.5 57C51.2276 57 67 44.0926 67 27.5L63 27.5ZM32.5 53C15.3291 53 2 41.2831 2 27.5L-2 27.5C-2 44.0926 13.7724 57 32.5 57L32.5 53ZM2 27.5C2 13.7169 15.3291 2 32.5 2L32.5 -2C13.7724 -2 -2 10.9074 -2 27.5L2 27.5ZM32.5 2C49.6709 2 63 13.7169 63 27.5L67 27.5C67 10.9074 51.2276 -2 32.5 -2L32.5 2Z",
-              stroke: "rgba(22,70,89,1)",
-              fillRule: "nonzero",
-              strokeWidth: 2,
-            },
-            {
-              d: "M65 27.5C65 42.6878 50.4493 55 32.5 55C14.5507 55 0 42.6878 0 27.5C0 12.3122 14.5507 0 32.5 0C50.4493 0 65 12.3122 65 27.5Z",
-              fill: "rgba(255,255,255,1)",
-              fillRule: "nonzero",
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="337.38px"
-          left="566.62px"
-          {...getOverrideProps(overrides, "Ellipse 106")}
-        ></Icon>
-        <Icon
-          width="916px"
-          height="0px"
-          viewBox={{ minX: 0, minY: 0, width: 915.997314453125, height: 1 }}
-          paths={[
-            {
-              d: "M0 0L915.997 0L915.997 -1L0 -1L0 0Z",
-              stroke: "rgba(0,0,0,0.5)",
-              fillRule: "nonzero",
-              strokeWidth: 1,
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="470.23px"
-          left="0px"
-          transformOrigin="top left"
-          transform="rotate(0deg)"
-          {...getOverrideProps(overrides, "Line 33")}
-        ></Icon>
-        <Text
-          fontFamily="Montserrat"
-          fontSize="16px"
-          fontWeight="500"
-          color="rgba(0,0,0,1)"
-          lineHeight="19.503999710083008px"
-          textAlign="center"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="85.06px"
-          height="20.95px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="434.4px"
-          left="49.74px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Vaga"
-          {...getOverrideProps(overrides, "Vaga")}
-        ></Text>
-        <Text
-          fontFamily="Montserrat"
-          fontSize="16px"
-          fontWeight="500"
-          color="rgba(0,0,0,1)"
-          lineHeight="19.503999710083008px"
-          textAlign="center"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="113.85px"
-          height="20.95px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="434.4px"
-          left="174.05px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Empresa"
-          {...getOverrideProps(overrides, "Empresa")}
-        ></Text>
-        <Text
-          fontFamily="Montserrat"
-          fontSize="18px"
-          fontWeight="400"
-          color="rgba(0,0,0,1)"
-          lineHeight="21.941999435424805px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="844px"
-          height="309px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="496px"
-          left="41.01px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="-Descrição: Uma empresa busca um Analista de Dados para integrar sua equipe de tecnologia e inovação. O profissional será responsável por coletar, organizar e analisar grandes volumes de dados, fornecendo insights valiosos para a tomada de decisões estratégicas. Entre as principais responsabilidades estão a criação de relatórios, identificação de padrões e tendências, e o desenvolvimento de soluções para otimizar processos internos. O Analista de Dados trabalhará em colaboração com diferentes departamentos, como marketing, vendas e operações, para garantir que as decisões baseadas em dados sejam precisas e eficazes.&#xA;&#xA;&#xA;-Requisitos:&#xA;Graduação em Ciência de Dados, Engenharia, Estatística, TI ou áreas relacionadas;&#xA;Experiência em análise de dados e utilização de ferramentas como Excel, SQL, Python, R ou Power BI;"
-          {...getOverrideProps(
-            overrides,
-            "-Descri\u00E7\u00E3o: Uma empresa busca um Analista de Dados para integrar sua equipe de tecnologia e inova\u00E7\u00E3o. O profissional ser\u00E1 respons\u00E1vel por coletar, organizar e analisar grandes volumes de dados, fornecendo insights valiosos para a tomada de decis\u00F5es estrat\u00E9gicas. Entre as principais responsabilidades est\u00E3o a cria\u00E7\u00E3o de relat\u00F3rios, identifica\u00E7\u00E3o de padr\u00F5es e tend\u00EAncias, e o desenvolvimento de solu\u00E7\u00F5es para otimizar processos internos. O Analista de Dados trabalhar\u00E1 em colabora\u00E7\u00E3o com diferentes departamentos, como marketing, vendas e opera\u00E7\u00F5es, para garantir que as decis\u00F5es baseadas em dados sejam precisas e eficazes. -Requisitos: Gradua\u00E7\u00E3o em Ci\u00EAncia de Dados, Engenharia, Estat\u00EDstica, TI ou \u00E1reas relacionadas; Experi\u00EAncia em an\u00E1lise de dados e utiliza\u00E7\u00E3o de ferramentas como Excel, SQL, Python, R ou Power BI;"
-          )}
-        ></Text>
-        <Text
-          fontFamily="Montserrat"
-          fontSize="16px"
-          fontWeight="500"
-          color="rgba(0,0,0,1)"
-          lineHeight="19.503999710083008px"
-          textAlign="center"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="142.63px"
-          height="20.95px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="434.4px"
-          left="327.15px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Valorações"
-          {...getOverrideProps(overrides, "Valora\u00E7\u00F5es")}
-        ></Text>
-        <View
-          width="113.85px"
-          height="7.72px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="461.96px"
-          left="35.05px"
-          borderRadius="2px"
-          padding="0px 0px 0px 0px"
-          backgroundColor="rgba(22,70,89,1)"
-          {...getOverrideProps(overrides, "Rectangle 157")}
-        ></View>
-      </View>
-      <View
-        padding="0px 0px 0px 0px"
-        width="600px"
-        height="712px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="322px"
-        left="1053px"
+        top="341px"
+        left="864px"
         {...getOverrideProps(overrides, "Group 396")}
       >
         <Text
@@ -632,8 +898,8 @@ export default function Vagas2(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="unset"
-          height="unset"
+          width="428.09px"
+          height="26.61px"
           gap="unset"
           alignItems="unset"
           position="absolute"
@@ -645,14 +911,14 @@ export default function Vagas2(props) {
           {...getOverrideProps(overrides, "Outras vagas semelhantes")}
         ></Text>
         <View
-          width="600px"
-          height="180px"
+          width="628px"
+          height="129.44px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="75px"
+          top="53.93px"
           left="0px"
           borderRadius="15px"
           padding="0px 0px 0px 0px"
@@ -669,13 +935,13 @@ export default function Vagas2(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="unset"
-          height="unset"
+          width="228.17px"
+          height="20.85px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="103px"
-          left="36px"
+          top="74.07px"
+          left="37.68px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="DESIGN GRÁFICO"
@@ -691,29 +957,29 @@ export default function Vagas2(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="unset"
-          height="unset"
+          width="28.26px"
+          height="17.26px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="142px"
-          left="36px"
+          top="113.11px"
+          left="37.68px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="4,1"
           {...getOverrideProps(overrides, "4,1")}
         ></Text>
         <View
-          width="33px"
-          height="33px"
+          width="34.54px"
+          height="23.73px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           overflow="hidden"
           position="absolute"
-          top="139px"
-          left="77px"
+          top="110.96px"
+          left="80.59px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(
             overrides,
@@ -721,12 +987,17 @@ export default function Vagas2(props) {
           )}
         >
           <Icon
-            width="27.5px"
-            height="26.13px"
-            viewBox={{ minX: 0, minY: 0, width: 27.5, height: 26.125 }}
+            width="28.78px"
+            height="18.79px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 28.783334732055664,
+              height: 18.786516189575195,
+            }}
             paths={[
               {
-                d: "M9.41875 20.3844L13.75 17.7719L18.0813 20.4188L16.9469 15.4688L20.7625 12.1687L15.7438 11.7219L13.75 7.04688L11.7563 11.6875L6.7375 12.1344L10.5531 15.4688L9.41875 20.3844ZM5.25938 26.125L7.49375 16.4656L0 9.96875L9.9 9.10938L13.75 0L17.6 9.10938L27.5 9.96875L20.0063 16.4656L22.2406 26.125L13.75 21.0031L5.25938 26.125Z",
+                d: "M9.85829 14.6584L14.3917 12.7798L18.925 14.6831L17.7377 11.1236L21.7314 8.75056L16.4785 8.42921L14.3917 5.06742L12.3049 8.40449L7.05192 8.72584L11.0456 11.1236L9.85829 14.6584ZM5.50481 18.7865L7.84346 11.8404L0 7.16854L10.362 6.55056L14.3917 0L18.4213 6.55056L28.7833 7.16854L20.9399 11.8404L23.2785 18.7865L14.3917 15.1034L5.50481 18.7865Z",
                 fill: "rgba(255,255,0,1)",
                 fillRule: "nonzero",
               },
@@ -753,29 +1024,29 @@ export default function Vagas2(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="165px"
-          height="24px"
+          width="172.7px"
+          height="17.26px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="145px"
-          left="117px"
+          top="109.27px"
+          left="122.46px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="New Berg"
           {...getOverrideProps(overrides, "New Berg")}
         ></Text>
         <View
-          width="24px"
-          height="24px"
+          width="25.12px"
+          height="17.26px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           overflow="hidden"
           position="absolute"
-          top="143px"
-          left="232px"
+          top="115px"
+          left="237px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(
             overrides,
@@ -783,12 +1054,17 @@ export default function Vagas2(props) {
           )}
         >
           <Icon
-            width="22px"
-            height="21px"
-            viewBox={{ minX: 0, minY: 0, width: 22, height: 21 }}
+            width="23.03px"
+            height="15.1px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 23.02666664123535,
+              height: 15.101123809814453,
+            }}
             paths={[
               {
-                d: "M7.6 21L5.7 17.8L2.1 17L2.45 13.3L0 10.5L2.45 7.7L2.1 4L5.7 3.2L7.6 0L11 1.45L14.4 0L16.3 3.2L19.9 4L19.55 7.7L22 10.5L19.55 13.3L19.9 17L16.3 17.8L14.4 21L11 19.55L7.6 21ZM8.45 18.45L11 17.35L13.6 18.45L15 16.05L17.75 15.4L17.5 12.6L19.35 10.5L17.5 8.35L17.75 5.55L15 4.95L13.55 2.55L11 3.65L8.4 2.55L7 4.95L4.25 5.55L4.5 8.35L2.65 10.5L4.5 12.6L4.25 15.45L7 16.05L8.45 18.45ZM9.95 14.05L15.6 8.4L14.2 6.95L9.95 11.2L7.8 9.1L6.4 10.5L9.95 14.05Z",
+                d: "M7.95467 15.1011L5.966 12.8L2.198 12.2247L2.56433 9.56404L0 7.55056L2.56433 5.53708L2.198 2.8764L5.966 2.30112L7.95467 0L11.5133 1.0427L15.072 0L17.0607 2.30112L20.8287 2.8764L20.4623 5.53708L23.0267 7.55056L20.4623 9.56404L20.8287 12.2247L17.0607 12.8L15.072 15.1011L11.5133 14.0584L7.95467 15.1011ZM8.84433 13.2674L11.5133 12.4764L14.2347 13.2674L15.7 11.5416L18.5783 11.0742L18.3167 9.06067L20.253 7.55056L18.3167 6.00449L18.5783 3.99101L15.7 3.55955L14.1823 1.83371L11.5133 2.62472L8.792 1.83371L7.32667 3.55955L4.44833 3.99101L4.71 6.00449L2.77367 7.55056L4.71 9.06067L4.44833 11.1101L7.32667 11.5416L8.84433 13.2674ZM10.4143 10.1034L16.328 6.04045L14.8627 4.99775L10.4143 8.05393L8.164 6.54382L6.69867 7.55056L10.4143 10.1034Z",
                 fill: "rgba(75,119,209,1)",
                 fillRule: "nonzero",
               },
@@ -815,13 +1091,13 @@ export default function Vagas2(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="unset"
-          height="unset"
+          width="113.04px"
+          height="12.94px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="190px"
-          left="36px"
+          top="143.63px"
+          left="37.68px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="São Paulo - SP"
@@ -837,13 +1113,13 @@ export default function Vagas2(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="unset"
-          height="unset"
+          width="51.29px"
+          height="12.94px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="104px"
-          left="511px"
+          top="74.79px"
+          left="534.85px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="09 out"
@@ -859,25 +1135,30 @@ export default function Vagas2(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="unset"
-          height="unset"
+          width="63.85px"
+          height="12.94px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="190px"
-          left="208px"
+          top="143.63px"
+          left="217.71px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Remoto"
           {...getOverrideProps(overrides, "Remoto")}
         ></Text>
         <Icon
-          width="20px"
-          height="20px"
-          viewBox={{ minX: 0, minY: 0, width: 20, height: 20 }}
+          width="20.93px"
+          height="14.38px"
+          viewBox={{
+            minX: 0,
+            minY: 0,
+            width: 20.933332443237305,
+            height: 14.382022857666016,
+          }}
           paths={[
             {
-              d: "M0 20L0 17.7778L20 17.7778L20 20L0 20ZM2.72727 16.6667C2.22727 16.6667 1.79924 16.4491 1.44318 16.0139C1.08712 15.5787 0.909091 15.0556 0.909091 14.4444L0.909091 2.22222C0.909091 1.61111 1.08712 1.08796 1.44318 0.652778C1.79924 0.217593 2.22727 0 2.72727 0L17.2727 0C17.7727 0 18.2008 0.217593 18.5568 0.652778C18.9129 1.08796 19.0909 1.61111 19.0909 2.22222L19.0909 14.4444C19.0909 15.0556 18.9129 15.5787 18.5568 16.0139C18.2008 16.4491 17.7727 16.6667 17.2727 16.6667L2.72727 16.6667ZM2.72727 14.4444L17.2727 14.4444L17.2727 2.22222L2.72727 2.22222L2.72727 14.4444Z",
+              d: "M0 14.382L0 12.784L20.9333 12.784L20.9333 14.382L0 14.382ZM2.85455 11.985C2.33121 11.985 1.88321 11.8285 1.51053 11.5156C1.13785 11.2027 0.951515 10.8265 0.951515 10.387L0.951515 1.598C0.951515 1.15855 1.13785 0.782355 1.51053 0.469413C1.88321 0.156471 2.33121 0 2.85455 0L18.0788 0C18.6021 0 19.0501 0.156471 19.4228 0.469413C19.7955 0.782355 19.9818 1.15855 19.9818 1.598L19.9818 10.387C19.9818 10.8265 19.7955 11.2027 19.4228 11.5156C19.0501 11.8285 18.6021 11.985 18.0788 11.985L2.85455 11.985ZM2.85455 10.387L18.0788 10.387L18.0788 1.598L2.85455 1.598L2.85455 10.387Z",
               fill: "rgba(0,0,0,1)",
               fillRule: "nonzero",
             },
@@ -887,17 +1168,17 @@ export default function Vagas2(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="189px"
-          left="181px"
+          top="142.91px"
+          left="189.45px"
           {...getOverrideProps(overrides, "Vector40711098")}
         ></Icon>
         <Icon
-          width="26px"
+          width="18.7px"
           height="0px"
-          viewBox={{ minX: 0, minY: 0, width: 1, height: 26 }}
+          viewBox={{ minX: 0, minY: 0, width: 1, height: 18.69662857055664 }}
           paths={[
             {
-              d: "M0 0L26 0L26 -1L0 -1L0 0Z",
+              d: "M0 0L18.6966 0L18.6966 -1L0 -1L0 0Z",
               stroke: "rgba(0,0,0,1)",
               fillRule: "nonzero",
               strokeWidth: 1,
@@ -908,19 +1189,19 @@ export default function Vagas2(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="187px"
-          left="162px"
+          top="141.47px"
+          left="169.56px"
           transformOrigin="top left"
           transform="rotate(90deg)"
           {...getOverrideProps(overrides, "Line 3539885952")}
         ></Icon>
         <Button
-          width="188px"
-          height="51px"
+          width="196.77px"
+          height="36.67px"
           position="absolute"
           borderRadius="20px"
-          top="127px"
-          left="371px"
+          top="111px"
+          left="416px"
           backgroundColor="rgba(22,73,86,1)"
           size="default"
           isDisabled={false}
@@ -929,14 +1210,14 @@ export default function Vagas2(props) {
           {...getOverrideProps(overrides, "Button39885953")}
         ></Button>
         <View
-          width="600px"
-          height="180px"
+          width="628px"
+          height="129.44px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="303px"
+          top="217.89px"
           left="0px"
           borderRadius="15px"
           padding="0px 0px 0px 0px"
@@ -953,13 +1234,13 @@ export default function Vagas2(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="unset"
-          height="unset"
+          width="404.01px"
+          height="20.85px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="331px"
-          left="36px"
+          top="238.02px"
+          left="37.68px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="SEGURANÇA DA INFORMAÇÃO"
@@ -978,29 +1259,29 @@ export default function Vagas2(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="unset"
-          height="unset"
+          width="34.54px"
+          height="17.26px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="370px"
-          left="36px"
+          top="274.07px"
+          left="37.68px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="4,9"
           {...getOverrideProps(overrides, "4,9")}
         ></Text>
         <View
-          width="33px"
-          height="33px"
+          width="34.54px"
+          height="23.73px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           overflow="hidden"
           position="absolute"
-          top="367px"
-          left="77px"
+          top="271.91px"
+          left="80.59px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(
             overrides,
@@ -1008,12 +1289,17 @@ export default function Vagas2(props) {
           )}
         >
           <Icon
-            width="27.5px"
-            height="26.13px"
-            viewBox={{ minX: 0, minY: 0, width: 27.5, height: 26.125 }}
+            width="28.78px"
+            height="18.79px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 28.783334732055664,
+              height: 18.786516189575195,
+            }}
             paths={[
               {
-                d: "M9.41875 20.3844L13.75 17.7719L18.0813 20.4188L16.9469 15.4688L20.7625 12.1687L15.7438 11.7219L13.75 7.04688L11.7563 11.6875L6.7375 12.1344L10.5531 15.4688L9.41875 20.3844ZM5.25938 26.125L7.49375 16.4656L0 9.96875L9.9 9.10938L13.75 0L17.6 9.10938L27.5 9.96875L20.0063 16.4656L22.2406 26.125L13.75 21.0031L5.25938 26.125Z",
+                d: "M9.85829 14.6584L14.3917 12.7798L18.925 14.6831L17.7377 11.1236L21.7314 8.75056L16.4785 8.42921L14.3917 5.06742L12.3049 8.40449L7.05192 8.72584L11.0456 11.1236L9.85829 14.6584ZM5.50481 18.7865L7.84346 11.8404L0 7.16854L10.362 6.55056L14.3917 0L18.4213 6.55056L28.7833 7.16854L20.9399 11.8404L23.2785 18.7865L14.3917 15.1034L5.50481 18.7865Z",
                 fill: "rgba(255,255,0,1)",
                 fillRule: "nonzero",
               },
@@ -1040,29 +1326,29 @@ export default function Vagas2(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="165px"
-          height="24px"
+          width="unset"
+          height="unset"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="373px"
-          left="117px"
+          top="272.22px"
+          left="122.46px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="City Corp"
           {...getOverrideProps(overrides, "City Corp")}
         ></Text>
         <View
-          width="24px"
-          height="24px"
+          width="25.12px"
+          height="17.26px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           overflow="hidden"
           position="absolute"
-          top="371px"
-          left="232px"
+          top="275.96px"
+          left="237px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(
             overrides,
@@ -1070,12 +1356,17 @@ export default function Vagas2(props) {
           )}
         >
           <Icon
-            width="22px"
-            height="21px"
-            viewBox={{ minX: 0, minY: 0, width: 22, height: 21 }}
+            width="23.03px"
+            height="15.1px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 23.02666664123535,
+              height: 15.101123809814453,
+            }}
             paths={[
               {
-                d: "M7.6 21L5.7 17.8L2.1 17L2.45 13.3L0 10.5L2.45 7.7L2.1 4L5.7 3.2L7.6 0L11 1.45L14.4 0L16.3 3.2L19.9 4L19.55 7.7L22 10.5L19.55 13.3L19.9 17L16.3 17.8L14.4 21L11 19.55L7.6 21ZM8.45 18.45L11 17.35L13.6 18.45L15 16.05L17.75 15.4L17.5 12.6L19.35 10.5L17.5 8.35L17.75 5.55L15 4.95L13.55 2.55L11 3.65L8.4 2.55L7 4.95L4.25 5.55L4.5 8.35L2.65 10.5L4.5 12.6L4.25 15.45L7 16.05L8.45 18.45ZM9.95 14.05L15.6 8.4L14.2 6.95L9.95 11.2L7.8 9.1L6.4 10.5L9.95 14.05Z",
+                d: "M7.95467 15.1011L5.966 12.8L2.198 12.2247L2.56433 9.56404L0 7.55056L2.56433 5.53708L2.198 2.8764L5.966 2.30112L7.95467 0L11.5133 1.0427L15.072 0L17.0607 2.30112L20.8287 2.8764L20.4623 5.53708L23.0267 7.55056L20.4623 9.56404L20.8287 12.2247L17.0607 12.8L15.072 15.1011L11.5133 14.0584L7.95467 15.1011ZM8.84433 13.2674L11.5133 12.4764L14.2347 13.2674L15.7 11.5416L18.5783 11.0742L18.3167 9.06067L20.253 7.55056L18.3167 6.00449L18.5783 3.99101L15.7 3.55955L14.1823 1.83371L11.5133 2.62472L8.792 1.83371L7.32667 3.55955L4.44833 3.99101L4.71 6.00449L2.77367 7.55056L4.71 9.06067L4.44833 11.1101L7.32667 11.5416L8.84433 13.2674ZM10.4143 10.1034L16.328 6.04045L14.8627 4.99775L10.4143 8.05393L8.164 6.54382L6.69867 7.55056L10.4143 10.1034Z",
                 fill: "rgba(75,119,209,1)",
                 fillRule: "nonzero",
               },
@@ -1102,13 +1393,13 @@ export default function Vagas2(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="unset"
-          height="unset"
+          width="113.04px"
+          height="12.94px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="418px"
-          left="36px"
+          top="307.58px"
+          left="37.68px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="São Paulo - SP"
@@ -1124,13 +1415,13 @@ export default function Vagas2(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="unset"
-          height="unset"
+          width="43.96px"
+          height="12.94px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="332px"
-          left="511px"
+          top="238.74px"
+          left="534.85px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="01 set"
@@ -1146,25 +1437,30 @@ export default function Vagas2(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="unset"
-          height="unset"
+          width="58.61px"
+          height="12.94px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="418px"
-          left="208px"
+          top="307.58px"
+          left="217.71px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Híbrido"
           {...getOverrideProps(overrides, "H\u00EDbrido39885964")}
         ></Text>
         <Icon
-          width="20px"
-          height="20px"
-          viewBox={{ minX: 0, minY: 0, width: 20, height: 20 }}
+          width="20.93px"
+          height="14.38px"
+          viewBox={{
+            minX: 0,
+            minY: 0,
+            width: 20.933332443237305,
+            height: 14.382022857666016,
+          }}
           paths={[
             {
-              d: "M0 20L0 3.75L5 0L10 3.75L10 6L20 6L20 20L0 20ZM2 18L4 18L4 16L2 16L2 18ZM2 14L4 14L4 12L2 12L2 14ZM2 10L4 10L4 8L2 8L2 10ZM2 6L4 6L4 4L2 4L2 6ZM6 6L8 6L8 4L6 4L6 6ZM6 18L18 18L18 8L6 8L6 18ZM12 12L12 10L16 10L16 12L12 12ZM12 16L12 14L16 14L16 16L12 16ZM8 12L8 10L10 10L10 12L8 12ZM8 16L8 14L10 14L10 16L8 16Z",
+              d: "M0 14.382L0 2.69663L5.23333 0L10.4667 2.69663L10.4667 4.31461L20.9333 4.31461L20.9333 14.382L0 14.382ZM2.09333 12.9438L4.18667 12.9438L4.18667 11.5056L2.09333 11.5056L2.09333 12.9438ZM2.09333 10.0674L4.18667 10.0674L4.18667 8.62921L2.09333 8.62921L2.09333 10.0674ZM2.09333 7.19101L4.18667 7.19101L4.18667 5.75281L2.09333 5.75281L2.09333 7.19101ZM2.09333 4.31461L4.18667 4.31461L4.18667 2.8764L2.09333 2.8764L2.09333 4.31461ZM6.28 4.31461L8.37333 4.31461L8.37333 2.8764L6.28 2.8764L6.28 4.31461ZM6.28 12.9438L18.84 12.9438L18.84 5.75281L6.28 5.75281L6.28 12.9438ZM12.56 8.62921L12.56 7.19101L16.7467 7.19101L16.7467 8.62921L12.56 8.62921ZM12.56 11.5056L12.56 10.0674L16.7467 10.0674L16.7467 11.5056L12.56 11.5056ZM8.37333 8.62921L8.37333 7.19101L10.4667 7.19101L10.4667 8.62921L8.37333 8.62921ZM8.37333 11.5056L8.37333 10.0674L10.4667 10.0674L10.4667 11.5056L8.37333 11.5056Z",
               fill: "rgba(0,0,0,1)",
               fillRule: "nonzero",
             },
@@ -1174,17 +1470,17 @@ export default function Vagas2(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="417px"
-          left="181px"
+          top="306.87px"
+          left="189.45px"
           {...getOverrideProps(overrides, "Vector40711092")}
         ></Icon>
         <Icon
-          width="26px"
+          width="18.7px"
           height="0px"
-          viewBox={{ minX: 0, minY: 0, width: 1, height: 26 }}
+          viewBox={{ minX: 0, minY: 0, width: 1, height: 18.69662857055664 }}
           paths={[
             {
-              d: "M0 0L26 0L26 -1L0 -1L0 0Z",
+              d: "M0 0L18.6966 0L18.6966 -1L0 -1L0 0Z",
               stroke: "rgba(0,0,0,1)",
               fillRule: "nonzero",
               strokeWidth: 1,
@@ -1195,19 +1491,19 @@ export default function Vagas2(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="415px"
-          left="162px"
+          top="305.43px"
+          left="169.56px"
           transformOrigin="top left"
           transform="rotate(90deg)"
           {...getOverrideProps(overrides, "Line 3539885967")}
         ></Icon>
         <Button
-          width="188px"
-          height="51px"
+          width="196.77px"
+          height="36.67px"
           position="absolute"
           borderRadius="20px"
-          top="365px"
-          left="371px"
+          top="282.15px"
+          left="416px"
           backgroundColor="rgba(22,73,86,1)"
           size="default"
           isDisabled={false}
@@ -1217,20 +1513,20 @@ export default function Vagas2(props) {
         ></Button>
         <View
           padding="0px 0px 0px 0px"
-          width="600px"
-          height="180px"
+          width="628px"
+          height="129.44px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="532px"
+          top="382.56px"
           left="0px"
           {...getOverrideProps(overrides, "Group 83")}
         >
           <View
-            width="600px"
-            height="180px"
+            width="628px"
+            height="129.44px"
             display="block"
             gap="unset"
             alignItems="unset"
@@ -1253,13 +1549,13 @@ export default function Vagas2(props) {
             display="block"
             direction="column"
             justifyContent="unset"
-            width="unset"
-            height="unset"
+            width="319.23px"
+            height="20.85px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="28px"
-            left="36px"
+            top="20.13px"
+            left="37.68px"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="ENGENHEIRO DE REDES"
@@ -1275,29 +1571,29 @@ export default function Vagas2(props) {
             display="block"
             direction="column"
             justifyContent="unset"
-            width="unset"
-            height="unset"
+            width="35.59px"
+            height="17.26px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="67px"
-            left="36px"
+            top="58.18px"
+            left="37.68px"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="4,4"
             {...getOverrideProps(overrides, "4,4")}
           ></Text>
           <View
-            width="33px"
-            height="33px"
+            width="34.54px"
+            height="23.73px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             overflow="hidden"
             position="absolute"
-            top="64px"
-            left="77px"
+            top="56.02px"
+            left="80.59px"
             padding="0px 0px 0px 0px"
             {...getOverrideProps(
               overrides,
@@ -1305,12 +1601,17 @@ export default function Vagas2(props) {
             )}
           >
             <Icon
-              width="27.5px"
-              height="26.13px"
-              viewBox={{ minX: 0, minY: 0, width: 27.5, height: 26.125 }}
+              width="28.78px"
+              height="18.79px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 28.783334732055664,
+                height: 18.786516189575195,
+              }}
               paths={[
                 {
-                  d: "M9.41875 20.3844L13.75 17.7719L18.0813 20.4188L16.9469 15.4688L20.7625 12.1687L15.7438 11.7219L13.75 7.04688L11.7563 11.6875L6.7375 12.1344L10.5531 15.4688L9.41875 20.3844ZM5.25938 26.125L7.49375 16.4656L0 9.96875L9.9 9.10938L13.75 0L17.6 9.10938L27.5 9.96875L20.0063 16.4656L22.2406 26.125L13.75 21.0031L5.25938 26.125Z",
+                  d: "M9.85829 14.6584L14.3917 12.7798L18.925 14.6831L17.7377 11.1236L21.7314 8.75056L16.4785 8.42921L14.3917 5.06742L12.3049 8.40449L7.05192 8.72584L11.0456 11.1236L9.85829 14.6584ZM5.50481 18.7865L7.84346 11.8404L0 7.16854L10.362 6.55056L14.3917 0L18.4213 6.55056L28.7833 7.16854L20.9399 11.8404L23.2785 18.7865L14.3917 15.1034L5.50481 18.7865Z",
                   fill: "rgba(255,255,0,1)",
                   fillRule: "nonzero",
                 },
@@ -1337,29 +1638,29 @@ export default function Vagas2(props) {
             display="block"
             direction="column"
             justifyContent="unset"
-            width="165px"
-            height="24px"
+            width="172.7px"
+            height="17.26px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="70px"
-            left="117px"
+            top="54.34px"
+            left="122.46px"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="Aurora Tech"
             {...getOverrideProps(overrides, "Aurora Tech")}
           ></Text>
           <View
-            width="24px"
-            height="24px"
+            width="25.12px"
+            height="17.26px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             overflow="hidden"
             position="absolute"
-            top="68px"
-            left="251px"
+            top="60.07px"
+            left="256.89px"
             padding="0px 0px 0px 0px"
             {...getOverrideProps(
               overrides,
@@ -1367,12 +1668,17 @@ export default function Vagas2(props) {
             )}
           >
             <Icon
-              width="22px"
-              height="21px"
-              viewBox={{ minX: 0, minY: 0, width: 22, height: 21 }}
+              width="23.03px"
+              height="15.1px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 23.02666664123535,
+                height: 15.101123809814453,
+              }}
               paths={[
                 {
-                  d: "M7.6 21L5.7 17.8L2.1 17L2.45 13.3L0 10.5L2.45 7.7L2.1 4L5.7 3.2L7.6 0L11 1.45L14.4 0L16.3 3.2L19.9 4L19.55 7.7L22 10.5L19.55 13.3L19.9 17L16.3 17.8L14.4 21L11 19.55L7.6 21ZM8.45 18.45L11 17.35L13.6 18.45L15 16.05L17.75 15.4L17.5 12.6L19.35 10.5L17.5 8.35L17.75 5.55L15 4.95L13.55 2.55L11 3.65L8.4 2.55L7 4.95L4.25 5.55L4.5 8.35L2.65 10.5L4.5 12.6L4.25 15.45L7 16.05L8.45 18.45ZM9.95 14.05L15.6 8.4L14.2 6.95L9.95 11.2L7.8 9.1L6.4 10.5L9.95 14.05Z",
+                  d: "M7.95467 15.1011L5.966 12.8L2.198 12.2247L2.56433 9.56404L0 7.55056L2.56433 5.53708L2.198 2.8764L5.966 2.30112L7.95467 0L11.5133 1.0427L15.072 0L17.0607 2.30112L20.8287 2.8764L20.4623 5.53708L23.0267 7.55056L20.4623 9.56404L20.8287 12.2247L17.0607 12.8L15.072 15.1011L11.5133 14.0584L7.95467 15.1011ZM8.84433 13.2674L11.5133 12.4764L14.2347 13.2674L15.7 11.5416L18.5783 11.0742L18.3167 9.06067L20.253 7.55056L18.3167 6.00449L18.5783 3.99101L15.7 3.55955L14.1823 1.83371L11.5133 2.62472L8.792 1.83371L7.32667 3.55955L4.44833 3.99101L4.71 6.00449L2.77367 7.55056L4.71 9.06067L4.44833 11.1101L7.32667 11.5416L8.84433 13.2674ZM10.4143 10.1034L16.328 6.04045L14.8627 4.99775L10.4143 8.05393L8.164 6.54382L6.69867 7.55056L10.4143 10.1034Z",
                   fill: "rgba(75,119,209,1)",
                   fillRule: "nonzero",
                 },
@@ -1391,15 +1697,15 @@ export default function Vagas2(props) {
           </View>
           <View
             padding="0px 0px 0px 0px"
-            width="526px"
-            height="109px"
+            width="550.55px"
+            height="82.38px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="29px"
-            left="36px"
+            top="20.85px"
+            left="37.68px"
             {...getOverrideProps(overrides, "Group 80")}
           >
             <Text
@@ -1412,12 +1718,12 @@ export default function Vagas2(props) {
               display="block"
               direction="column"
               justifyContent="unset"
-              width="unset"
-              height="unset"
+              width="113.04px"
+              height="12.94px"
               gap="unset"
               alignItems="unset"
               position="absolute"
-              top="86px"
+              top="65.84px"
               left="0px"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
@@ -1434,13 +1740,13 @@ export default function Vagas2(props) {
               display="block"
               direction="column"
               justifyContent="unset"
-              width="unset"
-              height="unset"
+              width="53.38px"
+              height="12.94px"
               gap="unset"
               alignItems="unset"
               position="absolute"
               top="0px"
-              left="475px"
+              left="497.17px"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="26 ago"
@@ -1456,25 +1762,30 @@ export default function Vagas2(props) {
               display="block"
               direction="column"
               justifyContent="unset"
-              width="unset"
-              height="unset"
+              width="81.64px"
+              height="12.94px"
               gap="unset"
               alignItems="unset"
               position="absolute"
-              top="86px"
-              left="172px"
+              top="65.84px"
+              left="180.03px"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Presencial"
               {...getOverrideProps(overrides, "Presencial")}
             ></Text>
             <Icon
-              width="26px"
+              width="18.7px"
               height="0px"
-              viewBox={{ minX: 0, minY: 0, width: 1, height: 26 }}
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 1,
+                height: 18.69662857055664,
+              }}
               paths={[
                 {
-                  d: "M0 0L26 0L26 -1L0 -1L0 0Z",
+                  d: "M0 0L18.6966 0L18.6966 -1L0 -1L0 0Z",
                   stroke: "rgba(0,0,0,1)",
                   fillRule: "nonzero",
                   strokeWidth: 1,
@@ -1485,20 +1796,20 @@ export default function Vagas2(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="83px"
-              left="126px"
+              top="63.69px"
+              left="131.88px"
               transformOrigin="top left"
               transform="rotate(90deg)"
               {...getOverrideProps(overrides, "Line 3539885982")}
             ></Icon>
           </View>
           <Button
-            width="188px"
-            height="51px"
+            width="196.77px"
+            height="36.67px"
             position="absolute"
             borderRadius="20px"
-            top="62px"
-            left="374px"
+            top="64.26px"
+            left="419.14px"
             backgroundColor="rgba(22,73,86,1)"
             size="default"
             isDisabled={false}
@@ -1510,7 +1821,7 @@ export default function Vagas2(props) {
       </View>
       <View
         padding="0px 0px 0px 0px"
-        width="1728px"
+        width="1519px"
         height="224px"
         display="block"
         gap="unset"
@@ -1522,7 +1833,8 @@ export default function Vagas2(props) {
         {...getOverrideProps(overrides, "Group 394")}
       >
         <View
-          width="1728px"
+          padding="0px 0px 0px 0px"
+          width="1519px"
           height="224px"
           display="block"
           gap="unset"
@@ -1531,12 +1843,25 @@ export default function Vagas2(props) {
           position="absolute"
           top="0px"
           left="0px"
-          padding="0px 0px 0px 0px"
-          backgroundColor="rgba(0,0,0,0.45)"
-          {...getOverrideProps(overrides, "Rectangle 19")}
-        ></View>
+          {...getOverrideProps(overrides, "Group 44042351593")}
+        >
+          <View
+            width="1519px"
+            height="224px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="0px"
+            left="0px"
+            padding="0px 0px 0px 0px"
+            backgroundColor="rgba(0,0,0,0.45)"
+            {...getOverrideProps(overrides, "Rectangle 19")}
+          ></View>
+        </View>
         <Image
-          width="554.04px"
+          width="487.03px"
           height="165px"
           display="block"
           gap="unset"
@@ -1544,15 +1869,14 @@ export default function Vagas2(props) {
           justifyContent="unset"
           position="absolute"
           top="20px"
-          left="612.36px"
+          left="538.3px"
           padding="0px 0px 0px 0px"
           objectFit="cover"
           src={bancoImagens?.LogoBrancaConecta}
           {...getOverrideProps(overrides, "image-removebg-preview (4) 4")}
         ></Image>
         <View
-          padding="0px 0px 0px 0px"
-          width="412.32px"
+          width="368.83px"
           height="50px"
           display="block"
           gap="unset"
@@ -1560,313 +1884,155 @@ export default function Vagas2(props) {
           justifyContent="unset"
           position="absolute"
           top="143px"
-          left="60px"
-          {...getOverrideProps(overrides, "Group 430")}
+          left="72.36px"
+          padding="0px 0px 0px 0px"
+          {...getOverrideProps(overrides, "Frame 19")}
         >
-          <Icon
-            width="50px"
+          <View
+            width="368.83px"
             height="50px"
-            viewBox={{ minX: 0, minY: 0, width: 50, height: 50 }}
-            paths={[
-              {
-                d: "M18.1592 50L17.1642 42C16.6252 41.7917 16.1173 41.5417 15.6405 41.25C15.1638 40.9583 14.6973 40.6458 14.2413 40.3125L6.8408 43.4375L0 31.5625L6.40547 26.6875C6.36401 26.3958 6.34328 26.1146 6.34328 25.8438L6.34328 24.1563C6.34328 23.8854 6.36401 23.6042 6.40547 23.3125L0 18.4375L6.8408 6.5625L14.2413 9.6875C14.6973 9.35417 15.1741 9.04167 15.6716 8.75C16.1692 8.45833 16.6667 8.20833 17.1642 8L18.1592 0L31.8408 0L32.8358 8C33.3748 8.20833 33.8827 8.45833 34.3595 8.75C34.8362 9.04167 35.3027 9.35417 35.7587 9.6875L43.1592 6.5625L50 18.4375L43.5945 23.3125C43.636 23.6042 43.6567 23.8854 43.6567 24.1563L43.6567 25.8438C43.6567 26.1146 43.6153 26.3958 43.5323 26.6875L49.9378 31.5625L43.097 43.4375L35.7587 40.3125C35.3027 40.6458 34.8259 40.9583 34.3284 41.25C33.8308 41.5417 33.3333 41.7917 32.8358 42L31.8408 50L18.1592 50ZM22.5124 45L27.4254 45L28.296 38.375C29.5813 38.0417 30.7732 37.5521 31.8719 36.9063C32.9706 36.2604 33.976 35.4792 34.8881 34.5625L41.0448 37.125L43.4701 32.875L38.1219 28.8125C38.3292 28.2292 38.4743 27.6146 38.5572 26.9688C38.6401 26.3229 38.6816 25.6667 38.6816 25C38.6816 24.3333 38.6401 23.6771 38.5572 23.0313C38.4743 22.3854 38.3292 21.7708 38.1219 21.1875L43.4701 17.125L41.0448 12.875L34.8881 15.5C33.976 14.5417 32.9706 13.7396 31.8719 13.0938C30.7732 12.4479 29.5813 11.9583 28.296 11.625L27.4876 5L22.5746 5L21.704 11.625C20.4187 11.9583 19.2268 12.4479 18.1281 13.0938C17.0294 13.7396 16.024 14.5208 15.1119 15.4375L8.95522 12.875L6.52985 17.125L11.8781 21.125C11.6708 21.75 11.5257 22.375 11.4428 23C11.3599 23.625 11.3184 24.2917 11.3184 25C11.3184 25.6667 11.3599 26.3125 11.4428 26.9375C11.5257 27.5625 11.6708 28.1875 11.8781 28.8125L6.52985 32.875L8.95522 37.125L15.1119 34.5C16.024 35.4583 17.0294 36.2604 18.1281 36.9063C19.2268 37.5521 20.4187 38.0417 21.704 38.375L22.5124 45ZM25.1244 33.75C27.529 33.75 29.5813 32.8958 31.2811 31.1875C32.9809 29.4792 33.8308 27.4167 33.8308 25C33.8308 22.5833 32.9809 20.5208 31.2811 18.8125C29.5813 17.1042 27.529 16.25 25.1244 16.25C22.6783 16.25 20.6157 17.1042 18.9366 18.8125C17.2575 20.5208 16.4179 22.5833 16.4179 25C16.4179 27.4167 17.2575 29.4792 18.9366 31.1875C20.6157 32.8958 22.6783 33.75 25.1244 33.75Z",
-                fill: "rgba(232,234,237,1)",
-                fillRule: "nonzero",
-              },
-            ]}
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="0%"
-            bottom="0%"
-            left="0%"
-            right="87.87%"
-            {...getOverrideProps(overrides, "Vector41002212")}
-          ></Icon>
-          <Text
-            fontFamily="Alegreya Sans SC"
-            fontSize="20px"
-            fontWeight="700"
-            color="rgba(255,255,255,1)"
-            lineHeight="24px"
-            textAlign="left"
-            display="block"
-            direction="column"
-            justifyContent="unset"
-            width="60.48px"
-            height="unset"
-            gap="unset"
-            alignItems="unset"
-            position="absolute"
-            top="16px"
-            left="351.84px"
+            top="0px"
+            left="0px"
             padding="0px 0px 0px 0px"
-            whiteSpace="pre-wrap"
-            children="Ajuda"
-            {...getOverrideProps(overrides, "Ajuda")}
-          ></Text>
-          <Icon
-            width="40px"
-            height="40px"
-            viewBox={{ minX: 0, minY: 0, width: 40, height: 40 }}
-            paths={[
-              {
-                d: "M19.9 32C20.6 32 21.1917 31.7583 21.675 31.275C22.1583 30.7917 22.4 30.2 22.4 29.5C22.4 28.8 22.1583 28.2083 21.675 27.725C21.1917 27.2417 20.6 27 19.9 27C19.2 27 18.6083 27.2417 18.125 27.725C17.6417 28.2083 17.4 28.8 17.4 29.5C17.4 30.2 17.6417 30.7917 18.125 31.275C18.6083 31.7583 19.2 32 19.9 32ZM18.1 24.3L21.8 24.3C21.8 23.2 21.925 22.3333 22.175 21.7C22.425 21.0667 23.1333 20.2 24.3 19.1C25.1667 18.2333 25.85 17.4083 26.35 16.625C26.85 15.8417 27.1 14.9 27.1 13.8C27.1 11.9333 26.4167 10.5 25.05 9.5C23.6833 8.5 22.0667 8 20.2 8C18.3 8 16.7583 8.5 15.575 9.5C14.3917 10.5 13.5667 11.7 13.1 13.1L16.4 14.4C16.5667 13.8 16.9417 13.15 17.525 12.45C18.1083 11.75 19 11.4 20.2 11.4C21.2667 11.4 22.0667 11.6917 22.6 12.275C23.1333 12.8583 23.4 13.5 23.4 14.2C23.4 14.8667 23.2 15.4917 22.8 16.075C22.4 16.6583 21.9 17.2 21.3 17.7C19.8333 19 18.9333 19.9833 18.6 20.65C18.2667 21.3167 18.1 22.5333 18.1 24.3ZM20 40C17.2333 40 14.6333 39.475 12.2 38.425C9.76667 37.375 7.65 35.95 5.85 34.15C4.05 32.35 2.625 30.2333 1.575 27.8C0.525 25.3667 0 22.7667 0 20C0 17.2333 0.525 14.6333 1.575 12.2C2.625 9.76667 4.05 7.65 5.85 5.85C7.65 4.05 9.76667 2.625 12.2 1.575C14.6333 0.525 17.2333 0 20 0C22.7667 0 25.3667 0.525 27.8 1.575C30.2333 2.625 32.35 4.05 34.15 5.85C35.95 7.65 37.375 9.76667 38.425 12.2C39.475 14.6333 40 17.2333 40 20C40 22.7667 39.475 25.3667 38.425 27.8C37.375 30.2333 35.95 32.35 34.15 34.15C32.35 35.95 30.2333 37.375 27.8 38.425C25.3667 39.475 22.7667 40 20 40ZM20 36C24.4667 36 28.25 34.45 31.35 31.35C34.45 28.25 36 24.4667 36 20C36 15.5333 34.45 11.75 31.35 8.65C28.25 5.55 24.4667 4 20 4C15.5333 4 11.75 5.55 8.65 8.65C5.55 11.75 4 15.5333 4 20C4 24.4667 5.55 28.25 8.65 31.35C11.75 34.45 15.5333 36 20 36Z",
-                fill: "rgba(242,242,242,1)",
-                fillRule: "nonzero",
-              },
-            ]}
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="7px"
-            left="270px"
-            {...getOverrideProps(overrides, "Vector39885990")}
-          ></Icon>
-          <Icon
-            width="36px"
-            height="42px"
-            viewBox={{ minX: 0, minY: 0, width: 36, height: 42 }}
-            paths={[
-              {
-                d: "M18 8.4C16.9 8.4 15.9583 7.98875 15.175 7.16625C14.3917 6.34375 14 5.355 14 4.2C14 3.045 14.3917 2.05625 15.175 1.23375C15.9583 0.41125 16.9 0 18 0C19.1 0 20.0417 0.41125 20.825 1.23375C21.6083 2.05625 22 3.045 22 4.2C22 5.355 21.6083 6.34375 20.825 7.16625C20.0417 7.98875 19.1 8.4 18 8.4ZM12 42L12 14.7L0 14.7L0 10.5L36 10.5L36 14.7L24 14.7L24 42L20 42L20 29.4L16 29.4L16 42L12 42Z",
-                fill: "rgba(242,242,242,1)",
-                fillRule: "nonzero",
-              },
-            ]}
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="8%"
-            bottom="8%"
-            left="22.8%"
-            right="68.47%"
-            {...getOverrideProps(overrides, "Vector39885991")}
-          ></Icon>
-          <Icon
-            width="47px"
-            height="45px"
-            viewBox={{ minX: 0, minY: 0, width: 47, height: 45 }}
-            paths={[
-              {
-                d: "M0 18.0673C0 14.3267 0.871458 10.8946 2.61437 7.7712C4.35729 4.64776 6.6975 2.05736 9.635 0L12.3962 3.59102C10.0462 5.23691 8.17604 7.31297 6.78562 9.8192C5.39521 12.3254 4.7 15.0748 4.7 18.0673L0 18.0673ZM42.3 18.0673C42.3 15.0748 41.6048 12.3254 40.2144 9.8192C38.824 7.31297 36.9537 5.23691 34.6037 3.59102L37.365 0C40.3025 2.05736 42.6427 4.64776 44.3856 7.7712C46.1285 10.8946 47 14.3267 47 18.0673L42.3 18.0673ZM4.7 38.2668L4.7 33.7781L9.4 33.7781L9.4 18.0673C9.4 14.9626 10.3792 12.2039 12.3375 9.79115C14.2958 7.37843 16.8417 5.79801 19.975 5.04988L19.975 3.4788C19.975 2.54364 20.3177 1.74875 21.0031 1.09414C21.6885 0.439526 22.5208 0.112219 23.5 0.112219C24.4792 0.112219 25.3115 0.439526 25.9969 1.09414C26.6823 1.74875 27.025 2.54364 27.025 3.4788L27.025 5.04988C30.1583 5.79801 32.7042 7.37843 34.6625 9.79115C36.6208 12.2039 37.6 14.9626 37.6 18.0673L37.6 33.7781L42.3 33.7781L42.3 38.2668L4.7 38.2668ZM23.5 45C22.2075 45 21.101 44.5605 20.1806 43.6814C19.2602 42.8024 18.8 41.7456 18.8 40.5112L28.2 40.5112C28.2 41.7456 27.7398 42.8024 26.8194 43.6814C25.899 44.5605 24.7925 45 23.5 45ZM14.1 33.7781L32.9 33.7781L32.9 18.0673C32.9 15.5985 31.9796 13.485 30.1388 11.7269C28.2979 9.96883 26.085 9.08978 23.5 9.08978C20.915 9.08978 18.7021 9.96883 16.8612 11.7269C15.0204 13.485 14.1 15.5985 14.1 18.0673L14.1 33.7781Z",
-                fill: "rgba(242,242,242,1)",
-                fillRule: "nonzero",
-              },
-            ]}
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="10%"
-            bottom="0%"
-            left="42.44%"
-            right="46.16%"
-            {...getOverrideProps(overrides, "Vector39885992")}
-          ></Icon>
+            {...getOverrideProps(overrides, "Frame 18")}
+          >
+            <View
+              padding="0px 0px 0px 0px"
+              width="369.19px"
+              height="50px"
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="0px"
+              left="-0.36px"
+              {...getOverrideProps(overrides, "Group 430")}
+            >
+              <Icon
+                width="50px"
+                height="50px"
+                viewBox={{ minX: 0, minY: 0, width: 50, height: 50 }}
+                paths={[
+                  {
+                    d: "M18.1592 50L17.1642 42C16.6252 41.7917 16.1173 41.5417 15.6405 41.25C15.1638 40.9583 14.6973 40.6458 14.2413 40.3125L6.8408 43.4375L0 31.5625L6.40547 26.6875C6.36401 26.3958 6.34328 26.1146 6.34328 25.8438L6.34328 24.1563C6.34328 23.8854 6.36401 23.6042 6.40547 23.3125L0 18.4375L6.8408 6.5625L14.2413 9.6875C14.6973 9.35417 15.1741 9.04167 15.6716 8.75C16.1692 8.45833 16.6667 8.20833 17.1642 8L18.1592 0L31.8408 0L32.8358 8C33.3748 8.20833 33.8827 8.45833 34.3595 8.75C34.8362 9.04167 35.3027 9.35417 35.7587 9.6875L43.1592 6.5625L50 18.4375L43.5945 23.3125C43.636 23.6042 43.6567 23.8854 43.6567 24.1563L43.6567 25.8438C43.6567 26.1146 43.6153 26.3958 43.5323 26.6875L49.9378 31.5625L43.097 43.4375L35.7587 40.3125C35.3027 40.6458 34.8259 40.9583 34.3284 41.25C33.8308 41.5417 33.3333 41.7917 32.8358 42L31.8408 50L18.1592 50ZM22.5124 45L27.4254 45L28.296 38.375C29.5813 38.0417 30.7732 37.5521 31.8719 36.9063C32.9706 36.2604 33.976 35.4792 34.8881 34.5625L41.0448 37.125L43.4701 32.875L38.1219 28.8125C38.3292 28.2292 38.4743 27.6146 38.5572 26.9688C38.6401 26.3229 38.6816 25.6667 38.6816 25C38.6816 24.3333 38.6401 23.6771 38.5572 23.0313C38.4743 22.3854 38.3292 21.7708 38.1219 21.1875L43.4701 17.125L41.0448 12.875L34.8881 15.5C33.976 14.5417 32.9706 13.7396 31.8719 13.0938C30.7732 12.4479 29.5813 11.9583 28.296 11.625L27.4876 5L22.5746 5L21.704 11.625C20.4187 11.9583 19.2268 12.4479 18.1281 13.0938C17.0294 13.7396 16.024 14.5208 15.1119 15.4375L8.95522 12.875L6.52985 17.125L11.8781 21.125C11.6708 21.75 11.5257 22.375 11.4428 23C11.3599 23.625 11.3184 24.2917 11.3184 25C11.3184 25.6667 11.3599 26.3125 11.4428 26.9375C11.5257 27.5625 11.6708 28.1875 11.8781 28.8125L6.52985 32.875L8.95522 37.125L15.1119 34.5C16.024 35.4583 17.0294 36.2604 18.1281 36.9063C19.2268 37.5521 20.4187 38.0417 21.704 38.375L22.5124 45ZM25.1244 33.75C27.529 33.75 29.5813 32.8958 31.2811 31.1875C32.9809 29.4792 33.8308 27.4167 33.8308 25C33.8308 22.5833 32.9809 20.5208 31.2811 18.8125C29.5813 17.1042 27.529 16.25 25.1244 16.25C22.6783 16.25 20.6157 17.1042 18.9366 18.8125C17.2575 20.5208 16.4179 22.5833 16.4179 25C16.4179 27.4167 17.2575 29.4792 18.9366 31.1875C20.6157 32.8958 22.6783 33.75 25.1244 33.75Z",
+                    fill: "rgba(232,234,237,1)",
+                    fillRule: "nonzero",
+                  },
+                ]}
+                display="block"
+                gap="unset"
+                alignItems="unset"
+                justifyContent="unset"
+                position="absolute"
+                top="0%"
+                bottom="0%"
+                left="0%"
+                right="86.46%"
+                {...getOverrideProps(overrides, "Vector41002212")}
+              ></Icon>
+              <Text
+                fontFamily="Alegreya Sans SC"
+                fontSize="20px"
+                fontWeight="700"
+                color="rgba(255,255,255,1)"
+                lineHeight="24px"
+                textAlign="left"
+                display="block"
+                direction="column"
+                justifyContent="unset"
+                width="53.17px"
+                height="unset"
+                gap="unset"
+                alignItems="unset"
+                position="absolute"
+                top="16px"
+                left="316.03px"
+                padding="0px 0px 0px 0px"
+                whiteSpace="pre-wrap"
+                children="Ajuda"
+                {...getOverrideProps(overrides, "Ajuda")}
+              ></Text>
+              <Icon
+                width="41px"
+                height="40px"
+                viewBox={{ minX: 0, minY: 0, width: 41, height: 40 }}
+                paths={[
+                  {
+                    d: "M20.3975 32C21.115 32 21.7215 31.7583 22.2169 31.275C22.7123 30.7917 22.96 30.2 22.96 29.5C22.96 28.8 22.7123 28.2083 22.2169 27.725C21.7215 27.2417 21.115 27 20.3975 27C19.68 27 19.0735 27.2417 18.5781 27.725C18.0827 28.2083 17.835 28.8 17.835 29.5C17.835 30.2 18.0827 30.7917 18.5781 31.275C19.0735 31.7583 19.68 32 20.3975 32ZM18.5525 24.3L22.345 24.3C22.345 23.2 22.4731 22.3333 22.7294 21.7C22.9856 21.0667 23.7117 20.2 24.9075 19.1C25.7958 18.2333 26.4963 17.4083 27.0088 16.625C27.5213 15.8417 27.7775 14.9 27.7775 13.8C27.7775 11.9333 27.0771 10.5 25.6763 9.5C24.2754 8.5 22.6183 8 20.705 8C18.7575 8 17.1773 8.5 15.9644 9.5C14.7515 10.5 13.9058 11.7 13.4275 13.1L16.81 14.4C16.9808 13.8 17.3652 13.15 17.9631 12.45C18.561 11.75 19.475 11.4 20.705 11.4C21.7983 11.4 22.6183 11.6917 23.165 12.275C23.7117 12.8583 23.985 13.5 23.985 14.2C23.985 14.8667 23.78 15.4917 23.37 16.075C22.96 16.6583 22.4475 17.2 21.8325 17.7C20.3292 19 19.4067 19.9833 19.065 20.65C18.7233 21.3167 18.5525 22.5333 18.5525 24.3ZM20.5 40C17.6642 40 14.9992 39.475 12.505 38.425C10.0108 37.375 7.84125 35.95 5.99625 34.15C4.15125 32.35 2.69062 30.2333 1.61438 27.8C0.538125 25.3667 0 22.7667 0 20C0 17.2333 0.538125 14.6333 1.61438 12.2C2.69062 9.76667 4.15125 7.65 5.99625 5.85C7.84125 4.05 10.0108 2.625 12.505 1.575C14.9992 0.525 17.6642 0 20.5 0C23.3358 0 26.0008 0.525 28.495 1.575C30.9892 2.625 33.1588 4.05 35.0037 5.85C36.8488 7.65 38.3094 9.76667 39.3856 12.2C40.4619 14.6333 41 17.2333 41 20C41 22.7667 40.4619 25.3667 39.3856 27.8C38.3094 30.2333 36.8488 32.35 35.0037 34.15C33.1588 35.95 30.9892 37.375 28.495 38.425C26.0008 39.475 23.3358 40 20.5 40ZM20.5 36C25.0783 36 28.9563 34.45 32.1338 31.35C35.3113 28.25 36.9 24.4667 36.9 20C36.9 15.5333 35.3113 11.75 32.1338 8.65C28.9563 5.55 25.0783 4 20.5 4C15.9217 4 12.0437 5.55 8.86625 8.65C5.68875 11.75 4.1 15.5333 4.1 20C4.1 24.4667 5.68875 28.25 8.86625 31.35C12.0437 34.45 15.9217 36 20.5 36Z",
+                    fill: "rgba(242,242,242,1)",
+                    fillRule: "nonzero",
+                  },
+                ]}
+                display="block"
+                gap="unset"
+                alignItems="unset"
+                justifyContent="unset"
+                position="absolute"
+                top="7px"
+                left="258px"
+                {...getOverrideProps(overrides, "Vector39885990")}
+              ></Icon>
+              <Icon
+                width="38px"
+                height="42px"
+                viewBox={{ minX: 0, minY: 0, width: 38, height: 42 }}
+                paths={[
+                  {
+                    d: "M19 8.4C17.8389 8.4 16.8449 7.98875 16.0181 7.16625C15.1912 6.34375 14.7778 5.355 14.7778 4.2C14.7778 3.045 15.1912 2.05625 16.0181 1.23375C16.8449 0.41125 17.8389 0 19 0C20.1611 0 21.1551 0.41125 21.9819 1.23375C22.8088 2.05625 23.2222 3.045 23.2222 4.2C23.2222 5.355 22.8088 6.34375 21.9819 7.16625C21.1551 7.98875 20.1611 8.4 19 8.4ZM12.6667 42L12.6667 14.7L0 14.7L0 10.5L38 10.5L38 14.7L25.3333 14.7L25.3333 42L21.1111 42L21.1111 29.4L16.8889 29.4L16.8889 42L12.6667 42Z",
+                    fill: "rgba(242,242,242,1)",
+                    fillRule: "nonzero",
+                  },
+                ]}
+                display="block"
+                gap="unset"
+                alignItems="unset"
+                justifyContent="unset"
+                position="absolute"
+                top="8%"
+                bottom="8%"
+                left="24.65%"
+                right="65.06%"
+                {...getOverrideProps(overrides, "Vector39885991")}
+              ></Icon>
+              <Icon
+                width="44px"
+                height="45px"
+                viewBox={{ minX: 0, minY: 0, width: 44, height: 45 }}
+                paths={[
+                  {
+                    d: "M0 18.0673C0 14.3267 0.815833 10.8946 2.4475 7.7712C4.07917 4.64776 6.27 2.05736 9.02 0L11.605 3.59102C9.405 5.23691 7.65417 7.31297 6.3525 9.8192C5.05083 12.3254 4.4 15.0748 4.4 18.0673L0 18.0673ZM39.6 18.0673C39.6 15.0748 38.9492 12.3254 37.6475 9.8192C36.3458 7.31297 34.595 5.23691 32.395 3.59102L34.98 0C37.73 2.05736 39.9208 4.64776 41.5525 7.7712C43.1842 10.8946 44 14.3267 44 18.0673L39.6 18.0673ZM4.4 38.2668L4.4 33.7781L8.8 33.7781L8.8 18.0673C8.8 14.9626 9.71667 12.2039 11.55 9.79115C13.3833 7.37843 15.7667 5.79801 18.7 5.04988L18.7 3.4788C18.7 2.54364 19.0208 1.74875 19.6625 1.09414C20.3042 0.439526 21.0833 0.112219 22 0.112219C22.9167 0.112219 23.6958 0.439526 24.3375 1.09414C24.9792 1.74875 25.3 2.54364 25.3 3.4788L25.3 5.04988C28.2333 5.79801 30.6167 7.37843 32.45 9.79115C34.2833 12.2039 35.2 14.9626 35.2 18.0673L35.2 33.7781L39.6 33.7781L39.6 38.2668L4.4 38.2668ZM22 45C20.79 45 19.7542 44.5605 18.8925 43.6814C18.0308 42.8024 17.6 41.7456 17.6 40.5112L26.4 40.5112C26.4 41.7456 25.9692 42.8024 25.1075 43.6814C24.2458 44.5605 23.21 45 22 45ZM13.2 33.7781L30.8 33.7781L30.8 18.0673C30.8 15.5985 29.9383 13.485 28.215 11.7269C26.4917 9.96883 24.42 9.08978 22 9.08978C19.58 9.08978 17.5083 9.96883 15.785 11.7269C14.0617 13.485 13.2 15.5985 13.2 18.0673L13.2 33.7781Z",
+                    fill: "rgba(242,242,242,1)",
+                    fillRule: "nonzero",
+                  },
+                ]}
+                display="block"
+                gap="unset"
+                alignItems="unset"
+                justifyContent="unset"
+                position="absolute"
+                top="8%"
+                bottom="2%"
+                left="44.96%"
+                right="43.12%"
+                {...getOverrideProps(overrides, "Vector39885992")}
+              ></Icon>
+            </View>
+          </View>
         </View>
       </View>
-      <Text
-        fontFamily="Montserrat"
-        fontSize="24px"
-        fontWeight="600"
-        color="rgba(211,152,74,1)"
-        lineHeight="29.256000518798828px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="unset"
-        height="unset"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="129px"
-        left="1335px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="João Pedro Borges"
-        {...getOverrideProps(overrides, "Jo\u00E3o Pedro Borges")}
-      ></Text>
-      <View
-        width="43px"
-        height="37px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="310px"
-        left="69px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(
-          overrides,
-          "arrow_left_alt_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 1"
-        )}
-      >
-        <Icon
-          width="28.67px"
-          height="18.5px"
-          viewBox={{ minX: 0, minY: 0, width: 28.66666603088379, height: 18.5 }}
-          paths={[
-            {
-              d: "M10.75 18.5L0 9.25L10.75 0L13.2583 2.23542L6.89792 7.70833L28.6667 7.70833L28.6667 10.7917L6.89792 10.7917L13.2583 16.2646L10.75 18.5Z",
-              fill: "rgba(0,0,0,1)",
-              fillRule: "nonzero",
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="25%"
-          bottom="25%"
-          left="16.67%"
-          right="16.67%"
-          {...getOverrideProps(overrides, "Vector39885996")}
-        ></Icon>
-      </View>
-      <View
-        width="33px"
-        height="33px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="406px"
-        left="158px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(
-          overrides,
-          "star_24dp_000000_FILL0_wght400_GRAD0_opsz24 139885997"
-        )}
-      >
-        <Icon
-          width="27.5px"
-          height="26.13px"
-          viewBox={{ minX: 0, minY: 0, width: 27.5, height: 26.125 }}
-          paths={[
-            {
-              d: "M9.41875 20.3844L13.75 17.7719L18.0813 20.4188L16.9469 15.4688L20.7625 12.1687L15.7438 11.7219L13.75 7.04688L11.7563 11.6875L6.7375 12.1344L10.5531 15.4688L9.41875 20.3844ZM5.25938 26.125L7.49375 16.4656L0 9.96875L9.9 9.10938L13.75 0L17.6 9.10938L27.5 9.96875L20.0063 16.4656L22.2406 26.125L13.75 21.0031L5.25938 26.125Z",
-              fill: "rgba(255,255,0,1)",
-              fillRule: "nonzero",
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="8.33%"
-          bottom="12.5%"
-          left="8.33%"
-          right="8.33%"
-          {...getOverrideProps(overrides, "Vector39885998")}
-        ></Icon>
-      </View>
-      <View
-        width="24px"
-        height="24px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="409px"
-        left="398px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(
-          overrides,
-          "new_releases_24dp_4B77D1_FILL0_wght400_GRAD0_opsz24 139885999"
-        )}
-      >
-        <Icon
-          width="22px"
-          height="21px"
-          viewBox={{ minX: 0, minY: 0, width: 22, height: 21 }}
-          paths={[
-            {
-              d: "M7.6 21L5.7 17.8L2.1 17L2.45 13.3L0 10.5L2.45 7.7L2.1 4L5.7 3.2L7.6 0L11 1.45L14.4 0L16.3 3.2L19.9 4L19.55 7.7L22 10.5L19.55 13.3L19.9 17L16.3 17.8L14.4 21L11 19.55L7.6 21ZM8.45 18.45L11 17.35L13.6 18.45L15 16.05L17.75 15.4L17.5 12.6L19.35 10.5L17.5 8.35L17.75 5.55L15 4.95L13.55 2.55L11 3.65L8.4 2.55L7 4.95L4.25 5.55L4.5 8.35L2.65 10.5L4.5 12.6L4.25 15.45L7 16.05L8.45 18.45ZM9.95 14.05L15.6 8.4L14.2 6.95L9.95 11.2L7.8 9.1L6.4 10.5L9.95 14.05Z",
-              fill: "rgba(75,119,209,1)",
-              fillRule: "nonzero",
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="6.25%"
-          bottom="6.25%"
-          left="4.17%"
-          right="4.17%"
-          {...getOverrideProps(overrides, "Vector39886000")}
-        ></Icon>
-      </View>
-      <View
-        width="32px"
-        height="32px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="555px"
-        left="130px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(
-          overrides,
-          "source_environment_24dp_4B77D1_FILL0_wght400_GRAD0_opsz24 1"
-        )}
-      >
-        <Icon
-          width="26.67px"
-          height="26.67px"
-          viewBox={{
-            minX: 0,
-            minY: 0,
-            width: 26.66666603088379,
-            height: 26.66666603088379,
-          }}
-          paths={[
-            {
-              d: "M0 26.6667L0 5L6.66667 0L13.3333 5L13.3333 8L26.6667 8L26.6667 26.6667L0 26.6667ZM2.66667 24L5.33333 24L5.33333 21.3333L2.66667 21.3333L2.66667 24ZM2.66667 18.6667L5.33333 18.6667L5.33333 16L2.66667 16L2.66667 18.6667ZM2.66667 13.3333L5.33333 13.3333L5.33333 10.6667L2.66667 10.6667L2.66667 13.3333ZM2.66667 8L5.33333 8L5.33333 5.33333L2.66667 5.33333L2.66667 8ZM8 8L10.6667 8L10.6667 5.33333L8 5.33333L8 8ZM8 24L24 24L24 10.6667L8 10.6667L8 24ZM16 16L16 13.3333L21.3333 13.3333L21.3333 16L16 16ZM16 21.3333L16 18.6667L21.3333 18.6667L21.3333 21.3333L16 21.3333ZM10.6667 16L10.6667 13.3333L13.3333 13.3333L13.3333 16L10.6667 16ZM10.6667 21.3333L10.6667 18.6667L13.3333 18.6667L13.3333 21.3333L10.6667 21.3333Z",
-              fill: "rgba(75,119,209,1)",
-              fillRule: "nonzero",
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="4.17%"
-          bottom="12.5%"
-          left="8.33%"
-          right="8.33%"
-          {...getOverrideProps(overrides, "Vector39886002")}
-        ></Icon>
-      </View>
       <Icon
-        width="20px"
-        height="20px"
-        viewBox={{ minX: 0, minY: 0, width: 20, height: 20 }}
+        width="21px"
+        height="14px"
+        viewBox={{ minX: 0, minY: 0, width: 21, height: 14 }}
         paths={[
           {
-            d: "M0 20L0 4.44444L4.44444 4.44444L4.44444 0L15.5556 0L15.5556 8.88889L20 8.88889L20 20L11.1111 20L11.1111 15.5556L8.88889 15.5556L8.88889 20L0 20ZM2.22222 17.7778L4.44444 17.7778L4.44444 15.5556L2.22222 15.5556L2.22222 17.7778ZM2.22222 13.3333L4.44444 13.3333L4.44444 11.1111L2.22222 11.1111L2.22222 13.3333ZM2.22222 8.88889L4.44444 8.88889L4.44444 6.66667L2.22222 6.66667L2.22222 8.88889ZM6.66667 13.3333L8.88889 13.3333L8.88889 11.1111L6.66667 11.1111L6.66667 13.3333ZM6.66667 8.88889L8.88889 8.88889L8.88889 6.66667L6.66667 6.66667L6.66667 8.88889ZM6.66667 4.44444L8.88889 4.44444L8.88889 2.22222L6.66667 2.22222L6.66667 4.44444ZM11.1111 13.3333L13.3333 13.3333L13.3333 11.1111L11.1111 11.1111L11.1111 13.3333ZM11.1111 8.88889L13.3333 8.88889L13.3333 6.66667L11.1111 6.66667L11.1111 8.88889ZM11.1111 4.44444L13.3333 4.44444L13.3333 2.22222L11.1111 2.22222L11.1111 4.44444ZM15.5556 17.7778L17.7778 17.7778L17.7778 15.5556L15.5556 15.5556L15.5556 17.7778ZM15.5556 13.3333L17.7778 13.3333L17.7778 11.1111L15.5556 11.1111L15.5556 13.3333Z",
+            d: "M0 14L0 3.11111L4.66667 3.11111L4.66667 0L16.3333 0L16.3333 6.22222L21 6.22222L21 14L11.6667 14L11.6667 10.8889L9.33333 10.8889L9.33333 14L0 14ZM2.33333 12.4444L4.66667 12.4444L4.66667 10.8889L2.33333 10.8889L2.33333 12.4444ZM2.33333 9.33333L4.66667 9.33333L4.66667 7.77778L2.33333 7.77778L2.33333 9.33333ZM2.33333 6.22222L4.66667 6.22222L4.66667 4.66667L2.33333 4.66667L2.33333 6.22222ZM7 9.33333L9.33333 9.33333L9.33333 7.77778L7 7.77778L7 9.33333ZM7 6.22222L9.33333 6.22222L9.33333 4.66667L7 4.66667L7 6.22222ZM7 3.11111L9.33333 3.11111L9.33333 1.55556L7 1.55556L7 3.11111ZM11.6667 9.33333L14 9.33333L14 7.77778L11.6667 7.77778L11.6667 9.33333ZM11.6667 6.22222L14 6.22222L14 4.66667L11.6667 4.66667L11.6667 6.22222ZM11.6667 3.11111L14 3.11111L14 1.55556L11.6667 1.55556L11.6667 3.11111ZM16.3333 12.4444L18.6667 12.4444L18.6667 10.8889L16.3333 10.8889L16.3333 12.4444ZM16.3333 9.33333L18.6667 9.33333L18.6667 7.77778L16.3333 7.77778L16.3333 9.33333Z",
             fill: "rgba(0,0,0,1)",
             fillRule: "nonzero",
           },
@@ -1876,8 +2042,8 @@ export default function Vagas2(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="968px"
-        left="1234px"
+        top="810px"
+        left="1048px"
         {...getOverrideProps(overrides, "Vector40711090")}
       ></Icon>
       <View
@@ -1897,28 +2063,6 @@ export default function Vagas2(props) {
           "share_windows_24dp_4B77D1_FILL0_wght400_GRAD0_opsz24 139886005"
         )}
       ></View>
-      <Icon
-        width="26px"
-        height="25px"
-        viewBox={{ minX: 0, minY: 0, width: 26, height: 25 }}
-        paths={[
-          {
-            d: "M5.77778 16.6667L5.77778 8.33333C5.77778 7.56944 6.06065 6.91551 6.62639 6.37153C7.19213 5.82755 7.87222 5.55556 8.66667 5.55556L20.4389 5.55556L16.7194 1.97917L18.7778 0L26 6.94444L18.7778 13.8889L16.7194 11.9444L20.4389 8.33333L8.66667 8.33333L8.66667 16.6667L5.77778 16.6667ZM2.88889 25C2.09444 25 1.41435 24.728 0.848611 24.184C0.28287 23.64 0 22.9861 0 22.2222L0 1.38889L2.88889 1.38889L2.88889 22.2222L20.2222 22.2222L20.2222 16.6667L23.1111 16.6667L23.1111 22.2222C23.1111 22.9861 22.8282 23.64 22.2625 24.184C21.6968 24.728 21.0167 25 20.2222 25L2.88889 25Z",
-            fill: "rgba(0,0,0,1)",
-            fillRule: "nonzero",
-          },
-        ]}
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="58.1%"
-        bottom="39.66%"
-        left="36.92%"
-        right="61.57%"
-        {...getOverrideProps(overrides, "Vector39886006")}
-      ></Icon>
       <Image
         width="104px"
         height="103px"
@@ -1934,6 +2078,107 @@ export default function Vagas2(props) {
         src={bancoImagens?.PerfilAvatar}
         {...getOverrideProps(overrides, "AvatarPerfil 1")}
       ></Image>
+      <View
+        padding="0px 0px 0px 0px"
+        width="1519px"
+        height="28px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="224px"
+        left="0px"
+        {...getOverrideProps(overrides, "Group 44042351594")}
+      >
+        <View
+          width="1520px"
+          height="29px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="-0.5px"
+          left="-0.5px"
+          border="1px SOLID rgba(239,204,139,1)"
+          padding="0px 0px 0px 0px"
+          backgroundColor="rgba(212,180,120,1)"
+          {...getOverrideProps(overrides, "Rectangle 23")}
+        ></View>
+      </View>
+      <View
+        width="100px"
+        height="100px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        overflow="hidden"
+        position="absolute"
+        top="76px"
+        left="447px"
+        padding="0px 0px 0px 0px"
+        {...getOverrideProps(overrides, "Frame 432")}
+      ></View>
+      <View
+        padding="0px 0px 0px 0px"
+        width="43px"
+        height="37px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="30.8%"
+        bottom="65.89%"
+        left="3.82%"
+        right="93.35%"
+        {...getOverrideProps(overrides, "Group 465")}
+      >
+        <View
+          width="43px"
+          height="37px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          overflow="hidden"
+          position="absolute"
+          top="0%"
+          bottom="0%"
+          left="0%"
+          right="0%"
+          padding="0px 0px 0px 0px"
+          {...getOverrideProps(
+            overrides,
+            "arrow_left_alt_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 1"
+          )}
+        >
+          <Icon
+            width="29px"
+            height="16px"
+            viewBox={{ minX: 0, minY: 0, width: 29, height: 16 }}
+            paths={[
+              {
+                d: "M10.875 16L0 8L10.875 0L13.4125 1.93333L6.97813 6.66667L29 6.66667L29 9.33333L6.97813 9.33333L13.4125 14.0667L10.875 16Z",
+                fill: "rgba(0,0,0,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="97.3%"
+            bottom="-40.54%"
+            left="-2.33%"
+            right="34.88%"
+            {...getOverrideProps(overrides, "Vector39885996")}
+          ></Icon>
+        </View>
+      </View>
     </View>
   );
 }

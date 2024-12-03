@@ -20,7 +20,7 @@ export default function TelaDeLogin(props) {
   const { bancoImagens, overrides, ...rest } = props;
   return (
     <View
-      width="1728px"
+      width="1519px"
       height="1117px"
       display="block"
       gap="unset"
@@ -33,7 +33,7 @@ export default function TelaDeLogin(props) {
       {...rest}
     >
       <View
-        width="1728px"
+        width="1519px"
         height="1117px"
         display="block"
         gap="unset"
@@ -48,7 +48,7 @@ export default function TelaDeLogin(props) {
         {...getOverrideProps(overrides, "Login")}
       >
         <View
-          width="1728px"
+          width="1519px"
           height="1117px"
           display="block"
           gap="unset"
@@ -62,17 +62,17 @@ export default function TelaDeLogin(props) {
           {...getOverrideProps(overrides, "back gorund")}
         >
           <Icon
-            width="2073.6px"
+            width="1822.8px"
             height="1340.4px"
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 2073.60009765625,
+              width: 1822.800048828125,
               height: 1340.4000244140625,
             }}
             paths={[
               {
-                d: "M2073.6 0L0 0L0 1340.4L2073.6 1340.4L2073.6 0Z",
+                d: "M1822.8 0L0 0L0 1340.4L1822.8 1340.4L1822.8 0Z",
                 fill: "rgba(0,0,0,1)",
                 fillRule: "nonzero",
               },
@@ -89,17 +89,17 @@ export default function TelaDeLogin(props) {
             {...getOverrideProps(overrides, "Vector40291486")}
           ></Icon>
           <Icon
-            width="2073.6px"
+            width="1822.8px"
             height="1340.4px"
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 2073.60009765625,
+              width: 1822.800048828125,
               height: 1340.4000244140625,
             }}
             paths={[
               {
-                d: "M2073.6 0L0 0L0 1340.4L2073.6 1340.4L2073.6 0Z",
+                d: "M1822.8 0L0 0L0 1340.4L1822.8 1340.4L1822.8 0Z",
                 fill: "rgba(0,0,0,1)",
                 fillRule: "nonzero",
               },
@@ -117,7 +117,7 @@ export default function TelaDeLogin(props) {
           ></Icon>
           <View
             padding="0px 0px 0px 0px"
-            width="1728px"
+            width="1519px"
             height="1117px"
             display="block"
             gap="unset"
@@ -165,10 +165,10 @@ export default function TelaDeLogin(props) {
         ></View>
         <Text
           fontFamily="Montserrat"
-          fontSize="32px"
+          fontSize="36px"
           fontWeight="700"
           color="rgba(255,255,255,1)"
-          lineHeight="39.007999420166016px"
+          lineHeight="43.88399887084961px"
           textAlign="left"
           display="block"
           direction="column"
@@ -178,8 +178,8 @@ export default function TelaDeLogin(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="calc(50% - 19.5px - -53px)"
-          left="145px"
+          top="calc(50% - 22px - -55.5px)"
+          left="80px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Obrigado por nos escolher "
@@ -194,8 +194,8 @@ export default function TelaDeLogin(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="53px"
-          left="809px"
+          top="47px"
+          left="658px"
           {...getOverrideProps(overrides, "Group 3")}
         >
           <View
@@ -375,15 +375,15 @@ export default function TelaDeLogin(props) {
             {...getOverrideProps(overrides, "FacebookLogo 1")}
           ></Image>
           <Image
-            width="280px"
-            height="157px"
+            width="417px"
+            height="220px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="100px"
-            left="260px"
+            top="78px"
+            left="191px"
             padding="0px 0px 0px 0px"
             objectFit="cover"
             src={bancoImagens?.LogoPretaConecta}
@@ -395,10 +395,10 @@ export default function TelaDeLogin(props) {
         </View>
         <Text
           fontFamily="Montserrat"
-          fontSize="90px"
+          fontSize="64px"
           fontWeight="700"
           color="rgba(255,255,255,1)"
-          lineHeight="109.70999908447266px"
+          lineHeight="78.01599884033203px"
           textAlign="left"
           display="block"
           direction="column"
@@ -408,8 +408,8 @@ export default function TelaDeLogin(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="439px"
-          left="92px"
+          top="488px"
+          left="137px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Bem-vindo!"
@@ -424,8 +424,8 @@ export default function TelaDeLogin(props) {
           justifyContent="unset"
           overflow="hidden"
           position="absolute"
-          top="823px"
-          left="1388px"
+          top="800px"
+          left="1213px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(overrides, "undraw_reminder_re_fe15 1")}
         >
@@ -1540,8 +1540,8 @@ export default function TelaDeLogin(props) {
           height="49px"
           position="absolute"
           borderRadius="10px"
-          top="641px"
-          left="1333px"
+          top="644px"
+          left="1201px"
           backgroundColor="rgba(0,0,0,1)"
           size="default"
           isDisabled={false}

@@ -16,7 +16,7 @@ import {
   View,
 } from "@aws-amplify/ui-react";
 export default function MeuPerfil1(props) {
-  const { bancoImagens, overrides, ...rest } = props;
+  const { overrides, ...rest } = props;
   return (
     <View
       width="1728px"
@@ -72,7 +72,6 @@ export default function MeuPerfil1(props) {
         left="0px"
         padding="0px 0px 0px 0px"
         objectFit="unset"
-        src={bancoImagens?.Background2}
         {...getOverrideProps(overrides, "Noise & Texture")}
       ></Image>
       <View
@@ -129,7 +128,6 @@ export default function MeuPerfil1(props) {
             left="calc(50% - 120px - 36.5px)"
             padding="0px 0px 0px 0px"
             objectFit="cover"
-            src={bancoImagens?.PerfilAvatar}
             {...getOverrideProps(overrides, "AvatarPerfil 141002017")}
           ></Image>
           <Icon
@@ -1253,7 +1251,6 @@ export default function MeuPerfil1(props) {
         left="608px"
         padding="0px 0px 0px 0px"
         objectFit="cover"
-        src={bancoImagens?.LogoBrancaConecta}
         {...getOverrideProps(overrides, "logo_branca_conecta 1")}
       ></Image>
       <Text
@@ -1750,7 +1747,6 @@ export default function MeuPerfil1(props) {
             left="156.89px"
             padding="0px 0px 0px 0px"
             objectFit="cover"
-            src={bancoImagens?.PerfilAvatar}
             {...getOverrideProps(overrides, "AvatarPerfil 141042422")}
           ></Image>
           <Text
@@ -1791,7 +1787,6 @@ export default function MeuPerfil1(props) {
             borderRadius="5px"
             padding="0px 0px 0px 0px"
             objectFit="cover"
-            src={bancoImagens?.Post1}
             {...getOverrideProps(overrides, "image39883368")}
           ></Image>
           <Image
@@ -1807,7 +1802,6 @@ export default function MeuPerfil1(props) {
             borderRadius="5px"
             padding="0px 0px 0px 0px"
             objectFit="cover"
-            src={bancoImagens?.Post2}
             {...getOverrideProps(overrides, "image39883369")}
           ></Image>
           <Image
@@ -1823,7 +1817,6 @@ export default function MeuPerfil1(props) {
             borderRadius="5px"
             padding="0px 0px 0px 0px"
             objectFit="cover"
-            src={bancoImagens?.Post3}
             {...getOverrideProps(overrides, "image39883370")}
           ></Image>
           <Image
@@ -1839,7 +1832,6 @@ export default function MeuPerfil1(props) {
             borderRadius="5px"
             padding="0px 0px 0px 0px"
             objectFit="cover"
-            src={bancoImagens?.Post4}
             {...getOverrideProps(overrides, "image39883371")}
           ></Image>
           <Image
@@ -1855,7 +1847,6 @@ export default function MeuPerfil1(props) {
             borderRadius="5px"
             padding="0px 0px 0px 0px"
             objectFit="cover"
-            src={bancoImagens?.Post5}
             {...getOverrideProps(overrides, "image39883372")}
           ></Image>
           <Text
@@ -2179,7 +2170,6 @@ export default function MeuPerfil1(props) {
         left="1560px"
         padding="0px 0px 0px 0px"
         objectFit="cover"
-        src={bancoImagens?.PerfilAvatar}
         {...getOverrideProps(overrides, "AvatarPerfil 14043872")}
       ></Image>
       <View

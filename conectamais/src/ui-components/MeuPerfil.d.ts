@@ -5,8 +5,8 @@
  **************************************************************************/
 
 import * as React from "react";
-import { BancoImagens } from "../models";
 import { ButtonProps, IconProps, ImageProps, SelectFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+import { Vagas2Props } from "./Vagas2";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
 } | null;
@@ -22,7 +22,12 @@ export declare type MeuPerfilOverridesProps = {
     MeuPerfil?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 27"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 26"?: PrimitiveOverrideProps<ViewProps>;
-    "Noise & Texture"?: PrimitiveOverrideProps<ImageProps>;
+    "Group 394"?: PrimitiveOverrideProps<ViewProps>;
+    "back gorund"?: PrimitiveOverrideProps<ViewProps>;
+    Vector42343652?: PrimitiveOverrideProps<IconProps>;
+    Vector42343653?: PrimitiveOverrideProps<IconProps>;
+    Group?: PrimitiveOverrideProps<ViewProps>;
+    Rectangle?: PrimitiveOverrideProps<ImageProps>;
     "Group 408"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 122"?: PrimitiveOverrideProps<ViewProps>;
     "AvatarPerfil 141002006"?: PrimitiveOverrideProps<ImageProps>;
@@ -71,8 +76,6 @@ export declare type MeuPerfilOverridesProps = {
     "Sou Jo\u00E3o, desenvolvedor front-end apaixonado por tecnologia e sempre em busca de aprender. Gosto de resolver problemas e criar interfaces funcionais e bonitas. Busco oportunidades em empresas inclusivas onde eu possa crescer e fazer a diferen\u00E7a com meu trabalho."?: PrimitiveOverrideProps<TextProps>;
     "ProfileIconBlack 141121461"?: PrimitiveOverrideProps<ViewProps>;
     Vector41121462?: PrimitiveOverrideProps<IconProps>;
-    "Rectangle 19"?: PrimitiveOverrideProps<ViewProps>;
-    "logo_branca_conecta 1"?: PrimitiveOverrideProps<ImageProps>;
     "+ 439882978"?: PrimitiveOverrideProps<TextProps>;
     "Line 28"?: PrimitiveOverrideProps<IconProps>;
     "Group 95"?: PrimitiveOverrideProps<ViewProps>;
@@ -115,7 +118,6 @@ export declare type MeuPerfilOverridesProps = {
     Vector41211342?: PrimitiveOverrideProps<IconProps>;
     "4 min"?: PrimitiveOverrideProps<TextProps>;
     "5 d"?: PrimitiveOverrideProps<TextProps>;
-    "Jo\u00E3o Pedro Borges39883025"?: PrimitiveOverrideProps<TextProps>;
     "PhoneBlackIcon 1"?: PrimitiveOverrideProps<ViewProps>;
     Vector41121447?: PrimitiveOverrideProps<IconProps>;
     "MailBlackIcon 1"?: PrimitiveOverrideProps<ViewProps>;
@@ -126,25 +128,22 @@ export declare type MeuPerfilOverridesProps = {
     "attach_email_24dp_4B77D1_FILL0_wght400_GRAD0_opsz24 1"?: PrimitiveOverrideProps<ViewProps>;
     Vector39883035?: PrimitiveOverrideProps<IconProps>;
     "AvatarPerfil 14043871"?: PrimitiveOverrideProps<ImageProps>;
-    "Rectangle 20"?: PrimitiveOverrideProps<ViewProps>;
-    Button41021096?: PrimitiveOverrideProps<ButtonProps>;
-    Button41021097?: PrimitiveOverrideProps<ButtonProps>;
-    Button41021098?: PrimitiveOverrideProps<ButtonProps>;
-    "Group 431"?: PrimitiveOverrideProps<ViewProps>;
-    Vector39882969?: PrimitiveOverrideProps<IconProps>;
-    Vector39882972?: PrimitiveOverrideProps<IconProps>;
-    Vector39882976?: PrimitiveOverrideProps<IconProps>;
-    Ajuda?: PrimitiveOverrideProps<TextProps>;
-    Vector41002233?: PrimitiveOverrideProps<IconProps>;
     "ChatIconBlack 1"?: PrimitiveOverrideProps<ViewProps>;
     Vector41211350?: PrimitiveOverrideProps<IconProps>;
     Button41231372?: PrimitiveOverrideProps<ButtonProps>;
     Button41231373?: PrimitiveOverrideProps<ButtonProps>;
     Vector39883033?: PrimitiveOverrideProps<IconProps>;
     Vector41231381?: PrimitiveOverrideProps<IconProps>;
+    "Group 442"?: PrimitiveOverrideProps<ViewProps>;
+    Vagas2?: Vagas2Props;
+    "Group 441"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 23"?: PrimitiveOverrideProps<ViewProps>;
+    Button42351831?: PrimitiveOverrideProps<ButtonProps>;
+    Button42351832?: PrimitiveOverrideProps<ButtonProps>;
+    Button42351833?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type MeuPerfilProps = React.PropsWithChildren<Partial<ViewProps> & {
-    bancoImagens?: BancoImagens;
+    bancoImagens?: any;
 } & {
     overrides?: MeuPerfilOverridesProps | undefined | null;
 }>;

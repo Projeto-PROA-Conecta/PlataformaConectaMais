@@ -5,7 +5,6 @@
  **************************************************************************/
 
 import * as React from "react";
-import { BancoImagens } from "../models";
 import { ButtonProps, IconProps, ImageProps, PasswordFieldProps, TextFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
@@ -22,9 +21,15 @@ export declare type CadastroUsuario1OverridesProps = {
     CadastroUsuario1?: PrimitiveOverrideProps<ViewProps>;
     Cadastro?: PrimitiveOverrideProps<ViewProps>;
     "Noise & Texture"?: PrimitiveOverrideProps<ImageProps>;
-    "DALL\u00B7E 2024-11-02 01.57.03 - A softer abstract background with a pattern of faceted polygons in calming colors such as soft blues, greens, purples, and muted yellows. The shapes s 1"?: PrimitiveOverrideProps<ImageProps>;
-    "Rectangle 7"?: PrimitiveOverrideProps<ViewProps>;
+    "Group 394"?: PrimitiveOverrideProps<ViewProps>;
+    "back gorund"?: PrimitiveOverrideProps<ViewProps>;
+    Vector42343671?: PrimitiveOverrideProps<IconProps>;
+    Vector42343672?: PrimitiveOverrideProps<IconProps>;
+    Group?: PrimitiveOverrideProps<ViewProps>;
+    Rectangle?: PrimitiveOverrideProps<ImageProps>;
     "Rectangle 2"?: PrimitiveOverrideProps<ViewProps>;
+    "Group 456"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 7"?: PrimitiveOverrideProps<ViewProps>;
     "Group 6"?: PrimitiveOverrideProps<ViewProps>;
     "Bem-vindo!"?: PrimitiveOverrideProps<TextProps>;
     "Group 4"?: PrimitiveOverrideProps<ViewProps>;
@@ -42,10 +47,9 @@ export declare type CadastroUsuario1OverridesProps = {
     TextField40191415?: PrimitiveOverrideProps<TextFieldProps>;
     Button39885537?: PrimitiveOverrideProps<ButtonProps>;
     Button39885538?: PrimitiveOverrideProps<ButtonProps>;
-    label?: PrimitiveOverrideProps<TextProps>;
 } & EscapeHatchProps;
 export declare type CadastroUsuario1Props = React.PropsWithChildren<Partial<ViewProps> & {
-    bancoImagens?: BancoImagens;
+    bancoImagens?: any;
 } & {
     overrides?: CadastroUsuario1OverridesProps | undefined | null;
 }>;
