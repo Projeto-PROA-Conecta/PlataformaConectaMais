@@ -15,13 +15,12 @@ import {
   Text,
   View,
 } from "@aws-amplify/ui-react";
-import Vagas2 from "./Vagas2";
 export default function MeuPerfil(props) {
   const { bancoImagens, overrides, ...rest } = props;
   return (
     <View
       width="1519px"
-      height="1980px"
+      height="1882px"
       display="block"
       gap="unset"
       alignItems="unset"
@@ -49,7 +48,7 @@ export default function MeuPerfil(props) {
       ></View>
       <View
         width="1728px"
-        height="1980px"
+        height="1882px"
         display="block"
         gap="unset"
         alignItems="unset"
@@ -64,19 +63,19 @@ export default function MeuPerfil(props) {
       <View
         padding="0px 0px 0px 0px"
         width="1519px"
-        height="1680px"
+        height="1725px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="300px"
+        top="157px"
         left="0px"
         {...getOverrideProps(overrides, "Group 394")}
       >
         <View
           width="1519px"
-          height="1680px"
+          height="1725px"
           display="block"
           gap="unset"
           alignItems="unset"
@@ -90,16 +89,16 @@ export default function MeuPerfil(props) {
         >
           <Icon
             width="1822.8px"
-            height="2016px"
+            height="2070px"
             viewBox={{
               minX: 0,
               minY: 0,
               width: 1822.800048828125,
-              height: 2016.0001220703125,
+              height: 2070,
             }}
             paths={[
               {
-                d: "M1822.8 0L0 0L0 2016L1822.8 2016L1822.8 0Z",
+                d: "M1822.8 0L0 0L0 2070L1822.8 2070L1822.8 0Z",
                 fill: "rgba(0,0,0,1)",
                 fillRule: "nonzero",
               },
@@ -117,16 +116,16 @@ export default function MeuPerfil(props) {
           ></Icon>
           <Icon
             width="1822.8px"
-            height="2016px"
+            height="2070px"
             viewBox={{
               minX: 0,
               minY: 0,
               width: 1822.800048828125,
-              height: 2016.0001220703125,
+              height: 2070,
             }}
             paths={[
               {
-                d: "M1822.8 0L0 0L0 2016L1822.8 2016L1822.8 0Z",
+                d: "M1822.8 0L0 0L0 2070L1822.8 2070L1822.8 0Z",
                 fill: "rgba(0,0,0,1)",
                 fillRule: "nonzero",
               },
@@ -145,7 +144,7 @@ export default function MeuPerfil(props) {
           <View
             padding="0px 0px 0px 0px"
             width="1519px"
-            height="1680px"
+            height="1725px"
             display="block"
             gap="unset"
             alignItems="unset"
@@ -185,8 +184,8 @@ export default function MeuPerfil(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="375px"
-        left="32px"
+        top="196px"
+        left="35px"
         {...getOverrideProps(overrides, "Group 408")}
       >
         <View
@@ -882,7 +881,7 @@ export default function MeuPerfil(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="463.45px"
+          top="463.46px"
           left="51px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -954,7 +953,7 @@ export default function MeuPerfil(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="587.97px"
+          top="587.96px"
           left="75px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -1006,8 +1005,8 @@ export default function MeuPerfil(props) {
           justifyContent="unset"
           overflow="hidden"
           position="absolute"
-          top="368.59px"
-          left="5px"
+          top="547.59px"
+          left="2px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(
             overrides,
@@ -1084,32 +1083,32 @@ export default function MeuPerfil(props) {
       </View>
       <View
         width="30.77px"
-        height="35px"
+        height="33.27px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         overflow="hidden"
         position="absolute"
-        top="34.6%"
-        bottom="63.64%"
-        left="3.76%"
-        right="94.21%"
+        top="25.56%"
+        bottom="72.68%"
+        left="3.96%"
+        right="94.02%"
         padding="0px 0px 0px 0px"
         {...getOverrideProps(overrides, "ProfileIconBlack 141121461")}
       >
         <Icon
           width="20.51px"
-          height="23.33px"
+          height="22.18px"
           viewBox={{
             minX: 0,
             minY: 0,
             width: 20.511188507080078,
-            height: 23.333332061767578,
+            height: 22.178449630737305,
           }}
           paths={[
             {
-              d: "M10.2556 11.6667C8.84545 11.6667 7.63828 11.0955 6.63409 9.95312C5.62989 8.81076 5.1278 7.4375 5.1278 5.83333C5.1278 4.22917 5.62989 2.8559 6.63409 1.71354C7.63828 0.571181 8.84545 0 10.2556 0C11.6657 0 12.8729 0.571181 13.8771 1.71354C14.8813 2.8559 15.3834 4.22917 15.3834 5.83333C15.3834 7.4375 14.8813 8.81076 13.8771 9.95312C12.8729 11.0955 11.6657 11.6667 10.2556 11.6667ZM0 23.3333L0 19.25C0 18.4236 0.186951 17.6641 0.560853 16.9714C0.934755 16.2786 1.43151 15.75 2.05112 15.3854C3.3758 14.6319 4.72185 14.0668 6.08926 13.6901C7.45667 13.3134 8.84545 13.125 10.2556 13.125C11.6657 13.125 13.0545 13.3134 14.4219 13.6901C15.7893 14.0668 17.1354 14.6319 18.4601 15.3854C19.0797 15.75 19.5764 16.2786 19.9503 16.9714C20.3242 17.6641 20.5112 18.4236 20.5112 19.25L20.5112 23.3333L0 23.3333ZM2.5639 20.4167L17.9473 20.4167L17.9473 19.25C17.9473 18.9826 17.8885 18.7396 17.771 18.5208C17.6535 18.3021 17.4986 18.1319 17.3063 18.0104C16.1526 17.3542 14.9881 16.862 13.813 16.5339C12.6379 16.2057 11.4521 16.0417 10.2556 16.0417C9.05911 16.0417 7.87331 16.2057 6.69818 16.5339C5.52306 16.862 4.35863 17.3542 3.20487 18.0104C3.01258 18.1319 2.85768 18.3021 2.74017 18.5208C2.62265 18.7396 2.5639 18.9826 2.5639 19.25L2.5639 20.4167ZM10.2556 8.75C10.9607 8.75 11.5643 8.46441 12.0663 7.89323C12.5684 7.32205 12.8195 6.63542 12.8195 5.83333C12.8195 5.03125 12.5684 4.34462 12.0663 3.77344C11.5643 3.20226 10.9607 2.91667 10.2556 2.91667C9.55052 2.91667 8.94694 3.20226 8.44484 3.77344C7.94274 4.34462 7.6917 5.03125 7.6917 5.83333C7.6917 6.63542 7.94274 7.32205 8.44484 7.89323C8.94694 8.46441 9.55052 8.75 10.2556 8.75Z",
+              d: "M10.2556 11.0892C8.84545 11.0892 7.63828 10.5463 6.63409 9.46049C5.62989 8.37467 5.1278 7.06938 5.1278 5.54461C5.1278 4.01984 5.62989 2.71455 6.63409 1.62873C7.63828 0.54291 8.84545 0 10.2556 0C11.6657 0 12.8729 0.54291 13.8771 1.62873C14.8813 2.71455 15.3834 4.01984 15.3834 5.54461C15.3834 7.06938 14.8813 8.37467 13.8771 9.46049C12.8729 10.5463 11.6657 11.0892 10.2556 11.0892ZM0 22.1784L0 18.2972C0 17.5117 0.186951 16.7898 0.560853 16.1314C0.934755 15.4729 1.43151 14.9705 2.05112 14.6239C3.3758 13.9077 4.72185 13.3706 6.08926 13.0125C7.45667 12.6544 8.84545 12.4754 10.2556 12.4754C11.6657 12.4754 13.0545 12.6544 14.4219 13.0125C15.7893 13.3706 17.1354 13.9077 18.4601 14.6239C19.0797 14.9705 19.5764 15.4729 19.9503 16.1314C20.3242 16.7898 20.5112 17.5117 20.5112 18.2972L20.5112 22.1784L0 22.1784ZM2.5639 19.4061L17.9473 19.4061L17.9473 18.2972C17.9473 18.0431 17.8885 17.8121 17.771 17.6041C17.6535 17.3962 17.4986 17.2345 17.3063 17.119C16.1526 16.4952 14.9881 16.0274 13.813 15.7155C12.6379 15.4036 11.4521 15.2477 10.2556 15.2477C9.05911 15.2477 7.87331 15.4036 6.69818 15.7155C5.52306 16.0274 4.35863 16.4952 3.20487 17.119C3.01258 17.2345 2.85768 17.3962 2.74017 17.6041C2.62265 17.8121 2.5639 18.0431 2.5639 18.2972L2.5639 19.4061ZM10.2556 8.31692C10.9607 8.31692 11.5643 8.04546 12.0663 7.50255C12.5684 6.95964 12.8195 6.307 12.8195 5.54461C12.8195 4.78223 12.5684 4.12958 12.0663 3.58667C11.5643 3.04376 10.9607 2.77231 10.2556 2.77231C9.55052 2.77231 8.94694 3.04376 8.44484 3.58667C7.94274 4.12958 7.6917 4.78223 7.6917 5.54461C7.6917 6.307 7.94274 6.95964 8.44484 7.50255C8.94694 8.04546 9.55052 8.31692 10.2556 8.31692Z",
               fill: "rgba(0,0,0,1)",
               fillRule: "nonzero",
             },
@@ -1141,8 +1140,8 @@ export default function MeuPerfil(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="1560.35px"
-        left="1196.17px"
+        top="1381.35px"
+        left="1199.17px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
         children="+ 4"
@@ -1165,8 +1164,8 @@ export default function MeuPerfil(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="1700.48px"
-        left="695.24px"
+        top="1521.48px"
+        left="698.24px"
         transformOrigin="top left"
         transform="rotate(0deg)"
         {...getOverrideProps(overrides, "Line 28")}
@@ -1180,8 +1179,8 @@ export default function MeuPerfil(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="375px"
-        left="498.11px"
+        top="196px"
+        left="501.11px"
         {...getOverrideProps(overrides, "Group 95")}
       >
         <View
@@ -1930,8 +1929,8 @@ export default function MeuPerfil(props) {
         justifyContent="unset"
         overflow="hidden"
         position="absolute"
-        top="800px"
-        left="51px"
+        top="621px"
+        left="54px"
         padding="0px 0px 0px 0px"
         {...getOverrideProps(overrides, "PhoneBlackIcon 1")}
       >
@@ -1967,8 +1966,8 @@ export default function MeuPerfil(props) {
         justifyContent="unset"
         overflow="hidden"
         position="absolute"
-        top="844px"
-        left="51px"
+        top="665px"
+        left="54px"
         padding="0px 0px 0px 0px"
         {...getOverrideProps(overrides, "MailBlackIcon 1")}
       >
@@ -2004,8 +2003,8 @@ export default function MeuPerfil(props) {
         justifyContent="unset"
         overflow="hidden"
         position="absolute"
-        top="888px"
-        left="51px"
+        top="709px"
+        left="54px"
         padding="0px 0px 0px 0px"
         {...getOverrideProps(overrides, "PuzzleBlackIcon 1")}
       >
@@ -2041,8 +2040,8 @@ export default function MeuPerfil(props) {
         justifyContent="unset"
         overflow="hidden"
         position="absolute"
-        top="1458px"
-        left="89px"
+        top="1279px"
+        left="92px"
         padding="0px 0px 0px 0px"
         {...getOverrideProps(
           overrides,
@@ -2113,8 +2112,8 @@ export default function MeuPerfil(props) {
         justifyContent="unset"
         overflow="hidden"
         position="absolute"
-        top="1710px"
-        left="824px"
+        top="1531px"
+        left="827px"
         padding="0px 0px 0px 0px"
         {...getOverrideProps(overrides, "ChatIconBlack 1")}
       >
@@ -2151,8 +2150,8 @@ export default function MeuPerfil(props) {
         height="41px"
         position="absolute"
         border="1px SOLID rgba(0,0,0,1)"
-        top="1433px"
-        left="72px"
+        top="1254px"
+        left="75px"
         backgroundColor="rgba(207,209,208,1)"
         size="default"
         isDisabled={false}
@@ -2165,8 +2164,8 @@ export default function MeuPerfil(props) {
         height="41px"
         position="absolute"
         border="1px SOLID rgba(0,0,0,1)"
-        top="1490px"
-        left="72px"
+        top="1311px"
+        left="75px"
         backgroundColor="rgba(207,209,208,1)"
         size="default"
         isDisabled={false}
@@ -2176,11 +2175,16 @@ export default function MeuPerfil(props) {
       ></Button>
       <Icon
         width="18.46px"
-        height="19px"
-        viewBox={{ minX: 0, minY: 0, width: 18.46006965637207, height: 19 }}
+        height="18.06px"
+        viewBox={{
+          minX: 0,
+          minY: 0,
+          width: 18.46006965637207,
+          height: 18.059595108032227,
+        }}
         paths={[
           {
-            d: "M8.79051 9L1.7581 4L1.7581 14L9.66956 14L9.66956 16L1.7581 16C1.27462 16 0.860737 15.8042 0.516442 15.4125C0.172147 15.0208 0 14.55 0 14L0 2C0 1.45 0.172147 0.979167 0.516442 0.5875C0.860737 0.195833 1.27462 0 1.7581 0L15.8229 0C16.3064 0 16.7203 0.195833 17.0646 0.5875C17.4089 0.979167 17.581 1.45 17.581 2L17.581 9L15.8229 9L15.8229 4L8.79051 9ZM8.79051 7L15.8229 2L1.7581 2L8.79051 7ZM14.9439 19L13.7132 17.6L15.0977 16L11.4277 16L11.4277 14L15.0977 14L13.6912 12.4L14.9439 11L18.4601 15L14.9439 19ZM1.7581 4L1.7581 15L1.7581 9L1.7581 9.075L1.7581 2L1.7581 4Z",
+            d: "M8.79051 8.55455L1.7581 3.80202L1.7581 13.3071L9.66956 13.3071L9.66956 15.2081L1.7581 15.2081C1.27462 15.2081 0.860737 15.0219 0.516442 14.6497C0.172147 14.2774 0 13.8298 0 13.3071L0 1.90101C0 1.37823 0.172147 0.930703 0.516442 0.558422C0.860737 0.186141 1.27462 0 1.7581 0L15.8229 0C16.3064 0 16.7203 0.186141 17.0646 0.558422C17.4089 0.930703 17.581 1.37823 17.581 1.90101L17.581 8.55455L15.8229 8.55455L15.8229 3.80202L8.79051 8.55455ZM8.79051 6.65353L15.8229 1.90101L1.7581 1.90101L8.79051 6.65353ZM14.9439 18.0596L13.7132 16.7289L15.0977 15.2081L11.4277 15.2081L11.4277 13.3071L15.0977 13.3071L13.6912 11.7863L14.9439 10.4556L18.4601 14.2576L14.9439 18.0596ZM1.7581 3.80202L1.7581 14.2576L1.7581 8.55455L1.7581 8.62583L1.7581 1.90101L1.7581 3.80202Z",
             fill: "rgba(8,8,8,1)",
             fillRule: "nonzero",
           },
@@ -2190,19 +2194,24 @@ export default function MeuPerfil(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="73.03%"
-        bottom="26.01%"
-        left="5.56%"
-        right="93.23%"
+        top="67.39%"
+        bottom="31.65%"
+        left="5.75%"
+        right="93.03%"
         {...getOverrideProps(overrides, "Vector39883033")}
       ></Icon>
       <Icon
         width="19.34px"
-        height="20px"
-        viewBox={{ minX: 0, minY: 0, width: 19.339120864868164, height: 20 }}
+        height="19.01px"
+        viewBox={{
+          minX: 0,
+          minY: 0,
+          width: 19.339120864868164,
+          height: 19.010101318359375,
+        }}
         paths={[
           {
-            d: "M8.79051 9L1.7581 4L1.7581 14L10.5486 14L10.5486 16L1.7581 16C1.27462 16 0.860737 15.8042 0.516442 15.4125C0.172147 15.0208 0 14.55 0 14L0 2C0 1.45 0.172147 0.979167 0.516442 0.5875C0.860737 0.195833 1.27462 0 1.7581 0L15.8229 0C16.3064 0 16.7203 0.195833 17.0646 0.5875C17.4089 0.979167 17.581 1.45 17.581 2L17.581 7L15.8229 7L15.8229 4L8.79051 9ZM8.79051 7L15.8229 2L1.7581 2L8.79051 7ZM15.8229 20C14.856 20 14.0282 19.6083 13.3396 18.825C12.651 18.0417 12.3067 17.1 12.3067 16L12.3067 11.5C12.3067 10.8 12.5192 10.2083 12.944 9.725C13.3689 9.24167 13.889 9 14.5043 9C15.1197 9 15.6398 9.24167 16.0647 9.725C16.4895 10.2083 16.702 10.8 16.702 11.5L16.702 16L14.9439 16L14.9439 11.5C14.9439 11.3667 14.8999 11.25 14.812 11.15C14.7241 11.05 14.6215 11 14.5043 11C14.3871 11 14.2846 11.05 14.1967 11.15C14.1088 11.25 14.0648 11.3667 14.0648 11.5L14.0648 16C14.0648 16.55 14.237 17.0208 14.5813 17.4125C14.9256 17.8042 15.3394 18 15.8229 18C16.3064 18 16.7203 17.8042 17.0646 17.4125C17.4089 17.0208 17.581 16.55 17.581 16L17.581 12L19.3391 12L19.3391 16C19.3391 17.1 18.9948 18.0417 18.3062 18.825C17.6176 19.6083 16.7899 20 15.8229 20ZM1.7581 4L1.7581 2L1.7581 14L1.7581 4Z",
+            d: "M8.79051 8.55455L1.7581 3.80202L1.7581 13.3071L10.5486 13.3071L10.5486 15.2081L1.7581 15.2081C1.27462 15.2081 0.860737 15.0219 0.516442 14.6497C0.172147 14.2774 0 13.8298 0 13.3071L0 1.90101C0 1.37823 0.172147 0.930703 0.516442 0.558422C0.860737 0.186141 1.27462 0 1.7581 0L15.8229 0C16.3064 0 16.7203 0.186141 17.0646 0.558422C17.4089 0.930703 17.581 1.37823 17.581 1.90101L17.581 6.65354L15.8229 6.65354L15.8229 3.80202L8.79051 8.55455ZM8.79051 6.65354L15.8229 1.90101L1.7581 1.90101L8.79051 6.65354ZM15.8229 19.0101C14.856 19.0101 14.0282 18.6378 13.3396 17.8933C12.651 17.1487 12.3067 16.2536 12.3067 15.2081L12.3067 10.9308C12.3067 10.2655 12.5192 9.70307 12.944 9.24366C13.3689 8.78425 13.889 8.55455 14.5043 8.55455C15.1197 8.55455 15.6398 8.78425 16.0647 9.24366C16.4895 9.70307 16.702 10.2655 16.702 10.9308L16.702 15.2081L14.9439 15.2081L14.9439 10.9308C14.9439 10.8041 14.8999 10.6932 14.812 10.5981C14.7241 10.5031 14.6215 10.4556 14.5043 10.4556C14.3871 10.4556 14.2846 10.5031 14.1967 10.5981C14.1088 10.6932 14.0648 10.8041 14.0648 10.9308L14.0648 15.2081C14.0648 15.7309 14.237 16.1784 14.5813 16.5507C14.9256 16.923 15.3394 17.1091 15.8229 17.1091C16.3064 17.1091 16.7203 16.923 17.0646 16.5507C17.4089 16.1784 17.581 15.7309 17.581 15.2081L17.581 11.4061L19.3391 11.4061L19.3391 15.2081C19.3391 16.2536 18.9948 17.1487 18.3062 17.8933C17.6176 18.6378 16.7899 19.0101 15.8229 19.0101ZM1.7581 3.80202L1.7581 1.90101L1.7581 13.3071L1.7581 3.80202Z",
             fill: "rgba(0,0,0,1)",
             fillRule: "nonzero",
           },
@@ -2212,115 +2221,12 @@ export default function MeuPerfil(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="75.81%"
-        bottom="23.18%"
-        left="5.56%"
-        right="93.17%"
+        top="70.46%"
+        bottom="28.53%"
+        left="5.73%"
+        right="93%"
         {...getOverrideProps(overrides, "Vector41231381")}
       ></Icon>
-      <View
-        padding="0px 0px 0px 0px"
-        width="1534px"
-        height="300px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="0px"
-        left="-8px"
-        {...getOverrideProps(overrides, "Group 442")}
-      >
-        <Vagas2
-          width="1527px"
-          height="300px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          overflow="hidden"
-          position="absolute"
-          top="0px"
-          left="7px"
-          padding="0px 0px 0px 0px"
-          backgroundColor="rgba(255,255,255,1)"
-          {...getOverrideProps(overrides, "Vagas2")}
-        ></Vagas2>
-        <View
-          padding="0px 0px 0px 0px"
-          width="1527px"
-          height="76px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="224px"
-          left="0px"
-          {...getOverrideProps(overrides, "Group 441")}
-        >
-          <View
-            width="1528px"
-            height="77px"
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="-0.5px"
-            left="-0.5px"
-            border="1px SOLID rgba(239,204,139,1)"
-            padding="0px 0px 0px 0px"
-            backgroundColor="rgba(212,180,120,1)"
-            {...getOverrideProps(overrides, "Rectangle 23")}
-          ></View>
-        </View>
-        <Button
-          width="107.56px"
-          height="39.42px"
-          position="absolute"
-          borderRadius="10px"
-          top="240.45px"
-          left="729.82px"
-          boxShadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
-          backgroundColor="rgba(0,0,0,1)"
-          size="default"
-          isDisabled={false}
-          variation="primary"
-          children="Vagas"
-          {...getOverrideProps(overrides, "Button42351831")}
-        ></Button>
-        <Button
-          width="107.56px"
-          height="39.42px"
-          position="absolute"
-          borderRadius="10px"
-          top="240.45px"
-          left="513.69px"
-          boxShadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
-          backgroundColor="rgba(0,0,0,1)"
-          size="default"
-          isDisabled={false}
-          variation="primary"
-          children="Perfil"
-          {...getOverrideProps(overrides, "Button42351832")}
-        ></Button>
-        <Button
-          width="107.56px"
-          height="39.42px"
-          position="absolute"
-          borderRadius="10px"
-          top="240.45px"
-          left="945.96px"
-          boxShadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
-          backgroundColor="rgba(0,0,0,1)"
-          size="default"
-          isDisabled={false}
-          variation="primary"
-          children="Plus"
-          {...getOverrideProps(overrides, "Button42351833")}
-        ></Button>
-      </View>
     </View>
   );
 }

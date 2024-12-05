@@ -6,7 +6,6 @@
 
 import * as React from "react";
 import { ButtonProps, IconProps, ImageProps, SelectFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
-import { Vagas2Props } from "./Vagas2";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
 } | null;
@@ -134,13 +133,6 @@ export declare type MeuPerfilOverridesProps = {
     Button41231373?: PrimitiveOverrideProps<ButtonProps>;
     Vector39883033?: PrimitiveOverrideProps<IconProps>;
     Vector41231381?: PrimitiveOverrideProps<IconProps>;
-    "Group 442"?: PrimitiveOverrideProps<ViewProps>;
-    Vagas2?: Vagas2Props;
-    "Group 441"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 23"?: PrimitiveOverrideProps<ViewProps>;
-    Button42351831?: PrimitiveOverrideProps<ButtonProps>;
-    Button42351832?: PrimitiveOverrideProps<ButtonProps>;
-    Button42351833?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type MeuPerfilProps = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

@@ -57,8 +57,6 @@ export declare type Vagas2OverridesProps = {
     "share_windows_24dp_4B77D1_FILL0_wght400_GRAD0_opsz24 139885911"?: PrimitiveOverrideProps<ViewProps>;
     "share_windows_24dp_4B77D1_FILL0_wght400_GRAD0_opsz24 139885913"?: PrimitiveOverrideProps<ViewProps>;
     Vector39885914?: PrimitiveOverrideProps<IconProps>;
-    "apartment_24dp_4B77D1_FILL0_wght400_GRAD0_opsz24 1"?: PrimitiveOverrideProps<ViewProps>;
-    Vector39885916?: PrimitiveOverrideProps<IconProps>;
     "Group 396"?: PrimitiveOverrideProps<ViewProps>;
     "Outras vagas semelhantes"?: PrimitiveOverrideProps<TextProps>;
     "Rectangle 15339885939"?: PrimitiveOverrideProps<ViewProps>;
@@ -121,10 +119,6 @@ export declare type Vagas2OverridesProps = {
     "AvatarPerfil 1"?: PrimitiveOverrideProps<ImageProps>;
     "Group 44042351594"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 23"?: PrimitiveOverrideProps<ViewProps>;
-    "Frame 432"?: PrimitiveOverrideProps<ViewProps>;
-    "Group 465"?: PrimitiveOverrideProps<ViewProps>;
-    "arrow_left_alt_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 1"?: PrimitiveOverrideProps<ViewProps>;
-    Vector39885996?: PrimitiveOverrideProps<IconProps>;
 } & EscapeHatchProps;
 export declare type Vagas2Props = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

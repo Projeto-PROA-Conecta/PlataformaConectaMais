@@ -18,6 +18,7 @@ import {
   Home2,
   MensagensNotificaes,
   MeuPerfil,
+  NovaHome,
   Premium1,
   Premium2,
   TelaDeLogin,
@@ -33,7 +34,7 @@ function App() {
     <Router> {/* O Router agora envolve toda a aplicação */}
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home1/>} />
+          <Route path="/" element={<NovaHome/>} />
           <Route path="/TelaDeLogin" element={<TelaDeLogin />} />
         </Routes>
       </div>

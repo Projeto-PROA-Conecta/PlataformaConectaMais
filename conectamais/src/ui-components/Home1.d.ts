@@ -21,14 +21,13 @@ export declare type Home1OverridesProps = {
     Home1?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 26"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 19"?: PrimitiveOverrideProps<ViewProps>;
-    "foto 1"?: PrimitiveOverrideProps<ViewProps>;
-    "logo_branca_conecta 1"?: PrimitiveOverrideProps<ImageProps>;
+    "logo_branca_conecta 2"?: PrimitiveOverrideProps<ImageProps>;
     Button39883872?: PrimitiveOverrideProps<ButtonProps>;
     Button39883876?: PrimitiveOverrideProps<ButtonProps>;
     "Conecte-se com oportunidades que valorizam suas habilidades"?: PrimitiveOverrideProps<TextProps>;
-    "+39883889"?: PrimitiveOverrideProps<TextProps>;
-    "+39883891"?: PrimitiveOverrideProps<TextProps>;
-    "+39883892"?: PrimitiveOverrideProps<TextProps>;
+    "+"?: PrimitiveOverrideProps<TextProps>;
+    "Frame 434"?: PrimitiveOverrideProps<ViewProps>;
+    "foto 1"?: PrimitiveOverrideProps<ViewProps>;
     "undraw_website_5bo8 1"?: PrimitiveOverrideProps<ViewProps>;
     Vector39883895?: PrimitiveOverrideProps<IconProps>;
     Vector39883896?: PrimitiveOverrideProps<IconProps>;
@@ -71,6 +70,7 @@ export declare type Home1OverridesProps = {
     Vector39883941?: PrimitiveOverrideProps<IconProps>;
     "ArrowRightIcon 139883942"?: PrimitiveOverrideProps<ViewProps>;
     Vector39883943?: PrimitiveOverrideProps<IconProps>;
+    MenuGroup?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 20"?: PrimitiveOverrideProps<ViewProps>;
     Button40932135?: PrimitiveOverrideProps<ButtonProps>;
     Button40932136?: PrimitiveOverrideProps<ButtonProps>;

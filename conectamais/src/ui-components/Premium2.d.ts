@@ -6,7 +6,6 @@
 
 import * as React from "react";
 import { ButtonProps, FlexProps, IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
-import { Vagas2Props } from "./Vagas2";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
 } | null;
@@ -24,7 +23,6 @@ export declare type Premium2OverridesProps = {
     "Group 394"?: PrimitiveOverrideProps<ViewProps>;
     "back gorund"?: PrimitiveOverrideProps<ViewProps>;
     Vector42342791?: PrimitiveOverrideProps<IconProps>;
-    Vector42342792?: PrimitiveOverrideProps<IconProps>;
     Group?: PrimitiveOverrideProps<ViewProps>;
     Rectangle?: PrimitiveOverrideProps<ImageProps>;
     Vector40941298?: PrimitiveOverrideProps<IconProps>;
@@ -72,13 +70,19 @@ export declare type Premium2OverridesProps = {
     curriculo2?: PrimitiveOverrideProps<ViewProps>;
     Vector40941308?: PrimitiveOverrideProps<IconProps>;
     "AvatarPerfil 1"?: PrimitiveOverrideProps<ImageProps>;
-    "Group 445"?: PrimitiveOverrideProps<ViewProps>;
-    Vagas2?: Vagas2Props;
-    "Group 441"?: PrimitiveOverrideProps<ViewProps>;
+    "Group 431"?: PrimitiveOverrideProps<ViewProps>;
+    Vector426013794?: PrimitiveOverrideProps<IconProps>;
+    Ajuda?: PrimitiveOverrideProps<TextProps>;
+    Vector426013796?: PrimitiveOverrideProps<IconProps>;
+    Vector426013797?: PrimitiveOverrideProps<IconProps>;
+    Vector426013798?: PrimitiveOverrideProps<IconProps>;
+    "Rectangle 111"?: PrimitiveOverrideProps<ViewProps>;
+    "image-removebg-preview (4) 7"?: PrimitiveOverrideProps<ImageProps>;
+    "Group 449"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 23"?: PrimitiveOverrideProps<ViewProps>;
-    Button42382487?: PrimitiveOverrideProps<ButtonProps>;
-    Button42382488?: PrimitiveOverrideProps<ButtonProps>;
-    Button42382489?: PrimitiveOverrideProps<ButtonProps>;
+    Button426013790?: PrimitiveOverrideProps<ButtonProps>;
+    Button426013791?: PrimitiveOverrideProps<ButtonProps>;
+    Button426013792?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type Premium2Props = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

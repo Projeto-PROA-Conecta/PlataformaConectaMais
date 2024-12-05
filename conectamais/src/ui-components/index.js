@@ -56,6 +56,7 @@ export { default as MeuPerfil2 } from "./MeuPerfil2";
 export { default as MeuPerfil4 } from "./MeuPerfil4";
 export { default as MeuPerfil5 } from "./MeuPerfil5";
 export { default as MinhasVagas } from "./MinhasVagas";
+export { default as NovaHome } from "./NovaHome";
 export { default as PoliticaDePrivacidadeUsuario } from "./PoliticaDePrivacidadeUsuario";
 export { default as PoliticaPrivacidadeEmpresa } from "./PoliticaPrivacidadeEmpresa";
 export { default as Premium1 } from "./Premium1";

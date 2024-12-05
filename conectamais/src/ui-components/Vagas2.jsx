@@ -70,19 +70,19 @@ export default function Vagas2(props) {
       <View
         padding="0px 0px 0px 0px"
         width="1519px"
-        height="865px"
+        height="957px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="252px"
+        top="160px"
         left="0px"
         {...getOverrideProps(overrides, "Group 44042342817")}
       >
         <View
           width="1519px"
-          height="865px"
+          height="957px"
           display="block"
           gap="unset"
           alignItems="unset"
@@ -96,16 +96,16 @@ export default function Vagas2(props) {
         >
           <Icon
             width="1822.8px"
-            height="1038px"
+            height="1148.4px"
             viewBox={{
               minX: 0,
               minY: 0,
               width: 1822.800048828125,
-              height: 1038.0001220703125,
+              height: 1148.400146484375,
             }}
             paths={[
               {
-                d: "M1822.8 0L0 0L0 1038L1822.8 1038L1822.8 0Z",
+                d: "M1822.8 0L0 0L0 1148.4L1822.8 1148.4L1822.8 0Z",
                 fill: "rgba(0,0,0,1)",
                 fillRule: "nonzero",
               },
@@ -123,16 +123,16 @@ export default function Vagas2(props) {
           ></Icon>
           <Icon
             width="1822.8px"
-            height="1038px"
+            height="1148.4px"
             viewBox={{
               minX: 0,
               minY: 0,
               width: 1822.800048828125,
-              height: 1038.0001220703125,
+              height: 1148.400146484375,
             }}
             paths={[
               {
-                d: "M1822.8 0L0 0L0 1038L1822.8 1038L1822.8 0Z",
+                d: "M1822.8 0L0 0L0 1148.4L1822.8 1148.4L1822.8 0Z",
                 fill: "rgba(0,0,0,1)",
                 fillRule: "nonzero",
               },
@@ -151,7 +151,7 @@ export default function Vagas2(props) {
           <View
             padding="0px 0px 0px 0px"
             width="1519px"
-            height="865px"
+            height="957px"
             display="block"
             gap="unset"
             alignItems="unset"
@@ -182,14 +182,14 @@ export default function Vagas2(props) {
           </View>
           <View
             width="730px"
-            height="694px"
+            height="712.49px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="7.98%"
-            bottom="11.79%"
+            top="5.2%"
+            bottom="20.35%"
             left="2.9%"
             right="49.05%"
             borderRadius="15px"
@@ -208,12 +208,12 @@ export default function Vagas2(props) {
             direction="column"
             justifyContent="unset"
             width="128px"
-            height="19px"
+            height="21.02px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="19.54%"
-            bottom="78.27%"
+            top="16.76%"
+            bottom="81.04%"
             left="20.41%"
             right="71.17%"
             padding="0px 0px 0px 0px"
@@ -232,12 +232,12 @@ export default function Vagas2(props) {
             direction="column"
             justifyContent="unset"
             width="151px"
-            height="22px"
+            height="24.34px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="25.43%"
-            bottom="72.02%"
+            top="22.66%"
+            bottom="74.8%"
             left="6.71%"
             right="83.34%"
             padding="0px 0px 0px 0px"
@@ -256,12 +256,12 @@ export default function Vagas2(props) {
             direction="column"
             justifyContent="unset"
             width="121px"
-            height="23px"
+            height="25.45px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="29.83%"
-            bottom="67.51%"
+            top="27.05%"
+            bottom="70.29%"
             left="6.71%"
             right="85.32%"
             padding="0px 0px 0px 0px"
@@ -280,12 +280,12 @@ export default function Vagas2(props) {
             direction="column"
             justifyContent="unset"
             width="78px"
-            height="22px"
+            height="24.34px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="34.1%"
-            bottom="63.35%"
+            top="31.33%"
+            bottom="66.13%"
             left="9.81%"
             right="85.06%"
             padding="0px 0px 0px 0px"
@@ -304,12 +304,12 @@ export default function Vagas2(props) {
             direction="column"
             justifyContent="unset"
             width="47.99px"
-            height="26.46px"
+            height="29.28px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="11.81%"
-            bottom="85.13%"
+            top="9.04%"
+            bottom="87.9%"
             left="46.09%"
             right="50.75%"
             padding="0px 0px 0px 0px"
@@ -328,12 +328,12 @@ export default function Vagas2(props) {
             direction="column"
             justifyContent="unset"
             width="352px"
-            height="35px"
+            height="38.72px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="12.83%"
-            bottom="83.12%"
+            top="10.06%"
+            bottom="85.9%"
             left="6.85%"
             right="69.98%"
             padding="0px 0px 0px 0px"
@@ -349,8 +349,8 @@ export default function Vagas2(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="16.88%"
-            bottom="70.17%"
+            top="14.1%"
+            bottom="72.95%"
             left="39.63%"
             right="50.76%"
             borderRadius="20px"
@@ -370,12 +370,12 @@ export default function Vagas2(props) {
             direction="column"
             justifyContent="unset"
             width="34px"
-            height="23px"
+            height="25.45px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="19.42%"
-            bottom="77.92%"
+            top="16.65%"
+            bottom="80.69%"
             left="6.71%"
             right="91.05%"
             padding="0px 0px 0px 0px"
@@ -394,12 +394,12 @@ export default function Vagas2(props) {
             direction="column"
             justifyContent="unset"
             width="172px"
-            height="23px"
+            height="25.45px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="19.42%"
-            bottom="77.92%"
+            top="16.65%"
+            bottom="80.69%"
             left="11.78%"
             right="76.89%"
             padding="0px 0px 0px 0px"
@@ -409,11 +409,11 @@ export default function Vagas2(props) {
           ></Text>
           <Button
             width="302px"
-            height="61px"
+            height="67.49px"
             position="absolute"
             borderRadius="20px"
-            top="41.16%"
-            bottom="51.79%"
+            top="38.38%"
+            bottom="54.57%"
             left="5.07%"
             right="75.05%"
             backgroundColor="rgba(22,73,86,1)"
@@ -440,8 +440,8 @@ export default function Vagas2(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="54.22%"
-            bottom="45.78%"
+            top="51.45%"
+            bottom="48.55%"
             left="2.9%"
             right="49.05%"
             transformOrigin="top left"
@@ -459,12 +459,12 @@ export default function Vagas2(props) {
             direction="column"
             justifyContent="unset"
             width="67px"
-            height="17px"
+            height="18.81px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="50.75%"
-            bottom="47.28%"
+            top="47.98%"
+            bottom="50.06%"
             left="5.53%"
             right="90.06%"
             padding="0px 0px 0px 0px"
@@ -483,12 +483,12 @@ export default function Vagas2(props) {
             direction="column"
             justifyContent="unset"
             width="90px"
-            height="17px"
+            height="18.81px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="50.75%"
-            bottom="47.28%"
+            top="47.98%"
+            bottom="50.06%"
             left="12.05%"
             right="82.03%"
             padding="0px 0px 0px 0px"
@@ -506,15 +506,15 @@ export default function Vagas2(props) {
             display="block"
             direction="column"
             justifyContent="unset"
-            width="673px"
-            height="188px"
+            width="715px"
+            height="243.4px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="58.61%"
-            bottom="19.65%"
-            left="4.67%"
-            right="51.02%"
+            top="52.95%"
+            bottom="21.62%"
+            left="3.88%"
+            right="49.05%"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="-Descrição: Uma empresa busca um Analista de Dados para integrar sua equipe de tecnologia e inovação. O profissional será responsável por coletar, organizar e analisar grandes volumes de dados, fornecendo insights valiosos para a tomada de decisões estratégicas. Entre as principais responsabilidades estão a criação de relatórios, identificação de padrões e tendências, e o desenvolvimento de soluções para otimizar processos internos. O Analista de Dados trabalhará em colaboração com diferentes departamentos, como marketing, vendas e operações, para garantir que as decisões baseadas em dados sejam precisas e eficazes.&#xA;&#xA;&#xA;-Requisitos:&#xA;Graduação em Ciência de Dados, Engenharia, Estatística, TI ou áreas relacionadas;&#xA;Experiência em análise de dados e utilização de ferramentas como Excel, SQL, Python, R ou Power BI;"
@@ -534,12 +534,12 @@ export default function Vagas2(props) {
             direction="column"
             justifyContent="unset"
             width="113px"
-            height="17px"
+            height="18.81px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="50.75%"
-            bottom="47.28%"
+            top="47.98%"
+            bottom="50.06%"
             left="20.08%"
             right="72.48%"
             padding="0px 0px 0px 0px"
@@ -549,14 +549,14 @@ export default function Vagas2(props) {
           ></Text>
           <View
             width="91px"
-            height="7px"
+            height="7.74px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="53.41%"
-            bottom="45.78%"
+            top="50.64%"
+            bottom="48.55%"
             left="4.74%"
             right="89.27%"
             borderRadius="2px"
@@ -566,15 +566,15 @@ export default function Vagas2(props) {
           ></View>
           <View
             width="33px"
-            height="28px"
+            height="30.98px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             overflow="hidden"
             position="absolute"
-            top="18.84%"
-            bottom="77.92%"
+            top="16.07%"
+            bottom="80.69%"
             left="9.28%"
             right="88.55%"
             padding="0px 0px 0px 0px"
@@ -585,16 +585,16 @@ export default function Vagas2(props) {
           >
             <Icon
               width="27.5px"
-              height="22.17px"
+              height="24.52px"
               viewBox={{
                 minX: 0,
                 minY: 0,
                 width: 27.5,
-                height: 22.16666603088379,
+                height: 24.524276733398438,
               }}
               paths={[
                 {
-                  d: "M9.41875 17.2958L13.75 15.0792L18.0813 17.325L16.9469 13.125L20.7625 10.325L15.7438 9.94583L13.75 5.97917L11.7563 9.91667L6.7375 10.2958L10.5531 13.125L9.41875 17.2958ZM5.25938 22.1667L7.49375 13.9708L0 8.45833L9.9 7.72917L13.75 0L17.6 7.72917L27.5 8.45833L20.0063 13.9708L22.2406 22.1667L13.75 17.8208L5.25938 22.1667Z",
+                  d: "M9.41875 19.1354L13.75 16.683L18.0813 19.1677L16.9469 14.521L20.7625 11.4232L15.7438 11.0037L13.75 6.6151L11.7563 10.9714L6.7375 11.3909L10.5531 14.521L9.41875 19.1354ZM5.25938 24.5243L7.49375 15.4567L0 9.35795L9.9 8.55123L13.75 0L17.6 8.55123L27.5 9.35795L20.0063 15.4567L22.2406 24.5243L13.75 19.7162L5.25938 24.5243Z",
                   fill: "rgba(255,255,0,1)",
                   fillRule: "nonzero",
                 },
@@ -613,15 +613,15 @@ export default function Vagas2(props) {
           </View>
           <View
             width="24px"
-            height="21px"
+            height="23.23px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             overflow="hidden"
             position="absolute"
-            top="19.42%"
-            bottom="78.15%"
+            top="16.65%"
+            bottom="80.92%"
             left="29.3%"
             right="69.12%"
             padding="0px 0px 0px 0px"
@@ -632,11 +632,16 @@ export default function Vagas2(props) {
           >
             <Icon
               width="22px"
-              height="18.38px"
-              viewBox={{ minX: 0, minY: 0, width: 22, height: 18.375 }}
+              height="20.33px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 22,
+                height: 20.329336166381836,
+              }}
               paths={[
                 {
-                  d: "M7.6 18.375L5.7 15.575L2.1 14.875L2.45 11.6375L0 9.1875L2.45 6.7375L2.1 3.5L5.7 2.8L7.6 0L11 1.26875L14.4 0L16.3 2.8L19.9 3.5L19.55 6.7375L22 9.1875L19.55 11.6375L19.9 14.875L16.3 15.575L14.4 18.375L11 17.1062L7.6 18.375ZM8.45 16.1437L11 15.1812L13.6 16.1437L15 14.0437L17.75 13.475L17.5 11.025L19.35 9.1875L17.5 7.30625L17.75 4.85625L15 4.33125L13.55 2.23125L11 3.19375L8.4 2.23125L7 4.33125L4.25 4.85625L4.5 7.30625L2.65 9.1875L4.5 11.025L4.25 13.5188L7 14.0437L8.45 16.1437ZM9.95 12.2937L15.6 7.35L14.2 6.08125L9.95 9.8L7.8 7.9625L6.4 9.1875L9.95 12.2937Z",
+                  d: "M7.6 20.3293L5.7 17.2315L2.1 16.4571L2.45 12.8752L0 10.1647L2.45 7.45409L2.1 3.87225L5.7 3.0978L7.6 0L11 1.40369L14.4 0L16.3 3.0978L19.9 3.87225L19.55 7.45409L22 10.1647L19.55 12.8752L19.9 16.4571L16.3 17.2315L14.4 20.3293L11 18.9256L7.6 20.3293ZM8.45 17.8608L11 16.7959L13.6 17.8608L15 15.5374L17.75 14.9082L17.5 12.1976L19.35 10.1647L17.5 8.08333L17.75 5.37275L15 4.79191L13.55 2.46856L11 3.53343L8.4 2.46856L7 4.79191L4.25 5.37275L4.5 8.08333L2.65 10.1647L4.5 12.1976L4.25 14.9566L7 15.5374L8.45 17.8608ZM9.95 13.6013L15.6 8.13173L14.2 6.72804L9.95 10.8423L7.8 8.80938L6.4 10.1647L9.95 13.6013Z",
                   fill: "rgba(75,119,209,1)",
                   fillRule: "nonzero",
                 },
@@ -655,15 +660,15 @@ export default function Vagas2(props) {
           </View>
           <View
             width="32px"
-            height="27px"
+            height="29.87px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             overflow="hidden"
             position="absolute"
-            top="33.53%"
-            bottom="63.35%"
+            top="30.75%"
+            bottom="66.13%"
             left="6.85%"
             right="91.05%"
             padding="0px 0px 0px 0px"
@@ -674,16 +679,16 @@ export default function Vagas2(props) {
           >
             <Icon
               width="26.67px"
-              height="22.5px"
+              height="24.89px"
               viewBox={{
                 minX: 0,
                 minY: 0,
                 width: 26.66666603088379,
-                height: 22.5,
+                height: 24.893062591552734,
               }}
               paths={[
                 {
-                  d: "M0 22.5L0 4.21875L6.66667 0L13.3333 4.21875L13.3333 6.75L26.6667 6.75L26.6667 22.5L0 22.5ZM2.66667 20.25L5.33333 20.25L5.33333 18L2.66667 18L2.66667 20.25ZM2.66667 15.75L5.33333 15.75L5.33333 13.5L2.66667 13.5L2.66667 15.75ZM2.66667 11.25L5.33333 11.25L5.33333 9L2.66667 9L2.66667 11.25ZM2.66667 6.75L5.33333 6.75L5.33333 4.5L2.66667 4.5L2.66667 6.75ZM8 6.75L10.6667 6.75L10.6667 4.5L8 4.5L8 6.75ZM8 20.25L24 20.25L24 9L8 9L8 20.25ZM16 13.5L16 11.25L21.3333 11.25L21.3333 13.5L16 13.5ZM16 18L16 15.75L21.3333 15.75L21.3333 18L16 18ZM10.6667 13.5L10.6667 11.25L13.3333 11.25L13.3333 13.5L10.6667 13.5ZM10.6667 18L10.6667 15.75L13.3333 15.75L13.3333 18L10.6667 18Z",
+                  d: "M0 24.8931L0 4.66745L6.66667 0L13.3333 4.66745L13.3333 7.46792L26.6667 7.46792L26.6667 24.8931L0 24.8931ZM2.66667 22.4038L5.33333 22.4038L5.33333 19.9145L2.66667 19.9145L2.66667 22.4038ZM2.66667 17.4251L5.33333 17.4251L5.33333 14.9358L2.66667 14.9358L2.66667 17.4251ZM2.66667 12.4465L5.33333 12.4465L5.33333 9.95723L2.66667 9.95723L2.66667 12.4465ZM2.66667 7.46792L5.33333 7.46792L5.33333 4.97861L2.66667 4.97861L2.66667 7.46792ZM8 7.46792L10.6667 7.46792L10.6667 4.97861L8 4.97861L8 7.46792ZM8 22.4038L24 22.4038L24 9.95723L8 9.95723L8 22.4038ZM16 14.9358L16 12.4465L21.3333 12.4465L21.3333 14.9358L16 14.9358ZM16 19.9145L16 17.4251L21.3333 17.4251L21.3333 19.9145L16 19.9145ZM10.6667 14.9358L10.6667 12.4465L13.3333 12.4465L13.3333 14.9358L10.6667 14.9358ZM10.6667 19.9145L10.6667 17.4251L13.3333 17.4251L13.3333 19.9145L10.6667 19.9145Z",
                   fill: "rgba(75,119,209,1)",
                   fillRule: "nonzero",
                 },
@@ -703,36 +708,36 @@ export default function Vagas2(props) {
           <View
             padding="0px 0px 0px 0px"
             width="65px"
-            height="46.78px"
+            height="51.76px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="41.04%"
-            bottom="53.55%"
-            left="40.2%"
-            right="55.52%"
+            top="39.19%"
+            bottom="55.4%"
+            left="29.36%"
+            right="66.36%"
             {...getOverrideProps(overrides, "Group 439")}
           >
             <Icon
               width="65px"
-              height="46.78px"
+              height="51.76px"
               viewBox={{
                 minX: 0,
                 minY: 0,
                 width: 65,
-                height: 46.783931732177734,
+                height: 51.759796142578125,
               }}
               paths={[
                 {
-                  d: "M63 23.392C63 29.0447 59.8203 34.3452 54.3126 38.3093C48.808 42.2713 41.1025 44.7839 32.5 44.7839L32.5 48.7839C41.8468 48.7839 50.3913 46.0601 56.6493 41.5558C62.9044 37.0538 67 30.6582 67 23.392L63 23.392ZM32.5 44.7839C23.8975 44.7839 16.192 42.2713 10.6874 38.3093C5.17973 34.3452 2 29.0447 2 23.392L-2 23.392C-2 30.6582 2.09565 37.0538 8.35068 41.5558C14.6087 46.0601 23.1532 48.7839 32.5 48.7839L32.5 44.7839ZM2 23.392C2 17.7392 5.17973 12.4388 10.6874 8.47461C16.192 4.51263 23.8975 2 32.5 2L32.5 -2C23.1532 -2 14.6087 0.723844 8.35068 5.22809C2.09565 9.73017 -2 16.1257 -2 23.392L2 23.392ZM32.5 2C41.1025 2 48.808 4.51263 54.3126 8.47461C59.8203 12.4388 63 17.7392 63 23.392L67 23.392C67 16.1257 62.9044 9.73017 56.6493 5.22809C50.3913 0.723844 41.8468 -2 32.5 -2L32.5 2Z",
+                  d: "M63 25.8799C63 38.6675 49.7936 49.7598 32.5 49.7598L32.5 53.7598C51.1049 53.7598 67 41.6784 67 25.8799L63 25.8799ZM32.5 49.7598C15.2064 49.7598 2 38.6675 2 25.8799L-2 25.8799C-2 41.6784 13.8951 53.7598 32.5 53.7598L32.5 49.7598ZM2 25.8799C2 13.0923 15.2064 2 32.5 2L32.5 -2C13.8951 -2 -2 10.0813 -2 25.8799L2 25.8799ZM32.5 2C49.7936 2 63 13.0923 63 25.8799L67 25.8799C67 10.0813 51.1049 -2 32.5 -2L32.5 2Z",
                   stroke: "rgba(22,70,89,1)",
                   fillRule: "nonzero",
                   strokeWidth: 2,
                 },
                 {
-                  d: "M65 23.392C65 36.311 50.4493 46.7839 32.5 46.7839C14.5507 46.7839 0 36.311 0 23.392C0 10.4729 14.5507 0 32.5 0C50.4493 0 65 10.4729 65 23.392Z",
+                  d: "M65 25.8799C65 40.173 50.4493 51.7598 32.5 51.7598C14.5507 51.7598 0 40.173 0 25.8799C0 11.5868 14.5507 0 32.5 0C50.4493 0 65 11.5868 65 25.8799Z",
                   fill: "rgba(255,255,255,1)",
                   fillRule: "nonzero",
                 },
@@ -750,16 +755,16 @@ export default function Vagas2(props) {
             ></Icon>
             <Icon
               width="22.86px"
-              height="21.27px"
+              height="23.53px"
               viewBox={{
                 minX: 0,
                 minY: 0,
                 width: 22.855323791503906,
-                height: 21.265422821044922,
+                height: 23.527177810668945,
               }}
               paths={[
                 {
-                  d: "M5.07896 14.1769L5.07896 7.08847C5.07896 6.4387 5.32762 5.88245 5.82493 5.41973C6.32225 4.95701 6.92008 4.72565 7.61844 4.72565L17.9668 4.72565L14.6972 1.68351L16.5066 0L22.8553 5.90706L16.5066 11.8141L14.6972 10.1601L17.9668 7.08847L7.61844 7.08847L7.61844 14.1769L5.07896 14.1769ZM2.53948 21.2654C1.84112 21.2654 1.24329 21.0341 0.745972 20.5713C0.248657 20.1086 0 19.5524 0 18.9026L0 1.18141L2.53948 1.18141L2.53948 18.9026L17.7764 18.9026L17.7764 14.1769L20.3158 14.1769L20.3158 18.9026C20.3158 19.5524 20.0672 20.1086 19.5699 20.5713C19.0726 21.0341 18.4747 21.2654 17.7764 21.2654L2.53948 21.2654Z",
+                  d: "M5.07896 15.6848L5.07896 7.84239C5.07896 7.12351 5.32762 6.5081 5.82493 5.99616C6.32225 5.48423 6.92008 5.22826 7.61844 5.22826L17.9668 5.22826L14.6972 1.86257L16.5066 0L22.8553 6.53533L16.5066 13.0707L14.6972 11.2408L17.9668 7.84239L7.61844 7.84239L7.61844 15.6848L5.07896 15.6848ZM2.53948 23.5272C1.84112 23.5272 1.24329 23.2712 0.745972 22.7593C0.248657 22.2473 0 21.6319 0 20.913L0 1.30707L2.53948 1.30707L2.53948 20.913L17.7764 20.913L17.7764 15.6848L20.3158 15.6848L20.3158 20.913C20.3158 21.6319 20.0672 22.2473 19.5699 22.7593C19.0726 23.2712 18.4747 23.5272 17.7764 23.5272L2.53948 23.5272Z",
                   fill: "rgba(0,0,0,1)",
                   fillRule: "nonzero",
                 },
@@ -787,7 +792,7 @@ export default function Vagas2(props) {
         justifyContent="unset"
         overflow="hidden"
         position="absolute"
-        top="650px"
+        top="626px"
         left="707px"
         padding="0px 0px 0px 0px"
         {...getOverrideProps(
@@ -836,55 +841,15 @@ export default function Vagas2(props) {
         ></Icon>
       </View>
       <View
-        width="24px"
-        height="24px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="976px"
-        left="1359px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(
-          overrides,
-          "apartment_24dp_4B77D1_FILL0_wght400_GRAD0_opsz24 1"
-        )}
-      >
-        <Icon
-          width="18px"
-          height="18px"
-          viewBox={{ minX: 0, minY: 0, width: 18, height: 18 }}
-          paths={[
-            {
-              d: "M0 18L0 4L4 4L4 0L14 0L14 8L18 8L18 18L10 18L10 14L8 14L8 18L0 18ZM2 16L4 16L4 14L2 14L2 16ZM2 12L4 12L4 10L2 10L2 12ZM2 8L4 8L4 6L2 6L2 8ZM6 12L8 12L8 10L6 10L6 12ZM6 8L8 8L8 6L6 6L6 8ZM6 4L8 4L8 2L6 2L6 4ZM10 12L12 12L12 10L10 10L10 12ZM10 8L12 8L12 6L10 6L10 8ZM10 4L12 4L12 2L10 2L10 4ZM14 16L16 16L16 14L14 14L14 16ZM14 12L16 12L16 10L14 10L14 12Z",
-              fill: "rgba(75,119,209,1)",
-              fillRule: "nonzero",
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="12.5%"
-          bottom="12.5%"
-          left="12.5%"
-          right="12.5%"
-          {...getOverrideProps(overrides, "Vector39885916")}
-        ></Icon>
-      </View>
-      <View
         padding="0px 0px 0px 0px"
         width="628px"
-        height="512px"
+        height="563.85px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="341px"
+        top="213.96px"
         left="864px"
         {...getOverrideProps(overrides, "Group 396")}
       >
@@ -899,7 +864,7 @@ export default function Vagas2(props) {
           direction="column"
           justifyContent="unset"
           width="428.09px"
-          height="26.61px"
+          height="29.3px"
           gap="unset"
           alignItems="unset"
           position="absolute"
@@ -912,13 +877,13 @@ export default function Vagas2(props) {
         ></Text>
         <View
           width="628px"
-          height="129.44px"
+          height="142.55px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="53.93px"
+          top="59.39px"
           left="0px"
           borderRadius="15px"
           padding="0px 0px 0px 0px"
@@ -936,11 +901,11 @@ export default function Vagas2(props) {
           direction="column"
           justifyContent="unset"
           width="228.17px"
-          height="20.85px"
+          height="22.97px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="74.07px"
+          top="81.57px"
           left="37.68px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -958,11 +923,11 @@ export default function Vagas2(props) {
           direction="column"
           justifyContent="unset"
           width="28.26px"
-          height="17.26px"
+          height="19.01px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="113.11px"
+          top="124.57px"
           left="37.68px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -971,14 +936,14 @@ export default function Vagas2(props) {
         ></Text>
         <View
           width="34.54px"
-          height="23.73px"
+          height="26.13px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           overflow="hidden"
           position="absolute"
-          top="110.96px"
+          top="122.19px"
           left="80.59px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(
@@ -988,16 +953,16 @@ export default function Vagas2(props) {
         >
           <Icon
             width="28.78px"
-            height="18.79px"
+            height="20.69px"
             viewBox={{
               minX: 0,
               minY: 0,
               width: 28.783334732055664,
-              height: 18.786516189575195,
+              height: 20.688947677612305,
             }}
             paths={[
               {
-                d: "M9.85829 14.6584L14.3917 12.7798L18.925 14.6831L17.7377 11.1236L21.7314 8.75056L16.4785 8.42921L14.3917 5.06742L12.3049 8.40449L7.05192 8.72584L11.0456 11.1236L9.85829 14.6584ZM5.50481 18.7865L7.84346 11.8404L0 7.16854L10.362 6.55056L14.3917 0L18.4213 6.55056L28.7833 7.16854L20.9399 11.8404L23.2785 18.7865L14.3917 15.1034L5.50481 18.7865Z",
+                d: "M9.85829 16.1428L14.3917 14.0739L18.925 16.17L17.7377 12.25L21.7314 9.63669L16.4785 9.2828L14.3917 5.58057L12.3049 9.25558L7.05192 9.60947L11.0456 12.25L9.85829 16.1428ZM5.50481 20.6889L7.84346 13.0395L0 7.89447L10.362 7.21391L14.3917 0L18.4213 7.21391L28.7833 7.89447L20.9399 13.0395L23.2785 20.6889L14.3917 16.6328L5.50481 20.6889Z",
                 fill: "rgba(255,255,0,1)",
                 fillRule: "nonzero",
               },
@@ -1025,11 +990,11 @@ export default function Vagas2(props) {
           direction="column"
           justifyContent="unset"
           width="172.7px"
-          height="17.26px"
+          height="19.01px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="109.27px"
+          top="120.34px"
           left="122.46px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -1038,14 +1003,14 @@ export default function Vagas2(props) {
         ></Text>
         <View
           width="25.12px"
-          height="17.26px"
+          height="19.01px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           overflow="hidden"
           position="absolute"
-          top="115px"
+          top="126.65px"
           left="237px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(
@@ -1055,16 +1020,16 @@ export default function Vagas2(props) {
         >
           <Icon
             width="23.03px"
-            height="15.1px"
+            height="16.63px"
             viewBox={{
               minX: 0,
               minY: 0,
               width: 23.02666664123535,
-              height: 15.101123809814453,
+              height: 16.630352020263672,
             }}
             paths={[
               {
-                d: "M7.95467 15.1011L5.966 12.8L2.198 12.2247L2.56433 9.56404L0 7.55056L2.56433 5.53708L2.198 2.8764L5.966 2.30112L7.95467 0L11.5133 1.0427L15.072 0L17.0607 2.30112L20.8287 2.8764L20.4623 5.53708L23.0267 7.55056L20.4623 9.56404L20.8287 12.2247L17.0607 12.8L15.072 15.1011L11.5133 14.0584L7.95467 15.1011ZM8.84433 13.2674L11.5133 12.4764L14.2347 13.2674L15.7 11.5416L18.5783 11.0742L18.3167 9.06067L20.253 7.55056L18.3167 6.00449L18.5783 3.99101L15.7 3.55955L14.1823 1.83371L11.5133 2.62472L8.792 1.83371L7.32667 3.55955L4.44833 3.99101L4.71 6.00449L2.77367 7.55056L4.71 9.06067L4.44833 11.1101L7.32667 11.5416L8.84433 13.2674ZM10.4143 10.1034L16.328 6.04045L14.8627 4.99775L10.4143 8.05393L8.164 6.54382L6.69867 7.55056L10.4143 10.1034Z",
+                d: "M7.95467 16.6304L5.966 14.0962L2.198 13.4627L2.56433 10.5326L0 8.31518L2.56433 6.0978L2.198 3.16769L5.966 2.53415L7.95467 0L11.5133 1.14829L15.072 0L17.0607 2.53415L20.8287 3.16769L20.4623 6.0978L23.0267 8.31518L20.4623 10.5326L20.8287 13.4627L17.0607 14.0962L15.072 16.6304L11.5133 15.4821L7.95467 16.6304ZM8.84433 14.611L11.5133 13.7398L14.2347 14.611L15.7 12.7103L18.5783 12.1956L18.3167 9.97821L20.253 8.31518L18.3167 6.61255L18.5783 4.39516L15.7 3.92001L14.1823 2.0194L11.5133 2.89051L8.792 2.0194L7.32667 3.92001L4.44833 4.39516L4.71 6.61255L2.77367 8.31518L4.71 9.97821L4.44833 12.2352L7.32667 12.7103L8.84433 14.611ZM10.4143 11.1265L16.328 6.65214L14.8627 5.50385L10.4143 8.86952L8.164 7.20649L6.69867 8.31518L10.4143 11.1265Z",
                 fill: "rgba(75,119,209,1)",
                 fillRule: "nonzero",
               },
@@ -1092,11 +1057,11 @@ export default function Vagas2(props) {
           direction="column"
           justifyContent="unset"
           width="113.04px"
-          height="12.94px"
+          height="14.25px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="143.63px"
+          top="158.17px"
           left="37.68px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -1114,11 +1079,11 @@ export default function Vagas2(props) {
           direction="column"
           justifyContent="unset"
           width="51.29px"
-          height="12.94px"
+          height="14.25px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="74.79px"
+          top="82.36px"
           left="534.85px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -1136,11 +1101,11 @@ export default function Vagas2(props) {
           direction="column"
           justifyContent="unset"
           width="63.85px"
-          height="12.94px"
+          height="14.25px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="143.63px"
+          top="158.17px"
           left="217.71px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -1149,16 +1114,16 @@ export default function Vagas2(props) {
         ></Text>
         <Icon
           width="20.93px"
-          height="14.38px"
+          height="15.84px"
           viewBox={{
             minX: 0,
             minY: 0,
             width: 20.933332443237305,
-            height: 14.382022857666016,
+            height: 15.838430404663086,
           }}
           paths={[
             {
-              d: "M0 14.382L0 12.784L20.9333 12.784L20.9333 14.382L0 14.382ZM2.85455 11.985C2.33121 11.985 1.88321 11.8285 1.51053 11.5156C1.13785 11.2027 0.951515 10.8265 0.951515 10.387L0.951515 1.598C0.951515 1.15855 1.13785 0.782355 1.51053 0.469413C1.88321 0.156471 2.33121 0 2.85455 0L18.0788 0C18.6021 0 19.0501 0.156471 19.4228 0.469413C19.7955 0.782355 19.9818 1.15855 19.9818 1.598L19.9818 10.387C19.9818 10.8265 19.7955 11.2027 19.4228 11.5156C19.0501 11.8285 18.6021 11.985 18.0788 11.985L2.85455 11.985ZM2.85455 10.387L18.0788 10.387L18.0788 1.598L2.85455 1.598L2.85455 10.387Z",
+              d: "M0 15.8384L0 14.0786L20.9333 14.0786L20.9333 15.8384L0 15.8384ZM2.85455 13.1987C2.33121 13.1987 1.88321 13.0264 1.51053 12.6817C1.13785 12.3371 0.951515 11.9228 0.951515 11.4389L0.951515 1.75983C0.951515 1.27587 1.13785 0.861581 1.51053 0.516949C1.88321 0.172316 2.33121 0 2.85455 0L18.0788 0C18.6021 0 19.0501 0.172316 19.4228 0.516949C19.7955 0.861581 19.9818 1.27587 19.9818 1.75983L19.9818 11.4389C19.9818 11.9228 19.7955 12.3371 19.4228 12.6817C19.0501 13.0264 18.6021 13.1987 18.0788 13.1987L2.85455 13.1987ZM2.85455 11.4389L18.0788 11.4389L18.0788 1.75983L2.85455 1.75983L2.85455 11.4389Z",
               fill: "rgba(0,0,0,1)",
               fillRule: "nonzero",
             },
@@ -1168,17 +1133,17 @@ export default function Vagas2(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="142.91px"
+          top="157.38px"
           left="189.45px"
           {...getOverrideProps(overrides, "Vector40711098")}
         ></Icon>
         <Icon
-          width="18.7px"
+          width="20.59px"
           height="0px"
-          viewBox={{ minX: 0, minY: 0, width: 1, height: 18.69662857055664 }}
+          viewBox={{ minX: 0, minY: 0, width: 1, height: 20.58995819091797 }}
           paths={[
             {
-              d: "M0 0L18.6966 0L18.6966 -1L0 -1L0 0Z",
+              d: "M0 0L20.59 0L20.59 -1L0 -1L0 0Z",
               stroke: "rgba(0,0,0,1)",
               fillRule: "nonzero",
               strokeWidth: 1,
@@ -1189,7 +1154,7 @@ export default function Vagas2(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="141.47px"
+          top="155.8px"
           left="169.56px"
           transformOrigin="top left"
           transform="rotate(90deg)"
@@ -1197,10 +1162,10 @@ export default function Vagas2(props) {
         ></Icon>
         <Button
           width="196.77px"
-          height="36.67px"
+          height="40.39px"
           position="absolute"
           borderRadius="20px"
-          top="111px"
+          top="122.24px"
           left="416px"
           backgroundColor="rgba(22,73,86,1)"
           size="default"
@@ -1211,13 +1176,13 @@ export default function Vagas2(props) {
         ></Button>
         <View
           width="628px"
-          height="129.44px"
+          height="142.55px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="217.89px"
+          top="239.95px"
           left="0px"
           borderRadius="15px"
           padding="0px 0px 0px 0px"
@@ -1235,11 +1200,11 @@ export default function Vagas2(props) {
           direction="column"
           justifyContent="unset"
           width="404.01px"
-          height="20.85px"
+          height="22.97px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="238.02px"
+          top="262.13px"
           left="37.68px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -1260,11 +1225,11 @@ export default function Vagas2(props) {
           direction="column"
           justifyContent="unset"
           width="34.54px"
-          height="17.26px"
+          height="19.01px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="274.07px"
+          top="301.82px"
           left="37.68px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -1273,14 +1238,14 @@ export default function Vagas2(props) {
         ></Text>
         <View
           width="34.54px"
-          height="23.73px"
+          height="26.13px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           overflow="hidden"
           position="absolute"
-          top="271.91px"
+          top="299.45px"
           left="80.59px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(
@@ -1290,16 +1255,16 @@ export default function Vagas2(props) {
         >
           <Icon
             width="28.78px"
-            height="18.79px"
+            height="20.69px"
             viewBox={{
               minX: 0,
               minY: 0,
               width: 28.783334732055664,
-              height: 18.786516189575195,
+              height: 20.688947677612305,
             }}
             paths={[
               {
-                d: "M9.85829 14.6584L14.3917 12.7798L18.925 14.6831L17.7377 11.1236L21.7314 8.75056L16.4785 8.42921L14.3917 5.06742L12.3049 8.40449L7.05192 8.72584L11.0456 11.1236L9.85829 14.6584ZM5.50481 18.7865L7.84346 11.8404L0 7.16854L10.362 6.55056L14.3917 0L18.4213 6.55056L28.7833 7.16854L20.9399 11.8404L23.2785 18.7865L14.3917 15.1034L5.50481 18.7865Z",
+                d: "M9.85829 16.1428L14.3917 14.0739L18.925 16.17L17.7377 12.25L21.7314 9.63669L16.4785 9.2828L14.3917 5.58057L12.3049 9.25558L7.05192 9.60947L11.0456 12.25L9.85829 16.1428ZM5.50481 20.6889L7.84346 13.0395L0 7.89447L10.362 7.21391L14.3917 0L18.4213 7.21391L28.7833 7.89447L20.9399 13.0395L23.2785 20.6889L14.3917 16.6328L5.50481 20.6889Z",
                 fill: "rgba(255,255,0,1)",
                 fillRule: "nonzero",
               },
@@ -1326,12 +1291,12 @@ export default function Vagas2(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="unset"
-          height="unset"
+          width="97px"
+          height="26.43px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="272.22px"
+          top="299.79px"
           left="122.46px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -1340,14 +1305,14 @@ export default function Vagas2(props) {
         ></Text>
         <View
           width="25.12px"
-          height="17.26px"
+          height="19.01px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           overflow="hidden"
           position="absolute"
-          top="275.96px"
+          top="303.9px"
           left="237px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(
@@ -1357,16 +1322,16 @@ export default function Vagas2(props) {
         >
           <Icon
             width="23.03px"
-            height="15.1px"
+            height="16.63px"
             viewBox={{
               minX: 0,
               minY: 0,
               width: 23.02666664123535,
-              height: 15.101123809814453,
+              height: 16.630352020263672,
             }}
             paths={[
               {
-                d: "M7.95467 15.1011L5.966 12.8L2.198 12.2247L2.56433 9.56404L0 7.55056L2.56433 5.53708L2.198 2.8764L5.966 2.30112L7.95467 0L11.5133 1.0427L15.072 0L17.0607 2.30112L20.8287 2.8764L20.4623 5.53708L23.0267 7.55056L20.4623 9.56404L20.8287 12.2247L17.0607 12.8L15.072 15.1011L11.5133 14.0584L7.95467 15.1011ZM8.84433 13.2674L11.5133 12.4764L14.2347 13.2674L15.7 11.5416L18.5783 11.0742L18.3167 9.06067L20.253 7.55056L18.3167 6.00449L18.5783 3.99101L15.7 3.55955L14.1823 1.83371L11.5133 2.62472L8.792 1.83371L7.32667 3.55955L4.44833 3.99101L4.71 6.00449L2.77367 7.55056L4.71 9.06067L4.44833 11.1101L7.32667 11.5416L8.84433 13.2674ZM10.4143 10.1034L16.328 6.04045L14.8627 4.99775L10.4143 8.05393L8.164 6.54382L6.69867 7.55056L10.4143 10.1034Z",
+                d: "M7.95467 16.6304L5.966 14.0962L2.198 13.4627L2.56433 10.5326L0 8.31518L2.56433 6.0978L2.198 3.16769L5.966 2.53415L7.95467 0L11.5133 1.14829L15.072 0L17.0607 2.53415L20.8287 3.16769L20.4623 6.0978L23.0267 8.31518L20.4623 10.5326L20.8287 13.4627L17.0607 14.0962L15.072 16.6304L11.5133 15.4821L7.95467 16.6304ZM8.84433 14.611L11.5133 13.7398L14.2347 14.611L15.7 12.7103L18.5783 12.1956L18.3167 9.97821L20.253 8.31518L18.3167 6.61255L18.5783 4.39516L15.7 3.92001L14.1823 2.0194L11.5133 2.89051L8.792 2.0194L7.32667 3.92001L4.44833 4.39516L4.71 6.61255L2.77367 8.31518L4.71 9.97821L4.44833 12.2352L7.32667 12.7103L8.84433 14.611ZM10.4143 11.1265L16.328 6.65214L14.8627 5.50385L10.4143 8.86952L8.164 7.20649L6.69867 8.31518L10.4143 11.1265Z",
                 fill: "rgba(75,119,209,1)",
                 fillRule: "nonzero",
               },
@@ -1394,11 +1359,11 @@ export default function Vagas2(props) {
           direction="column"
           justifyContent="unset"
           width="113.04px"
-          height="12.94px"
+          height="14.25px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="307.58px"
+          top="338.73px"
           left="37.68px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -1416,11 +1381,11 @@ export default function Vagas2(props) {
           direction="column"
           justifyContent="unset"
           width="43.96px"
-          height="12.94px"
+          height="14.25px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="238.74px"
+          top="262.92px"
           left="534.85px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -1438,11 +1403,11 @@ export default function Vagas2(props) {
           direction="column"
           justifyContent="unset"
           width="58.61px"
-          height="12.94px"
+          height="14.25px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="307.58px"
+          top="338.73px"
           left="217.71px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -1451,16 +1416,16 @@ export default function Vagas2(props) {
         ></Text>
         <Icon
           width="20.93px"
-          height="14.38px"
+          height="15.84px"
           viewBox={{
             minX: 0,
             minY: 0,
             width: 20.933332443237305,
-            height: 14.382022857666016,
+            height: 15.838430404663086,
           }}
           paths={[
             {
-              d: "M0 14.382L0 2.69663L5.23333 0L10.4667 2.69663L10.4667 4.31461L20.9333 4.31461L20.9333 14.382L0 14.382ZM2.09333 12.9438L4.18667 12.9438L4.18667 11.5056L2.09333 11.5056L2.09333 12.9438ZM2.09333 10.0674L4.18667 10.0674L4.18667 8.62921L2.09333 8.62921L2.09333 10.0674ZM2.09333 7.19101L4.18667 7.19101L4.18667 5.75281L2.09333 5.75281L2.09333 7.19101ZM2.09333 4.31461L4.18667 4.31461L4.18667 2.8764L2.09333 2.8764L2.09333 4.31461ZM6.28 4.31461L8.37333 4.31461L8.37333 2.8764L6.28 2.8764L6.28 4.31461ZM6.28 12.9438L18.84 12.9438L18.84 5.75281L6.28 5.75281L6.28 12.9438ZM12.56 8.62921L12.56 7.19101L16.7467 7.19101L16.7467 8.62921L12.56 8.62921ZM12.56 11.5056L12.56 10.0674L16.7467 10.0674L16.7467 11.5056L12.56 11.5056ZM8.37333 8.62921L8.37333 7.19101L10.4667 7.19101L10.4667 8.62921L8.37333 8.62921ZM8.37333 11.5056L8.37333 10.0674L10.4667 10.0674L10.4667 11.5056L8.37333 11.5056Z",
+              d: "M0 15.8384L0 2.96971L5.23333 0L10.4667 2.96971L10.4667 4.75153L20.9333 4.75153L20.9333 15.8384L0 15.8384ZM2.09333 14.2546L4.18667 14.2546L4.18667 12.6707L2.09333 12.6707L2.09333 14.2546ZM2.09333 11.0869L4.18667 11.0869L4.18667 9.50306L2.09333 9.50306L2.09333 11.0869ZM2.09333 7.91922L4.18667 7.91922L4.18667 6.33537L2.09333 6.33537L2.09333 7.91922ZM2.09333 4.75153L4.18667 4.75153L4.18667 3.16769L2.09333 3.16769L2.09333 4.75153ZM6.28 4.75153L8.37333 4.75153L8.37333 3.16769L6.28 3.16769L6.28 4.75153ZM6.28 14.2546L18.84 14.2546L18.84 6.33537L6.28 6.33537L6.28 14.2546ZM12.56 9.50306L12.56 7.91922L16.7467 7.91922L16.7467 9.50306L12.56 9.50306ZM12.56 12.6707L12.56 11.0869L16.7467 11.0869L16.7467 12.6707L12.56 12.6707ZM8.37333 9.50306L8.37333 7.91922L10.4667 7.91922L10.4667 9.50306L8.37333 9.50306ZM8.37333 12.6707L8.37333 11.0869L10.4667 11.0869L10.4667 12.6707L8.37333 12.6707Z",
               fill: "rgba(0,0,0,1)",
               fillRule: "nonzero",
             },
@@ -1470,17 +1435,17 @@ export default function Vagas2(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="306.87px"
+          top="337.94px"
           left="189.45px"
           {...getOverrideProps(overrides, "Vector40711092")}
         ></Icon>
         <Icon
-          width="18.7px"
+          width="20.59px"
           height="0px"
-          viewBox={{ minX: 0, minY: 0, width: 1, height: 18.69662857055664 }}
+          viewBox={{ minX: 0, minY: 0, width: 1, height: 20.58995819091797 }}
           paths={[
             {
-              d: "M0 0L18.6966 0L18.6966 -1L0 -1L0 0Z",
+              d: "M0 0L20.59 0L20.59 -1L0 -1L0 0Z",
               stroke: "rgba(0,0,0,1)",
               fillRule: "nonzero",
               strokeWidth: 1,
@@ -1491,7 +1456,7 @@ export default function Vagas2(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="305.43px"
+          top="336.36px"
           left="169.56px"
           transformOrigin="top left"
           transform="rotate(90deg)"
@@ -1499,10 +1464,10 @@ export default function Vagas2(props) {
         ></Icon>
         <Button
           width="196.77px"
-          height="36.67px"
+          height="40.39px"
           position="absolute"
           borderRadius="20px"
-          top="282.15px"
+          top="310.72px"
           left="416px"
           backgroundColor="rgba(22,73,86,1)"
           size="default"
@@ -1514,19 +1479,19 @@ export default function Vagas2(props) {
         <View
           padding="0px 0px 0px 0px"
           width="628px"
-          height="129.44px"
+          height="142.55px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="382.56px"
+          top="421.3px"
           left="0px"
           {...getOverrideProps(overrides, "Group 83")}
         >
           <View
             width="628px"
-            height="129.44px"
+            height="142.55px"
             display="block"
             gap="unset"
             alignItems="unset"
@@ -1550,11 +1515,11 @@ export default function Vagas2(props) {
             direction="column"
             justifyContent="unset"
             width="319.23px"
-            height="20.85px"
+            height="22.97px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="20.13px"
+            top="22.17px"
             left="37.68px"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
@@ -1572,11 +1537,11 @@ export default function Vagas2(props) {
             direction="column"
             justifyContent="unset"
             width="35.59px"
-            height="17.26px"
+            height="19.01px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="58.18px"
+            top="64.07px"
             left="37.68px"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
@@ -1585,14 +1550,14 @@ export default function Vagas2(props) {
           ></Text>
           <View
             width="34.54px"
-            height="23.73px"
+            height="26.13px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             overflow="hidden"
             position="absolute"
-            top="56.02px"
+            top="61.7px"
             left="80.59px"
             padding="0px 0px 0px 0px"
             {...getOverrideProps(
@@ -1602,16 +1567,16 @@ export default function Vagas2(props) {
           >
             <Icon
               width="28.78px"
-              height="18.79px"
+              height="20.69px"
               viewBox={{
                 minX: 0,
                 minY: 0,
                 width: 28.783334732055664,
-                height: 18.786516189575195,
+                height: 20.688947677612305,
               }}
               paths={[
                 {
-                  d: "M9.85829 14.6584L14.3917 12.7798L18.925 14.6831L17.7377 11.1236L21.7314 8.75056L16.4785 8.42921L14.3917 5.06742L12.3049 8.40449L7.05192 8.72584L11.0456 11.1236L9.85829 14.6584ZM5.50481 18.7865L7.84346 11.8404L0 7.16854L10.362 6.55056L14.3917 0L18.4213 6.55056L28.7833 7.16854L20.9399 11.8404L23.2785 18.7865L14.3917 15.1034L5.50481 18.7865Z",
+                  d: "M9.85829 16.1428L14.3917 14.0739L18.925 16.17L17.7377 12.25L21.7314 9.63669L16.4785 9.2828L14.3917 5.58057L12.3049 9.25558L7.05192 9.60947L11.0456 12.25L9.85829 16.1428ZM5.50481 20.6889L7.84346 13.0395L0 7.89447L10.362 7.21391L14.3917 0L18.4213 7.21391L28.7833 7.89447L20.9399 13.0395L23.2785 20.6889L14.3917 16.6328L5.50481 20.6889Z",
                   fill: "rgba(255,255,0,1)",
                   fillRule: "nonzero",
                 },
@@ -1639,11 +1604,11 @@ export default function Vagas2(props) {
             direction="column"
             justifyContent="unset"
             width="172.7px"
-            height="17.26px"
+            height="19.01px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="54.34px"
+            top="59.84px"
             left="122.46px"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
@@ -1652,14 +1617,14 @@ export default function Vagas2(props) {
           ></Text>
           <View
             width="25.12px"
-            height="17.26px"
+            height="19.01px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             overflow="hidden"
             position="absolute"
-            top="60.07px"
+            top="66.15px"
             left="256.89px"
             padding="0px 0px 0px 0px"
             {...getOverrideProps(
@@ -1669,16 +1634,16 @@ export default function Vagas2(props) {
           >
             <Icon
               width="23.03px"
-              height="15.1px"
+              height="16.63px"
               viewBox={{
                 minX: 0,
                 minY: 0,
                 width: 23.02666664123535,
-                height: 15.101123809814453,
+                height: 16.630352020263672,
               }}
               paths={[
                 {
-                  d: "M7.95467 15.1011L5.966 12.8L2.198 12.2247L2.56433 9.56404L0 7.55056L2.56433 5.53708L2.198 2.8764L5.966 2.30112L7.95467 0L11.5133 1.0427L15.072 0L17.0607 2.30112L20.8287 2.8764L20.4623 5.53708L23.0267 7.55056L20.4623 9.56404L20.8287 12.2247L17.0607 12.8L15.072 15.1011L11.5133 14.0584L7.95467 15.1011ZM8.84433 13.2674L11.5133 12.4764L14.2347 13.2674L15.7 11.5416L18.5783 11.0742L18.3167 9.06067L20.253 7.55056L18.3167 6.00449L18.5783 3.99101L15.7 3.55955L14.1823 1.83371L11.5133 2.62472L8.792 1.83371L7.32667 3.55955L4.44833 3.99101L4.71 6.00449L2.77367 7.55056L4.71 9.06067L4.44833 11.1101L7.32667 11.5416L8.84433 13.2674ZM10.4143 10.1034L16.328 6.04045L14.8627 4.99775L10.4143 8.05393L8.164 6.54382L6.69867 7.55056L10.4143 10.1034Z",
+                  d: "M7.95467 16.6304L5.966 14.0962L2.198 13.4627L2.56433 10.5326L0 8.31518L2.56433 6.0978L2.198 3.16769L5.966 2.53415L7.95467 0L11.5133 1.14829L15.072 0L17.0607 2.53415L20.8287 3.16769L20.4623 6.0978L23.0267 8.31518L20.4623 10.5326L20.8287 13.4627L17.0607 14.0962L15.072 16.6304L11.5133 15.4821L7.95467 16.6304ZM8.84433 14.611L11.5133 13.7398L14.2347 14.611L15.7 12.7103L18.5783 12.1956L18.3167 9.97821L20.253 8.31518L18.3167 6.61255L18.5783 4.39516L15.7 3.92001L14.1823 2.0194L11.5133 2.89051L8.792 2.0194L7.32667 3.92001L4.44833 4.39516L4.71 6.61255L2.77367 8.31518L4.71 9.97821L4.44833 12.2352L7.32667 12.7103L8.84433 14.611ZM10.4143 11.1265L16.328 6.65214L14.8627 5.50385L10.4143 8.86952L8.164 7.20649L6.69867 8.31518L10.4143 11.1265Z",
                   fill: "rgba(75,119,209,1)",
                   fillRule: "nonzero",
                 },
@@ -1698,13 +1663,13 @@ export default function Vagas2(props) {
           <View
             padding="0px 0px 0px 0px"
             width="550.55px"
-            height="82.38px"
+            height="90.72px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="20.85px"
+            top="22.97px"
             left="37.68px"
             {...getOverrideProps(overrides, "Group 80")}
           >
@@ -1719,11 +1684,11 @@ export default function Vagas2(props) {
               direction="column"
               justifyContent="unset"
               width="113.04px"
-              height="12.94px"
+              height="14.25px"
               gap="unset"
               alignItems="unset"
               position="absolute"
-              top="65.84px"
+              top="72.51px"
               left="0px"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
@@ -1741,7 +1706,7 @@ export default function Vagas2(props) {
               direction="column"
               justifyContent="unset"
               width="53.38px"
-              height="12.94px"
+              height="14.25px"
               gap="unset"
               alignItems="unset"
               position="absolute"
@@ -1763,11 +1728,11 @@ export default function Vagas2(props) {
               direction="column"
               justifyContent="unset"
               width="81.64px"
-              height="12.94px"
+              height="14.25px"
               gap="unset"
               alignItems="unset"
               position="absolute"
-              top="65.84px"
+              top="72.51px"
               left="180.03px"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
@@ -1775,17 +1740,17 @@ export default function Vagas2(props) {
               {...getOverrideProps(overrides, "Presencial")}
             ></Text>
             <Icon
-              width="18.7px"
+              width="20.59px"
               height="0px"
               viewBox={{
                 minX: 0,
                 minY: 0,
                 width: 1,
-                height: 18.69662857055664,
+                height: 20.58995819091797,
               }}
               paths={[
                 {
-                  d: "M0 0L18.6966 0L18.6966 -1L0 -1L0 0Z",
+                  d: "M0 0L20.59 0L20.59 -1L0 -1L0 0Z",
                   stroke: "rgba(0,0,0,1)",
                   fillRule: "nonzero",
                   strokeWidth: 1,
@@ -1796,7 +1761,7 @@ export default function Vagas2(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="63.69px"
+              top="70.13px"
               left="131.88px"
               transformOrigin="top left"
               transform="rotate(90deg)"
@@ -1805,10 +1770,10 @@ export default function Vagas2(props) {
           </View>
           <Button
             width="196.77px"
-            height="36.67px"
+            height="40.39px"
             position="absolute"
             borderRadius="20px"
-            top="64.26px"
+            top="70.77px"
             left="419.14px"
             backgroundColor="rgba(22,73,86,1)"
             size="default"
@@ -1822,7 +1787,7 @@ export default function Vagas2(props) {
       <View
         padding="0px 0px 0px 0px"
         width="1519px"
-        height="224px"
+        height="133px"
         display="block"
         gap="unset"
         alignItems="unset"
@@ -1835,7 +1800,7 @@ export default function Vagas2(props) {
         <View
           padding="0px 0px 0px 0px"
           width="1519px"
-          height="224px"
+          height="133px"
           display="block"
           gap="unset"
           alignItems="unset"
@@ -1847,7 +1812,7 @@ export default function Vagas2(props) {
         >
           <View
             width="1519px"
-            height="224px"
+            height="133px"
             display="block"
             gap="unset"
             alignItems="unset"
@@ -1862,13 +1827,13 @@ export default function Vagas2(props) {
         </View>
         <Image
           width="487.03px"
-          height="165px"
+          height="118.59px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="20px"
+          top="14.38px"
           left="538.3px"
           padding="0px 0px 0px 0px"
           objectFit="cover"
@@ -1876,15 +1841,15 @@ export default function Vagas2(props) {
           {...getOverrideProps(overrides, "image-removebg-preview (4) 4")}
         ></Image>
         <View
-          width="368.83px"
-          height="50px"
+          width="308px"
+          height="30px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="143px"
-          left="72.36px"
+          top="51px"
+          left="29px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(overrides, "Frame 19")}
         >
@@ -1897,30 +1862,30 @@ export default function Vagas2(props) {
             justifyContent="unset"
             position="absolute"
             top="0px"
-            left="0px"
+            left="-43px"
             padding="0px 0px 0px 0px"
             {...getOverrideProps(overrides, "Frame 18")}
           >
             <View
               padding="0px 0px 0px 0px"
-              width="369.19px"
-              height="50px"
+              width="280px"
+              height="37px"
               display="block"
               gap="unset"
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="0px"
-              left="-0.36px"
+              top="13px"
+              left="57px"
               {...getOverrideProps(overrides, "Group 430")}
             >
               <Icon
-                width="50px"
-                height="50px"
-                viewBox={{ minX: 0, minY: 0, width: 50, height: 50 }}
+                width="38px"
+                height="37px"
+                viewBox={{ minX: 0, minY: 0, width: 38, height: 37 }}
                 paths={[
                   {
-                    d: "M18.1592 50L17.1642 42C16.6252 41.7917 16.1173 41.5417 15.6405 41.25C15.1638 40.9583 14.6973 40.6458 14.2413 40.3125L6.8408 43.4375L0 31.5625L6.40547 26.6875C6.36401 26.3958 6.34328 26.1146 6.34328 25.8438L6.34328 24.1563C6.34328 23.8854 6.36401 23.6042 6.40547 23.3125L0 18.4375L6.8408 6.5625L14.2413 9.6875C14.6973 9.35417 15.1741 9.04167 15.6716 8.75C16.1692 8.45833 16.6667 8.20833 17.1642 8L18.1592 0L31.8408 0L32.8358 8C33.3748 8.20833 33.8827 8.45833 34.3595 8.75C34.8362 9.04167 35.3027 9.35417 35.7587 9.6875L43.1592 6.5625L50 18.4375L43.5945 23.3125C43.636 23.6042 43.6567 23.8854 43.6567 24.1563L43.6567 25.8438C43.6567 26.1146 43.6153 26.3958 43.5323 26.6875L49.9378 31.5625L43.097 43.4375L35.7587 40.3125C35.3027 40.6458 34.8259 40.9583 34.3284 41.25C33.8308 41.5417 33.3333 41.7917 32.8358 42L31.8408 50L18.1592 50ZM22.5124 45L27.4254 45L28.296 38.375C29.5813 38.0417 30.7732 37.5521 31.8719 36.9063C32.9706 36.2604 33.976 35.4792 34.8881 34.5625L41.0448 37.125L43.4701 32.875L38.1219 28.8125C38.3292 28.2292 38.4743 27.6146 38.5572 26.9688C38.6401 26.3229 38.6816 25.6667 38.6816 25C38.6816 24.3333 38.6401 23.6771 38.5572 23.0313C38.4743 22.3854 38.3292 21.7708 38.1219 21.1875L43.4701 17.125L41.0448 12.875L34.8881 15.5C33.976 14.5417 32.9706 13.7396 31.8719 13.0938C30.7732 12.4479 29.5813 11.9583 28.296 11.625L27.4876 5L22.5746 5L21.704 11.625C20.4187 11.9583 19.2268 12.4479 18.1281 13.0938C17.0294 13.7396 16.024 14.5208 15.1119 15.4375L8.95522 12.875L6.52985 17.125L11.8781 21.125C11.6708 21.75 11.5257 22.375 11.4428 23C11.3599 23.625 11.3184 24.2917 11.3184 25C11.3184 25.6667 11.3599 26.3125 11.4428 26.9375C11.5257 27.5625 11.6708 28.1875 11.8781 28.8125L6.52985 32.875L8.95522 37.125L15.1119 34.5C16.024 35.4583 17.0294 36.2604 18.1281 36.9063C19.2268 37.5521 20.4187 38.0417 21.704 38.375L22.5124 45ZM25.1244 33.75C27.529 33.75 29.5813 32.8958 31.2811 31.1875C32.9809 29.4792 33.8308 27.4167 33.8308 25C33.8308 22.5833 32.9809 20.5208 31.2811 18.8125C29.5813 17.1042 27.529 16.25 25.1244 16.25C22.6783 16.25 20.6157 17.1042 18.9366 18.8125C17.2575 20.5208 16.4179 22.5833 16.4179 25C16.4179 27.4167 17.2575 29.4792 18.9366 31.1875C20.6157 32.8958 22.6783 33.75 25.1244 33.75Z",
+                    d: "M13.801 37L13.0448 31.08C12.6352 30.9258 12.2492 30.7408 11.8868 30.525C11.5245 30.3092 11.17 30.0779 10.8234 29.8313L5.199 32.1437L0 23.3563L4.86816 19.7488C4.83665 19.5329 4.8209 19.3248 4.8209 19.1244L4.8209 17.8756C4.8209 17.6752 4.83665 17.4671 4.86816 17.2513L0 13.6438L5.199 4.85625L10.8234 7.16875C11.17 6.92208 11.5323 6.69083 11.9104 6.475C12.2886 6.25917 12.6667 6.07417 13.0448 5.92L13.801 0L24.199 0L24.9552 5.92C25.3648 6.07417 25.7508 6.25917 26.1132 6.475C26.4755 6.69083 26.83 6.92208 27.1766 7.16875L32.801 4.85625L38 13.6438L33.1318 17.2513C33.1633 17.4671 33.1791 17.6752 33.1791 17.8756L33.1791 19.1244C33.1791 19.3248 33.1476 19.5329 33.0846 19.7488L37.9527 23.3563L32.7537 32.1437L27.1766 29.8313C26.83 30.0779 26.4677 30.3092 26.0896 30.525C25.7114 30.7408 25.3333 30.9258 24.9552 31.08L24.199 37L13.801 37ZM17.1095 33.3L20.8433 33.3L21.505 28.3975C22.4818 28.1508 23.3876 27.7885 24.2226 27.3106C25.0576 26.8327 25.8217 26.2546 26.5149 25.5763L31.194 27.4725L33.0373 24.3275L28.9726 21.3213C29.1302 20.8896 29.2405 20.4348 29.3035 19.9569C29.3665 19.479 29.398 18.9933 29.398 18.5C29.398 18.0067 29.3665 17.521 29.3035 17.0431C29.2405 16.5652 29.1302 16.1104 28.9726 15.6788L33.0373 12.6725L31.194 9.5275L26.5149 11.47C25.8217 10.7608 25.0576 10.1673 24.2226 9.68938C23.3876 9.21146 22.4818 8.84917 21.505 8.6025L20.8905 3.7L17.1567 3.7L16.495 8.6025C15.5182 8.84917 14.6124 9.21146 13.7774 9.68938C12.9424 10.1673 12.1783 10.7454 11.4851 11.4238L6.80597 9.5275L4.96269 12.6725L9.02736 15.6325C8.86982 16.095 8.75953 16.5575 8.69652 17.02C8.6335 17.4825 8.60199 17.9758 8.60199 18.5C8.60199 18.9933 8.6335 19.4713 8.69652 19.9338C8.75953 20.3962 8.86982 20.8588 9.02736 21.3213L4.96269 24.3275L6.80597 27.4725L11.4851 25.53C12.1783 26.2392 12.9424 26.8327 13.7774 27.3106C14.6124 27.7885 15.5182 28.1508 16.495 28.3975L17.1095 33.3ZM19.0945 24.975C20.9221 24.975 22.4818 24.3429 23.7736 23.0788C25.0655 21.8146 25.7114 20.2883 25.7114 18.5C25.7114 16.7117 25.0655 15.1854 23.7736 13.9213C22.4818 12.6571 20.9221 12.025 19.0945 12.025C17.2355 12.025 15.6679 12.6571 14.3918 13.9213C13.1157 15.1854 12.4776 16.7117 12.4776 18.5C12.4776 20.2883 13.1157 21.8146 14.3918 23.0788C15.6679 24.3429 17.2355 24.975 19.0945 24.975Z",
                     fill: "rgba(232,234,237,1)",
                     fillRule: "nonzero",
                   },
@@ -1933,7 +1898,7 @@ export default function Vagas2(props) {
                 top="0%"
                 bottom="0%"
                 left="0%"
-                right="86.46%"
+                right="86.43%"
                 {...getOverrideProps(overrides, "Vector41002212")}
               ></Icon>
               <Text
@@ -1946,25 +1911,25 @@ export default function Vagas2(props) {
                 display="block"
                 direction="column"
                 justifyContent="unset"
-                width="53.17px"
+                width="unset"
                 height="unset"
                 gap="unset"
                 alignItems="unset"
                 position="absolute"
-                top="16px"
-                left="316.03px"
+                top="7px"
+                left="229px"
                 padding="0px 0px 0px 0px"
                 whiteSpace="pre-wrap"
                 children="Ajuda"
                 {...getOverrideProps(overrides, "Ajuda")}
               ></Text>
               <Icon
-                width="41px"
-                height="40px"
-                viewBox={{ minX: 0, minY: 0, width: 41, height: 40 }}
+                width="31px"
+                height="30px"
+                viewBox={{ minX: 0, minY: 0, width: 31, height: 30 }}
                 paths={[
                   {
-                    d: "M20.3975 32C21.115 32 21.7215 31.7583 22.2169 31.275C22.7123 30.7917 22.96 30.2 22.96 29.5C22.96 28.8 22.7123 28.2083 22.2169 27.725C21.7215 27.2417 21.115 27 20.3975 27C19.68 27 19.0735 27.2417 18.5781 27.725C18.0827 28.2083 17.835 28.8 17.835 29.5C17.835 30.2 18.0827 30.7917 18.5781 31.275C19.0735 31.7583 19.68 32 20.3975 32ZM18.5525 24.3L22.345 24.3C22.345 23.2 22.4731 22.3333 22.7294 21.7C22.9856 21.0667 23.7117 20.2 24.9075 19.1C25.7958 18.2333 26.4963 17.4083 27.0088 16.625C27.5213 15.8417 27.7775 14.9 27.7775 13.8C27.7775 11.9333 27.0771 10.5 25.6763 9.5C24.2754 8.5 22.6183 8 20.705 8C18.7575 8 17.1773 8.5 15.9644 9.5C14.7515 10.5 13.9058 11.7 13.4275 13.1L16.81 14.4C16.9808 13.8 17.3652 13.15 17.9631 12.45C18.561 11.75 19.475 11.4 20.705 11.4C21.7983 11.4 22.6183 11.6917 23.165 12.275C23.7117 12.8583 23.985 13.5 23.985 14.2C23.985 14.8667 23.78 15.4917 23.37 16.075C22.96 16.6583 22.4475 17.2 21.8325 17.7C20.3292 19 19.4067 19.9833 19.065 20.65C18.7233 21.3167 18.5525 22.5333 18.5525 24.3ZM20.5 40C17.6642 40 14.9992 39.475 12.505 38.425C10.0108 37.375 7.84125 35.95 5.99625 34.15C4.15125 32.35 2.69062 30.2333 1.61438 27.8C0.538125 25.3667 0 22.7667 0 20C0 17.2333 0.538125 14.6333 1.61438 12.2C2.69062 9.76667 4.15125 7.65 5.99625 5.85C7.84125 4.05 10.0108 2.625 12.505 1.575C14.9992 0.525 17.6642 0 20.5 0C23.3358 0 26.0008 0.525 28.495 1.575C30.9892 2.625 33.1588 4.05 35.0037 5.85C36.8488 7.65 38.3094 9.76667 39.3856 12.2C40.4619 14.6333 41 17.2333 41 20C41 22.7667 40.4619 25.3667 39.3856 27.8C38.3094 30.2333 36.8488 32.35 35.0037 34.15C33.1588 35.95 30.9892 37.375 28.495 38.425C26.0008 39.475 23.3358 40 20.5 40ZM20.5 36C25.0783 36 28.9563 34.45 32.1338 31.35C35.3113 28.25 36.9 24.4667 36.9 20C36.9 15.5333 35.3113 11.75 32.1338 8.65C28.9563 5.55 25.0783 4 20.5 4C15.9217 4 12.0437 5.55 8.86625 8.65C5.68875 11.75 4.1 15.5333 4.1 20C4.1 24.4667 5.68875 28.25 8.86625 31.35C12.0437 34.45 15.9217 36 20.5 36Z",
+                    d: "M15.4225 24C15.965 24 16.4235 23.8188 16.7981 23.4563C17.1727 23.0938 17.36 22.65 17.36 22.125C17.36 21.6 17.1727 21.1562 16.7981 20.7938C16.4235 20.4312 15.965 20.25 15.4225 20.25C14.88 20.25 14.4215 20.4312 14.0469 20.7938C13.6723 21.1562 13.485 21.6 13.485 22.125C13.485 22.65 13.6723 23.0938 14.0469 23.4563C14.4215 23.8188 14.88 24 15.4225 24ZM14.0275 18.225L16.895 18.225C16.895 17.4 16.9919 16.75 17.1856 16.275C17.3794 15.8 17.9283 15.15 18.8325 14.325C19.5042 13.675 20.0338 13.0563 20.4212 12.4688C20.8088 11.8813 21.0025 11.175 21.0025 10.35C21.0025 8.95 20.4729 7.875 19.4137 7.125C18.3546 6.375 17.1017 6 15.655 6C14.1825 6 12.9877 6.375 12.0706 7.125C11.1535 7.875 10.5142 8.775 10.1525 9.825L12.71 10.8C12.8392 10.35 13.1298 9.8625 13.5819 9.3375C14.034 8.8125 14.725 8.55 15.655 8.55C16.4817 8.55 17.1017 8.76875 17.515 9.20625C17.9283 9.64375 18.135 10.125 18.135 10.65C18.135 11.15 17.98 11.6188 17.67 12.0563C17.36 12.4938 16.9725 12.9 16.5075 13.275C15.3708 14.25 14.6733 14.9875 14.415 15.4875C14.1567 15.9875 14.0275 16.9 14.0275 18.225ZM15.5 30C13.3558 30 11.3408 29.6062 9.455 28.8187C7.56917 28.0312 5.92875 26.9625 4.53375 25.6125C3.13875 24.2625 2.03437 22.675 1.22063 20.85C0.406875 19.025 0 17.075 0 15C0 12.925 0.406875 10.975 1.22063 9.15C2.03437 7.325 3.13875 5.7375 4.53375 4.3875C5.92875 3.0375 7.56917 1.96875 9.455 1.18125C11.3408 0.39375 13.3558 0 15.5 0C17.6442 0 19.6592 0.39375 21.545 1.18125C23.4308 1.96875 25.0713 3.0375 26.4662 4.3875C27.8612 5.7375 28.9656 7.325 29.7794 9.15C30.5931 10.975 31 12.925 31 15C31 17.075 30.5931 19.025 29.7794 20.85C28.9656 22.675 27.8612 24.2625 26.4662 25.6125C25.0713 26.9625 23.4308 28.0312 21.545 28.8187C19.6592 29.6062 17.6442 30 15.5 30ZM15.5 27C18.9617 27 21.8937 25.8375 24.2962 23.5125C26.6987 21.1875 27.9 18.35 27.9 15C27.9 11.65 26.6987 8.8125 24.2962 6.4875C21.8937 4.1625 18.9617 3 15.5 3C12.0383 3 9.10625 4.1625 6.70375 6.4875C4.30125 8.8125 3.1 11.65 3.1 15C3.1 18.35 4.30125 21.1875 6.70375 23.5125C9.10625 25.8375 12.0383 27 15.5 27Z",
                     fill: "rgba(242,242,242,1)",
                     fillRule: "nonzero",
                   },
@@ -1974,17 +1939,17 @@ export default function Vagas2(props) {
                 alignItems="unset"
                 justifyContent="unset"
                 position="absolute"
-                top="7px"
-                left="258px"
+                top="5px"
+                left="180px"
                 {...getOverrideProps(overrides, "Vector39885990")}
               ></Icon>
               <Icon
-                width="38px"
-                height="42px"
-                viewBox={{ minX: 0, minY: 0, width: 38, height: 42 }}
+                width="28px"
+                height="31px"
+                viewBox={{ minX: 0, minY: 0, width: 28, height: 31 }}
                 paths={[
                   {
-                    d: "M19 8.4C17.8389 8.4 16.8449 7.98875 16.0181 7.16625C15.1912 6.34375 14.7778 5.355 14.7778 4.2C14.7778 3.045 15.1912 2.05625 16.0181 1.23375C16.8449 0.41125 17.8389 0 19 0C20.1611 0 21.1551 0.41125 21.9819 1.23375C22.8088 2.05625 23.2222 3.045 23.2222 4.2C23.2222 5.355 22.8088 6.34375 21.9819 7.16625C21.1551 7.98875 20.1611 8.4 19 8.4ZM12.6667 42L12.6667 14.7L0 14.7L0 10.5L38 10.5L38 14.7L25.3333 14.7L25.3333 42L21.1111 42L21.1111 29.4L16.8889 29.4L16.8889 42L12.6667 42Z",
+                    d: "M14 6.2C13.1444 6.2 12.412 5.89646 11.8028 5.28937C11.1935 4.68229 10.8889 3.9525 10.8889 3.1C10.8889 2.2475 11.1935 1.51771 11.8028 0.910625C12.412 0.303542 13.1444 0 14 0C14.8556 0 15.588 0.303542 16.1972 0.910625C16.8065 1.51771 17.1111 2.2475 17.1111 3.1C17.1111 3.9525 16.8065 4.68229 16.1972 5.28937C15.588 5.89646 14.8556 6.2 14 6.2ZM9.33333 31L9.33333 10.85L0 10.85L0 7.75L28 7.75L28 10.85L18.6667 10.85L18.6667 31L15.5556 31L15.5556 21.7L12.4444 21.7L12.4444 31L9.33333 31Z",
                     fill: "rgba(242,242,242,1)",
                     fillRule: "nonzero",
                   },
@@ -1994,19 +1959,19 @@ export default function Vagas2(props) {
                 alignItems="unset"
                 justifyContent="unset"
                 position="absolute"
-                top="8%"
-                bottom="8%"
-                left="24.65%"
-                right="65.06%"
+                top="8.11%"
+                bottom="8.11%"
+                left="23.21%"
+                right="66.79%"
                 {...getOverrideProps(overrides, "Vector39885991")}
               ></Icon>
               <Icon
-                width="44px"
-                height="45px"
-                viewBox={{ minX: 0, minY: 0, width: 44, height: 45 }}
+                width="33px"
+                height="33px"
+                viewBox={{ minX: 0, minY: 0, width: 33, height: 33 }}
                 paths={[
                   {
-                    d: "M0 18.0673C0 14.3267 0.815833 10.8946 2.4475 7.7712C4.07917 4.64776 6.27 2.05736 9.02 0L11.605 3.59102C9.405 5.23691 7.65417 7.31297 6.3525 9.8192C5.05083 12.3254 4.4 15.0748 4.4 18.0673L0 18.0673ZM39.6 18.0673C39.6 15.0748 38.9492 12.3254 37.6475 9.8192C36.3458 7.31297 34.595 5.23691 32.395 3.59102L34.98 0C37.73 2.05736 39.9208 4.64776 41.5525 7.7712C43.1842 10.8946 44 14.3267 44 18.0673L39.6 18.0673ZM4.4 38.2668L4.4 33.7781L8.8 33.7781L8.8 18.0673C8.8 14.9626 9.71667 12.2039 11.55 9.79115C13.3833 7.37843 15.7667 5.79801 18.7 5.04988L18.7 3.4788C18.7 2.54364 19.0208 1.74875 19.6625 1.09414C20.3042 0.439526 21.0833 0.112219 22 0.112219C22.9167 0.112219 23.6958 0.439526 24.3375 1.09414C24.9792 1.74875 25.3 2.54364 25.3 3.4788L25.3 5.04988C28.2333 5.79801 30.6167 7.37843 32.45 9.79115C34.2833 12.2039 35.2 14.9626 35.2 18.0673L35.2 33.7781L39.6 33.7781L39.6 38.2668L4.4 38.2668ZM22 45C20.79 45 19.7542 44.5605 18.8925 43.6814C18.0308 42.8024 17.6 41.7456 17.6 40.5112L26.4 40.5112C26.4 41.7456 25.9692 42.8024 25.1075 43.6814C24.2458 44.5605 23.21 45 22 45ZM13.2 33.7781L30.8 33.7781L30.8 18.0673C30.8 15.5985 29.9383 13.485 28.215 11.7269C26.4917 9.96883 24.42 9.08978 22 9.08978C19.58 9.08978 17.5083 9.96883 15.785 11.7269C14.0617 13.485 13.2 15.5985 13.2 18.0673L13.2 33.7781Z",
+                    d: "M0 13.2494C0 10.5062 0.611875 7.9894 1.83562 5.69888C3.05937 3.40835 4.7025 1.50873 6.765 0L8.70375 2.63342C7.05375 3.8404 5.74062 5.36284 4.76437 7.20075C3.78812 9.03865 3.3 11.0549 3.3 13.2494L0 13.2494ZM29.7 13.2494C29.7 11.0549 29.2119 9.03865 28.2356 7.20075C27.2594 5.36284 25.9462 3.8404 24.2962 2.63342L26.235 0C28.2975 1.50873 29.9406 3.40835 31.1644 5.69888C32.3881 7.9894 33 10.5062 33 13.2494L29.7 13.2494ZM3.3 28.0623L3.3 24.7706L6.6 24.7706L6.6 13.2494C6.6 10.9726 7.2875 8.9495 8.6625 7.18017C10.0375 5.41085 11.825 4.25187 14.025 3.70324L14.025 2.55112C14.025 1.86534 14.2656 1.28242 14.7469 0.802369C15.2281 0.322319 15.8125 0.0822943 16.5 0.0822943C17.1875 0.0822943 17.7719 0.322319 18.2531 0.802369C18.7344 1.28242 18.975 1.86534 18.975 2.55112L18.975 3.70324C21.175 4.25187 22.9625 5.41085 24.3375 7.18017C25.7125 8.9495 26.4 10.9726 26.4 13.2494L26.4 24.7706L29.7 24.7706L29.7 28.0623L3.3 28.0623ZM16.5 33C15.5925 33 14.8156 32.6777 14.1694 32.033C13.5231 31.3884 13.2 30.6135 13.2 29.7082L19.8 29.7082C19.8 30.6135 19.4769 31.3884 18.8306 32.033C18.1844 32.6777 17.4075 33 16.5 33ZM9.9 24.7706L23.1 24.7706L23.1 13.2494C23.1 11.4389 22.4537 9.88903 21.1612 8.59975C19.8687 7.31047 18.315 6.66584 16.5 6.66584C14.685 6.66584 13.1312 7.31047 11.8387 8.59975C10.5462 9.88903 9.9 11.4389 9.9 13.2494L9.9 24.7706Z",
                     fill: "rgba(242,242,242,1)",
                     fillRule: "nonzero",
                   },
@@ -2016,10 +1981,10 @@ export default function Vagas2(props) {
                 alignItems="unset"
                 justifyContent="unset"
                 position="absolute"
-                top="8%"
-                bottom="2%"
-                left="44.96%"
-                right="43.12%"
+                top="8.11%"
+                bottom="2.7%"
+                left="42.86%"
+                right="45.36%"
                 {...getOverrideProps(overrides, "Vector39885992")}
               ></Icon>
             </View>
@@ -2042,8 +2007,8 @@ export default function Vagas2(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="810px"
-        left="1048px"
+        top="766px"
+        left="1053px"
         {...getOverrideProps(overrides, "Vector40711090")}
       ></Icon>
       <View
@@ -2055,7 +2020,7 @@ export default function Vagas2(props) {
         justifyContent="unset"
         overflow="hidden"
         position="absolute"
-        top="714px"
+        top="690px"
         left="644px"
         padding="0px 0px 0px 0px"
         {...getOverrideProps(
@@ -2081,19 +2046,19 @@ export default function Vagas2(props) {
       <View
         padding="0px 0px 0px 0px"
         width="1519px"
-        height="28px"
+        height="24px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="224px"
+        top="136px"
         left="0px"
         {...getOverrideProps(overrides, "Group 44042351594")}
       >
         <View
           width="1520px"
-          height="29px"
+          height="25px"
           display="block"
           gap="unset"
           alignItems="unset"
@@ -2106,78 +2071,6 @@ export default function Vagas2(props) {
           backgroundColor="rgba(212,180,120,1)"
           {...getOverrideProps(overrides, "Rectangle 23")}
         ></View>
-      </View>
-      <View
-        width="100px"
-        height="100px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="76px"
-        left="447px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Frame 432")}
-      ></View>
-      <View
-        padding="0px 0px 0px 0px"
-        width="43px"
-        height="37px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="30.8%"
-        bottom="65.89%"
-        left="3.82%"
-        right="93.35%"
-        {...getOverrideProps(overrides, "Group 465")}
-      >
-        <View
-          width="43px"
-          height="37px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          overflow="hidden"
-          position="absolute"
-          top="0%"
-          bottom="0%"
-          left="0%"
-          right="0%"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(
-            overrides,
-            "arrow_left_alt_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 1"
-          )}
-        >
-          <Icon
-            width="29px"
-            height="16px"
-            viewBox={{ minX: 0, minY: 0, width: 29, height: 16 }}
-            paths={[
-              {
-                d: "M10.875 16L0 8L10.875 0L13.4125 1.93333L6.97813 6.66667L29 6.66667L29 9.33333L6.97813 9.33333L13.4125 14.0667L10.875 16Z",
-                fill: "rgba(0,0,0,1)",
-                fillRule: "nonzero",
-              },
-            ]}
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="97.3%"
-            bottom="-40.54%"
-            left="-2.33%"
-            right="34.88%"
-            {...getOverrideProps(overrides, "Vector39885996")}
-          ></Icon>
-        </View>
       </View>
     </View>
   );

@@ -6,7 +6,6 @@
 
 import * as React from "react";
 import { ButtonProps, IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
-import { Vagas2Props } from "./Vagas2";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
 } | null;
@@ -50,13 +49,21 @@ export declare type MensagensNotificaesOverridesProps = {
     "Voc\u00EA ainda n\u00E3o tem mensagens :(\u2028\u2028"?: PrimitiveOverrideProps<TextProps>;
     "Vamos nos Conetar+ mande messagens para as pessoas ou empresas"?: PrimitiveOverrideProps<TextProps>;
     "AvatarPerfil 1"?: PrimitiveOverrideProps<ImageProps>;
-    "Group 443"?: PrimitiveOverrideProps<ViewProps>;
-    Vagas2?: Vagas2Props;
-    "Group 441"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 19"?: PrimitiveOverrideProps<ViewProps>;
+    "image-removebg-preview (4) 5"?: PrimitiveOverrideProps<ImageProps>;
+    "Frame 20"?: PrimitiveOverrideProps<ViewProps>;
+    "Frame 18"?: PrimitiveOverrideProps<ViewProps>;
+    "Group 430"?: PrimitiveOverrideProps<ViewProps>;
+    Vector426013520?: PrimitiveOverrideProps<IconProps>;
+    Ajuda?: PrimitiveOverrideProps<TextProps>;
+    Vector426013522?: PrimitiveOverrideProps<IconProps>;
+    Vector426013523?: PrimitiveOverrideProps<IconProps>;
+    Vector426013524?: PrimitiveOverrideProps<IconProps>;
+    "Group 442"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 23"?: PrimitiveOverrideProps<ViewProps>;
-    Button42381848?: PrimitiveOverrideProps<ButtonProps>;
-    Button42381849?: PrimitiveOverrideProps<ButtonProps>;
-    Button42381850?: PrimitiveOverrideProps<ButtonProps>;
+    Button426013527?: PrimitiveOverrideProps<ButtonProps>;
+    Button426013528?: PrimitiveOverrideProps<ButtonProps>;
+    Button426013529?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type MensagensNotificaesProps = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;
