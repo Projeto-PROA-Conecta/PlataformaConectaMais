@@ -21,12 +21,7 @@ export declare type CadastroUsuario5OverridesProps = {
     CadastroUsuario5?: PrimitiveOverrideProps<ViewProps>;
     Cadastro?: PrimitiveOverrideProps<ViewProps>;
     "Group 394"?: PrimitiveOverrideProps<ViewProps>;
-    "back gorund"?: PrimitiveOverrideProps<ViewProps>;
-    Vector42343692?: PrimitiveOverrideProps<IconProps>;
-    Vector42343693?: PrimitiveOverrideProps<IconProps>;
-    Group?: PrimitiveOverrideProps<ViewProps>;
-    Rectangle?: PrimitiveOverrideProps<ImageProps>;
-    "Rectangle 2"?: PrimitiveOverrideProps<ViewProps>;
+    BackTransparente?: PrimitiveOverrideProps<ImageProps>;
     "Group 464"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 7"?: PrimitiveOverrideProps<ViewProps>;
     "Group 6"?: PrimitiveOverrideProps<ViewProps>;

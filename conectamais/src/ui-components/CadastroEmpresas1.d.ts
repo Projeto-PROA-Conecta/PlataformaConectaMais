@@ -5,7 +5,7 @@
  **************************************************************************/
 
 import * as React from "react";
-import { CheckboxFieldProps, IconProps, ImageProps, TextFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+import { CheckboxFieldProps, ImageProps, TextFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
 } | null;
@@ -20,15 +20,10 @@ export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes
 export declare type CadastroEmpresas1OverridesProps = {
     CadastroEmpresas1?: PrimitiveOverrideProps<ViewProps>;
     Cadastro?: PrimitiveOverrideProps<ViewProps>;
-    "Noise & Texture"?: PrimitiveOverrideProps<ImageProps>;
     "Group 394"?: PrimitiveOverrideProps<ViewProps>;
     "back gorund"?: PrimitiveOverrideProps<ViewProps>;
-    Vector42342805?: PrimitiveOverrideProps<IconProps>;
-    Vector42342806?: PrimitiveOverrideProps<IconProps>;
-    Group?: PrimitiveOverrideProps<ViewProps>;
     Rectangle?: PrimitiveOverrideProps<ImageProps>;
     "Rectangle 7"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 2"?: PrimitiveOverrideProps<ViewProps>;
     "Group 4"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 1"?: PrimitiveOverrideProps<ViewProps>;
     TextField40271492?: PrimitiveOverrideProps<TextFieldProps>;

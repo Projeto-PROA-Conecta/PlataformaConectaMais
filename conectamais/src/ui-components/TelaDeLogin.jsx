@@ -48,375 +48,285 @@ export default function TelaDeLogin(props) {
         {...getOverrideProps(overrides, "Login")}
       >
         <View
-          width="1519px"
-          height="1040px"
+          padding="0px 0px 0px 0px"
+          width="0px"
+          height="0px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
-          overflow="hidden"
           position="absolute"
-          top="0px"
-          left="0px"
+          top="0%"
+          bottom="100%"
+          left="0%"
+          right="100%"
+          {...getOverrideProps(overrides, "Group40291488")}
+        ></View>
+        <Image
+          width="100%"
+          height="93.85%"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="0%"
+          bottom="6.15%"
+          left="0%"
+          right="0%"
           padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "back gorund")}
-        >
-          <Icon
-            width="1822.8px"
-            height="1248px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 1822.800048828125,
-              height: 1248,
-            }}
-            paths={[
-              {
-                d: "M1822.8 0L0 0L0 1248L1822.8 1248L1822.8 0Z",
-                fill: "rgba(0,0,0,1)",
-                fillRule: "nonzero",
-              },
-            ]}
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="-10%"
-            bottom="-10%"
-            left="-10%"
-            right="-10%"
-            {...getOverrideProps(overrides, "Vector40291486")}
-          ></Icon>
-          <Icon
-            width="1822.8px"
-            height="1248px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 1822.800048828125,
-              height: 1248,
-            }}
-            paths={[
-              {
-                d: "M1822.8 0L0 0L0 1248L1822.8 1248L1822.8 0Z",
-                fill: "rgba(0,0,0,1)",
-                fillRule: "nonzero",
-              },
-            ]}
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="-10%"
-            bottom="-10%"
-            left="-10%"
-            right="-10%"
-            {...getOverrideProps(overrides, "Vector40291487")}
-          ></Icon>
-          <View
-            padding="0px 0px 0px 0px"
-            width="1519px"
-            height="1040px"
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="0%"
-            bottom="0%"
-            left="0%"
-            right="0%"
-            {...getOverrideProps(overrides, "Group40291488")}
-          >
-            <Image
-              width="100%"
-              height="100%"
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="0%"
-              bottom="0%"
-              left="0%"
-              right="0%"
-              padding="0px 0px 0px 0px"
-              objectFit="unset"
-              src={bancoImagens?.Background2}
-              {...getOverrideProps(overrides, "Rectangle")}
-            ></Image>
-          </View>
-          <View
-            padding="0px 0px 0px 0px"
-            width="677px"
-            height="786.75px"
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="12.18%"
-            bottom="12.18%"
-            left="45.89%"
-            right="9.55%"
-            {...getOverrideProps(overrides, "Group 3")}
-          >
-            <View
-              width="677px"
-              height="786.75px"
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="0%"
-              bottom="0%"
-              left="0%"
-              right="0%"
-              borderRadius="12px"
-              padding="0px 0px 0px 0px"
-              backgroundColor="rgba(255,255,255,1)"
-              {...getOverrideProps(overrides, "Rectangle 1")}
-            ></View>
-            <Text
-              fontFamily="Montserrat"
-              fontSize="12px"
-              fontWeight="700"
-              color="rgba(255,255,255,1)"
-              lineHeight="14.628000259399414px"
-              textAlign="left"
-              display="block"
-              direction="column"
-              justifyContent="unset"
-              width="39px"
-              height="13.97px"
-              gap="unset"
-              alignItems="unset"
-              position="absolute"
-              top="63.43%"
-              bottom="34.79%"
-              left="71.2%"
-              right="23.04%"
-              padding="0px 0px 0px 0px"
-              whiteSpace="pre-wrap"
-              children="Entrar"
-              {...getOverrideProps(overrides, "Entrar")}
-            ></Text>
-            <TextField
-              width="422px"
-              height="67.97px"
-              label="Email"
-              placeholder="nome@exemplo.com"
-              position="absolute"
-              top="33.37%"
-              bottom="57.99%"
-              left="18.76%"
-              right="18.91%"
-              size="large"
-              isDisabled={false}
-              labelHidden={false}
-              variation="default"
-              {...getOverrideProps(overrides, "TextField")}
-            ></TextField>
-            <Text
-              fontFamily="Montserrat"
-              fontSize="9px"
-              fontWeight="600"
-              color="rgba(0,0,0,1)"
-              lineHeight="10.970999717712402px"
-              textAlign="left"
-              display="block"
-              direction="column"
-              justifyContent="unset"
-              width="75px"
-              height="10.24px"
-              gap="unset"
-              alignItems="unset"
-              position="absolute"
-              top="57.28%"
-              bottom="41.42%"
-              left="72.82%"
-              right="16.1%"
-              padding="0px 0px 0px 0px"
-              whiteSpace="pre-wrap"
-              children="Esqueci a senha"
-              {...getOverrideProps(overrides, "Esqueci a senha")}
-            ></Text>
-            <View
-              padding="0px 0px 0px 0px"
-              width="234px"
-              height="16.76px"
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="70.21%"
-              bottom="27.66%"
-              left="15.36%"
-              right="50.07%"
-              {...getOverrideProps(overrides, "Group 1")}
-            >
-              <Text
-                fontFamily="Montserrat"
-                fontSize="15px"
-                fontWeight="400"
-                color="rgba(0,0,0,1)"
-                lineHeight="18.28499984741211px"
-                textAlign="left"
-                display="block"
-                direction="column"
-                justifyContent="unset"
-                width="114px"
-                height="16.76px"
-                gap="unset"
-                alignItems="unset"
-                position="absolute"
-                top="0%"
-                bottom="0%"
-                left="0%"
-                right="51.28%"
-                padding="0px 0px 0px 0px"
-                whiteSpace="pre-wrap"
-                children="Novo por aqui?"
-                {...getOverrideProps(overrides, "Novo por aqui?")}
-              ></Text>
-              <Text
-                fontFamily="Montserrat"
-                fontSize="15px"
-                fontWeight="700"
-                color="rgba(0,0,0,1)"
-                lineHeight="18.28499984741211px"
-                textAlign="left"
-                display="block"
-                direction="column"
-                justifyContent="unset"
-                width="89px"
-                height="16.76px"
-                gap="unset"
-                alignItems="unset"
-                position="absolute"
-                top="0%"
-                bottom="0%"
-                left="61.97%"
-                right="0%"
-                padding="0px 0px 0px 0px"
-                whiteSpace="pre-wrap"
-                children="Inscreva-se"
-                {...getOverrideProps(overrides, "Inscreva-se")}
-              ></Text>
-            </View>
-            <PasswordField
-              width="423px"
-              height="72.62px"
-              placeholder="Insira sua senha"
-              position="absolute"
-              top="43.79%"
-              bottom="46.98%"
-              left="18.76%"
-              right="18.76%"
-              label="Label"
-              size="large"
-              isDisabled={false}
-              labelHidden={false}
-              variation="default"
-              hideShowPassword={false}
-              {...getOverrideProps(overrides, "PasswordField")}
-            ></PasswordField>
-            <Image
-              width="6.2%"
-              height="4.85%"
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="60.42%"
-              bottom="34.73%"
-              left="18.76%"
-              right="75.04%"
-              padding="0px 0px 0px 0px"
-              objectFit="cover"
-              src={bancoImagens?.GoogleLogo}
-              {...getOverrideProps(overrides, "image 27")}
-            ></Image>
-            <Image
-              width="6.35%"
-              height="4.85%"
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="60.17%"
-              bottom="34.98%"
-              left="28.95%"
-              right="64.7%"
-              padding="0px 0px 0px 0px"
-              objectFit="cover"
-              src={bancoImagens?.FacebookLogo}
-              {...getOverrideProps(overrides, "FacebookLogo 1")}
-            ></Image>
-            <Image
-              width="52.14%"
-              height="21.54%"
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="7.57%"
-              bottom="70.89%"
-              left="23.93%"
-              right="23.93%"
-              padding="0px 0px 0px 0px"
-              objectFit="cover"
-              src={bancoImagens?.LogoPretaConecta}
-              {...getOverrideProps(
-                overrides,
-                "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"
-              )}
-            ></Image>
-          </View>
-          <Button
-            width="109px"
-            height="38.17px"
-            position="absolute"
-            borderRadius="10px"
-            top="59%"
-            bottom="37.33%"
-            left="77.22%"
-            right="15.6%"
-            backgroundColor="rgba(0,0,0,1)"
-            size="default"
-            isDisabled={false}
-            variation="primary"
-            children="Entrar"
-            {...getOverrideProps(overrides, "Button")}
-          ></Button>
-        </View>
+          objectFit="unset"
+          {...getOverrideProps(overrides, "Rectangle")}
+        ></Image>
         <View
-          width="630px"
-          height="815px"
+          width="638px"
+          height="731px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="-3092px"
-          left="-26px"
+          top="170px"
+          left="716px"
+          borderRadius="12px"
           padding="0px 0px 0px 0px"
-          backgroundColor="rgba(217,217,217,1)"
+          backgroundColor="rgba(255,255,255,1)"
           {...getOverrideProps(overrides, "Rectangle 2")}
         ></View>
+        <View
+          padding="0px 0px 0px 0px"
+          width="464px"
+          height="306.57px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="37.42%"
+          bottom="33.1%"
+          left="52.73%"
+          right="16.72%"
+          {...getOverrideProps(overrides, "Group 3")}
+        >
+          <Text
+            fontFamily="Montserrat"
+            fontSize="12px"
+            fontWeight="700"
+            color="rgba(255,255,255,1)"
+            lineHeight="14.628000259399414px"
+            textAlign="left"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="39px"
+            height="13.97px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="77.14%"
+            bottom="18.3%"
+            left="81.47%"
+            right="10.13%"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="Entrar"
+            {...getOverrideProps(overrides, "Entrar")}
+          ></Text>
+          <TextField
+            width="422px"
+            height="67.97px"
+            label="Email"
+            placeholder="nome@exemplo.com"
+            position="absolute"
+            top="0%"
+            bottom="77.83%"
+            left="4.96%"
+            right="4.09%"
+            size="large"
+            isDisabled={false}
+            labelHidden={false}
+            variation="default"
+            {...getOverrideProps(overrides, "TextField")}
+          ></TextField>
+          <Text
+            fontFamily="Montserrat"
+            fontSize="9px"
+            fontWeight="600"
+            color="rgba(0,0,0,1)"
+            lineHeight="10.970999717712402px"
+            textAlign="left"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="75px"
+            height="10.24px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="61.35%"
+            bottom="35.31%"
+            left="83.84%"
+            right="0%"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="Esqueci a senha"
+            {...getOverrideProps(overrides, "Esqueci a senha")}
+          ></Text>
+          <View
+            padding="0px 0px 0px 0px"
+            width="234px"
+            height="16.76px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="94.53%"
+            bottom="0%"
+            left="0%"
+            right="49.57%"
+            {...getOverrideProps(overrides, "Group 1")}
+          >
+            <Text
+              fontFamily="Montserrat"
+              fontSize="15px"
+              fontWeight="400"
+              color="rgba(0,0,0,1)"
+              lineHeight="18.28499984741211px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="114px"
+              height="16.76px"
+              gap="unset"
+              alignItems="unset"
+              position="absolute"
+              top="0%"
+              bottom="0%"
+              left="0%"
+              right="51.28%"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Novo por aqui?"
+              {...getOverrideProps(overrides, "Novo por aqui?")}
+            ></Text>
+            <Text
+              fontFamily="Montserrat"
+              fontSize="15px"
+              fontWeight="700"
+              color="rgba(0,0,0,1)"
+              lineHeight="18.28499984741211px"
+              textAlign="left"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="89px"
+              height="16.76px"
+              gap="unset"
+              alignItems="unset"
+              position="absolute"
+              top="0%"
+              bottom="0%"
+              left="61.97%"
+              right="0%"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Inscreva-se"
+              {...getOverrideProps(overrides, "Inscreva-se")}
+            ></Text>
+          </View>
+          <PasswordField
+            width="423px"
+            height="72.62px"
+            placeholder="Insira sua senha"
+            position="absolute"
+            top="26.73%"
+            bottom="49.59%"
+            left="4.96%"
+            right="3.88%"
+            label="Label"
+            size="large"
+            isDisabled={false}
+            labelHidden={false}
+            variation="default"
+            hideShowPassword={false}
+            {...getOverrideProps(overrides, "PasswordField")}
+          ></PasswordField>
+          <Image
+            width="9.05%"
+            height="12.45%"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="69.42%"
+            bottom="18.13%"
+            left="4.96%"
+            right="85.99%"
+            padding="0px 0px 0px 0px"
+            objectFit="cover"
+            src={bancoImagens?.GoogleLogo}
+            {...getOverrideProps(overrides, "GoogleLogo")}
+          ></Image>
+          <Image
+            width="9.27%"
+            height="12.45%"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="68.76%"
+            bottom="18.78%"
+            left="19.83%"
+            right="70.91%"
+            padding="0px 0px 0px 0px"
+            objectFit="cover"
+            src={bancoImagens?.FacebookLogo}
+            {...getOverrideProps(overrides, "FacebookLogo 1")}
+          ></Image>
+        </View>
+        <Button
+          width="109px"
+          height="38.17px"
+          position="absolute"
+          borderRadius="10px"
+          top="59%"
+          bottom="37.33%"
+          left="77.22%"
+          right="15.6%"
+          backgroundColor="rgba(0,0,0,1)"
+          size="default"
+          isDisabled={false}
+          variation="primary"
+          children="Entrar"
+          {...getOverrideProps(overrides, "Button")}
+        ></Button>
+        <Image
+          width="269px"
+          height="118px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="227px"
+          left="900px"
+          padding="0px 0px 0px 0px"
+          objectFit="cover"
+          {...getOverrideProps(
+            overrides,
+            "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"
+          )}
+        ></Image>
         <Text
           fontFamily="Montserrat"
-          fontSize="36px"
+          fontSize="34px"
           fontWeight="700"
           color="rgba(255,255,255,1)"
-          lineHeight="43.88399887084961px"
+          lineHeight="41.44599914550781px"
           textAlign="left"
           display="block"
           direction="column"
@@ -426,7 +336,7 @@ export default function TelaDeLogin(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="calc(50% - 22px - -55px)"
+          top="calc(50% - 20.5px - -53.5px)"
           left="80px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -435,10 +345,10 @@ export default function TelaDeLogin(props) {
         ></Text>
         <Text
           fontFamily="Montserrat"
-          fontSize="64px"
+          fontSize="44px"
           fontWeight="700"
           color="rgba(255,255,255,1)"
-          lineHeight="78.01599884033203px"
+          lineHeight="53.6359977722168px"
           textAlign="left"
           display="block"
           direction="column"
@@ -448,8 +358,8 @@ export default function TelaDeLogin(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="488px"
-          left="137px"
+          top="501px"
+          left="184px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Bem-vindo!"
@@ -470,17 +380,12 @@ export default function TelaDeLogin(props) {
           {...getOverrideProps(overrides, "undraw_reminder_re_fe15 1")}
         >
           <Icon
-            width="16.38px"
-            height="20.39px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 16.376941680908203,
-              height: 20.392261505126953,
-            }}
+            width="12px"
+            height="14px"
+            viewBox={{ minX: 0, minY: 0, width: 12, height: 14 }}
             paths={[
               {
-                d: "M0 0L16.3769 0L16.3769 5.05131C16.3769 13.5182 9.03868 20.3923 9.65544e-06 20.3923L0 0Z",
+                d: "M0 0L12 0L12 3.4679C12 9.28072 6.62298 14 7.0749e-06 14L0 0Z",
                 fill: "rgba(47,46,65,1)",
                 fillRule: "nonzero",
               },
@@ -490,26 +395,21 @@ export default function TelaDeLogin(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="34.55%"
-            bottom="54.48%"
-            left="87.43%"
-            right="2.7%"
+            top="30.65%"
+            bottom="61.83%"
+            left="83.73%"
+            right="9.04%"
             transformOrigin="top left"
             transform="rotate(-180deg)"
             {...getOverrideProps(overrides, "Vector40291506")}
           ></Icon>
           <Icon
-            width="16.5px"
-            height="13.79px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 16.500272750854492,
-              height: 13.786750793457031,
-            }}
+            width="12px"
+            height="10px"
+            viewBox={{ minX: 0, minY: 0, width: 12, height: 10 }}
             paths={[
               {
-                d: "M13.6845 1.92294L16.5003 13.7868L0 11.2202L6.7239 0L13.6845 1.92294Z",
+                d: "M9.95218 1.39477L12 10L0 8.13843L4.89003 0L9.95218 1.39477Z",
                 fill: "rgba(160,97,106,1)",
                 fillRule: "nonzero",
               },
@@ -519,24 +419,19 @@ export default function TelaDeLogin(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="28.45%"
-            bottom="64.14%"
-            left="77%"
-            right="13.06%"
+            top="26.34%"
+            bottom="68.28%"
+            left="75.9%"
+            right="16.87%"
             {...getOverrideProps(overrides, "Vector40291507")}
           ></Icon>
           <Icon
-            width="16.5px"
-            height="13.79px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 16.500272750854492,
-              height: 13.786750793457031,
-            }}
+            width="12px"
+            height="10px"
+            viewBox={{ minX: 0, minY: 0, width: 12, height: 10 }}
             paths={[
               {
-                d: "M13.6845 1.92294L16.5003 13.7868L0 11.2202L6.7239 0L13.6845 1.92294Z",
+                d: "M9.95218 1.39477L12 10L0 8.13843L4.89003 0L9.95218 1.39477Z",
                 fill: "rgba(0,0,0,0.1)",
                 fillRule: "nonzero",
               },
@@ -546,24 +441,19 @@ export default function TelaDeLogin(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="28.45%"
-            bottom="64.14%"
-            left="77%"
-            right="13.06%"
+            top="26.34%"
+            bottom="68.28%"
+            left="75.9%"
+            right="16.87%"
             {...getOverrideProps(overrides, "Vector40291508")}
           ></Icon>
           <Icon
-            width="15.82px"
-            height="21.93px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 15.819465637207031,
-              height: 21.9317569732666,
-            }}
+            width="12px"
+            height="16px"
+            viewBox={{ minX: 0, minY: 0, width: 12, height: 16 }}
             paths={[
               {
-                d: "M15.8195 0L0 0L0 21.9318L15.8195 21.9318L15.8195 0Z",
+                d: "M12 0L0 0L0 16L12 16L12 0Z",
                 fill: "rgba(160,97,106,1)",
                 fillRule: "nonzero",
               },
@@ -573,26 +463,21 @@ export default function TelaDeLogin(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="54.9%"
-            bottom="33.31%"
-            left="85.25%"
-            right="5.22%"
+            top="45.16%"
+            bottom="46.24%"
+            left="81.93%"
+            right="10.84%"
             transformOrigin="top left"
             transform="rotate(-180deg)"
             {...getOverrideProps(overrides, "Vector40291509")}
           ></Icon>
           <Icon
-            width="18.98px"
-            height="54.83px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 18.983360290527344,
-              height: 54.82939147949219,
-            }}
+            width="14px"
+            height="39px"
+            viewBox={{ minX: 0, minY: 0, width: 14, height: 39 }}
             paths={[
               {
-                d: "M18.9834 0L15.5031 17.4861C15.5031 17.4861 17.7178 29.6375 11.0736 42.0853L6.64418 54.8294L0 53.9403C0 53.9403 4.11306 44.4563 4.11306 40.307C4.11306 36.1578 5.06223 20.1535 5.06223 20.1535L4.58765 1.89144L18.9834 0Z",
+                d: "M14 0L11.4333 12.4378C11.4333 12.4378 13.0667 21.0811 8.16667 29.9351L4.9 39L0 38.3676C0 38.3676 3.03333 31.6216 3.03333 28.6703C3.03333 25.7189 3.73333 14.3351 3.73333 14.3351L3.38333 1.34537L14 0Z",
                 fill: "rgba(47,46,65,1)",
                 fillRule: "nonzero",
               },
@@ -602,24 +487,19 @@ export default function TelaDeLogin(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="64.54%"
-            bottom="5.98%"
-            left="80.01%"
-            right="8.56%"
+            top="51.61%"
+            bottom="27.42%"
+            left="78.31%"
+            right="13.25%"
             {...getOverrideProps(overrides, "Vector40291510")}
           ></Icon>
           <Icon
-            width="10.65px"
-            height="13.21px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 10.64786434173584,
-              height: 13.212113380432129,
-            }}
+            width="7px"
+            height="9px"
+            viewBox={{ minX: 0, minY: 0, width: 7, height: 9 }}
             paths={[
               {
-                d: "M1.7781 0.899303C1.7781 0.899303 9.37144 -1.76807 10.0042 2.0848L9.68783 3.86305C9.68783 3.86305 12.5353 11.8652 8.42227 12.4579C4.30921 13.0507 0.512541 13.9398 0.196151 12.1616C-0.120238 10.3833 -0.115254 8.16356 0.673227 6.60606C1.46171 5.04856 1.7781 0.899303 1.7781 0.899303Z",
+                d: "M1.16894 0.612599C1.16894 0.612599 6.16087 -1.2044 6.57686 1.42015L6.36887 2.63149C6.36887 2.63149 8.24084 8.08248 5.53688 8.48626C2.83291 8.89003 0.336949 9.4957 0.128952 8.28437C-0.0790455 7.07304 -0.0757688 5.56096 0.442585 4.5C0.960941 3.43904 1.16894 0.612599 1.16894 0.612599Z",
                 fill: "rgba(47,46,65,1)",
                 fillRule: "nonzero",
               },
@@ -629,39 +509,39 @@ export default function TelaDeLogin(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="92.9%"
-            bottom="0%"
-            left="78.36%"
-            right="15.22%"
+            top="72.04%"
+            bottom="23.12%"
+            left="77.11%"
+            right="18.67%"
             {...getOverrideProps(overrides, "Vector40291511")}
           ></Icon>
           <View
             padding="0px 0px 0px 0px"
-            width="21.25px"
-            height="68.58px"
+            width="16.23px"
+            height="48.42px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="63.08%"
-            bottom="0.05%"
-            left="72.2%"
-            right="15%"
+            top="50.82%"
+            bottom="23.15%"
+            left="72.06%"
+            right="18.16%"
             {...getOverrideProps(overrides, "Group40291512")}
           >
             <Icon
-              width="18.88px"
-              height="56.76px"
+              width="14.42px"
+              height="40.07px"
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 18.879587173461914,
-                height: 56.75776290893555,
+                width: 14.422691345214844,
+                height: 40.072418212890625,
               }}
               paths={[
                 {
-                  d: "M5.61335 0L3.76487 17.703C3.76487 17.703 -1.97011 28.798 0.716332 42.4856L1.18743 55.8809L7.83346 56.7578C7.83346 56.7578 6.69837 46.5764 7.93025 42.5908C9.16212 38.6053 13.0019 22.9851 13.0019 22.9851L18.8796 5.56714L5.61335 0Z",
+                  d: "M4.28821 0L2.8761 12.4987C2.8761 12.4987 -1.50503 20.3321 0.547228 29.9959L0.907114 39.4533L5.98422 40.0724C5.98422 40.0724 5.11709 32.8841 6.05816 30.0702C6.99922 27.2563 9.93255 16.2281 9.93255 16.2281L14.4227 3.93055L4.28821 0Z",
                   fill: "rgba(47,46,65,1)",
                   fillRule: "nonzero",
                 },
@@ -673,22 +553,22 @@ export default function TelaDeLogin(props) {
               position="absolute"
               top="0%"
               bottom="17.24%"
-              left="11.15%"
+              left="11.16%"
               right="0%"
               {...getOverrideProps(overrides, "Vector40291513")}
             ></Icon>
             <Icon
-              width="11.2px"
-              height="14.21px"
+              width="8.56px"
+              height="10.03px"
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 11.203485488891602,
-                height: 14.212586402893066,
+                width: 8.558684349060059,
+                height: 10.034445762634277,
               }}
               paths={[
                 {
-                  d: "M11.2035 2.35197C11.2035 2.35197 4.70163 -2.18836 2.94993 1.34767L2.72589 3.13818C2.72589 3.13818 -2.38503 10.0828 1.38979 11.7237C5.1646 13.3646 8.54752 15.2077 9.37937 13.582C10.2112 11.9564 10.8655 9.82289 10.5705 8.12142C10.2755 6.41995 11.2035 2.35197 11.2035 2.35197Z",
+                  d: "M8.55868 1.66055C8.55868 1.66055 3.59172 -1.54504 2.25354 0.951487L2.08239 2.21564C2.08239 2.21564 -1.82199 7.11871 1.0617 8.27722C3.9454 9.43573 6.52971 10.737 7.16519 9.58926C7.80067 8.4415 8.30046 6.93521 8.07512 5.73393C7.84979 4.53265 8.55868 1.66055 8.55868 1.66055Z",
                   fill: "rgba(47,46,65,1)",
                   fillRule: "nonzero",
                 },
@@ -706,17 +586,12 @@ export default function TelaDeLogin(props) {
             ></Icon>
           </View>
           <Icon
-            width="31.85px"
-            height="32.38px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 31.853069305419922,
-              height: 32.37759017944336,
-            }}
+            width="24px"
+            height="23px"
+            viewBox={{ minX: 0, minY: 0, width: 24, height: 23 }}
             paths={[
               {
-                d: "M25.4693 0C32.9106 6.50471 33.4626 16.7966 29.1078 29.0448C29.1078 29.0448 15.1867 37.936 5.06223 26.6738L0 3.85288L25.4693 0Z",
+                d: "M19.1901 0C24.7968 4.62074 25.2127 11.9318 21.9316 20.6325C21.9316 20.6325 11.4426 26.9485 3.81419 18.9482L0 2.73696L19.1901 0Z",
                 fill: "rgba(47,46,65,1)",
                 fillRule: "nonzero",
               },
@@ -726,24 +601,19 @@ export default function TelaDeLogin(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="49.48%"
-            bottom="33.11%"
-            left="73.81%"
-            right="7%"
+            top="41.4%"
+            bottom="46.24%"
+            left="73.49%"
+            right="12.05%"
             {...getOverrideProps(overrides, "Vector40291515")}
           ></Icon>
           <Icon
-            width="22.75px"
-            height="42.38px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 22.74604034423828,
-              height: 42.38163757324219,
-            }}
+            width="17px"
+            height="30px"
+            viewBox={{ minX: 0, minY: 0, width: 17, height: 30 }}
             paths={[
               {
-                d: "M6.61018 0.59275L14.5199 1.77825L13.8871 20.4499L22.746 37.0469L11.356 42.3816C11.356 42.3816 2.49712 26.6738 0.915176 16.8934C-0.666771 7.113 0.282397 0 0.282397 0L6.61018 0.59275Z",
+                d: "M4.94034 0.41958L10.8519 1.25874L10.379 14.4755L17 26.2238L8.4873 30C8.4873 30 1.86631 18.8811 0.683987 11.958C-0.498333 5.03497 0.211059 0 0.211059 0L4.94034 0.41958Z",
                 fill: "rgba(234,191,63,1)",
                 fillRule: "nonzero",
               },
@@ -753,24 +623,19 @@ export default function TelaDeLogin(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="32.11%"
-            bottom="45.1%"
-            left="77.64%"
-            right="8.65%"
+            top="29.03%"
+            bottom="54.84%"
+            left="76.51%"
+            right="13.25%"
             {...getOverrideProps(overrides, "Vector40291516")}
           ></Icon>
           <Icon
-            width="15.79px"
-            height="42.38px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 15.785475730895996,
-              height: 42.38163757324219,
-            }}
+            width="12px"
+            height="30px"
+            viewBox={{ minX: 0, minY: 0, width: 12, height: 30 }}
             paths={[
               {
-                d: "M9.17529 0.59275L1.26556 1.77825L1.89834 20.4499L0 37.6396L4.42945 42.3816C4.42945 42.3816 13.2884 26.6738 14.8703 16.8934C16.4522 7.113 15.5031 0 15.5031 0L9.17529 0.59275Z",
+                d: "M6.97499 0.41958L0.962067 1.25874L1.4431 14.4755L0 26.6434L3.36724 30C3.36724 30 10.1017 18.8811 11.3043 11.958C12.5069 5.03497 11.7853 0 11.7853 0L6.97499 0.41958Z",
                 fill: "rgba(234,191,63,1)",
                 fillRule: "nonzero",
               },
@@ -780,24 +645,19 @@ export default function TelaDeLogin(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="32.43%"
-            bottom="44.78%"
-            left="72.48%"
-            right="18.01%"
+            top="29.03%"
+            bottom="54.84%"
+            left="72.29%"
+            right="20.48%"
             {...getOverrideProps(overrides, "Vector40291517")}
           ></Icon>
           <Icon
-            width="10.1px"
-            height="35.33px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 10.098932266235352,
-              height: 35.33355712890625,
-            }}
+            width="8px"
+            height="25px"
+            viewBox={{ minX: 0, minY: 0, width: 8, height: 25 }}
             paths={[
               {
-                d: "M0.419113 0.554169L2.15925 0.109606C2.15925 0.109606 8.32885 -0.631332 9.27801 1.73967C10.2272 4.11067 9.91079 18.0403 9.91079 18.0403C9.91079 18.0403 11.5434 35.1367 5.19026 35.3316C-1.16284 35.5264 0.102724 21.3004 0.102724 21.3004L0.419113 0.554169Z",
+                d: "M0.332006 0.392098L1.71048 0.077551C1.71048 0.077551 6.5978 -0.446694 7.3497 1.23089C8.10159 2.90847 7.85096 12.7643 7.85096 12.7643C7.85096 12.7643 9.14422 24.8607 4.11153 24.9986C-0.921157 25.1365 0.081374 15.071 0.081374 15.071L0.332006 0.392098Z",
                 fill: "rgba(234,191,63,1)",
                 fillRule: "nonzero",
               },
@@ -807,24 +667,19 @@ export default function TelaDeLogin(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="32.69%"
-            bottom="48.31%"
-            left="83.47%"
-            right="10.45%"
+            top="29.57%"
+            bottom="56.99%"
+            left="80.12%"
+            right="15.06%"
             {...getOverrideProps(overrides, "Vector40291518")}
           ></Icon>
           <Icon
-            width="16.38px"
-            height="15.34px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 16.376941680908203,
-              height: 15.34096908569336,
-            }}
+            width="12px"
+            height="11px"
+            viewBox={{ minX: 0, minY: 0, width: 12, height: 11 }}
             paths={[
               {
-                d: "M8.18847 15.341C12.7108 15.341 16.3769 11.9068 16.3769 7.67048C16.3769 3.43419 12.7108 0 8.18847 0C3.6661 0 0 3.43419 0 7.67048C0 11.9068 3.6661 15.341 8.18847 15.341Z",
+                d: "M6 11C9.31371 11 12 8.53756 12 5.5C12 2.46243 9.31371 0 6 0C2.68629 0 0 2.46243 0 5.5C0 8.53756 2.68629 11 6 11Z",
                 fill: "rgba(160,97,106,1)",
                 fillRule: "nonzero",
               },
@@ -834,24 +689,19 @@ export default function TelaDeLogin(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="22.99%"
-            bottom="68.77%"
-            left="78.65%"
-            right="11.48%"
+            top="22.58%"
+            bottom="71.51%"
+            left="77.11%"
+            right="15.66%"
             {...getOverrideProps(overrides, "Vector40291519")}
           ></Icon>
           <Icon
-            width="10.1px"
-            height="35.33px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 10.098933219909668,
-              height: 35.33355712890625,
-            }}
+            width="8px"
+            height="25px"
+            viewBox={{ minX: 0, minY: 0, width: 8, height: 25 }}
             paths={[
               {
-                d: "M9.67982 0.554169L7.93968 0.109606C7.93968 0.109606 1.77009 -0.631332 0.820921 1.73967C-0.128247 4.11067 0.188143 18.0403 0.188143 18.0403C0.188143 18.0403 -1.44443 35.1367 4.90867 35.3316C11.2618 35.5264 9.99621 21.3004 9.99621 21.3004L9.67982 0.554169Z",
+                d: "M7.668 0.392098L6.28952 0.077551C6.28952 0.077551 1.4022 -0.446694 0.650303 1.23089C-0.101592 2.90847 0.14904 12.7643 0.14904 12.7643C0.14904 12.7643 -1.14423 24.8607 3.88846 24.9986C8.92115 25.1365 7.91863 15.071 7.91863 15.071L7.668 0.392098Z",
                 fill: "rgba(234,191,63,1)",
                 fillRule: "nonzero",
               },
@@ -861,24 +711,19 @@ export default function TelaDeLogin(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="33.01%"
-            bottom="47.99%"
-            left="71.6%"
-            right="22.31%"
+            top="29.57%"
+            bottom="56.99%"
+            left="71.69%"
+            right="23.49%"
             {...getOverrideProps(overrides, "Vector40291520")}
           ></Icon>
           <Icon
-            width="14.38px"
-            height="34.83px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 14.380871772766113,
-              height: 34.83151626586914,
-            }}
+            width="11px"
+            height="24px"
+            viewBox={{ minX: 0, minY: 0, width: 11, height: 24 }}
             paths={[
               {
-                d: "M12.2242 0.0613477C10.4676 -0.356135 8.47603 1.40135 7.7754 3.98788C7.48039 5.01751 7.45289 6.09833 7.69522 7.13994L6.94041 10.0801L6.88488 10.0774L0.930987 23.2213C-0.453365 26.2774 -0.307091 29.7859 1.45862 32.6644C2.509 34.3767 3.88783 35.5279 5.50681 34.3528C8.19323 32.4029 9.94793 21.2384 10.7491 14.8251L12.6015 8.30609C13.3451 7.49857 13.8714 6.53597 14.1362 5.49885C14.837 2.91332 13.9809 0.478851 12.2242 0.0613477Z",
+                d: "M9.35038 0.0422705C8.00671 -0.245388 6.48336 0.965575 5.94744 2.74777C5.72179 3.45722 5.70076 4.20194 5.88611 4.91964L5.30875 6.9455L5.26628 6.94362L0.712117 16.0002C-0.346781 18.1059 -0.234895 20.5234 1.1157 22.5068C1.91915 23.6866 2.97382 24.4798 4.21219 23.6701C6.26704 22.3266 7.60922 14.6339 8.22203 10.215L9.63898 5.72315C10.2077 5.16675 10.6103 4.50349 10.8129 3.78888C11.3489 2.00737 10.694 0.329943 9.35038 0.0422705Z",
                 fill: "rgba(160,97,106,1)",
                 fillRule: "nonzero",
               },
@@ -888,24 +733,19 @@ export default function TelaDeLogin(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="32.75%"
-            bottom="48.52%"
-            left="73.37%"
-            right="17.97%"
+            top="29.57%"
+            bottom="57.53%"
+            left="72.89%"
+            right="20.48%"
             {...getOverrideProps(overrides, "Vector40291521")}
           ></Icon>
           <Icon
-            width="29.96px"
-            height="26.98px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 29.95783233642578,
-              height: 26.97556495666504,
-            }}
+            width="23px"
+            height="19px"
+            viewBox={{ minX: 0, minY: 0, width: 23, height: 19 }}
             paths={[
               {
-                d: "M0.300851 16.8992C0.717368 15.7128 1.53959 14.6742 1.90747 13.4738C2.39593 11.88 3.43587 15.4158 3.53732 13.7604C3.73017 10.6138 8.85674 2.51997 11.7834 0.965247C14.7101 -0.589486 16.3911 -0.120724 19.3727 1.33942C19.3727 1.33942 20.8201 1.42564 22.622 2.25897C24.4239 3.0923 26.0458 4.42691 26.7467 6.19112C27.3022 7.58951 27.2407 9.1252 27.4263 10.6071C27.9434 14.7356 30.414 18.662 29.8837 22.789C29.7183 24.0766 29.1958 25.4081 28.0719 26.1654C26.948 26.9228 25.1323 26.8404 24.3926 25.7442C24.1401 25.3701 24.0334 24.9263 23.817 24.5328C23.6007 24.1394 23.2098 23.7726 22.7375 23.7849C22.0277 23.8033 21.6663 24.6955 21.9463 25.3069C22.2262 25.9182 22.884 26.2873 23.5016 26.6156C22.0306 27.2355 20.206 27.0425 18.9197 26.1309C17.6334 25.2194 16.9388 23.6271 17.1755 22.1325C17.509 20.0265 20.7844 20.4624 21.1702 18.3642C21.4511 16.8367 22.4375 14.281 22.1688 12.7516C21.9001 11.2222 20.6098 13.074 21.9691 12.1903C20.4736 12.8657 17.2747 8.24564 15.7091 7.72817C14.1435 7.21069 12.8161 6.0902 12.1042 4.68524C10.4436 6.94013 8.98291 6.32779 8.38821 9.0099C7.7935 11.692 8.34337 17.7855 10.7921 19.2829C9.81214 19.9093 9.03091 20.805 8.5711 21.8294C8.3106 22.4098 8.14172 23.0448 7.70936 23.5268C6.88361 24.4474 5.35887 24.5034 4.14357 24.1163C2.63665 23.6364 1.34822 22.5822 0.637816 21.248C-0.0725857 19.9138 -0.196412 18.3155 0.300851 16.8992Z",
+                d: "M0.230977 11.9028C0.550756 11.0672 1.18201 10.3357 1.46445 9.49018C1.83946 8.3676 2.63787 10.858 2.71577 9.69199C2.86382 7.47577 6.79973 1.77492 9.04668 0.679863C11.2936 -0.415199 12.5842 -0.0850308 14.8733 0.943405C14.8733 0.943405 15.9846 1.00414 17.368 1.59109C18.7513 2.17804 19.9966 3.11806 20.5347 4.36066C20.9612 5.3456 20.9139 6.42725 21.0565 7.47101C21.4534 10.3789 23.3502 13.1444 22.9431 16.0512C22.8161 16.9581 22.415 17.896 21.5521 18.4294C20.6893 18.9628 19.2953 18.9048 18.7273 18.1327C18.5335 17.8692 18.4515 17.5566 18.2854 17.2795C18.1193 17.0024 17.8192 16.744 17.4566 16.7527C16.9116 16.7656 16.6342 17.3941 16.8491 17.8247C17.064 18.2553 17.5691 18.5152 18.0432 18.7465C16.9139 19.1831 15.513 19.0471 14.5255 18.4051C13.538 17.763 13.0047 16.6415 13.1864 15.5889C13.4425 14.1055 15.9571 14.4125 16.2533 12.9346C16.469 11.8588 17.2263 10.0587 17.02 8.98148C16.8137 7.90429 15.8231 9.20856 16.8667 8.58616C15.7185 9.06183 13.2626 5.80774 12.0606 5.44327C10.8586 5.07879 9.83948 4.28958 9.29292 3.30001C8.01803 4.88822 6.89659 4.45692 6.44001 6.34605C5.98343 8.23517 6.40559 12.5271 8.28561 13.5818C7.53323 14.0229 6.93345 14.6538 6.58043 15.3754C6.38043 15.7841 6.25077 16.2314 5.91883 16.5709C5.28486 17.2193 4.11425 17.2588 3.18121 16.9861C2.02427 16.6481 1.03509 15.9056 0.489681 14.9658C-0.0557274 14.0261 -0.150794 12.9004 0.230977 11.9028Z",
                 fill: "rgba(47,46,65,1)",
                 fillRule: "nonzero",
               },
@@ -915,39 +755,34 @@ export default function TelaDeLogin(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="21.36%"
-            bottom="64.14%"
-            left="73.96%"
-            right="8%"
+            top="21.51%"
+            bottom="68.28%"
+            left="73.49%"
+            right="12.65%"
             {...getOverrideProps(overrides, "Vector40291522")}
           ></Icon>
           <View
             padding="0px 0px 0px 0px"
-            width="117.01px"
-            height="185.8px"
+            width="75px"
+            height="124px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="0%"
-            bottom="0.11%"
-            left="9.79%"
-            right="19.72%"
+            top="10.75%"
+            bottom="22.58%"
+            left="26.51%"
+            right="28.31%"
             {...getOverrideProps(overrides, "Group40291523")}
           >
             <Icon
-              width="91.79px"
-              height="185.2px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 91.79363250732422,
-                height: 185.20262145996094,
-              }}
+              width="59px"
+              height="124px"
+              viewBox={{ minX: 0, minY: 0, width: 59, height: 124 }}
               paths={[
                 {
-                  d: "M78.4325 0L13.3611 0C5.98197 0 0 5.60356 0 12.5159L0 172.687C0 179.599 5.98196 185.203 13.3611 185.203L78.4325 185.203C85.8117 185.203 91.7936 179.599 91.7936 172.687L91.7936 12.5159C91.7936 5.60356 85.8117 0 78.4325 0Z",
+                  d: "M50.4122 0L8.5878 0C3.84489 0 0 3.75179 0 8.37986L0 115.62C0 120.248 3.84488 124 8.58778 124L50.4122 124C55.1551 124 59 120.248 59 115.62L59 8.37986C59 3.75179 55.1551 0 50.4122 0Z",
                   fill: "rgba(255,255,255,1)",
                   fillRule: "nonzero",
                 },
@@ -957,24 +792,19 @@ export default function TelaDeLogin(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="0.16%"
-              bottom="0.16%"
-              left="21.28%"
-              right="0.27%"
+              top="0%"
+              bottom="0%"
+              left="21.33%"
+              right="0%"
               {...getOverrideProps(overrides, "Vector40291524")}
             ></Icon>
             <Icon
-              width="92.43px"
-              height="185.8px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 92.42647552490234,
-                height: 185.79518127441406,
-              }}
+              width="59px"
+              height="124px"
+              viewBox={{ minX: 0, minY: 0, width: 59, height: 124 }}
               paths={[
                 {
-                  d: "M78.749 185.795L13.6775 185.795C6.13576 185.795 0 180.048 0 172.983L0 12.8123C4.49616e-15 5.74762 6.13576 0 13.6775 0L78.749 0C86.2907 0 92.4265 5.74762 92.4265 12.8123L92.4265 172.983C92.4265 180.048 86.2907 185.795 78.749 185.795ZM13.6775 0.59275C6.48459 0.59275 0.632779 6.07439 0.632779 12.8123L0.632779 172.983C0.632779 179.721 6.48459 185.202 13.6775 185.202L78.749 185.202C85.9419 185.202 91.7937 179.721 91.7937 172.983L91.7937 12.8123C91.7937 6.07438 85.9419 0.59275 78.749 0.59275L13.6775 0.59275Z",
+                  d: "M50.269 124L8.73097 124C3.91673 124 0 120.164 0 115.449L0 8.55094C2.8701e-15 3.83597 3.91673 0 8.73097 0L50.269 0C55.0833 0 59 3.83597 59 8.55094L59 115.449C59 120.164 55.0833 124 50.269 124ZM8.73097 0.395602C4.13941 0.395602 0.403931 4.05406 0.403931 8.55094L0.403931 115.449C0.403931 119.946 4.13941 123.604 8.73097 123.604L50.269 123.604C54.8606 123.604 58.5961 119.946 58.5961 115.449L58.5961 8.55094C58.5961 4.05405 54.8606 0.395602 50.269 0.395602L8.73097 0.395602Z",
                   fill: "rgba(63,61,86,1)",
                   fillRule: "nonzero",
                 },
@@ -986,22 +816,17 @@ export default function TelaDeLogin(props) {
               position="absolute"
               top="0%"
               bottom="0%"
-              left="21.01%"
+              left="21.33%"
               right="0%"
               {...getOverrideProps(overrides, "Vector40291525")}
             ></Icon>
             <Icon
-              width="2.07px"
-              height="9.7px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 2.0716679096221924,
-                height: 9.703096389770508,
-              }}
+              width="2px"
+              height="6px"
+              viewBox={{ minX: 0, minY: 0, width: 2, height: 6 }}
               paths={[
                 {
-                  d: "M1.03583 0C0.464557 0 0 0.43517 0 0.970308L0 8.73279C0 9.26793 0.464557 9.7031 1.03583 9.7031C1.60711 9.7031 2.07167 9.26793 2.07167 8.73279L2.07167 0.970308C2.07167 0.43517 1.60711 0 1.03583 0Z",
+                  d: "M0.999999 0C0.448486 0 0 0.269091 0 0.599999L0 5.4C0 5.73091 0.448486 6 0.999999 6C1.55151 6 2 5.73091 2 5.4L2 0.599999C2 0.269091 1.55151 0 0.999999 0Z",
                   fill: "rgba(63,61,86,1)",
                   fillRule: "nonzero",
                 },
@@ -1011,24 +836,19 @@ export default function TelaDeLogin(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="15.08%"
-              bottom="79.69%"
-              left="15.8%"
-              right="82.43%"
+              top="15.32%"
+              bottom="79.84%"
+              left="16%"
+              right="81.33%"
               {...getOverrideProps(overrides, "Vector40291526")}
             ></Icon>
             <Icon
-              width="30.18px"
-              height="3.77px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 30.179109573364258,
-                height: 3.7693400382995605,
-              }}
+              width="19px"
+              height="4px"
+              viewBox={{ minX: 0, minY: 0, width: 19, height: 4 }}
               paths={[
                 {
-                  d: "M28.1672 3.76934L2.01194 3.76934C0.902573 3.76934 0 2.92386 0 1.88467C0 0.845478 0.902573 0 2.01194 0L28.1672 0C29.2765 0 30.1791 0.845478 30.1791 1.88467C30.1791 2.92386 29.2765 3.76934 28.1672 3.76934Z",
+                  d: "M17.7333 4L1.26667 4C0.568237 4 0 3.10278 0 2C0 0.897216 0.568237 0 1.26667 0L17.7333 0C18.4318 0 19 0.897216 19 2C19 3.10278 18.4318 4 17.7333 4Z",
                   fill: "rgba(230,230,230,1)",
                   fillRule: "nonzero",
                 },
@@ -1038,24 +858,19 @@ export default function TelaDeLogin(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="11.92%"
-              bottom="86.05%"
-              left="68.27%"
-              right="5.94%"
+              top="11.29%"
+              bottom="85.48%"
+              left="68%"
+              right="6.67%"
               {...getOverrideProps(overrides, "Vector40291527")}
             ></Icon>
             <Icon
-              width="27.75px"
-              height="2.18px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 27.74888801574707,
-                height: 2.1777029037475586,
-              }}
+              width="17px"
+              height="1px"
+              viewBox={{ minX: 0, minY: 0, width: 17, height: 1 }}
               paths={[
                 {
-                  d: "M26.5866 2.1777L1.1625 2.1777C0.521536 2.1777 0 1.68916 0 1.08874C0 0.488323 0.52154 0 1.1625 0L26.5866 0C27.2276 0 27.7489 0.488326 27.7489 1.08874C27.7489 1.68916 27.2276 2.1777 26.5866 2.1777Z",
+                  d: "M16.288 1L0.712191 1C0.319513 1 0 0.77566 0 0.499949C0 0.224238 0.319514 0 0.712191 0L16.288 0C16.6806 0 17 0.224239 17 0.499949C17 0.77566 16.6806 1 16.288 1Z",
                   fill: "rgba(234,191,63,1)",
                   fillRule: "nonzero",
                 },
@@ -1065,24 +880,19 @@ export default function TelaDeLogin(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="20.76%"
-              bottom="78.07%"
-              left="48.65%"
-              right="27.64%"
+              top="20.97%"
+              bottom="78.23%"
+              left="49.33%"
+              right="28%"
               {...getOverrideProps(overrides, "Vector40291528")}
             ></Icon>
             <Icon
-              width="41.07px"
-              height="37.66px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 41.06669616699219,
-                height: 37.658348083496094,
-              }}
+              width="27px"
+              height="26px"
+              viewBox={{ minX: 0, minY: 0, width: 27, height: 26 }}
               paths={[
                 {
-                  d: "M20.5334 37.6583C31.8736 37.6583 41.0667 29.2282 41.0667 18.8292C41.0667 8.43011 31.8736 0 20.5334 0C9.1931 0 0 8.43011 0 18.8292C0 29.2282 9.1931 37.6583 20.5334 37.6583Z",
+                  d: "M13.5 26C20.9558 26 27 20.1797 27 13C27 5.8203 20.9558 0 13.5 0C6.04416 0 0 5.8203 0 13C0 20.1797 6.04416 26 13.5 26Z",
                   fill: "rgba(234,191,63,1)",
                   fillRule: "nonzero",
                 },
@@ -1092,24 +902,19 @@ export default function TelaDeLogin(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="4.55%"
-              bottom="75.18%"
+              top="4.03%"
+              bottom="75%"
               left="0%"
-              right="64.9%"
+              right="64%"
               {...getOverrideProps(overrides, "Vector40291529")}
             ></Icon>
             <Icon
-              width="16.96px"
-              height="17.14px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 16.9578914642334,
-                height: 17.136159896850586,
-              }}
+              width="11px"
+              height="12px"
+              viewBox={{ minX: 0, minY: 0, width: 11, height: 12 }}
               paths={[
                 {
-                  d: "M15.1932 0.439122C12.4596 5.10189 9.72592 9.7647 6.99229 14.4275C5.25005 11.5439 3.51732 8.65521 1.77079 5.77388C1.16761 4.77877 -0.473057 5.6738 0.131642 6.67139C2.15625 10.0115 4.15989 13.3627 6.1845 16.7029C6.53067 17.2739 7.48105 17.2872 7.82366 16.7029C10.8266 11.5808 13.8295 6.4587 16.8324 1.33664C17.4208 0.332975 15.7821 -0.565323 15.1932 0.439122Z",
+                  d: "M9.8553 0.307506C8.08209 3.57272 6.30887 6.83796 4.53566 10.1032C3.40553 8.08388 2.28156 6.06101 1.14865 4.04329C0.757391 3.34644 -0.306856 3.97322 0.0853918 4.6718C1.39869 7.0108 2.69838 9.35757 4.01167 11.6966C4.23622 12.0965 4.8527 12.1058 5.07494 11.6966C7.02282 8.10971 8.97069 4.52286 10.9186 0.936014C11.3003 0.233174 10.2373 -0.395881 9.8553 0.307506Z",
                   fill: "rgba(255,255,255,1)",
                   fillRule: "nonzero",
                 },
@@ -1119,24 +924,19 @@ export default function TelaDeLogin(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="9.34%"
-              bottom="81.44%"
-              left="10.52%"
-              right="74.99%"
+              top="8.87%"
+              bottom="81.45%"
+              left="10.67%"
+              right="74.67%"
               {...getOverrideProps(overrides, "Vector40291530")}
             ></Icon>
             <Icon
-              width="14.71px"
-              height="1.77px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 14.711495399475098,
-                height: 1.766777753829956,
-              }}
+              width="10px"
+              height="1px"
+              viewBox={{ minX: 0, minY: 0, width: 10, height: 1 }}
               paths={[
                 {
-                  d: "M14.6133 0L0.0981475 0C0.0439423 0 0 0.0411623 0 0.0919386L0 1.67484C0 1.72562 0.0439423 1.76678 0.0981475 1.76678L14.6133 1.76678C14.6676 1.76678 14.7115 1.72562 14.7115 1.67484L14.7115 0.0919386C14.7115 0.0411623 14.6676 0 14.6133 0Z",
+                  d: "M9.93328 0L0.0667148 0C0.0298694 0 0 0.023298 0 0.0520374L0 0.947963C0 0.976702 0.0298694 1 0.0667148 1L9.93328 1C9.97013 1 10 0.976702 10 0.947963L10 0.0520374C10 0.023298 9.97013 0 9.93328 0Z",
                   fill: "rgba(230,230,230,1)",
                   fillRule: "nonzero",
                 },
@@ -1146,24 +946,19 @@ export default function TelaDeLogin(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="2.34%"
-              bottom="96.71%"
-              left="28.17%"
-              right="59.26%"
+              top="2.42%"
+              bottom="96.77%"
+              left="28%"
+              right="58.67%"
               {...getOverrideProps(overrides, "Vector40291531")}
             ></Icon>
             <Icon
-              width="3.02px"
-              height="2.83px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 3.0177392959594727,
-                height: 2.826843023300171,
-              }}
+              width="2px"
+              height="2px"
+              viewBox={{ minX: 0, minY: 0, width: 2, height: 2 }}
               paths={[
                 {
-                  d: "M1.50886 2.82684C2.34219 2.82684 3.01774 2.19403 3.01774 1.41342C3.01774 0.63281 2.34219 0 1.50886 0C0.675539 0 0 0.63281 0 1.41342C0 2.19403 0.675539 2.82684 1.50886 2.82684Z",
+                  d: "M0.999997 2C1.55228 2 2 1.55228 2 1C2 0.447715 1.55228 0 0.999997 0C0.447712 0 0 0.447715 0 1C0 1.55228 0.447712 2 0.999997 2Z",
                   fill: "rgba(230,230,230,1)",
                   fillRule: "nonzero",
                 },
@@ -1173,24 +968,19 @@ export default function TelaDeLogin(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="1.77%"
-              bottom="96.71%"
-              left="81.15%"
-              right="16.27%"
+              top="1.61%"
+              bottom="96.77%"
+              left="81.33%"
+              right="16%"
               {...getOverrideProps(overrides, "Vector40291532")}
             ></Icon>
             <Icon
-              width="3.02px"
-              height="2.83px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 3.0177392959594727,
-                height: 2.826843023300171,
-              }}
+              width="3px"
+              height="2px"
+              viewBox={{ minX: 0, minY: 0, width: 3, height: 2 }}
               paths={[
                 {
-                  d: "M1.50886 2.82684C2.34219 2.82684 3.01774 2.19403 3.01774 1.41342C3.01774 0.63281 2.34219 0 1.50886 0C0.675539 0 0 0.63281 0 1.41342C0 2.19403 0.675539 2.82684 1.50886 2.82684Z",
+                  d: "M1.5 2C2.32842 2 3 1.55228 3 1C3 0.447715 2.32842 0 1.5 0C0.671568 0 0 0.447715 0 1C0 1.55228 0.671568 2 1.5 2Z",
                   fill: "rgba(230,230,230,1)",
                   fillRule: "nonzero",
                 },
@@ -1200,24 +990,19 @@ export default function TelaDeLogin(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="1.77%"
-              bottom="96.71%"
-              left="84.7%"
-              right="12.72%"
+              top="1.61%"
+              bottom="96.77%"
+              left="84%"
+              right="12%"
               {...getOverrideProps(overrides, "Vector40291533")}
             ></Icon>
             <Icon
-              width="3.02px"
-              height="2.83px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 3.0177392959594727,
-                height: 2.826843023300171,
-              }}
+              width="2px"
+              height="2px"
+              viewBox={{ minX: 0, minY: 0, width: 2, height: 2 }}
               paths={[
                 {
-                  d: "M1.50886 2.82684C2.34219 2.82684 3.01774 2.19403 3.01774 1.41342C3.01774 0.63281 2.34219 0 1.50886 0C0.675539 0 0 0.63281 0 1.41342C0 2.19403 0.675539 2.82684 1.50886 2.82684Z",
+                  d: "M0.999997 2C1.55228 2 2 1.55228 2 1C2 0.447715 1.55228 0 0.999997 0C0.447712 0 0 0.447715 0 1C0 1.55228 0.447712 2 0.999997 2Z",
                   fill: "rgba(230,230,230,1)",
                   fillRule: "nonzero",
                 },
@@ -1227,24 +1012,19 @@ export default function TelaDeLogin(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="1.77%"
-              bottom="96.71%"
-              left="88.25%"
-              right="9.17%"
+              top="1.61%"
+              bottom="96.77%"
+              left="88%"
+              right="9.33%"
               {...getOverrideProps(overrides, "Vector40291534")}
             ></Icon>
             <Icon
-              width="65.39px"
-              height="0.71px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 65.38819885253906,
-                height: 0.7053740620613098,
-              }}
+              width="42px"
+              height="0px"
+              viewBox={{ minX: 0, minY: 0, width: 42, height: 1 }}
               paths={[
                 {
-                  d: "M0 0.352687C0 0.548303 0.167697 0.705374 0.376523 0.705374L65.0117 0.705374C65.2205 0.705374 65.3882 0.548303 65.3882 0.352687C65.3882 0.157088 65.2205 0 65.0117 0L0.376523 0C0.167697 0 0 0.157088 0 0.352687Z",
+                  d: "M0 0C0 0 0.107715 0 0.241848 0L41.7582 0C41.8923 0 42 0 42 0C42 0 41.8923 0 41.7582 0L0.241848 0C0.107715 0 0 0 0 0Z",
                   fill: "rgba(63,61,86,1)",
                   fillRule: "nonzero",
                 },
@@ -1254,16 +1034,16 @@ export default function TelaDeLogin(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="24.88%"
-              bottom="74.74%"
-              left="32.57%"
-              right="11.55%"
+              top="25%"
+              bottom="75%"
+              left="33.33%"
+              right="10.67%"
               {...getOverrideProps(overrides, "Vector40291535")}
             ></Icon>
             <View
               padding="0px 0px 0px 0px"
-              width="54.56px"
-              height="40.6px"
+              width="34.86px"
+              height="27.1px"
               display="block"
               gap="unset"
               alignItems="unset"
@@ -1271,22 +1051,22 @@ export default function TelaDeLogin(props) {
               position="absolute"
               top="36.77%"
               bottom="41.37%"
-              left="37.19%"
-              right="16.18%"
+              left="37.38%"
+              right="16.13%"
               {...getOverrideProps(overrides, "Group40291536")}
             >
               <Icon
-                width="41.11px"
-                height="2.18px"
+                width="26.27px"
+                height="1.45px"
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 41.11346435546875,
-                  height: 2.1777029037475586,
+                  width: 26.27202606201172,
+                  height: 1.4534024000167847,
                 }}
                 paths={[
                   {
-                    d: "M39.9512 2.1777L1.1625 2.1777C0.521536 2.1777 0 1.68915 0 1.08874C0 0.488322 0.52154 0 1.1625 0L39.9512 0C40.5922 0 41.1135 0.488323 41.1135 1.08874C41.1135 1.68916 40.5922 2.1777 39.9512 2.1777Z",
+                    d: "M25.5293 1.4534L0.742852 1.4534C0.333268 1.4534 0 1.12734 0 0.726624C0 0.325907 0.33327 0 0.742852 0L25.5293 0C25.9389 0 26.272 0.325908 26.272 0.726627C26.272 1.12735 25.9389 1.4534 25.5293 1.4534Z",
                     fill: "rgba(234,191,63,1)",
                     fillRule: "nonzero",
                   },
@@ -1303,17 +1083,17 @@ export default function TelaDeLogin(props) {
                 {...getOverrideProps(overrides, "Vector40291537")}
               ></Icon>
               <Icon
-                width="41.11px"
-                height="2.18px"
+                width="26.27px"
+                height="1.45px"
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 41.11346435546875,
-                  height: 2.1776983737945557,
+                  width: 26.27202606201172,
+                  height: 1.4533993005752563,
                 }}
                 paths={[
                   {
-                    d: "M39.9512 2.1777L1.1625 2.1777C0.521536 2.1777 0 1.68915 0 1.08874C0 0.488326 0.52154 0 1.1625 0L39.9512 0C40.5922 0 41.1135 0.488323 41.1135 1.08874C41.1135 1.68916 40.5922 2.1777 39.9512 2.1777Z",
+                    d: "M25.5293 1.4534L0.742852 1.4534C0.333268 1.4534 0 1.12734 0 0.726627C0 0.32591 0.33327 0 0.742852 0L25.5293 0C25.9389 0 26.272 0.325908 26.272 0.726627C26.272 1.12735 25.9389 1.4534 25.5293 1.4534Z",
                     fill: "rgba(234,191,63,1)",
                     fillRule: "nonzero",
                   },
@@ -1323,24 +1103,24 @@ export default function TelaDeLogin(props) {
                 alignItems="unset"
                 justifyContent="unset"
                 position="absolute"
-                top="48.01%"
+                top="48.02%"
                 bottom="46.62%"
                 left="24.65%"
                 right="0%"
                 {...getOverrideProps(overrides, "Vector40291538")}
               ></Icon>
               <Icon
-                width="41.11px"
-                height="2.18px"
+                width="26.27px"
+                height="1.45px"
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 41.11346435546875,
-                  height: 2.1776983737945557,
+                  width: 26.27202606201172,
+                  height: 1.4533993005752563,
                 }}
                 paths={[
                   {
-                    d: "M39.9512 2.1777L1.1625 2.1777C0.521536 2.1777 0 1.68915 0 1.08874C0 0.488326 0.52154 0 1.1625 0L39.9512 0C40.5922 0 41.1135 0.488323 41.1135 1.08874C41.1135 1.68916 40.5922 2.1777 39.9512 2.1777Z",
+                    d: "M25.5293 1.4534L0.742852 1.4534C0.333268 1.4534 0 1.12734 0 0.726627C0 0.32591 0.33327 0 0.742852 0L25.5293 0C25.9389 0 26.272 0.325908 26.272 0.726627C26.272 1.12735 25.9389 1.4534 25.5293 1.4534Z",
                     fill: "rgba(234,191,63,1)",
                     fillRule: "nonzero",
                   },
@@ -1357,17 +1137,17 @@ export default function TelaDeLogin(props) {
                 {...getOverrideProps(overrides, "Vector40291539")}
               ></Icon>
               <Icon
-                width="5.7px"
-                height="5.33px"
+                width="3.64px"
+                height="3.56px"
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 5.695007801055908,
-                  height: 5.334751605987549,
+                  width: 3.6391823291778564,
+                  height: 3.560421943664551,
                 }}
                 paths={[
                   {
-                    d: "M2.8475 5.33475C4.42014 5.33475 5.69501 4.14053 5.69501 2.66738C5.69501 1.19422 4.42014 0 2.8475 0C1.27487 0 0 1.19422 0 2.66738C0 4.14053 1.27487 5.33475 2.8475 5.33475Z",
+                    d: "M1.81959 3.56042C2.82452 3.56042 3.63918 2.76339 3.63918 1.78021C3.63918 0.797028 2.82452 0 1.81959 0C0.814659 0 0 0.797028 0 1.78021C0 2.76339 0.814659 3.56042 1.81959 3.56042Z",
                     fill: "rgba(234,191,63,1)",
                     fillRule: "nonzero",
                   },
@@ -1384,17 +1164,17 @@ export default function TelaDeLogin(props) {
                 {...getOverrideProps(overrides, "Vector40291540")}
               ></Icon>
               <Icon
-                width="4.9px"
-                height="9.19px"
+                width="3.13px"
+                height="6.13px"
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 4.904034614562988,
-                  height: 9.187627792358398,
+                  width: 3.1337404251098633,
+                  height: 6.131837368011475,
                 }}
                 paths={[
                   {
-                    d: "M0 9.18763L0 8.59488C2.35515 8.59488 4.27126 6.79999 4.27126 4.59381C4.27126 2.38764 2.35515 0.59275 0 0.59275L0 0C2.70414 0 4.90403 2.06073 4.90403 4.59381C4.90403 7.1269 2.70414 9.18763 0 9.18763Z",
+                    d: "M0 6.13184L0 5.73623C1.50497 5.73623 2.72939 4.53832 2.72939 3.06592C2.72939 1.59352 1.50497 0.395602 0 0.395602L0 0C1.72798 0 3.13374 1.37534 3.13374 3.06592C3.13374 4.7565 1.72798 6.13184 0 6.13184Z",
                     fill: "rgba(63,61,86,1)",
                     fillRule: "nonzero",
                   },
@@ -1411,17 +1191,17 @@ export default function TelaDeLogin(props) {
                 {...getOverrideProps(overrides, "Vector40291541")}
               ></Icon>
               <Icon
-                width="5.7px"
-                height="5.33px"
+                width="3.64px"
+                height="3.56px"
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 5.695007801055908,
-                  height: 5.334751605987549,
+                  width: 3.6391823291778564,
+                  height: 3.560421943664551,
                 }}
                 paths={[
                   {
-                    d: "M2.8475 5.33475C4.42014 5.33475 5.69501 4.14053 5.69501 2.66738C5.69501 1.19422 4.42014 0 2.8475 0C1.27487 0 0 1.19422 0 2.66738C0 4.14053 1.27487 5.33475 2.8475 5.33475Z",
+                    d: "M1.81959 3.56042C2.82452 3.56042 3.63918 2.76339 3.63918 1.78021C3.63918 0.797028 2.82452 0 1.81959 0C0.814659 0 0 0.797028 0 1.78021C0 2.76339 0.814659 3.56042 1.81959 3.56042Z",
                     fill: "rgba(234,191,63,1)",
                     fillRule: "nonzero",
                   },
@@ -1438,17 +1218,17 @@ export default function TelaDeLogin(props) {
                 {...getOverrideProps(overrides, "Vector40291542")}
               ></Icon>
               <Icon
-                width="4.9px"
-                height="9.19px"
+                width="3.13px"
+                height="6.13px"
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 4.904034614562988,
-                  height: 9.187627792358398,
+                  width: 3.1337404251098633,
+                  height: 6.131837368011475,
                 }}
                 paths={[
                   {
-                    d: "M0 9.18763L0 8.59488C2.35515 8.59488 4.27126 6.80013 4.27126 4.59381C4.27126 2.38764 2.35515 0.59275 0 0.59275L0 0C2.70414 0 4.90403 2.06073 4.90403 4.59381C4.90403 7.1269 2.70414 9.18763 0 9.18763Z",
+                    d: "M0 6.13184L0 5.73623C1.50497 5.73623 2.72939 4.53842 2.72939 3.06592C2.72939 1.59352 1.50497 0.395602 0 0.395602L0 0C1.72798 0 3.13374 1.37534 3.13374 3.06592C3.13374 4.7565 1.72798 6.13184 0 6.13184Z",
                     fill: "rgba(63,61,86,1)",
                     fillRule: "nonzero",
                   },
@@ -1465,17 +1245,17 @@ export default function TelaDeLogin(props) {
                 {...getOverrideProps(overrides, "Vector40291543")}
               ></Icon>
               <Icon
-                width="5.7px"
-                height="5.33px"
+                width="3.64px"
+                height="3.56px"
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 5.695007801055908,
-                  height: 5.334751605987549,
+                  width: 3.6391823291778564,
+                  height: 3.560421943664551,
                 }}
                 paths={[
                   {
-                    d: "M2.8475 5.33475C4.42014 5.33475 5.69501 4.14053 5.69501 2.66738C5.69501 1.19422 4.42014 0 2.8475 0C1.27487 0 0 1.19422 0 2.66738C0 4.14053 1.27487 5.33475 2.8475 5.33475Z",
+                    d: "M1.81959 3.56042C2.82452 3.56042 3.63918 2.76339 3.63918 1.78021C3.63918 0.797028 2.82452 0 1.81959 0C0.814659 0 0 0.797028 0 1.78021C0 2.76339 0.814659 3.56042 1.81959 3.56042Z",
                     fill: "rgba(234,191,63,1)",
                     fillRule: "nonzero",
                   },
@@ -1492,17 +1272,17 @@ export default function TelaDeLogin(props) {
                 {...getOverrideProps(overrides, "Vector40291544")}
               ></Icon>
               <Icon
-                width="4.9px"
-                height="9.19px"
+                width="3.13px"
+                height="6.13px"
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 4.904034614562988,
-                  height: 9.187627792358398,
+                  width: 3.1337404251098633,
+                  height: 6.131837368011475,
                 }}
                 paths={[
                   {
-                    d: "M0 9.18763L0 8.59488C2.35515 8.59488 4.27126 6.80013 4.27126 4.59381C4.27126 2.3875 2.35515 0.59275 0 0.59275L0 0C2.70414 0 4.90403 2.06073 4.90403 4.59381C4.90403 7.1269 2.70414 9.18763 0 9.18763Z",
+                    d: "M0 6.13184L0 5.73623C1.50497 5.73623 2.72939 4.53842 2.72939 3.06592C2.72939 1.59342 1.50497 0.395602 0 0.395602L0 0C1.72798 0 3.13374 1.37534 3.13374 3.06592C3.13374 4.7565 1.72798 6.13184 0 6.13184Z",
                     fill: "rgba(63,61,86,1)",
                     fillRule: "nonzero",
                   },

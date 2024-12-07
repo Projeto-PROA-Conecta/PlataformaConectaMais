@@ -35,7 +35,7 @@ export default function CadastroUsuario5(props) {
     >
       <View
         width="1519px"
-        height="1141px"
+        height="1115px"
         display="block"
         gap="unset"
         alignItems="unset"
@@ -45,13 +45,13 @@ export default function CadastroUsuario5(props) {
         top="2px"
         left="0px"
         padding="0px 0px 0px 0px"
-        backgroundColor="rgba(22,70,89,1)"
+        backgroundImage="linear-gradient(-90deg, rgba(22,70,89,1), rgba(18,135,181,1))"
         {...getOverrideProps(overrides, "Cadastro")}
       >
         <View
           padding="0px 0px 0px 0px"
-          width="1728px"
-          height="1117px"
+          width="1519px"
+          height="1115px"
           display="block"
           gap="unset"
           alignItems="unset"
@@ -61,145 +61,46 @@ export default function CadastroUsuario5(props) {
           left="0px"
           {...getOverrideProps(overrides, "Group 394")}
         >
-          <View
-            width="1728px"
-            height="1117px"
+          <Image
+            width="100%"
+            height="100%"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
-            overflow="hidden"
             position="absolute"
-            top="0px"
-            left="0px"
+            top="0%"
+            bottom="0%"
+            left="0%"
+            right="0%"
             padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "back gorund")}
-          >
-            <Icon
-              width="2073.6px"
-              height="1340.4px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 2073.60009765625,
-                height: 1340.400146484375,
-              }}
-              paths={[
-                {
-                  d: "M2073.6 0L0 0L0 1340.4L2073.6 1340.4L2073.6 0Z",
-                  fill: "rgba(0,0,0,1)",
-                  fillRule: "nonzero",
-                },
-              ]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="-10%"
-              bottom="-10%"
-              left="-10%"
-              right="-10%"
-              {...getOverrideProps(overrides, "Vector42343692")}
-            ></Icon>
-            <Icon
-              width="2073.6px"
-              height="1340.4px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 2073.60009765625,
-                height: 1340.400146484375,
-              }}
-              paths={[
-                {
-                  d: "M2073.6 0L0 0L0 1340.4L2073.6 1340.4L2073.6 0Z",
-                  fill: "rgba(0,0,0,1)",
-                  fillRule: "nonzero",
-                },
-              ]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="-10%"
-              bottom="-10%"
-              left="-10%"
-              right="-10%"
-              {...getOverrideProps(overrides, "Vector42343693")}
-            ></Icon>
-            <View
-              padding="0px 0px 0px 0px"
-              width="1728px"
-              height="1117px"
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="0%"
-              bottom="0%"
-              left="0%"
-              right="0%"
-              {...getOverrideProps(overrides, "Group")}
-            >
-              <Image
-                width="100%"
-                height="100%"
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="0%"
-                bottom="0%"
-                left="0%"
-                right="0%"
-                padding="0px 0px 0px 0px"
-                objectFit="unset"
-                {...getOverrideProps(overrides, "Rectangle")}
-              ></Image>
-            </View>
-          </View>
+            objectFit="unset"
+            {...getOverrideProps(overrides, "BackTransparente")}
+          ></Image>
         </View>
         <View
-          width="630px"
-          height="815px"
+          padding="0px 0px 0px 0px"
+          width="1229.88px"
+          height="662.87px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="-3092px"
-          left="-26px"
-          padding="0px 0px 0px 0px"
-          backgroundColor="rgba(217,217,217,1)"
-          {...getOverrideProps(overrides, "Rectangle 2")}
-        ></View>
-        <View
-          padding="0px 0px 0px 0px"
-          width="1427px"
-          height="899px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="140px"
-          left="38px"
+          top="263.13px"
+          left="82.44px"
           {...getOverrideProps(overrides, "Group 464")}
         >
           <View
-            width="100px"
-            height="40px"
+            width="87.97px"
+            height="35.19px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="519px"
-            left="1020px"
+            top="365.07px"
+            left="969.04px"
             borderRadius="10px"
             padding="0px 0px 0px 0px"
             backgroundColor="rgba(0,0,0,1)"
@@ -207,14 +108,14 @@ export default function CadastroUsuario5(props) {
           ></View>
           <View
             padding="0px 0px 0px 0px"
-            width="624px"
-            height="78px"
+            width="797.57px"
+            height="68.61px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="calc(50% - 39px - 15.5px)"
+            top="calc(50% - 34.31px - 10.15px)"
             left="0px"
             {...getOverrideProps(overrides, "Group 6")}
           >
@@ -228,8 +129,8 @@ export default function CadastroUsuario5(props) {
               display="block"
               direction="column"
               justifyContent="unset"
-              width="unset"
-              height="unset"
+              width="797.57px"
+              height="68.61px"
               gap="unset"
               alignItems="unset"
               position="absolute"
@@ -242,15 +143,15 @@ export default function CadastroUsuario5(props) {
             ></Text>
           </View>
           <View
-            width="20px"
-            height="20px"
+            width="17.59px"
+            height="17.59px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="509px"
-            left="720px"
+            top="356.27px"
+            left="705.13px"
             border="1px SOLID rgba(0,0,0,0.5)"
             borderRadius="5px"
             padding="0px 0px 0px 0px"
@@ -258,15 +159,15 @@ export default function CadastroUsuario5(props) {
             {...getOverrideProps(overrides, "Rectangle 11")}
           ></View>
           <Image
-            width="554.04px"
-            height="165px"
+            width="487.38px"
+            height="145.15px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="104px"
-            left="35px"
+            top="0px"
+            left="102.56px"
             padding="0px 0px 0px 0px"
             objectFit="cover"
             src={bancoImagens?.LogoAzulConecta}
@@ -274,21 +175,21 @@ export default function CadastroUsuario5(props) {
           ></Image>
           <View
             padding="0px 0px 0px 0px"
-            width="759px"
-            height="899px"
+            width="525.08px"
+            height="662.87px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
             top="0px"
-            left="668px"
+            left="704.8px"
             {...getOverrideProps(overrides, "Group 466")}
           >
             <View
               padding="0px 0px 0px 0px"
-              width="759px"
-              height="899px"
+              width="525.08px"
+              height="662.87px"
               display="block"
               gap="unset"
               alignItems="unset"
@@ -299,8 +200,8 @@ export default function CadastroUsuario5(props) {
               {...getOverrideProps(overrides, "Group 4")}
             >
               <View
-                width="759px"
-                height="899px"
+                width="525.08px"
+                height="662.87px"
                 display="block"
                 gap="unset"
                 alignItems="unset"
@@ -324,30 +225,30 @@ export default function CadastroUsuario5(props) {
               display="block"
               direction="column"
               justifyContent="unset"
-              width="361.98px"
-              height="66.97px"
+              width="362.76px"
+              height="54.93px"
               gap="unset"
               alignItems="unset"
               position="absolute"
-              top="33px"
-              left="220px"
+              top="15.75px"
+              left="88.28px"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Questionário"
               {...getOverrideProps(overrides, "Question\u00E1rio")}
             ></Text>
             <Icon
-              width="20.85px"
-              height="20.61px"
+              width="14.44px"
+              height="14.73px"
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 20.851648330688477,
-                height: 20.607450485229492,
+                width: 14.435802459716797,
+                height: 14.731194496154785,
               }}
               paths={[
                 {
-                  d: "M20.8516 10.3037C20.8516 15.9943 16.1838 20.6075 10.4258 20.6075C4.6678 20.6075 0 15.9943 0 10.3037C0 4.61313 4.6678 0 10.4258 0C16.1838 0 20.8516 4.61313 20.8516 10.3037Z",
+                  d: "M14.4358 7.3656C14.4358 11.4335 11.2042 14.7312 7.2179 14.7312C3.23156 14.7312 0 11.4335 0 7.3656C0 3.29769 3.23156 0 7.2179 0C11.2042 0 14.4358 3.29769 14.4358 7.3656Z",
                   fill: "rgba(217,217,217,1)",
                   fillRule: "nonzero",
                 },
@@ -357,22 +258,22 @@ export default function CadastroUsuario5(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="119.35px"
-              left="310.27px"
+              top="78.8px"
+              left="214.8px"
               {...getOverrideProps(overrides, "Ellipse 108")}
             ></Icon>
             <Icon
-              width="20.85px"
-              height="20.61px"
+              width="14.44px"
+              height="14.73px"
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 20.851648330688477,
-                height: 20.607450485229492,
+                width: 14.435802459716797,
+                height: 14.731194496154785,
               }}
               paths={[
                 {
-                  d: "M20.8516 10.3037C20.8516 15.9943 16.1838 20.6075 10.4258 20.6075C4.6678 20.6075 0 15.9943 0 10.3037C0 4.61313 4.6678 0 10.4258 0C16.1838 0 20.8516 4.61313 20.8516 10.3037Z",
+                  d: "M14.4358 7.3656C14.4358 11.4335 11.2042 14.7312 7.2179 14.7312C3.23156 14.7312 0 11.4335 0 7.3656C0 3.29769 3.23156 0 7.2179 0C11.2042 0 14.4358 3.29769 14.4358 7.3656Z",
                   fill: "rgba(217,217,217,1)",
                   fillRule: "nonzero",
                 },
@@ -382,22 +283,22 @@ export default function CadastroUsuario5(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="119.35px"
-              left="368.66px"
+              top="79.13px"
+              left="255.22px"
               {...getOverrideProps(overrides, "Ellipse 109")}
             ></Icon>
             <Icon
-              width="20.85px"
-              height="20.61px"
+              width="14.44px"
+              height="14.73px"
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 20.851648330688477,
-                height: 20.607450485229492,
+                width: 14.435802459716797,
+                height: 14.731194496154785,
               }}
               paths={[
                 {
-                  d: "M20.8516 10.3037C20.8516 15.9943 16.1838 20.6075 10.4258 20.6075C4.6678 20.6075 0 15.9943 0 10.3037C0 4.61313 4.6678 0 10.4258 0C16.1838 0 20.8516 4.61313 20.8516 10.3037Z",
+                  d: "M14.4358 7.3656C14.4358 11.4335 11.2042 14.7312 7.2179 14.7312C3.23156 14.7312 0 11.4335 0 7.3656C0 3.29769 3.23156 0 7.2179 0C11.2042 0 14.4358 3.29769 14.4358 7.3656Z",
                   fill: "rgba(253,157,72,1)",
                   fillRule: "nonzero",
                 },
@@ -407,18 +308,18 @@ export default function CadastroUsuario5(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="119.35px"
-              left="427.04px"
+              top="78.8px"
+              left="295.64px"
               {...getOverrideProps(overrides, "Ellipse 110")}
             ></Icon>
             <SelectField
-              width="670.59px"
-              height="75.56px"
+              width="464.26px"
+              height="54.01px"
               label="10.Faz parte de algum outro grupo de diversidade?"
               placeholder="Sim"
               position="absolute"
-              top="317.7px"
-              left="44.21px"
+              top="272.77px"
+              left="37.53px"
               size="large"
               isDisabled={false}
               labelHidden={false}
@@ -426,13 +327,13 @@ export default function CadastroUsuario5(props) {
               {...getOverrideProps(overrides, "SelectField40341860")}
             ></SelectField>
             <TextAreaField
-              width="670.59px"
-              height="168.29px"
+              width="464.26px"
+              height="120.3px"
               label="11.Há algo mais que gostaria de compartilhar para que possamos entender melhor suas necessidades?"
               placeholder="Compartilhe aqui...."
               position="absolute"
-              top="464.53px"
-              left="44.21px"
+              top="412.98px"
+              left="37.53px"
               size="large"
               isDisabled={false}
               labelHidden={false}
@@ -440,12 +341,12 @@ export default function CadastroUsuario5(props) {
               {...getOverrideProps(overrides, "TextAreaField")}
             ></TextAreaField>
             <Button
-              width="254.39px"
-              height="50.66px"
+              width="176.12px"
+              height="36.21px"
               position="absolute"
               borderRadius="10px"
-              top="714.39px"
-              left="444.56px"
+              top="596.26px"
+              left="306.3px"
               backgroundColor="rgba(253,157,72,1)"
               size="large"
               isDisabled={false}
@@ -454,13 +355,13 @@ export default function CadastroUsuario5(props) {
               {...getOverrideProps(overrides, "Button40341863")}
             ></Button>
             <Button
-              width="254.39px"
-              height="50.66px"
+              width="176.12px"
+              height="36.21px"
               position="absolute"
               border="1px SOLID rgba(0,0,0,1)"
               borderRadius="10px"
-              top="714.39px"
-              left="79.24px"
+              top="596.26px"
+              left="56.9px"
               size="default"
               isDisabled={false}
               variation="primary"
@@ -468,13 +369,13 @@ export default function CadastroUsuario5(props) {
               {...getOverrideProps(overrides, "Button40341864")}
             ></Button>
             <SelectField
-              width="670.59px"
-              height="75.56px"
+              width="464.26px"
+              height="54.01px"
               label="9.Sente-se confortável em um ambiente que valoriza a diversidade e inclusão?"
               placeholder="Sim"
               position="absolute"
-              top="171.73px"
-              left="44.21px"
+              top="140.27px"
+              left="37.53px"
               size="large"
               isDisabled={false}
               labelHidden={false}

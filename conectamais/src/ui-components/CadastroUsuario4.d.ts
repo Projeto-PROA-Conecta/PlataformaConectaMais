@@ -19,20 +19,10 @@ export declare type Variant = {
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type CadastroUsuario4OverridesProps = {
     CadastroUsuario4?: PrimitiveOverrideProps<ViewProps>;
-    Cadastro?: PrimitiveOverrideProps<ViewProps>;
-    "Group 394"?: PrimitiveOverrideProps<ViewProps>;
-    "back gorund"?: PrimitiveOverrideProps<ViewProps>;
-    Vector42343685?: PrimitiveOverrideProps<IconProps>;
-    Vector42343686?: PrimitiveOverrideProps<IconProps>;
-    Group42343687?: PrimitiveOverrideProps<ViewProps>;
+    "Voc\u00EA possui alguma outra condi\u00E7\u00E3o diagnosticada al\u00E9m do TEA?"?: PrimitiveOverrideProps<TextProps>;
     Rectangle?: PrimitiveOverrideProps<ImageProps>;
-    "Rectangle 2"?: PrimitiveOverrideProps<ViewProps>;
     "Group 462"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 7"?: PrimitiveOverrideProps<ViewProps>;
-    "Group 6"?: PrimitiveOverrideProps<ViewProps>;
     "Queremos conhecer\u2028mais um pouco sobre\u2028voc\u00EA"?: PrimitiveOverrideProps<TextProps>;
-    "Rectangle 11"?: PrimitiveOverrideProps<ViewProps>;
-    "image-removebg-preview (4) 4"?: PrimitiveOverrideProps<ImageProps>;
     "Group 463"?: PrimitiveOverrideProps<ViewProps>;
     "Group 4"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 1"?: PrimitiveOverrideProps<ViewProps>;
@@ -132,7 +122,7 @@ export declare type CadastroUsuario4OverridesProps = {
     Vector39885693?: PrimitiveOverrideProps<IconProps>;
     Button39885694?: PrimitiveOverrideProps<ButtonProps>;
     Button40291722?: PrimitiveOverrideProps<ButtonProps>;
-    "Voc\u00EA possui alguma outra condi\u00E7\u00E3o diagnosticada al\u00E9m do TEA?"?: PrimitiveOverrideProps<TextProps>;
+    "image-removebg-preview (4) 4"?: PrimitiveOverrideProps<ImageProps>;
 } & EscapeHatchProps;
 export declare type CadastroUsuario4Props = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

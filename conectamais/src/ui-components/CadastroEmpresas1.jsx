@@ -9,7 +9,6 @@ import * as React from "react";
 import { getOverrideProps } from "./utils";
 import {
   CheckboxField,
-  Icon,
   Image,
   Text,
   TextField,
@@ -19,8 +18,8 @@ export default function CadastroEmpresas1(props) {
   const { bancoImagens, overrides, ...rest } = props;
   return (
     <View
-      width="1517px"
-      height="1117px"
+      width="1519px"
+      height="1118.47px"
       display="block"
       gap="unset"
       alignItems="unset"
@@ -28,7 +27,7 @@ export default function CadastroEmpresas1(props) {
       overflow="hidden"
       position="relative"
       padding="0px 0px 0px 0px"
-      backgroundColor="rgba(255,255,255,1)"
+      backgroundImage="linear-gradient(-90deg, rgba(255,255,255,1), rgba(153,153,153,1))"
       {...getOverrideProps(overrides, "CadastroEmpresas1")}
       {...rest}
     >
@@ -44,27 +43,13 @@ export default function CadastroEmpresas1(props) {
         top="0px"
         left="-2px"
         padding="0px 0px 0px 0px"
-        backgroundColor="rgba(22,70,89,1)"
+        backgroundImage="linear-gradient(-90deg, rgba(22,70,89,1), rgba(18,135,181,1))"
         {...getOverrideProps(overrides, "Cadastro")}
       >
-        <Image
-          width="1519px"
-          height="1115px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="0px"
-          left="0px"
-          padding="0px 0px 0px 0px"
-          objectFit="unset"
-          {...getOverrideProps(overrides, "Noise & Texture")}
-        ></Image>
         <View
           padding="0px 0px 0px 0px"
           width="1519px"
-          height="1115px"
+          height="1114px"
           display="block"
           gap="unset"
           alignItems="unset"
@@ -76,7 +61,7 @@ export default function CadastroEmpresas1(props) {
         >
           <View
             width="1519px"
-            height="1115px"
+            height="1114px"
             display="block"
             gap="unset"
             alignItems="unset"
@@ -88,64 +73,9 @@ export default function CadastroEmpresas1(props) {
             padding="0px 0px 0px 0px"
             {...getOverrideProps(overrides, "back gorund")}
           >
-            <Icon
-              width="1822.8px"
-              height="1338px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 1822.800048828125,
-                height: 1338.0001220703125,
-              }}
-              paths={[
-                {
-                  d: "M1822.8 0L0 0L0 1338L1822.8 1338L1822.8 0Z",
-                  fill: "rgba(0,0,0,1)",
-                  fillRule: "nonzero",
-                },
-              ]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="-10%"
-              bottom="-10%"
-              left="-10%"
-              right="-10%"
-              {...getOverrideProps(overrides, "Vector42342805")}
-            ></Icon>
-            <Icon
-              width="1822.8px"
-              height="1338px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 1822.800048828125,
-                height: 1338.0001220703125,
-              }}
-              paths={[
-                {
-                  d: "M1822.8 0L0 0L0 1338L1822.8 1338L1822.8 0Z",
-                  fill: "rgba(0,0,0,1)",
-                  fillRule: "nonzero",
-                },
-              ]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="-10%"
-              bottom="-10%"
-              left="-10%"
-              right="-10%"
-              {...getOverrideProps(overrides, "Vector42342806")}
-            ></Icon>
-            <View
-              padding="0px 0px 0px 0px"
-              width="1519px"
-              height="1115px"
+            <Image
+              width="100%"
+              height="100%"
               display="block"
               gap="unset"
               alignItems="unset"
@@ -155,25 +85,10 @@ export default function CadastroEmpresas1(props) {
               bottom="0%"
               left="0%"
               right="0%"
-              {...getOverrideProps(overrides, "Group")}
-            >
-              <Image
-                width="100%"
-                height="100%"
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="0%"
-                bottom="0%"
-                left="0%"
-                right="0%"
-                padding="0px 0px 0px 0px"
-                objectFit="unset"
-                {...getOverrideProps(overrides, "Rectangle")}
-              ></Image>
-            </View>
+              padding="0px 0px 0px 0px"
+              objectFit="unset"
+              {...getOverrideProps(overrides, "Rectangle")}
+            ></Image>
           </View>
         </View>
         <View
@@ -192,35 +107,21 @@ export default function CadastroEmpresas1(props) {
           {...getOverrideProps(overrides, "Rectangle 7")}
         ></View>
         <View
-          width="630px"
-          height="815px"
+          padding="0px 0px 0px 0px"
+          width="591.17px"
+          height="855.68px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="-3092px"
-          left="-26px"
-          padding="0px 0px 0px 0px"
-          backgroundColor="rgba(217,217,217,1)"
-          {...getOverrideProps(overrides, "Rectangle 2")}
-        ></View>
-        <View
-          padding="0px 0px 0px 0px"
-          width="682px"
-          height="1024px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="33px"
+          top="172.7px"
           left="774px"
           {...getOverrideProps(overrides, "Group 4")}
         >
           <View
-            width="682px"
-            height="1024px"
+            width="591.17px"
+            height="855.68px"
             display="block"
             gap="unset"
             alignItems="unset"
@@ -234,11 +135,12 @@ export default function CadastroEmpresas1(props) {
             {...getOverrideProps(overrides, "Rectangle 1")}
           ></View>
           <TextField
-            width="460px"
+            width="398.74px"
+            height="38.44px"
             placeholder="Telefone"
             position="absolute"
-            top="587px"
-            left="90px"
+            top="490.51px"
+            left="78.01px"
             borderRadius="10px"
             size="large"
             isDisabled={false}
@@ -247,11 +149,12 @@ export default function CadastroEmpresas1(props) {
             {...getOverrideProps(overrides, "TextField40271492")}
           ></TextField>
           <TextField
-            width="460px"
+            width="398.74px"
+            height="38.44px"
             placeholder="Cargo"
             position="absolute"
-            top="314px"
-            left="90px"
+            top="262.39px"
+            left="78.01px"
             borderRadius="10px"
             size="large"
             isDisabled={false}
@@ -260,11 +163,12 @@ export default function CadastroEmpresas1(props) {
             {...getOverrideProps(overrides, "TextField40271468")}
           ></TextField>
           <TextField
-            width="460px"
+            width="398.74px"
+            height="38.44px"
             placeholder="Nome da Empresa"
             position="absolute"
-            top="132px"
-            left="90px"
+            top="110.3px"
+            left="78.01px"
             borderRadius="10px"
             size="large"
             isDisabled={false}
@@ -282,13 +186,13 @@ export default function CadastroEmpresas1(props) {
             display="block"
             direction="column"
             justifyContent="unset"
-            width="unset"
-            height="unset"
+            width="37.27px"
+            height="12.53px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="759.29px"
-            left="399.3px"
+            top="634.48px"
+            left="346.12px"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="Pronto"
@@ -304,24 +208,25 @@ export default function CadastroEmpresas1(props) {
             display="block"
             direction="column"
             justifyContent="unset"
-            width="unset"
-            height="unset"
+            width="285.19px"
+            height="24.23px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="43px"
-            left="194px"
+            top="35.93px"
+            left="168.16px"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="Cadastre sua Empresa"
             {...getOverrideProps(overrides, "Cadastre sua Empresa")}
           ></Text>
           <TextField
-            width="460px"
+            width="398.74px"
+            height="38.44px"
             placeholder="Email"
             position="absolute"
-            top="496px"
-            left="90px"
+            top="414.47px"
+            left="78.01px"
             borderRadius="10px"
             size="large"
             isDisabled={false}
@@ -330,11 +235,12 @@ export default function CadastroEmpresas1(props) {
             {...getOverrideProps(overrides, "TextField40271484")}
           ></TextField>
           <TextField
-            width="460px"
+            width="398.74px"
+            height="38.44px"
             placeholder="Nome Completo do Contato"
             position="absolute"
-            top="223px"
-            left="90px"
+            top="186.34px"
+            left="78.01px"
             borderRadius="10px"
             size="large"
             isDisabled={false}
@@ -343,11 +249,12 @@ export default function CadastroEmpresas1(props) {
             {...getOverrideProps(overrides, "TextField40271458")}
           ></TextField>
           <TextField
-            width="460px"
+            width="398.74px"
+            height="38.44px"
             placeholder="Quantidade de Funcionários"
             position="absolute"
-            top="674px"
-            left="90px"
+            top="563.21px"
+            left="78.01px"
             borderRadius="10px"
             size="large"
             isDisabled={false}
@@ -356,11 +263,12 @@ export default function CadastroEmpresas1(props) {
             {...getOverrideProps(overrides, "TextField40271510")}
           ></TextField>
           <TextField
-            width="460px"
+            width="398.74px"
+            height="38.44px"
             placeholder="CNPJ"
             position="absolute"
-            top="405px"
-            left="90px"
+            top="338.43px"
+            left="78.01px"
             borderRadius="10px"
             size="large"
             isDisabled={false}
@@ -371,21 +279,21 @@ export default function CadastroEmpresas1(props) {
         </View>
         <View
           padding="0px 0px 0px 0px"
-          width="400px"
-          height="50px"
+          width="346.18px"
+          height="41.81px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="932px"
-          left="897px"
+          top="924.5px"
+          left="880.45px"
           {...getOverrideProps(overrides, "Group 13")}
         >
           <View
             padding="0px 0px 0px 0px"
-            width="400px"
-            height="50px"
+            width="346.18px"
+            height="41.81px"
             display="block"
             gap="unset"
             alignItems="unset"
@@ -396,15 +304,15 @@ export default function CadastroEmpresas1(props) {
             {...getOverrideProps(overrides, "Group 44")}
           >
             <View
-              width="127.55px"
-              height="50px"
+              width="110.39px"
+              height="41.81px"
               display="block"
               gap="unset"
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
               top="0px"
-              left="272.45px"
+              left="235.79px"
               borderRadius="10px"
               padding="0px 0px 0px 0px"
               backgroundColor="rgba(0,0,0,1)"
@@ -420,21 +328,21 @@ export default function CadastroEmpresas1(props) {
               display="block"
               direction="column"
               justifyContent="unset"
-              width="unset"
-              height="unset"
+              width="90.01px"
+              height="12.54px"
               gap="unset"
               alignItems="unset"
               position="absolute"
-              top="17px"
-              left="296px"
+              top="14.22px"
+              left="256.17px"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Cadastrar-se"
               {...getOverrideProps(overrides, "Cadastrar-se")}
             ></Text>
             <View
-              width="127.55px"
-              height="50px"
+              width="110.39px"
+              height="41.81px"
               display="block"
               gap="unset"
               alignItems="unset"
@@ -458,13 +366,13 @@ export default function CadastroEmpresas1(props) {
               display="block"
               direction="column"
               justifyContent="unset"
-              width="unset"
-              height="unset"
+              width="52.34px"
+              height="12.54px"
               gap="unset"
               alignItems="unset"
               position="absolute"
-              top="17px"
-              left="44px"
+              top="14.22px"
+              left="38.08px"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Voltar"
@@ -482,7 +390,7 @@ export default function CadastroEmpresas1(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="491px"
+          width="555px"
           height="unset"
           gap="unset"
           alignItems="unset"
@@ -513,12 +421,12 @@ export default function CadastroEmpresas1(props) {
           {...getOverrideProps(overrides, "image-removebg-preview (4) 2")}
         ></Image>
         <CheckboxField
-          width="605px"
-          height="32px"
+          width="533px"
+          height="17px"
           label="Li e aceito as Condições Legais e a Política de Privacidade."
           position="absolute"
-          top="833px"
-          left="812px"
+          top="847px"
+          left="803px"
           size="large"
           defaultChecked={false}
           isDisabled={false}

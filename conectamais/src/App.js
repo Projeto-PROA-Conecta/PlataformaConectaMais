@@ -34,7 +34,7 @@ function App() {
     <Router> {/* O Router agora envolve toda a aplicação */}
       <div className="App">
         <Routes>
-          <Route path="/" element={<NovaHome/>} />
+          <Route path="/" element={<ConfigsNotificacoes1/>} />
           <Route path="/TelaDeLogin" element={<TelaDeLogin />} />
         </Routes>
       </div>

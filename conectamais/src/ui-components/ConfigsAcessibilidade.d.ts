@@ -5,7 +5,7 @@
  **************************************************************************/
 
 import * as React from "react";
-import { ButtonProps, IconProps, ImageProps, SelectFieldProps, SwitchFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+import { ButtonProps, FlexProps, IconProps, ImageProps, SelectFieldProps, SwitchFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
 } | null;
@@ -19,22 +19,9 @@ export declare type Variant = {
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type ConfigsAcessibilidadeOverridesProps = {
     ConfigsAcessibilidade?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 27"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 26"?: PrimitiveOverrideProps<ViewProps>;
-    "Group 452"?: PrimitiveOverrideProps<ViewProps>;
-    "Group 68"?: PrimitiveOverrideProps<ViewProps>;
-    "Group 381"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 19"?: PrimitiveOverrideProps<ViewProps>;
-    "logo_branca_conecta 2"?: PrimitiveOverrideProps<ImageProps>;
-    "Noise & Texture"?: PrimitiveOverrideProps<ImageProps>;
-    "Group 394"?: PrimitiveOverrideProps<ViewProps>;
-    "back gorund"?: PrimitiveOverrideProps<ViewProps>;
-    Vector42342798?: PrimitiveOverrideProps<IconProps>;
-    Vector42342799?: PrimitiveOverrideProps<IconProps>;
-    Group?: PrimitiveOverrideProps<ViewProps>;
-    Rectangle?: PrimitiveOverrideProps<ImageProps>;
+    BackDaHome?: PrimitiveOverrideProps<ImageProps>;
     Acessibilidade39884375?: PrimitiveOverrideProps<TextProps>;
-    "Group 79"?: PrimitiveOverrideProps<ViewProps>;
+    "Group 471"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 104"?: PrimitiveOverrideProps<ViewProps>;
     "Line 16"?: PrimitiveOverrideProps<IconProps>;
     "Line 17"?: PrimitiveOverrideProps<IconProps>;
@@ -52,10 +39,11 @@ export declare type ConfigsAcessibilidadeOverridesProps = {
     Vector4045903?: PrimitiveOverrideProps<IconProps>;
     SwitchField40451500?: PrimitiveOverrideProps<SwitchFieldProps>;
     SwitchField40451493?: PrimitiveOverrideProps<SwitchFieldProps>;
-    "Rectangle 105"?: PrimitiveOverrideProps<ViewProps>;
-    Button41021518?: PrimitiveOverrideProps<ButtonProps>;
-    Button41021519?: PrimitiveOverrideProps<ButtonProps>;
-    Button41021520?: PrimitiveOverrideProps<ButtonProps>;
+    NavBarMenu?: PrimitiveOverrideProps<FlexProps>;
+    "Frame 3214329861"?: PrimitiveOverrideProps<FlexProps>;
+    Button4329862?: PrimitiveOverrideProps<ButtonProps>;
+    Button4329863?: PrimitiveOverrideProps<ButtonProps>;
+    Button4329864?: PrimitiveOverrideProps<ButtonProps>;
     Vector4045897?: PrimitiveOverrideProps<IconProps>;
     "Group 450"?: PrimitiveOverrideProps<ViewProps>;
     "Group 383"?: PrimitiveOverrideProps<ViewProps>;
@@ -78,12 +66,17 @@ export declare type ConfigsAcessibilidadeOverridesProps = {
     Vector42382780?: PrimitiveOverrideProps<IconProps>;
     "notifications_off_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 2"?: PrimitiveOverrideProps<ViewProps>;
     Vector42382782?: PrimitiveOverrideProps<IconProps>;
-    "Group 431"?: PrimitiveOverrideProps<ViewProps>;
-    Vector42382785?: PrimitiveOverrideProps<IconProps>;
-    Vector42382786?: PrimitiveOverrideProps<IconProps>;
-    Vector42382787?: PrimitiveOverrideProps<IconProps>;
-    Ajuda?: PrimitiveOverrideProps<TextProps>;
-    Vector42382789?: PrimitiveOverrideProps<IconProps>;
+    NavBarHeaderConecta?: PrimitiveOverrideProps<FlexProps>;
+    "Frame 3214374794"?: PrimitiveOverrideProps<FlexProps>;
+    Vector4374795?: PrimitiveOverrideProps<IconProps>;
+    Vector4374796?: PrimitiveOverrideProps<IconProps>;
+    Vector4374797?: PrimitiveOverrideProps<IconProps>;
+    Vector4374798?: PrimitiveOverrideProps<IconProps>;
+    "Frame 322"?: PrimitiveOverrideProps<FlexProps>;
+    "logo_branca_conecta 2"?: PrimitiveOverrideProps<ImageProps>;
+    "Frame 3214374801"?: PrimitiveOverrideProps<FlexProps>;
+    Button4374802?: PrimitiveOverrideProps<ButtonProps>;
+    Button4374803?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type ConfigsAcessibilidadeProps = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

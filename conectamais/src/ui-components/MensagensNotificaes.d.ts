@@ -5,7 +5,7 @@
  **************************************************************************/
 
 import * as React from "react";
-import { ButtonProps, IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+import { ButtonProps, FlexProps, IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
 } | null;
@@ -19,11 +19,6 @@ export declare type Variant = {
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type MensagensNotificaesOverridesProps = {
     MensagensNotificaes?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 27"?: PrimitiveOverrideProps<ViewProps>;
-    "back gorund"?: PrimitiveOverrideProps<ViewProps>;
-    Vector42342779?: PrimitiveOverrideProps<IconProps>;
-    Vector42342780?: PrimitiveOverrideProps<IconProps>;
-    Group?: PrimitiveOverrideProps<ViewProps>;
     Rectangle?: PrimitiveOverrideProps<ImageProps>;
     "Rectangle 109"?: PrimitiveOverrideProps<IconProps>;
     "Group 395"?: PrimitiveOverrideProps<ViewProps>;
@@ -48,22 +43,22 @@ export declare type MensagensNotificaesOverridesProps = {
     Conversas?: PrimitiveOverrideProps<TextProps>;
     "Voc\u00EA ainda n\u00E3o tem mensagens :(\u2028\u2028"?: PrimitiveOverrideProps<TextProps>;
     "Vamos nos Conetar+ mande messagens para as pessoas ou empresas"?: PrimitiveOverrideProps<TextProps>;
-    "AvatarPerfil 1"?: PrimitiveOverrideProps<ImageProps>;
-    "Rectangle 19"?: PrimitiveOverrideProps<ViewProps>;
-    "image-removebg-preview (4) 5"?: PrimitiveOverrideProps<ImageProps>;
-    "Frame 20"?: PrimitiveOverrideProps<ViewProps>;
-    "Frame 18"?: PrimitiveOverrideProps<ViewProps>;
-    "Group 430"?: PrimitiveOverrideProps<ViewProps>;
-    Vector426013520?: PrimitiveOverrideProps<IconProps>;
-    Ajuda?: PrimitiveOverrideProps<TextProps>;
-    Vector426013522?: PrimitiveOverrideProps<IconProps>;
-    Vector426013523?: PrimitiveOverrideProps<IconProps>;
-    Vector426013524?: PrimitiveOverrideProps<IconProps>;
-    "Group 442"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 23"?: PrimitiveOverrideProps<ViewProps>;
-    Button426013527?: PrimitiveOverrideProps<ButtonProps>;
-    Button426013528?: PrimitiveOverrideProps<ButtonProps>;
-    Button426013529?: PrimitiveOverrideProps<ButtonProps>;
+    NavBarHeaderConecta?: PrimitiveOverrideProps<FlexProps>;
+    "Frame 3214367696"?: PrimitiveOverrideProps<FlexProps>;
+    Vector4367697?: PrimitiveOverrideProps<IconProps>;
+    Vector4367698?: PrimitiveOverrideProps<IconProps>;
+    Vector4367699?: PrimitiveOverrideProps<IconProps>;
+    Vector4367700?: PrimitiveOverrideProps<IconProps>;
+    "Frame 322"?: PrimitiveOverrideProps<FlexProps>;
+    "logo_branca_conecta 2"?: PrimitiveOverrideProps<ImageProps>;
+    "Frame 3214367703"?: PrimitiveOverrideProps<FlexProps>;
+    Button4367704?: PrimitiveOverrideProps<ButtonProps>;
+    Button4367705?: PrimitiveOverrideProps<ButtonProps>;
+    NavBarMenu?: PrimitiveOverrideProps<FlexProps>;
+    "Frame 32143291000"?: PrimitiveOverrideProps<FlexProps>;
+    Button43291001?: PrimitiveOverrideProps<ButtonProps>;
+    Button43291002?: PrimitiveOverrideProps<ButtonProps>;
+    Button43291003?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type MensagensNotificaesProps = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

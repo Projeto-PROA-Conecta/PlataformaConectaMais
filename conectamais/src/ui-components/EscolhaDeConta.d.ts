@@ -20,21 +20,9 @@ export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes
 export declare type EscolhaDeContaOverridesProps = {
     EscolhaDeConta?: PrimitiveOverrideProps<ViewProps>;
     Login?: PrimitiveOverrideProps<ViewProps>;
-    "Noise & Texture"?: PrimitiveOverrideProps<ImageProps>;
-    "Group 394"?: PrimitiveOverrideProps<ViewProps>;
-    "back gorund"?: PrimitiveOverrideProps<ViewProps>;
-    Vector42342812?: PrimitiveOverrideProps<IconProps>;
-    Vector42342813?: PrimitiveOverrideProps<IconProps>;
-    Group?: PrimitiveOverrideProps<ViewProps>;
     Rectangle?: PrimitiveOverrideProps<ImageProps>;
-    "Rectangle 2"?: PrimitiveOverrideProps<ViewProps>;
     "Qual seu tipo de conta?"?: PrimitiveOverrideProps<TextProps>;
     "Bem-vindo!"?: PrimitiveOverrideProps<TextProps>;
-    Vector39885480?: PrimitiveOverrideProps<IconProps>;
-    Vector39885482?: PrimitiveOverrideProps<IconProps>;
-    Vector39885491?: PrimitiveOverrideProps<IconProps>;
-    Vector39885492?: PrimitiveOverrideProps<IconProps>;
-    Vector39885494?: PrimitiveOverrideProps<IconProps>;
     "Frame 20"?: PrimitiveOverrideProps<ViewProps>;
     "Group 441"?: PrimitiveOverrideProps<ViewProps>;
     "Group 3"?: PrimitiveOverrideProps<ViewProps>;
@@ -42,7 +30,7 @@ export declare type EscolhaDeContaOverridesProps = {
     "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"?: PrimitiveOverrideProps<ImageProps>;
     Button39885475?: PrimitiveOverrideProps<ButtonProps>;
     Button39885476?: PrimitiveOverrideProps<ButtonProps>;
-    Voltar?: PrimitiveOverrideProps<TextProps>;
+    Button4367752?: PrimitiveOverrideProps<ButtonProps>;
     Vector39885478?: PrimitiveOverrideProps<IconProps>;
     Vector39885479?: PrimitiveOverrideProps<IconProps>;
     Vector39885481?: PrimitiveOverrideProps<IconProps>;
@@ -65,11 +53,10 @@ export declare type EscolhaDeContaOverridesProps = {
     Vector39885502?: PrimitiveOverrideProps<IconProps>;
     Vector39885503?: PrimitiveOverrideProps<IconProps>;
     Vector39885504?: PrimitiveOverrideProps<IconProps>;
-    Vector3997663?: PrimitiveOverrideProps<IconProps>;
     Vector3997659?: PrimitiveOverrideProps<IconProps>;
-    Vector3997655?: PrimitiveOverrideProps<IconProps>;
+    Vector4342759?: PrimitiveOverrideProps<IconProps>;
     Vector3997657?: PrimitiveOverrideProps<IconProps>;
-    "Line 53"?: PrimitiveOverrideProps<IconProps>;
+    Vector4342719?: PrimitiveOverrideProps<IconProps>;
 } & EscapeHatchProps;
 export declare type EscolhaDeContaProps = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

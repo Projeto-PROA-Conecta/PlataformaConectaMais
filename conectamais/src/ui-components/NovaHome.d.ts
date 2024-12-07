@@ -35,7 +35,7 @@ export declare type NovaHomeOverridesProps = {
     "Frame 32142762782"?: PrimitiveOverrideProps<FlexProps>;
     Button42762783?: PrimitiveOverrideProps<ButtonProps>;
     Button42762784?: PrimitiveOverrideProps<ButtonProps>;
-    "Frame 435 1"?: PrimitiveOverrideProps<ImageProps>;
+    BackgroundDaHome?: PrimitiveOverrideProps<ImageProps>;
     "Conecte-se com oportunidades que valorizam suas habilidades"?: PrimitiveOverrideProps<TextProps>;
     "Sobre n\u00F3s n\u00F3s"?: PrimitiveOverrideProps<TextProps>;
     "Sabemos que pessoas com TEA possuem certas limita\u00E7\u00F5es, como a necessidade de interfaces mais simples e menos sobrecarregadas de informa\u00E7\u00E3o. Assim, criamos a Conecta+, uma plataforma que conecta empregadores e candidatos com TEA, promovendo a inclus\u00E3o no mercado de trabalho."?: PrimitiveOverrideProps<TextProps>;
@@ -69,17 +69,16 @@ export declare type NovaHomeOverridesProps = {
     Vector42789437?: PrimitiveOverrideProps<IconProps>;
     "Rectangle 203"?: PrimitiveOverrideProps<ViewProps>;
     REKTR?: PrimitiveOverrideProps<TextProps>;
+    HomeFooter?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 204"?: PrimitiveOverrideProps<ViewProps>;
     "Copyright \u00A9 2024-2024 ConectaMais"?: PrimitiveOverrideProps<TextProps>;
     Suporte?: PrimitiveOverrideProps<TextProps>;
     Contato?: PrimitiveOverrideProps<TextProps>;
     "Mapa do site"?: PrimitiveOverrideProps<TextProps>;
     "Redes Sociais"?: PrimitiveOverrideProps<TextProps>;
-    "InstagramIcon 1"?: PrimitiveOverrideProps<ViewProps>;
     Vector42789506?: PrimitiveOverrideProps<IconProps>;
     Vector42789507?: PrimitiveOverrideProps<IconProps>;
     Vector42789508?: PrimitiveOverrideProps<IconProps>;
-    "LinkedlnIcon 1"?: PrimitiveOverrideProps<ViewProps>;
     Vector42789510?: PrimitiveOverrideProps<IconProps>;
     Vector42789511?: PrimitiveOverrideProps<IconProps>;
     Vector42789512?: PrimitiveOverrideProps<IconProps>;

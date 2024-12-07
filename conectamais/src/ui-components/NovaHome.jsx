@@ -214,9 +214,8 @@ export default function NovaHome(props) {
           {...getOverrideProps(overrides, "Frame 322")}
         >
           <Image
-            src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/63ea67321f856c3d65d261cb917270a18942c23f/LogoBrancaConecta.svg"
             width="unset"
-            height="55px"
+            height="37px"
             display="block"
             gap="unset"
             alignItems="unset"
@@ -269,21 +268,21 @@ export default function NovaHome(props) {
         </Flex>
       </Flex>
       <Image
-        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/Frame%20436.jpg?raw=true"
-        width="100%"
-        height="280px"
+        width="1519px"
+        height="285px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="124px"
+        top="122px"
         left="0px"
         padding="0px 0px 0px 0px"
         objectFit="cover"
-        {...getOverrideProps(overrides, "Frame 435 1")}
+        {...getOverrideProps(overrides, "BackgroundDaHome")}
       ></Image>
       <Text
+        fontFamily="Montserrat"
         fontSize="32px"
         fontWeight="700"
         color="rgba(255,255,255,1)"
@@ -308,6 +307,7 @@ export default function NovaHome(props) {
         )}
       ></Text>
       <Text
+        fontFamily="Montserrat"
         fontSize="38px"
         fontWeight="700"
         color="rgba(0,0,0,1)"
@@ -329,6 +329,7 @@ export default function NovaHome(props) {
         {...getOverrideProps(overrides, "Sobre n\u00F3s n\u00F3s")}
       ></Text>
       <Text
+        fontFamily="Montserrat"
         fontSize="24px"
         fontWeight="400"
         color="rgba(0,0,0,1)"
@@ -353,6 +354,7 @@ export default function NovaHome(props) {
         )}
       ></Text>
       <Text
+        fontFamily="Montserrat"
         fontSize="32px"
         fontWeight="700"
         color="rgba(0,0,0,1)"
@@ -374,7 +376,6 @@ export default function NovaHome(props) {
         {...getOverrideProps(overrides, "Categorias de vagas")}
       ></Text>
       <Image
-        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/SobreNosimg.png?raw=true"
         width="372px"
         height="266px"
         display="block"
@@ -424,7 +425,7 @@ export default function NovaHome(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 225.01085900225007,
+            width: 225.0108590022428,
             height: 190.02128842643287,
           }}
           paths={[
@@ -446,6 +447,7 @@ export default function NovaHome(props) {
           {...getOverrideProps(overrides, "image")}
         ></Icon>
         <Text
+          fontFamily="Montserrat"
           fontSize="20px"
           fontWeight="600"
           color="rgba(255,255,255,1)"
@@ -469,6 +471,7 @@ export default function NovaHome(props) {
           {...getOverrideProps(overrides, "Sa\u00FAde")}
         ></Text>
         <Text
+          fontFamily="Montserrat"
           fontSize="20px"
           fontWeight="600"
           color="rgba(255,255,255,1)"
@@ -529,6 +532,7 @@ export default function NovaHome(props) {
           {...getOverrideProps(overrides, "Rectangle 94")}
         ></View>
         <Text
+          fontFamily="Montserrat"
           fontSize="20px"
           fontWeight="600"
           color="rgba(255,255,255,1)"
@@ -650,6 +654,7 @@ export default function NovaHome(props) {
         ></Icon>
       </View>
       <Text
+        fontFamily="Montserrat"
         fontSize="32px"
         fontWeight="700"
         color="rgba(0,0,0,1)"
@@ -671,7 +676,6 @@ export default function NovaHome(props) {
         {...getOverrideProps(overrides, "Recomenda\u00E7\u00E3o de vaga")}
       ></Text>
       <Image
-        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/RecomendacaoImg.png?raw=true"
         width="444px"
         height="309px"
         display="block"
@@ -719,6 +723,7 @@ export default function NovaHome(props) {
           {...getOverrideProps(overrides, "Rectangle 202")}
         ></Icon>
         <Text
+          fontFamily="Montserrat"
           fontSize="22px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
@@ -740,6 +745,7 @@ export default function NovaHome(props) {
           {...getOverrideProps(overrides, "ANALISTA DE DADOS")}
         ></Text>
         <Text
+          fontFamily="Montserrat"
           fontSize="20px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
@@ -783,6 +789,7 @@ export default function NovaHome(props) {
           {...getOverrideProps(overrides, "Vector42789421")}
         ></Icon>
         <Text
+          fontFamily="Montserrat"
           fontSize="20px"
           fontWeight="700"
           color="rgba(0,148,255,1)"
@@ -826,6 +833,7 @@ export default function NovaHome(props) {
           {...getOverrideProps(overrides, "Vector42789426")}
         ></Icon>
         <Text
+          fontFamily="Montserrat"
           fontSize="18px"
           fontWeight="300"
           color="rgba(0,0,0,1)"
@@ -847,6 +855,7 @@ export default function NovaHome(props) {
           {...getOverrideProps(overrides, "1.783 avalia\u00E7\u00F5es")}
         ></Text>
         <Text
+          fontFamily="Montserrat"
           fontSize="20px"
           fontWeight="400"
           color="rgba(0,0,0,1)"
@@ -868,6 +877,7 @@ export default function NovaHome(props) {
           {...getOverrideProps(overrides, "S\u00E3o Paulo - SP")}
         ></Text>
         <Text
+          fontFamily="Montserrat"
           fontSize="20px"
           fontWeight="400"
           color="rgba(0,0,0,1)"
@@ -889,6 +899,7 @@ export default function NovaHome(props) {
           {...getOverrideProps(overrides, "R$ 5.200,00")}
         ></Text>
         <Text
+          fontFamily="Montserrat"
           fontSize="20px"
           fontWeight="400"
           color="rgba(0,0,0,1)"
@@ -946,6 +957,7 @@ export default function NovaHome(props) {
         ></View>
       </View>
       <Text
+        fontFamily="Montserrat"
         fontSize="15px"
         fontWeight="700"
         color="rgba(255,255,255,1)"
@@ -967,6 +979,7 @@ export default function NovaHome(props) {
         {...getOverrideProps(overrides, "REKTR")}
       ></Text>
       <View
+        padding="0px 0px 0px 0px"
         width="1519px"
         height="309px"
         display="block"
@@ -976,132 +989,135 @@ export default function NovaHome(props) {
         position="absolute"
         top="1954px"
         left="0px"
-        padding="0px 0px 0px 0px"
-        backgroundColor="rgba(15,45,57,1)"
-        {...getOverrideProps(overrides, "Rectangle 204")}
-      ></View>
-      <Text
-        fontSize="15px"
-        fontWeight="400"
-        color="rgba(255,255,255,1)"
-        lineHeight="22.5px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="275px"
-        height="18px"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="2184px"
-        left="622px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Copyright © 2024-2024 ConectaMais"
-        {...getOverrideProps(
-          overrides,
-          "Copyright \u00A9 2024-2024 ConectaMais"
-        )}
-      ></Text>
-      <Text
-        fontSize="18px"
-        fontWeight="700"
-        color="rgba(255,255,255,1)"
-        lineHeight="27px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="75px"
-        height="22px"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="1977px"
-        left="710px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Suporte"
-        {...getOverrideProps(overrides, "Suporte")}
-      ></Text>
-      <Text
-        fontSize="14px"
-        fontWeight="400"
-        color="rgba(255,255,255,1)"
-        lineHeight="21px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="57px"
-        height="22px"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="2001px"
-        left="718px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Contato"
-        {...getOverrideProps(overrides, "Contato")}
-      ></Text>
-      <Text
-        fontSize="18px"
-        fontWeight="700"
-        color="rgba(255,255,255,1)"
-        lineHeight="27px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="120px"
-        height="22px"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="1977px"
-        left="1209px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Mapa do site"
-        {...getOverrideProps(overrides, "Mapa do site")}
-      ></Text>
-      <Text
-        fontSize="18px"
-        fontWeight="700"
-        color="rgba(255,255,255,1)"
-        lineHeight="27px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="129px"
-        height="22px"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="1977px"
-        left="176px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Redes Sociais"
-        {...getOverrideProps(overrides, "Redes Sociais")}
-      ></Text>
-      <View
-        width="30px"
-        height="24px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="2008px"
-        left="194px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "InstagramIcon 1")}
+        {...getOverrideProps(overrides, "HomeFooter")}
       >
+        <View
+          width="1519px"
+          height="309px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="0px"
+          left="0px"
+          padding="0px 0px 0px 0px"
+          backgroundColor="rgba(15,45,57,1)"
+          {...getOverrideProps(overrides, "Rectangle 204")}
+        ></View>
+        <Text
+          fontFamily="Montserrat"
+          fontSize="15px"
+          fontWeight="400"
+          color="rgba(255,255,255,1)"
+          lineHeight="22.5px"
+          textAlign="left"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="275px"
+          height="18px"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="230px"
+          left="622px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="Copyright © 2024-2024 ConectaMais"
+          {...getOverrideProps(
+            overrides,
+            "Copyright \u00A9 2024-2024 ConectaMais"
+          )}
+        ></Text>
+        <Text
+          fontFamily="Montserrat"
+          fontSize="18px"
+          fontWeight="700"
+          color="rgba(255,255,255,1)"
+          lineHeight="27px"
+          textAlign="left"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="75px"
+          height="22px"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="23px"
+          left="710px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="Suporte"
+          {...getOverrideProps(overrides, "Suporte")}
+        ></Text>
+        <Text
+          fontFamily="Montserrat"
+          fontSize="14px"
+          fontWeight="400"
+          color="rgba(255,255,255,1)"
+          lineHeight="21px"
+          textAlign="left"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="57px"
+          height="22px"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="47px"
+          left="718px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="Contato"
+          {...getOverrideProps(overrides, "Contato")}
+        ></Text>
+        <Text
+          fontFamily="Montserrat"
+          fontSize="18px"
+          fontWeight="700"
+          color="rgba(255,255,255,1)"
+          lineHeight="27px"
+          textAlign="left"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="120px"
+          height="22px"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="23px"
+          left="1209px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="Mapa do site"
+          {...getOverrideProps(overrides, "Mapa do site")}
+        ></Text>
+        <Text
+          fontFamily="Montserrat"
+          fontSize="18px"
+          fontWeight="700"
+          color="rgba(255,255,255,1)"
+          lineHeight="27px"
+          textAlign="left"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="129px"
+          height="22px"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="23px"
+          left="176px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="Redes Sociais"
+          {...getOverrideProps(overrides, "Redes Sociais")}
+        ></Text>
         <Icon
           width="13.54px"
           height="10.84px"
@@ -1123,10 +1139,10 @@ export default function NovaHome(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="29.45%"
-          bottom="25.4%"
-          left="27.16%"
-          right="27.69%"
+          top="19.76%"
+          bottom="76.73%"
+          left="13.31%"
+          right="85.8%"
           {...getOverrideProps(overrides, "Vector42789506")}
         ></Icon>
         <Icon
@@ -1150,10 +1166,10 @@ export default function NovaHome(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="23.81%"
-          bottom="65.96%"
-          left="68.08%"
-          right="21.69%"
+          top="19.32%"
+          bottom="79.88%"
+          left="14.12%"
+          right="85.68%"
           {...getOverrideProps(overrides, "Vector42789507")}
         ></Icon>
         <Icon
@@ -1177,27 +1193,12 @@ export default function NovaHome(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="8.47%"
-          bottom="4.06%"
-          left="6%"
-          right="6.53%"
+          top="18.13%"
+          bottom="75.07%"
+          left="12.89%"
+          right="85.38%"
           {...getOverrideProps(overrides, "Vector42789508")}
         ></Icon>
-      </View>
-      <View
-        width="30px"
-        height="22px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="2010px"
-        left="241px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "LinkedlnIcon 1")}
-      >
         <Icon
           width="29.57px"
           height="21.69px"
@@ -1219,10 +1220,10 @@ export default function NovaHome(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="0.71%"
-          bottom="0.71%"
-          left="0.71%"
-          right="0.71%"
+          top="18.17%"
+          bottom="74.81%"
+          left="15.88%"
+          right="82.17%"
           {...getOverrideProps(overrides, "Vector42789510")}
         ></Icon>
         <Icon
@@ -1246,10 +1247,10 @@ export default function NovaHome(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="42.34%"
-          bottom="26.34%"
-          left="24.97%"
-          right="65.23%"
+          top="21.14%"
+          bottom="76.63%"
+          left="16.36%"
+          right="83.45%"
           {...getOverrideProps(overrides, "Vector42789511")}
         ></Icon>
         <Icon
@@ -1273,118 +1274,123 @@ export default function NovaHome(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="26.34%"
-          bottom="26.34%"
-          left="24.94%"
-          right="25.09%"
+          top="20%"
+          bottom="76.63%"
+          left="16.36%"
+          right="82.65%"
           {...getOverrideProps(overrides, "Vector42789512")}
         ></Icon>
+        <Text
+          fontFamily="Montserrat"
+          fontSize="18px"
+          fontWeight="400"
+          color="rgba(255,255,255,1)"
+          lineHeight="27px"
+          textAlign="left"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="49px"
+          height="22px"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="50px"
+          left="1209px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="Início"
+          {...getOverrideProps(overrides, "In\u00EDcio")}
+        ></Text>
+        <Text
+          fontFamily="Montserrat"
+          fontSize="18px"
+          fontWeight="400"
+          color="rgba(255,255,255,1)"
+          lineHeight="27px"
+          textAlign="left"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="54px"
+          height="22px"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="77px"
+          left="1209px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="Vagas"
+          {...getOverrideProps(overrides, "Vagas")}
+        ></Text>
+        <Text
+          fontFamily="Montserrat"
+          fontSize="18px"
+          fontWeight="400"
+          color="rgba(255,255,255,1)"
+          lineHeight="27px"
+          textAlign="left"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="47px"
+          height="22px"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="104px"
+          left="1209px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="Perfil"
+          {...getOverrideProps(overrides, "Perfil")}
+        ></Text>
+        <Text
+          fontFamily="Montserrat"
+          fontSize="18px"
+          fontWeight="400"
+          color="rgba(255,255,255,1)"
+          lineHeight="27px"
+          textAlign="left"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="39px"
+          height="22px"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="131px"
+          left="1209px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="Plus"
+          {...getOverrideProps(overrides, "Plus")}
+        ></Text>
+        <Text
+          fontFamily="Montserrat"
+          fontSize="18px"
+          fontWeight="400"
+          color="rgba(255,255,255,1)"
+          lineHeight="27px"
+          textAlign="left"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="53px"
+          height="22px"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="158px"
+          left="1209px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="Ajuda"
+          {...getOverrideProps(overrides, "Ajuda")}
+        ></Text>
       </View>
-      <Text
-        fontSize="18px"
-        fontWeight="400"
-        color="rgba(255,255,255,1)"
-        lineHeight="27px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="49px"
-        height="22px"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="2004px"
-        left="1209px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Início"
-        {...getOverrideProps(overrides, "In\u00EDcio")}
-      ></Text>
-      <Text
-        fontSize="18px"
-        fontWeight="400"
-        color="rgba(255,255,255,1)"
-        lineHeight="27px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="54px"
-        height="22px"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="2031px"
-        left="1209px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Vagas"
-        {...getOverrideProps(overrides, "Vagas")}
-      ></Text>
-      <Text
-        fontSize="18px"
-        fontWeight="400"
-        color="rgba(255,255,255,1)"
-        lineHeight="27px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="47px"
-        height="22px"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="2058px"
-        left="1209px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Perfil"
-        {...getOverrideProps(overrides, "Perfil")}
-      ></Text>
-      <Text
-        fontSize="18px"
-        fontWeight="400"
-        color="rgba(255,255,255,1)"
-        lineHeight="27px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="39px"
-        height="22px"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="2085px"
-        left="1209px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Plus"
-        {...getOverrideProps(overrides, "Plus")}
-      ></Text>
-      <Text
-        fontSize="18px"
-        fontWeight="400"
-        color="rgba(255,255,255,1)"
-        lineHeight="27px"
-        textAlign="left"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="53px"
-        height="22px"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="2112px"
-        left="1209px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Ajuda"
-        {...getOverrideProps(overrides, "Ajuda")}
-      ></Text>
       <Flex
         width="504px"
         height="unset"

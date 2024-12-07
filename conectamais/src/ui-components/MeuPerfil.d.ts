@@ -5,7 +5,7 @@
  **************************************************************************/
 
 import * as React from "react";
-import { ButtonProps, IconProps, ImageProps, SelectFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+import { ButtonProps, FlexProps, IconProps, ImageProps, SelectFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
 } | null;
@@ -19,13 +19,17 @@ export declare type Variant = {
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type MeuPerfilOverridesProps = {
     MeuPerfil?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 27"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 26"?: PrimitiveOverrideProps<ViewProps>;
-    "Group 394"?: PrimitiveOverrideProps<ViewProps>;
-    "back gorund"?: PrimitiveOverrideProps<ViewProps>;
-    Vector42343652?: PrimitiveOverrideProps<IconProps>;
-    Vector42343653?: PrimitiveOverrideProps<IconProps>;
-    Group?: PrimitiveOverrideProps<ViewProps>;
+    NavBarHeaderConecta?: PrimitiveOverrideProps<FlexProps>;
+    "Frame 3214387826"?: PrimitiveOverrideProps<FlexProps>;
+    Vector4387827?: PrimitiveOverrideProps<IconProps>;
+    Vector4387828?: PrimitiveOverrideProps<IconProps>;
+    Vector4387829?: PrimitiveOverrideProps<IconProps>;
+    Vector4387830?: PrimitiveOverrideProps<IconProps>;
+    "Frame 322"?: PrimitiveOverrideProps<FlexProps>;
+    "logo_branca_conecta 2"?: PrimitiveOverrideProps<ImageProps>;
+    "Frame 3214387833"?: PrimitiveOverrideProps<FlexProps>;
+    Button4387834?: PrimitiveOverrideProps<ButtonProps>;
+    Button4387835?: PrimitiveOverrideProps<ButtonProps>;
     Rectangle?: PrimitiveOverrideProps<ImageProps>;
     "Group 408"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 122"?: PrimitiveOverrideProps<ViewProps>;
@@ -72,7 +76,7 @@ export declare type MeuPerfilOverridesProps = {
     "person_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 1"?: PrimitiveOverrideProps<ViewProps>;
     "ProfileIconBlack 141121464"?: PrimitiveOverrideProps<ViewProps>;
     Vector41121465?: PrimitiveOverrideProps<IconProps>;
-    "Sou Jo\u00E3o, desenvolvedor front-end apaixonado por tecnologia e sempre em busca de aprender. Gosto de resolver problemas e criar interfaces funcionais e bonitas. Busco oportunidades em empresas inclusivas onde eu possa crescer e fazer a diferen\u00E7a com meu trabalho."?: PrimitiveOverrideProps<TextProps>;
+    "Sou Jo\u00E3o, desenvolvedor front-end, apaixonado por tecnologia e sempre em busca de aprender. Gosto de resolver problemas e criar interfaces funcionais e bonitas. Busco oportunidades em empresas inclusivas onde eu possa crescer e fazer a diferen\u00E7a com meu trabalho e conhecimentos."?: PrimitiveOverrideProps<TextProps>;
     "ProfileIconBlack 141121461"?: PrimitiveOverrideProps<ViewProps>;
     Vector41121462?: PrimitiveOverrideProps<IconProps>;
     "+ 439882978"?: PrimitiveOverrideProps<TextProps>;
@@ -133,6 +137,11 @@ export declare type MeuPerfilOverridesProps = {
     Button41231373?: PrimitiveOverrideProps<ButtonProps>;
     Vector39883033?: PrimitiveOverrideProps<IconProps>;
     Vector41231381?: PrimitiveOverrideProps<IconProps>;
+    NavBarMenu?: PrimitiveOverrideProps<FlexProps>;
+    "Frame 3214387845"?: PrimitiveOverrideProps<FlexProps>;
+    Button4387846?: PrimitiveOverrideProps<ButtonProps>;
+    Button4387847?: PrimitiveOverrideProps<ButtonProps>;
+    Button4387848?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type MeuPerfilProps = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

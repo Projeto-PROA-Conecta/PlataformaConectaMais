@@ -37,169 +37,42 @@ export default function EscolhaDeConta(props) {
         top="0px"
         left="0px"
         padding="0px 0px 0px 0px"
-        backgroundColor="rgba(22,70,89,1)"
+        backgroundImage="linear-gradient(-90deg, rgba(22,70,89,1), rgba(18,135,181,1))"
         {...getOverrideProps(overrides, "Login")}
       >
         <Image
-          width="1519px"
-          height="1117px"
+          width="100%"
+          height="100%"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="0px"
-          left="0px"
+          top="0%"
+          bottom="0%"
+          left="0%"
+          right="0%"
           padding="0px 0px 0px 0px"
           objectFit="unset"
-          {...getOverrideProps(overrides, "Noise & Texture")}
+          {...getOverrideProps(overrides, "Rectangle")}
         ></Image>
-        <View
-          padding="0px 0px 0px 0px"
-          width="1519px"
-          height="1117px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="0px"
-          left="0px"
-          {...getOverrideProps(overrides, "Group 394")}
-        >
-          <View
-            width="1519px"
-            height="1117px"
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            overflow="hidden"
-            position="absolute"
-            top="0px"
-            left="0px"
-            padding="0px 0px 0px 0px"
-            {...getOverrideProps(overrides, "back gorund")}
-          >
-            <Icon
-              width="1822.8px"
-              height="1340.4px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 1822.800048828125,
-                height: 1340.400146484375,
-              }}
-              paths={[
-                {
-                  d: "M1822.8 0L0 0L0 1340.4L1822.8 1340.4L1822.8 0Z",
-                  fill: "rgba(0,0,0,1)",
-                  fillRule: "nonzero",
-                },
-              ]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="-10%"
-              bottom="-10%"
-              left="-10%"
-              right="-10%"
-              {...getOverrideProps(overrides, "Vector42342812")}
-            ></Icon>
-            <Icon
-              width="1822.8px"
-              height="1340.4px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 1822.800048828125,
-                height: 1340.400146484375,
-              }}
-              paths={[
-                {
-                  d: "M1822.8 0L0 0L0 1340.4L1822.8 1340.4L1822.8 0Z",
-                  fill: "rgba(0,0,0,1)",
-                  fillRule: "nonzero",
-                },
-              ]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="-10%"
-              bottom="-10%"
-              left="-10%"
-              right="-10%"
-              {...getOverrideProps(overrides, "Vector42342813")}
-            ></Icon>
-            <View
-              padding="0px 0px 0px 0px"
-              width="1519px"
-              height="1117px"
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="0%"
-              bottom="0%"
-              left="0%"
-              right="0%"
-              {...getOverrideProps(overrides, "Group")}
-            >
-              <Image
-                width="100%"
-                height="100%"
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="0%"
-                bottom="0%"
-                left="0%"
-                right="0%"
-                padding="0px 0px 0px 0px"
-                objectFit="unset"
-                {...getOverrideProps(overrides, "Rectangle")}
-              ></Image>
-            </View>
-          </View>
-        </View>
-        <View
-          width="630px"
-          height="815px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="-3092px"
-          left="-26px"
-          padding="0px 0px 0px 0px"
-          backgroundColor="rgba(217,217,217,1)"
-          {...getOverrideProps(overrides, "Rectangle 2")}
-        ></View>
         <Text
           fontFamily="Montserrat"
-          fontSize="40px"
+          fontSize="34px"
           fontWeight="700"
           color="rgba(255,255,255,1)"
-          lineHeight="48.7599983215332px"
+          lineHeight="41.44599914550781px"
           textAlign="left"
           display="block"
           direction="column"
           justifyContent="unset"
-          width="unset"
-          height="unset"
+          width="442px"
+          height="39px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="calc(50% - 24.5px - -34px)"
-          left="79px"
+          top="calc(50% - 19.5px - -5px)"
+          left="106px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Qual seu tipo de conta?"
@@ -207,197 +80,56 @@ export default function EscolhaDeConta(props) {
         ></Text>
         <Text
           fontFamily="Montserrat"
-          fontSize="64px"
+          fontSize="44px"
           fontWeight="700"
           color="rgba(255,255,255,1)"
-          lineHeight="78.01599884033203px"
+          lineHeight="53.6359977722168px"
           textAlign="left"
           display="block"
           direction="column"
           justifyContent="unset"
-          width="unset"
-          height="unset"
+          width="270px"
+          height="62px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="452px"
-          left="133px"
+          top="449px"
+          left="192px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Bem-vindo!"
           {...getOverrideProps(overrides, "Bem-vindo!")}
         ></Text>
-        <Icon
-          width="6.25px"
-          height="6.39px"
-          viewBox={{
-            minX: 0,
-            minY: 0,
-            width: 8.503227938337659,
-            height: 9.170949075834073,
-          }}
-          paths={[
-            {
-              d: "M6.25339 0L0 0L0 6.39453L6.25339 6.39453L6.25339 0Z",
-              fill: "rgba(232,152,155,1)",
-              fillRule: "nonzero",
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="88.23%"
-          bottom="11.16%"
-          left="50.69%"
-          right="48.89%"
-          transformOrigin="top left"
-          transform="rotate(-141.51deg)"
-          {...getOverrideProps(overrides, "Vector39885480")}
-        ></Icon>
-        <Icon
-          width="6.08px"
-          height="6.56px"
-          viewBox={{
-            minX: 0,
-            minY: 0,
-            width: 6.081089019775391,
-            height: 6.558609485626221,
-          }}
-          paths={[
-            {
-              d: "M6.08109 0L0 0L0 6.55861L6.08109 6.55861L6.08109 0Z",
-              fill: "rgba(232,152,155,1)",
-              fillRule: "nonzero",
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="89.31%"
-          bottom="10.06%"
-          left="54.43%"
-          right="45.17%"
-          transformOrigin="top left"
-          transform="rotate(-180deg)"
-          {...getOverrideProps(overrides, "Vector39885482")}
-        ></Icon>
-        <Icon
-          width="21.79px"
-          height="20.9px"
-          viewBox={{
-            minX: 0,
-            minY: 0,
-            width: 21.788217544555664,
-            height: 20.895030975341797,
-          }}
-          paths={[
-            {
-              d: "M15.7254 0L0 8.43933L5.95861 20.895L21.7882 10.8083",
-              fill: "rgba(202,202,203,1)",
-              fillRule: "nonzero",
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="75.13%"
-          bottom="22.84%"
-          left="87.9%"
-          right="10.67%"
-          {...getOverrideProps(overrides, "Vector39885491")}
-        ></Icon>
-        <Icon
-          width="5.9px"
-          height="8.38px"
-          viewBox={{
-            minX: 0,
-            minY: 0,
-            width: 5.896908760070801,
-            height: 8.38257884979248,
-          }}
-          paths={[
-            {
-              d: "M5.89691 0L0 0L0 8.38258L5.89691 8.38258L5.89691 0Z",
-              fill: "rgba(155,97,106,1)",
-              fillRule: "nonzero",
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="88.35%"
-          bottom="10.84%"
-          left="87.41%"
-          right="12.2%"
-          {...getOverrideProps(overrides, "Vector39885492")}
-        ></Icon>
-        <Icon
-          width="5.93px"
-          height="8.34px"
-          viewBox={{
-            minX: 0,
-            minY: 0,
-            width: 7.833201244728116,
-            height: 9.825426985829495,
-          }}
-          paths={[
-            {
-              d: "M5.93434 0L0 0L0 8.33655L5.93434 8.33655L5.93434 0Z",
-              fill: "rgba(155,97,106,1)",
-              fillRule: "nonzero",
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="88.15%"
-          bottom="11.04%"
-          left="89.99%"
-          right="9.62%"
-          transformOrigin="top left"
-          transform="rotate(-17.42deg)"
-          {...getOverrideProps(overrides, "Vector39885494")}
-        ></Icon>
         <View
           width="873px"
-          height="883px"
+          height="903px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="74px"
+          top="54px"
           left="574px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(overrides, "Frame 20")}
         >
           <View
             padding="0px 0px 0px 0px"
-            width="743px"
-            height="909px"
+            width="638px"
+            height="731px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="-26px"
-            left="110px"
+            top="86px"
+            left="155px"
             {...getOverrideProps(overrides, "Group 441")}
           >
             <View
               padding="0px 0px 0px 0px"
-              width="743px"
-              height="909px"
+              width="638px"
+              height="731px"
               display="block"
               gap="unset"
               alignItems="unset"
@@ -408,8 +140,8 @@ export default function EscolhaDeConta(props) {
               {...getOverrideProps(overrides, "Group 3")}
             >
               <View
-                width="743px"
-                height="909px"
+                width="638px"
+                height="731px"
                 display="block"
                 gap="unset"
                 alignItems="unset"
@@ -423,14 +155,14 @@ export default function EscolhaDeConta(props) {
                 {...getOverrideProps(overrides, "Rectangle 1")}
               ></View>
               <Image
-                width="379px"
-                height="198px"
+                width="269px"
+                height="118px"
                 display="block"
                 gap="unset"
                 alignItems="unset"
                 justifyContent="unset"
                 position="absolute"
-                top="73px"
+                top="72px"
                 left="183px"
                 padding="0px 0px 0px 0px"
                 objectFit="cover"
@@ -442,13 +174,13 @@ export default function EscolhaDeConta(props) {
               ></Image>
             </View>
             <Button
-              width="575px"
-              height="124px"
+              width="372px"
+              height="80px"
               position="absolute"
               borderRadius="10px"
-              top="296px"
-              left="82px"
-              backgroundColor="rgba(22,70,89,1)"
+              top="267px"
+              left="133px"
+              backgroundColor="rgba(211,152,74,1)"
               size="large"
               isDisabled={false}
               variation="primary"
@@ -456,12 +188,12 @@ export default function EscolhaDeConta(props) {
               {...getOverrideProps(overrides, "Button39885475")}
             ></Button>
             <Button
-              width="575px"
-              height="124px"
+              width="372px"
+              height="80px"
               position="absolute"
               borderRadius="10px"
-              top="465px"
-              left="82px"
+              top="407px"
+              left="133px"
               backgroundColor="rgba(38,25,13,1)"
               size="large"
               isDisabled={false}
@@ -469,35 +201,27 @@ export default function EscolhaDeConta(props) {
               children="Empresa"
               {...getOverrideProps(overrides, "Button39885476")}
             ></Button>
-            <Text
-              fontFamily="Montserrat"
-              fontSize="26px"
-              fontWeight="500"
-              color="rgba(0,0,0,1)"
-              lineHeight="31.694000244140625px"
-              textAlign="left"
-              display="block"
-              direction="column"
-              justifyContent="unset"
-              width="82px"
-              height="33px"
-              gap="unset"
-              alignItems="unset"
+            <Button
+              width="176.12px"
+              height="36.21px"
               position="absolute"
-              top="637px"
-              left="336px"
-              padding="0px 0px 0px 0px"
-              whiteSpace="pre-wrap"
+              border="1px SOLID rgba(0,0,0,1)"
+              borderRadius="10px"
+              top="633px"
+              left="243px"
+              size="default"
+              isDisabled={false}
+              variation="primary"
               children="Voltar"
-              {...getOverrideProps(overrides, "Voltar")}
-            ></Text>
+              {...getOverrideProps(overrides, "Button4367752")}
+            ></Button>
             <Icon
-              width="59px"
-              height="9px"
-              viewBox={{ minX: 0, minY: 0, width: 59, height: 9 }}
+              width="31px"
+              height="5px"
+              viewBox={{ minX: 0, minY: 0, width: 31, height: 5 }}
               paths={[
                 {
-                  d: "M55.5228 0L3.4772 0C1.55679 0 0 2.01472 0 4.49999L0 4.50002C0 6.98529 1.55679 9 3.4772 9L55.5228 9C57.4432 9 59 6.98529 59 4.49999C59 2.01472 57.4432 0 55.5228 0Z",
+                  d: "M29.173 0L1.827 0C0.817977 0 0 1.11929 0 2.49999L0 2.50001C0 3.88072 0.817977 5 1.827 5L29.173 5C30.182 5 31 3.88072 31 2.50001L31 2.49999C31 1.11929 30.182 0 29.173 0Z",
                   fill: "rgba(202,202,203,1)",
                   fillRule: "nonzero",
                 },
@@ -507,19 +231,19 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="80.2%"
-              bottom="18.81%"
-              left="14.54%"
-              right="77.52%"
+              top="84.27%"
+              bottom="15.05%"
+              left="12.85%"
+              right="82.29%"
               {...getOverrideProps(overrides, "Vector39885478")}
             ></Icon>
             <Icon
-              width="22px"
-              height="9px"
-              viewBox={{ minX: 0, minY: 0, width: 22, height: 9 }}
+              width="12px"
+              height="5px"
+              viewBox={{ minX: 0, minY: 0, width: 12, height: 5 }}
               paths={[
                 {
-                  d: "M3.44446 0L18.5555 0C20.4579 0 22 2.01471 22 4.5C22 6.98527 20.4579 9 18.5555 9L3.44446 9C1.54214 9 0 6.98528 0 4.5C0 2.01472 1.54214 0 3.44446 0Z",
+                  d: "M1.8788 0L10.1212 0C11.1588 0 12 1.11929 12 2.5C12 3.88071 11.1588 5 10.1212 5L1.8788 5C0.841169 5 0 3.88071 0 2.5C0 1.11929 0.841167 0 1.8788 0Z",
                   fill: "rgba(202,202,203,1)",
                   fillRule: "nonzero",
                 },
@@ -529,19 +253,19 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="82.73%"
-              bottom="16.28%"
-              left="14.54%"
-              right="82.5%"
+              top="86.18%"
+              bottom="13.13%"
+              left="12.85%"
+              right="85.27%"
               {...getOverrideProps(overrides, "Vector39885479")}
             ></Icon>
             <Icon
-              width="18px"
-              height="21px"
-              viewBox={{ minX: 0, minY: 0, width: 18, height: 21 }}
+              width="9px"
+              height="12px"
+              viewBox={{ minX: 0, minY: 0, width: 9, height: 12 }}
               paths={[
                 {
-                  d: "M0.0905255 6.99917C-0.0679489 6.20956 -0.0181864 5.54494 0.238495 5.02376C0.532073 4.42762 1.09715 4.02747 1.91791 3.83434C2.03257 3.6624 3.45914 1.53791 4.00764 1.43808C4.04963 1.29145 4.34283 0.333522 4.90468 0.0671888C5.16934 -0.0582551 5.45258 -0.00787815 5.74655 0.216937L5.75934 0.226755L5.75757 0.24591C5.75525 0.270943 5.53771 2.76278 6.6169 4.03322C7.23562 4.76158 8.15876 4.95581 9.3609 4.61013C9.42499 4.56092 10.2795 3.55612 10.8421 2.88812L10.8646 2.8614L14.7572 13.2856L17.7142 18.1779C18.0859 18.7928 18.096 19.6617 17.7389 20.2909C17.4343 20.8275 16.9117 21.094 16.4075 20.9699L13.9687 20.37C12.9497 20.1193 11.9698 19.5642 11.1349 18.7648L1.36751 9.41205C0.734687 8.80609 0.281172 7.94919 0.0905255 6.99917Z",
+                  d: "M0.0452627 3.99953C-0.0339745 3.54832 -0.00909322 3.16854 0.119248 2.87072C0.266037 2.53007 0.548573 2.30141 0.958956 2.19105C1.01629 2.0928 1.72957 0.878805 2.00382 0.821762C2.02482 0.737973 2.17142 0.190584 2.45234 0.0383936C2.58467 -0.0332886 2.72629 -0.0045018 2.87327 0.123964L2.87967 0.129575L2.87879 0.14052C2.87763 0.154825 2.76885 1.57873 3.30845 2.3047C3.61781 2.7209 4.07938 2.83189 4.68045 2.63436C4.71249 2.60624 5.13977 2.03207 5.42107 1.65035L5.43232 1.63509L7.37859 7.59178L8.85711 10.3874C9.04294 10.7387 9.04801 11.2353 8.86943 11.5948C8.71716 11.9014 8.45586 12.0537 8.20374 11.9828L6.98435 11.64C6.47483 11.4967 5.98488 11.1796 5.56746 10.7228L0.683754 5.37831C0.367344 5.03205 0.140586 4.54239 0.0452627 3.99953Z",
                   fill: "rgba(9,8,20,1)",
                   fillRule: "nonzero",
                 },
@@ -552,18 +276,18 @@ export default function EscolhaDeConta(props) {
               justifyContent="unset"
               position="absolute"
               top="94.94%"
-              bottom="2.75%"
-              left="6.33%"
-              right="91.25%"
+              bottom="3.42%"
+              left="7.99%"
+              right="90.6%"
               {...getOverrideProps(overrides, "Vector39885481")}
             ></Icon>
             <Icon
-              width="21px"
-              height="12px"
-              viewBox={{ minX: 0, minY: 0, width: 21, height: 12 }}
+              width="12px"
+              height="7px"
+              viewBox={{ minX: 0, minY: 0, width: 12, height: 7 }}
               paths={[
                 {
-                  d: "M0.784143 11.0871C0.297336 10.5979 0.03456 10.0515 0.00315572 9.46325C-0.0327837 8.79037 0.238403 8.06841 0.809062 7.31743C0.82276 7.10133 0.999873 4.42399 1.39455 3.94457C1.36146 3.80125 1.16043 2.85113 1.48998 2.23418C1.64522 1.94357 1.89546 1.77418 2.23374 1.73072L2.24848 1.72885L2.25579 1.74484C2.26533 1.76574 3.2257 3.83686 4.67035 4.0187C5.49858 4.12294 6.32782 3.59389 7.13503 2.44581C7.16405 2.36099 7.39213 0.962614 7.53934 0.0370037L7.54523 0L15.4167 5.13678L20.0178 6.71746C20.5961 6.91614 21 7.57519 21 8.32014C21 8.95536 20.702 9.54365 20.2409 9.81884L18.0106 11.1499C17.0787 11.706 16.0396 12 15.0056 12L2.90785 12C2.12405 12 1.36983 11.6758 0.784143 11.0871Z",
+                  d: "M0.448082 6.4675C0.169906 6.18209 0.0197486 5.8634 0.00180327 5.52023C-0.0187335 5.12771 0.13623 4.70657 0.462321 4.2685C0.470148 4.14245 0.571356 2.58066 0.796886 2.301C0.77798 2.2174 0.663103 1.66316 0.851416 1.30327C0.940127 1.13375 1.08312 1.03494 1.27643 1.00958L1.28485 1.0085L1.28902 1.01782C1.29447 1.03002 1.84326 2.23817 2.66877 2.34424C3.14205 2.40505 3.6159 2.09644 4.07716 1.42672C4.09374 1.37724 4.22407 0.561525 4.3082 0.0215855L4.31156 0L8.80952 2.99645L11.4388 3.91852C11.7692 4.03441 12 4.41886 12 4.85342C12 5.22396 11.8297 5.56713 11.5662 5.72766L10.2918 6.50409C9.75927 6.82852 9.16549 7 8.57462 7L1.66163 7C1.21374 7 0.782758 6.81089 0.448082 6.4675Z",
                   fill: "rgba(9,8,20,1)",
                   fillRule: "nonzero",
                 },
@@ -573,19 +297,19 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="96.48%"
-              bottom="2.2%"
-              left="13.59%"
-              right="83.58%"
+              top="96.03%"
+              bottom="3.01%"
+              left="12.23%"
+              right="85.89%"
               {...getOverrideProps(overrides, "Vector39885483")}
             ></Icon>
             <Icon
-              width="60px"
-              height="116px"
-              viewBox={{ minX: 0, minY: 0, width: 60, height: 116 }}
+              width="31px"
+              height="67px"
+              viewBox={{ minX: 0, minY: 0, width: 31, height: 67 }}
               paths={[
                 {
-                  d: "M23.1844 0L50.7961 0L60 116L50.7961 116L36.6076 41.566L32.3883 62.567L9.15191 108.444L0 97.2292L19.7338 58L23.1844 0Z",
+                  d: "M11.9786 0L26.2447 0L31 67L26.2447 67L18.9139 24.0079L16.734 36.1378L4.72849 62.6355L0 56.1582L10.1958 33.5L11.9786 0Z",
                   fill: "rgba(9,8,20,1)",
                   fillRule: "nonzero",
                 },
@@ -595,19 +319,19 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="83.61%"
-              bottom="3.63%"
-              left="6.86%"
-              right="85.06%"
+              top="86.73%"
+              bottom="4.1%"
+              left="8.31%"
+              right="86.83%"
               {...getOverrideProps(overrides, "Vector39885484")}
             ></Icon>
             <Icon
-              width="19px"
-              height="38px"
-              viewBox={{ minX: 0, minY: 0, width: 19, height: 38 }}
+              width="9px"
+              height="22px"
+              viewBox={{ minX: 0, minY: 0, width: 9, height: 22 }}
               paths={[
                 {
-                  d: "M0 11.7578C0 5.26413 4.25332 0 9.49993 0C14.7467 0 19 5.26413 19 11.7578C19 17.0242 16.2023 21.4814 12.3462 22.9782L10.5097 38L1.14735 28.3438C1.14735 28.3438 3.16986 25.1553 4.2546 21.5601C1.69099 19.4544 0 15.8512 0 11.7578Z",
+                  d: "M0 6.80717C0 3.04765 2.01473 0 4.49997 0C6.98527 0 9 3.04765 9 6.80717C9 9.85612 7.67476 12.4366 5.84821 13.3032L4.97828 22L0.543481 16.4096C0.543481 16.4096 1.50151 14.5636 2.01534 12.4822C0.800996 11.2631 0 9.17701 0 6.80717Z",
                   fill: "rgba(232,152,155,1)",
                   fillRule: "nonzero",
                 },
@@ -617,19 +341,19 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="75.03%"
-              bottom="20.79%"
-              left="11.04%"
-              right="86.41%"
+              top="80.57%"
+              bottom="16.42%"
+              left="10.82%"
+              right="87.77%"
               {...getOverrideProps(overrides, "Vector39885485")}
             ></Icon>
             <Icon
-              width="21px"
-              height="26px"
-              viewBox={{ minX: 0, minY: 0, width: 21, height: 26 }}
+              width="10px"
+              height="15px"
+              viewBox={{ minX: 0, minY: 0, width: 10, height: 15 }}
               paths={[
                 {
-                  d: "M6.57779 26C6.57779 26 4.77373 14.3721 7.38119 15.7562C9.98865 17.1402 9.29093 19.4799 9.29093 19.4799L11.7897 14.7742L11.7897 9.37648L13.4194 7.02362L20.3726 10.7605C20.3726 10.7605 24.0665 -3.07983 13.528 1.34908C13.528 1.34908 4.51059 -3.35664 1.90313 4.80916C-4.27865 23.2042 6.57779 26 6.57779 26Z",
+                  d: "M3.13228 15C3.13228 15 2.27321 8.29162 3.51485 9.09011C4.7565 9.88859 4.42425 11.2384 4.42425 11.2384L5.61416 8.52358L5.61416 5.40951L6.39019 4.05209L9.70124 6.20799C9.70124 6.20799 11.4602 -1.77683 6.44192 0.778313C6.44192 0.778313 2.1479 -1.93652 0.906254 2.77452C-2.03745 13.387 3.13228 15 3.13228 15Z",
                   fill: "rgba(9,8,20,1)",
                   fillRule: "nonzero",
                 },
@@ -639,19 +363,19 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="74.59%"
-              bottom="22.55%"
-              left="10.77%"
-              right="86.41%"
+              top="80.3%"
+              bottom="17.65%"
+              left="10.66%"
+              right="87.77%"
               {...getOverrideProps(overrides, "Vector39885486")}
             ></Icon>
             <Icon
-              width="28px"
-              height="53px"
-              viewBox={{ minX: 0, minY: 0, width: 28, height: 53 }}
+              width="14px"
+              height="31px"
+              viewBox={{ minX: 0, minY: 0, width: 14, height: 31 }}
               paths={[
                 {
-                  d: "M0.787327 52.8545L24.5614 52.9923C26.5407 53.1227 28.173 51.5863 27.9853 49.7695L23.4801 6.16415L15.4239 0.648798C13.7243 -0.514772 11.6416 -0.0843366 10.3 1.70776L5.52591 8.08507C4.27371 9.75778 3.46913 11.679 3.1778 13.6921L0.948959 42.5608C0.802484 43.5729 0.928126 44.6027 1.31488 45.5597L2.18926 47.7235C3.11608 50.0171 -1.86642 52.6796 0.787327 52.8545Z",
+                  d: "M0.393664 30.9149L12.2807 30.9955C13.2703 31.0718 14.0865 30.1731 13.9926 29.1105L11.74 3.60544L7.71194 0.379486C6.86214 -0.301093 5.82079 -0.049329 5.15 0.99888L2.76295 4.729C2.13685 5.70738 1.73457 6.83112 1.5889 8.00857L0.474479 24.8941C0.401242 25.4861 0.464063 26.0883 0.657442 26.6482L1.09463 27.9138C1.55804 29.2553 -0.933211 30.8126 0.393664 30.9149Z",
                   fill: "rgba(234,191,63,1)",
                   fillRule: "nonzero",
                 },
@@ -661,19 +385,19 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="77.89%"
-              bottom="16.28%"
-              left="9.96%"
-              right="86.27%"
+              top="82.63%"
+              bottom="13.13%"
+              left="10.19%"
+              right="87.62%"
               {...getOverrideProps(overrides, "Vector39885487")}
             ></Icon>
             <Icon
-              width="17px"
-              height="17px"
-              viewBox={{ minX: 0, minY: 0, width: 17, height: 17 }}
+              width="9px"
+              height="10px"
+              viewBox={{ minX: 0, minY: 0, width: 9, height: 10 }}
               paths={[
                 {
-                  d: "M7.47214 11.4964L0 5.40475L2.871 0L10.3431 6.09167C11.6407 5.73418 13.1625 6.0666 14.4937 7.15182C16.8229 9.05068 17.6827 12.5258 16.4142 14.9138C15.1457 17.3018 12.2293 17.6983 9.90011 15.7994C8.56895 14.7142 7.72046 13.1141 7.47214 11.4964Z",
+                  d: "M3.95584 6.7626L0 3.17927L1.51994 0L5.47578 3.58334C6.16271 3.37305 6.96841 3.56859 7.67314 4.20695C8.90622 5.32393 9.36143 7.36812 8.68988 8.77282C8.01832 10.1775 6.47432 10.4108 5.24123 9.29378C4.53651 8.65542 4.0873 7.71419 3.95584 6.7626Z",
                   fill: "rgba(232,152,155,1)",
                   fillRule: "nonzero",
                 },
@@ -683,19 +407,19 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="82.95%"
-              bottom="15.18%"
-              left="12.92%"
-              right="84.79%"
+              top="86.32%"
+              bottom="12.31%"
+              left="11.91%"
+              right="86.68%"
               {...getOverrideProps(overrides, "Vector39885488")}
             ></Icon>
             <Icon
-              width="25px"
-              height="48px"
-              viewBox={{ minX: 0, minY: 0, width: 25, height: 48 }}
+              width="13px"
+              height="28px"
+              viewBox={{ minX: 0, minY: 0, width: 13, height: 28 }}
               paths={[
                 {
-                  d: "M0 11.329L2.38748 35.5808L17.9517 48L25 39.1327L9.84289 28.6122L12.1205 0",
+                  d: "M0 6.60861L1.24149 20.7554L9.3349 28L13 22.8274L5.1183 16.6904L6.30265 0",
                   fill: "rgba(234,191,63,1)",
                   fillRule: "nonzero",
                 },
@@ -705,19 +429,19 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="78.88%"
-              bottom="15.84%"
-              left="10.9%"
-              right="85.73%"
+              top="83.31%"
+              bottom="12.86%"
+              left="10.66%"
+              right="87.3%"
               {...getOverrideProps(overrides, "Vector39885489")}
             ></Icon>
             <Icon
-              width="35px"
-              height="36px"
-              viewBox={{ minX: 0, minY: 0, width: 35, height: 36 }}
+              width="19px"
+              height="22px"
+              viewBox={{ minX: 0, minY: 0, width: 19, height: 22 }}
               paths={[
                 {
-                  d: "M1.84497 0.407602C3.6425 -0.73018 5.97258 0.595648 7.04932 3.36896C7.66469 4.95393 7.73547 6.66716 7.34939 8.05796L7.37389 8.12107L14.4385 24.179L27.0806 15.6924C29.4506 13.8282 32.3056 13.326 33.9562 16.1879C36.0015 19.7341 34.9229 24.7884 31.7514 26.5196L15.2552 35.5246C12.9116 36.8039 10.1997 35.4121 9.20151 32.4177L3.28095 10.6331C2.18023 10.1833 1.1552 9.07414 0.539829 7.48917C-0.536942 4.71588 0.0474346 1.54538 1.84497 0.407602Z",
+                  d: "M1.00155 0.24909C1.97736 -0.446221 3.24226 0.364007 3.82678 2.05881C4.16083 3.0274 4.19926 4.07437 3.98967 4.92431L4.00297 4.96288L7.83802 14.776L14.7009 9.5898C15.9874 8.45054 17.5373 8.14367 18.4334 9.89261C19.5437 12.0597 18.9581 15.1484 17.2365 16.2064L8.2814 21.7095C7.00916 22.4913 5.53697 21.6407 4.9951 19.8108L1.78109 6.49799C1.18355 6.22315 0.627108 5.54531 0.29305 4.57672C-0.291483 2.88193 0.0257502 0.944402 1.00155 0.24909Z",
                   fill: "rgba(155,97,106,1)",
                   fillRule: "nonzero",
                 },
@@ -727,19 +451,19 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="77.78%"
-              bottom="18.26%"
-              left="87.21%"
-              right="8.08%"
+              top="82.08%"
+              bottom="14.91%"
+              left="88.4%"
+              right="8.62%"
               {...getOverrideProps(overrides, "Vector39885490")}
             ></Icon>
             <Icon
-              width="20px"
-              height="12px"
-              viewBox={{ minX: 0, minY: 0, width: 20, height: 12 }}
+              width="11px"
+              height="8px"
+              viewBox={{ minX: 0, minY: 0, width: 11, height: 8 }}
               paths={[
                 {
-                  d: "M17.2306 12L5.70897 12C4.7242 12 3.73455 11.706 2.84702 11.1499L0.722962 9.81884C0.283784 9.54364 0 8.95536 0 8.32014C0 7.57519 0.384667 6.91614 0.935425 6.71746L5.31747 5.13677L12.8141 0L12.8197 0.0370046C12.9599 0.962614 13.1771 2.36098 13.2047 2.4458C13.9735 3.59388 14.7632 4.12293 15.552 4.01869C16.9279 3.83685 17.8425 1.76575 17.8516 1.74484L17.8586 1.72885L17.8726 1.73071C18.1948 1.77418 18.4331 1.94356 18.581 2.23417C18.8948 2.85112 18.7033 3.80124 18.6718 3.94456C19.0477 4.42399 19.2164 7.10134 19.2294 7.31744C19.7729 8.06841 20.0312 8.79037 19.997 9.46326C19.9671 10.0515 19.7168 10.5979 19.2532 11.0871C18.6954 11.6758 17.9771 12 17.2306 12Z",
+                  d: "M9.47684 8L3.13993 8C2.59831 8 2.054 7.80402 1.56586 7.43324L0.397629 6.5459C0.156081 6.36243 0 5.97024 0 5.54676C0 5.05012 0.211567 4.61076 0.514484 4.47831L2.92461 3.42451L7.04774 0L7.05082 0.0246698C7.12793 0.641742 7.2474 1.57398 7.2626 1.63053C7.68543 2.39592 8.11978 2.74862 8.55362 2.67912C9.31034 2.5579 9.81339 1.17716 9.81839 1.16323L9.82222 1.15257L9.82994 1.15381C10.0071 1.18278 10.1382 1.29571 10.2195 1.48945C10.3921 1.90075 10.2868 2.53416 10.2695 2.62971C10.4762 2.94933 10.569 4.73423 10.5762 4.87829C10.8751 5.37894 11.0172 5.86025 10.9983 6.30884C10.9819 6.70103 10.8442 7.06525 10.5893 7.39142C10.2825 7.78387 9.8874 8 9.47684 8Z",
                   fill: "rgba(9,8,20,1)",
                   fillRule: "nonzero",
                 },
@@ -749,19 +473,19 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="96.15%"
-              bottom="2.53%"
-              left="86.94%"
-              right="10.36%"
+              top="95.9%"
+              bottom="3.01%"
+              left="88.24%"
+              right="10.03%"
               {...getOverrideProps(overrides, "Vector39885493")}
             ></Icon>
             <Icon
-              width="20px"
-              height="15px"
-              viewBox={{ minX: 0, minY: 0, width: 20, height: 15 }}
+              width="11px"
+              height="9px"
+              viewBox={{ minX: 0, minY: 0, width: 11, height: 9 }}
               paths={[
                 {
-                  d: "M17.8033 10.3576L6.47323 14.6504C5.50483 15.0173 4.46715 15.0972 3.47233 14.8815L1.09151 14.3652C0.599245 14.2585 0.19109 13.7862 0.0516967 13.1621C-0.111779 12.4302 0.121838 11.6394 0.619837 11.239L4.58214 8.05329L10.8268 0.213345L10.8405 0.247625C11.1815 1.10478 11.7019 2.39772 11.7477 2.47076C12.7557 3.31229 13.6484 3.53782 14.4012 3.14151C15.7142 2.45023 16.1592 0.0746071 16.1635 0.0506791L16.1669 0.0323775L16.1811 0.0289771C16.5074 -0.0483566 16.779 0.029281 16.9881 0.259716C17.4321 0.748916 17.4524 1.75372 17.4528 1.90627C17.9277 2.23725 18.6811 4.80484 18.7413 5.01229C19.4406 5.54761 19.853 6.16069 19.967 6.83454C20.0667 7.42367 19.9405 8.05367 19.5919 8.70711C19.1726 9.4933 18.5374 10.0794 17.8033 10.3576Z",
+                  d: "M9.79181 6.21454L3.56028 8.79025C3.02766 9.0104 2.45693 9.05835 1.90978 8.9289L0.60033 8.61913C0.329585 8.55508 0.105099 8.27173 0.0284332 7.89728C-0.0614786 7.45813 0.067011 6.98364 0.34091 6.7434L2.52018 4.83197L5.95477 0.128007L5.96226 0.148575C6.14981 0.66287 6.43607 1.43863 6.46125 1.48245C7.01562 1.98737 7.5066 2.12269 7.92064 1.8849C8.64283 1.47014 8.88755 0.0447643 8.88994 0.0304075L8.89177 0.0194265L8.89959 0.0173863C9.07909 -0.029014 9.22843 0.0175686 9.34347 0.15583C9.58768 0.44935 9.5988 1.05223 9.59905 1.14376C9.86022 1.34235 10.2746 2.8829 10.3077 3.00737C10.6923 3.32857 10.9191 3.69641 10.9818 4.10073C11.0367 4.4542 10.9672 4.8322 10.7755 5.22426C10.5449 5.69598 10.1955 6.04767 9.79181 6.21454Z",
                   fill: "rgba(9,8,20,1)",
                   fillRule: "nonzero",
                 },
@@ -771,19 +495,19 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="95.82%"
-              bottom="2.53%"
-              left="92.33%"
-              right="4.98%"
+              top="95.76%"
+              bottom="3.01%"
+              left="91.54%"
+              right="6.74%"
               {...getOverrideProps(overrides, "Vector39885495")}
             ></Icon>
             <Icon
-              width="18px"
-              height="37px"
-              viewBox={{ minX: 0, minY: 0, width: 18, height: 37 }}
+              width="10px"
+              height="23px"
+              viewBox={{ minX: 0, minY: 0, width: 10, height: 23 }}
               paths={[
                 {
-                  d: "M18 11.4484C18 5.12564 13.9706 0 9.00002 0C4.02947 0 0 5.12564 0 11.4484C0 16.5762 2.65048 20.9161 6.30363 22.3735L8.04348 37L16.913 27.5979C16.913 27.5979 14.9969 24.4933 13.9694 20.9927C16.398 18.9425 18 15.4341 18 11.4484Z",
+                  d: "M10 7.11658C10 3.18621 7.76143 0 5.00001 0C2.2386 0 0 3.18621 0 7.11658C0 10.3041 1.47249 13.0019 3.50202 13.9079L4.4686 23L9.39612 17.1555C9.39612 17.1555 8.33163 15.2256 7.76076 13.0495C9.11001 11.7751 10 9.59417 10 7.11658Z",
                   fill: "rgba(155,97,106,1)",
                   fillRule: "nonzero",
                 },
@@ -793,19 +517,19 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="76.02%"
-              bottom="19.91%"
-              left="89.77%"
-              right="7.81%"
+              top="80.71%"
+              bottom="16.14%"
+              left="89.97%"
+              right="8.46%"
               {...getOverrideProps(overrides, "Vector39885496")}
             ></Icon>
             <Icon
-              width="51px"
-              height="158px"
-              viewBox={{ minX: 0, minY: 0, width: 51, height: 158 }}
+              width="27px"
+              height="96px"
+              viewBox={{ minX: 0, minY: 0, width: 27, height: 96 }}
               paths={[
                 {
-                  d: "M36.9246 43.9695L38.2384 20.7209C38.3524 18.7047 38.1508 16.6799 37.645 14.7624L33.7513 0L22.2818 4.6558L17.4423 18.6485L14.8064 24.7555C13.6066 27.5358 13.9995 30.9828 15.7712 33.2221L17.4423 35.3341L15.1125 46.1305L15.3577 46.1195L15.0276 46.173C15.0276 46.173 -0.542612 105.38 0.014607 155.731L20.0023 155.731L21.1889 97.2813L24.6609 158L51 156.083L36.9246 43.9695Z",
+                  d: "M19.5483 26.7157L20.2439 12.5899C20.3042 11.3649 20.1975 10.1346 19.9297 8.96957L17.8683 0L11.7963 2.82884L9.23419 11.3307L7.83871 15.0413C7.20348 16.7306 7.41148 18.825 8.34948 20.1856L9.23419 21.4688L8.00076 28.0287L8.13053 28.022L7.95581 28.0545C7.95581 28.0545 -0.287265 64.0282 0.00773314 94.6215L10.5895 94.6215L11.2176 59.1076L13.0558 96L27 94.8354L19.5483 26.7157Z",
                   fill: "rgba(202,202,203,1)",
                   fillRule: "nonzero",
                 },
@@ -815,19 +539,19 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="78.66%"
-              bottom="3.96%"
-              left="87.75%"
-              right="5.38%"
+              top="82.76%"
+              bottom="4.1%"
+              left="88.71%"
+              right="7.05%"
               {...getOverrideProps(overrides, "Vector39885497")}
             ></Icon>
             <Icon
-              width="23px"
-              height="33px"
-              viewBox={{ minX: 0, minY: 0, width: 23, height: 33 }}
+              width="12px"
+              height="20px"
+              viewBox={{ minX: 0, minY: 0, width: 12, height: 20 }}
               paths={[
                 {
-                  d: "M22.8966 28.5143C22.8966 28.5143 22.4717 32.5963 18.5346 32.7296C13.2104 32.9099 10.5483 33 10.5483 33C10.5483 33 17.2995 12.1976 14.5235 14.5412C11.7475 16.8847 4.34481 7.05986 4.34481 7.05986L2.16054 12.2467C2.16054 12.2467 -3.05785 9.85408 2.72548 3.99524C2.72548 3.99524 9.62583 -2.75932 16.9514 1.2968C24.2769 5.35293 22.8966 28.5143 22.8966 28.5143Z",
+                  d: "M11.946 17.2814C11.946 17.2814 11.7243 19.7553 9.67023 19.8361C6.89237 19.9454 5.50344 20 5.50344 20C5.50344 20 9.02581 7.3925 7.57746 8.81282C6.12911 10.2331 2.26686 4.27871 2.26686 4.27871L1.12724 7.42222C1.12724 7.42222 -1.5954 5.97217 1.42199 2.42136C1.42199 2.42136 5.02217 -1.67232 8.8442 0.785942C12.6662 3.2442 11.946 17.2814 11.946 17.2814Z",
                   fill: "rgba(9,8,20,1)",
                   fillRule: "nonzero",
                 },
@@ -837,19 +561,19 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="75.8%"
-              bottom="20.57%"
-              left="89.5%"
-              right="7.4%"
+              top="80.57%"
+              bottom="16.69%"
+              left="89.81%"
+              right="8.31%"
               {...getOverrideProps(overrides, "Vector39885498")}
             ></Icon>
             <Icon
-              width="31px"
-              height="37px"
-              viewBox={{ minX: 0, minY: 0, width: 31, height: 37 }}
+              width="17px"
+              height="23px"
+              viewBox={{ minX: 0, minY: 0, width: 17, height: 23 }}
               paths={[
                 {
-                  d: "M0.00412815 32.5125C-0.100578 29.8747 1.79932 27.6028 4.24771 27.4381C5.64698 27.344 6.92065 27.9604 7.7764 28.9966L7.83211 28.9929L22.3421 27.0366L21.2535 8.2862C20.8508 4.65915 21.6331 1.00409 24.3764 0.1824C27.7757 -0.835763 31.0159 2.53802 30.9999 7.07893L30.9167 30.698C30.9049 34.0535 28.8036 36.7597 26.226 36.7389L8.01332 34.9669C7.24416 36.1125 6.02608 36.8964 4.62682 36.9905C2.17844 37.1552 0.108835 35.1503 0.00412815 32.5125Z",
+                  d: "M0.00226382 20.2105C-0.0551558 18.5708 0.986726 17.1585 2.32939 17.0561C3.09673 16.9976 3.7952 17.3808 4.26448 18.0249L4.29503 18.0226L12.2521 16.8065L11.6552 5.15088C11.4343 2.89623 11.8633 0.624163 13.3677 0.113384C15.2319 -0.519528 17.0087 1.57769 17 4.40042L16.9543 19.0825C16.9478 21.1684 15.7955 22.8506 14.382 22.8377L4.3944 21.7362C3.9726 22.4483 3.30463 22.9356 2.53729 22.9941C1.19463 23.0965 0.0596835 21.8502 0.00226382 20.2105Z",
                   fill: "rgba(155,97,106,1)",
                   fillRule: "nonzero",
                 },
@@ -859,19 +583,19 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="80.42%"
-              bottom="15.51%"
-              left="88.29%"
-              right="7.54%"
+              top="83.99%"
+              bottom="12.86%"
+              left="89.03%"
+              right="8.31%"
               {...getOverrideProps(overrides, "Vector39885499")}
             ></Icon>
             <Icon
-              width="13px"
-              height="23px"
-              viewBox={{ minX: 0, minY: 0, width: 13, height: 23 }}
+              width="7px"
+              height="15px"
+              viewBox={{ minX: 0, minY: 0, width: 7, height: 15 }}
               paths={[
                 {
-                  d: "M0 1.90279L0.872304 23L13 21.9422L10.8553 0",
+                  d: "M0 1.24095L0.469702 15L7 14.3102L5.84516 0",
                   fill: "rgba(202,202,203,1)",
                   fillRule: "nonzero",
                 },
@@ -881,19 +605,19 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="80.31%"
-              bottom="17.16%"
-              left="90.98%"
-              right="7.27%"
+              top="83.86%"
+              bottom="14.09%"
+              left="90.75%"
+              right="8.15%"
               {...getOverrideProps(overrides, "Vector39885500")}
             ></Icon>
             <Icon
-              width="77px"
-              height="9px"
-              viewBox={{ minX: 0, minY: 0, width: 77, height: 9 }}
+              width="41px"
+              height="6px"
+              viewBox={{ minX: 0, minY: 0, width: 41, height: 6 }}
               paths={[
                 {
-                  d: "M73.5102 0L3.48978 0C1.56243 0 0 2.01472 0 4.49999L0 4.5C0 6.98528 1.56243 9 3.48978 9L73.5102 9C75.4376 9 77 6.98528 77 4.49999C77 2.01472 75.4376 0 73.5102 0Z",
+                  d: "M39.1418 0L1.8582 0C0.831942 0 0 1.34314 0 3L0 3C0 4.65686 0.831942 6 1.8582 6L39.1418 6C40.1681 6 41 4.65686 41 3C41 1.34314 40.1681 0 39.1418 0Z",
                   fill: "rgba(234,191,63,1)",
                   fillRule: "nonzero",
                 },
@@ -903,19 +627,19 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="77.12%"
-              bottom="21.89%"
-              left="78.47%"
-              right="11.17%"
+              top="81.53%"
+              bottom="17.65%"
+              left="83.07%"
+              right="10.5%"
               {...getOverrideProps(overrides, "Vector39885501")}
             ></Icon>
             <Icon
-              width="62px"
-              height="9px"
-              viewBox={{ minX: 0, minY: 0, width: 62, height: 9 }}
+              width="34px"
+              height="6px"
+              viewBox={{ minX: 0, minY: 0, width: 34, height: 6 }}
               paths={[
                 {
-                  d: "M58.5054 0L3.49455 0C1.56456 0 0 2.01472 0 4.49999L0 4.50002C0 6.98529 1.56456 9 3.49455 9L58.5054 9C60.4354 9 62 6.98529 62 4.49999C62 2.01472 60.4354 0 58.5054 0Z",
+                  d: "M32.0836 0L1.91637 0C0.857986 0 0 1.34314 0 2.99999L0 3.00001C0 4.65686 0.857986 6 1.91637 6L32.0836 6C33.142 6 34 4.65686 34 2.99999C34 1.34314 33.142 0 32.0836 0Z",
                   fill: "rgba(234,191,63,1)",
                   fillRule: "nonzero",
                 },
@@ -925,19 +649,19 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="81.08%"
-              bottom="17.93%"
-              left="80.48%"
-              right="11.17%"
+              top="84.54%"
+              bottom="14.64%"
+              left="84.17%"
+              right="10.5%"
               {...getOverrideProps(overrides, "Vector39885502")}
             ></Icon>
             <Icon
-              width="17px"
-              height="9px"
-              viewBox={{ minX: 0, minY: 0, width: 17, height: 9 }}
+              width="9px"
+              height="5px"
+              viewBox={{ minX: 0, minY: 0, width: 9, height: 5 }}
               paths={[
                 {
-                  d: "M3.42208 0L13.5779 0C15.4679 0 17 2.01472 17 4.5C17 6.98527 15.4679 9 13.5779 9L3.42208 9C1.53212 9 0 6.98528 0 4.5C0 2.01473 1.53212 0 3.42208 0Z",
+                  d: "M1.81169 0L7.18831 0C8.18888 0 9 1.11929 9 2.5C9 3.88071 8.18888 5 7.18831 5L1.81169 5C0.811122 5 0 3.88071 0 2.5C0 1.11929 0.81112 0 1.81169 0Z",
                   fill: "rgba(234,191,63,1)",
                   fillRule: "nonzero",
                 },
@@ -947,19 +671,19 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="83.72%"
-              bottom="15.29%"
-              left="86.54%"
-              right="11.17%"
+              top="86.59%"
+              bottom="12.72%"
+              left="88.09%"
+              right="10.5%"
               {...getOverrideProps(overrides, "Vector39885503")}
             ></Icon>
             <Icon
-              width="57px"
-              height="9px"
-              viewBox={{ minX: 0, minY: 0, width: 57, height: 9 }}
+              width="31px"
+              height="5px"
+              viewBox={{ minX: 0, minY: 0, width: 31, height: 5 }}
               paths={[
                 {
-                  d: "M53.5079 0L3.4921 0C1.56346 0 0 2.01472 0 4.49999L0 4.5C0 6.98528 1.56346 9 3.4921 9L53.5079 9C55.4365 9 57 6.98528 57 4.49999C57 2.01472 55.4365 0 53.5079 0Z",
+                  d: "M29.1008 0L1.89921 0C0.850303 0 0 1.11929 0 2.5L0 2.5C0 3.88071 0.850303 5 1.89921 5L29.1008 5C30.1497 5 31 3.88071 31 2.5C31 1.11929 30.1497 0 29.1008 0Z",
                   fill: "rgba(234,191,63,1)",
                   fillRule: "nonzero",
                 },
@@ -969,19 +693,19 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="78.55%"
-              bottom="20.46%"
-              left="81.16%"
-              right="11.17%"
+              top="82.63%"
+              bottom="16.69%"
+              left="84.64%"
+              right="10.5%"
               {...getOverrideProps(overrides, "Vector39885504")}
             ></Icon>
             <Icon
-              width="37px"
-              height="41px"
-              viewBox={{ minX: 0, minY: 0, width: 37, height: 41 }}
+              width="27px"
+              height="30px"
+              viewBox={{ minX: 0, minY: 0, width: 27, height: 30 }}
               paths={[
                 {
-                  d: "M18.5 20.5C15.9563 20.5 13.7786 19.4964 11.9672 17.4891C10.1557 15.4818 9.25 13.0687 9.25 10.25C9.25 7.43125 10.1557 5.01823 11.9672 3.01094C13.7786 1.00365 15.9563 0 18.5 0C21.0438 0 23.2214 1.00365 25.0328 3.01094C26.8443 5.01823 27.75 7.43125 27.75 10.25C27.75 13.0687 26.8443 15.4818 25.0328 17.4891C23.2214 19.4964 21.0438 20.5 18.5 20.5ZM0 41L0 33.825C0 32.3729 0.33724 31.0383 1.01172 29.8211C1.6862 28.6039 2.58229 27.675 3.7 27.0344C6.08958 25.7104 8.51771 24.7174 10.9844 24.0555C13.451 23.3935 15.9563 23.0625 18.5 23.0625C21.0438 23.0625 23.549 23.3935 26.0156 24.0555C28.4823 24.7174 30.9104 25.7104 33.3 27.0344C34.4177 27.675 35.3138 28.6039 35.9883 29.8211C36.6628 31.0383 37 32.3729 37 33.825L37 41L0 41ZM4.625 35.875L32.375 35.875L32.375 33.825C32.375 33.3552 32.269 32.9281 32.057 32.5438C31.8451 32.1594 31.5656 31.8604 31.2188 31.6469C29.1375 30.4937 27.037 29.6289 24.9172 29.0523C22.7974 28.4758 20.6583 28.1875 18.5 28.1875C16.3417 28.1875 14.2026 28.4758 12.0828 29.0523C9.96302 29.6289 7.8625 30.4937 5.78125 31.6469C5.43438 31.8604 5.15495 32.1594 4.94297 32.5438C4.73099 32.9281 4.625 33.3552 4.625 33.825L4.625 35.875ZM18.5 15.375C19.7719 15.375 20.8607 14.8732 21.7664 13.8695C22.6721 12.8659 23.125 11.6594 23.125 10.25C23.125 8.84062 22.6721 7.63411 21.7664 6.63047C20.8607 5.62682 19.7719 5.125 18.5 5.125C17.2281 5.125 16.1393 5.62682 15.2336 6.63047C14.3279 7.63411 13.875 8.84062 13.875 10.25C13.875 11.6594 14.3279 12.8659 15.2336 13.8695C16.1393 14.8732 17.2281 15.375 18.5 15.375Z",
+                  d: "M13.5 15C11.6438 15 10.0547 14.2656 8.73281 12.7969C7.41094 11.3281 6.75 9.5625 6.75 7.5C6.75 5.4375 7.41094 3.67187 8.73281 2.20312C10.0547 0.734375 11.6438 0 13.5 0C15.3562 0 16.9453 0.734375 18.2672 2.20312C19.5891 3.67187 20.25 5.4375 20.25 7.5C20.25 9.5625 19.5891 11.3281 18.2672 12.7969C16.9453 14.2656 15.3562 15 13.5 15ZM0 30L0 24.75C0 23.6875 0.246094 22.7109 0.738281 21.8203C1.23047 20.9297 1.88438 20.25 2.7 19.7812C4.44375 18.8125 6.21562 18.0859 8.01562 17.6016C9.81563 17.1172 11.6438 16.875 13.5 16.875C15.3562 16.875 17.1844 17.1172 18.9844 17.6016C20.7844 18.0859 22.5562 18.8125 24.3 19.7812C25.1156 20.25 25.7695 20.9297 26.2617 21.8203C26.7539 22.7109 27 23.6875 27 24.75L27 30L0 30ZM3.375 26.25L23.625 26.25L23.625 24.75C23.625 24.4062 23.5477 24.0938 23.393 23.8125C23.2383 23.5312 23.0344 23.3125 22.7812 23.1562C21.2625 22.3125 19.7297 21.6797 18.1828 21.2578C16.6359 20.8359 15.075 20.625 13.5 20.625C11.925 20.625 10.3641 20.8359 8.81719 21.2578C7.27031 21.6797 5.7375 22.3125 4.21875 23.1562C3.96563 23.3125 3.76172 23.5312 3.60703 23.8125C3.45234 24.0938 3.375 24.4062 3.375 24.75L3.375 26.25ZM13.5 11.25C14.4281 11.25 15.2227 10.8828 15.8836 10.1484C16.5445 9.41406 16.875 8.53125 16.875 7.5C16.875 6.46875 16.5445 5.58594 15.8836 4.85156C15.2227 4.11719 14.4281 3.75 13.5 3.75C12.5719 3.75 11.7773 4.11719 11.1164 4.85156C10.4555 5.58594 10.125 6.46875 10.125 7.5C10.125 8.53125 10.4555 9.41406 11.1164 10.1484C11.7773 10.8828 12.5719 11.25 13.5 11.25Z",
                   fill: "rgba(232,234,237,1)",
                   fillRule: "nonzero",
                 },
@@ -991,38 +715,18 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="338px"
-              left="127px"
-              {...getOverrideProps(overrides, "Vector3997663")}
-            ></Icon>
-            <Icon
-              width="37px"
-              height="41px"
-              viewBox={{ minX: 0, minY: 0, width: 37, height: 41 }}
-              paths={[
-                {
-                  d: "M18.5 20.5C15.9563 20.5 13.7786 19.4964 11.9672 17.4891C10.1557 15.4818 9.25 13.0687 9.25 10.25C9.25 7.43125 10.1557 5.01823 11.9672 3.01094C13.7786 1.00365 15.9563 0 18.5 0C21.0438 0 23.2214 1.00365 25.0328 3.01094C26.8443 5.01823 27.75 7.43125 27.75 10.25C27.75 13.0687 26.8443 15.4818 25.0328 17.4891C23.2214 19.4964 21.0438 20.5 18.5 20.5ZM0 41L0 33.825C0 32.3729 0.33724 31.0383 1.01172 29.8211C1.6862 28.6039 2.58229 27.675 3.7 27.0344C6.08958 25.7104 8.51771 24.7174 10.9844 24.0555C13.451 23.3935 15.9563 23.0625 18.5 23.0625C21.0438 23.0625 23.549 23.3935 26.0156 24.0555C28.4823 24.7174 30.9104 25.7104 33.3 27.0344C34.4177 27.675 35.3138 28.6039 35.9883 29.8211C36.6628 31.0383 37 32.3729 37 33.825L37 41L0 41ZM4.625 35.875L32.375 35.875L32.375 33.825C32.375 33.3552 32.269 32.9281 32.057 32.5438C31.8451 32.1594 31.5656 31.8604 31.2188 31.6469C29.1375 30.4937 27.037 29.6289 24.9172 29.0523C22.7974 28.4758 20.6583 28.1875 18.5 28.1875C16.3417 28.1875 14.2026 28.4758 12.0828 29.0523C9.96302 29.6289 7.8625 30.4937 5.78125 31.6469C5.43438 31.8604 5.15495 32.1594 4.94297 32.5438C4.73099 32.9281 4.625 33.3552 4.625 33.825L4.625 35.875ZM18.5 15.375C19.7719 15.375 20.8607 14.8732 21.7664 13.8695C22.6721 12.8659 23.125 11.6594 23.125 10.25C23.125 8.84062 22.6721 7.63411 21.7664 6.63047C20.8607 5.62682 19.7719 5.125 18.5 5.125C17.2281 5.125 16.1393 5.62682 15.2336 6.63047C14.3279 7.63411 13.875 8.84062 13.875 10.25C13.875 11.6594 14.3279 12.8659 15.2336 13.8695C16.1393 14.8732 17.2281 15.375 18.5 15.375Z",
-                  fill: "rgba(232,234,237,1)",
-                  fillRule: "nonzero",
-                },
-              ]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="338px"
-              left="575px"
+              top="292px"
+              left="205px"
               {...getOverrideProps(overrides, "Vector3997659")}
             ></Icon>
             <Icon
-              width="37px"
-              height="42px"
-              viewBox={{ minX: 0, minY: 0, width: 37, height: 42 }}
+              width="27px"
+              height="30px"
+              viewBox={{ minX: 0, minY: 0, width: 27, height: 30 }}
               paths={[
                 {
-                  d: "M0 42L0 9.33333L8.22222 9.33333L8.22222 0L28.7778 0L28.7778 18.6667L37 18.6667L37 42L20.5556 42L20.5556 32.6667L16.4444 32.6667L16.4444 42L0 42ZM4.11111 37.3333L8.22222 37.3333L8.22222 32.6667L4.11111 32.6667L4.11111 37.3333ZM4.11111 28L8.22222 28L8.22222 23.3333L4.11111 23.3333L4.11111 28ZM4.11111 18.6667L8.22222 18.6667L8.22222 14L4.11111 14L4.11111 18.6667ZM12.3333 28L16.4444 28L16.4444 23.3333L12.3333 23.3333L12.3333 28ZM12.3333 18.6667L16.4444 18.6667L16.4444 14L12.3333 14L12.3333 18.6667ZM12.3333 9.33333L16.4444 9.33333L16.4444 4.66667L12.3333 4.66667L12.3333 9.33333ZM20.5556 28L24.6667 28L24.6667 23.3333L20.5556 23.3333L20.5556 28ZM20.5556 18.6667L24.6667 18.6667L24.6667 14L20.5556 14L20.5556 18.6667ZM20.5556 9.33333L24.6667 9.33333L24.6667 4.66667L20.5556 4.66667L20.5556 9.33333ZM28.7778 37.3333L32.8889 37.3333L32.8889 32.6667L28.7778 32.6667L28.7778 37.3333ZM28.7778 28L32.8889 28L32.8889 23.3333L28.7778 23.3333L28.7778 28Z",
-                  fill: "rgba(255,255,255,1)",
+                  d: "M13.5 15C11.6438 15 10.0547 14.2656 8.73281 12.7969C7.41094 11.3281 6.75 9.5625 6.75 7.5C6.75 5.4375 7.41094 3.67187 8.73281 2.20312C10.0547 0.734375 11.6438 0 13.5 0C15.3562 0 16.9453 0.734375 18.2672 2.20312C19.5891 3.67187 20.25 5.4375 20.25 7.5C20.25 9.5625 19.5891 11.3281 18.2672 12.7969C16.9453 14.2656 15.3562 15 13.5 15ZM0 30L0 24.75C0 23.6875 0.246094 22.7109 0.738281 21.8203C1.23047 20.9297 1.88438 20.25 2.7 19.7812C4.44375 18.8125 6.21562 18.0859 8.01562 17.6016C9.81563 17.1172 11.6438 16.875 13.5 16.875C15.3562 16.875 17.1844 17.1172 18.9844 17.6016C20.7844 18.0859 22.5562 18.8125 24.3 19.7812C25.1156 20.25 25.7695 20.9297 26.2617 21.8203C26.7539 22.7109 27 23.6875 27 24.75L27 30L0 30ZM3.375 26.25L23.625 26.25L23.625 24.75C23.625 24.4062 23.5477 24.0938 23.393 23.8125C23.2383 23.5312 23.0344 23.3125 22.7812 23.1562C21.2625 22.3125 19.7297 21.6797 18.1828 21.2578C16.6359 20.8359 15.075 20.625 13.5 20.625C11.925 20.625 10.3641 20.8359 8.81719 21.2578C7.27031 21.6797 5.7375 22.3125 4.21875 23.1562C3.96563 23.3125 3.76172 23.5312 3.60703 23.8125C3.45234 24.0938 3.375 24.4062 3.375 24.75L3.375 26.25ZM13.5 11.25C14.4281 11.25 15.2227 10.8828 15.8836 10.1484C16.5445 9.41406 16.875 8.53125 16.875 7.5C16.875 6.46875 16.5445 5.58594 15.8836 4.85156C15.2227 4.11719 14.4281 3.75 13.5 3.75C12.5719 3.75 11.7773 4.11719 11.1164 4.85156C10.4555 5.58594 10.125 6.46875 10.125 7.5C10.125 8.53125 10.4555 9.41406 11.1164 10.1484C11.7773 10.8828 12.5719 11.25 13.5 11.25Z",
+                  fill: "rgba(232,234,237,1)",
                   fillRule: "nonzero",
                 },
               ]}
@@ -1031,17 +735,17 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="506px"
-              left="575px"
-              {...getOverrideProps(overrides, "Vector3997655")}
+              top="292px"
+              left="412px"
+              {...getOverrideProps(overrides, "Vector4342759")}
             ></Icon>
             <Icon
-              width="37px"
-              height="42px"
-              viewBox={{ minX: 0, minY: 0, width: 37, height: 42 }}
+              width="27px"
+              height="30px"
+              viewBox={{ minX: 0, minY: 0, width: 27, height: 30 }}
               paths={[
                 {
-                  d: "M0 42L0 9.33333L8.22222 9.33333L8.22222 0L28.7778 0L28.7778 18.6667L37 18.6667L37 42L20.5556 42L20.5556 32.6667L16.4444 32.6667L16.4444 42L0 42ZM4.11111 37.3333L8.22222 37.3333L8.22222 32.6667L4.11111 32.6667L4.11111 37.3333ZM4.11111 28L8.22222 28L8.22222 23.3333L4.11111 23.3333L4.11111 28ZM4.11111 18.6667L8.22222 18.6667L8.22222 14L4.11111 14L4.11111 18.6667ZM12.3333 28L16.4444 28L16.4444 23.3333L12.3333 23.3333L12.3333 28ZM12.3333 18.6667L16.4444 18.6667L16.4444 14L12.3333 14L12.3333 18.6667ZM12.3333 9.33333L16.4444 9.33333L16.4444 4.66667L12.3333 4.66667L12.3333 9.33333ZM20.5556 28L24.6667 28L24.6667 23.3333L20.5556 23.3333L20.5556 28ZM20.5556 18.6667L24.6667 18.6667L24.6667 14L20.5556 14L20.5556 18.6667ZM20.5556 9.33333L24.6667 9.33333L24.6667 4.66667L20.5556 4.66667L20.5556 9.33333ZM28.7778 37.3333L32.8889 37.3333L32.8889 32.6667L28.7778 32.6667L28.7778 37.3333ZM28.7778 28L32.8889 28L32.8889 23.3333L28.7778 23.3333L28.7778 28Z",
+                  d: "M0 30L0 6.66667L6 6.66667L6 0L21 0L21 13.3333L27 13.3333L27 30L15 30L15 23.3333L12 23.3333L12 30L0 30ZM3 26.6667L6 26.6667L6 23.3333L3 23.3333L3 26.6667ZM3 20L6 20L6 16.6667L3 16.6667L3 20ZM3 13.3333L6 13.3333L6 10L3 10L3 13.3333ZM9 20L12 20L12 16.6667L9 16.6667L9 20ZM9 13.3333L12 13.3333L12 10L9 10L9 13.3333ZM9 6.66667L12 6.66667L12 3.33333L9 3.33333L9 6.66667ZM15 20L18 20L18 16.6667L15 16.6667L15 20ZM15 13.3333L18 13.3333L18 10L15 10L15 13.3333ZM15 6.66667L18 6.66667L18 3.33333L15 3.33333L15 6.66667ZM21 26.6667L24 26.6667L24 23.3333L21 23.3333L21 26.6667ZM21 20L24 20L24 16.6667L21 16.6667L21 20Z",
                   fill: "rgba(255,255,255,1)",
                   fillRule: "nonzero",
                 },
@@ -1051,20 +755,19 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="506px"
-              left="127px"
+              top="432px"
+              left="205px"
               {...getOverrideProps(overrides, "Vector3997657")}
             ></Icon>
             <Icon
-              width="126px"
-              height="0px"
-              viewBox={{ minX: 0, minY: 0, width: 126, height: 1 }}
+              width="27px"
+              height="30px"
+              viewBox={{ minX: 0, minY: 0, width: 27, height: 30 }}
               paths={[
                 {
-                  d: "M0 0L126 0L126 -1L0 -1L0 0Z",
-                  stroke: "rgba(58,58,58,1)",
+                  d: "M0 30L0 6.66667L6 6.66667L6 0L21 0L21 13.3333L27 13.3333L27 30L15 30L15 23.3333L12 23.3333L12 30L0 30ZM3 26.6667L6 26.6667L6 23.3333L3 23.3333L3 26.6667ZM3 20L6 20L6 16.6667L3 16.6667L3 20ZM3 13.3333L6 13.3333L6 10L3 10L3 13.3333ZM9 20L12 20L12 16.6667L9 16.6667L9 20ZM9 13.3333L12 13.3333L12 10L9 10L9 13.3333ZM9 6.66667L12 6.66667L12 3.33333L9 3.33333L9 6.66667ZM15 20L18 20L18 16.6667L15 16.6667L15 20ZM15 13.3333L18 13.3333L18 10L15 10L15 13.3333ZM15 6.66667L18 6.66667L18 3.33333L15 3.33333L15 6.66667ZM21 26.6667L24 26.6667L24 23.3333L21 23.3333L21 26.6667ZM21 20L24 20L24 16.6667L21 16.6667L21 20Z",
+                  fill: "rgba(255,255,255,1)",
                   fillRule: "nonzero",
-                  strokeWidth: 1,
                 },
               ]}
               display="block"
@@ -1072,9 +775,9 @@ export default function EscolhaDeConta(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="678px"
-              left="308px"
-              {...getOverrideProps(overrides, "Line 53")}
+              top="432px"
+              left="412px"
+              {...getOverrideProps(overrides, "Vector4342719")}
             ></Icon>
           </View>
         </View>
