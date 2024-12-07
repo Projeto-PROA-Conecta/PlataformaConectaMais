@@ -29,7 +29,6 @@ export default function MeuPerfil(props) {
       overflow="hidden"
       position="relative"
       padding="0px 0px 0px 0px"
-      backgroundImage="linear-gradient(-90deg, rgba(22,70,89,1), rgba(18,135,181,1))"
       {...getOverrideProps(overrides, "MeuPerfil")}
       {...rest}
     >
@@ -205,32 +204,16 @@ export default function MeuPerfil(props) {
           ></Button>
         </Flex>
       </Flex>
-      <Image
-        width="99.74%"
-        height="90.44%"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="9.56%"
-        bottom="0%"
-        left="0%"
-        right="0.26%"
-        padding="0px 0px 0px 0px"
-        objectFit="unset"
-        {...getOverrideProps(overrides, "Rectangle")}
-      ></Image>
       <View
         padding="0px 0px 0px 0px"
         width="523.86px"
-        height="1301.95px"
+        height="1301.94px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="351.52px"
+        top="351.53px"
         left="43.76px"
         {...getOverrideProps(overrides, "Group 408")}
       >
@@ -244,6 +227,7 @@ export default function MeuPerfil(props) {
           position="absolute"
           top="0px"
           left="114.86px"
+          border="1px SOLID rgba(0,0,0,1)"
           boxShadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
           borderRadius="8px"
           padding="0px 0px 0px 0px"
@@ -309,6 +293,7 @@ export default function MeuPerfil(props) {
             paths={[
               {
                 d: "M1.75 12.6667L2.99688 12.6667L11.55 4.92812L10.3031 3.8L1.75 11.5385L1.75 12.6667ZM0 14.25L0 10.8854L11.55 0.455208C11.725 0.310069 11.9182 0.197917 12.1297 0.11875C12.3411 0.0395833 12.5635 0 12.7969 0C13.0302 0 13.2562 0.0395833 13.475 0.11875C13.6937 0.197917 13.8833 0.316667 14.0437 0.475L15.2469 1.58333C15.4219 1.72847 15.5495 1.9 15.6297 2.09792C15.7099 2.29583 15.75 2.49375 15.75 2.69167C15.75 2.90278 15.7099 3.10399 15.6297 3.29531C15.5495 3.48663 15.4219 3.66146 15.2469 3.81979L3.71875 14.25L0 14.25ZM10.9156 4.37396L10.3031 3.8L11.55 4.92812L10.9156 4.37396Z",
+                fill: "rgba(255,255,255,1)",
                 fillRule: "nonzero",
               },
             ]}
@@ -355,7 +340,7 @@ export default function MeuPerfil(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="611.16px"
+          top="611.15px"
           left="114.86px"
           {...getOverrideProps(overrides, "Group 404")}
         >
@@ -369,6 +354,7 @@ export default function MeuPerfil(props) {
             position="absolute"
             top="0px"
             left="0px"
+            border="1px SOLID rgba(0,0,0,1)"
             borderRadius="8px"
             padding="0px 0px 0px 0px"
             backgroundColor="rgba(207,209,208,1)"
@@ -419,7 +405,7 @@ export default function MeuPerfil(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="676.87px"
+          top="676.86px"
           left="114.86px"
           {...getOverrideProps(overrides, "Group 407")}
         >
@@ -433,6 +419,7 @@ export default function MeuPerfil(props) {
             position="absolute"
             top="0px"
             left="0px"
+            border="1px SOLID rgba(0,0,0,1)"
             borderRadius="8px"
             padding="0px 0px 0px 0px"
             backgroundColor="rgba(207,209,208,1)"
@@ -600,6 +587,7 @@ export default function MeuPerfil(props) {
             position="absolute"
             top="0px"
             left="0px"
+            border="1px SOLID rgba(0,0,0,1)"
             borderRadius="8px"
             padding="0px 0px 0px 0px"
             backgroundColor="rgba(207,209,208,1)"
@@ -864,7 +852,7 @@ export default function MeuPerfil(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="461.74px"
+          top="461.73px"
           left="114.86px"
           {...getOverrideProps(overrides, "Group 405")}
         >
@@ -878,6 +866,7 @@ export default function MeuPerfil(props) {
             position="absolute"
             top="0px"
             left="0px"
+            border="1px SOLID rgba(0,0,0,1)"
             borderRadius="8px"
             padding="0px 0px 0px 0px"
             backgroundColor="rgba(207,209,208,1)"
@@ -899,7 +888,7 @@ export default function MeuPerfil(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="346.45px"
+          top="346.44px"
           left="167.8px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -921,7 +910,7 @@ export default function MeuPerfil(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="384.95px"
+          top="384.94px"
           left="160.86px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -943,7 +932,7 @@ export default function MeuPerfil(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="426.95px"
+          top="426.94px"
           left="157.86px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -968,7 +957,7 @@ export default function MeuPerfil(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="304.37px"
+          top="304.36px"
           left="171px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -993,7 +982,7 @@ export default function MeuPerfil(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="476.48px"
+          top="476.47px"
           left="178.24px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -1001,17 +990,17 @@ export default function MeuPerfil(props) {
           {...getOverrideProps(overrides, "Sobre Mim:")}
         ></Text>
         <Icon
-          width="402px"
+          width="361px"
           height="0px"
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 402,
-            height: 1.1368683772161603e-13,
+            width: 361,
+            height: 0.0004882807852482074,
           }}
           paths={[
             {
-              d: "M0 0L402 0L402 -1L0 -1L0 0Z",
+              d: "M0 0L361 0L361 -1L0 -1L0 0Z",
               stroke: "rgba(58,58,58,1)",
               fillRule: "nonzero",
               strokeWidth: 1,
@@ -1022,8 +1011,8 @@ export default function MeuPerfil(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="329.51px"
-          left="91.5px"
+          top="337.47px"
+          left="117.24px"
           transformOrigin="top left"
           transform="rotate(0deg)"
           {...getOverrideProps(overrides, "Line 52")}
@@ -1050,7 +1039,7 @@ export default function MeuPerfil(props) {
           justifyContent="unset"
           overflow="hidden"
           position="absolute"
-          top="453.54px"
+          top="453.53px"
           left="0px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(
@@ -1067,7 +1056,7 @@ export default function MeuPerfil(props) {
           justifyContent="unset"
           overflow="hidden"
           position="absolute"
-          top="469.48px"
+          top="469.47px"
           left="143.24px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(overrides, "ProfileIconBlack 141121464")}
@@ -1115,7 +1104,7 @@ export default function MeuPerfil(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="499.48px"
+          top="499.47px"
           left="127.24px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -1174,6 +1163,7 @@ export default function MeuPerfil(props) {
         fontFamily="Montserrat"
         fontSize="40px"
         fontWeight="700"
+        color="rgba(255,255,255,1)"
         lineHeight="48.7599983215332px"
         textAlign="left"
         display="block"
@@ -1250,6 +1240,7 @@ export default function MeuPerfil(props) {
             position="absolute"
             top="0px"
             left="0px"
+            border="1px SOLID rgba(0,0,0,1)"
             borderRadius="8px"
             padding="0px 0px 0px 0px"
             backgroundColor="rgba(207,209,208,1)"
@@ -1265,17 +1256,18 @@ export default function MeuPerfil(props) {
             position="absolute"
             top="420.95px"
             left="0px"
+            border="1px SOLID rgba(0,0,0,1)"
             borderRadius="8px"
             padding="0px 0px 0px 0px"
             backgroundColor="rgba(207,209,208,1)"
             {...getOverrideProps(overrides, "Rectangle 131")}
           ></View>
           <Button
-            width="369.03px"
-            height="43.44px"
+            width="382px"
+            height="41px"
             position="absolute"
-            top="25.41px"
-            left="15.33px"
+            top="24.93px"
+            left="15.4px"
             backgroundColor="rgba(234,191,63,1)"
             size="default"
             isDisabled={false}
@@ -1722,6 +1714,7 @@ export default function MeuPerfil(props) {
             fontFamily="Montserrat"
             fontSize="40px"
             fontWeight="700"
+            color="rgba(255,255,255,1)"
             lineHeight="48.7599983215332px"
             textAlign="left"
             display="block"

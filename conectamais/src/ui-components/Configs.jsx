@@ -29,7 +29,6 @@ export default function Configs(props) {
       overflow="hidden"
       position="relative"
       padding="0px 0px 0px 0px"
-      backgroundImage="linear-gradient(-90deg, rgba(22,70,89,1), rgba(18,135,181,1))"
       {...getOverrideProps(overrides, "Configs")}
       {...rest}
     >
@@ -46,38 +45,6 @@ export default function Configs(props) {
         padding="0px 0px 17px 0px"
         {...getOverrideProps(overrides, "Frame 3224329822")}
       ></Flex>
-      <View
-        padding="0px 0px 0px 0px"
-        width="1519px"
-        height="948.23px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="15.11%"
-        bottom="0%"
-        left="0%"
-        right="0%"
-        {...getOverrideProps(overrides, "Group")}
-      >
-        <Image
-          width="100%"
-          height="100%"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="0%"
-          bottom="0%"
-          left="0%"
-          right="0%"
-          padding="0px 0px 0px 0px"
-          objectFit="unset"
-          {...getOverrideProps(overrides, "Rectangle")}
-        ></Image>
-      </View>
       <View
         padding="0px 0px 0px 0px"
         width="806.8px"
@@ -101,6 +68,7 @@ export default function Configs(props) {
           position="absolute"
           top="0px"
           left="10.28px"
+          border="1px SOLID rgba(0,0,0,1)"
           borderRadius="10px"
           padding="0px 0px 0px 0px"
           backgroundColor="rgba(255,255,255,1)"
@@ -132,7 +100,7 @@ export default function Configs(props) {
               minX: 0,
               minY: 0,
               width: 15.819362546273624,
-              height: 11.105840200199168,
+              height: 11.105840200199964,
             }}
             paths={[
               {
@@ -179,7 +147,7 @@ export default function Configs(props) {
               minX: 0,
               minY: 0,
               width: 15.819362546273624,
-              height: 11.105840200199282,
+              height: 11.105840200199964,
             }}
             paths={[
               {
@@ -226,7 +194,7 @@ export default function Configs(props) {
               minX: 0,
               minY: 0,
               width: 15.819362546273624,
-              height: 11.105840200199282,
+              height: 11.105840200199964,
             }}
             paths={[
               {
@@ -385,12 +353,7 @@ export default function Configs(props) {
         <Icon
           width="795.49px"
           height="0px"
-          viewBox={{
-            minX: 0,
-            minY: 0,
-            width: 795.4925537109375,
-            height: 2.2737367544323206e-13,
-          }}
+          viewBox={{ minX: 0, minY: 0, width: 795.4925537109375, height: 1 }}
           paths={[
             {
               d: "M0 0L795.493 0L795.493 -3L0 -3L0 0Z",
@@ -459,12 +422,7 @@ export default function Configs(props) {
         <Icon
           width="795.49px"
           height="0px"
-          viewBox={{
-            minX: 0,
-            minY: 0,
-            width: 795.4925537109375,
-            height: 2.2737367544323206e-13,
-          }}
+          viewBox={{ minX: 0, minY: 0, width: 795.4925537109375, height: 1 }}
           paths={[
             {
               d: "M0 0L795.493 0L795.493 -3L0 -3L0 0Z",
@@ -510,7 +468,7 @@ export default function Configs(props) {
               minX: 0,
               minY: 0,
               width: 15.819362546273624,
-              height: 11.105840200199168,
+              height: 11.105840200199964,
             }}
             paths={[
               {

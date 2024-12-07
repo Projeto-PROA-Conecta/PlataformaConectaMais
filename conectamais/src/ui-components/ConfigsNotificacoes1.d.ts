@@ -31,7 +31,6 @@ export declare type ConfigsNotificacoes1OverridesProps = {
     Button4378884?: PrimitiveOverrideProps<ButtonProps>;
     Button4378885?: PrimitiveOverrideProps<ButtonProps>;
     "Group 455"?: PrimitiveOverrideProps<ViewProps>;
-    Rectangle?: PrimitiveOverrideProps<ImageProps>;
     SwitchField4049923?: PrimitiveOverrideProps<SwitchFieldProps>;
     "Line 1642383732"?: PrimitiveOverrideProps<IconProps>;
     NavBarMenu?: PrimitiveOverrideProps<FlexProps>;
@@ -49,7 +48,9 @@ export declare type ConfigsNotificacoes1OverridesProps = {
     "Group 56"?: PrimitiveOverrideProps<ViewProps>;
     "Apar\u00EAncia"?: PrimitiveOverrideProps<TextProps>;
     "Group 57"?: PrimitiveOverrideProps<ViewProps>;
-    "Notifica\u00E7\u00E3o"?: PrimitiveOverrideProps<TextProps>;
+    "Notifica\u00E7\u00E3o4378930"?: PrimitiveOverrideProps<TextProps>;
+    "Group 58"?: PrimitiveOverrideProps<ViewProps>;
+    "Notifica\u00E7\u00E3o441513044"?: PrimitiveOverrideProps<TextProps>;
     "Line 11"?: PrimitiveOverrideProps<IconProps>;
     "Line 12"?: PrimitiveOverrideProps<IconProps>;
     Vector4378933?: PrimitiveOverrideProps<IconProps>;

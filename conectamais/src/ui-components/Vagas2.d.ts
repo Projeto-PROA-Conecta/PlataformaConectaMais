@@ -40,8 +40,6 @@ export declare type Vagas2OverridesProps = {
     Button4387793?: PrimitiveOverrideProps<ButtonProps>;
     "Group 440"?: PrimitiveOverrideProps<ViewProps>;
     "back gorund"?: PrimitiveOverrideProps<ViewProps>;
-    Group?: PrimitiveOverrideProps<ViewProps>;
-    Rectangle?: PrimitiveOverrideProps<ImageProps>;
     "Rectangle 152"?: PrimitiveOverrideProps<ViewProps>;
     "1.783 avalia\u00E7\u00F5es"?: PrimitiveOverrideProps<TextProps>;
     "S\u00E3o Paulo - SP39885920"?: PrimitiveOverrideProps<TextProps>;

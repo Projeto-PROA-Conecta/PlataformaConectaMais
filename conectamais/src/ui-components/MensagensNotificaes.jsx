@@ -21,26 +21,9 @@ export default function MensagensNotificaes(props) {
       overflow="hidden"
       position="relative"
       padding="0px 0px 0px 0px"
-      backgroundImage="linear-gradient(-90deg, rgba(22,70,89,1), rgba(18,135,181,1))"
       {...getOverrideProps(overrides, "MensagensNotificaes")}
       {...rest}
     >
-      <Image
-        width="100%"
-        height="83.45%"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="16.45%"
-        bottom="0.09%"
-        left="0%"
-        right="0%"
-        padding="0px 0px 0px 0px"
-        objectFit="unset"
-        {...getOverrideProps(overrides, "Rectangle")}
-      ></Image>
       <Icon
         width="186px"
         height="625px"
@@ -48,7 +31,7 @@ export default function MensagensNotificaes(props) {
         paths={[
           {
             d: "M0 30C0 13.4314 13.4315 0 30 0L186 0L186 625L30 625C13.4315 625 0 611.569 0 595L0 30Z",
-            fill: "rgba(217,217,217,0.88)",
+            fill: "rgba(255,255,255,0.88)",
             fillRule: "nonzero",
           },
         ]}
@@ -86,7 +69,7 @@ export default function MensagensNotificaes(props) {
           left="0.65px"
           borderRadius="10px"
           padding="0px 0px 0px 0px"
-          backgroundColor="rgba(207,209,208,1)"
+          backgroundColor="rgba(255,255,255,1)"
           {...getOverrideProps(overrides, "Rectangle 107")}
         ></View>
         <Image

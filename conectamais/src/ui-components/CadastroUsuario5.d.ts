@@ -20,26 +20,19 @@ export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes
 export declare type CadastroUsuario5OverridesProps = {
     CadastroUsuario5?: PrimitiveOverrideProps<ViewProps>;
     Cadastro?: PrimitiveOverrideProps<ViewProps>;
-    "Group 394"?: PrimitiveOverrideProps<ViewProps>;
-    BackTransparente?: PrimitiveOverrideProps<ImageProps>;
-    "Group 464"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 7"?: PrimitiveOverrideProps<ViewProps>;
-    "Group 6"?: PrimitiveOverrideProps<ViewProps>;
     "\u00DAltimas perguntas"?: PrimitiveOverrideProps<TextProps>;
-    "Rectangle 11"?: PrimitiveOverrideProps<ViewProps>;
-    "image-removebg-preview (4) 5"?: PrimitiveOverrideProps<ImageProps>;
-    "Group 466"?: PrimitiveOverrideProps<ViewProps>;
-    "Group 4"?: PrimitiveOverrideProps<ViewProps>;
+    "Group 476"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 1"?: PrimitiveOverrideProps<ViewProps>;
-    "Question\u00E1rio"?: PrimitiveOverrideProps<TextProps>;
-    "Ellipse 108"?: PrimitiveOverrideProps<IconProps>;
     "Ellipse 109"?: PrimitiveOverrideProps<IconProps>;
+    "Ellipse 108"?: PrimitiveOverrideProps<IconProps>;
     "Ellipse 110"?: PrimitiveOverrideProps<IconProps>;
     SelectField40341860?: PrimitiveOverrideProps<SelectFieldProps>;
     TextAreaField?: PrimitiveOverrideProps<TextAreaFieldProps>;
     Button40341863?: PrimitiveOverrideProps<ButtonProps>;
     Button40341864?: PrimitiveOverrideProps<ButtonProps>;
+    "Question\u00E1rio"?: PrimitiveOverrideProps<TextProps>;
     SelectField40341865?: PrimitiveOverrideProps<SelectFieldProps>;
+    "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"?: PrimitiveOverrideProps<ImageProps>;
 } & EscapeHatchProps;
 export declare type CadastroUsuario5Props = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

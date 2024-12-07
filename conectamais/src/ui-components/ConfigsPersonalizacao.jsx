@@ -29,26 +29,9 @@ export default function ConfigsPersonalizacao(props) {
       overflow="hidden"
       position="relative"
       padding="0px 0px 0px 0px"
-      backgroundImage="linear-gradient(-90deg, rgba(22,70,89,1), rgba(18,135,181,1))"
       {...getOverrideProps(overrides, "ConfigsPersonalizacao")}
       {...rest}
     >
-      <Image
-        width="100%"
-        height="83.89%"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="16.11%"
-        bottom="0%"
-        left="0%"
-        right="0%"
-        padding="0px 0px 0px 0px"
-        objectFit="unset"
-        {...getOverrideProps(overrides, "BackDaHome")}
-      ></Image>
       <Flex
         gap="40px"
         direction="row"
@@ -239,7 +222,7 @@ export default function ConfigsPersonalizacao(props) {
         fontFamily="Montserrat"
         fontSize="48px"
         fontWeight="700"
-        color="rgba(255,255,255,1)"
+        color="rgba(0,0,0,1)"
         lineHeight="58.512001037597656px"
         textAlign="center"
         display="block"

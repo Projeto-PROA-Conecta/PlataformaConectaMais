@@ -19,7 +19,6 @@ export declare type Variant = {
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type ConfigsPersonalizacaoOverridesProps = {
     ConfigsPersonalizacao?: PrimitiveOverrideProps<ViewProps>;
-    BackDaHome?: PrimitiveOverrideProps<ImageProps>;
     NavBarHeaderConecta?: PrimitiveOverrideProps<FlexProps>;
     "Frame 3214376835"?: PrimitiveOverrideProps<FlexProps>;
     Vector4376836?: PrimitiveOverrideProps<IconProps>;

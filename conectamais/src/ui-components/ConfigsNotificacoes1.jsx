@@ -29,7 +29,6 @@ export default function ConfigsNotificacoes1(props) {
       overflow="hidden"
       position="relative"
       padding="0px 0px 0px 0px"
-      backgroundImage="linear-gradient(-90deg, rgba(22,70,89,1), rgba(18,135,181,1))"
       {...getOverrideProps(overrides, "ConfigsNotificacoes1")}
       {...rest}
     >
@@ -207,38 +206,24 @@ export default function ConfigsNotificacoes1(props) {
       </Flex>
       <View
         padding="0px 0px 0px 0px"
-        width="1519px"
-        height="937px"
+        width="78.43px"
+        height="33.94px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="180px"
-        left="0px"
+        top="677.47px"
+        left="1221.12px"
         {...getOverrideProps(overrides, "Group 455")}
       >
-        <Image
-          width="1519px"
-          height="937px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="0px"
-          left="0px"
-          padding="0px 0px 0px 0px"
-          objectFit="unset"
-          {...getOverrideProps(overrides, "Rectangle")}
-        ></Image>
         <SwitchField
           width="78.43px"
           height="33.94px"
           label="Sim"
           position="absolute"
-          top="497.47px"
-          left="1221.12px"
+          top="0px"
+          left="0px"
           size="large"
           defaultChecked={true}
           isDisabled={false}
@@ -338,21 +323,21 @@ export default function ConfigsNotificacoes1(props) {
       </Flex>
       <View
         padding="0px 0px 0px 0px"
-        width="435.53px"
-        height="588.03px"
+        width="1022.09px"
+        height="685.03px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="355px"
+        top="258px"
         left="32px"
         {...getOverrideProps(overrides, "Group 450")}
       >
         <View
           padding="0px 0px 0px 0px"
-          width="435.53px"
-          height="588.03px"
+          width="1022.09px"
+          height="685.03px"
           display="block"
           gap="unset"
           alignItems="unset"
@@ -370,7 +355,7 @@ export default function ConfigsNotificacoes1(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="0px"
+            top="97px"
             left="0px"
             borderRadius="7px"
             padding="0px 0px 0px 0px"
@@ -392,7 +377,7 @@ export default function ConfigsNotificacoes1(props) {
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="57px"
+            top="154px"
             left="88px"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
@@ -416,7 +401,7 @@ export default function ConfigsNotificacoes1(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="139.14px"
+            top="236.14px"
             left="0px"
             transformOrigin="top left"
             transform="rotate(0deg)"
@@ -431,7 +416,7 @@ export default function ConfigsNotificacoes1(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="194px"
+            top="291px"
             left="88px"
             {...getOverrideProps(overrides, "Group 55")}
           >
@@ -467,7 +452,7 @@ export default function ConfigsNotificacoes1(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="338px"
+            top="435px"
             left="88px"
             {...getOverrideProps(overrides, "Group 56")}
           >
@@ -503,7 +488,7 @@ export default function ConfigsNotificacoes1(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="496px"
+            top="593px"
             left="88px"
             {...getOverrideProps(overrides, "Group 57")}
           >
@@ -527,7 +512,43 @@ export default function ConfigsNotificacoes1(props) {
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
               children="Notificação"
-              {...getOverrideProps(overrides, "Notifica\u00E7\u00E3o")}
+              {...getOverrideProps(overrides, "Notifica\u00E7\u00E3o4378930")}
+            ></Text>
+          </View>
+          <View
+            padding="0px 0px 0px 0px"
+            width="332.09px"
+            height="64px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="0px"
+            left="690px"
+            {...getOverrideProps(overrides, "Group 58")}
+          >
+            <Text
+              fontFamily="Montserrat"
+              fontSize="48px"
+              fontWeight="700"
+              color="rgba(0,0,0,1)"
+              lineHeight="58.512001037597656px"
+              textAlign="center"
+              display="block"
+              direction="column"
+              justifyContent="unset"
+              width="332.09px"
+              height="64px"
+              gap="unset"
+              alignItems="unset"
+              position="absolute"
+              top="0px"
+              left="0px"
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Notificação"
+              {...getOverrideProps(overrides, "Notifica\u00E7\u00E3o441513044")}
             ></Text>
           </View>
           <Icon
@@ -547,7 +568,7 @@ export default function ConfigsNotificacoes1(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="276.38px"
+            top="373.38px"
             left="0px"
             transformOrigin="top left"
             transform="rotate(0deg)"
@@ -570,7 +591,7 @@ export default function ConfigsNotificacoes1(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="428.87px"
+            top="525.87px"
             left="0px"
             transformOrigin="top left"
             transform="rotate(0deg)"
@@ -597,7 +618,7 @@ export default function ConfigsNotificacoes1(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="188px"
+            top="285px"
             left="23px"
             {...getOverrideProps(overrides, "Vector4378933")}
           ></Icon>
@@ -611,7 +632,7 @@ export default function ConfigsNotificacoes1(props) {
           justifyContent="unset"
           overflow="hidden"
           position="absolute"
-          top="57px"
+          top="154px"
           left="19px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(
@@ -674,7 +695,7 @@ export default function ConfigsNotificacoes1(props) {
           justifyContent="unset"
           overflow="hidden"
           position="absolute"
-          top="333px"
+          top="430px"
           left="22px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(
@@ -719,7 +740,7 @@ export default function ConfigsNotificacoes1(props) {
           justifyContent="unset"
           overflow="hidden"
           position="absolute"
-          top="489px"
+          top="586px"
           left="21px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(
@@ -779,6 +800,7 @@ export default function ConfigsNotificacoes1(props) {
           position="absolute"
           top="0px"
           left="0px"
+          border="1px SOLID rgba(0,0,0,1)"
           borderRadius="10px"
           padding="0px 0px 0px 0px"
           backgroundColor="rgba(255,255,255,1)"
@@ -988,7 +1010,7 @@ export default function ConfigsNotificacoes1(props) {
             minX: 0,
             minY: 0,
             width: 728.0618465580483,
-            height: 1.6988199799693575,
+            height: 1.6988199799689028,
           }}
           paths={[
             {
@@ -1044,7 +1066,7 @@ export default function ConfigsNotificacoes1(props) {
             minX: 0,
             minY: 0,
             width: 728.0618465580483,
-            height: 1.6988199799693575,
+            height: 1.6988199799689028,
           }}
           paths={[
             {

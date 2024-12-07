@@ -19,7 +19,6 @@ export declare type Variant = {
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type MensagensNotificaesOverridesProps = {
     MensagensNotificaes?: PrimitiveOverrideProps<ViewProps>;
-    Rectangle?: PrimitiveOverrideProps<ImageProps>;
     "Rectangle 109"?: PrimitiveOverrideProps<IconProps>;
     "Group 395"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 107"?: PrimitiveOverrideProps<ViewProps>;

@@ -31,10 +31,12 @@ import Home6 from "./ui-components/Home6";
 
 function App() {
   return (
-    <Router> {/* O Router agora envolve toda a aplicação */}
+    <Router>
+      {" "}
+      {/* O Router agora envolve toda a aplicação */}
       <div className="App">
         <Routes>
-          <Route path="/" element={<ConfigsNotificacoes1/>} />
+          <Route path="/" element={<NovaHome />} />
           <Route path="/TelaDeLogin" element={<TelaDeLogin />} />
         </Routes>
       </div>

@@ -22,7 +22,6 @@ export default function Premium2(props) {
       position="relative"
       boxShadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
       padding="0px 0px 0px 0px"
-      backgroundImage="linear-gradient(-90deg, rgba(22,70,89,1), rgba(18,135,181,1))"
       {...getOverrideProps(overrides, "Premium2")}
       {...rest}
     >
@@ -276,22 +275,6 @@ export default function Premium2(props) {
         objectFit="cover"
         src={bancoImagens?.PerfilAvatar}
         {...getOverrideProps(overrides, "AvatarPerfil 1")}
-      ></Image>
-      <Image
-        width="100%"
-        height="82.3%"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="17.7%"
-        bottom="0%"
-        left="0%"
-        right="0%"
-        padding="0px 0px 0px 0px"
-        objectFit="unset"
-        {...getOverrideProps(overrides, "Rectangle")}
       ></Image>
       <View
         padding="0px 0px 0px 0px"

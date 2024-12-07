@@ -19,7 +19,6 @@ export declare type Variant = {
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type ConfigsAcessibilidadeOverridesProps = {
     ConfigsAcessibilidade?: PrimitiveOverrideProps<ViewProps>;
-    BackDaHome?: PrimitiveOverrideProps<ImageProps>;
     Acessibilidade39884375?: PrimitiveOverrideProps<TextProps>;
     "Group 471"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 104"?: PrimitiveOverrideProps<ViewProps>;

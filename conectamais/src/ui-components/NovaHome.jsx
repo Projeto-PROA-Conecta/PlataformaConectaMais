@@ -29,7 +29,6 @@ export default function NovaHome(props) {
       overflow="hidden"
       position="relative"
       padding="0px 0px 0px 0px"
-      backgroundColor="rgba(255,255,255,1)"
       {...getOverrideProps(overrides, "NovaHome")}
       {...rest}
     >

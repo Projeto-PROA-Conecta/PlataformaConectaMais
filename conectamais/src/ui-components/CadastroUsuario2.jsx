@@ -45,12 +45,11 @@ export default function CadastroUsuario2(props) {
         top="0px"
         left="0px"
         padding="0px 0px 0px 0px"
-        backgroundImage="linear-gradient(-90deg, rgba(22,70,89,1), rgba(18,135,181,1))"
         {...getOverrideProps(overrides, "Cadastro")}
       >
-        <Image
-          width="100%"
-          height="100%"
+        <View
+          width="1519px"
+          height="1117px"
           display="block"
           gap="unset"
           alignItems="unset"
@@ -61,8 +60,26 @@ export default function CadastroUsuario2(props) {
           left="0%"
           right="0%"
           padding="0px 0px 0px 0px"
-          objectFit="unset"
           {...getOverrideProps(overrides, "Rectangle")}
+        ></View>
+        <Image
+          width="20.41%"
+          height="13.43%"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="31.07%"
+          bottom="55.51%"
+          left="19.42%"
+          right="60.17%"
+          padding="0px 0px 0px 0px"
+          objectFit="cover"
+          {...getOverrideProps(
+            overrides,
+            "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"
+          )}
         ></Image>
       </View>
       <View
@@ -78,79 +95,29 @@ export default function CadastroUsuario2(props) {
         left="167px"
         {...getOverrideProps(overrides, "Group 457")}
       >
-        <View
-          padding="0px 0px 0px 0px"
-          width="384px"
-          height="137.12px"
+        <Text
+          fontFamily="Montserrat"
+          fontSize="48px"
+          fontWeight="700"
+          color="rgba(0,0,0,1)"
+          lineHeight="58.512001037597656px"
+          textAlign="center"
           display="block"
+          direction="column"
+          justifyContent="unset"
+          width="384px"
+          height="117px"
           gap="unset"
           alignItems="unset"
-          justifyContent="unset"
           position="absolute"
-          top="318px"
-          left="32px"
-          {...getOverrideProps(overrides, "Group 51")}
-        >
-          <View
-            padding="0px 0px 0px 0px"
-            width="384px"
-            height="66.02px"
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="calc(50% - 33.01px - 35.55px)"
-            left="0px"
-            {...getOverrideProps(overrides, "Group 6")}
-          >
-            <Text
-              fontFamily="Montserrat"
-              fontSize="64px"
-              fontWeight="700"
-              color="rgba(255,255,255,1)"
-              lineHeight="78.01599884033203px"
-              textAlign="left"
-              display="block"
-              direction="column"
-              justifyContent="unset"
-              width="384px"
-              height="66.02px"
-              gap="unset"
-              alignItems="unset"
-              position="absolute"
-              top="0px"
-              left="0px"
-              padding="0px 0px 0px 0px"
-              whiteSpace="pre-wrap"
-              children="Já estamos"
-              {...getOverrideProps(overrides, "J\u00E1 estamos")}
-            ></Text>
-          </View>
-          <Text
-            fontFamily="Montserrat"
-            fontSize="64px"
-            fontWeight="700"
-            color="rgba(255,255,255,1)"
-            lineHeight="78.01599884033203px"
-            textAlign="left"
-            display="block"
-            direction="column"
-            justifyContent="unset"
-            width="302.28px"
-            height="66.02px"
-            gap="unset"
-            alignItems="unset"
-            position="absolute"
-            top="71.1px"
-            left="15.89px"
-            padding="0px 0px 0px 0px"
-            whiteSpace="pre-wrap"
-            children=" quase lá"
-            {...getOverrideProps(overrides, "quase l\u00E1")}
-          ></Text>
-        </View>
-        <Image
+          top="408px"
+          left="82px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="Já estamos&#xA;quase lá"
+          {...getOverrideProps(overrides, "J\u00E1 estamos quase l\u00E1")}
+        ></Text>
+        <View
           width="423.64px"
           height="139.66px"
           display="block"
@@ -161,10 +128,9 @@ export default function CadastroUsuario2(props) {
           top="165.45px"
           left="0px"
           padding="0px 0px 0px 0px"
-          objectFit="cover"
           src={bancoImagens?.LogoAzulConecta}
           {...getOverrideProps(overrides, "image-removebg-preview (4) 4")}
-        ></Image>
+        ></View>
         <View
           padding="0px 0px 0px 0px"
           width="672.44px"
@@ -443,7 +409,7 @@ export default function CadastroUsuario2(props) {
                   minX: 0,
                   minY: 0,
                   width: 8.552203768958861,
-                  height: 9.427859648184494,
+                  height: 9.42785964818404,
                 }}
                 paths={[
                   {
@@ -606,7 +572,7 @@ export default function CadastroUsuario2(props) {
                   minX: 0,
                   minY: 0,
                   width: 8.552203768958861,
-                  height: 9.427859648184494,
+                  height: 9.42785964818404,
                 }}
                 paths={[
                   {
@@ -635,7 +601,7 @@ export default function CadastroUsuario2(props) {
                   minX: 0,
                   minY: 0,
                   width: 7.700166342227021,
-                  height: 10.220345424496372,
+                  height: 10.220345424495918,
                 }}
                 paths={[
                   {
@@ -665,7 +631,7 @@ export default function CadastroUsuario2(props) {
                 minX: 0,
                 minY: 0,
                 width: 8.869719316469855,
-                height: 22.19886978672639,
+                height: 22.198869786726846,
               }}
               paths={[
                 {
@@ -740,7 +706,7 @@ export default function CadastroUsuario2(props) {
                   minX: 0,
                   minY: 0,
                   width: 19.885908975360508,
-                  height: 15.877682882144654,
+                  height: 15.877682882145109,
                 }}
                 paths={[
                   {
@@ -846,7 +812,7 @@ export default function CadastroUsuario2(props) {
                 minX: 0,
                 minY: 0,
                 width: 29.449723657526192,
-                height: 105.91602058060835,
+                height: 105.91602058060789,
               }}
               paths={[
                 {
@@ -904,7 +870,7 @@ export default function CadastroUsuario2(props) {
                 minX: 0,
                 minY: 0,
                 width: 39.94906591401377,
-                height: 90.86972397827321,
+                height: 90.86972397827367,
               }}
               paths={[
                 {
@@ -933,7 +899,7 @@ export default function CadastroUsuario2(props) {
                 minX: 0,
                 minY: 0,
                 width: 48.2548677901068,
-                height: 48.70655662619356,
+                height: 48.706556626194015,
               }}
               paths={[
                 {
@@ -1020,7 +986,7 @@ export default function CadastroUsuario2(props) {
                 minX: 0,
                 minY: 0,
                 width: 7.0231588567985455,
-                height: 9.674912753337594,
+                height: 9.67491275333714,
               }}
               paths={[
                 {
@@ -1066,7 +1032,7 @@ export default function CadastroUsuario2(props) {
                   minX: 0,
                   minY: 0,
                   width: 19.57532119564712,
-                  height: 14.192388915007541,
+                  height: 14.192388915007086,
                 }}
                 paths={[
                   {
@@ -1200,7 +1166,7 @@ export default function CadastroUsuario2(props) {
                   minX: 0,
                   minY: 0,
                   width: 10.41507252305746,
-                  height: 24.880172408602448,
+                  height: 24.880172408601993,
                 }}
                 paths={[
                   {
@@ -1229,7 +1195,7 @@ export default function CadastroUsuario2(props) {
                   minX: 0,
                   minY: 0,
                   width: 26.02342496550409,
-                  height: 11.340714047739311,
+                  height: 11.340714047739766,
                 }}
                 paths={[
                   {
@@ -1276,7 +1242,7 @@ export default function CadastroUsuario2(props) {
                   minX: 0,
                   minY: 0,
                   width: 22.73579365920159,
-                  height: 28.821719055813446,
+                  height: 28.82171905581299,
                 }}
                 paths={[
                   {
@@ -1305,7 +1271,7 @@ export default function CadastroUsuario2(props) {
                   minX: 0,
                   minY: 0,
                   width: 28.111516429911717,
-                  height: 19.218985017625528,
+                  height: 19.218985017625982,
                 }}
                 paths={[
                   {
@@ -1440,7 +1406,7 @@ export default function CadastroUsuario2(props) {
                 minX: 0,
                 minY: 0,
                 width: 60.38854450974759,
-                height: 105.39330460062683,
+                height: 105.39330460062729,
               }}
               paths={[
                 {
@@ -1603,7 +1569,7 @@ export default function CadastroUsuario2(props) {
                 minX: 0,
                 minY: 0,
                 width: 59.95450429800985,
-                height: 59.12456688738985,
+                height: 59.1245668873903,
               }}
               paths={[
                 {
@@ -1684,7 +1650,7 @@ export default function CadastroUsuario2(props) {
                 minX: 0,
                 minY: 0,
                 width: 6.016208587752772,
-                height: 8.831571060411989,
+                height: 8.831571060411534,
               }}
               paths={[
                 {
@@ -1713,7 +1679,7 @@ export default function CadastroUsuario2(props) {
                 minX: 0,
                 minY: 0,
                 width: 9.247850503794325,
-                height: 7.612055484125449,
+                height: 7.612055484124994,
               }}
               paths={[
                 {
@@ -1759,7 +1725,7 @@ export default function CadastroUsuario2(props) {
                   minX: 0,
                   minY: 0,
                   width: 43.50166224397253,
-                  height: 39.17723723493873,
+                  height: 39.177237234938275,
                 }}
                 paths={[
                   {
@@ -1817,7 +1783,7 @@ export default function CadastroUsuario2(props) {
                   minX: 0,
                   minY: 0,
                   width: 13.99295935768896,
-                  height: 12.480032890623988,
+                  height: 12.480032890624443,
                 }}
                 paths={[
                   {
@@ -1846,7 +1812,7 @@ export default function CadastroUsuario2(props) {
                   minX: 0,
                   minY: 0,
                   width: 11.207330043958791,
-                  height: 9.86249135867456,
+                  height: 9.862491358674106,
                 }}
                 paths={[
                   {
@@ -1875,7 +1841,7 @@ export default function CadastroUsuario2(props) {
                   minX: 0,
                   minY: 0,
                   width: 11.42257579966099,
-                  height: 9.84719758141,
+                  height: 9.847197581410455,
                 }}
                 paths={[
                   {
@@ -1938,6 +1904,7 @@ export default function CadastroUsuario2(props) {
             paths={[
               {
                 d: "M10.6934 5.91878C10.6934 9.18763 8.29961 11.8376 5.3467 11.8376C2.3938 11.8376 0 9.18763 0 5.91878C0 2.64993 2.3938 0 5.3467 0C8.29961 0 10.6934 2.64993 10.6934 5.91878Z",
+                fill: "rgba(255,255,255,1)",
                 fillRule: "nonzero",
               },
             ]}

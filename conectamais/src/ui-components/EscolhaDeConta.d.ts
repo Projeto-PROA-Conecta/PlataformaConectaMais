@@ -20,10 +20,9 @@ export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes
 export declare type EscolhaDeContaOverridesProps = {
     EscolhaDeConta?: PrimitiveOverrideProps<ViewProps>;
     Login?: PrimitiveOverrideProps<ViewProps>;
-    Rectangle?: PrimitiveOverrideProps<ImageProps>;
+    "Fundo Novo"?: PrimitiveOverrideProps<ImageProps>;
     "Qual seu tipo de conta?"?: PrimitiveOverrideProps<TextProps>;
     "Bem-vindo!"?: PrimitiveOverrideProps<TextProps>;
-    "Frame 20"?: PrimitiveOverrideProps<ViewProps>;
     "Group 441"?: PrimitiveOverrideProps<ViewProps>;
     "Group 3"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 1"?: PrimitiveOverrideProps<ViewProps>;
@@ -54,9 +53,7 @@ export declare type EscolhaDeContaOverridesProps = {
     Vector39885503?: PrimitiveOverrideProps<IconProps>;
     Vector39885504?: PrimitiveOverrideProps<IconProps>;
     Vector3997659?: PrimitiveOverrideProps<IconProps>;
-    Vector4342759?: PrimitiveOverrideProps<IconProps>;
     Vector3997657?: PrimitiveOverrideProps<IconProps>;
-    Vector4342719?: PrimitiveOverrideProps<IconProps>;
 } & EscapeHatchProps;
 export declare type EscolhaDeContaProps = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

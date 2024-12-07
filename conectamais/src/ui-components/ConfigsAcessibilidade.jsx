@@ -30,31 +30,14 @@ export default function ConfigsAcessibilidade(props) {
       overflow="hidden"
       position="relative"
       padding="0px 0px 0px 0px"
-      backgroundImage="linear-gradient(-90deg, rgba(22,70,89,1), rgba(18,135,181,1))"
       {...getOverrideProps(overrides, "ConfigsAcessibilidade")}
       {...rest}
     >
-      <Image
-        width="100%"
-        height="83.71%"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="16.29%"
-        bottom="0%"
-        left="0%"
-        right="0%"
-        padding="0px 0px 0px 0px"
-        objectFit="unset"
-        {...getOverrideProps(overrides, "BackDaHome")}
-      ></Image>
       <Text
         fontFamily="Montserrat"
         fontSize="40px"
         fontWeight="600"
-        color="rgba(255,255,255,1)"
+        color="rgba(0,0,0,1)"
         lineHeight="48.7599983215332px"
         textAlign="center"
         display="block"
@@ -96,6 +79,7 @@ export default function ConfigsAcessibilidade(props) {
           position="absolute"
           top="0px"
           left="0px"
+          border="1px SOLID rgba(0,0,0,1)"
           borderRadius="10px"
           padding="0px 0px 0px 0px"
           backgroundColor="rgba(255,255,255,1)"
@@ -108,7 +92,7 @@ export default function ConfigsAcessibilidade(props) {
             minX: 0,
             minY: 0,
             width: 867.9318237304688,
-            height: 0.0756857153553483,
+            height: 0.07568571535557567,
           }}
           paths={[
             {
@@ -136,7 +120,7 @@ export default function ConfigsAcessibilidade(props) {
             minX: 0,
             minY: 0,
             width: 867.9318237304688,
-            height: 0.0756857153552346,
+            height: 0.07568571535557567,
           }}
           paths={[
             {
@@ -164,7 +148,7 @@ export default function ConfigsAcessibilidade(props) {
             minX: 0,
             minY: 0,
             width: 867.9318237304688,
-            height: 0.0756857153552346,
+            height: 0.07568571535557567,
           }}
           paths={[
             {
@@ -308,7 +292,7 @@ export default function ConfigsAcessibilidade(props) {
           position="absolute"
           top="169.64px"
           left="607.8px"
-          backgroundColor="rgba(22,70,89,1)"
+          backgroundColor="rgba(255,255,255,1)"
           size="default"
           isDisabled={false}
           variation="primary"
@@ -321,7 +305,7 @@ export default function ConfigsAcessibilidade(props) {
           position="absolute"
           top="169.64px"
           left="704.99px"
-          backgroundColor="rgba(22,70,89,1)"
+          backgroundColor="rgba(255,255,255,1)"
           size="default"
           isDisabled={false}
           variation="primary"
@@ -479,7 +463,7 @@ export default function ConfigsAcessibilidade(props) {
         paths={[
           {
             d: "M16.5 7.6C15.4917 7.6 14.6285 7.22792 13.9104 6.48375C13.1924 5.73958 12.8333 4.845 12.8333 3.8C12.8333 2.755 13.1924 1.86042 13.9104 1.11625C14.6285 0.372083 15.4917 0 16.5 0C17.5083 0 18.3715 0.372083 19.0896 1.11625C19.8076 1.86042 20.1667 2.755 20.1667 3.8C20.1667 4.845 19.8076 5.73958 19.0896 6.48375C18.3715 7.22792 17.5083 7.6 16.5 7.6ZM11 38L11 13.3L0 13.3L0 9.5L33 9.5L33 13.3L22 13.3L22 38L18.3333 38L18.3333 26.6L14.6667 26.6L14.6667 38L11 38Z",
-            fill: "rgba(242,242,242,1)",
+            fill: "rgba(0,0,0,1)",
             fillRule: "nonzero",
           },
         ]}

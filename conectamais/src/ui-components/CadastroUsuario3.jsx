@@ -28,99 +28,33 @@ export default function CadastroUsuario3(props) {
       overflow="hidden"
       position="relative"
       padding="0px 0px 0px 0px"
-      backgroundImage="linear-gradient(-90deg, rgba(22,70,89,1), rgba(18,135,181,1))"
       {...getOverrideProps(overrides, "CadastroUsuario3")}
       {...rest}
     >
-      <Image
-        width="100%"
-        height="100%"
+      <Text
+        fontFamily="Montserrat"
+        fontSize="40px"
+        fontWeight="700"
+        color="rgba(0,0,0,1)"
+        lineHeight="48.7599983215332px"
+        textAlign="center"
         display="block"
+        direction="column"
+        justifyContent="unset"
+        width="514px"
+        height="48px"
         gap="unset"
         alignItems="unset"
-        justifyContent="unset"
         position="absolute"
-        top="0%"
-        bottom="0%"
-        left="0%"
-        right="0%"
+        top="51.75%"
+        bottom="43.96%"
+        left="15.4%"
+        right="50.76%"
         padding="0px 0px 0px 0px"
-        objectFit="unset"
-        {...getOverrideProps(overrides, "Rectangle")}
-      ></Image>
-      <View
-        padding="0px 0px 0px 0px"
-        width="513.7px"
-        height="285px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="30.35%"
-        bottom="44.14%"
-        left="7.7%"
-        right="58.48%"
-        {...getOverrideProps(overrides, "Group 460")}
-      >
-        <View
-          padding="0px 0px 0px 0px"
-          width="513.7px"
-          height="39.85px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="86.02%"
-          bottom="0%"
-          left="0%"
-          right="0%"
-          {...getOverrideProps(overrides, "Group 6")}
-        >
-          <Text
-            fontFamily="Montserrat"
-            fontSize="48px"
-            fontWeight="700"
-            color="rgba(255,255,255,1)"
-            lineHeight="58.512001037597656px"
-            textAlign="left"
-            display="block"
-            direction="column"
-            justifyContent="unset"
-            width="513.7px"
-            height="39.85px"
-            gap="unset"
-            alignItems="unset"
-            position="absolute"
-            top="0%"
-            bottom="0%"
-            left="0%"
-            right="0%"
-            padding="0px 0px 0px 0px"
-            whiteSpace="pre-wrap"
-            children="Algumas perguntas"
-            {...getOverrideProps(overrides, "Algumas perguntas")}
-          ></Text>
-        </View>
-        <Image
-          width="97.45%"
-          height="39.1%"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="0%"
-          bottom="60.9%"
-          left="1.36%"
-          right="1.18%"
-          padding="0px 0px 0px 0px"
-          objectFit="cover"
-          src={bancoImagens?.LogoAzulConecta}
-          {...getOverrideProps(overrides, "image-removebg-preview (4) 4")}
-        ></Image>
-      </View>
+        whiteSpace="pre-wrap"
+        children="Algumas perguntas"
+        {...getOverrideProps(overrides, "Algumas perguntas")}
+      ></Text>
       <View
         padding="0px 0px 0px 0px"
         width="541.44px"
@@ -134,45 +68,9 @@ export default function CadastroUsuario3(props) {
         bottom="15.45%"
         left="51.68%"
         right="12.68%"
-        {...getOverrideProps(overrides, "Group 461")}
+        {...getOverrideProps(overrides, "Group 4")}
       >
         <View
-          width="59.5px"
-          height="27.33px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="59.5%"
-          bottom="36.68%"
-          left="33.08%"
-          right="55.93%"
-          borderRadius="10px"
-          padding="0px 0px 0px 0px"
-          backgroundColor="rgba(0,0,0,1)"
-          {...getOverrideProps(overrides, "Rectangle 7")}
-        ></View>
-        <View
-          width="11.9px"
-          height="13.67px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="58.55%"
-          bottom="39.54%"
-          left="0.11%"
-          right="97.69%"
-          border="1px SOLID rgba(0,0,0,0.5)"
-          borderRadius="5px"
-          padding="0px 0px 0px 0px"
-          backgroundColor="rgba(255,255,255,1)"
-          {...getOverrideProps(overrides, "Rectangle 11")}
-        ></View>
-        <View
-          padding="0px 0px 0px 0px"
           width="541.44px"
           height="715.44px"
           display="block"
@@ -184,26 +82,11 @@ export default function CadastroUsuario3(props) {
           bottom="0%"
           left="0%"
           right="0%"
-          {...getOverrideProps(overrides, "Group 4")}
-        >
-          <View
-            width="541.44px"
-            height="715.44px"
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="0%"
-            bottom="0%"
-            left="0%"
-            right="0%"
-            borderRadius="12px"
-            padding="0px 0px 0px 0px"
-            backgroundColor="rgba(255,255,255,1)"
-            {...getOverrideProps(overrides, "Rectangle 1")}
-          ></View>
-        </View>
+          borderRadius="12px"
+          padding="0px 0px 0px 0px"
+          backgroundColor="rgba(255,255,255,1)"
+          {...getOverrideProps(overrides, "Rectangle 1")}
+        ></View>
         <View
           width="512px"
           height="154px"
@@ -422,7 +305,6 @@ export default function CadastroUsuario3(props) {
           width="181.47px"
           height="40.32px"
           position="absolute"
-          border="1px SOLID rgba(0,0,0,1)"
           borderRadius="10px"
           top="92.66%"
           bottom="1.7%"
@@ -435,6 +317,25 @@ export default function CadastroUsuario3(props) {
           {...getOverrideProps(overrides, "Button4027869")}
         ></Button>
       </View>
+      <Image
+        width="20.41%"
+        height="13.43%"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="31.07%"
+        bottom="55.51%"
+        left="21.07%"
+        right="58.53%"
+        padding="0px 0px 0px 0px"
+        objectFit="cover"
+        {...getOverrideProps(
+          overrides,
+          "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"
+        )}
+      ></Image>
     </View>
   );
 }

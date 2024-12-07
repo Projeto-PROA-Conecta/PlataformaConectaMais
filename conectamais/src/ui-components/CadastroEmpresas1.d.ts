@@ -19,12 +19,9 @@ export declare type Variant = {
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type CadastroEmpresas1OverridesProps = {
     CadastroEmpresas1?: PrimitiveOverrideProps<ViewProps>;
-    Cadastro?: PrimitiveOverrideProps<ViewProps>;
-    "Group 394"?: PrimitiveOverrideProps<ViewProps>;
-    "back gorund"?: PrimitiveOverrideProps<ViewProps>;
-    Rectangle?: PrimitiveOverrideProps<ImageProps>;
     "Rectangle 7"?: PrimitiveOverrideProps<ViewProps>;
-    "Group 4"?: PrimitiveOverrideProps<ViewProps>;
+    "Conecte-se aos melhores talentos neurodiversos e fortale\u00E7a sua marca empregadora."?: PrimitiveOverrideProps<TextProps>;
+    "Group 475"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 1"?: PrimitiveOverrideProps<ViewProps>;
     TextField40271492?: PrimitiveOverrideProps<TextFieldProps>;
     TextField40271468?: PrimitiveOverrideProps<TextFieldProps>;
@@ -41,9 +38,9 @@ export declare type CadastroEmpresas1OverridesProps = {
     "Cadastrar-se"?: PrimitiveOverrideProps<TextProps>;
     "Rectangle 1239884681"?: PrimitiveOverrideProps<ViewProps>;
     Voltar?: PrimitiveOverrideProps<TextProps>;
-    "Conecte-se aos melhores talentos neurodiversos e fortale\u00E7a sua marca empregadora."?: PrimitiveOverrideProps<TextProps>;
-    "image-removebg-preview (4) 2"?: PrimitiveOverrideProps<ImageProps>;
     CheckboxField?: PrimitiveOverrideProps<CheckboxFieldProps>;
+    "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview44155668"?: PrimitiveOverrideProps<ViewProps>;
+    "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview441512820"?: PrimitiveOverrideProps<ImageProps>;
 } & EscapeHatchProps;
 export declare type CadastroEmpresas1Props = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

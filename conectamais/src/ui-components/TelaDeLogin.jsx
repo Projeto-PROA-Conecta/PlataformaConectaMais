@@ -44,40 +44,8 @@ export default function TelaDeLogin(props) {
         top="0px"
         left="0px"
         padding="0px 0px 0px 0px"
-        backgroundImage="linear-gradient(-45deg, rgba(22,70,89,1), rgba(18,135,181,1))"
         {...getOverrideProps(overrides, "Login")}
       >
-        <View
-          padding="0px 0px 0px 0px"
-          width="0px"
-          height="0px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="0%"
-          bottom="100%"
-          left="0%"
-          right="100%"
-          {...getOverrideProps(overrides, "Group40291488")}
-        ></View>
-        <Image
-          width="100%"
-          height="93.85%"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="0%"
-          bottom="6.15%"
-          left="0%"
-          right="0%"
-          padding="0px 0px 0px 0px"
-          objectFit="unset"
-          {...getOverrideProps(overrides, "Rectangle")}
-        ></Image>
         <View
           width="638px"
           height="731px"
@@ -318,14 +286,14 @@ export default function TelaDeLogin(props) {
           objectFit="cover"
           {...getOverrideProps(
             overrides,
-            "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"
+            "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview4342802"
           )}
         ></Image>
         <Text
           fontFamily="Montserrat"
           fontSize="34px"
           fontWeight="700"
-          color="rgba(255,255,255,1)"
+          color="rgba(0,0,0,1)"
           lineHeight="41.44599914550781px"
           textAlign="left"
           display="block"
@@ -336,8 +304,8 @@ export default function TelaDeLogin(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="calc(50% - 20.5px - -53.5px)"
-          left="80px"
+          top="calc(50% - 20.5px - -23.5px)"
+          left="220px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Obrigado por nos escolher "
@@ -347,7 +315,7 @@ export default function TelaDeLogin(props) {
           fontFamily="Montserrat"
           fontSize="44px"
           fontWeight="700"
-          color="rgba(255,255,255,1)"
+          color="rgba(0,0,0,1)"
           lineHeight="53.6359977722168px"
           textAlign="left"
           display="block"
@@ -358,8 +326,8 @@ export default function TelaDeLogin(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="501px"
-          left="184px"
+          top="471px"
+          left="324px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Bem-vindo!"
@@ -1355,6 +1323,23 @@ export default function TelaDeLogin(props) {
             {...getOverrideProps(overrides, "Vector40291547")}
           ></Icon>
         </View>
+        <Image
+          width="269px"
+          height="118px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="227px"
+          left="900px"
+          padding="0px 0px 0px 0px"
+          objectFit="cover"
+          {...getOverrideProps(
+            overrides,
+            "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview44151771"
+          )}
+        ></Image>
       </View>
     </View>
   );

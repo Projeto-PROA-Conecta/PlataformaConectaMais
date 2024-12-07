@@ -20,13 +20,11 @@ export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes
 export declare type CadastroUsuario2OverridesProps = {
     CadastroUsuario2?: PrimitiveOverrideProps<ViewProps>;
     Cadastro?: PrimitiveOverrideProps<ViewProps>;
-    Rectangle?: PrimitiveOverrideProps<ImageProps>;
+    Rectangle?: PrimitiveOverrideProps<ViewProps>;
+    "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"?: PrimitiveOverrideProps<ImageProps>;
     "Group 457"?: PrimitiveOverrideProps<ViewProps>;
-    "Group 51"?: PrimitiveOverrideProps<ViewProps>;
-    "Group 6"?: PrimitiveOverrideProps<ViewProps>;
-    "J\u00E1 estamos"?: PrimitiveOverrideProps<TextProps>;
-    "quase l\u00E1"?: PrimitiveOverrideProps<TextProps>;
-    "image-removebg-preview (4) 4"?: PrimitiveOverrideProps<ImageProps>;
+    "J\u00E1 estamos quase l\u00E1"?: PrimitiveOverrideProps<TextProps>;
+    "image-removebg-preview (4) 4"?: PrimitiveOverrideProps<ViewProps>;
     "Group 470"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 1"?: PrimitiveOverrideProps<IconProps>;
     PhoneNumberField?: PrimitiveOverrideProps<PhoneNumberFieldProps>;

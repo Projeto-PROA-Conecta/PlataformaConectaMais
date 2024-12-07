@@ -19,14 +19,7 @@ export declare type Variant = {
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type CadastroUsuario3OverridesProps = {
     CadastroUsuario3?: PrimitiveOverrideProps<ViewProps>;
-    Rectangle?: PrimitiveOverrideProps<ImageProps>;
-    "Group 460"?: PrimitiveOverrideProps<ViewProps>;
-    "Group 6"?: PrimitiveOverrideProps<ViewProps>;
     "Algumas perguntas"?: PrimitiveOverrideProps<TextProps>;
-    "image-removebg-preview (4) 4"?: PrimitiveOverrideProps<ImageProps>;
-    "Group 461"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 7"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 11"?: PrimitiveOverrideProps<ViewProps>;
     "Group 4"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 1"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 201"?: PrimitiveOverrideProps<ViewProps>;
@@ -40,6 +33,7 @@ export declare type CadastroUsuario3OverridesProps = {
     SelectField40371468?: PrimitiveOverrideProps<SelectFieldProps>;
     Button39885571?: PrimitiveOverrideProps<ButtonProps>;
     Button4027869?: PrimitiveOverrideProps<ButtonProps>;
+    "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"?: PrimitiveOverrideProps<ImageProps>;
 } & EscapeHatchProps;
 export declare type CadastroUsuario3Props = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

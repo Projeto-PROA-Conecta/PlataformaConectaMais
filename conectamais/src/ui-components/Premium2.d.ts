@@ -36,7 +36,6 @@ export declare type Premium2OverridesProps = {
     Button4329750?: PrimitiveOverrideProps<ButtonProps>;
     Button4329751?: PrimitiveOverrideProps<ButtonProps>;
     "AvatarPerfil 1"?: PrimitiveOverrideProps<ImageProps>;
-    Rectangle?: PrimitiveOverrideProps<ImageProps>;
     "Group 447"?: PrimitiveOverrideProps<ViewProps>;
     "Group 85"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 165"?: PrimitiveOverrideProps<IconProps>;
