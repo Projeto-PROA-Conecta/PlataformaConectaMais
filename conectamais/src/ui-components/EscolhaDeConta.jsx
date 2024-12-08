@@ -106,7 +106,7 @@ export default function EscolhaDeConta(props) {
               justifyContent="unset"
               position="absolute"
               top="0px"
-              left="164px"
+              left="calc(50% - 154.5px - -0.5px)"
               padding="0px 0px 0px 0px"
               objectFit="cover"
               src={bancoImagens?.LogoPretaConecta}
@@ -122,7 +122,7 @@ export default function EscolhaDeConta(props) {
             position="absolute"
             borderRadius="10px"
             top="331px"
-            left="133px"
+            left="calc(50% - 186px - 0px)"
             backgroundColor="rgba(211,152,74,1)"
             size="large"
             isDisabled={false}
@@ -136,7 +136,7 @@ export default function EscolhaDeConta(props) {
             position="absolute"
             borderRadius="10px"
             top="473px"
-            left="133px"
+            left="calc(50% - 186px - 0px)"
             backgroundColor="rgba(38,25,13,1)"
             size="large"
             isDisabled={false}
@@ -145,18 +145,18 @@ export default function EscolhaDeConta(props) {
             {...getOverrideProps(overrides, "Button39885476")}
           ></Button>
           <Button
-            width="176.12px"
-            height="36.21px"
+            width="121.54px"
+            height="41.15px"
             position="absolute"
             border="1px SOLID rgba(0,0,0,1)"
             borderRadius="10px"
-            top="677px"
-            left="231px"
+            top="677.33px"
+            left="calc(50% - 60.77px - 0.23px)"
             size="default"
             isDisabled={false}
             variation="primary"
             children="Voltar"
-            {...getOverrideProps(overrides, "Button4367752")}
+            {...getOverrideProps(overrides, "Button44393551")}
           ></Button>
           <Icon
             width="31px"
@@ -699,7 +699,7 @@ export default function EscolhaDeConta(props) {
           alignItems="unset"
           position="absolute"
           top="calc(50% - 19.5px - 193px)"
-          left="553px"
+          left="calc(50% - 206.5px - 0px)"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Qual seu tipo de conta?"
@@ -721,7 +721,7 @@ export default function EscolhaDeConta(props) {
           alignItems="unset"
           position="absolute"
           top="242px"
-          left="625px"
+          left="calc(50% - 135px - -0.5px)"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Bem-vindo!"

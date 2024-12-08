@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import { NovaHome, TelaDeLogin } from "./ui-components";
+import { EscolhaDeConta, NovaHome, TelaDeLogin } from "./ui-components";
 import Home from "./ui-components/Home";
 
 function App() {

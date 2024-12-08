@@ -21,19 +21,16 @@ export declare type TelaDeLoginOverridesProps = {
     TelaDeLogin?: PrimitiveOverrideProps<ViewProps>;
     Login?: PrimitiveOverrideProps<ViewProps>;
     "Fundo Novo"?: PrimitiveOverrideProps<ImageProps>;
+    "Group 479"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 2"?: PrimitiveOverrideProps<ViewProps>;
     "Group 3"?: PrimitiveOverrideProps<ViewProps>;
     Entrar?: PrimitiveOverrideProps<TextProps>;
     TextField?: PrimitiveOverrideProps<TextFieldProps>;
     "Esqueci a senha"?: PrimitiveOverrideProps<TextProps>;
     "Group 1"?: PrimitiveOverrideProps<ViewProps>;
-    "Novo por aqui?"?: PrimitiveOverrideProps<TextProps>;
-    "Inscreva-se"?: PrimitiveOverrideProps<TextProps>;
+    "Novo por aqui? Inscreva-se"?: PrimitiveOverrideProps<TextProps>;
     PasswordField?: PrimitiveOverrideProps<PasswordFieldProps>;
-    GoogleLogo?: PrimitiveOverrideProps<ImageProps>;
-    "FacebookLogo 1"?: PrimitiveOverrideProps<ImageProps>;
     Button?: PrimitiveOverrideProps<ButtonProps>;
-    "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview4342802"?: PrimitiveOverrideProps<ImageProps>;
     "Obrigado por nos escolher"?: PrimitiveOverrideProps<TextProps>;
     "Bem-vindo!"?: PrimitiveOverrideProps<TextProps>;
     "undraw_reminder_re_fe15 1"?: PrimitiveOverrideProps<ViewProps>;
@@ -79,7 +76,7 @@ export declare type TelaDeLoginOverridesProps = {
     Vector40291545?: PrimitiveOverrideProps<IconProps>;
     Vector40291546?: PrimitiveOverrideProps<IconProps>;
     Vector40291547?: PrimitiveOverrideProps<IconProps>;
-    "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview44151771"?: PrimitiveOverrideProps<ImageProps>;
+    "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"?: PrimitiveOverrideProps<ImageProps>;
 } & EscapeHatchProps;
 export declare type TelaDeLoginProps = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

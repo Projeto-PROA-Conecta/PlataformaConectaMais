@@ -27,7 +27,7 @@ export declare type EscolhaDeContaOverridesProps = {
     "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"?: PrimitiveOverrideProps<ImageProps>;
     Button39885475?: PrimitiveOverrideProps<ButtonProps>;
     Button39885476?: PrimitiveOverrideProps<ButtonProps>;
-    Button4367752?: PrimitiveOverrideProps<ButtonProps>;
+    Button44393551?: PrimitiveOverrideProps<ButtonProps>;
     Vector39885478?: PrimitiveOverrideProps<IconProps>;
     Vector39885479?: PrimitiveOverrideProps<IconProps>;
     Vector39885481?: PrimitiveOverrideProps<IconProps>;

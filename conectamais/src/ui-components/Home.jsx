@@ -90,14 +90,14 @@ export default function Home(props) {
           ></Image>
         </Flex>
         <Button
-          width="unset"
-          height="unset"
+          width="103px"
+          height="33px"
           shrink="0"
-          size="small"
+          size="large"
           isDisabled={false}
-          variation="link"
-          children="Perfil"
-          {...getOverrideProps(overrides, "Button442412269")}
+          variation="primary"
+          children="Teste"
+          {...getOverrideProps(overrides, "Button44402345")}
         ></Button>
         <Button
           width="unset"
@@ -105,9 +105,9 @@ export default function Home(props) {
           shrink="0"
           size="small"
           isDisabled={false}
-          variation="link"
-          children="Notificação"
-          {...getOverrideProps(overrides, "Button442814304")}
+          variation="default"
+          children="Button"
+          {...getOverrideProps(overrides, "Button44402939")}
         ></Button>
         <Button
           width="unset"
@@ -1492,6 +1492,18 @@ export default function Home(props) {
         variation="default"
         {...getOverrideProps(overrides, "SelectField43022412")}
       ></SelectField>
+      <Button
+        width="unset"
+        height="unset"
+        position="absolute"
+        top="188px"
+        left="470px"
+        size="default"
+        isDisabled={true}
+        variation="default"
+        children="Button"
+        {...getOverrideProps(overrides, "Button44401543")}
+      ></Button>
     </View>
   );
 }

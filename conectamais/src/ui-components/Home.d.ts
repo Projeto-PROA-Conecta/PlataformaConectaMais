@@ -23,8 +23,8 @@ export declare type HomeOverridesProps = {
     NavBarHeaderConecta?: PrimitiveOverrideProps<FlexProps>;
     "Frame 322"?: PrimitiveOverrideProps<FlexProps>;
     "logo_branca_conecta 2"?: PrimitiveOverrideProps<ImageProps>;
-    Button442412269?: PrimitiveOverrideProps<ButtonProps>;
-    Button442814304?: PrimitiveOverrideProps<ButtonProps>;
+    Button44402345?: PrimitiveOverrideProps<ButtonProps>;
+    Button44402939?: PrimitiveOverrideProps<ButtonProps>;
     Button442412293?: PrimitiveOverrideProps<ButtonProps>;
     Button442412321?: PrimitiveOverrideProps<ButtonProps>;
     Button442914236?: PrimitiveOverrideProps<ButtonProps>;
@@ -96,6 +96,7 @@ export declare type HomeOverridesProps = {
     SelectField43022402?: PrimitiveOverrideProps<SelectFieldProps>;
     SelectField43022422?: PrimitiveOverrideProps<SelectFieldProps>;
     SelectField43022412?: PrimitiveOverrideProps<SelectFieldProps>;
+    Button44401543?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type HomeProps = React.PropsWithChildren<Partial<ViewProps> & {
     overrides?: HomeOverridesProps | undefined | null;
