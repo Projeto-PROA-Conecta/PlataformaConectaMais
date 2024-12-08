@@ -19,6 +19,7 @@ export declare type Variant = {
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type ConfigsPersonalizacaoOverridesProps = {
     ConfigsPersonalizacao?: PrimitiveOverrideProps<ViewProps>;
+    "Fundo Novo"?: PrimitiveOverrideProps<ImageProps>;
     NavBarHeaderConecta?: PrimitiveOverrideProps<FlexProps>;
     "Frame 3214376835"?: PrimitiveOverrideProps<FlexProps>;
     Vector4376836?: PrimitiveOverrideProps<IconProps>;
@@ -38,27 +39,13 @@ export declare type ConfigsPersonalizacaoOverridesProps = {
     Button4329878?: PrimitiveOverrideProps<ButtonProps>;
     Button4329879?: PrimitiveOverrideProps<ButtonProps>;
     Button4329880?: PrimitiveOverrideProps<ButtonProps>;
-    "Group 451"?: PrimitiveOverrideProps<ViewProps>;
-    "Group 383"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 103"?: PrimitiveOverrideProps<ViewProps>;
-    "Acesso e Seguran\u00E7a"?: PrimitiveOverrideProps<TextProps>;
+    "Group 477"?: PrimitiveOverrideProps<ViewProps>;
+    Vector44262549?: PrimitiveOverrideProps<IconProps>;
     "Line 10"?: PrimitiveOverrideProps<IconProps>;
-    "Group 55"?: PrimitiveOverrideProps<ViewProps>;
-    Acessibilidade?: PrimitiveOverrideProps<TextProps>;
-    "Group 56"?: PrimitiveOverrideProps<ViewProps>;
-    "Apar\u00EAncia"?: PrimitiveOverrideProps<TextProps>;
-    "Group 57"?: PrimitiveOverrideProps<ViewProps>;
-    "Notifica\u00E7\u00E3o"?: PrimitiveOverrideProps<TextProps>;
-    "Line 11"?: PrimitiveOverrideProps<IconProps>;
     "Line 12"?: PrimitiveOverrideProps<IconProps>;
-    Vector4376866?: PrimitiveOverrideProps<IconProps>;
-    "no_encryption_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 1"?: PrimitiveOverrideProps<ViewProps>;
-    "lock_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 1"?: PrimitiveOverrideProps<ViewProps>;
-    Vector4376869?: PrimitiveOverrideProps<IconProps>;
-    "palette_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 2"?: PrimitiveOverrideProps<ViewProps>;
-    Vector4376871?: PrimitiveOverrideProps<IconProps>;
-    "notifications_off_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 2"?: PrimitiveOverrideProps<ViewProps>;
-    Vector4376873?: PrimitiveOverrideProps<IconProps>;
+    "Line 11"?: PrimitiveOverrideProps<IconProps>;
+    "edit_24dp_000000_FILL0_wght400_GRAD0_opsz24 1"?: PrimitiveOverrideProps<ViewProps>;
+    Vector44263497?: PrimitiveOverrideProps<IconProps>;
 } & EscapeHatchProps;
 export declare type ConfigsPersonalizacaoProps = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

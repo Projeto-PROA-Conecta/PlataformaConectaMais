@@ -29,7 +29,6 @@ export default function CadastroUsuario5(props) {
       overflow="hidden"
       position="relative"
       padding="0px 0px 0px 0px"
-      backgroundColor="rgba(255,255,255,1)"
       {...getOverrideProps(overrides, "CadastroUsuario5")}
       {...rest}
     >
@@ -48,11 +47,11 @@ export default function CadastroUsuario5(props) {
         {...getOverrideProps(overrides, "Cadastro")}
       >
         <Text
-          fontFamily="Montserrat"
-          fontSize="48px"
+          fontFamily="Poppins"
+          fontSize="44px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
-          lineHeight="58.512001037597656px"
+          lineHeight="66px"
           textAlign="center"
           display="block"
           direction="column"
@@ -265,26 +264,26 @@ export default function CadastroUsuario5(props) {
             {...getOverrideProps(overrides, "SelectField40341865")}
           ></SelectField>
         </View>
-        <Image
-          width="20.41%"
-          height="13.45%"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="31.21%"
-          bottom="55.34%"
-          left="22.12%"
-          right="57.47%"
-          padding="0px 0px 0px 0px"
-          objectFit="cover"
-          {...getOverrideProps(
-            overrides,
-            "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"
-          )}
-        ></Image>
       </View>
+      <Image
+        width="20.41%"
+        height="13.43%"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="28.47%"
+        bottom="58.1%"
+        left="22.12%"
+        right="57.47%"
+        padding="0px 0px 0px 0px"
+        objectFit="cover"
+        {...getOverrideProps(
+          overrides,
+          "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"
+        )}
+      ></Image>
     </View>
   );
 }

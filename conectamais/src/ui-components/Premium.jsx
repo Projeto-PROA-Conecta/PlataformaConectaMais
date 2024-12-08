@@ -8,7 +8,7 @@
 import * as React from "react";
 import { getOverrideProps } from "./utils";
 import { Button, Flex, Icon, Image, Text, View } from "@aws-amplify/ui-react";
-export default function Premium2(props) {
+export default function Premium(props) {
   const { bancoImagens, overrides, ...rest } = props;
   return (
     <View
@@ -22,9 +22,23 @@ export default function Premium2(props) {
       position="relative"
       boxShadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
       padding="0px 0px 0px 0px"
-      {...getOverrideProps(overrides, "Premium2")}
+      {...getOverrideProps(overrides, "Premium")}
       {...rest}
     >
+      <Image
+        width="1519px"
+        height="1017px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="0px"
+        left="-4px"
+        padding="0px 0px 0px 0px"
+        objectFit="cover"
+        {...getOverrideProps(overrides, "Fundo Novo")}
+      ></Image>
       <Flex
         gap="40px"
         direction="row"
@@ -273,26 +287,25 @@ export default function Premium2(props) {
         left="1569px"
         padding="0px 0px 0px 0px"
         objectFit="cover"
-        src={bancoImagens?.PerfilAvatar}
         {...getOverrideProps(overrides, "AvatarPerfil 1")}
       ></Image>
       <View
         padding="0px 0px 0px 0px"
-        width="1394px"
-        height="113px"
+        width="1037px"
+        height="165px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="244px"
-        left="63px"
+        top="226px"
+        left="253px"
         {...getOverrideProps(overrides, "Group 447")}
       >
         <View
           padding="0px 0px 0px 0px"
-          width="1394px"
-          height="113px"
+          width="1037px"
+          height="154px"
           display="block"
           gap="unset"
           alignItems="unset"
@@ -303,12 +316,12 @@ export default function Premium2(props) {
           {...getOverrideProps(overrides, "Group 85")}
         >
           <Icon
-            width="1394px"
-            height="113px"
-            viewBox={{ minX: 0, minY: 0, width: 1394, height: 113 }}
+            width="1037px"
+            height="154px"
+            viewBox={{ minX: 0, minY: 0, width: 1037, height: 154 }}
             paths={[
               {
-                d: "M0 30C0 13.4315 13.4315 0 30 0L1364 0C1380.57 0 1394 13.4315 1394 30L1394 83C1394 99.5685 1380.57 113 1364 113L30 113C13.4314 113 0 99.5685 0 83L0 30Z",
+                d: "M0 30C0 13.4315 13.4315 0 30 0L1007 0C1023.57 0 1037 13.4315 1037 30L1037 124C1037 140.569 1023.57 154 1007 154L30 154C13.4314 154 0 140.569 0 124L0 30Z",
                 fill: "rgba(207,209,208,1)",
                 fillRule: "nonzero",
               },
@@ -324,22 +337,22 @@ export default function Premium2(props) {
           ></Icon>
         </View>
         <Text
-          fontFamily="Montserrat"
-          fontSize="30px"
+          fontFamily="Poppins"
+          fontSize="34px"
           fontWeight="600"
           color="rgba(0,0,0,1)"
-          lineHeight="36.56999969482422px"
+          lineHeight="51px"
           textAlign="center"
           display="block"
           direction="column"
           justifyContent="unset"
-          width="1384px"
-          height="unset"
+          width="893px"
+          height="139.01px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="19px"
-          left="5px"
+          top="25.99px"
+          left="73px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Muitos usuários do Conecta+ escolhem o Premium para impulsionar suas  carreiras profissionais. "
@@ -787,7 +800,7 @@ export default function Premium2(props) {
           {...getOverrideProps(overrides, "Frame 429")}
         >
           <Text
-            fontFamily="Inter"
+            fontFamily="Poppins"
             fontSize="16px"
             fontWeight="600"
             color="rgba(4,125,149,1)"
@@ -829,7 +842,7 @@ export default function Premium2(props) {
             {...getOverrideProps(overrides, "R$49,99/M")}
           ></Text>
           <Text
-            fontFamily="Inter"
+            fontFamily="Poppins"
             fontSize="16px"
             fontWeight="600"
             color="rgba(92,102,112,1)"
@@ -920,7 +933,7 @@ export default function Premium2(props) {
             </View>
           </Flex>
           <Text
-            fontFamily="Inter"
+            fontFamily="Poppins"
             fontSize="16px"
             fontWeight="400"
             color="rgba(13,26,38,1)"
@@ -1017,7 +1030,7 @@ export default function Premium2(props) {
             </View>
           </Flex>
           <Text
-            fontFamily="Inter"
+            fontFamily="Poppins"
             fontSize="16px"
             fontWeight="400"
             color="rgba(13,26,38,1)"
@@ -1114,7 +1127,7 @@ export default function Premium2(props) {
             </View>
           </Flex>
           <Text
-            fontFamily="Inter"
+            fontFamily="Poppins"
             fontSize="16px"
             fontWeight="400"
             color="rgba(13,26,38,1)"

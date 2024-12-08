@@ -14,7 +14,7 @@ import {
   TextField,
   View,
 } from "@aws-amplify/ui-react";
-export default function CadastroEmpresas1(props) {
+export default function CadastroEmpresas(props) {
   const { bancoImagens, overrides, ...rest } = props;
   return (
     <View
@@ -27,9 +27,25 @@ export default function CadastroEmpresas1(props) {
       overflow="hidden"
       position="relative"
       padding="0px 0px 0px 0px"
-      {...getOverrideProps(overrides, "CadastroEmpresas1")}
+      {...getOverrideProps(overrides, "CadastroEmpresas")}
       {...rest}
     >
+      <Image
+        width="100%"
+        height="99.87%"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="0%"
+        bottom="0.13%"
+        left="-0.26%"
+        right="0.26%"
+        padding="0px 0px 0px 0px"
+        objectFit="cover"
+        {...getOverrideProps(overrides, "Fundo Novo")}
+      ></Image>
       <View
         width="100px"
         height="40px"
@@ -46,8 +62,8 @@ export default function CadastroEmpresas1(props) {
         {...getOverrideProps(overrides, "Rectangle 7")}
       ></View>
       <Text
-        fontFamily="Montserrat"
-        fontSize="36px"
+        fontFamily="Poppins"
+        fontSize="34px"
         fontWeight="700"
         color="rgba(0,0,0,1)"
         lineHeight="75px"
@@ -60,8 +76,8 @@ export default function CadastroEmpresas1(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="452px"
-        left="169px"
+        top="470px"
+        left="193px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
         children="Conecte-se aos melhores talentos neurodiversos e fortaleça sua marca empregadora."
@@ -163,11 +179,11 @@ export default function CadastroEmpresas1(props) {
           {...getOverrideProps(overrides, "Pronto")}
         ></Text>
         <Text
-          fontFamily="Montserrat"
+          fontFamily="Poppins"
           fontSize="24px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
-          lineHeight="29.256000518798828px"
+          lineHeight="36px"
           textAlign="left"
           display="block"
           direction="column"
@@ -282,11 +298,11 @@ export default function CadastroEmpresas1(props) {
               {...getOverrideProps(overrides, "Rectangle 1239884679")}
             ></View>
             <Text
-              fontFamily="Montserrat"
+              fontFamily="Poppins"
               fontSize="12px"
               fontWeight="700"
               color="rgba(255,255,255,1)"
-              lineHeight="14.628000259399414px"
+              lineHeight="18px"
               textAlign="left"
               display="block"
               direction="column"
@@ -320,11 +336,11 @@ export default function CadastroEmpresas1(props) {
               {...getOverrideProps(overrides, "Rectangle 1239884681")}
             ></View>
             <Text
-              fontFamily="Montserrat"
+              fontFamily="Poppins"
               fontSize="12px"
               fontWeight="700"
               color="rgba(62,62,62,1)"
-              lineHeight="14.628000259399414px"
+              lineHeight="18px"
               textAlign="left"
               display="block"
               direction="column"
@@ -383,15 +399,15 @@ export default function CadastroEmpresas1(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="27%"
-        bottom="59.59%"
-        left="20.41%"
-        right="59.18%"
+        top="28.43%"
+        bottom="58.16%"
+        left="22.12%"
+        right="57.47%"
         padding="0px 0px 0px 0px"
         objectFit="cover"
         {...getOverrideProps(
           overrides,
-          "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview441512820"
+          "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview44261890"
         )}
       ></Image>
     </View>

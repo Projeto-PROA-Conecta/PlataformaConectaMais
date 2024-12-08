@@ -30,6 +30,7 @@ export declare type MeuPerfilOverridesProps = {
     "Frame 3214387833"?: PrimitiveOverrideProps<FlexProps>;
     Button4387834?: PrimitiveOverrideProps<ButtonProps>;
     Button4387835?: PrimitiveOverrideProps<ButtonProps>;
+    "Fundo Novo"?: PrimitiveOverrideProps<ImageProps>;
     "Group 408"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 122"?: PrimitiveOverrideProps<ViewProps>;
     "AvatarPerfil 141002006"?: PrimitiveOverrideProps<ImageProps>;

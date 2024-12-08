@@ -17,8 +17,9 @@ export declare type Variant = {
     overrides: EscapeHatchProps;
 };
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
-export declare type CadastroEmpresas1OverridesProps = {
-    CadastroEmpresas1?: PrimitiveOverrideProps<ViewProps>;
+export declare type CadastroEmpresasOverridesProps = {
+    CadastroEmpresas?: PrimitiveOverrideProps<ViewProps>;
+    "Fundo Novo"?: PrimitiveOverrideProps<ImageProps>;
     "Rectangle 7"?: PrimitiveOverrideProps<ViewProps>;
     "Conecte-se aos melhores talentos neurodiversos e fortale\u00E7a sua marca empregadora."?: PrimitiveOverrideProps<TextProps>;
     "Group 475"?: PrimitiveOverrideProps<ViewProps>;
@@ -40,11 +41,11 @@ export declare type CadastroEmpresas1OverridesProps = {
     Voltar?: PrimitiveOverrideProps<TextProps>;
     CheckboxField?: PrimitiveOverrideProps<CheckboxFieldProps>;
     "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview44155668"?: PrimitiveOverrideProps<ViewProps>;
-    "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview441512820"?: PrimitiveOverrideProps<ImageProps>;
+    "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview44261890"?: PrimitiveOverrideProps<ImageProps>;
 } & EscapeHatchProps;
-export declare type CadastroEmpresas1Props = React.PropsWithChildren<Partial<ViewProps> & {
+export declare type CadastroEmpresasProps = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;
 } & {
-    overrides?: CadastroEmpresas1OverridesProps | undefined | null;
+    overrides?: CadastroEmpresasOverridesProps | undefined | null;
 }>;
-export default function CadastroEmpresas1(props: CadastroEmpresas1Props): React.ReactElement;
+export default function CadastroEmpresas(props: CadastroEmpresasProps): React.ReactElement;

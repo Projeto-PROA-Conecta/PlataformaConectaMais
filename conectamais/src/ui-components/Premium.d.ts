@@ -17,8 +17,9 @@ export declare type Variant = {
     overrides: EscapeHatchProps;
 };
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
-export declare type Premium2OverridesProps = {
-    Premium2?: PrimitiveOverrideProps<ViewProps>;
+export declare type PremiumOverridesProps = {
+    Premium?: PrimitiveOverrideProps<ViewProps>;
+    "Fundo Novo"?: PrimitiveOverrideProps<ImageProps>;
     NavBarHeaderConecta?: PrimitiveOverrideProps<FlexProps>;
     "Frame 3214367734"?: PrimitiveOverrideProps<FlexProps>;
     Vector4367735?: PrimitiveOverrideProps<IconProps>;
@@ -82,9 +83,9 @@ export declare type Premium2OverridesProps = {
     Button42347350?: PrimitiveOverrideProps<ButtonProps>;
     Vector42386321?: PrimitiveOverrideProps<IconProps>;
 } & EscapeHatchProps;
-export declare type Premium2Props = React.PropsWithChildren<Partial<ViewProps> & {
+export declare type PremiumProps = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;
 } & {
-    overrides?: Premium2OverridesProps | undefined | null;
+    overrides?: PremiumOverridesProps | undefined | null;
 }>;
-export default function Premium2(props: Premium2Props): React.ReactElement;
+export default function Premium(props: PremiumProps): React.ReactElement;

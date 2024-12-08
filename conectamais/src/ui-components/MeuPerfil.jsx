@@ -204,6 +204,20 @@ export default function MeuPerfil(props) {
           ></Button>
         </Flex>
       </Flex>
+      <Image
+        width="1519px"
+        height="1702px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="180px"
+        left="1px"
+        padding="0px 0px 0px 0px"
+        objectFit="cover"
+        {...getOverrideProps(overrides, "Fundo Novo")}
+      ></Image>
       <View
         padding="0px 0px 0px 0px"
         width="523.86px"
@@ -278,8 +292,8 @@ export default function MeuPerfil(props) {
           justifyContent="unset"
           overflow="hidden"
           position="absolute"
-          top="179px"
-          left="358.86px"
+          top="179.47px"
+          left="360.24px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(
             overrides,
@@ -361,11 +375,11 @@ export default function MeuPerfil(props) {
             {...getOverrideProps(overrides, "Rectangle 12339882927")}
           ></View>
           <Text
-            fontFamily="Montserrat"
+            fontFamily="Poppins"
             fontSize="16px"
             fontWeight="600"
             color="rgba(0,0,0,1)"
-            lineHeight="19.503999710083008px"
+            lineHeight="24px"
             textAlign="left"
             display="block"
             direction="column"
@@ -426,11 +440,11 @@ export default function MeuPerfil(props) {
             {...getOverrideProps(overrides, "Rectangle 125")}
           ></View>
           <Text
-            fontFamily="Montserrat"
+            fontFamily="Poppins"
             fontSize="16px"
             fontWeight="600"
             color="rgba(0,0,0,1)"
-            lineHeight="19.503999710083008px"
+            lineHeight="24px"
             textAlign="left"
             display="block"
             direction="column"
@@ -486,11 +500,11 @@ export default function MeuPerfil(props) {
             {...getOverrideProps(overrides, "Smiling")}
           ></View>
           <Text
-            fontFamily="Montserrat"
+            fontFamily="Poppins"
             fontSize="16px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
-            lineHeight="19.503999710083008px"
+            lineHeight="24px"
             textAlign="left"
             display="block"
             direction="column"
@@ -594,11 +608,11 @@ export default function MeuPerfil(props) {
             {...getOverrideProps(overrides, "Rectangle 126")}
           ></View>
           <Text
-            fontFamily="Montserrat"
+            fontFamily="Poppins"
             fontSize="16px"
             fontWeight="600"
             color="rgba(0,0,0,1)"
-            lineHeight="19.503999710083008px"
+            lineHeight="24px"
             textAlign="left"
             display="block"
             direction="column"
@@ -663,11 +677,11 @@ export default function MeuPerfil(props) {
             {...getOverrideProps(overrides, "Per\u00EDodo do Curso:")}
           ></Text>
           <Text
-            fontFamily="Montserrat"
+            fontFamily="Poppins"
             fontSize="15px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
-            lineHeight="18.28499984741211px"
+            lineHeight="22.5px"
             textAlign="left"
             display="block"
             direction="column"
@@ -685,11 +699,11 @@ export default function MeuPerfil(props) {
             {...getOverrideProps(overrides, "Ano / Semestre:")}
           ></Text>
           <Text
-            fontFamily="Montserrat"
+            fontFamily="Poppins"
             fontSize="15px"
             fontWeight="600"
             color="rgba(0,0,0,1)"
-            lineHeight="18.28499984741211px"
+            lineHeight="22.5px"
             textAlign="left"
             display="block"
             direction="column"
@@ -707,11 +721,11 @@ export default function MeuPerfil(props) {
             {...getOverrideProps(overrides, "Fatec Ferraz de Vasconcelos")}
           ></Text>
           <Text
-            fontFamily="Montserrat"
+            fontFamily="Poppins"
             fontSize="15px"
             fontWeight="600"
             color="rgba(0,0,0,1)"
-            lineHeight="18.28499984741211px"
+            lineHeight="22.5px"
             textAlign="left"
             display="block"
             direction="column"
@@ -943,11 +957,11 @@ export default function MeuPerfil(props) {
           )}
         ></Text>
         <Text
-          fontFamily="Montserrat"
+          fontFamily="Poppins"
           fontSize="16px"
           fontWeight="600"
           color="rgba(0,0,0,1)"
-          lineHeight="19.503999710083008px"
+          lineHeight="24px"
           textAlign="left"
           display="block"
           direction="column"
@@ -1090,11 +1104,11 @@ export default function MeuPerfil(props) {
           ></Icon>
         </View>
         <Text
-          fontFamily="Montserrat"
+          fontFamily="Poppins"
           fontSize="14px"
           fontWeight="400"
           color="rgba(0,0,0,1)"
-          lineHeight="17.06599998474121px"
+          lineHeight="21px"
           textAlign="left"
           display="block"
           direction="column"
@@ -1291,11 +1305,11 @@ export default function MeuPerfil(props) {
             {...getOverrideProps(overrides, "Button39882985")}
           ></Button>
           <Text
-            fontFamily="Montserrat"
+            fontFamily="Poppins"
             fontSize="30px"
             fontWeight="700"
             color="rgba(0,0,0,1)"
-            lineHeight="36.56999969482422px"
+            lineHeight="45px"
             textAlign="left"
             display="block"
             direction="column"
@@ -1313,11 +1327,11 @@ export default function MeuPerfil(props) {
             {...getOverrideProps(overrides, "Suas Publica\u00E7\u00F5es")}
           ></Text>
           <Text
-            fontFamily="Montserrat"
+            fontFamily="Poppins"
             fontSize="29px"
             fontWeight="500"
             color="rgba(0,0,0,1)"
-            lineHeight="35.35099792480469px"
+            lineHeight="43.5px"
             textAlign="center"
             display="block"
             direction="column"
@@ -1781,11 +1795,11 @@ export default function MeuPerfil(props) {
                 {...getOverrideProps(overrides, "Gostei")}
               ></Text>
               <Text
-                fontFamily="Montserrat"
+                fontFamily="Poppins"
                 fontSize="24px"
                 fontWeight="600"
                 color="rgba(0,0,0,1)"
-                lineHeight="29.256000518798828px"
+                lineHeight="36px"
                 textAlign="left"
                 display="block"
                 direction="column"
@@ -1803,11 +1817,11 @@ export default function MeuPerfil(props) {
                 {...getOverrideProps(overrides, "Comentar")}
               ></Text>
               <Text
-                fontFamily="Montserrat"
+                fontFamily="Poppins"
                 fontSize="24px"
                 fontWeight="600"
                 color="rgba(0,0,0,1)"
-                lineHeight="29.256000518798828px"
+                lineHeight="36px"
                 textAlign="left"
                 display="block"
                 direction="column"

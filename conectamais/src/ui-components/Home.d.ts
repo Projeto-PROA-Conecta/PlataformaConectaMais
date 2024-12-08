@@ -17,8 +17,9 @@ export declare type Variant = {
     overrides: EscapeHatchProps;
 };
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
-export declare type NovaHomeOverridesProps = {
-    NovaHome?: PrimitiveOverrideProps<ViewProps>;
+export declare type HomeOverridesProps = {
+    Home?: PrimitiveOverrideProps<ViewProps>;
+    "Fundo Novo"?: PrimitiveOverrideProps<ViewProps>;
     NavBarMenu?: PrimitiveOverrideProps<FlexProps>;
     "Frame 32142763631"?: PrimitiveOverrideProps<FlexProps>;
     Button42789534?: PrimitiveOverrideProps<ButtonProps>;
@@ -99,7 +100,7 @@ export declare type NovaHomeOverridesProps = {
     SelectField43022422?: PrimitiveOverrideProps<SelectFieldProps>;
     SelectField43022412?: PrimitiveOverrideProps<SelectFieldProps>;
 } & EscapeHatchProps;
-export declare type NovaHomeProps = React.PropsWithChildren<Partial<ViewProps> & {
-    overrides?: NovaHomeOverridesProps | undefined | null;
+export declare type HomeProps = React.PropsWithChildren<Partial<ViewProps> & {
+    overrides?: HomeOverridesProps | undefined | null;
 }>;
-export default function NovaHome(props: NovaHomeProps): React.ReactElement;
+export default function Home(props: HomeProps): React.ReactElement;

@@ -46,6 +46,20 @@ export default function TelaDeLogin(props) {
         padding="0px 0px 0px 0px"
         {...getOverrideProps(overrides, "Login")}
       >
+        <Image
+          width="1519px"
+          height="1040px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="0px"
+          left="-4px"
+          padding="0px 0px 0px 0px"
+          objectFit="cover"
+          {...getOverrideProps(overrides, "Fundo Novo")}
+        ></Image>
         <View
           width="638px"
           height="731px"
@@ -54,7 +68,7 @@ export default function TelaDeLogin(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="170px"
+          top="calc(50% - 365.5px - 0.5px)"
           left="716px"
           borderRadius="12px"
           padding="0px 0px 0px 0px"
@@ -77,11 +91,11 @@ export default function TelaDeLogin(props) {
           {...getOverrideProps(overrides, "Group 3")}
         >
           <Text
-            fontFamily="Montserrat"
+            fontFamily="Poppins"
             fontSize="12px"
             fontWeight="700"
             color="rgba(255,255,255,1)"
-            lineHeight="14.628000259399414px"
+            lineHeight="18px"
             textAlign="left"
             display="block"
             direction="column"
@@ -117,11 +131,11 @@ export default function TelaDeLogin(props) {
             {...getOverrideProps(overrides, "TextField")}
           ></TextField>
           <Text
-            fontFamily="Montserrat"
+            fontFamily="Poppins"
             fontSize="9px"
             fontWeight="600"
             color="rgba(0,0,0,1)"
-            lineHeight="10.970999717712402px"
+            lineHeight="13.5px"
             textAlign="left"
             display="block"
             direction="column"
@@ -156,11 +170,11 @@ export default function TelaDeLogin(props) {
             {...getOverrideProps(overrides, "Group 1")}
           >
             <Text
-              fontFamily="Montserrat"
+              fontFamily="Poppins"
               fontSize="15px"
               fontWeight="400"
               color="rgba(0,0,0,1)"
-              lineHeight="18.28499984741211px"
+              lineHeight="22.5px"
               textAlign="left"
               display="block"
               direction="column"
@@ -180,11 +194,11 @@ export default function TelaDeLogin(props) {
               {...getOverrideProps(overrides, "Novo por aqui?")}
             ></Text>
             <Text
-              fontFamily="Montserrat"
+              fontFamily="Poppins"
               fontSize="15px"
               fontWeight="700"
               color="rgba(0,0,0,1)"
-              lineHeight="18.28499984741211px"
+              lineHeight="22.5px"
               textAlign="left"
               display="block"
               direction="column"
@@ -290,11 +304,11 @@ export default function TelaDeLogin(props) {
           )}
         ></Image>
         <Text
-          fontFamily="Montserrat"
+          fontFamily="Poppins"
           fontSize="34px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
-          lineHeight="41.44599914550781px"
+          lineHeight="51px"
           textAlign="left"
           display="block"
           direction="column"
@@ -304,7 +318,7 @@ export default function TelaDeLogin(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="calc(50% - 20.5px - -23.5px)"
+          top="calc(50% - 25.5px - -28.5px)"
           left="220px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"

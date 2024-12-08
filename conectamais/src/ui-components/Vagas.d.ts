@@ -17,8 +17,8 @@ export declare type Variant = {
     overrides: EscapeHatchProps;
 };
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
-export declare type Vagas2OverridesProps = {
-    Vagas2?: PrimitiveOverrideProps<ViewProps>;
+export declare type VagasOverridesProps = {
+    Vagas?: PrimitiveOverrideProps<ViewProps>;
     "share_windows_24dp_4B77D1_FILL0_wght400_GRAD0_opsz24 139885911"?: PrimitiveOverrideProps<ViewProps>;
     NavBarHeaderConecta?: PrimitiveOverrideProps<FlexProps>;
     "Frame 3214387771"?: PrimitiveOverrideProps<FlexProps>;
@@ -40,6 +40,7 @@ export declare type Vagas2OverridesProps = {
     Button4387793?: PrimitiveOverrideProps<ButtonProps>;
     "Group 440"?: PrimitiveOverrideProps<ViewProps>;
     "back gorund"?: PrimitiveOverrideProps<ViewProps>;
+    "Fundo Novo"?: PrimitiveOverrideProps<ImageProps>;
     "Rectangle 152"?: PrimitiveOverrideProps<ViewProps>;
     "1.783 avalia\u00E7\u00F5es"?: PrimitiveOverrideProps<TextProps>;
     "S\u00E3o Paulo - SP39885920"?: PrimitiveOverrideProps<TextProps>;
@@ -104,9 +105,9 @@ export declare type Vagas2OverridesProps = {
     Vector4386766?: PrimitiveOverrideProps<IconProps>;
     Vector4386768?: PrimitiveOverrideProps<IconProps>;
 } & EscapeHatchProps;
-export declare type Vagas2Props = React.PropsWithChildren<Partial<ViewProps> & {
+export declare type VagasProps = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;
 } & {
-    overrides?: Vagas2OverridesProps | undefined | null;
+    overrides?: VagasOverridesProps | undefined | null;
 }>;
-export default function Vagas2(props: Vagas2Props): React.ReactElement;
+export default function Vagas(props: VagasProps): React.ReactElement;

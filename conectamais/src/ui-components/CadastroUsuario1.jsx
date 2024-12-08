@@ -32,6 +32,20 @@ export default function CadastroUsuario1(props) {
       {...getOverrideProps(overrides, "CadastroUsuario1")}
       {...rest}
     >
+      <Image
+        width="1519px"
+        height="1117px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="0px"
+        left="-4px"
+        padding="0px 0px 0px 0px"
+        objectFit="cover"
+        {...getOverrideProps(overrides, "Fundo Novo")}
+      ></Image>
       <View
         width="1519px"
         height="1117px"
@@ -49,7 +63,7 @@ export default function CadastroUsuario1(props) {
       ></View>
       <View
         padding="0px 0px 0px 0px"
-        width="1063.41px"
+        width="1070.41px"
         height="671.92px"
         display="block"
         gap="unset"
@@ -58,7 +72,7 @@ export default function CadastroUsuario1(props) {
         position="absolute"
         top="19.96%"
         bottom="19.88%"
-        left="18.04%"
+        left="17.58%"
         right="11.95%"
         {...getOverrideProps(overrides, "Group 456")}
       >
@@ -72,8 +86,8 @@ export default function CadastroUsuario1(props) {
           position="absolute"
           top="56.75%"
           bottom="38.25%"
-          left="60.46%"
-          right="31.82%"
+          left="60.72%"
+          right="31.61%"
           borderRadius="10px"
           padding="0px 0px 0px 0px"
           backgroundColor="rgba(0,0,0,1)"
@@ -90,16 +104,16 @@ export default function CadastroUsuario1(props) {
           position="absolute"
           top="44.05%"
           bottom="47.29%"
-          left="calc(50% - 223.09px - 246.61px)"
+          left="calc(50% - 223.09px - 312.11px)"
           {...getOverrideProps(overrides, "Group 6")}
         >
           <Text
             fontFamily="Montserrat"
-            fontSize="48px"
+            fontSize="44px"
             fontWeight="700"
             color="rgba(0,0,0,1)"
-            lineHeight="58.512001037597656px"
-            textAlign="left"
+            lineHeight="53.6359977722168px"
+            textAlign="center"
             display="block"
             direction="column"
             justifyContent="unset"
@@ -129,7 +143,7 @@ export default function CadastroUsuario1(props) {
           position="absolute"
           top="0%"
           bottom="0%"
-          left="46.65%"
+          left="47%"
           right="0%"
           {...getOverrideProps(overrides, "Group 4")}
         >
@@ -192,11 +206,11 @@ export default function CadastroUsuario1(props) {
             {...getOverrideProps(overrides, "PasswordField")}
           ></PasswordField>
           <Text
-            fontFamily="Montserrat"
+            fontFamily="Poppins"
             fontSize="20px"
             fontWeight="700"
             color="rgba(0,0,0,1)"
-            lineHeight="24.3799991607666px"
+            lineHeight="30px"
             textAlign="left"
             display="block"
             direction="column"
@@ -255,8 +269,8 @@ export default function CadastroUsuario1(props) {
           position="absolute"
           top="4.13%"
           bottom="93.75%"
-          left="71.74%"
-          right="26.95%"
+          left="71.92%"
+          right="26.78%"
           {...getOverrideProps(overrides, "Ellipse 10039885530")}
         ></Icon>
         <Icon
@@ -282,16 +296,16 @@ export default function CadastroUsuario1(props) {
           position="absolute"
           top="4.13%"
           bottom="93.75%"
-          left="73.9%"
-          right="24.79%"
+          left="74.07%"
+          right="24.63%"
           {...getOverrideProps(overrides, "Ellipse 10039885531")}
         ></Icon>
         <Text
           fontFamily="Montserrat"
-          fontSize="32px"
+          fontSize="34px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
-          lineHeight="39.007999420166016px"
+          lineHeight="41.44599914550781px"
           textAlign="left"
           display="block"
           direction="column"
@@ -303,19 +317,19 @@ export default function CadastroUsuario1(props) {
           position="absolute"
           top="58.94%"
           bottom="35.44%"
-          left="0%"
-          right="52.4%"
+          left="0.65%"
+          right="52.06%"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Que bom que você quer"
           {...getOverrideProps(overrides, "Que bom que voc\u00EA quer")}
         ></Text>
         <Text
-          fontFamily="Montserrat"
-          fontSize="32px"
+          fontFamily="Poppins"
+          fontSize="34px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
-          lineHeight="39.007999420166016px"
+          lineHeight="51px"
           textAlign="left"
           display="block"
           direction="column"
@@ -327,8 +341,8 @@ export default function CadastroUsuario1(props) {
           position="absolute"
           top="68.76%"
           bottom="25.74%"
-          left="7.28%"
-          right="50.58%"
+          left="7.89%"
+          right="50.25%"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children=" Se juntar a nós "
@@ -342,8 +356,8 @@ export default function CadastroUsuario1(props) {
           position="absolute"
           top="21.88%"
           bottom="68.37%"
-          left="54.73%"
-          right="8.05%"
+          left="55.03%"
+          right="7.99%"
           size="large"
           isDisabled={false}
           labelHidden={false}
@@ -358,8 +372,8 @@ export default function CadastroUsuario1(props) {
           position="absolute"
           top="38.4%"
           bottom="51.85%"
-          left="54.73%"
-          right="8.05%"
+          left="55.03%"
+          right="7.99%"
           size="large"
           isDisabled={false}
           labelHidden={false}
@@ -373,8 +387,8 @@ export default function CadastroUsuario1(props) {
           borderRadius="10px"
           top="88.7%"
           bottom="5.17%"
-          left="80.5%"
-          right="8%"
+          left="80.62%"
+          right="7.94%"
           backgroundColor="rgba(0,0,0,1)"
           size="default"
           isDisabled={false}
@@ -390,8 +404,8 @@ export default function CadastroUsuario1(props) {
           borderRadius="10px"
           top="88.75%"
           bottom="5.12%"
-          left="55.83%"
-          right="32.74%"
+          left="56.12%"
+          right="32.53%"
           size="default"
           isDisabled={false}
           variation="primary"

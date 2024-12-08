@@ -16,7 +16,7 @@ import {
   Text,
   View,
 } from "@aws-amplify/ui-react";
-export default function NovaHome(props) {
+export default function Home(props) {
   const { overrides, ...rest } = props;
   return (
     <View
@@ -29,9 +29,25 @@ export default function NovaHome(props) {
       overflow="hidden"
       position="relative"
       padding="0px 0px 0px 0px"
-      {...getOverrideProps(overrides, "NovaHome")}
+      {...getOverrideProps(overrides, "Home")}
       {...rest}
     >
+      <View
+        width="1546px"
+        height="1519px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="408px"
+        left="1519px"
+        transformOrigin="top left"
+        transform="rotate(90deg)"
+        padding="0px 0px 0px 0px"
+        backgroundColor="rgba(255,255,255,1)"
+        {...getOverrideProps(overrides, "Fundo Novo")}
+      ></View>
       <Flex
         gap="40px"
         direction="row"
@@ -281,11 +297,11 @@ export default function NovaHome(props) {
         {...getOverrideProps(overrides, "BackgroundDaHome")}
       ></Image>
       <Text
-        fontFamily="Montserrat"
+        fontFamily="Poppins"
         fontSize="32px"
         fontWeight="700"
         color="rgba(255,255,255,1)"
-        lineHeight="39.007999420166016px"
+        lineHeight="48px"
         textAlign="left"
         display="block"
         direction="column"
@@ -307,10 +323,10 @@ export default function NovaHome(props) {
       ></Text>
       <Text
         fontFamily="Montserrat"
-        fontSize="38px"
+        fontSize="34px"
         fontWeight="700"
         color="rgba(0,0,0,1)"
-        lineHeight="46.321998596191406px"
+        lineHeight="41.44599914550781px"
         textAlign="left"
         display="block"
         direction="column"
@@ -328,11 +344,11 @@ export default function NovaHome(props) {
         {...getOverrideProps(overrides, "Sobre n\u00F3s n\u00F3s")}
       ></Text>
       <Text
-        fontFamily="Montserrat"
+        fontFamily="Poppins"
         fontSize="24px"
         fontWeight="400"
         color="rgba(0,0,0,1)"
-        lineHeight="29.256000518798828px"
+        lineHeight="36px"
         textAlign="left"
         display="block"
         direction="column"
@@ -353,11 +369,11 @@ export default function NovaHome(props) {
         )}
       ></Text>
       <Text
-        fontFamily="Montserrat"
-        fontSize="32px"
+        fontFamily="Poppins"
+        fontSize="34px"
         fontWeight="700"
         color="rgba(0,0,0,1)"
-        lineHeight="39.007999420166016px"
+        lineHeight="51px"
         textAlign="left"
         display="block"
         direction="column"
@@ -446,11 +462,11 @@ export default function NovaHome(props) {
           {...getOverrideProps(overrides, "image")}
         ></Icon>
         <Text
-          fontFamily="Montserrat"
+          fontFamily="Poppins"
           fontSize="20px"
           fontWeight="600"
           color="rgba(255,255,255,1)"
-          lineHeight="24.3799991607666px"
+          lineHeight="30px"
           textAlign="center"
           display="block"
           direction="column"
@@ -470,11 +486,11 @@ export default function NovaHome(props) {
           {...getOverrideProps(overrides, "Sa\u00FAde")}
         ></Text>
         <Text
-          fontFamily="Montserrat"
+          fontFamily="Poppins"
           fontSize="20px"
           fontWeight="600"
           color="rgba(255,255,255,1)"
-          lineHeight="24.3799991607666px"
+          lineHeight="30px"
           textAlign="center"
           display="block"
           direction="column"
@@ -653,11 +669,11 @@ export default function NovaHome(props) {
         ></Icon>
       </View>
       <Text
-        fontFamily="Montserrat"
-        fontSize="32px"
+        fontFamily="Poppins"
+        fontSize="34px"
         fontWeight="700"
         color="rgba(0,0,0,1)"
-        lineHeight="39.007999420166016px"
+        lineHeight="51px"
         textAlign="left"
         display="block"
         direction="column"
@@ -722,11 +738,11 @@ export default function NovaHome(props) {
           {...getOverrideProps(overrides, "Rectangle 202")}
         ></Icon>
         <Text
-          fontFamily="Montserrat"
+          fontFamily="Poppins"
           fontSize="22px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
-          lineHeight="26.8179988861084px"
+          lineHeight="33px"
           textAlign="left"
           display="block"
           direction="column"
@@ -832,11 +848,11 @@ export default function NovaHome(props) {
           {...getOverrideProps(overrides, "Vector42789426")}
         ></Icon>
         <Text
-          fontFamily="Montserrat"
+          fontFamily="Poppins"
           fontSize="18px"
           fontWeight="300"
           color="rgba(0,0,0,1)"
-          lineHeight="21.941999435424805px"
+          lineHeight="27px"
           textAlign="left"
           display="block"
           direction="column"
@@ -854,11 +870,11 @@ export default function NovaHome(props) {
           {...getOverrideProps(overrides, "1.783 avalia\u00E7\u00F5es")}
         ></Text>
         <Text
-          fontFamily="Montserrat"
+          fontFamily="Poppins"
           fontSize="20px"
           fontWeight="400"
           color="rgba(0,0,0,1)"
-          lineHeight="24.3799991607666px"
+          lineHeight="30px"
           textAlign="left"
           display="block"
           direction="column"
@@ -1005,7 +1021,7 @@ export default function NovaHome(props) {
           {...getOverrideProps(overrides, "Rectangle 204")}
         ></View>
         <Text
-          fontFamily="Montserrat"
+          fontFamily="Poppins"
           fontSize="15px"
           fontWeight="400"
           color="rgba(255,255,255,1)"
@@ -1052,7 +1068,7 @@ export default function NovaHome(props) {
           {...getOverrideProps(overrides, "Suporte")}
         ></Text>
         <Text
-          fontFamily="Montserrat"
+          fontFamily="Poppins"
           fontSize="14px"
           fontWeight="400"
           color="rgba(255,255,255,1)"
@@ -1074,7 +1090,7 @@ export default function NovaHome(props) {
           {...getOverrideProps(overrides, "Contato")}
         ></Text>
         <Text
-          fontFamily="Montserrat"
+          fontFamily="Poppins"
           fontSize="18px"
           fontWeight="700"
           color="rgba(255,255,255,1)"
@@ -1096,7 +1112,7 @@ export default function NovaHome(props) {
           {...getOverrideProps(overrides, "Mapa do site")}
         ></Text>
         <Text
-          fontFamily="Montserrat"
+          fontFamily="Poppins"
           fontSize="18px"
           fontWeight="700"
           color="rgba(255,255,255,1)"
@@ -1302,7 +1318,7 @@ export default function NovaHome(props) {
           {...getOverrideProps(overrides, "In\u00EDcio")}
         ></Text>
         <Text
-          fontFamily="Montserrat"
+          fontFamily="Poppins"
           fontSize="18px"
           fontWeight="400"
           color="rgba(255,255,255,1)"
@@ -1368,7 +1384,7 @@ export default function NovaHome(props) {
           {...getOverrideProps(overrides, "Plus")}
         ></Text>
         <Text
-          fontFamily="Montserrat"
+          fontFamily="Poppins"
           fontSize="18px"
           fontWeight="400"
           color="rgba(255,255,255,1)"

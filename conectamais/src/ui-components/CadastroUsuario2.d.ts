@@ -21,7 +21,6 @@ export declare type CadastroUsuario2OverridesProps = {
     CadastroUsuario2?: PrimitiveOverrideProps<ViewProps>;
     Cadastro?: PrimitiveOverrideProps<ViewProps>;
     Rectangle?: PrimitiveOverrideProps<ViewProps>;
-    "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"?: PrimitiveOverrideProps<ImageProps>;
     "Group 457"?: PrimitiveOverrideProps<ViewProps>;
     "J\u00E1 estamos quase l\u00E1"?: PrimitiveOverrideProps<TextProps>;
     "image-removebg-preview (4) 4"?: PrimitiveOverrideProps<ViewProps>;
@@ -97,6 +96,7 @@ export declare type CadastroUsuario2OverridesProps = {
     Button39885858?: PrimitiveOverrideProps<ButtonProps>;
     Button39885859?: PrimitiveOverrideProps<ButtonProps>;
     label?: PrimitiveOverrideProps<TextProps>;
+    "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"?: PrimitiveOverrideProps<ImageProps>;
 } & EscapeHatchProps;
 export declare type CadastroUsuario2Props = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

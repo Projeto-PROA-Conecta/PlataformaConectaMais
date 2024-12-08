@@ -57,11 +57,11 @@ export default function EscolhaDeConta(props) {
           {...getOverrideProps(overrides, "Fundo Novo")}
         ></Image>
         <Text
-          fontFamily="Montserrat"
+          fontFamily="Poppins"
           fontSize="34px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
-          lineHeight="41.44599914550781px"
+          lineHeight="51px"
           textAlign="left"
           display="block"
           direction="column"

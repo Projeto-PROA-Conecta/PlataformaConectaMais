@@ -20,6 +20,7 @@ export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes
 export declare type TelaDeLoginOverridesProps = {
     TelaDeLogin?: PrimitiveOverrideProps<ViewProps>;
     Login?: PrimitiveOverrideProps<ViewProps>;
+    "Fundo Novo"?: PrimitiveOverrideProps<ImageProps>;
     "Rectangle 2"?: PrimitiveOverrideProps<ViewProps>;
     "Group 3"?: PrimitiveOverrideProps<ViewProps>;
     Entrar?: PrimitiveOverrideProps<TextProps>;
