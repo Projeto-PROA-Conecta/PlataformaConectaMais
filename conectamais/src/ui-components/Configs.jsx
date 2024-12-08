@@ -887,8 +887,8 @@ export default function Configs(props) {
         height="47.34px"
         label="Não"
         position="absolute"
-        top="868.93px"
-        left="1293px"
+        top="845px"
+        left="1254px"
         size="large"
         defaultChecked={false}
         isDisabled={false}

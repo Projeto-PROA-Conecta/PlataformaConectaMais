@@ -76,15 +76,13 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "Frame 322")}
         >
           <Image
-          src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/6795dfcb8130cd5186ceef0cf65cb4c7af7c37d1/LogoBrancaConecta.svg"
-            width="unset"
-            height="53px"
+            width="182px"
+            height="31px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             shrink="0"
-            alignSelf="stretch"
             position="relative"
             padding="0px 0px 0px 0px"
             objectFit="cover"
@@ -99,7 +97,7 @@ export default function Home(props) {
           isDisabled={false}
           variation="link"
           children="Perfil"
-          {...getOverrideProps(overrides, "Button442412027")}
+          {...getOverrideProps(overrides, "Button442412269")}
         ></Button>
         <Button
           width="unset"
@@ -109,7 +107,7 @@ export default function Home(props) {
           isDisabled={false}
           variation="link"
           children="Notificação"
-          {...getOverrideProps(overrides, "Button442412269")}
+          {...getOverrideProps(overrides, "Button442814304")}
         ></Button>
         <Button
           width="unset"
@@ -139,7 +137,7 @@ export default function Home(props) {
           isDisabled={false}
           variation="link"
           children="Configuração"
-          {...getOverrideProps(overrides, "Button442412353")}
+          {...getOverrideProps(overrides, "Button442914236")}
         ></Button>
         <Button
           width="unset"
@@ -947,7 +945,7 @@ export default function Home(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="275px"
+          width="301px"
           height="18px"
           gap="unset"
           alignItems="unset"
@@ -994,7 +992,7 @@ export default function Home(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="57px"
+          width="74px"
           height="22px"
           gap="unset"
           alignItems="unset"

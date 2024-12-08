@@ -21,8 +21,6 @@ export declare type EscolhaDeContaOverridesProps = {
     EscolhaDeConta?: PrimitiveOverrideProps<ViewProps>;
     Login?: PrimitiveOverrideProps<ViewProps>;
     "Fundo Novo"?: PrimitiveOverrideProps<ImageProps>;
-    "Qual seu tipo de conta?"?: PrimitiveOverrideProps<TextProps>;
-    "Bem-vindo!"?: PrimitiveOverrideProps<TextProps>;
     "Group 441"?: PrimitiveOverrideProps<ViewProps>;
     "Group 3"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 1"?: PrimitiveOverrideProps<ViewProps>;
@@ -54,6 +52,8 @@ export declare type EscolhaDeContaOverridesProps = {
     Vector39885504?: PrimitiveOverrideProps<IconProps>;
     Vector3997659?: PrimitiveOverrideProps<IconProps>;
     Vector3997657?: PrimitiveOverrideProps<IconProps>;
+    "Qual seu tipo de conta?"?: PrimitiveOverrideProps<TextProps>;
+    "Bem-vindo!"?: PrimitiveOverrideProps<TextProps>;
 } & EscapeHatchProps;
 export declare type EscolhaDeContaProps = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

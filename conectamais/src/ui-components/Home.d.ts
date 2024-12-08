@@ -23,11 +23,11 @@ export declare type HomeOverridesProps = {
     NavBarHeaderConecta?: PrimitiveOverrideProps<FlexProps>;
     "Frame 322"?: PrimitiveOverrideProps<FlexProps>;
     "logo_branca_conecta 2"?: PrimitiveOverrideProps<ImageProps>;
-    Button442412027?: PrimitiveOverrideProps<ButtonProps>;
     Button442412269?: PrimitiveOverrideProps<ButtonProps>;
+    Button442814304?: PrimitiveOverrideProps<ButtonProps>;
     Button442412293?: PrimitiveOverrideProps<ButtonProps>;
     Button442412321?: PrimitiveOverrideProps<ButtonProps>;
-    Button442412353?: PrimitiveOverrideProps<ButtonProps>;
+    Button442914236?: PrimitiveOverrideProps<ButtonProps>;
     Button442412389?: PrimitiveOverrideProps<ButtonProps>;
     Button442412429?: PrimitiveOverrideProps<ButtonProps>;
     "Frame 321"?: PrimitiveOverrideProps<FlexProps>;

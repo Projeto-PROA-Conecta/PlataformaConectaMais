@@ -88,7 +88,7 @@ export declare type MeuPerfilOverridesProps = {
     Button39882984?: PrimitiveOverrideProps<ButtonProps>;
     Button39882985?: PrimitiveOverrideProps<ButtonProps>;
     "Suas Publica\u00E7\u00F5es"?: PrimitiveOverrideProps<TextProps>;
-    "Poxaaa, que pena :( No momento voc\u00EA n\u00E3o est\u00E1 participando de nenhuma vaga, busque vagas na aba \u201CVagas de emprego\u201D"?: PrimitiveOverrideProps<TextProps>;
+    "Poxaaa, que pena :("?: PrimitiveOverrideProps<TextProps>;
     "Rectangle 134"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 138"?: PrimitiveOverrideProps<ViewProps>;
     ".39882990"?: PrimitiveOverrideProps<TextProps>;

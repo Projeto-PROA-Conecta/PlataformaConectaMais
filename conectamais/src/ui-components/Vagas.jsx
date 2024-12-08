@@ -1742,10 +1742,10 @@ export default function Vagas(props) {
             justifyContent="unset"
             overflow="hidden"
             position="absolute"
-            top="49.63%"
-            bottom="47.58%"
-            left="62.54%"
-            right="35.18%"
+            top="47.82%"
+            bottom="49.39%"
+            left="58.46%"
+            right="39.27%"
             padding="0px 0px 0px 0px"
             {...getOverrideProps(
               overrides,
@@ -1801,10 +1801,10 @@ export default function Vagas(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="30.52%"
-            bottom="67.27%"
-            left="62.74%"
-            right="35.37%"
+            top="28.65%"
+            bottom="69.14%"
+            left="58.46%"
+            right="39.65%"
             {...getOverrideProps(overrides, "Vector4386768")}
           ></Icon>
         </View>

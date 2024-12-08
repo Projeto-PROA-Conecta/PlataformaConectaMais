@@ -102,10 +102,10 @@ export default function CadastroUsuario4(props) {
         ></View>
         <Text
           fontFamily="Montserrat"
-          fontSize="48px"
+          fontSize="44px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
-          lineHeight="58.512001037597656px"
+          lineHeight="53.6359977722168px"
           textAlign="left"
           display="block"
           direction="column"
@@ -115,8 +115,8 @@ export default function CadastroUsuario4(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="3.93px"
-          left="144px"
+          top="1px"
+          left="156px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Questionário"

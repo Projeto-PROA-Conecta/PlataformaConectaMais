@@ -205,7 +205,7 @@ export default function MeuPerfil(props) {
         </Flex>
       </Flex>
       <Image
-        width="1519px"
+        width="1514px"
         height="1702px"
         display="block"
         gap="unset"
@@ -221,13 +221,13 @@ export default function MeuPerfil(props) {
       <View
         padding="0px 0px 0px 0px"
         width="523.86px"
-        height="1336.91px"
+        height="1336.9px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="351.56px"
+        top="351.57px"
         left="43.76px"
         {...getOverrideProps(overrides, "Group 408")}
       >
@@ -354,7 +354,7 @@ export default function MeuPerfil(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="636.12px"
+          top="636.11px"
           left="114.86px"
           {...getOverrideProps(overrides, "Group 404")}
         >
@@ -371,7 +371,7 @@ export default function MeuPerfil(props) {
             border="1px SOLID rgba(0,0,0,1)"
             borderRadius="8px"
             padding="0px 0px 0px 0px"
-            backgroundColor="rgba(207,209,208,1)"
+            backgroundColor="rgba(255,255,255,1)"
             {...getOverrideProps(overrides, "Rectangle 12339882927")}
           ></View>
           <Text
@@ -419,7 +419,7 @@ export default function MeuPerfil(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="705.83px"
+          top="705.82px"
           left="114.86px"
           {...getOverrideProps(overrides, "Group 407")}
         >
@@ -436,7 +436,7 @@ export default function MeuPerfil(props) {
             border="1px SOLID rgba(0,0,0,1)"
             borderRadius="8px"
             padding="0px 0px 0px 0px"
-            backgroundColor="rgba(207,209,208,1)"
+            backgroundColor="rgba(255,255,255,1)"
             {...getOverrideProps(overrides, "Rectangle 125")}
           ></View>
           <Text
@@ -537,7 +537,7 @@ export default function MeuPerfil(props) {
             border="1px SOLID rgba(0,0,0,0.5)"
             borderRadius="50px"
             padding="0px 0px 0px 0px"
-            backgroundColor="rgba(207,209,208,1)"
+            backgroundColor="rgba(255,255,255,1)"
             {...getOverrideProps(overrides, "Rectangle 127")}
           ></View>
           <View
@@ -587,7 +587,7 @@ export default function MeuPerfil(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="1013.82px"
+          top="1013.81px"
           left="114.86px"
           {...getOverrideProps(overrides, "Group 406")}
         >
@@ -604,7 +604,7 @@ export default function MeuPerfil(props) {
             border="1px SOLID rgba(0,0,0,1)"
             borderRadius="8px"
             padding="0px 0px 0px 0px"
-            backgroundColor="rgba(207,209,208,1)"
+            backgroundColor="rgba(255,255,255,1)"
             {...getOverrideProps(overrides, "Rectangle 126")}
           ></View>
           <Text
@@ -902,7 +902,7 @@ export default function MeuPerfil(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="346.41px"
+          top="346.4px"
           left="167.8px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -924,7 +924,7 @@ export default function MeuPerfil(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="384.91px"
+          top="384.9px"
           left="160.86px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -946,7 +946,7 @@ export default function MeuPerfil(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="426.91px"
+          top="426.9px"
           left="157.86px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -996,7 +996,7 @@ export default function MeuPerfil(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="476.44px"
+          top="476.43px"
           left="178.24px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -1025,7 +1025,7 @@ export default function MeuPerfil(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="337.44px"
+          top="337.43px"
           left="117.24px"
           transformOrigin="top left"
           transform="rotate(0deg)"
@@ -1053,7 +1053,7 @@ export default function MeuPerfil(props) {
           justifyContent="unset"
           overflow="hidden"
           position="absolute"
-          top="453.5px"
+          top="453.49px"
           left="0px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(
@@ -1070,7 +1070,7 @@ export default function MeuPerfil(props) {
           justifyContent="unset"
           overflow="hidden"
           position="absolute"
-          top="469.44px"
+          top="469.43px"
           left="143.24px"
           padding="0px 0px 0px 0px"
           {...getOverrideProps(overrides, "ProfileIconBlack 141121464")}
@@ -1105,21 +1105,21 @@ export default function MeuPerfil(props) {
         </View>
         <Text
           fontFamily="Poppins"
-          fontSize="14px"
+          fontSize="10px"
           fontWeight="400"
           color="rgba(0,0,0,1)"
-          lineHeight="21px"
+          lineHeight="15px"
           textAlign="left"
           display="block"
           direction="column"
           justifyContent="unset"
-          width="352px"
-          height="82px"
+          width="336px"
+          height="68px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="499.44px"
-          left="127.24px"
+          top="503.43px"
+          left="133.24px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Sou João, desenvolvedor front-end, apaixonado por tecnologia e sempre em busca de aprender. &#xA;Gosto de resolver problemas e criar interfaces funcionais e bonitas. Busco oportunidades em empresas inclusivas onde eu possa crescer e fazer a diferença com meu trabalho e conhecimentos. "
@@ -1297,7 +1297,7 @@ export default function MeuPerfil(props) {
             padding="3px 11px 3px 11px"
             top="22.13px"
             left="409.82px"
-            backgroundColor="rgba(207,209,208,1)"
+            backgroundColor="rgba(242,255,248,1)"
             size="default"
             isDisabled={false}
             variation="primary"
@@ -1336,20 +1336,17 @@ export default function MeuPerfil(props) {
             display="block"
             direction="column"
             justifyContent="unset"
-            width="664.35px"
-            height="75.25px"
+            width="665px"
+            height="43px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="195.97px"
-            left="67.79px"
+            top="195.93px"
+            left="67.4px"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
-            children="Poxaaa, que pena  :(  &#xA;No momento você não está participando de nenhuma vaga, busque vagas na aba “Vagas de emprego”"
-            {...getOverrideProps(
-              overrides,
-              "Poxaaa, que pena :( No momento voc\u00EA n\u00E3o est\u00E1 participando de nenhuma vaga, busque vagas na aba \u201CVagas de emprego\u201D"
-            )}
+            children="Poxaaa, que pena  :( "
+            {...getOverrideProps(overrides, "Poxaaa, que pena :(")}
           ></Text>
           <View
             width="690.67px"
@@ -1364,7 +1361,7 @@ export default function MeuPerfil(props) {
             border="1px SOLID rgba(0,0,0,0.4)"
             borderRadius="10px"
             padding="0px 0px 0px 0px"
-            backgroundColor="rgba(207,209,208,0.6)"
+            backgroundColor="rgba(255,255,255,0.6)"
             {...getOverrideProps(overrides, "Rectangle 134")}
           ></View>
           <View
@@ -1380,7 +1377,7 @@ export default function MeuPerfil(props) {
             border="1px SOLID rgba(0,0,0,0.4)"
             borderRadius="10px"
             padding="0px 0px 0px 0px"
-            backgroundColor="rgba(207,209,208,0.6)"
+            backgroundColor="rgba(255,255,255,0.6)"
             {...getOverrideProps(overrides, "Rectangle 138")}
           ></View>
           <Text
@@ -1428,7 +1425,7 @@ export default function MeuPerfil(props) {
             padding="6px 14px 6px 14px"
             top="521.22px"
             left="540.42px"
-            backgroundColor="rgba(207,209,208,1)"
+            backgroundColor="rgba(255,255,255,1)"
             size="default"
             isDisabled={false}
             variation="primary"
@@ -2187,7 +2184,7 @@ export default function MeuPerfil(props) {
         border="1px SOLID rgba(0,0,0,1)"
         top="1247.48px"
         left="191.62px"
-        backgroundColor="rgba(207,209,208,1)"
+        backgroundColor="rgba(255,255,255,1)"
         size="default"
         isDisabled={false}
         variation="primary"
@@ -2201,7 +2198,7 @@ export default function MeuPerfil(props) {
         border="1px SOLID rgba(0,0,0,1)"
         top="1295.48px"
         left="191.62px"
-        backgroundColor="rgba(207,209,208,1)"
+        backgroundColor="rgba(255,255,255,1)"
         size="default"
         isDisabled={false}
         variation="primary"
