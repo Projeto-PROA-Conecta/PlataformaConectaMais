@@ -121,6 +121,7 @@ export declare type MeuPerfilOverridesProps = {
     Vector41211342?: PrimitiveOverrideProps<IconProps>;
     "4 min"?: PrimitiveOverrideProps<TextProps>;
     "5 d"?: PrimitiveOverrideProps<TextProps>;
+    Vector41211350?: PrimitiveOverrideProps<IconProps>;
     "PhoneBlackIcon 1"?: PrimitiveOverrideProps<ViewProps>;
     Vector41121447?: PrimitiveOverrideProps<IconProps>;
     "MailBlackIcon 1"?: PrimitiveOverrideProps<ViewProps>;
@@ -131,8 +132,6 @@ export declare type MeuPerfilOverridesProps = {
     "attach_email_24dp_4B77D1_FILL0_wght400_GRAD0_opsz24 1"?: PrimitiveOverrideProps<ViewProps>;
     Vector39883035?: PrimitiveOverrideProps<IconProps>;
     "AvatarPerfil 14043871"?: PrimitiveOverrideProps<ImageProps>;
-    "ChatIconBlack 1"?: PrimitiveOverrideProps<ViewProps>;
-    Vector41211350?: PrimitiveOverrideProps<IconProps>;
     Button41231372?: PrimitiveOverrideProps<ButtonProps>;
     Button41231373?: PrimitiveOverrideProps<ButtonProps>;
     Vector39883033?: PrimitiveOverrideProps<IconProps>;

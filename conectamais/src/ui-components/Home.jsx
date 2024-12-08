@@ -76,8 +76,9 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "Frame 322")}
         >
           <Image
+          src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/6795dfcb8130cd5186ceef0cf65cb4c7af7c37d1/LogoBrancaConecta.svg"
             width="unset"
-            height="37px"
+            height="53px"
             display="block"
             gap="unset"
             alignItems="unset"
@@ -90,6 +91,75 @@ export default function Home(props) {
             {...getOverrideProps(overrides, "logo_branca_conecta 2")}
           ></Image>
         </Flex>
+        <Button
+          width="unset"
+          height="unset"
+          shrink="0"
+          size="small"
+          isDisabled={false}
+          variation="link"
+          children="Perfil"
+          {...getOverrideProps(overrides, "Button442412027")}
+        ></Button>
+        <Button
+          width="unset"
+          height="unset"
+          shrink="0"
+          size="small"
+          isDisabled={false}
+          variation="link"
+          children="Notificação"
+          {...getOverrideProps(overrides, "Button442412269")}
+        ></Button>
+        <Button
+          width="unset"
+          height="unset"
+          shrink="0"
+          size="small"
+          isDisabled={false}
+          variation="link"
+          children="Vagas"
+          {...getOverrideProps(overrides, "Button442412293")}
+        ></Button>
+        <Button
+          width="unset"
+          height="unset"
+          shrink="0"
+          size="small"
+          isDisabled={false}
+          variation="link"
+          children="Home"
+          {...getOverrideProps(overrides, "Button442412321")}
+        ></Button>
+        <Button
+          width="unset"
+          height="unset"
+          shrink="0"
+          size="small"
+          isDisabled={false}
+          variation="link"
+          children="Configuração"
+          {...getOverrideProps(overrides, "Button442412353")}
+        ></Button>
+        <Button
+          width="unset"
+          height="unset"
+          shrink="0"
+          size="small"
+          isDisabled={false}
+          variation="link"
+          children="Acessibilidade"
+          {...getOverrideProps(overrides, "Button442412389")}
+        ></Button>
+        <Button
+          width="unset"
+          height="unset"
+          shrink="0"
+          size="small"
+          isDisabled={false}
+          variation="link"
+          {...getOverrideProps(overrides, "Button442412429")}
+        ></Button>
         <Flex
           gap="32px"
           direction="row"
@@ -104,103 +174,6 @@ export default function Home(props) {
           padding="0px 0px 0px 0px"
           {...getOverrideProps(overrides, "Frame 321")}
         >
-          <Flex
-            padding="0px 0px 0px 0px"
-            width="737px"
-            height="12px"
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            shrink="0"
-            position="relative"
-            {...getOverrideProps(overrides, "Group 479")}
-          >
-            <Button
-              width="70.67px"
-              height="12px"
-              position="absolute"
-              top="0px"
-              left="0px"
-              size="large"
-              isDisabled={false}
-              variation="primary"
-              children="Acessibilidade"
-              {...getOverrideProps(overrides, "Button442410434")}
-            ></Button>
-            <Button
-              width="70.67px"
-              height="12px"
-              position="absolute"
-              top="0px"
-              left="111.06px"
-              size="large"
-              isDisabled={false}
-              variation="primary"
-              children="Configuração"
-              {...getOverrideProps(overrides, "Button442410387")}
-            ></Button>
-            <Button
-              width="70.67px"
-              height="12px"
-              position="absolute"
-              top="0px"
-              left="222.11px"
-              size="large"
-              isDisabled={false}
-              variation="primary"
-              children="Perfil"
-              {...getOverrideProps(overrides, "Button42789534")}
-            ></Button>
-            <Button
-              width="70.67px"
-              height="12px"
-              position="absolute"
-              top="0px"
-              left="333.17px"
-              size="large"
-              isDisabled={false}
-              variation="primary"
-              children="Vagas"
-              {...getOverrideProps(overrides, "Button4277882")}
-            ></Button>
-            <Button
-              width="70.67px"
-              height="12px"
-              position="absolute"
-              top="0px"
-              left="444.22px"
-              size="large"
-              isDisabled={false}
-              variation="primary"
-              children="Plus"
-              {...getOverrideProps(overrides, "Button4277892")}
-            ></Button>
-            <Button
-              width="70.67px"
-              height="12px"
-              position="absolute"
-              top="0px"
-              left="555.27px"
-              size="large"
-              isDisabled={false}
-              variation="primary"
-              children="Notificações"
-              {...getOverrideProps(overrides, "Button442410409")}
-            ></Button>
-            <Button
-              width="70.67px"
-              height="12px"
-              position="absolute"
-              top="0px"
-              left="666.33px"
-              size="large"
-              isDisabled={false}
-              variation="primary"
-              children="Ajuda"
-              {...getOverrideProps(overrides, "Button442410463")}
-            ></Button>
-          </Flex>
           <Button
             width="165px"
             height="30px"
