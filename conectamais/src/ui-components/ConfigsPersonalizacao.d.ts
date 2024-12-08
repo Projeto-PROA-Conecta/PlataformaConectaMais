@@ -31,9 +31,6 @@ export declare type ConfigsPersonalizacaoOverridesProps = {
     "Frame 3214376842"?: PrimitiveOverrideProps<FlexProps>;
     Button4376843?: PrimitiveOverrideProps<ButtonProps>;
     Button4376844?: PrimitiveOverrideProps<ButtonProps>;
-    SelectField40981704?: PrimitiveOverrideProps<SelectFieldProps>;
-    "Personalizando sua experi\u00EAncia"?: PrimitiveOverrideProps<TextProps>;
-    SelectField40981746?: PrimitiveOverrideProps<SelectFieldProps>;
     NavBarMenu?: PrimitiveOverrideProps<FlexProps>;
     "Frame 3214329877"?: PrimitiveOverrideProps<FlexProps>;
     Button4329878?: PrimitiveOverrideProps<ButtonProps>;
@@ -44,6 +41,11 @@ export declare type ConfigsPersonalizacaoOverridesProps = {
     "Line 10"?: PrimitiveOverrideProps<IconProps>;
     "Line 12"?: PrimitiveOverrideProps<IconProps>;
     "Line 11"?: PrimitiveOverrideProps<IconProps>;
+    "Group 478"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 104"?: PrimitiveOverrideProps<ViewProps>;
+    SelectField40981704?: PrimitiveOverrideProps<SelectFieldProps>;
+    "Personalizando sua experi\u00EAncia"?: PrimitiveOverrideProps<TextProps>;
+    SelectField40981746?: PrimitiveOverrideProps<SelectFieldProps>;
     "edit_24dp_000000_FILL0_wght400_GRAD0_opsz24 1"?: PrimitiveOverrideProps<ViewProps>;
     Vector44263497?: PrimitiveOverrideProps<IconProps>;
 } & EscapeHatchProps;

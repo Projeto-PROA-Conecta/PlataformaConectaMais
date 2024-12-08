@@ -38,7 +38,6 @@ export declare type ConfigsNotificacoesOverridesProps = {
     Button4378885?: PrimitiveOverrideProps<ButtonProps>;
     Vector44263111?: PrimitiveOverrideProps<IconProps>;
     SwitchField4049923?: PrimitiveOverrideProps<SwitchFieldProps>;
-    "Line 1642383732"?: PrimitiveOverrideProps<IconProps>;
     NavBarMenu?: PrimitiveOverrideProps<FlexProps>;
     "Frame 3214329984"?: PrimitiveOverrideProps<FlexProps>;
     Button4329985?: PrimitiveOverrideProps<ButtonProps>;

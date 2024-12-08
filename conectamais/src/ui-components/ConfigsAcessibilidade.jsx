@@ -664,15 +664,15 @@ export default function ConfigsAcessibilidade(props) {
       </Flex>
       <View
         padding="0px 0px 0px 0px"
-        width="403.91px"
+        width="407px"
         height="548.45px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="247.08px"
-        left="138px"
+        top="353px"
+        left="132px"
         {...getOverrideProps(overrides, "Group 477")}
       >
         <Icon
@@ -967,79 +967,79 @@ export default function ConfigsAcessibilidade(props) {
           justifyContent="unset"
           position="absolute"
           top="0px"
-          left="0px"
+          left="2px"
           {...getOverrideProps(overrides, "Vector44262408")}
         ></Icon>
+        <Icon
+          width="406px"
+          height="0px"
+          viewBox={{ minX: 0, minY: 0, width: 406, height: 1 }}
+          paths={[
+            {
+              d: "M0 0L406 0L406 -3L0 -3L0 0Z",
+              stroke: "rgba(58,58,58,0.5)",
+              fillRule: "nonzero",
+              strokeWidth: 3,
+            },
+          ]}
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="120.92px"
+          left="1px"
+          transformOrigin="top left"
+          transform="rotate(0deg)"
+          {...getOverrideProps(overrides, "Line 10")}
+        ></Icon>
+        <Icon
+          width="406px"
+          height="0px"
+          viewBox={{ minX: 0, minY: 0, width: 406, height: 1 }}
+          paths={[
+            {
+              d: "M0 0L406 0L406 -3L0 -3L0 0Z",
+              stroke: "rgba(58,58,58,0.5)",
+              fillRule: "nonzero",
+              strokeWidth: 3,
+            },
+          ]}
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="409.92px"
+          left="0px"
+          transformOrigin="top left"
+          transform="rotate(0deg)"
+          {...getOverrideProps(overrides, "Line 12")}
+        ></Icon>
+        <Icon
+          width="406px"
+          height="0px"
+          viewBox={{ minX: 0, minY: 0, width: 406, height: 1 }}
+          paths={[
+            {
+              d: "M0 0L406 0L406 -3L0 -3L0 0Z",
+              stroke: "rgba(58,58,58,0.5)",
+              fillRule: "nonzero",
+              strokeWidth: 3,
+            },
+          ]}
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="270.92px"
+          left="1px"
+          transformOrigin="top left"
+          transform="rotate(0deg)"
+          {...getOverrideProps(overrides, "Line 11")}
+        ></Icon>
       </View>
-      <Icon
-        width="406px"
-        height="0px"
-        viewBox={{ minX: 0, minY: 0, width: 406, height: 1 }}
-        paths={[
-          {
-            d: "M0 0L406 0L406 -3L0 -3L0 0Z",
-            stroke: "rgba(58,58,58,0.5)",
-            fillRule: "nonzero",
-            strokeWidth: 3,
-          },
-        ]}
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="368px"
-        left="137px"
-        transformOrigin="top left"
-        transform="rotate(0deg)"
-        {...getOverrideProps(overrides, "Line 10")}
-      ></Icon>
-      <Icon
-        width="406px"
-        height="0px"
-        viewBox={{ minX: 0, minY: 0, width: 406, height: 1 }}
-        paths={[
-          {
-            d: "M0 0L406 0L406 -3L0 -3L0 0Z",
-            stroke: "rgba(58,58,58,0.5)",
-            fillRule: "nonzero",
-            strokeWidth: 3,
-          },
-        ]}
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="657px"
-        left="136px"
-        transformOrigin="top left"
-        transform="rotate(0deg)"
-        {...getOverrideProps(overrides, "Line 12")}
-      ></Icon>
-      <Icon
-        width="406px"
-        height="0px"
-        viewBox={{ minX: 0, minY: 0, width: 406, height: 1 }}
-        paths={[
-          {
-            d: "M0 0L406 0L406 -3L0 -3L0 0Z",
-            stroke: "rgba(58,58,58,0.5)",
-            fillRule: "nonzero",
-            strokeWidth: 3,
-          },
-        ]}
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="518px"
-        left="137px"
-        transformOrigin="top left"
-        transform="rotate(0deg)"
-        {...getOverrideProps(overrides, "Line 11")}
-      ></Icon>
     </View>
   );
 }

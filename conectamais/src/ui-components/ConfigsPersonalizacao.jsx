@@ -218,56 +218,6 @@ export default function ConfigsPersonalizacao(props) {
           ></Button>
         </Flex>
       </Flex>
-      <SelectField
-        width="433px"
-        height="100px"
-        label="Fonte"
-        placeholder="Montserrat"
-        position="absolute"
-        top="646px"
-        left="731px"
-        size="large"
-        isDisabled={true}
-        labelHidden={false}
-        variation="default"
-        {...getOverrideProps(overrides, "SelectField40981704")}
-      ></SelectField>
-      <Text
-        fontFamily="Poppins"
-        fontSize="44px"
-        fontWeight="700"
-        color="rgba(0,0,0,1)"
-        lineHeight="66px"
-        textAlign="center"
-        display="block"
-        direction="column"
-        justifyContent="unset"
-        width="439px"
-        height="117px"
-        gap="unset"
-        alignItems="unset"
-        position="absolute"
-        top="290px"
-        left="705px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Personalizando sua experiência"
-        {...getOverrideProps(overrides, "Personalizando sua experi\u00EAncia")}
-      ></Text>
-      <SelectField
-        width="432px"
-        height="101px"
-        label="Cor de fundo"
-        placeholder="Cor padrão: #164659"
-        position="absolute"
-        top="499px"
-        left="730.5px"
-        size="large"
-        isDisabled={true}
-        labelHidden={false}
-        variation="default"
-        {...getOverrideProps(overrides, "SelectField40981746")}
-      ></SelectField>
       <Flex
         gap="40px"
         direction="row"
@@ -332,15 +282,15 @@ export default function ConfigsPersonalizacao(props) {
       </Flex>
       <View
         padding="0px 0px 0px 0px"
-        width="403.91px"
+        width="407px"
         height="548.45px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="247.08px"
-        left="138px"
+        top="360px"
+        left="172px"
         {...getOverrideProps(overrides, "Group 477")}
       >
         <Icon
@@ -635,105 +585,19 @@ export default function ConfigsPersonalizacao(props) {
           justifyContent="unset"
           position="absolute"
           top="0px"
-          left="0px"
+          left="2px"
           {...getOverrideProps(overrides, "Vector44262549")}
         ></Icon>
-      </View>
-      <Icon
-        width="406px"
-        height="0px"
-        viewBox={{ minX: 0, minY: 0, width: 406, height: 1 }}
-        paths={[
-          {
-            d: "M0 0L406 0L406 -3L0 -3L0 0Z",
-            stroke: "rgba(58,58,58,0.5)",
-            fillRule: "nonzero",
-            strokeWidth: 3,
-          },
-        ]}
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="368px"
-        left="137px"
-        transformOrigin="top left"
-        transform="rotate(0deg)"
-        {...getOverrideProps(overrides, "Line 10")}
-      ></Icon>
-      <Icon
-        width="406px"
-        height="0px"
-        viewBox={{ minX: 0, minY: 0, width: 406, height: 1 }}
-        paths={[
-          {
-            d: "M0 0L406 0L406 -3L0 -3L0 0Z",
-            stroke: "rgba(58,58,58,0.5)",
-            fillRule: "nonzero",
-            strokeWidth: 3,
-          },
-        ]}
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="657px"
-        left="136px"
-        transformOrigin="top left"
-        transform="rotate(0deg)"
-        {...getOverrideProps(overrides, "Line 12")}
-      ></Icon>
-      <Icon
-        width="406px"
-        height="0px"
-        viewBox={{ minX: 0, minY: 0, width: 406, height: 1 }}
-        paths={[
-          {
-            d: "M0 0L406 0L406 -3L0 -3L0 0Z",
-            stroke: "rgba(58,58,58,0.5)",
-            fillRule: "nonzero",
-            strokeWidth: 3,
-          },
-        ]}
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="518px"
-        left="137px"
-        transformOrigin="top left"
-        transform="rotate(0deg)"
-        {...getOverrideProps(overrides, "Line 11")}
-      ></Icon>
-      <View
-        width="50px"
-        height="50px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        overflow="hidden"
-        position="absolute"
-        top="323px"
-        left="1144px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(
-          overrides,
-          "edit_24dp_000000_FILL0_wght400_GRAD0_opsz24 1"
-        )}
-      >
         <Icon
-          width="37.5px"
-          height="37.5px"
-          viewBox={{ minX: 0, minY: 0, width: 37.5, height: 37.5 }}
+          width="406px"
+          height="0px"
+          viewBox={{ minX: 0, minY: 0, width: 406, height: 1 }}
           paths={[
             {
-              d: "M4.16667 33.3333L7.13542 33.3333L27.5 12.9688L24.5312 10L4.16667 30.3646L4.16667 33.3333ZM0 37.5L0 28.6458L27.5 1.19792C27.9167 0.815972 28.3767 0.520833 28.8802 0.3125C29.3837 0.104167 29.9132 0 30.4688 0C31.0243 0 31.5625 0.104167 32.0833 0.3125C32.6042 0.520833 33.0556 0.833333 33.4375 1.25L36.3021 4.16667C36.7188 4.54861 37.0226 5 37.2135 5.52083C37.4045 6.04167 37.5 6.5625 37.5 7.08333C37.5 7.63889 37.4045 8.1684 37.2135 8.67188C37.0226 9.17535 36.7188 9.63542 36.3021 10.0521L8.85417 37.5L0 37.5ZM25.9896 11.5104L24.5312 10L27.5 12.9688L25.9896 11.5104Z",
-              fill: "rgba(0,0,0,1)",
+              d: "M0 0L406 0L406 -3L0 -3L0 0Z",
+              stroke: "rgba(58,58,58,0.5)",
               fillRule: "nonzero",
+              strokeWidth: 3,
             },
           ]}
           display="block"
@@ -741,12 +605,181 @@ export default function ConfigsPersonalizacao(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="12.5%"
-          bottom="12.5%"
-          left="12.5%"
-          right="12.5%"
-          {...getOverrideProps(overrides, "Vector44263497")}
+          top="120.92px"
+          left="1px"
+          transformOrigin="top left"
+          transform="rotate(0deg)"
+          {...getOverrideProps(overrides, "Line 10")}
         ></Icon>
+        <Icon
+          width="406px"
+          height="0px"
+          viewBox={{ minX: 0, minY: 0, width: 406, height: 1 }}
+          paths={[
+            {
+              d: "M0 0L406 0L406 -3L0 -3L0 0Z",
+              stroke: "rgba(58,58,58,0.5)",
+              fillRule: "nonzero",
+              strokeWidth: 3,
+            },
+          ]}
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="409.92px"
+          left="0px"
+          transformOrigin="top left"
+          transform="rotate(0deg)"
+          {...getOverrideProps(overrides, "Line 12")}
+        ></Icon>
+        <Icon
+          width="406px"
+          height="0px"
+          viewBox={{ minX: 0, minY: 0, width: 406, height: 1 }}
+          paths={[
+            {
+              d: "M0 0L406 0L406 -3L0 -3L0 0Z",
+              stroke: "rgba(58,58,58,0.5)",
+              fillRule: "nonzero",
+              strokeWidth: 3,
+            },
+          ]}
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="270.92px"
+          left="1px"
+          transformOrigin="top left"
+          transform="rotate(0deg)"
+          {...getOverrideProps(overrides, "Line 11")}
+        ></Icon>
+      </View>
+      <View
+        padding="0px 0px 0px 0px"
+        width="566px"
+        height="548px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="360px"
+        left="670px"
+        {...getOverrideProps(overrides, "Group 478")}
+      >
+        <View
+          width="566px"
+          height="399px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="149px"
+          left="0px"
+          border="1px SOLID rgba(0,0,0,1)"
+          borderRadius="30px"
+          padding="0px 0px 0px 0px"
+          backgroundColor="rgba(255,255,255,1)"
+          {...getOverrideProps(overrides, "Rectangle 104")}
+        ></View>
+        <SelectField
+          width="433px"
+          height="100px"
+          label="Fonte"
+          placeholder="Montserrat"
+          position="absolute"
+          top="376px"
+          left="66px"
+          size="large"
+          isDisabled={true}
+          labelHidden={false}
+          variation="default"
+          {...getOverrideProps(overrides, "SelectField40981704")}
+        ></SelectField>
+        <Text
+          fontFamily="Poppins"
+          fontSize="44px"
+          fontWeight="700"
+          color="rgba(0,0,0,1)"
+          lineHeight="66px"
+          textAlign="center"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="449px"
+          height="117px"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="0px"
+          left="58px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="Personalizando sua experiência"
+          {...getOverrideProps(
+            overrides,
+            "Personalizando sua experi\u00EAncia"
+          )}
+        ></Text>
+        <SelectField
+          width="432px"
+          height="101px"
+          label="Cor de fundo"
+          placeholder="Cor padrão: #164659"
+          position="absolute"
+          top="199px"
+          left="63px"
+          size="large"
+          isDisabled={true}
+          labelHidden={false}
+          variation="default"
+          {...getOverrideProps(overrides, "SelectField40981746")}
+        ></SelectField>
+        <View
+          width="50px"
+          height="50px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          overflow="hidden"
+          position="absolute"
+          top="67px"
+          left="447px"
+          padding="0px 0px 0px 0px"
+          {...getOverrideProps(
+            overrides,
+            "edit_24dp_000000_FILL0_wght400_GRAD0_opsz24 1"
+          )}
+        >
+          <Icon
+            width="37.5px"
+            height="37.5px"
+            viewBox={{ minX: 0, minY: 0, width: 37.5, height: 37.5 }}
+            paths={[
+              {
+                d: "M4.16667 33.3333L7.13542 33.3333L27.5 12.9688L24.5312 10L4.16667 30.3646L4.16667 33.3333ZM0 37.5L0 28.6458L27.5 1.19792C27.9167 0.815972 28.3767 0.520833 28.8802 0.3125C29.3837 0.104167 29.9132 0 30.4688 0C31.0243 0 31.5625 0.104167 32.0833 0.3125C32.6042 0.520833 33.0556 0.833333 33.4375 1.25L36.3021 4.16667C36.7188 4.54861 37.0226 5 37.2135 5.52083C37.4045 6.04167 37.5 6.5625 37.5 7.08333C37.5 7.63889 37.4045 8.1684 37.2135 8.67188C37.0226 9.17535 36.7188 9.63542 36.3021 10.0521L8.85417 37.5L0 37.5ZM25.9896 11.5104L24.5312 10L27.5 12.9688L25.9896 11.5104Z",
+                fill: "rgba(0,0,0,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="12.5%"
+            bottom="12.5%"
+            left="12.5%"
+            right="12.5%"
+            {...getOverrideProps(overrides, "Vector44263497")}
+          ></Icon>
+        </View>
       </View>
     </View>
   );

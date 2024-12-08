@@ -43,6 +43,9 @@ export declare type ConfigsOverridesProps = {
     Vector39882572?: PrimitiveOverrideProps<IconProps>;
     "Group 477"?: PrimitiveOverrideProps<ViewProps>;
     Vector44197018?: PrimitiveOverrideProps<IconProps>;
+    "Line 1044197604"?: PrimitiveOverrideProps<IconProps>;
+    "Line 12"?: PrimitiveOverrideProps<IconProps>;
+    "Line 11"?: PrimitiveOverrideProps<IconProps>;
     SwitchField?: PrimitiveOverrideProps<SwitchFieldProps>;
     NavBarHeaderConecta?: PrimitiveOverrideProps<FlexProps>;
     "Frame 3214374775"?: PrimitiveOverrideProps<FlexProps>;
@@ -60,9 +63,6 @@ export declare type ConfigsOverridesProps = {
     Button4329837?: PrimitiveOverrideProps<ButtonProps>;
     Button4329838?: PrimitiveOverrideProps<ButtonProps>;
     Button4329839?: PrimitiveOverrideProps<ButtonProps>;
-    "Line 1044197604"?: PrimitiveOverrideProps<IconProps>;
-    "Line 12"?: PrimitiveOverrideProps<IconProps>;
-    "Line 11"?: PrimitiveOverrideProps<IconProps>;
 } & EscapeHatchProps;
 export declare type ConfigsProps = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

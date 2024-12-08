@@ -382,10 +382,10 @@ export default function Vagas(props) {
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="21.99%"
-            bottom="75.81%"
-            left="20.93%"
-            right="70.64%"
+            top="25.46%"
+            bottom="72.34%"
+            left="7.37%"
+            right="84.2%"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="1.783 avaliações"
@@ -406,8 +406,8 @@ export default function Vagas(props) {
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="27.89%"
-            bottom="69.57%"
+            top="28.54%"
+            bottom="68.92%"
             left="7.24%"
             right="82.82%"
             padding="0px 0px 0px 0px"
@@ -430,8 +430,8 @@ export default function Vagas(props) {
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="32.28%"
-            bottom="65.06%"
+            top="32.59%"
+            bottom="64.75%"
             left="7.24%"
             right="84.79%"
             padding="0px 0px 0px 0px"
@@ -569,10 +569,10 @@ export default function Vagas(props) {
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="21.88%"
-            bottom="75.46%"
-            left="12.31%"
-            right="76.37%"
+            top="21.94%"
+            bottom="75.4%"
+            left="10.2%"
+            right="78.47%"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="REKTR TEC"
@@ -753,35 +753,34 @@ export default function Vagas(props) {
               overrides,
               "star_24dp_000000_FILL0_wght400_GRAD0_opsz24 139885997"
             )}
-          >
-            <Icon
-              width="27.5px"
-              height="24.06px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 27.5,
-                height: 24.063005447387695,
-              }}
-              paths={[
-                {
-                  d: "M9.41875 18.7755L13.75 16.3692L18.0813 18.8071L16.9469 14.2478L20.7625 11.2083L15.7438 10.7967L13.75 6.49068L11.7563 10.765L6.7375 11.1766L10.5531 14.2478L9.41875 18.7755ZM5.25938 24.063L7.49375 15.166L0 9.18194L9.9 8.39039L13.75 0L17.6 8.39039L27.5 9.18194L20.0063 15.166L22.2406 24.063L13.75 19.3454L5.25938 24.063Z",
-                  fill: "rgba(255,255,0,1)",
-                  fillRule: "nonzero",
-                },
-              ]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="8.33%"
-              bottom="12.5%"
-              left="8.33%"
-              right="8.33%"
-              {...getOverrideProps(overrides, "Vector39885998")}
-            ></Icon>
-          </View>
+          ></View>
+          <Icon
+            width="27.5px"
+            height="24.06px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 27.5,
+              height: 24.063005447387695,
+            }}
+            paths={[
+              {
+                d: "M9.41875 18.7755L13.75 16.3692L18.0813 18.8071L16.9469 14.2478L20.7625 11.2083L15.7438 10.7967L13.75 6.49068L11.7563 10.765L6.7375 11.1766L10.5531 14.2478L9.41875 18.7755ZM5.25938 24.063L7.49375 15.166L0 9.18194L9.9 8.39039L13.75 0L17.6 8.39039L27.5 9.18194L20.0063 15.166L22.2406 24.063L13.75 19.3454L5.25938 24.063Z",
+                fill: "rgba(255,255,0,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="21.83%"
+            bottom="75.61%"
+            left="18.5%"
+            right="79.69%"
+            {...getOverrideProps(overrides, "Vector39885998")}
+          ></Icon>
           <View
             width="24px"
             height="22.8px"
@@ -791,10 +790,10 @@ export default function Vagas(props) {
             justifyContent="unset"
             overflow="hidden"
             position="absolute"
-            top="21.88%"
-            bottom="75.7%"
-            left="29.82%"
-            right="68.6%"
+            top="25.35%"
+            bottom="72.23%"
+            left="16.26%"
+            right="82.16%"
             padding="0px 0px 0px 0px"
             {...getOverrideProps(
               overrides,
@@ -961,10 +960,10 @@ export default function Vagas(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="15.23%"
-            bottom="24.59%"
-            left="55.43%"
-            right="3.23%"
+            top="15.76%"
+            bottom="24.06%"
+            left="53.72%"
+            right="4.94%"
             {...getOverrideProps(overrides, "Group 474")}
           >
             <Text

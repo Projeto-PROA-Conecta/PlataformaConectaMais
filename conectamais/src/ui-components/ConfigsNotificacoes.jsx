@@ -55,8 +55,8 @@ export default function ConfigsNotificacoes(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="247.08px"
-        left="138px"
+        top="330px"
+        left="152px"
         {...getOverrideProps(overrides, "Group 477")}
       >
         <Icon
@@ -372,8 +372,8 @@ export default function ConfigsNotificacoes(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="368px"
-        left="137px"
+        top="451px"
+        left="113px"
         transformOrigin="top left"
         transform="rotate(0deg)"
         {...getOverrideProps(overrides, "Line 10")}
@@ -395,8 +395,8 @@ export default function ConfigsNotificacoes(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="657px"
-        left="136px"
+        top="740px"
+        left="112px"
         transformOrigin="top left"
         transform="rotate(0deg)"
         {...getOverrideProps(overrides, "Line 12")}
@@ -418,8 +418,8 @@ export default function ConfigsNotificacoes(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="518px"
-        left="137px"
+        top="601px"
+        left="113px"
         transformOrigin="top left"
         transform="rotate(0deg)"
         {...getOverrideProps(overrides, "Line 11")}
@@ -629,34 +629,6 @@ export default function ConfigsNotificacoes(props) {
         labelPosition="end"
         {...getOverrideProps(overrides, "SwitchField4049923")}
       ></SwitchField>
-      <Icon
-        width="728.06px"
-        height="0px"
-        viewBox={{
-          minX: 0,
-          minY: 0,
-          width: 728.0618465580483,
-          height: 1.6988199799693575,
-        }}
-        paths={[
-          {
-            d: "M0 2.22045e-16L728.064 2.22045e-16L728.064 -3L0 -3L0 2.22045e-16Z",
-            stroke: "rgba(0,0,0,1)",
-            fillRule: "nonzero",
-            strokeWidth: 3,
-          },
-        ]}
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="737.31px"
-        left="626px"
-        transformOrigin="top left"
-        transform="rotate(0.13deg)"
-        {...getOverrideProps(overrides, "Line 1642383732")}
-      ></Icon>
       <Flex
         gap="40px"
         direction="row"
