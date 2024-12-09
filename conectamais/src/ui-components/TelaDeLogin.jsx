@@ -8,7 +8,6 @@
 import * as React from "react";
 import { getOverrideProps } from "./utils";
 import {
-  Button,
   Icon,
   Image,
   PasswordField,
@@ -88,165 +87,101 @@ export default function TelaDeLogin(props) {
             backgroundColor="rgba(255,255,255,1)"
             {...getOverrideProps(overrides, "Rectangle 2")}
           ></View>
+          <Text
+            fontFamily="Poppins"
+            fontSize="12px"
+            fontWeight="700"
+            color="rgba(255,255,255,1)"
+            lineHeight="18px"
+            textAlign="left"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="46px"
+            height="14px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="64.95%"
+            bottom="33.33%"
+            left="83.23%"
+            right="9.56%"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="Entrar"
+            {...getOverrideProps(overrides, "Entrar")}
+          ></Text>
+          <Text
+            fontFamily="Poppins"
+            fontSize="14px"
+            fontWeight="600"
+            color="rgba(0,0,0,1)"
+            lineHeight="21px"
+            textAlign="left"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="121px"
+            height="10px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="57.72%"
+            bottom="41.05%"
+            left="17.55%"
+            right="63.48%"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="Esqueci a senha"
+            {...getOverrideProps(overrides, "Esqueci a senha")}
+          ></Text>
           <View
             padding="0px 0px 0px 0px"
-            width="423px"
-            height="323px"
+            width="285.08px"
+            height="17.07px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="36.15%"
-            bottom="24.26%"
-            left="calc(50% - 211.5px - -0.5px)"
-            {...getOverrideProps(overrides, "Group 3")}
+            top="71.5%"
+            bottom="26.41%"
+            left="17.08%"
+            right="38.23%"
+            {...getOverrideProps(overrides, "Group 1")}
           >
             <Text
               fontFamily="Poppins"
-              fontSize="12px"
-              fontWeight="700"
-              color="rgba(255,255,255,1)"
-              lineHeight="18px"
+              fontSize="15px"
+              fontWeight="400"
+              color="rgba(0,0,0,1)"
+              lineHeight="22.5px"
               textAlign="left"
               display="block"
               direction="column"
               justifyContent="unset"
-              width="39px"
-              height="13.97px"
+              width="285.08px"
+              height="17.07px"
               gap="unset"
               alignItems="unset"
-              position="absolute"
-              top="78.23%"
-              bottom="17.45%"
-              left="83.92%"
-              right="6.86%"
-              padding="0px 0px 0px 0px"
-              whiteSpace="pre-wrap"
-              children="Entrar"
-              {...getOverrideProps(overrides, "Entrar")}
-            ></Text>
-            <TextField
-              width="422px"
-              height="67.97px"
-              label="Email"
-              placeholder="nome@exemplo.com"
               position="absolute"
               top="0%"
-              bottom="78.96%"
-              left="0%"
-              right="0.24%"
-              size="large"
-              isDisabled={false}
-              labelHidden={false}
-              variation="default"
-              {...getOverrideProps(overrides, "TextField")}
-            ></TextField>
-            <Text
-              fontFamily="Poppins"
-              fontSize="9px"
-              fontWeight="600"
-              color="rgba(0,0,0,1)"
-              lineHeight="13.5px"
-              textAlign="left"
-              display="block"
-              direction="column"
-              justifyContent="unset"
-              width="75px"
-              height="10.24px"
-              gap="unset"
-              alignItems="unset"
-              position="absolute"
-              top="62.23%"
-              bottom="34.6%"
-              left="0%"
-              right="82.27%"
-              padding="0px 0px 0px 0px"
-              whiteSpace="pre-wrap"
-              children="Esqueci a senha"
-              {...getOverrideProps(overrides, "Esqueci a senha")}
-            ></Text>
-            <View
-              padding="0px 0px 0px 0px"
-              width="240px"
-              height="17px"
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="94.74%"
               bottom="0%"
               left="0%"
-              right="43.26%"
-              {...getOverrideProps(overrides, "Group 1")}
-            >
-              <Text
-                fontFamily="Poppins"
-                fontSize="15px"
-                fontWeight="400"
-                color="rgba(0,0,0,1)"
-                lineHeight="22.5px"
-                textAlign="left"
-                display="block"
-                direction="column"
-                justifyContent="unset"
-                width="240px"
-                height="17px"
-                gap="unset"
-                alignItems="unset"
-                position="absolute"
-                top="0%"
-                bottom="0%"
-                left="0%"
-                right="0%"
-                padding="0px 0px 0px 0px"
-                whiteSpace="pre-wrap"
-                children="Novo por aqui?    Inscreva-se"
-                {...getOverrideProps(overrides, "Novo por aqui? Inscreva-se")}
-              ></Text>
-            </View>
-            <PasswordField
-              width="423px"
-              height="72.62px"
-              label="Senha"
-              placeholder="Insira sua senha"
-              position="absolute"
-              top="30.38%"
-              bottom="47.14%"
-              left="0%"
               right="0%"
-              size="large"
-              isDisabled={false}
-              labelHidden={false}
-              variation="default"
-              hideShowPassword={false}
-              {...getOverrideProps(overrides, "PasswordField")}
-            ></PasswordField>
+              padding="0px 0px 0px 0px"
+              whiteSpace="pre-wrap"
+              children="Novo por aqui?    Inscreva-se"
+              {...getOverrideProps(overrides, "Novo por aqui? Inscreva-se")}
+            ></Text>
           </View>
-          <Button
-            width="109px"
-            height="38.17px"
-            position="absolute"
-            borderRadius="10px"
-            top="63.97%"
-            bottom="31.35%"
-            left="65.99%"
-            right="16.93%"
-            backgroundColor="rgba(0,0,0,1)"
-            size="default"
-            isDisabled={false}
-            variation="primary"
-            children="Entrar"
-            {...getOverrideProps(overrides, "Button")}
-          ></Button>
           <Text
             fontFamily="Poppins"
             fontSize="34px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
             lineHeight="51px"
-            textAlign="left"
+            textAlign="center"
             display="block"
             direction="column"
             justifyContent="unset"
@@ -263,22 +198,22 @@ export default function TelaDeLogin(props) {
             {...getOverrideProps(overrides, "Obrigado por nos escolher")}
           ></Text>
           <Text
-            fontFamily="Montserrat"
+            fontFamily="Poppins"
             fontSize="44px"
             fontWeight="700"
             color="rgba(0,0,0,1)"
-            lineHeight="53.6359977722168px"
-            textAlign="left"
+            lineHeight="66px"
+            textAlign="center"
             display="block"
             direction="column"
             justifyContent="unset"
-            width="unset"
-            height="unset"
+            width="290px"
+            height="62px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="131px"
-            left="calc(50% - 133px - 0px)"
+            top="calc(50% - 31px - 243px)"
+            left="calc(50% - 145px - 0px)"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="Bem-vindo!"
@@ -320,7 +255,7 @@ export default function TelaDeLogin(props) {
               right="9.04%"
               transformOrigin="top left"
               transform="rotate(-180deg)"
-              {...getOverrideProps(overrides, "Vector40291506")}
+              {...getOverrideProps(overrides, "Vector38512479")}
             ></Icon>
             <Icon
               width="12px"
@@ -342,7 +277,7 @@ export default function TelaDeLogin(props) {
               bottom="68.28%"
               left="75.9%"
               right="16.87%"
-              {...getOverrideProps(overrides, "Vector40291507")}
+              {...getOverrideProps(overrides, "Vector38512480")}
             ></Icon>
             <Icon
               width="12px"
@@ -364,7 +299,7 @@ export default function TelaDeLogin(props) {
               bottom="68.28%"
               left="75.9%"
               right="16.87%"
-              {...getOverrideProps(overrides, "Vector40291508")}
+              {...getOverrideProps(overrides, "Vector38512481")}
             ></Icon>
             <Icon
               width="12px"
@@ -388,7 +323,7 @@ export default function TelaDeLogin(props) {
               right="10.84%"
               transformOrigin="top left"
               transform="rotate(-180deg)"
-              {...getOverrideProps(overrides, "Vector40291509")}
+              {...getOverrideProps(overrides, "Vector38512482")}
             ></Icon>
             <Icon
               width="14px"
@@ -410,7 +345,7 @@ export default function TelaDeLogin(props) {
               bottom="27.42%"
               left="78.31%"
               right="13.25%"
-              {...getOverrideProps(overrides, "Vector40291510")}
+              {...getOverrideProps(overrides, "Vector38512483")}
             ></Icon>
             <Icon
               width="7px"
@@ -432,7 +367,7 @@ export default function TelaDeLogin(props) {
               bottom="23.12%"
               left="77.11%"
               right="18.67%"
-              {...getOverrideProps(overrides, "Vector40291511")}
+              {...getOverrideProps(overrides, "Vector38512484")}
             ></Icon>
             <View
               padding="0px 0px 0px 0px"
@@ -447,7 +382,7 @@ export default function TelaDeLogin(props) {
               bottom="23.15%"
               left="72.06%"
               right="18.16%"
-              {...getOverrideProps(overrides, "Group40291512")}
+              {...getOverrideProps(overrides, "Group38512485")}
             >
               <Icon
                 width="14.42px"
@@ -474,7 +409,7 @@ export default function TelaDeLogin(props) {
                 bottom="17.24%"
                 left="11.16%"
                 right="0%"
-                {...getOverrideProps(overrides, "Vector40291513")}
+                {...getOverrideProps(overrides, "Vector38512486")}
               ></Icon>
               <Icon
                 width="8.56px"
@@ -501,7 +436,7 @@ export default function TelaDeLogin(props) {
                 bottom="0%"
                 left="0%"
                 right="47.28%"
-                {...getOverrideProps(overrides, "Vector40291514")}
+                {...getOverrideProps(overrides, "Vector38512487")}
               ></Icon>
             </View>
             <Icon
@@ -524,7 +459,7 @@ export default function TelaDeLogin(props) {
               bottom="46.24%"
               left="73.49%"
               right="12.05%"
-              {...getOverrideProps(overrides, "Vector40291515")}
+              {...getOverrideProps(overrides, "Vector38512488")}
             ></Icon>
             <Icon
               width="17px"
@@ -546,7 +481,7 @@ export default function TelaDeLogin(props) {
               bottom="54.84%"
               left="76.51%"
               right="13.25%"
-              {...getOverrideProps(overrides, "Vector40291516")}
+              {...getOverrideProps(overrides, "Vector38512489")}
             ></Icon>
             <Icon
               width="12px"
@@ -568,7 +503,7 @@ export default function TelaDeLogin(props) {
               bottom="54.84%"
               left="72.29%"
               right="20.48%"
-              {...getOverrideProps(overrides, "Vector40291517")}
+              {...getOverrideProps(overrides, "Vector38512490")}
             ></Icon>
             <Icon
               width="8px"
@@ -590,7 +525,7 @@ export default function TelaDeLogin(props) {
               bottom="56.99%"
               left="80.12%"
               right="15.06%"
-              {...getOverrideProps(overrides, "Vector40291518")}
+              {...getOverrideProps(overrides, "Vector38512491")}
             ></Icon>
             <Icon
               width="12px"
@@ -612,7 +547,7 @@ export default function TelaDeLogin(props) {
               bottom="71.51%"
               left="77.11%"
               right="15.66%"
-              {...getOverrideProps(overrides, "Vector40291519")}
+              {...getOverrideProps(overrides, "Vector38512492")}
             ></Icon>
             <Icon
               width="8px"
@@ -634,7 +569,7 @@ export default function TelaDeLogin(props) {
               bottom="56.99%"
               left="71.69%"
               right="23.49%"
-              {...getOverrideProps(overrides, "Vector40291520")}
+              {...getOverrideProps(overrides, "Vector38512493")}
             ></Icon>
             <Icon
               width="11px"
@@ -656,7 +591,7 @@ export default function TelaDeLogin(props) {
               bottom="57.53%"
               left="72.89%"
               right="20.48%"
-              {...getOverrideProps(overrides, "Vector40291521")}
+              {...getOverrideProps(overrides, "Vector38512494")}
             ></Icon>
             <Icon
               width="23px"
@@ -678,7 +613,7 @@ export default function TelaDeLogin(props) {
               bottom="68.28%"
               left="73.49%"
               right="12.65%"
-              {...getOverrideProps(overrides, "Vector40291522")}
+              {...getOverrideProps(overrides, "Vector38512495")}
             ></Icon>
             <View
               padding="0px 0px 0px 0px"
@@ -693,7 +628,7 @@ export default function TelaDeLogin(props) {
               bottom="22.58%"
               left="26.51%"
               right="28.31%"
-              {...getOverrideProps(overrides, "Group40291523")}
+              {...getOverrideProps(overrides, "Group38512496")}
             >
               <Icon
                 width="59px"
@@ -715,7 +650,7 @@ export default function TelaDeLogin(props) {
                 bottom="0%"
                 left="21.33%"
                 right="0%"
-                {...getOverrideProps(overrides, "Vector40291524")}
+                {...getOverrideProps(overrides, "Vector38512497")}
               ></Icon>
               <Icon
                 width="59px"
@@ -737,7 +672,7 @@ export default function TelaDeLogin(props) {
                 bottom="0%"
                 left="21.33%"
                 right="0%"
-                {...getOverrideProps(overrides, "Vector40291525")}
+                {...getOverrideProps(overrides, "Vector38512498")}
               ></Icon>
               <Icon
                 width="2px"
@@ -759,7 +694,7 @@ export default function TelaDeLogin(props) {
                 bottom="79.84%"
                 left="16%"
                 right="81.33%"
-                {...getOverrideProps(overrides, "Vector40291526")}
+                {...getOverrideProps(overrides, "Vector38512499")}
               ></Icon>
               <Icon
                 width="19px"
@@ -781,7 +716,7 @@ export default function TelaDeLogin(props) {
                 bottom="85.48%"
                 left="68%"
                 right="6.67%"
-                {...getOverrideProps(overrides, "Vector40291527")}
+                {...getOverrideProps(overrides, "Vector38512500")}
               ></Icon>
               <Icon
                 width="17px"
@@ -803,7 +738,7 @@ export default function TelaDeLogin(props) {
                 bottom="78.23%"
                 left="49.33%"
                 right="28%"
-                {...getOverrideProps(overrides, "Vector40291528")}
+                {...getOverrideProps(overrides, "Vector38512501")}
               ></Icon>
               <Icon
                 width="27px"
@@ -825,7 +760,7 @@ export default function TelaDeLogin(props) {
                 bottom="75%"
                 left="0%"
                 right="64%"
-                {...getOverrideProps(overrides, "Vector40291529")}
+                {...getOverrideProps(overrides, "Vector38512502")}
               ></Icon>
               <Icon
                 width="11px"
@@ -847,7 +782,7 @@ export default function TelaDeLogin(props) {
                 bottom="81.45%"
                 left="10.67%"
                 right="74.67%"
-                {...getOverrideProps(overrides, "Vector40291530")}
+                {...getOverrideProps(overrides, "Vector38512503")}
               ></Icon>
               <Icon
                 width="10px"
@@ -869,7 +804,7 @@ export default function TelaDeLogin(props) {
                 bottom="96.77%"
                 left="28%"
                 right="58.67%"
-                {...getOverrideProps(overrides, "Vector40291531")}
+                {...getOverrideProps(overrides, "Vector38512504")}
               ></Icon>
               <Icon
                 width="2px"
@@ -891,7 +826,7 @@ export default function TelaDeLogin(props) {
                 bottom="96.77%"
                 left="81.33%"
                 right="16%"
-                {...getOverrideProps(overrides, "Vector40291532")}
+                {...getOverrideProps(overrides, "Vector38512505")}
               ></Icon>
               <Icon
                 width="3px"
@@ -913,7 +848,7 @@ export default function TelaDeLogin(props) {
                 bottom="96.77%"
                 left="84%"
                 right="12%"
-                {...getOverrideProps(overrides, "Vector40291533")}
+                {...getOverrideProps(overrides, "Vector38512506")}
               ></Icon>
               <Icon
                 width="2px"
@@ -935,7 +870,7 @@ export default function TelaDeLogin(props) {
                 bottom="96.77%"
                 left="88%"
                 right="9.33%"
-                {...getOverrideProps(overrides, "Vector40291534")}
+                {...getOverrideProps(overrides, "Vector38512507")}
               ></Icon>
               <Icon
                 width="42px"
@@ -957,7 +892,7 @@ export default function TelaDeLogin(props) {
                 bottom="75%"
                 left="33.33%"
                 right="10.67%"
-                {...getOverrideProps(overrides, "Vector40291535")}
+                {...getOverrideProps(overrides, "Vector38512508")}
               ></Icon>
               <View
                 padding="0px 0px 0px 0px"
@@ -972,7 +907,7 @@ export default function TelaDeLogin(props) {
                 bottom="41.37%"
                 left="37.38%"
                 right="16.13%"
-                {...getOverrideProps(overrides, "Group40291536")}
+                {...getOverrideProps(overrides, "Group38512509")}
               >
                 <Icon
                   width="26.27px"
@@ -999,7 +934,7 @@ export default function TelaDeLogin(props) {
                   bottom="85.31%"
                   left="24.65%"
                   right="0%"
-                  {...getOverrideProps(overrides, "Vector40291537")}
+                  {...getOverrideProps(overrides, "Vector38512510")}
                 ></Icon>
                 <Icon
                   width="26.27px"
@@ -1026,7 +961,7 @@ export default function TelaDeLogin(props) {
                   bottom="46.62%"
                   left="24.65%"
                   right="0%"
-                  {...getOverrideProps(overrides, "Vector40291538")}
+                  {...getOverrideProps(overrides, "Vector38512511")}
                 ></Icon>
                 <Icon
                   width="26.27px"
@@ -1053,7 +988,7 @@ export default function TelaDeLogin(props) {
                   bottom="7.94%"
                   left="24.65%"
                   right="0%"
-                  {...getOverrideProps(overrides, "Vector40291539")}
+                  {...getOverrideProps(overrides, "Vector38512512")}
                 ></Icon>
                 <Icon
                   width="3.64px"
@@ -1080,7 +1015,7 @@ export default function TelaDeLogin(props) {
                   bottom="81.75%"
                   left="0%"
                   right="89.56%"
-                  {...getOverrideProps(overrides, "Vector40291540")}
+                  {...getOverrideProps(overrides, "Vector38512513")}
                 ></Icon>
                 <Icon
                   width="3.13px"
@@ -1107,7 +1042,7 @@ export default function TelaDeLogin(props) {
                   bottom="77.37%"
                   left="4.64%"
                   right="86.37%"
-                  {...getOverrideProps(overrides, "Vector40291541")}
+                  {...getOverrideProps(overrides, "Vector38512514")}
                 ></Icon>
                 <Icon
                   width="3.64px"
@@ -1134,7 +1069,7 @@ export default function TelaDeLogin(props) {
                   bottom="43.07%"
                   left="0%"
                   right="89.56%"
-                  {...getOverrideProps(overrides, "Vector40291542")}
+                  {...getOverrideProps(overrides, "Vector38512515")}
                 ></Icon>
                 <Icon
                   width="3.13px"
@@ -1161,7 +1096,7 @@ export default function TelaDeLogin(props) {
                   bottom="38.69%"
                   left="4.64%"
                   right="86.37%"
-                  {...getOverrideProps(overrides, "Vector40291543")}
+                  {...getOverrideProps(overrides, "Vector38512516")}
                 ></Icon>
                 <Icon
                   width="3.64px"
@@ -1188,7 +1123,7 @@ export default function TelaDeLogin(props) {
                   bottom="4.38%"
                   left="0%"
                   right="89.56%"
-                  {...getOverrideProps(overrides, "Vector40291544")}
+                  {...getOverrideProps(overrides, "Vector38512517")}
                 ></Icon>
                 <Icon
                   width="3.13px"
@@ -1215,7 +1150,7 @@ export default function TelaDeLogin(props) {
                   bottom="0%"
                   left="4.64%"
                   right="86.37%"
-                  {...getOverrideProps(overrides, "Vector40291545")}
+                  {...getOverrideProps(overrides, "Vector38512518")}
                 ></Icon>
               </View>
             </View>
@@ -1244,7 +1179,7 @@ export default function TelaDeLogin(props) {
               bottom="48.84%"
               left="79.12%"
               right="12.22%"
-              {...getOverrideProps(overrides, "Vector40291546")}
+              {...getOverrideProps(overrides, "Vector38512519")}
             ></Icon>
             <Icon
               width="13.8px"
@@ -1271,7 +1206,7 @@ export default function TelaDeLogin(props) {
               bottom="47.99%"
               left="80.48%"
               right="11.21%"
-              {...getOverrideProps(overrides, "Vector40291547")}
+              {...getOverrideProps(overrides, "Vector38512520")}
             ></Icon>
           </View>
           <Image
@@ -1292,7 +1227,57 @@ export default function TelaDeLogin(props) {
             )}
           ></Image>
         </View>
+        <Icon
+          width="109px"
+          height="0px"
+          viewBox={{ minX: 0, minY: 0, width: 109, height: 1 }}
+          paths={[
+            {
+              d: "M0 0L109 0L109 -1L0 -1L0 0Z",
+              stroke: "rgba(0,0,0,1)",
+              fillRule: "nonzero",
+              strokeWidth: 1,
+            },
+          ]}
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="684px"
+          left="671px"
+          {...getOverrideProps(overrides, "Line 76")}
+        ></Icon>
       </View>
+      <TextField
+        width="416px"
+        height="72px"
+        label="Email"
+        placeholder="nome@exemplo.com"
+        position="absolute"
+        top="373px"
+        left="550px"
+        size="default"
+        isDisabled={false}
+        labelHidden={false}
+        variation="default"
+        {...getOverrideProps(overrides, "TextField")}
+      ></TextField>
+      <PasswordField
+        width="416px"
+        height="73px"
+        label="Senha"
+        placeholder="Insira sua senha"
+        position="absolute"
+        top="460px"
+        left="550px"
+        size="default"
+        isDisabled={false}
+        labelHidden={false}
+        variation="default"
+        hideShowPassword={false}
+        {...getOverrideProps(overrides, "PasswordField")}
+      ></PasswordField>
     </View>
   );
 }

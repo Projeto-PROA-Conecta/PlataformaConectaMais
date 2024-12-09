@@ -7,15 +7,7 @@
 /* eslint-disable */
 import * as React from "react";
 import { getOverrideProps } from "./utils";
-import {
-  Button,
-  Flex,
-  Icon,
-  Image,
-  SelectField,
-  Text,
-  View,
-} from "@aws-amplify/ui-react";
+import { Flex, Icon, Image, Text, View } from "@aws-amplify/ui-react";
 export default function Home(props) {
   const { overrides, ...rest } = props;
   return (
@@ -48,155 +40,49 @@ export default function Home(props) {
         backgroundColor="rgba(255,255,255,1)"
         {...getOverrideProps(overrides, "Fundo Novo")}
       ></View>
-      <Flex
-        gap="40px"
-        direction="row"
-        width="1519px"
-        height="72px"
-        justifyContent="center"
-        alignItems="center"
+      <View
+        width="1516px"
+        height="70px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
         position="absolute"
         top="0px"
-        left="0px"
-        boxShadow="0px 2px 6px rgba(0.05098039284348488, 0.10196078568696976, 0.14901961386203766, 0.15000000596046448)"
-        padding="24px 32px 24px 32px"
+        left="-1px"
+        padding="0px 0px 0px 0px"
         backgroundColor="rgba(15,45,57,1)"
-        {...getOverrideProps(overrides, "NavBarHeaderConecta")}
-      >
-        <Flex
-          gap="10px"
-          direction="column"
-          width="271px"
-          height="38px"
-          justifyContent="flex-start"
-          alignItems="flex-start"
-          shrink="0"
-          position="relative"
-          padding="0px 0px 17px 0px"
-          {...getOverrideProps(overrides, "Frame 322")}
-        >
-          <Image
-            width="182px"
-            height="31px"
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            shrink="0"
-            position="relative"
-            padding="0px 0px 0px 0px"
-            objectFit="cover"
-            {...getOverrideProps(overrides, "logo_branca_conecta 2")}
-          ></Image>
-        </Flex>
-        <Button
-          width="103px"
-          height="33px"
-          shrink="0"
-          size="large"
-          isDisabled={false}
-          variation="primary"
-          children="Teste"
-          {...getOverrideProps(overrides, "Button44402345")}
-        ></Button>
-        <Button
-          width="unset"
-          height="unset"
-          shrink="0"
-          size="small"
-          isDisabled={false}
-          variation="default"
-          children="Button"
-          {...getOverrideProps(overrides, "Button44402939")}
-        ></Button>
-        <Button
-          width="unset"
-          height="unset"
-          shrink="0"
-          size="small"
-          isDisabled={false}
-          variation="link"
-          children="Vagas"
-          {...getOverrideProps(overrides, "Button442412293")}
-        ></Button>
-        <Button
-          width="unset"
-          height="unset"
-          shrink="0"
-          size="small"
-          isDisabled={false}
-          variation="link"
-          children="Home"
-          {...getOverrideProps(overrides, "Button442412321")}
-        ></Button>
-        <Button
-          width="unset"
-          height="unset"
-          shrink="0"
-          size="small"
-          isDisabled={false}
-          variation="link"
-          children="Configuração"
-          {...getOverrideProps(overrides, "Button442914236")}
-        ></Button>
-        <Button
-          width="unset"
-          height="unset"
-          shrink="0"
-          size="small"
-          isDisabled={false}
-          variation="link"
-          children="Acessibilidade"
-          {...getOverrideProps(overrides, "Button442412389")}
-        ></Button>
-        <Button
-          width="unset"
-          height="unset"
-          shrink="0"
-          size="small"
-          isDisabled={false}
-          variation="link"
-          {...getOverrideProps(overrides, "Button442412429")}
-        ></Button>
-        <Flex
-          gap="32px"
-          direction="row"
-          width="unset"
-          height="unset"
-          justifyContent="flex-end"
-          alignItems="center"
-          grow="1"
-          shrink="1"
-          basis="0"
-          position="relative"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Frame 321")}
-        >
-          <Button
-            width="165px"
-            height="30px"
-            shrink="0"
-            backgroundColor="rgba(211,152,74,1)"
-            size="large"
-            isDisabled={false}
-            variation="primary"
-            children="Entrar"
-            {...getOverrideProps(overrides, "Button42762783")}
-          ></Button>
-          <Button
-            width="165px"
-            height="30px"
-            border="1px SOLID rgba(242,206,174,1)"
-            shrink="0"
-            backgroundColor="rgba(0,0,0,0.1)"
-            size="large"
-            isDisabled={false}
-            variation="primary"
-            children="Cadastrar-se"
-            {...getOverrideProps(overrides, "Button42762784")}
-          ></Button>
-        </Flex>
-      </Flex>
+        {...getOverrideProps(overrides, "Rectangle 206")}
+      ></View>
+      <Image
+        width="182px"
+        height="24px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="27px"
+        left="36px"
+        padding="0px 0px 0px 0px"
+        objectFit="cover"
+        {...getOverrideProps(overrides, "logo_branca_conecta 2")}
+      ></Image>
+      <Flex
+        width="124.75px"
+        height="unset"
+        {...getOverrideProps(overrides, "Button38512593")}
+      ></Flex>
+      <Flex
+        width="124.75px"
+        height="unset"
+        {...getOverrideProps(overrides, "Button38512594")}
+      ></Flex>
+      <Flex
+        width="64.87px"
+        height="unset"
+        {...getOverrideProps(overrides, "Button38512596")}
+      ></Flex>
       <Image
         width="1519px"
         height="336px"
@@ -355,7 +241,7 @@ export default function Home(props) {
           viewBox={{
             minX: 0,
             minY: 0,
-            width: 225.0108590022428,
+            width: 225.01085900225007,
             height: 190.02128842643287,
           }}
           paths={[
@@ -442,7 +328,7 @@ export default function Home(props) {
           position="absolute"
           top="66px"
           left="529.66px"
-          {...getOverrideProps(overrides, "Vector42779214")}
+          {...getOverrideProps(overrides, "Vector38512610")}
         ></Icon>
         <View
           width="225px"
@@ -503,7 +389,7 @@ export default function Home(props) {
           position="absolute"
           top="66px"
           left="177px"
-          {...getOverrideProps(overrides, "Vector42779217")}
+          {...getOverrideProps(overrides, "Vector38512613")}
         ></Icon>
         <Icon
           width="30px"
@@ -524,7 +410,7 @@ export default function Home(props) {
           top="35.26%"
           bottom="50.29%"
           left="calc(50% - 15px - -353.33px)"
-          {...getOverrideProps(overrides, "Vector42779218")}
+          {...getOverrideProps(overrides, "Vector38512614")}
         ></Icon>
         <Icon
           width="12.33px"
@@ -551,7 +437,7 @@ export default function Home(props) {
           bottom="47.21%"
           left="98.87%"
           right="0%"
-          {...getOverrideProps(overrides, "Vector42779231")}
+          {...getOverrideProps(overrides, "Vector38512615")}
         ></Icon>
         <Icon
           width="12.33px"
@@ -580,7 +466,7 @@ export default function Home(props) {
           right="97.74%"
           transformOrigin="top left"
           transform="rotate(180deg)"
-          {...getOverrideProps(overrides, "Vector42789234")}
+          {...getOverrideProps(overrides, "Vector38512616")}
         ></Icon>
       </View>
       <Text
@@ -716,7 +602,7 @@ export default function Home(props) {
           bottom="64.14%"
           left="9.96%"
           right="87.19%"
-          {...getOverrideProps(overrides, "Vector42789421")}
+          {...getOverrideProps(overrides, "Vector38512623")}
         ></Icon>
         <Text
           fontFamily="Montserrat"
@@ -760,7 +646,7 @@ export default function Home(props) {
           bottom="64.14%"
           left="37.54%"
           right="59.61%"
-          {...getOverrideProps(overrides, "Vector42789426")}
+          {...getOverrideProps(overrides, "Vector38512625")}
         ></Icon>
         <Text
           fontFamily="Poppins"
@@ -868,7 +754,7 @@ export default function Home(props) {
           position="absolute"
           top="171px"
           left="20px"
-          {...getOverrideProps(overrides, "Vector42789437")}
+          {...getOverrideProps(overrides, "Vector38512630")}
         ></Icon>
         <View
           width="123px"
@@ -1073,7 +959,7 @@ export default function Home(props) {
           bottom="76.73%"
           left="13.31%"
           right="85.8%"
-          {...getOverrideProps(overrides, "Vector42789506")}
+          {...getOverrideProps(overrides, "Vector38512640")}
         ></Icon>
         <Icon
           width="3.07px"
@@ -1100,7 +986,7 @@ export default function Home(props) {
           bottom="79.88%"
           left="14.12%"
           right="85.68%"
-          {...getOverrideProps(overrides, "Vector42789507")}
+          {...getOverrideProps(overrides, "Vector38512641")}
         ></Icon>
         <Icon
           width="26.24px"
@@ -1127,7 +1013,7 @@ export default function Home(props) {
           bottom="75.07%"
           left="12.89%"
           right="85.38%"
-          {...getOverrideProps(overrides, "Vector42789508")}
+          {...getOverrideProps(overrides, "Vector38512642")}
         ></Icon>
         <Icon
           width="29.57px"
@@ -1154,7 +1040,7 @@ export default function Home(props) {
           bottom="74.81%"
           left="15.88%"
           right="82.17%"
-          {...getOverrideProps(overrides, "Vector42789510")}
+          {...getOverrideProps(overrides, "Vector38512643")}
         ></Icon>
         <Icon
           width="2.94px"
@@ -1181,7 +1067,7 @@ export default function Home(props) {
           bottom="76.63%"
           left="16.36%"
           right="83.45%"
-          {...getOverrideProps(overrides, "Vector42789511")}
+          {...getOverrideProps(overrides, "Vector38512644")}
         ></Icon>
         <Icon
           width="14.99px"
@@ -1208,7 +1094,7 @@ export default function Home(props) {
           bottom="76.63%"
           left="16.36%"
           right="82.65%"
-          {...getOverrideProps(overrides, "Vector42789512")}
+          {...getOverrideProps(overrides, "Vector38512645")}
         ></Icon>
         <Text
           fontFamily="Montserrat"
@@ -1326,19 +1212,6 @@ export default function Home(props) {
         height="unset"
         {...getOverrideProps(overrides, "SearchField")}
       ></Flex>
-      <Button
-        width="123px"
-        height="30px"
-        position="absolute"
-        top="1665px"
-        left="507px"
-        backgroundColor="rgba(22,70,89,1)"
-        size="large"
-        isDisabled={false}
-        variation="primary"
-        children="Ver mais"
-        {...getOverrideProps(overrides, "Button42982257")}
-      ></Button>
       <View
         width="1063px"
         height="76px"
@@ -1354,19 +1227,6 @@ export default function Home(props) {
         backgroundColor="rgba(255,255,255,1)"
         {...getOverrideProps(overrides, "Rectangle 184")}
       ></View>
-      <Button
-        width="98px"
-        height="36px"
-        position="absolute"
-        top="290px"
-        left="1010px"
-        backgroundColor="rgba(22,70,89,1)"
-        size="large"
-        isDisabled={false}
-        variation="primary"
-        children="Buscar"
-        {...getOverrideProps(overrides, "Button42982280")}
-      ></Button>
       <Icon
         width="20px"
         height="20px"
@@ -1387,7 +1247,7 @@ export default function Home(props) {
         bottom="85.9%"
         left="44.63%"
         right="54.05%"
-        {...getOverrideProps(overrides, "Vector42982285")}
+        {...getOverrideProps(overrides, "Vector38512655")}
       ></Icon>
       <Icon
         width="20px"
@@ -1409,7 +1269,7 @@ export default function Home(props) {
         bottom="85.9%"
         left="26.27%"
         right="72.42%"
-        {...getOverrideProps(overrides, "Vector42982286")}
+        {...getOverrideProps(overrides, "Vector38512656")}
       ></Icon>
       <View
         width="22px"
@@ -1450,60 +1310,29 @@ export default function Home(props) {
           bottom="12.5%"
           left="8.33%"
           right="8.33%"
-          {...getOverrideProps(overrides, "Vector42982305")}
+          {...getOverrideProps(overrides, "Vector38512658")}
         ></Icon>
       </View>
-      <SelectField
+      <Flex
         width="227px"
         height="40px"
-        placeholder="Todas categorias"
-        position="absolute"
-        top="288px"
-        left="721px"
-        size="large"
-        isDisabled={false}
-        labelHidden={true}
-        variation="default"
-        {...getOverrideProps(overrides, "SelectField43022402")}
-      ></SelectField>
-      <SelectField
+        {...getOverrideProps(overrides, "SelectField38512659")}
+      ></Flex>
+      <Flex
         width="212px"
         height="40px"
-        placeholder="Cargo"
-        position="absolute"
-        top="288px"
-        left="167px"
-        size="large"
-        isDisabled={false}
-        labelHidden={true}
-        variation="default"
-        {...getOverrideProps(overrides, "SelectField43022422")}
-      ></SelectField>
-      <SelectField
+        {...getOverrideProps(overrides, "SelectField38512660")}
+      ></Flex>
+      <Flex
         width="212px"
         height="40px"
-        placeholder="Estado"
-        position="absolute"
-        top="288px"
-        left="439px"
-        size="large"
-        isDisabled={false}
-        labelHidden={true}
-        variation="default"
-        {...getOverrideProps(overrides, "SelectField43022412")}
-      ></SelectField>
-      <Button
+        {...getOverrideProps(overrides, "SelectField38512661")}
+      ></Flex>
+      <Flex
         width="unset"
         height="unset"
-        position="absolute"
-        top="188px"
-        left="470px"
-        size="default"
-        isDisabled={true}
-        variation="default"
-        children="Button"
-        {...getOverrideProps(overrides, "Button44401543")}
-      ></Button>
+        {...getOverrideProps(overrides, "Button38512662")}
+      ></Flex>
     </View>
   );
 }

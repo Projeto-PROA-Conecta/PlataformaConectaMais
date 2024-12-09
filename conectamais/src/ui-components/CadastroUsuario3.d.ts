@@ -29,12 +29,12 @@ export declare type CadastroUsuario3OverridesProps = {
     "Ellipse 108"?: PrimitiveOverrideProps<IconProps>;
     "Ellipse 109"?: PrimitiveOverrideProps<IconProps>;
     "Ellipse 110"?: PrimitiveOverrideProps<IconProps>;
-    SelectField40371448?: PrimitiveOverrideProps<SelectFieldProps>;
-    SelectField40371458?: PrimitiveOverrideProps<SelectFieldProps>;
-    SelectField40371468?: PrimitiveOverrideProps<SelectFieldProps>;
-    Button39885571?: PrimitiveOverrideProps<ButtonProps>;
-    Button4027869?: PrimitiveOverrideProps<ButtonProps>;
+    Button3857382?: PrimitiveOverrideProps<ButtonProps>;
+    Button3857383?: PrimitiveOverrideProps<ButtonProps>;
     "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"?: PrimitiveOverrideProps<ImageProps>;
+    SelectField3857352?: PrimitiveOverrideProps<SelectFieldProps>;
+    SelectField3857363?: PrimitiveOverrideProps<SelectFieldProps>;
+    SelectField3857372?: PrimitiveOverrideProps<SelectFieldProps>;
 } & EscapeHatchProps;
 export declare type CadastroUsuario3Props = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

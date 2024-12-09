@@ -9,6 +9,7 @@ import * as React from "react";
 import { getOverrideProps } from "./utils";
 import {
   Button,
+  Flex,
   Icon,
   Image,
   SelectField,
@@ -61,8 +62,8 @@ export default function CadastroUsuario5(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="550px"
-          left="92px"
+          top="238px"
+          left="361px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Últimas perguntas"
@@ -77,8 +78,8 @@ export default function CadastroUsuario5(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="263.13px"
-          left="787.23px"
+          top="362px"
+          left="497px"
           {...getOverrideProps(overrides, "Group 476")}
         >
           <View
@@ -117,8 +118,8 @@ export default function CadastroUsuario5(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="79.13px"
-            left="255.22px"
+            top="32.33px"
+            left="255.42px"
             {...getOverrideProps(overrides, "Ellipse 109")}
           ></Icon>
           <Icon
@@ -142,8 +143,8 @@ export default function CadastroUsuario5(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="78.8px"
-            left="214.8px"
+            top="32px"
+            left="215px"
             {...getOverrideProps(overrides, "Ellipse 108")}
           ></Icon>
           <Icon
@@ -167,103 +168,85 @@ export default function CadastroUsuario5(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="78.8px"
-            left="295.64px"
+            top="32px"
+            left="295.84px"
             {...getOverrideProps(overrides, "Ellipse 110")}
           ></Icon>
-          <SelectField
-            width="464.26px"
-            height="54.01px"
-            label="10.Faz parte de algum outro grupo de diversidade?"
-            placeholder="Sim"
-            position="absolute"
-            top="272.77px"
-            left="37.53px"
-            size="large"
-            isDisabled={false}
-            labelHidden={false}
-            variation="default"
-            {...getOverrideProps(overrides, "SelectField40341860")}
-          ></SelectField>
-          <TextAreaField
+          <Flex
             width="464.26px"
             height="120.3px"
-            label="11.Há algo mais que gostaria de compartilhar para que possamos entender melhor suas necessidades?"
-            placeholder="Compartilhe aqui...."
+            {...getOverrideProps(overrides, "TextAreaField38512290")}
+          ></Flex>
+          <TextAreaField
+            width="408px"
+            height="unset"
+            label="Há algo mais que gostaria de compartilhar para que possamos entender melhor suas necessidades?"
+            placeholder="Compartilhe aqui..."
             position="absolute"
-            top="412.98px"
-            left="37.53px"
-            size="large"
-            isDisabled={false}
-            labelHidden={false}
-            variation="default"
-            {...getOverrideProps(overrides, "TextAreaField")}
-          ></TextAreaField>
-          <Button
-            width="176.12px"
-            height="36.21px"
-            position="absolute"
-            borderRadius="10px"
-            top="596.26px"
-            left="306.3px"
-            backgroundColor="rgba(253,157,72,1)"
-            size="large"
-            isDisabled={false}
-            variation="primary"
-            children="Enviar"
-            {...getOverrideProps(overrides, "Button40341863")}
-          ></Button>
-          <Button
-            width="176.12px"
-            height="36.21px"
-            position="absolute"
-            border="1px SOLID rgba(0,0,0,1)"
-            borderRadius="10px"
-            top="596.26px"
-            left="56.9px"
+            top="395px"
+            left="59px"
             size="default"
             isDisabled={false}
-            variation="primary"
-            children="Voltar"
-            {...getOverrideProps(overrides, "Button40341864")}
-          ></Button>
-          <Text
-            fontFamily="Montserrat"
-            fontSize="48px"
-            fontWeight="700"
-            color="rgba(0,0,0,1)"
-            lineHeight="58.512001037597656px"
-            textAlign="left"
-            display="block"
-            direction="column"
-            justifyContent="unset"
-            width="362.76px"
-            height="54.93px"
-            gap="unset"
-            alignItems="unset"
-            position="absolute"
-            top="15.75px"
-            left="88.28px"
-            padding="0px 0px 0px 0px"
-            whiteSpace="pre-wrap"
-            children="Questionário"
-            {...getOverrideProps(overrides, "Question\u00E1rio")}
-          ></Text>
-          <SelectField
-            width="464.26px"
-            height="54.01px"
-            label="9.Sente-se confortável em um ambiente que valoriza a diversidade e inclusão?"
-            placeholder="Sim"
-            position="absolute"
-            top="140.27px"
-            left="37.53px"
-            size="large"
-            isDisabled={false}
             labelHidden={false}
             variation="default"
-            {...getOverrideProps(overrides, "SelectField40341865")}
-          ></SelectField>
+            {...getOverrideProps(overrides, "TextAreaField38572087")}
+          ></TextAreaField>
         </View>
+        <SelectField
+          width="384px"
+          height="72px"
+          label="9.Sente-se confortável em um ambiente que valoriza a diversidade e inclusão?"
+          placeholder="Sensorial"
+          position="absolute"
+          top="calc(50% - 36px - -0.5px)"
+          left="37.39%"
+          right="37.33%"
+          size="default"
+          isDisabled={false}
+          labelHidden={false}
+          variation="default"
+          {...getOverrideProps(overrides, "SelectField38572060")}
+        ></SelectField>
+        <SelectField
+          width="384px"
+          height="unset"
+          label="10.Faz parte de algum outro grupo de diversidade?"
+          placeholder="Presencial"
+          position="absolute"
+          top="calc(50% - 34.5px - -121px)"
+          left="37.39%"
+          right="37.33%"
+          size="default"
+          isDisabled={false}
+          labelHidden={false}
+          variation="default"
+          {...getOverrideProps(overrides, "SelectField38572061")}
+        ></SelectField>
+        <Button
+          width="102px"
+          height="unset"
+          position="absolute"
+          top="946px"
+          left="587px"
+          size="default"
+          isDisabled={false}
+          variation="default"
+          children="Voltar"
+          {...getOverrideProps(overrides, "Button38572062")}
+        ></Button>
+        <Button
+          width="100px"
+          height="unset"
+          position="absolute"
+          top="947px"
+          left="825px"
+          backgroundColor="rgba(234,191,62,1)"
+          size="default"
+          isDisabled={false}
+          variation="primary"
+          children="Continuar"
+          {...getOverrideProps(overrides, "Button38572063")}
+        ></Button>
       </View>
       <Image
         width="20.41%"
@@ -273,10 +256,10 @@ export default function CadastroUsuario5(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="28.47%"
-        bottom="58.1%"
-        left="22.12%"
-        right="57.47%"
+        top="4.21%"
+        bottom="82.36%"
+        left="39.83%"
+        right="39.76%"
         padding="0px 0px 0px 0px"
         objectFit="cover"
         {...getOverrideProps(
@@ -284,6 +267,30 @@ export default function CadastroUsuario5(props) {
           "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"
         )}
       ></Image>
+      <Text
+        fontFamily="Montserrat"
+        fontSize="32px"
+        fontWeight="700"
+        color="rgba(0,0,0,1)"
+        lineHeight="39.007999420166016px"
+        textAlign="center"
+        display="block"
+        direction="column"
+        justifyContent="unset"
+        width="340.99px"
+        height="51.31px"
+        gap="unset"
+        alignItems="unset"
+        position="absolute"
+        top="38.59%"
+        bottom="56.82%"
+        left="38.84%"
+        right="38.71%"
+        padding="0px 0px 0px 0px"
+        whiteSpace="pre-wrap"
+        children="Questionário"
+        {...getOverrideProps(overrides, "Question\u00E1rio")}
+      ></Text>
     </View>
   );
 }

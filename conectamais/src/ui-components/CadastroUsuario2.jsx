@@ -12,9 +12,9 @@ import {
   CheckboxField,
   Icon,
   Image,
+  PasswordField,
   PhoneNumberField,
   Text,
-  TextField,
   View,
 } from "@aws-amplify/ui-react";
 export default function CadastroUsuario2(props) {
@@ -109,7 +109,6 @@ export default function CadastroUsuario2(props) {
           top="165.45px"
           left="0px"
           padding="0px 0px 0px 0px"
-          src={bancoImagens?.LogoAzulConecta}
           {...getOverrideProps(overrides, "image-removebg-preview (4) 4")}
         ></View>
         <View
@@ -154,45 +153,13 @@ export default function CadastroUsuario2(props) {
             transform="rotate(0deg)"
             {...getOverrideProps(overrides, "Rectangle 1")}
           ></Icon>
-          <PhoneNumberField
-            width="332.59px"
-            height="56.03px"
-            label="Telefone"
-            placeholder="Insira seu número"
-            position="absolute"
-            top="241.43px"
-            left="calc(50% - 166.3px - 0.03px)"
-            transformOrigin="top left"
-            transform="rotate(0deg)"
-            size="large"
-            isDisabled={false}
-            labelHidden={false}
-            variation="default"
-            {...getOverrideProps(overrides, "PhoneNumberField")}
-          ></PhoneNumberField>
-          <TextField
-            width="332.59px"
-            height="84.44px"
-            label="Endereço"
-            placeholder="CEP"
-            position="absolute"
-            top="134.11px"
-            left="calc(50% - 166.3px - 0.29px)"
-            transformOrigin="top left"
-            transform="rotate(0deg)"
-            size="large"
-            isDisabled={false}
-            labelHidden={false}
-            variation="default"
-            {...getOverrideProps(overrides, "TextField")}
-          ></TextField>
           <Text
             fontFamily="Poppins"
             fontSize="20px"
             fontWeight="700"
             color="rgba(0,0,0,1)"
             lineHeight="30px"
-            textAlign="left"
+            textAlign="center"
             display="block"
             direction="column"
             justifyContent="unset"
@@ -201,8 +168,8 @@ export default function CadastroUsuario2(props) {
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="77.37px"
-            left="calc(50% - 75.65px - 1.07px)"
+            top="calc(50% - 12.23px - 333.53px)"
+            left="calc(50% - 75.65px - 0.4px)"
             transformOrigin="top left"
             transform="rotate(0deg)"
             padding="0px 0px 0px 0px"
@@ -210,36 +177,6 @@ export default function CadastroUsuario2(props) {
             children="Crie sua conta "
             {...getOverrideProps(overrides, "Crie sua conta")}
           ></Text>
-          <CheckboxField
-            width="388.53px"
-            height="37.88px"
-            label="Autorizo a Conecta+ a enviar comunicações sobre produtos, serviços."
-            position="absolute"
-            top="432.35px"
-            left="146.44px"
-            transformOrigin="top left"
-            transform="rotate(0deg)"
-            size="large"
-            defaultChecked={false}
-            isDisabled={false}
-            labelPosition="end"
-            {...getOverrideProps(overrides, "CheckboxField40211601")}
-          ></CheckboxField>
-          <CheckboxField
-            width="420.61px"
-            height="25.11px"
-            label="Li e aceito as Condições Legais e a Política de Privacidade.  "
-            position="absolute"
-            top="391.42px"
-            left="114.31px"
-            transformOrigin="top left"
-            transform="rotate(0deg)"
-            size="large"
-            defaultChecked={false}
-            isDisabled={false}
-            labelPosition="end"
-            {...getOverrideProps(overrides, "CheckboxField40211592")}
-          ></CheckboxField>
           <View
             padding="0px 0px 0px 0px"
             width="298.94px"
@@ -294,7 +231,7 @@ export default function CadastroUsuario2(props) {
               right="37.03%"
               transformOrigin="top left"
               transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Group39885793")}
+              {...getOverrideProps(overrides, "Group38512311")}
             >
               <Icon
                 width="37.56px"
@@ -302,7 +239,7 @@ export default function CadastroUsuario2(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 37.641909665762796,
+                  width: 37.64190966576825,
                   height: 33.9197875458749,
                 }}
                 paths={[
@@ -323,7 +260,7 @@ export default function CadastroUsuario2(props) {
                 right="0%"
                 transformOrigin="top left"
                 transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector39885794")}
+                {...getOverrideProps(overrides, "Vector38512312")}
               ></Icon>
               <Icon
                 width="32.8px"
@@ -331,7 +268,7 @@ export default function CadastroUsuario2(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 32.86928538918437,
+                  width: 32.86928538918983,
                   height: 29.331218544867625,
                 }}
                 paths={[
@@ -352,7 +289,7 @@ export default function CadastroUsuario2(props) {
                 right="5.48%"
                 transformOrigin="top left"
                 transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector39885795")}
+                {...getOverrideProps(overrides, "Vector38512313")}
               ></Icon>
               <Icon
                 width="11.48px"
@@ -361,7 +298,7 @@ export default function CadastroUsuario2(props) {
                   minX: 0,
                   minY: 0,
                   width: 11.502882418477384,
-                  height: 11.274899260969505,
+                  height: 11.274899260969448,
                 }}
                 paths={[
                   {
@@ -381,7 +318,7 @@ export default function CadastroUsuario2(props) {
                 right="50.41%"
                 transformOrigin="top left"
                 transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector39885796")}
+                {...getOverrideProps(overrides, "Vector38512314")}
               ></Icon>
               <Icon
                 width="8.53px"
@@ -390,7 +327,7 @@ export default function CadastroUsuario2(props) {
                   minX: 0,
                   minY: 0,
                   width: 8.552203768958861,
-                  height: 9.42785964818404,
+                  height: 9.427859648184182,
                 }}
                 paths={[
                   {
@@ -410,7 +347,7 @@ export default function CadastroUsuario2(props) {
                 right="42.29%"
                 transformOrigin="top left"
                 transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector39885797")}
+                {...getOverrideProps(overrides, "Vector38512315")}
               ></Icon>
               <Icon
                 width="7.68px"
@@ -418,8 +355,8 @@ export default function CadastroUsuario2(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 7.700164434878388,
-                  height: 10.22034541994617,
+                  width: 7.700164434880207,
+                  height: 10.220345419946028,
                 }}
                 paths={[
                   {
@@ -439,7 +376,7 @@ export default function CadastroUsuario2(props) {
                 right="30.02%"
                 transformOrigin="top left"
                 transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector39885798")}
+                {...getOverrideProps(overrides, "Vector38512316")}
               ></Icon>
             </View>
             <View
@@ -457,7 +394,7 @@ export default function CadastroUsuario2(props) {
               right="33.99%"
               transformOrigin="top left"
               transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Group39885799")}
+              {...getOverrideProps(overrides, "Group38512317")}
             >
               <Icon
                 width="37.56px"
@@ -465,7 +402,7 @@ export default function CadastroUsuario2(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 37.641909665762796,
+                  width: 37.64190966576825,
                   height: 33.9197875458749,
                 }}
                 paths={[
@@ -486,7 +423,7 @@ export default function CadastroUsuario2(props) {
                 right="0%"
                 transformOrigin="top left"
                 transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector39885800")}
+                {...getOverrideProps(overrides, "Vector38512318")}
               ></Icon>
               <Icon
                 width="32.8px"
@@ -494,7 +431,7 @@ export default function CadastroUsuario2(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 32.86928538918437,
+                  width: 32.86928538918983,
                   height: 29.331218544867625,
                 }}
                 paths={[
@@ -515,7 +452,7 @@ export default function CadastroUsuario2(props) {
                 right="5.48%"
                 transformOrigin="top left"
                 transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector39885801")}
+                {...getOverrideProps(overrides, "Vector38512319")}
               ></Icon>
               <Icon
                 width="11.48px"
@@ -524,7 +461,7 @@ export default function CadastroUsuario2(props) {
                   minX: 0,
                   minY: 0,
                   width: 11.502882418477384,
-                  height: 11.274899260969505,
+                  height: 11.274899260969448,
                 }}
                 paths={[
                   {
@@ -544,7 +481,7 @@ export default function CadastroUsuario2(props) {
                 right="50.4%"
                 transformOrigin="top left"
                 transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector39885802")}
+                {...getOverrideProps(overrides, "Vector38512320")}
               ></Icon>
               <Icon
                 width="8.53px"
@@ -553,7 +490,7 @@ export default function CadastroUsuario2(props) {
                   minX: 0,
                   minY: 0,
                   width: 8.552203768958861,
-                  height: 9.42785964818404,
+                  height: 9.427859648184182,
                 }}
                 paths={[
                   {
@@ -573,7 +510,7 @@ export default function CadastroUsuario2(props) {
                 right="42.29%"
                 transformOrigin="top left"
                 transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector39885803")}
+                {...getOverrideProps(overrides, "Vector38512321")}
               ></Icon>
               <Icon
                 width="7.68px"
@@ -581,8 +518,8 @@ export default function CadastroUsuario2(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 7.700166342227021,
-                  height: 10.220345424495918,
+                  width: 7.700166342223383,
+                  height: 10.220345424496088,
                 }}
                 paths={[
                   {
@@ -602,7 +539,7 @@ export default function CadastroUsuario2(props) {
                 right="30.02%"
                 transformOrigin="top left"
                 transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector39885804")}
+                {...getOverrideProps(overrides, "Vector38512322")}
               ></Icon>
             </View>
             <Icon
@@ -611,8 +548,8 @@ export default function CadastroUsuario2(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 8.869719316469855,
-                height: 22.198869786726846,
+                width: 8.869719316468945,
+                height: 22.198869786726796,
               }}
               paths={[
                 {
@@ -632,24 +569,24 @@ export default function CadastroUsuario2(props) {
               right="19.23%"
               transformOrigin="top left"
               transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector39885806")}
+              {...getOverrideProps(overrides, "Vector38512323")}
             ></Icon>
             <View
               padding="0px 0px 0px 0px"
-              width="21.93px"
-              height="31.56px"
+              width="72.94px"
+              height="34.62px"
               display="block"
               gap="unset"
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
               top="83.95%"
-              bottom="2.31%"
-              left="92.67%"
+              bottom="0.98%"
+              left="75.6%"
               right="0%"
               transformOrigin="top left"
               transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Group39885808")}
+              {...getOverrideProps(overrides, "Group38512324")}
             >
               <Icon
                 width="19.58px"
@@ -657,8 +594,8 @@ export default function CadastroUsuario2(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 19.634738146523887,
-                  height: 21.948582148593232,
+                  width: 19.63473814651843,
+                  height: 21.948582148593253,
                 }}
                 paths={[
                   {
@@ -673,12 +610,12 @@ export default function CadastroUsuario2(props) {
                 justifyContent="unset"
                 position="absolute"
                 top="0%"
-                bottom="30.6%"
-                left="0%"
-                right="10.68%"
+                bottom="36.73%"
+                left="69.94%"
+                right="3.21%"
                 transformOrigin="top left"
                 transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector39885809")}
+                {...getOverrideProps(overrides, "Vector38512325")}
               ></Icon>
               <Icon
                 width="19.85px"
@@ -686,8 +623,8 @@ export default function CadastroUsuario2(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 19.885908975360508,
-                  height: 15.877682882145109,
+                  width: 19.88590897535505,
+                  height: 15.877682882145088,
                 }}
                 paths={[
                   {
@@ -701,13 +638,40 @@ export default function CadastroUsuario2(props) {
                 alignItems="unset"
                 justifyContent="unset"
                 position="absolute"
-                top="49.84%"
-                bottom="0%"
-                left="9.47%"
+                top="45.43%"
+                bottom="8.84%"
+                left="72.79%"
                 right="0%"
                 transformOrigin="top left"
                 transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector39885810")}
+                {...getOverrideProps(overrides, "Vector38512326")}
+              ></Icon>
+              <Icon
+                width="18.87px"
+                height="8px"
+                viewBox={{
+                  minX: 0,
+                  minY: 0,
+                  width: 18.885743106725386,
+                  height: 8.042666054882062,
+                }}
+                paths={[
+                  {
+                    d: "M0.000118628 6.75648C0.0055533 6.93362 0.429688 7.37736 0.61113 7.52824C1.16885 7.99199 2.3559 8.13668 3.26253 7.85136L18.2407 3.1378C18.8591 2.94318 19.0521 2.52891 18.6716 2.21253L18.288 1.89353C18.288 1.89353 17.8759 0.701622 14.9293 0C14.9293 0 14.1461 1.52194 9.57013 0.964263L7.8036 0.452975L4.47696 4.61858L1.37874 5.88453C0.700909 6.16148 -0.0134992 6.31277 0.000118628 6.75648Z",
+                    fill: "rgba(47,46,65,1)",
+                    fillRule: "nonzero",
+                  },
+                ]}
+                display="block"
+                gap="unset"
+                alignItems="unset"
+                justifyContent="unset"
+                position="absolute"
+                top="76.9%"
+                bottom="0%"
+                left="0%"
+                right="74.13%"
+                {...getOverrideProps(overrides, "Vector38545689")}
               ></Icon>
             </View>
             <View
@@ -725,7 +689,7 @@ export default function CadastroUsuario2(props) {
               right="10.98%"
               transformOrigin="top left"
               transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Group39885811")}
+              {...getOverrideProps(overrides, "Group38512327")}
             >
               <Icon
                 width="10.65px"
@@ -733,8 +697,8 @@ export default function CadastroUsuario2(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 10.704853449256916,
-                  height: 21.067551350366557,
+                  width: 10.704853449251459,
+                  height: 21.067551350366514,
                 }}
                 paths={[
                   {
@@ -754,7 +718,7 @@ export default function CadastroUsuario2(props) {
                 right="0%"
                 transformOrigin="top left"
                 transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector39885812")}
+                {...getOverrideProps(overrides, "Vector38512328")}
               ></Icon>
               <Icon
                 width="37.85px"
@@ -762,8 +726,8 @@ export default function CadastroUsuario2(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 38.02477586574969,
-                  height: 71.30761489568249,
+                  width: 38.02477586574514,
+                  height: 71.3076148956823,
                 }}
                 paths={[
                   {
@@ -783,7 +747,7 @@ export default function CadastroUsuario2(props) {
                 right="6.3%"
                 transformOrigin="top left"
                 transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector39885813")}
+                {...getOverrideProps(overrides, "Vector38512329")}
               ></Icon>
             </View>
             <Icon
@@ -792,8 +756,8 @@ export default function CadastroUsuario2(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 29.449723657526192,
-                height: 105.91602058060789,
+                width: 29.44972365752801,
+                height: 105.91602058060803,
               }}
               paths={[
                 {
@@ -813,7 +777,7 @@ export default function CadastroUsuario2(props) {
               right="18.21%"
               transformOrigin="top left"
               transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector39885814")}
+              {...getOverrideProps(overrides, "Vector38512330")}
             ></Icon>
             <Icon
               width="75.51px"
@@ -821,8 +785,8 @@ export default function CadastroUsuario2(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 75.74766169217764,
-                height: 98.78888801250014,
+                width: 75.74766169217855,
+                height: 98.7888880125001,
               }}
               paths={[
                 {
@@ -842,7 +806,7 @@ export default function CadastroUsuario2(props) {
               right="2.38%"
               transformOrigin="top left"
               transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector39885815")}
+              {...getOverrideProps(overrides, "Vector38512331")}
             ></Icon>
             <Icon
               width="39.73px"
@@ -850,8 +814,8 @@ export default function CadastroUsuario2(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 39.94906591401377,
-                height: 90.86972397827367,
+                width: 39.949065914007406,
+                height: 90.86972397827365,
               }}
               paths={[
                 {
@@ -871,7 +835,7 @@ export default function CadastroUsuario2(props) {
               right="15.79%"
               transformOrigin="top left"
               transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector39885816")}
+              {...getOverrideProps(overrides, "Vector38512332")}
             ></Icon>
             <Icon
               width="48.14px"
@@ -879,8 +843,8 @@ export default function CadastroUsuario2(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 48.2548677901068,
-                height: 48.706556626194015,
+                width: 48.25486779010862,
+                height: 48.70655662619383,
               }}
               paths={[
                 {
@@ -900,7 +864,7 @@ export default function CadastroUsuario2(props) {
               right="13.64%"
               transformOrigin="top left"
               transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector39885817")}
+              {...getOverrideProps(overrides, "Vector38512333")}
             ></Icon>
             <Icon
               width="23.56px"
@@ -908,8 +872,8 @@ export default function CadastroUsuario2(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 26.317420736551867,
-                height: 25.305006233928907,
+                width: 26.317420736552776,
+                height: 25.305006233928793,
               }}
               paths={[
                 {
@@ -929,7 +893,7 @@ export default function CadastroUsuario2(props) {
               right="20.12%"
               transformOrigin="top left"
               transform="rotate(-6.93deg)"
-              {...getOverrideProps(overrides, "Vector39885818")}
+              {...getOverrideProps(overrides, "Vector38512334")}
             ></Icon>
             <Icon
               width="28.44px"
@@ -937,8 +901,8 @@ export default function CadastroUsuario2(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 31.258253384774434,
-                height: 26.628747498883968,
+                width: 31.258253384773525,
+                height: 26.628747498883854,
               }}
               paths={[
                 {
@@ -958,7 +922,7 @@ export default function CadastroUsuario2(props) {
               right="19.68%"
               transformOrigin="top left"
               transform="rotate(-6.93deg)"
-              {...getOverrideProps(overrides, "Vector39885819")}
+              {...getOverrideProps(overrides, "Vector38512335")}
             ></Icon>
             <Icon
               width="7px"
@@ -966,8 +930,8 @@ export default function CadastroUsuario2(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 7.0231588567985455,
-                height: 9.67491275333714,
+                width: 7.0231588568003644,
+                height: 9.674912753337281,
               }}
               paths={[
                 {
@@ -987,7 +951,7 @@ export default function CadastroUsuario2(props) {
               right="20.14%"
               transformOrigin="top left"
               transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector39885820")}
+              {...getOverrideProps(overrides, "Vector38512336")}
             ></Icon>
             <View
               padding="0px 0px 0px 0px"
@@ -1004,7 +968,7 @@ export default function CadastroUsuario2(props) {
               right="21.36%"
               transformOrigin="top left"
               transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Group39885821")}
+              {...getOverrideProps(overrides, "Group38512337")}
             >
               <Icon
                 width="19.54px"
@@ -1013,7 +977,7 @@ export default function CadastroUsuario2(props) {
                   minX: 0,
                   minY: 0,
                   width: 19.57532119564712,
-                  height: 14.192388915007086,
+                  height: 14.192388915007172,
                 }}
                 paths={[
                   {
@@ -1033,7 +997,7 @@ export default function CadastroUsuario2(props) {
                 right="70.42%"
                 transformOrigin="top left"
                 transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector39885822")}
+                {...getOverrideProps(overrides, "Vector38512338")}
               ></Icon>
               <Icon
                 width="54.83px"
@@ -1042,7 +1006,7 @@ export default function CadastroUsuario2(props) {
                   minX: 0,
                   minY: 0,
                   width: 54.90738493527897,
-                  height: 32.834745007302445,
+                  height: 32.83474500730259,
                 }}
                 paths={[
                   {
@@ -1062,7 +1026,7 @@ export default function CadastroUsuario2(props) {
                 right="0%"
                 transformOrigin="top left"
                 transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector39885823")}
+                {...getOverrideProps(overrides, "Vector38512339")}
               ></Icon>
             </View>
             <Icon
@@ -1071,7 +1035,7 @@ export default function CadastroUsuario2(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 12.584574867796618,
+                width: 12.584574867797528,
                 height: 11.860336605176599,
               }}
               paths={[
@@ -1092,7 +1056,7 @@ export default function CadastroUsuario2(props) {
               right="38.94%"
               transformOrigin="top left"
               transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector39885824")}
+              {...getOverrideProps(overrides, "Vector38512340")}
             ></Icon>
             <Icon
               width="12.35px"
@@ -1100,8 +1064,8 @@ export default function CadastroUsuario2(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 19.552632424645708,
-                height: 26.72270832630511,
+                width: 19.55263242464389,
+                height: 26.72270832630531,
               }}
               paths={[
                 {
@@ -1121,7 +1085,7 @@ export default function CadastroUsuario2(props) {
               right="78.09%"
               transformOrigin="top left"
               transform="rotate(15.26deg)"
-              {...getOverrideProps(overrides, "Vector39885826")}
+              {...getOverrideProps(overrides, "Vector38512341")}
             ></Icon>
             <View
               padding="0px 0px 0px 0px"
@@ -1138,7 +1102,7 @@ export default function CadastroUsuario2(props) {
               right="88%"
               transformOrigin="top left"
               transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Group39885827")}
+              {...getOverrideProps(overrides, "Group38512342")}
             >
               <Icon
                 width="10.36px"
@@ -1146,8 +1110,8 @@ export default function CadastroUsuario2(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 10.41507252305746,
-                  height: 24.880172408601993,
+                  width: 10.41507252306019,
+                  height: 24.880172408602142,
                 }}
                 paths={[
                   {
@@ -1167,7 +1131,7 @@ export default function CadastroUsuario2(props) {
                 right="53.92%"
                 transformOrigin="top left"
                 transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector39885828")}
+                {...getOverrideProps(overrides, "Vector38512343")}
               ></Icon>
               <Icon
                 width="26px"
@@ -1175,8 +1139,8 @@ export default function CadastroUsuario2(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 26.02342496550409,
-                  height: 11.340714047739766,
+                  width: 26.023424965499544,
+                  height: 11.340714047739581,
                 }}
                 paths={[
                   {
@@ -1196,7 +1160,7 @@ export default function CadastroUsuario2(props) {
                 right="0%"
                 transformOrigin="top left"
                 transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector39885829")}
+                {...getOverrideProps(overrides, "Vector38512344")}
               ></Icon>
             </View>
             <View
@@ -1214,7 +1178,7 @@ export default function CadastroUsuario2(props) {
               right="76.47%"
               transformOrigin="top left"
               transform="rotate(-3.75deg)"
-              {...getOverrideProps(overrides, "Group39885830")}
+              {...getOverrideProps(overrides, "Group38512345")}
             >
               <Icon
                 width="16.52px"
@@ -1222,7 +1186,7 @@ export default function CadastroUsuario2(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 22.73579365920159,
+                  width: 22.73579365920068,
                   height: 28.82171905581299,
                 }}
                 paths={[
@@ -1243,7 +1207,7 @@ export default function CadastroUsuario2(props) {
                 right="43.84%"
                 transformOrigin="top left"
                 transform="rotate(-10.74deg)"
-                {...getOverrideProps(overrides, "Vector39885831")}
+                {...getOverrideProps(overrides, "Vector38512346")}
               ></Icon>
               <Icon
                 width="25.5px"
@@ -1252,7 +1216,7 @@ export default function CadastroUsuario2(props) {
                   minX: 0,
                   minY: 0,
                   width: 28.111516429911717,
-                  height: 19.218985017625982,
+                  height: 19.218985017625755,
                 }}
                 paths={[
                   {
@@ -1272,7 +1236,7 @@ export default function CadastroUsuario2(props) {
                 right="6.79%"
                 transformOrigin="top left"
                 transform="rotate(-9.16deg)"
-                {...getOverrideProps(overrides, "Vector39885832")}
+                {...getOverrideProps(overrides, "Vector38512347")}
               ></Icon>
             </View>
             <View
@@ -1290,7 +1254,7 @@ export default function CadastroUsuario2(props) {
               right="69.34%"
               transformOrigin="top left"
               transform="rotate(-84.38deg)"
-              {...getOverrideProps(overrides, "Group39885833")}
+              {...getOverrideProps(overrides, "Group38512348")}
             >
               <Icon
                 width="22.66px"
@@ -1298,8 +1262,8 @@ export default function CadastroUsuario2(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 23.318126039215713,
-                  height: 24.449259668157538,
+                  width: 23.318126039214803,
+                  height: 24.449259668157765,
                 }}
                 paths={[
                   {
@@ -1319,7 +1283,7 @@ export default function CadastroUsuario2(props) {
                 right="0%"
                 transformOrigin="top left"
                 transform="rotate(-0.22deg)"
-                {...getOverrideProps(overrides, "Vector39885834")}
+                {...getOverrideProps(overrides, "Vector38512349")}
               ></Icon>
               <Icon
                 width="37.12px"
@@ -1327,8 +1291,8 @@ export default function CadastroUsuario2(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 43.62519184359553,
-                  height: 40.53595339875483,
+                  width: 43.62519184359189,
+                  height: 40.535953398755225,
                 }}
                 paths={[
                   {
@@ -1348,7 +1312,7 @@ export default function CadastroUsuario2(props) {
                 right="21.78%"
                 transformOrigin="top left"
                 transform="rotate(-0.22deg)"
-                {...getOverrideProps(overrides, "Vector39885835")}
+                {...getOverrideProps(overrides, "Vector38512350")}
               ></Icon>
             </View>
             <Icon
@@ -1357,8 +1321,8 @@ export default function CadastroUsuario2(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 33.56578360986896,
-                height: 25.612399501363143,
+                width: 33.56578360986623,
+                height: 25.612399501363313,
               }}
               paths={[
                 {
@@ -1378,7 +1342,7 @@ export default function CadastroUsuario2(props) {
               right="80.46%"
               transformOrigin="top left"
               transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector39885836")}
+              {...getOverrideProps(overrides, "Vector38512351")}
             ></Icon>
             <Icon
               width="60.14px"
@@ -1386,8 +1350,8 @@ export default function CadastroUsuario2(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 60.38854450974759,
-                height: 105.39330460062729,
+                width: 60.38854450975123,
+                height: 105.39330460062709,
               }}
               paths={[
                 {
@@ -1407,7 +1371,7 @@ export default function CadastroUsuario2(props) {
               right="76.27%"
               transformOrigin="top left"
               transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector39885837")}
+              {...getOverrideProps(overrides, "Vector38512352")}
             ></Icon>
             <Icon
               width="42.61px"
@@ -1415,8 +1379,8 @@ export default function CadastroUsuario2(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 42.71666605913924,
-                height: 44.97628616570728,
+                width: 42.716666059132876,
+                height: 44.97628616570705,
               }}
               paths={[
                 {
@@ -1436,7 +1400,7 @@ export default function CadastroUsuario2(props) {
               right="79.26%"
               transformOrigin="top left"
               transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector39885838")}
+              {...getOverrideProps(overrides, "Vector38512353")}
             ></Icon>
             <View
               padding="0px 0px 0px 0px"
@@ -1453,7 +1417,7 @@ export default function CadastroUsuario2(props) {
               right="79.86%"
               transformOrigin="top left"
               transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Group39885839")}
+              {...getOverrideProps(overrides, "Group38512354")}
             >
               <Icon
                 width="21.26px"
@@ -1461,8 +1425,8 @@ export default function CadastroUsuario2(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 21.312678257003427,
-                  height: 22.714848408909347,
+                  width: 21.312678257002517,
+                  height: 22.714848408909546,
                 }}
                 paths={[
                   {
@@ -1482,7 +1446,7 @@ export default function CadastroUsuario2(props) {
                 right="0%"
                 transformOrigin="top left"
                 transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector39885840")}
+                {...getOverrideProps(overrides, "Vector38512355")}
               ></Icon>
               <Icon
                 width="40.3px"
@@ -1490,8 +1454,8 @@ export default function CadastroUsuario2(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 40.39349750220572,
-                  height: 40.0704793423929,
+                  width: 40.393497502210266,
+                  height: 40.07047934239296,
                 }}
                 paths={[
                   {
@@ -1511,7 +1475,7 @@ export default function CadastroUsuario2(props) {
                 right="13.55%"
                 transformOrigin="top left"
                 transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector39885841")}
+                {...getOverrideProps(overrides, "Vector38512356")}
               ></Icon>
             </View>
             <Icon
@@ -1520,8 +1484,8 @@ export default function CadastroUsuario2(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 31.226575842301827,
-                height: 28.683781834497495,
+                width: 31.2265758422991,
+                height: 28.683781834497324,
               }}
               paths={[
                 {
@@ -1541,7 +1505,7 @@ export default function CadastroUsuario2(props) {
               right="80.32%"
               transformOrigin="top left"
               transform="rotate(15.26deg)"
-              {...getOverrideProps(overrides, "Vector39885842")}
+              {...getOverrideProps(overrides, "Vector38512357")}
             ></Icon>
             <Icon
               width="46.35px"
@@ -1549,8 +1513,8 @@ export default function CadastroUsuario2(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 59.95450429800985,
-                height: 59.1245668873903,
+                width: 59.95450429800803,
+                height: 59.12456688739019,
               }}
               paths={[
                 {
@@ -1570,7 +1534,7 @@ export default function CadastroUsuario2(props) {
               right="79.43%"
               transformOrigin="top left"
               transform="rotate(15.26deg)"
-              {...getOverrideProps(overrides, "Vector39885843")}
+              {...getOverrideProps(overrides, "Vector38512358")}
             ></Icon>
             <Icon
               width="0.4px"
@@ -1578,8 +1542,8 @@ export default function CadastroUsuario2(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 0.3959227842860855,
-                height: 0.259034301318934,
+                width: 0.395922784292452,
+                height: 0.2590343013187919,
               }}
               paths={[
                 {
@@ -1599,7 +1563,7 @@ export default function CadastroUsuario2(props) {
               right="85.31%"
               transformOrigin="top left"
               transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector39885844")}
+              {...getOverrideProps(overrides, "Vector38512359")}
             ></Icon>
             <Icon
               width="32.84px"
@@ -1607,8 +1571,8 @@ export default function CadastroUsuario2(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 32.93439510366443,
-                height: 41.078437179858156,
+                width: 32.93439510366261,
+                height: 41.078437179858085,
               }}
               paths={[]}
               display="block"
@@ -1622,7 +1586,7 @@ export default function CadastroUsuario2(props) {
               right="64.02%"
               transformOrigin="top left"
               transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector39885845")}
+              {...getOverrideProps(overrides, "Vector38512360")}
             ></Icon>
             <Icon
               width="3.57px"
@@ -1630,7 +1594,7 @@ export default function CadastroUsuario2(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 6.016208587752772,
+                width: 6.016208587753681,
                 height: 8.831571060411534,
               }}
               paths={[
@@ -1651,7 +1615,7 @@ export default function CadastroUsuario2(props) {
               right="86.2%"
               transformOrigin="top left"
               transform="rotate(15.26deg)"
-              {...getOverrideProps(overrides, "Vector39885846")}
+              {...getOverrideProps(overrides, "Vector38512361")}
             ></Icon>
             <Icon
               width="7.71px"
@@ -1659,7 +1623,7 @@ export default function CadastroUsuario2(props) {
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 9.247850503794325,
+                width: 9.247850503792506,
                 height: 7.612055484124994,
               }}
               paths={[
@@ -1680,7 +1644,7 @@ export default function CadastroUsuario2(props) {
               right="87.23%"
               transformOrigin="top left"
               transform="rotate(15.26deg)"
-              {...getOverrideProps(overrides, "Vector39885847")}
+              {...getOverrideProps(overrides, "Vector38512362")}
             ></Icon>
             <View
               padding="0px 0px 0px 0px"
@@ -1697,7 +1661,7 @@ export default function CadastroUsuario2(props) {
               right="62.36%"
               transformOrigin="top left"
               transform="rotate(-130.9deg)"
-              {...getOverrideProps(overrides, "Group39885848")}
+              {...getOverrideProps(overrides, "Group38512363")}
             >
               <Icon
                 width="26.54px"
@@ -1705,7 +1669,7 @@ export default function CadastroUsuario2(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 43.50166224397253,
+                  width: 43.50166224397708,
                   height: 39.177237234938275,
                 }}
                 paths={[
@@ -1726,7 +1690,7 @@ export default function CadastroUsuario2(props) {
                 right="0.08%"
                 transformOrigin="top left"
                 transform="rotate(0.04deg)"
-                {...getOverrideProps(overrides, "Vector39885849")}
+                {...getOverrideProps(overrides, "Vector38512364")}
               ></Icon>
               <Icon
                 width="23.18px"
@@ -1734,8 +1698,8 @@ export default function CadastroUsuario2(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 37.76469154970982,
-                  height: 34.04915830776554,
+                  width: 37.76469154971164,
+                  height: 34.049158307765424,
                 }}
                 paths={[
                   {
@@ -1755,7 +1719,7 @@ export default function CadastroUsuario2(props) {
                 right="5.53%"
                 transformOrigin="top left"
                 transform="rotate(0.04deg)"
-                {...getOverrideProps(overrides, "Vector39885850")}
+                {...getOverrideProps(overrides, "Vector38512365")}
               ></Icon>
               <Icon
                 width="8.11px"
@@ -1763,8 +1727,8 @@ export default function CadastroUsuario2(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 13.99295935768896,
-                  height: 12.480032890624443,
+                  width: 13.992959357684413,
+                  height: 12.480032890624386,
                 }}
                 paths={[
                   {
@@ -1784,7 +1748,7 @@ export default function CadastroUsuario2(props) {
                 right="50.53%"
                 transformOrigin="top left"
                 transform="rotate(0.04deg)"
-                {...getOverrideProps(overrides, "Vector39885851")}
+                {...getOverrideProps(overrides, "Vector38512366")}
               ></Icon>
               <Icon
                 width="6.02px"
@@ -1792,8 +1756,8 @@ export default function CadastroUsuario2(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 11.207330043958791,
-                  height: 9.862491358674106,
+                  width: 11.20733004396061,
+                  height: 9.86249135867422,
                 }}
                 paths={[
                   {
@@ -1813,7 +1777,7 @@ export default function CadastroUsuario2(props) {
                 right="42.33%"
                 transformOrigin="top left"
                 transform="rotate(0.04deg)"
-                {...getOverrideProps(overrides, "Vector39885852")}
+                {...getOverrideProps(overrides, "Vector38512367")}
               ></Icon>
               <Icon
                 width="5.42px"
@@ -1821,8 +1785,8 @@ export default function CadastroUsuario2(props) {
                 viewBox={{
                   minX: 0,
                   minY: 0,
-                  width: 11.42257579966099,
-                  height: 9.847197581410455,
+                  width: 11.422575799659171,
+                  height: 9.847197581410427,
                 }}
                 paths={[
                   {
@@ -1842,7 +1806,7 @@ export default function CadastroUsuario2(props) {
                 right="30%"
                 transformOrigin="top left"
                 transform="rotate(0.04deg)"
-                {...getOverrideProps(overrides, "Vector39885853")}
+                {...getOverrideProps(overrides, "Vector38512368")}
               ></Icon>
             </View>
           </View>
@@ -1852,8 +1816,8 @@ export default function CadastroUsuario2(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 10.721618284347642,
-              height: 11.863027764483377,
+              width: 10.721618284345823,
+              height: 11.863027764483604,
             }}
             paths={[
               {
@@ -1871,7 +1835,7 @@ export default function CadastroUsuario2(props) {
             left="323.04px"
             transformOrigin="top left"
             transform="rotate(0deg)"
-            {...getOverrideProps(overrides, "Ellipse 10039885854")}
+            {...getOverrideProps(overrides, "Ellipse 10038512369")}
           ></Icon>
           <Icon
             width="10.69px"
@@ -1879,8 +1843,8 @@ export default function CadastroUsuario2(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 10.721618284347642,
-              height: 11.863027764483377,
+              width: 10.721618284345823,
+              height: 11.863027764483604,
             }}
             paths={[
               {
@@ -1898,65 +1862,23 @@ export default function CadastroUsuario2(props) {
             left="344.43px"
             transformOrigin="top left"
             transform="rotate(0deg)"
-            {...getOverrideProps(overrides, "Ellipse 10039885855")}
+            {...getOverrideProps(overrides, "Ellipse 10038512370")}
           ></Icon>
-          <Button
-            width="119.05px"
-            height="43.4px"
-            position="absolute"
-            borderRadius="10px"
-            top="507.43px"
-            left="373.4px"
-            transformOrigin="top left"
-            transform="rotate(0deg)"
-            backgroundColor="rgba(0,0,0,1)"
-            size="default"
-            isDisabled={false}
-            variation="primary"
-            children="Cadastrar-se"
-            {...getOverrideProps(overrides, "Button39885858")}
-          ></Button>
-          <Button
-            width="119.05px"
-            height="43.4px"
-            position="absolute"
-            border="1px SOLID rgba(0,0,0,1)"
-            borderRadius="10px"
-            top="506.5px"
-            left="171.52px"
-            transformOrigin="top left"
-            transform="rotate(0deg)"
-            size="default"
-            isDisabled={false}
-            variation="primary"
-            children="Voltar"
-            {...getOverrideProps(overrides, "Button39885859")}
-          ></Button>
-          <Text
-            fontFamily="Poppins"
-            fontSize="16px"
-            fontWeight="700"
-            color="rgba(255,255,255,1)"
-            lineHeight="24px"
-            textAlign="left"
-            display="block"
-            direction="column"
-            justifyContent="unset"
-            width="77.25px"
-            height="18.94px"
-            gap="unset"
-            alignItems="unset"
-            position="absolute"
-            top="calc(50% - 9.47px - -103.36px)"
-            left="398.93px"
-            transformOrigin="top left"
-            transform="rotate(0deg)"
-            padding="0px 0px 0px 0px"
-            whiteSpace="pre-wrap"
-            children="Continuar"
-            {...getOverrideProps(overrides, "label")}
-          ></Text>
         </View>
+        <PhoneNumberField
+          width="416px"
+          height="unset"
+          label="Telefone"
+          placeholder="Insira seu número"
+          position="absolute"
+          top="280px"
+          left="631px"
+          size="default"
+          isDisabled={false}
+          labelHidden={false}
+          variation="default"
+          {...getOverrideProps(overrides, "PhoneNumberField")}
+        ></PhoneNumberField>
       </View>
       <Image
         width="20.41%"
@@ -1977,6 +1899,72 @@ export default function CadastroUsuario2(props) {
           "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"
         )}
       ></Image>
+      <PasswordField
+        width="416px"
+        height="unset"
+        label="Endereço"
+        placeholder="CEP"
+        position="absolute"
+        top="312px"
+        left="798px"
+        size="default"
+        isDisabled={false}
+        labelHidden={false}
+        variation="default"
+        hideShowPassword={true}
+        {...getOverrideProps(overrides, "PasswordField")}
+      ></PasswordField>
+      <CheckboxField
+        width="743px"
+        height="unset"
+        label="Li e aceito as Condições Legais e a Política de Privacidade.   "
+        position="absolute"
+        top="548px"
+        left="646px"
+        size="large"
+        defaultChecked={false}
+        isDisabled={false}
+        labelPosition="end"
+        {...getOverrideProps(overrides, "CheckboxField38545613")}
+      ></CheckboxField>
+      <CheckboxField
+        width="862px"
+        height="unset"
+        label="Autorizo a Conecta+ a enviar comunicações sobre produtos, serviços."
+        position="absolute"
+        top="596px"
+        left="488px"
+        size="large"
+        defaultChecked={false}
+        isDisabled={false}
+        labelPosition="end"
+        {...getOverrideProps(overrides, "CheckboxField38545622")}
+      ></CheckboxField>
+      <Button
+        width="102px"
+        height="unset"
+        position="absolute"
+        top="671px"
+        left="853px"
+        size="default"
+        isDisabled={false}
+        variation="default"
+        children="Voltar"
+        {...getOverrideProps(overrides, "Button38545630")}
+      ></Button>
+      <Button
+        width="100px"
+        height="unset"
+        position="absolute"
+        top="672px"
+        left="1052px"
+        backgroundColor="rgba(0,0,0,1)"
+        size="default"
+        isDisabled={false}
+        variation="primary"
+        children="Continuar"
+        {...getOverrideProps(overrides, "Button38545631")}
+      ></Button>
     </View>
   );
 }

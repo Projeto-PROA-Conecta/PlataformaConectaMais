@@ -381,7 +381,7 @@ export default createTheme({
           borderColor: { value: "transparent" },
           borderWidth: { value: "{borderWidths.small.value}" },
           borderStyle: { value: "solid" },
-          backgroundColor: { value: "{colors.brand.primary.80.value}" },
+          backgroundColor: { value: "hsl(193, 95%, 30%)" },
           color: { value: "{colors.font.inverse.value}" },
           _disabled: {
             borderColor: { value: "transparent" },
@@ -1996,9 +1996,9 @@ export default createTheme({
         20: { value: "hsl(30, 75%, 85%)" },
         40: { value: "hsl(30, 75%, 75%)" },
         60: { value: "hsl(30, 50%, 50%)" },
-        80: { value: "hsl(30, 95%, 30%)" },
+        80: { value: "hsl(45, 80%, 58%)" },
         90: { value: "hsl(30, 100%, 20%)" },
-        100: { value: "hsl(30, 100%, 15%)" },
+        100: { value: "hsl(0, 0%, 0%)" },
       },
       yellow: {
         10: { value: "hsl(60, 75%, 95%)" },

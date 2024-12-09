@@ -33,7 +33,7 @@ export default function CadastroUsuario1(props) {
       {...rest}
     >
       <Image
-        width="1519px"
+        width="100vw"
         height="1117px"
         display="block"
         gap="unset"
@@ -188,30 +188,13 @@ export default function CadastroUsuario1(props) {
             children="Pronto"
             {...getOverrideProps(overrides, "Pronto")}
           ></Text>
-          <PasswordField
-            width="262px"
-            height="111px"
-            label="Senha"
-            placeholder="Crie uma senha"
-            position="absolute"
-            top="66.97%"
-            bottom="16.51%"
-            left="15.14%"
-            right="38.68%"
-            size="large"
-            isDisabled={false}
-            labelHidden={false}
-            variation="default"
-            hideShowPassword={false}
-            {...getOverrideProps(overrides, "PasswordField")}
-          ></PasswordField>
           <Text
             fontFamily="Poppins"
             fontSize="20px"
             fontWeight="700"
             color="rgba(0,0,0,1)"
             lineHeight="30px"
-            textAlign="left"
+            textAlign="center"
             display="block"
             direction="column"
             justifyContent="unset"
@@ -220,31 +203,13 @@ export default function CadastroUsuario1(props) {
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="11.31%"
-            bottom="85.86%"
-            left="35.06%"
-            right="35.15%"
+            top="calc(50% - 9.5px - 250.46px)"
+            left="calc(50% - 84.5px - -3.74px)"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="Crie sua conta "
             {...getOverrideProps(overrides, "Crie sua conta")}
           ></Text>
-          <TextField
-            width="212px"
-            height="56px"
-            label="CPF"
-            placeholder="Insira seu CPF"
-            position="absolute"
-            top="54.17%"
-            bottom="37.49%"
-            left="15.14%"
-            right="47.49%"
-            size="large"
-            isDisabled={false}
-            labelHidden={false}
-            variation="default"
-            {...getOverrideProps(overrides, "TextField40191512")}
-          ></TextField>
         </View>
         <Icon
           width="13.96px"
@@ -271,7 +236,7 @@ export default function CadastroUsuario1(props) {
           bottom="93.75%"
           left="71.92%"
           right="26.78%"
-          {...getOverrideProps(overrides, "Ellipse 10039885530")}
+          {...getOverrideProps(overrides, "Ellipse 10038512153")}
         ></Icon>
         <Icon
           width="13.96px"
@@ -298,7 +263,7 @@ export default function CadastroUsuario1(props) {
           bottom="93.75%"
           left="74.07%"
           right="24.63%"
-          {...getOverrideProps(overrides, "Ellipse 10039885531")}
+          {...getOverrideProps(overrides, "Ellipse 10038512154")}
         ></Icon>
         <Text
           fontFamily="Montserrat"
@@ -348,69 +313,17 @@ export default function CadastroUsuario1(props) {
           children=" Se juntar a nós "
           {...getOverrideProps(overrides, "Se juntar a n\u00F3s")}
         ></Text>
-        <TextField
-          width="395.83px"
-          height="65.51px"
-          label="Nome completo"
-          placeholder="Insira seu nome completo"
-          position="absolute"
-          top="21.88%"
-          bottom="68.37%"
-          left="55.03%"
-          right="7.99%"
-          size="large"
-          isDisabled={false}
-          labelHidden={false}
-          variation="default"
-          {...getOverrideProps(overrides, "TextField40191407")}
-        ></TextField>
-        <TextField
-          width="395.83px"
-          height="65.51px"
-          label="Email"
-          placeholder="Insira seu email"
-          position="absolute"
-          top="38.4%"
-          bottom="51.85%"
-          left="55.03%"
-          right="7.99%"
-          size="large"
-          isDisabled={false}
-          labelHidden={false}
-          variation="default"
-          {...getOverrideProps(overrides, "TextField40191415")}
-        ></TextField>
         <Button
-          width="122.36px"
-          height="41.15px"
+          width="102px"
+          height="unset"
           position="absolute"
-          borderRadius="10px"
-          top="88.7%"
-          bottom="5.17%"
-          left="80.62%"
-          right="7.94%"
-          backgroundColor="rgba(0,0,0,1)"
+          top="588px"
+          left="578px"
           size="default"
           isDisabled={false}
-          variation="primary"
-          children="Proxima"
-          {...getOverrideProps(overrides, "Button39885537")}
-        ></Button>
-        <Button
-          width="121.54px"
-          height="41.15px"
-          position="absolute"
-          border="1px SOLID rgba(0,0,0,1)"
-          borderRadius="10px"
-          top="88.75%"
-          bottom="5.12%"
-          left="56.12%"
-          right="32.53%"
-          size="default"
-          isDisabled={false}
-          variation="primary"
+          variation="default"
           children="Voltar"
-          {...getOverrideProps(overrides, "Button39885538")}
+          {...getOverrideProps(overrides, "Button38545543")}
         ></Button>
       </View>
       <Image
@@ -432,6 +345,77 @@ export default function CadastroUsuario1(props) {
           "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"
         )}
       ></Image>
+      <TextField
+        width="416px"
+        height="72px"
+        label="Nome completo"
+        placeholder="Insira seu nome completo"
+        position="absolute"
+        top="371px"
+        left="846px"
+        size="default"
+        isDisabled={false}
+        labelHidden={false}
+        variation="default"
+        {...getOverrideProps(overrides, "TextField38545488")}
+      ></TextField>
+      <TextField
+        width="416px"
+        height="72px"
+        label="Email"
+        placeholder="Insira seu email"
+        position="absolute"
+        top="468px"
+        left="846px"
+        size="default"
+        isDisabled={false}
+        labelHidden={false}
+        variation="default"
+        {...getOverrideProps(overrides, "TextField38545514")}
+      ></TextField>
+      <PasswordField
+        width="416px"
+        height="73px"
+        label="Senha"
+        placeholder="Insira sua senha"
+        position="absolute"
+        top="662px"
+        left="846px"
+        size="default"
+        isDisabled={false}
+        labelHidden={false}
+        variation="default"
+        hideShowPassword={false}
+        {...getOverrideProps(overrides, "PasswordField38545489")}
+      ></PasswordField>
+      <PasswordField
+        width="416px"
+        height="unset"
+        label="CPF"
+        placeholder="Insira seu CPF"
+        position="absolute"
+        top="565px"
+        left="846px"
+        size="default"
+        isDisabled={false}
+        labelHidden={false}
+        variation="default"
+        hideShowPassword={true}
+        {...getOverrideProps(overrides, "PasswordField38545521")}
+      ></PasswordField>
+      <Button
+        width="100px"
+        height="unset"
+        position="absolute"
+        top="812px"
+        left="1162px"
+        backgroundColor="rgba(0,0,0,1)"
+        size="default"
+        isDisabled={false}
+        variation="primary"
+        children="Próxima"
+        {...getOverrideProps(overrides, "Button38545552")}
+      ></Button>
     </View>
   );
 }

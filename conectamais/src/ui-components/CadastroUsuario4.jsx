@@ -62,8 +62,8 @@ export default function CadastroUsuario4(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="568px"
-        left="175px"
+        top="200px"
+        left="455px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
         children="Queremos conhecer&#x2028;mais um pouco sobre você"
@@ -81,8 +81,8 @@ export default function CadastroUsuario4(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="178px"
-        left="761px"
+        top="336px"
+        left="451px"
         {...getOverrideProps(overrides, "Group 4")}
       >
         <View
@@ -100,56 +100,6 @@ export default function CadastroUsuario4(props) {
           backgroundColor="rgba(255,255,255,1)"
           {...getOverrideProps(overrides, "Rectangle 1")}
         ></View>
-        <Text
-          fontFamily="Montserrat"
-          fontSize="44px"
-          fontWeight="700"
-          color="rgba(0,0,0,1)"
-          lineHeight="53.6359977722168px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="372px"
-          height="59px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="1px"
-          left="156px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Questionário"
-          {...getOverrideProps(overrides, "Question\u00E1rio")}
-        ></Text>
-        <Icon
-          width="328.76px"
-          height="0px"
-          viewBox={{
-            minX: 0,
-            minY: 0,
-            width: 328.75904733195057,
-            height: 0.7669534289045714,
-          }}
-          paths={[
-            {
-              d: "M0 0L328.76 0L328.76 -1L0 -1L0 0Z",
-              stroke: "rgba(0,0,0,1)",
-              fillRule: "nonzero",
-              strokeWidth: 1,
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="58.82px"
-          left="147.12px"
-          transformOrigin="top left"
-          transform="rotate(0.13deg)"
-          {...getOverrideProps(overrides, "Line 71")}
-        ></Icon>
         <Icon
           width="17px"
           height="18px"
@@ -166,8 +116,8 @@ export default function CadastroUsuario4(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="82.93px"
-          left="249px"
+          top="29px"
+          left="246px"
           {...getOverrideProps(overrides, "Ellipse 108")}
         ></Icon>
         <Icon
@@ -186,8 +136,8 @@ export default function CadastroUsuario4(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="82.93px"
-          left="303px"
+          top="29px"
+          left="300px"
           {...getOverrideProps(overrides, "Ellipse 109")}
         ></Icon>
         <Icon
@@ -206,80 +156,10 @@ export default function CadastroUsuario4(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="82.93px"
-          left="358px"
+          top="29px"
+          left="355px"
           {...getOverrideProps(overrides, "Ellipse 110")}
         ></Icon>
-        <SelectField
-          width="552px"
-          height="88px"
-          label="Enfrenta dificuldades em algum dos seguintes aspectos? (Selecione todas que se aplicam)"
-          placeholder="Sensorial"
-          position="absolute"
-          top="135px"
-          left="35px"
-          size="large"
-          isDisabled={false}
-          labelHidden={false}
-          variation="default"
-          {...getOverrideProps(overrides, "SelectField4035798")}
-        ></SelectField>
-        <SelectField
-          width="552px"
-          height="88px"
-          label="Se sim, quais foram as maiores dificuldades enfrentadas no seu ambiente de trabalho anterior?"
-          placeholder="Falta de recursos"
-          position="absolute"
-          top="441px"
-          left="35px"
-          size="large"
-          isDisabled={false}
-          labelHidden={false}
-          variation="default"
-          {...getOverrideProps(overrides, "SelectField4035828")}
-        ></SelectField>
-        <SelectField
-          width="552px"
-          height="65px"
-          label="Qual ambiente de trabalho você prefere?"
-          placeholder="Presencial"
-          position="absolute"
-          top="252px"
-          left="35px"
-          size="large"
-          isDisabled={false}
-          labelHidden={false}
-          variation="default"
-          {...getOverrideProps(overrides, "SelectField4035808")}
-        ></SelectField>
-        <SelectField
-          width="552px"
-          height="88px"
-          label="Quais são suas principais habilidades profissionais? (Selecione todas que se aplicam)"
-          placeholder="Criatividade"
-          position="absolute"
-          top="558px"
-          left="35px"
-          size="large"
-          isDisabled={false}
-          labelHidden={false}
-          variation="default"
-          {...getOverrideProps(overrides, "SelectField4035838")}
-        ></SelectField>
-        <SelectField
-          width="551px"
-          height="66px"
-          label="Já teve experiências de trabalho ou estágio?"
-          placeholder="Sim"
-          position="absolute"
-          top="346px"
-          left="35px"
-          size="large"
-          isDisabled={false}
-          labelHidden={false}
-          variation="default"
-          {...getOverrideProps(overrides, "SelectField4035818")}
-        ></SelectField>
         <Text
           fontFamily="Montserrat"
           fontSize="32px"
@@ -341,7 +221,7 @@ export default function CadastroUsuario4(props) {
             bottom="44.77%"
             left="0%"
             right="0%"
-            {...getOverrideProps(overrides, "Vector39885612")}
+            {...getOverrideProps(overrides, "Vector38512196")}
           ></Icon>
           <View
             padding="0px 0px 0px 0px"
@@ -356,7 +236,7 @@ export default function CadastroUsuario4(props) {
             bottom="0%"
             left="14.26%"
             right="57.35%"
-            {...getOverrideProps(overrides, "Group39885613")}
+            {...getOverrideProps(overrides, "Group38512197")}
           >
             <Icon
               width="7.78px"
@@ -383,7 +263,7 @@ export default function CadastroUsuario4(props) {
               bottom="87.66%"
               left="52.15%"
               right="21.26%"
-              {...getOverrideProps(overrides, "Vector39885614")}
+              {...getOverrideProps(overrides, "Vector38512198")}
             ></Icon>
             <Icon
               width="16.77px"
@@ -410,7 +290,7 @@ export default function CadastroUsuario4(props) {
               bottom="41.9%"
               left="42.62%"
               right="0.01%"
-              {...getOverrideProps(overrides, "Vector39885615")}
+              {...getOverrideProps(overrides, "Vector38512199")}
             ></Icon>
             <Icon
               width="9.87px"
@@ -437,7 +317,7 @@ export default function CadastroUsuario4(props) {
               bottom="87.29%"
               left="50.27%"
               right="15.97%"
-              {...getOverrideProps(overrides, "Vector39885616")}
+              {...getOverrideProps(overrides, "Vector38512200")}
             ></Icon>
             <View
               padding="0px 0px 0px 0px"
@@ -452,7 +332,7 @@ export default function CadastroUsuario4(props) {
               bottom="60.33%"
               left="0%"
               right="29.39%"
-              {...getOverrideProps(overrides, "Group39885617")}
+              {...getOverrideProps(overrides, "Group38512201")}
             >
               <Icon
                 width="8.16px"
@@ -509,7 +389,7 @@ export default function CadastroUsuario4(props) {
                 bottom="0%"
                 left="13.27%"
                 right="0%"
-                {...getOverrideProps(overrides, "Vector39885619")}
+                {...getOverrideProps(overrides, "Vector38512203")}
               ></Icon>
             </View>
             <View
@@ -525,7 +405,7 @@ export default function CadastroUsuario4(props) {
               bottom="0%"
               left="4.89%"
               right="11.94%"
-              {...getOverrideProps(overrides, "Group39885620")}
+              {...getOverrideProps(overrides, "Group38512204")}
             >
               <Icon
                 width="4.38px"
@@ -552,7 +432,7 @@ export default function CadastroUsuario4(props) {
                 bottom="10.71%"
                 left="23.76%"
                 right="58.24%"
-                {...getOverrideProps(overrides, "Vector39885621")}
+                {...getOverrideProps(overrides, "Vector38512205")}
               ></Icon>
               <Icon
                 width="3.44px"
@@ -579,7 +459,7 @@ export default function CadastroUsuario4(props) {
                 bottom="67.5%"
                 left="14.71%"
                 right="71.16%"
-                {...getOverrideProps(overrides, "Vector39885622")}
+                {...getOverrideProps(overrides, "Vector38512206")}
               ></Icon>
               <Icon
                 width="14.03px"
@@ -606,7 +486,7 @@ export default function CadastroUsuario4(props) {
                 bottom="63.05%"
                 left="42.3%"
                 right="0%"
-                {...getOverrideProps(overrides, "Vector39885623")}
+                {...getOverrideProps(overrides, "Vector38512207")}
               ></Icon>
               <Icon
                 width="17.09px"
@@ -633,7 +513,7 @@ export default function CadastroUsuario4(props) {
                 bottom="16.42%"
                 left="28.61%"
                 right="1.14%"
-                {...getOverrideProps(overrides, "Vector39885624")}
+                {...getOverrideProps(overrides, "Vector38512208")}
               ></Icon>
               <Icon
                 width="10.3px"
@@ -660,7 +540,7 @@ export default function CadastroUsuario4(props) {
                 bottom="70.54%"
                 left="15.79%"
                 right="41.88%"
-                {...getOverrideProps(overrides, "Vector39885625")}
+                {...getOverrideProps(overrides, "Vector38512209")}
               ></Icon>
               <Icon
                 width="8.99px"
@@ -687,7 +567,7 @@ export default function CadastroUsuario4(props) {
                 bottom="57.82%"
                 left="0%"
                 right="63.05%"
-                {...getOverrideProps(overrides, "Vector39885626")}
+                {...getOverrideProps(overrides, "Vector38512210")}
               ></Icon>
               <Icon
                 width="8.99px"
@@ -714,7 +594,7 @@ export default function CadastroUsuario4(props) {
                 bottom="0%"
                 left="6.42%"
                 right="56.63%"
-                {...getOverrideProps(overrides, "Vector39885627")}
+                {...getOverrideProps(overrides, "Vector38512211")}
               ></Icon>
             </View>
             <View
@@ -730,7 +610,7 @@ export default function CadastroUsuario4(props) {
               bottom="37.43%"
               left="73.73%"
               right="0%"
-              {...getOverrideProps(overrides, "Group39885628")}
+              {...getOverrideProps(overrides, "Group38512212")}
             >
               <Icon
                 width="4.89px"
@@ -787,7 +667,7 @@ export default function CadastroUsuario4(props) {
                 bottom="14.69%"
                 left="6.23%"
                 right="0%"
-                {...getOverrideProps(overrides, "Vector39885630")}
+                {...getOverrideProps(overrides, "Vector38512214")}
               ></Icon>
             </View>
           </View>
@@ -804,7 +684,7 @@ export default function CadastroUsuario4(props) {
             bottom="44.53%"
             left="4.17%"
             right="83.7%"
-            {...getOverrideProps(overrides, "Group39885631")}
+            {...getOverrideProps(overrides, "Group38512215")}
           >
             <Icon
               width="9.44px"
@@ -831,7 +711,7 @@ export default function CadastroUsuario4(props) {
               bottom="0.99%"
               left="24.44%"
               right="0%"
-              {...getOverrideProps(overrides, "Vector39885632")}
+              {...getOverrideProps(overrides, "Vector38512216")}
             ></Icon>
             <Icon
               width="3.39px"
@@ -858,7 +738,7 @@ export default function CadastroUsuario4(props) {
               bottom="0%"
               left="0%"
               right="72.88%"
-              {...getOverrideProps(overrides, "Vector39885633")}
+              {...getOverrideProps(overrides, "Vector38512217")}
             ></Icon>
             <Icon
               width="2.88px"
@@ -885,7 +765,7 @@ export default function CadastroUsuario4(props) {
               bottom="39.37%"
               left="31.51%"
               right="45.44%"
-              {...getOverrideProps(overrides, "Vector39885634")}
+              {...getOverrideProps(overrides, "Vector38512218")}
             ></Icon>
             <Icon
               width="2.41px"
@@ -912,7 +792,7 @@ export default function CadastroUsuario4(props) {
               bottom="59.8%"
               left="20.06%"
               right="60.62%"
-              {...getOverrideProps(overrides, "Vector39885635")}
+              {...getOverrideProps(overrides, "Vector38512219")}
             ></Icon>
             <Icon
               width="2.88px"
@@ -939,7 +819,7 @@ export default function CadastroUsuario4(props) {
               bottom="71.35%"
               left="39.96%"
               right="36.98%"
-              {...getOverrideProps(overrides, "Vector39885636")}
+              {...getOverrideProps(overrides, "Vector38512220")}
             ></Icon>
             <Icon
               width="2.3px"
@@ -966,7 +846,7 @@ export default function CadastroUsuario4(props) {
               bottom="0.78%"
               left="24.01%"
               right="57.54%"
-              {...getOverrideProps(overrides, "Vector39885637")}
+              {...getOverrideProps(overrides, "Vector38512221")}
             ></Icon>
             <Icon
               width="2.1px"
@@ -993,7 +873,7 @@ export default function CadastroUsuario4(props) {
               bottom="84.43%"
               left="25.81%"
               right="57.33%"
-              {...getOverrideProps(overrides, "Vector39885638")}
+              {...getOverrideProps(overrides, "Vector38512222")}
             ></Icon>
           </View>
           <Icon
@@ -1021,7 +901,7 @@ export default function CadastroUsuario4(props) {
             bottom="72.28%"
             left="63.29%"
             right="27.96%"
-            {...getOverrideProps(overrides, "Vector39885639")}
+            {...getOverrideProps(overrides, "Vector38512223")}
           ></Icon>
           <View
             padding="0px 0px 0px 0px"
@@ -1036,7 +916,7 @@ export default function CadastroUsuario4(props) {
             bottom="54.28%"
             left="66.68%"
             right="15.57%"
-            {...getOverrideProps(overrides, "Group39885640")}
+            {...getOverrideProps(overrides, "Group38512224")}
           >
             <Icon
               width="7.19px"
@@ -1093,7 +973,7 @@ export default function CadastroUsuario4(props) {
               bottom="10.24%"
               left="0%"
               right="16.35%"
-              {...getOverrideProps(overrides, "Vector39885642")}
+              {...getOverrideProps(overrides, "Vector38512226")}
             ></Icon>
           </View>
           <Icon
@@ -1121,7 +1001,7 @@ export default function CadastroUsuario4(props) {
             bottom="77.59%"
             left="62.43%"
             right="31.96%"
-            {...getOverrideProps(overrides, "Vector39885643")}
+            {...getOverrideProps(overrides, "Vector38512227")}
           ></Icon>
           <Icon
             width="5.78px"
@@ -1148,7 +1028,7 @@ export default function CadastroUsuario4(props) {
             bottom="77.59%"
             left="62.43%"
             right="31.96%"
-            {...getOverrideProps(overrides, "Vector39885644")}
+            {...getOverrideProps(overrides, "Vector38512228")}
           ></Icon>
           <View
             padding="0px 0px 0px 0px"
@@ -1163,7 +1043,7 @@ export default function CadastroUsuario4(props) {
             bottom="42.69%"
             left="54.19%"
             right="38.7%"
-            {...getOverrideProps(overrides, "Group39885645")}
+            {...getOverrideProps(overrides, "Group38512229")}
           >
             <Icon
               width="2.63px"
@@ -1220,7 +1100,7 @@ export default function CadastroUsuario4(props) {
               bottom="18.33%"
               left="0%"
               right="0%"
-              {...getOverrideProps(overrides, "Vector39885647")}
+              {...getOverrideProps(overrides, "Vector38512231")}
             ></Icon>
           </View>
           <Icon
@@ -1248,7 +1128,7 @@ export default function CadastroUsuario4(props) {
             bottom="8.11%"
             left="71.53%"
             right="24.22%"
-            {...getOverrideProps(overrides, "Vector39885648")}
+            {...getOverrideProps(overrides, "Vector38512232")}
           ></Icon>
           <Icon
             width="3.44px"
@@ -1275,7 +1155,7 @@ export default function CadastroUsuario4(props) {
             bottom="46.67%"
             left="74.58%"
             right="22.09%"
-            {...getOverrideProps(overrides, "Vector39885649")}
+            {...getOverrideProps(overrides, "Vector38512233")}
           ></Icon>
           <Icon
             width="17.4px"
@@ -1302,7 +1182,7 @@ export default function CadastroUsuario4(props) {
             bottom="46.6%"
             left="55.77%"
             right="27.34%"
-            {...getOverrideProps(overrides, "Vector39885650")}
+            {...getOverrideProps(overrides, "Vector38512234")}
           ></Icon>
           <Icon
             width="14.03px"
@@ -1329,7 +1209,7 @@ export default function CadastroUsuario4(props) {
             bottom="43.65%"
             left="57.77%"
             right="28.6%"
-            {...getOverrideProps(overrides, "Vector39885651")}
+            {...getOverrideProps(overrides, "Vector38512235")}
           ></Icon>
           <Icon
             width="17.09px"
@@ -1356,7 +1236,7 @@ export default function CadastroUsuario4(props) {
             bottom="11.99%"
             left="58.04%"
             right="25.37%"
-            {...getOverrideProps(overrides, "Vector39885652")}
+            {...getOverrideProps(overrides, "Vector38512236")}
           ></Icon>
           <Icon
             width="10.3px"
@@ -1383,7 +1263,7 @@ export default function CadastroUsuario4(props) {
             bottom="48.74%"
             left="67.66%"
             right="22.34%"
-            {...getOverrideProps(overrides, "Vector39885653")}
+            {...getOverrideProps(overrides, "Vector38512237")}
           ></Icon>
           <Icon
             width="8.99px"
@@ -1410,7 +1290,7 @@ export default function CadastroUsuario4(props) {
             bottom="40.1%"
             left="72.66%"
             right="18.61%"
-            {...getOverrideProps(overrides, "Vector39885654")}
+            {...getOverrideProps(overrides, "Vector38512238")}
           ></Icon>
           <Icon
             width="8.99px"
@@ -1437,7 +1317,7 @@ export default function CadastroUsuario4(props) {
             bottom="0.84%"
             left="71.15%"
             right="20.13%"
-            {...getOverrideProps(overrides, "Vector39885655")}
+            {...getOverrideProps(overrides, "Vector38512239")}
           ></Icon>
           <Icon
             width="6.96px"
@@ -1464,7 +1344,7 @@ export default function CadastroUsuario4(props) {
             bottom="81.53%"
             left="62.31%"
             right="30.93%"
-            {...getOverrideProps(overrides, "Vector39885656")}
+            {...getOverrideProps(overrides, "Vector38512240")}
           ></Icon>
           <Icon
             width="10.32px"
@@ -1491,7 +1371,7 @@ export default function CadastroUsuario4(props) {
             bottom="73.94%"
             left="57.13%"
             right="32.84%"
-            {...getOverrideProps(overrides, "Vector39885657")}
+            {...getOverrideProps(overrides, "Vector38512241")}
           ></Icon>
           <Icon
             width="4.38px"
@@ -1518,7 +1398,7 @@ export default function CadastroUsuario4(props) {
             bottom="8.11%"
             left="35.46%"
             right="60.29%"
-            {...getOverrideProps(overrides, "Vector39885658")}
+            {...getOverrideProps(overrides, "Vector38512242")}
           ></Icon>
           <Icon
             width="14.03px"
@@ -1545,7 +1425,7 @@ export default function CadastroUsuario4(props) {
             bottom="43.65%"
             left="39.84%"
             right="46.54%"
-            {...getOverrideProps(overrides, "Vector39885659")}
+            {...getOverrideProps(overrides, "Vector38512243")}
           ></Icon>
           <Icon
             width="17.09px"
@@ -1572,7 +1452,7 @@ export default function CadastroUsuario4(props) {
             bottom="11.99%"
             left="36.6%"
             right="46.81%"
-            {...getOverrideProps(overrides, "Vector39885660")}
+            {...getOverrideProps(overrides, "Vector38512244")}
           ></Icon>
           <Icon
             width="8.99px"
@@ -1599,7 +1479,7 @@ export default function CadastroUsuario4(props) {
             bottom="0.84%"
             left="31.36%"
             right="59.91%"
-            {...getOverrideProps(overrides, "Vector39885661")}
+            {...getOverrideProps(overrides, "Vector38512245")}
           ></Icon>
           <Icon
             width="3.15px"
@@ -1626,7 +1506,7 @@ export default function CadastroUsuario4(props) {
             bottom="11.43%"
             left="41.51%"
             right="55.42%"
-            {...getOverrideProps(overrides, "Vector39885662")}
+            {...getOverrideProps(overrides, "Vector38512246")}
           ></Icon>
           <Icon
             width="10.49px"
@@ -1653,7 +1533,7 @@ export default function CadastroUsuario4(props) {
             bottom="15.61%"
             left="39.65%"
             right="50.16%"
-            {...getOverrideProps(overrides, "Vector39885663")}
+            {...getOverrideProps(overrides, "Vector38512247")}
           ></Icon>
           <Icon
             width="7.75px"
@@ -1680,7 +1560,7 @@ export default function CadastroUsuario4(props) {
             bottom="2.08%"
             left="39.23%"
             right="53.25%"
-            {...getOverrideProps(overrides, "Vector39885664")}
+            {...getOverrideProps(overrides, "Vector38512248")}
           ></Icon>
           <Icon
             width="9.01px"
@@ -1707,7 +1587,7 @@ export default function CadastroUsuario4(props) {
             bottom="72.28%"
             left="39.2%"
             right="52.05%"
-            {...getOverrideProps(overrides, "Vector39885665")}
+            {...getOverrideProps(overrides, "Vector38512249")}
           ></Icon>
           <Icon
             width="5.78px"
@@ -1734,7 +1614,7 @@ export default function CadastroUsuario4(props) {
             bottom="77.59%"
             left="43.19%"
             right="51.19%"
-            {...getOverrideProps(overrides, "Vector39885666")}
+            {...getOverrideProps(overrides, "Vector38512250")}
           ></Icon>
           <Icon
             width="5.78px"
@@ -1761,7 +1641,7 @@ export default function CadastroUsuario4(props) {
             bottom="77.59%"
             left="43.19%"
             right="51.19%"
-            {...getOverrideProps(overrides, "Vector39885667")}
+            {...getOverrideProps(overrides, "Vector38512251")}
           ></Icon>
           <View
             padding="0px 0px 0px 0px"
@@ -1776,7 +1656,7 @@ export default function CadastroUsuario4(props) {
             bottom="42.69%"
             left="49.94%"
             right="42.95%"
-            {...getOverrideProps(overrides, "Group39885668")}
+            {...getOverrideProps(overrides, "Group38512252")}
           >
             <Icon
               width="2.63px"
@@ -1833,7 +1713,7 @@ export default function CadastroUsuario4(props) {
               bottom="18.33%"
               left="0%"
               right="0%"
-              {...getOverrideProps(overrides, "Vector39885670")}
+              {...getOverrideProps(overrides, "Vector38512254")}
             ></Icon>
           </View>
           <Icon
@@ -1861,7 +1741,7 @@ export default function CadastroUsuario4(props) {
             bottom="46.6%"
             left="39.86%"
             right="44.53%"
-            {...getOverrideProps(overrides, "Vector39885671")}
+            {...getOverrideProps(overrides, "Vector38512255")}
           ></Icon>
           <View
             padding="0px 0px 0px 0px"
@@ -1876,7 +1756,7 @@ export default function CadastroUsuario4(props) {
             bottom="54.59%"
             left="26.98%"
             right="55.07%"
-            {...getOverrideProps(overrides, "Group39885672")}
+            {...getOverrideProps(overrides, "Group38512256")}
           >
             <Icon
               width="7.24px"
@@ -1933,7 +1813,7 @@ export default function CadastroUsuario4(props) {
               bottom="10.08%"
               left="16.44%"
               right="0%"
-              {...getOverrideProps(overrides, "Vector39885674")}
+              {...getOverrideProps(overrides, "Vector38512258")}
             ></Icon>
           </View>
           <Icon
@@ -1961,7 +1841,7 @@ export default function CadastroUsuario4(props) {
             bottom="81.53%"
             left="42.17%"
             right="51.07%"
-            {...getOverrideProps(overrides, "Vector39885675")}
+            {...getOverrideProps(overrides, "Vector38512259")}
           ></Icon>
           <Icon
             width="8.02px"
@@ -1988,7 +1868,7 @@ export default function CadastroUsuario4(props) {
             bottom="70.69%"
             left="43.61%"
             right="48.6%"
-            {...getOverrideProps(overrides, "Vector39885676")}
+            {...getOverrideProps(overrides, "Vector38512260")}
           ></Icon>
           <View
             padding="0px 0px 0px 0px"
@@ -2003,7 +1883,7 @@ export default function CadastroUsuario4(props) {
             bottom="44.32%"
             left="87.5%"
             right="0.38%"
-            {...getOverrideProps(overrides, "Group39885677")}
+            {...getOverrideProps(overrides, "Group38512261")}
           >
             <Icon
               width="9.44px"
@@ -2030,7 +1910,7 @@ export default function CadastroUsuario4(props) {
               bottom="0.99%"
               left="24.44%"
               right="0%"
-              {...getOverrideProps(overrides, "Vector39885678")}
+              {...getOverrideProps(overrides, "Vector38512262")}
             ></Icon>
             <Icon
               width="3.39px"
@@ -2057,7 +1937,7 @@ export default function CadastroUsuario4(props) {
               bottom="0%"
               left="0%"
               right="72.88%"
-              {...getOverrideProps(overrides, "Vector39885679")}
+              {...getOverrideProps(overrides, "Vector38512263")}
             ></Icon>
             <Icon
               width="2.88px"
@@ -2084,7 +1964,7 @@ export default function CadastroUsuario4(props) {
               bottom="39.37%"
               left="31.51%"
               right="45.44%"
-              {...getOverrideProps(overrides, "Vector39885680")}
+              {...getOverrideProps(overrides, "Vector38512264")}
             ></Icon>
             <Icon
               width="2.41px"
@@ -2111,7 +1991,7 @@ export default function CadastroUsuario4(props) {
               bottom="59.8%"
               left="20.06%"
               right="60.62%"
-              {...getOverrideProps(overrides, "Vector39885681")}
+              {...getOverrideProps(overrides, "Vector38512265")}
             ></Icon>
             <Icon
               width="2.88px"
@@ -2138,7 +2018,7 @@ export default function CadastroUsuario4(props) {
               bottom="71.35%"
               left="39.96%"
               right="36.98%"
-              {...getOverrideProps(overrides, "Vector39885682")}
+              {...getOverrideProps(overrides, "Vector38512266")}
             ></Icon>
             <Icon
               width="2.3px"
@@ -2165,7 +2045,7 @@ export default function CadastroUsuario4(props) {
               bottom="0.78%"
               left="24.01%"
               right="57.54%"
-              {...getOverrideProps(overrides, "Vector39885683")}
+              {...getOverrideProps(overrides, "Vector38512267")}
             ></Icon>
             <Icon
               width="2.1px"
@@ -2192,7 +2072,7 @@ export default function CadastroUsuario4(props) {
               bottom="84.43%"
               left="25.81%"
               right="57.33%"
-              {...getOverrideProps(overrides, "Vector39885684")}
+              {...getOverrideProps(overrides, "Vector38512268")}
             ></Icon>
           </View>
           <View
@@ -2208,7 +2088,7 @@ export default function CadastroUsuario4(props) {
             bottom="56.41%"
             left="24.93%"
             right="69.58%"
-            {...getOverrideProps(overrides, "Group39885685")}
+            {...getOverrideProps(overrides, "Group38512269")}
           >
             <Icon
               width="5.05px"
@@ -2235,7 +2115,7 @@ export default function CadastroUsuario4(props) {
               bottom="0%"
               left="4.04%"
               right="6.66%"
-              {...getOverrideProps(overrides, "Vector39885686")}
+              {...getOverrideProps(overrides, "Vector38512270")}
             ></Icon>
             <Icon
               width="5.66px"
@@ -2262,7 +2142,7 @@ export default function CadastroUsuario4(props) {
               bottom="74.63%"
               left="0%"
               right="0%"
-              {...getOverrideProps(overrides, "Vector39885687")}
+              {...getOverrideProps(overrides, "Vector38512271")}
             ></Icon>
           </View>
           <View
@@ -2278,7 +2158,7 @@ export default function CadastroUsuario4(props) {
             bottom="77.56%"
             left="12.05%"
             right="82.45%"
-            {...getOverrideProps(overrides, "Group39885688")}
+            {...getOverrideProps(overrides, "Group38512272")}
           >
             <Icon
               width="5.05px"
@@ -2305,7 +2185,7 @@ export default function CadastroUsuario4(props) {
               bottom="0%"
               left="4.04%"
               right="6.66%"
-              {...getOverrideProps(overrides, "Vector39885689")}
+              {...getOverrideProps(overrides, "Vector38512273")}
             ></Icon>
             <Icon
               width="5.66px"
@@ -2332,7 +2212,7 @@ export default function CadastroUsuario4(props) {
               bottom="74.63%"
               left="0%"
               right="0%"
-              {...getOverrideProps(overrides, "Vector39885690")}
+              {...getOverrideProps(overrides, "Vector38512274")}
             ></Icon>
           </View>
           <View
@@ -2348,7 +2228,7 @@ export default function CadastroUsuario4(props) {
             bottom="54.53%"
             left="79.17%"
             right="15.34%"
-            {...getOverrideProps(overrides, "Group39885691")}
+            {...getOverrideProps(overrides, "Group38512275")}
           >
             <Icon
               width="5.05px"
@@ -2375,7 +2255,7 @@ export default function CadastroUsuario4(props) {
               bottom="0%"
               left="4.04%"
               right="6.66%"
-              {...getOverrideProps(overrides, "Vector39885692")}
+              {...getOverrideProps(overrides, "Vector38512276")}
             ></Icon>
             <Icon
               width="5.66px"
@@ -2402,38 +2282,85 @@ export default function CadastroUsuario4(props) {
               bottom="74.63%"
               left="0%"
               right="0%"
-              {...getOverrideProps(overrides, "Vector39885693")}
+              {...getOverrideProps(overrides, "Vector38512277")}
             ></Icon>
           </View>
         </View>
-        <Button
-          width="170px"
-          height="45px"
+        <SelectField
+          width="384px"
+          height="72px"
+          label="Enfrenta dificuldades em algum dos seguintes aspectos? (Selecione todas que se aplicam)"
+          placeholder="Sensorial"
           position="absolute"
-          borderRadius="10px"
-          top="704px"
-          left="369px"
-          backgroundColor="rgba(211,152,74,1)"
-          size="large"
-          isDisabled={false}
-          variation="primary"
-          children="Enviar"
-          {...getOverrideProps(overrides, "Button39885694")}
-        ></Button>
-        <Button
-          width="170px"
-          height="45px"
-          position="absolute"
-          border="1px SOLID rgba(0,0,0,1)"
-          borderRadius="10px"
-          top="704px"
-          left="135px"
+          top="calc(50% - 36px - 203.46px)"
+          left="18.53%"
+          right="18.52%"
           size="default"
           isDisabled={false}
-          variation="primary"
-          children="Voltar"
-          {...getOverrideProps(overrides, "Button40291722")}
-        ></Button>
+          labelHidden={false}
+          variation="default"
+          {...getOverrideProps(overrides, "SelectField3857391")}
+        ></SelectField>
+        <SelectField
+          width="384px"
+          height="unset"
+          label="Qual ambiente de trabalho você prefere?"
+          placeholder="Presencial"
+          position="absolute"
+          top="calc(50% - 34.5px - 102.96px)"
+          left="18.53%"
+          right="18.52%"
+          size="default"
+          isDisabled={false}
+          labelHidden={false}
+          variation="default"
+          {...getOverrideProps(overrides, "SelectField3857392")}
+        ></SelectField>
+        <SelectField
+          width="384px"
+          height="unset"
+          label="Já teve experiências de trabalho ou estágio?"
+          placeholder="Sim"
+          position="absolute"
+          top="calc(50% - 34.5px - -8.04px)"
+          left="17.71%"
+          right="19.34%"
+          size="default"
+          isDisabled={false}
+          labelHidden={false}
+          variation="default"
+          {...getOverrideProps(overrides, "SelectField3857393")}
+        ></SelectField>
+        <SelectField
+          width="383px"
+          height="unset"
+          label="Se sim, quais foram as maiores dificuldades enfrentadas no seu ambiente de trabalho anterior?"
+          placeholder="Falta de recursos"
+          position="absolute"
+          top="calc(50% - 45px - -111.54px)"
+          left="17.87%"
+          right="19.34%"
+          size="default"
+          isDisabled={false}
+          labelHidden={false}
+          variation="default"
+          {...getOverrideProps(overrides, "SelectField3857419")}
+        ></SelectField>
+        <SelectField
+          width="384px"
+          height="unset"
+          label="Quais são suas principais habilidades profissionais? (Selecione todas que se aplicam)"
+          placeholder="Criatividade"
+          position="absolute"
+          top="calc(50% - 45px - -230.04px)"
+          left="18.53%"
+          right="18.52%"
+          size="default"
+          isDisabled={false}
+          labelHidden={false}
+          variation="default"
+          {...getOverrideProps(overrides, "SelectField3857428")}
+        ></SelectField>
       </View>
       <Image
         width="20.41%"
@@ -2443,10 +2370,10 @@ export default function CadastroUsuario4(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="33.48%"
-        bottom="53.09%"
-        left="21.53%"
-        right="58.06%"
+        top="4.21%"
+        bottom="82.36%"
+        left="39.83%"
+        right="39.76%"
         padding="0px 0px 0px 0px"
         objectFit="cover"
         {...getOverrideProps(
@@ -2454,6 +2381,55 @@ export default function CadastroUsuario4(props) {
           "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"
         )}
       ></Image>
+      <Text
+        fontFamily="Montserrat"
+        fontSize="32px"
+        fontWeight="700"
+        color="rgba(0,0,0,1)"
+        lineHeight="39.007999420166016px"
+        textAlign="center"
+        display="block"
+        direction="column"
+        justifyContent="unset"
+        width="340.99px"
+        height="51.31px"
+        gap="unset"
+        alignItems="unset"
+        position="absolute"
+        top="36.88%"
+        bottom="58.52%"
+        left="38.84%"
+        right="38.71%"
+        padding="0px 0px 0px 0px"
+        whiteSpace="pre-wrap"
+        children="Questionário"
+        {...getOverrideProps(overrides, "Question\u00E1rio")}
+      ></Text>
+      <Button
+        width="102px"
+        height="unset"
+        position="absolute"
+        top="1028px"
+        left="595px"
+        size="default"
+        isDisabled={false}
+        variation="default"
+        children="Voltar"
+        {...getOverrideProps(overrides, "Button3857478")}
+      ></Button>
+      <Button
+        width="100px"
+        height="unset"
+        position="absolute"
+        top="1029px"
+        left="823px"
+        backgroundColor="rgba(234,191,62,1)"
+        size="default"
+        isDisabled={false}
+        variation="primary"
+        children="Continuar"
+        {...getOverrideProps(overrides, "Button3857479")}
+      ></Button>
     </View>
   );
 }

@@ -5,7 +5,7 @@
  **************************************************************************/
 
 import * as React from "react";
-import { ButtonProps, FlexProps, IconProps, ImageProps, SelectFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+import { DividerProps, FlexProps, IconProps, ImageProps, SelectFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
 } | null;
@@ -21,33 +21,33 @@ export declare type ConfigsPersonalizacaoOverridesProps = {
     ConfigsPersonalizacao?: PrimitiveOverrideProps<ViewProps>;
     "Fundo Novo"?: PrimitiveOverrideProps<ImageProps>;
     NavBarHeaderConecta?: PrimitiveOverrideProps<FlexProps>;
-    "Frame 3214376835"?: PrimitiveOverrideProps<FlexProps>;
-    Vector4376836?: PrimitiveOverrideProps<IconProps>;
-    Vector4376837?: PrimitiveOverrideProps<IconProps>;
-    Vector4376838?: PrimitiveOverrideProps<IconProps>;
-    Vector4376839?: PrimitiveOverrideProps<IconProps>;
     "Frame 322"?: PrimitiveOverrideProps<FlexProps>;
     "logo_branca_conecta 2"?: PrimitiveOverrideProps<ImageProps>;
-    "Frame 3214376842"?: PrimitiveOverrideProps<FlexProps>;
-    Button4376843?: PrimitiveOverrideProps<ButtonProps>;
-    Button4376844?: PrimitiveOverrideProps<ButtonProps>;
-    NavBarMenu?: PrimitiveOverrideProps<FlexProps>;
-    "Frame 3214329877"?: PrimitiveOverrideProps<FlexProps>;
-    Button4329878?: PrimitiveOverrideProps<ButtonProps>;
-    Button4329879?: PrimitiveOverrideProps<ButtonProps>;
-    Button4329880?: PrimitiveOverrideProps<ButtonProps>;
-    "Group 477"?: PrimitiveOverrideProps<ViewProps>;
-    Vector44262549?: PrimitiveOverrideProps<IconProps>;
-    "Line 10"?: PrimitiveOverrideProps<IconProps>;
-    "Line 12"?: PrimitiveOverrideProps<IconProps>;
-    "Line 11"?: PrimitiveOverrideProps<IconProps>;
+    "Frame 321"?: PrimitiveOverrideProps<FlexProps>;
+    Vector38512069?: PrimitiveOverrideProps<IconProps>;
+    Vector38512070?: PrimitiveOverrideProps<IconProps>;
+    Vector38512071?: PrimitiveOverrideProps<IconProps>;
+    Vector38512072?: PrimitiveOverrideProps<IconProps>;
+    "Rectangle 205"?: PrimitiveOverrideProps<ViewProps>;
+    Divider38512086?: PrimitiveOverrideProps<ViewProps>;
+    Divider38512087?: PrimitiveOverrideProps<ViewProps>;
+    Vector38512088?: PrimitiveOverrideProps<IconProps>;
+    Vector38512089?: PrimitiveOverrideProps<IconProps>;
+    Vector38512090?: PrimitiveOverrideProps<IconProps>;
+    Divider38512091?: PrimitiveOverrideProps<ViewProps>;
+    Vector38512092?: PrimitiveOverrideProps<IconProps>;
+    Acessibilidade?: PrimitiveOverrideProps<TextProps>;
+    "Acesso e Seguran\u00E7a"?: PrimitiveOverrideProps<TextProps>;
+    "Apar\u00EAncia"?: PrimitiveOverrideProps<TextProps>;
+    "Notifica\u00E7\u00E3o"?: PrimitiveOverrideProps<TextProps>;
     "Group 478"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 104"?: PrimitiveOverrideProps<ViewProps>;
-    SelectField40981704?: PrimitiveOverrideProps<SelectFieldProps>;
     "Personalizando sua experi\u00EAncia"?: PrimitiveOverrideProps<TextProps>;
-    SelectField40981746?: PrimitiveOverrideProps<SelectFieldProps>;
     "edit_24dp_000000_FILL0_wght400_GRAD0_opsz24 1"?: PrimitiveOverrideProps<ViewProps>;
-    Vector44263497?: PrimitiveOverrideProps<IconProps>;
+    Vector38512103?: PrimitiveOverrideProps<IconProps>;
+    SelectField38531446?: PrimitiveOverrideProps<SelectFieldProps>;
+    SelectField38531456?: PrimitiveOverrideProps<SelectFieldProps>;
+    Divider38531472?: PrimitiveOverrideProps<DividerProps>;
 } & EscapeHatchProps;
 export declare type ConfigsPersonalizacaoProps = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

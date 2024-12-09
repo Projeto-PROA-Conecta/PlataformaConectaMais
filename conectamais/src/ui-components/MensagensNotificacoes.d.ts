@@ -5,7 +5,7 @@
  **************************************************************************/
 
 import * as React from "react";
-import { ButtonProps, FlexProps, IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+import { FlexProps, IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
 } | null;
@@ -43,21 +43,13 @@ export declare type MensagensNotificacoesOverridesProps = {
     Conversas?: PrimitiveOverrideProps<TextProps>;
     "Voc\u00EA ainda n\u00E3o tem mensagens :(\u2028\u2028"?: PrimitiveOverrideProps<TextProps>;
     NavBarHeaderConecta?: PrimitiveOverrideProps<FlexProps>;
-    "Frame 3214367696"?: PrimitiveOverrideProps<FlexProps>;
-    Vector4367697?: PrimitiveOverrideProps<IconProps>;
-    Vector4367698?: PrimitiveOverrideProps<IconProps>;
-    Vector4367699?: PrimitiveOverrideProps<IconProps>;
-    Vector4367700?: PrimitiveOverrideProps<IconProps>;
     "Frame 322"?: PrimitiveOverrideProps<FlexProps>;
     "logo_branca_conecta 2"?: PrimitiveOverrideProps<ImageProps>;
-    "Frame 3214367703"?: PrimitiveOverrideProps<FlexProps>;
-    Button4367704?: PrimitiveOverrideProps<ButtonProps>;
-    Button4367705?: PrimitiveOverrideProps<ButtonProps>;
-    NavBarMenu?: PrimitiveOverrideProps<FlexProps>;
-    "Frame 32143291000"?: PrimitiveOverrideProps<FlexProps>;
-    Button43291001?: PrimitiveOverrideProps<ButtonProps>;
-    Button43291002?: PrimitiveOverrideProps<ButtonProps>;
-    Button43291003?: PrimitiveOverrideProps<ButtonProps>;
+    "Frame 321"?: PrimitiveOverrideProps<FlexProps>;
+    Vector38511742?: PrimitiveOverrideProps<IconProps>;
+    Vector38511743?: PrimitiveOverrideProps<IconProps>;
+    Vector38511744?: PrimitiveOverrideProps<IconProps>;
+    Vector38511745?: PrimitiveOverrideProps<IconProps>;
 } & EscapeHatchProps;
 export declare type MensagensNotificacoesProps = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

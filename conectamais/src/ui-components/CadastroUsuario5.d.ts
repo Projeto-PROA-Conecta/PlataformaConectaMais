@@ -5,7 +5,7 @@
  **************************************************************************/
 
 import * as React from "react";
-import { ButtonProps, IconProps, ImageProps, SelectFieldProps, TextAreaFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+import { ButtonProps, FlexProps, IconProps, ImageProps, SelectFieldProps, TextAreaFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
 } | null;
@@ -26,13 +26,14 @@ export declare type CadastroUsuario5OverridesProps = {
     "Ellipse 109"?: PrimitiveOverrideProps<IconProps>;
     "Ellipse 108"?: PrimitiveOverrideProps<IconProps>;
     "Ellipse 110"?: PrimitiveOverrideProps<IconProps>;
-    SelectField40341860?: PrimitiveOverrideProps<SelectFieldProps>;
-    TextAreaField?: PrimitiveOverrideProps<TextAreaFieldProps>;
-    Button40341863?: PrimitiveOverrideProps<ButtonProps>;
-    Button40341864?: PrimitiveOverrideProps<ButtonProps>;
-    "Question\u00E1rio"?: PrimitiveOverrideProps<TextProps>;
-    SelectField40341865?: PrimitiveOverrideProps<SelectFieldProps>;
+    TextAreaField38512290?: PrimitiveOverrideProps<FlexProps>;
+    TextAreaField38572087?: PrimitiveOverrideProps<TextAreaFieldProps>;
+    SelectField38572060?: PrimitiveOverrideProps<SelectFieldProps>;
+    SelectField38572061?: PrimitiveOverrideProps<SelectFieldProps>;
+    Button38572062?: PrimitiveOverrideProps<ButtonProps>;
+    Button38572063?: PrimitiveOverrideProps<ButtonProps>;
     "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"?: PrimitiveOverrideProps<ImageProps>;
+    "Question\u00E1rio"?: PrimitiveOverrideProps<TextProps>;
 } & EscapeHatchProps;
 export declare type CadastroUsuario5Props = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;
