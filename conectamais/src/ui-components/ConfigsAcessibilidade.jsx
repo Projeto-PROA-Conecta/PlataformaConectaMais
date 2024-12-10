@@ -7,7 +7,17 @@
 /* eslint-disable */
 import * as React from "react";
 import { getOverrideProps } from "./utils";
-import { Flex, Icon, Image, Text, View } from "@aws-amplify/ui-react";
+import {
+  Button,
+  Divider,
+  Flex,
+  Icon,
+  Image,
+  SelectField,
+  SwitchField,
+  Text,
+  View,
+} from "@aws-amplify/ui-react";
 export default function ConfigsAcessibilidade(props) {
   const { bancoImagens, overrides, ...rest } = props;
   return (
@@ -26,13 +36,13 @@ export default function ConfigsAcessibilidade(props) {
     >
       <Image
         width="1519px"
-        height="997px"
+        height="1047px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="120px"
+        top="70px"
         left="0px"
         padding="0px 0px 0px 0px"
         objectFit="cover"
@@ -54,8 +64,8 @@ export default function ConfigsAcessibilidade(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="295px"
-        left="708px"
+        top="309px"
+        left="628px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
         children="Acessibilidade"
@@ -77,147 +87,13 @@ export default function ConfigsAcessibilidade(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="303px"
-        left="1141px"
+        top="317px"
+        left="1016px"
         {...getOverrideProps(overrides, "Vector38511998")}
       ></Icon>
-      <Flex
-        gap="40px"
-        direction="row"
-        width="1519px"
-        height="120px"
-        justifyContent="center"
-        alignItems="center"
-        position="absolute"
-        top="0px"
-        left="0px"
-        boxShadow="0px 2px 6px rgba(0.05098039284348488, 0.10196078568696976, 0.14901961386203766, 0.15000000596046448)"
-        padding="24px 32px 24px 32px"
-        backgroundColor="rgba(15,45,57,1)"
-        {...getOverrideProps(overrides, "NavBarHeaderConecta")}
-      >
-        <Flex
-          gap="10px"
-          direction="column"
-          width="271px"
-          height="38px"
-          justifyContent="flex-start"
-          alignItems="flex-start"
-          shrink="0"
-          position="relative"
-          padding="0px 0px 17px 0px"
-          {...getOverrideProps(overrides, "Frame 322")}
-        >
-          <Image
-            width="unset"
-            height="37px"
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            shrink="0"
-            alignSelf="stretch"
-            position="relative"
-            padding="0px 0px 0px 0px"
-            objectFit="cover"
-            {...getOverrideProps(overrides, "logo_branca_conecta 2")}
-          ></Image>
-        </Flex>
-        <Flex
-          gap="40px"
-          direction="row"
-          width="unset"
-          height="unset"
-          justifyContent="flex-start"
-          alignItems="center"
-          grow="1"
-          shrink="1"
-          basis="0"
-          position="relative"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Frame 321")}
-        >
-          <Icon
-            width="20px"
-            height="20px"
-            viewBox={{ minX: 0, minY: 0, width: 20, height: 20 }}
-            paths={[
-              {
-                d: "M7.26368 20L6.86567 16.8C6.65008 16.7167 6.44693 16.6167 6.25622 16.5C6.06551 16.3833 5.87894 16.2583 5.69652 16.125L2.73632 17.375L0 12.625L2.56219 10.675C2.54561 10.5583 2.53731 10.4458 2.53731 10.3375L2.53731 9.6625C2.53731 9.55417 2.54561 9.44167 2.56219 9.325L0 7.375L2.73632 2.625L5.69652 3.875C5.87894 3.74167 6.06965 3.61667 6.26866 3.5C6.46766 3.38333 6.66667 3.28333 6.86567 3.2L7.26368 0L12.7363 0L13.1343 3.2C13.3499 3.28333 13.5531 3.38333 13.7438 3.5C13.9345 3.61667 14.1211 3.74167 14.3035 3.875L17.2637 2.625L20 7.375L17.4378 9.325C17.4544 9.44167 17.4627 9.55417 17.4627 9.6625L17.4627 10.3375C17.4627 10.4458 17.4461 10.5583 17.4129 10.675L19.9751 12.625L17.2388 17.375L14.3035 16.125C14.1211 16.2583 13.9303 16.3833 13.7313 16.5C13.5323 16.6167 13.3333 16.7167 13.1343 16.8L12.7363 20L7.26368 20ZM9.00497 18L10.9701 18L11.3184 15.35C11.8325 15.2167 12.3093 15.0208 12.7488 14.7625C13.1882 14.5042 13.5904 14.1917 13.9552 13.825L16.4179 14.85L17.3881 13.15L15.2488 11.525C15.3317 11.2917 15.3897 11.0458 15.4229 10.7875C15.4561 10.5292 15.4726 10.2667 15.4726 10C15.4726 9.73333 15.4561 9.47083 15.4229 9.2125C15.3897 8.95417 15.3317 8.70833 15.2488 8.475L17.3881 6.85L16.4179 5.15L13.9552 6.2C13.5904 5.81667 13.1882 5.49583 12.7488 5.2375C12.3093 4.97917 11.8325 4.78333 11.3184 4.65L10.995 2L9.02985 2L8.68159 4.65C8.1675 4.78333 7.69071 4.97917 7.25124 5.2375C6.81177 5.49583 6.40962 5.80833 6.04478 6.175L3.58209 5.15L2.61194 6.85L4.75124 8.45C4.66832 8.7 4.61028 8.95 4.57711 9.2C4.54395 9.45 4.52736 9.71667 4.52736 10C4.52736 10.2667 4.54395 10.525 4.57711 10.775C4.61028 11.025 4.66832 11.275 4.75124 11.525L2.61194 13.15L3.58209 14.85L6.04478 13.8C6.40962 14.1833 6.81177 14.5042 7.25124 14.7625C7.69071 15.0208 8.1675 15.2167 8.68159 15.35L9.00497 18ZM10.0498 13.5C11.0116 13.5 11.8325 13.1583 12.5124 12.475C13.1924 11.7917 13.5323 10.9667 13.5323 10C13.5323 9.03333 13.1924 8.20833 12.5124 7.525C11.8325 6.84167 11.0116 6.5 10.0498 6.5C9.07131 6.5 8.24627 6.84167 7.57463 7.525C6.90298 8.20833 6.56716 9.03333 6.56716 10C6.56716 10.9667 6.90298 11.7917 7.57463 12.475C8.24627 13.1583 9.07131 13.5 10.0498 13.5Z",
-                fill: "rgba(232,234,237,1)",
-                fillRule: "nonzero",
-              },
-            ]}
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            shrink="0"
-            position="relative"
-            {...getOverrideProps(overrides, "Vector38512001")}
-          ></Icon>
-          <Icon
-            width="20px"
-            height="20px"
-            viewBox={{ minX: 0, minY: 0, width: 20, height: 20 }}
-            paths={[
-              {
-                d: "M10 4C9.38889 4 8.86574 3.80417 8.43056 3.4125C7.99537 3.02083 7.77778 2.55 7.77778 2C7.77778 1.45 7.99537 0.979167 8.43056 0.5875C8.86574 0.195833 9.38889 0 10 0C10.6111 0 11.1343 0.195833 11.5694 0.5875C12.0046 0.979167 12.2222 1.45 12.2222 2C12.2222 2.55 12.0046 3.02083 11.5694 3.4125C11.1343 3.80417 10.6111 4 10 4ZM6.66667 20L6.66667 7L0 7L0 5L20 5L20 7L13.3333 7L13.3333 20L11.1111 20L11.1111 14L8.88889 14L8.88889 20L6.66667 20Z",
-                fill: "rgba(242,242,242,1)",
-                fillRule: "nonzero",
-              },
-            ]}
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            shrink="0"
-            position="relative"
-            {...getOverrideProps(overrides, "Vector38512002")}
-          ></Icon>
-          <Icon
-            width="20px"
-            height="20px"
-            viewBox={{ minX: 0, minY: 0, width: 20, height: 20 }}
-            paths={[
-              {
-                d: "M0 8.02993C0 6.36741 0.370833 4.84206 1.1125 3.45387C1.85417 2.06567 2.85 0.914381 4.1 0L5.275 1.59601C4.275 2.32751 3.47917 3.25021 2.8875 4.36409C2.29583 5.47797 2 6.69992 2 8.02993L0 8.02993ZM18 8.02993C18 6.69992 17.7042 5.47797 17.1125 4.36409C16.5208 3.25021 15.725 2.32751 14.725 1.59601L15.9 0C17.15 0.914381 18.1458 2.06567 18.8875 3.45387C19.6292 4.84206 20 6.36741 20 8.02993L18 8.02993ZM2 17.0075L2 15.0125L4 15.0125L4 8.02993C4 6.65004 4.41667 5.42394 5.25 4.35162C6.08333 3.2793 7.16667 2.57689 8.5 2.24439L8.5 1.54613C8.5 1.13051 8.64583 0.777224 8.9375 0.486284C9.22917 0.195345 9.58333 0.0498753 10 0.0498753C10.4167 0.0498753 10.7708 0.195345 11.0625 0.486284C11.3542 0.777224 11.5 1.13051 11.5 1.54613L11.5 2.24439C12.8333 2.57689 13.9167 3.2793 14.75 4.35162C15.5833 5.42394 16 6.65004 16 8.02993L16 15.0125L18 15.0125L18 17.0075L2 17.0075ZM10 20C9.45 20 8.97917 19.8047 8.5875 19.414C8.19583 19.0233 8 18.5536 8 18.005L12 18.005C12 18.5536 11.8042 19.0233 11.4125 19.414C11.0208 19.8047 10.55 20 10 20ZM6 15.0125L14 15.0125L14 8.02993C14 6.93267 13.6083 5.99335 12.825 5.21197C12.0417 4.43059 11.1 4.0399 10 4.0399C8.9 4.0399 7.95833 4.43059 7.175 5.21197C6.39167 5.99335 6 6.93267 6 8.02993L6 15.0125Z",
-                fill: "rgba(242,242,242,1)",
-                fillRule: "nonzero",
-              },
-            ]}
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            shrink="0"
-            position="relative"
-            {...getOverrideProps(overrides, "Vector38512003")}
-          ></Icon>
-          <Icon
-            width="20px"
-            height="20px"
-            viewBox={{ minX: 0, minY: 0, width: 20, height: 20 }}
-            paths={[
-              {
-                d: "M9.95 16C10.3 16 10.5958 15.8792 10.8375 15.6375C11.0792 15.3958 11.2 15.1 11.2 14.75C11.2 14.4 11.0792 14.1042 10.8375 13.8625C10.5958 13.6208 10.3 13.5 9.95 13.5C9.6 13.5 9.30417 13.6208 9.0625 13.8625C8.82083 14.1042 8.7 14.4 8.7 14.75C8.7 15.1 8.82083 15.3958 9.0625 15.6375C9.30417 15.8792 9.6 16 9.95 16ZM9.05 12.15L10.9 12.15C10.9 11.6 10.9625 11.1667 11.0875 10.85C11.2125 10.5333 11.5667 10.1 12.15 9.55C12.5833 9.11667 12.925 8.70417 13.175 8.3125C13.425 7.92083 13.55 7.45 13.55 6.9C13.55 5.96667 13.2083 5.25 12.525 4.75C11.8417 4.25 11.0333 4 10.1 4C9.15 4 8.37917 4.25 7.7875 4.75C7.19583 5.25 6.78333 5.85 6.55 6.55L8.2 7.2C8.28333 6.9 8.47083 6.575 8.7625 6.225C9.05417 5.875 9.5 5.7 10.1 5.7C10.6333 5.7 11.0333 5.84583 11.3 6.1375C11.5667 6.42917 11.7 6.75 11.7 7.1C11.7 7.43333 11.6 7.74583 11.4 8.0375C11.2 8.32917 10.95 8.6 10.65 8.85C9.91667 9.5 9.46667 9.99167 9.3 10.325C9.13333 10.6583 9.05 11.2667 9.05 12.15ZM10 20C8.61667 20 7.31667 19.7375 6.1 19.2125C4.88333 18.6875 3.825 17.975 2.925 17.075C2.025 16.175 1.3125 15.1167 0.7875 13.9C0.2625 12.6833 0 11.3833 0 10C0 8.61667 0.2625 7.31667 0.7875 6.1C1.3125 4.88333 2.025 3.825 2.925 2.925C3.825 2.025 4.88333 1.3125 6.1 0.7875C7.31667 0.2625 8.61667 0 10 0C11.3833 0 12.6833 0.2625 13.9 0.7875C15.1167 1.3125 16.175 2.025 17.075 2.925C17.975 3.825 18.6875 4.88333 19.2125 6.1C19.7375 7.31667 20 8.61667 20 10C20 11.3833 19.7375 12.6833 19.2125 13.9C18.6875 15.1167 17.975 16.175 17.075 17.075C16.175 17.975 15.1167 18.6875 13.9 19.2125C12.6833 19.7375 11.3833 20 10 20ZM10 18C12.2333 18 14.125 17.225 15.675 15.675C17.225 14.125 18 12.2333 18 10C18 7.76667 17.225 5.875 15.675 4.325C14.125 2.775 12.2333 2 10 2C7.76667 2 5.875 2.775 4.325 4.325C2.775 5.875 2 7.76667 2 10C2 12.2333 2.775 14.125 4.325 15.675C5.875 17.225 7.76667 18 10 18Z",
-                fill: "rgba(242,242,242,1)",
-                fillRule: "nonzero",
-              },
-            ]}
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            shrink="0"
-            position="relative"
-            {...getOverrideProps(overrides, "Vector38512004")}
-          ></Icon>
-        </Flex>
-      </Flex>
       <View
         padding="0px 0px 0px 0px"
-        width="868px"
+        width="823px"
         height="421px"
         display="block"
         gap="unset"
@@ -225,12 +101,12 @@ export default function ConfigsAcessibilidade(props) {
         justifyContent="unset"
         position="absolute"
         top="403px"
-        left="584px"
+        left="629px"
         {...getOverrideProps(overrides, "Group 482")}
       >
         <View
           padding="0px 0px 0px 0px"
-          width="868px"
+          width="823px"
           height="421px"
           display="block"
           gap="unset"
@@ -242,7 +118,7 @@ export default function ConfigsAcessibilidade(props) {
           {...getOverrideProps(overrides, "Group 471")}
         >
           <View
-            width="868px"
+            width="823px"
             height="421px"
             display="block"
             gap="unset"
@@ -259,15 +135,15 @@ export default function ConfigsAcessibilidade(props) {
           ></View>
           <View
             padding="0px 0px 0px 0px"
-            width="664.94px"
+            width="630.47px"
             height="49.03px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="309.55px"
-            left="50.66px"
+            top="321.55px"
+            left="48.03px"
             {...getOverrideProps(overrides, "Group 76")}
           >
             <Text
@@ -280,7 +156,7 @@ export default function ConfigsAcessibilidade(props) {
               display="block"
               direction="column"
               justifyContent="unset"
-              width="513.78px"
+              width="487.14px"
               height="46.14px"
               gap="unset"
               alignItems="unset"
@@ -293,7 +169,7 @@ export default function ConfigsAcessibilidade(props) {
               {...getOverrideProps(overrides, "Assist\u00EAncia com IA")}
             ></Text>
             <View
-              width="41.55px"
+              width="39.4px"
               height="41.91px"
               display="block"
               gap="unset"
@@ -301,7 +177,7 @@ export default function ConfigsAcessibilidade(props) {
               justifyContent="unset"
               position="absolute"
               top="0px"
-              left="623.39px"
+              left="591.07px"
               borderRadius="40px"
               padding="0px 0px 0px 0px"
               backgroundColor="rgba(255,255,255,1)"
@@ -318,13 +194,13 @@ export default function ConfigsAcessibilidade(props) {
             display="block"
             direction="column"
             justifyContent="unset"
-            width="514.39px"
+            width="487.72px"
             height="46.7px"
             gap="unset"
             alignItems="unset"
             position="absolute"
             top="186.24px"
-            left="50px"
+            left="47.41px"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="Desativar Animações"
@@ -340,54 +216,54 @@ export default function ConfigsAcessibilidade(props) {
             display="block"
             direction="column"
             justifyContent="unset"
-            width="119.8px"
+            width="113.59px"
             height="47.65px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="45.21px"
-            left="66.25px"
+            top="51.21px"
+            left="62.82px"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="Temas"
             {...getOverrideProps(overrides, "Temas")}
           ></Text>
           <Flex
-            width="69.54px"
+            width="65.93px"
             height="76.24px"
             {...getOverrideProps(overrides, "Button38512019")}
           ></Flex>
           <Flex
-            width="69.54px"
+            width="65.93px"
             height="76.24px"
             {...getOverrideProps(overrides, "Button38512020")}
           ></Flex>
           <View
-            width="37px"
-            height="43px"
+            width="37.93px"
+            height="40px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             overflow="hidden"
             position="absolute"
-            top="46.73px"
-            left="194px"
+            top="52.73px"
+            left="183.94px"
             padding="0px 0px 0px 0px"
             {...getOverrideProps(overrides, "ThemeIcon 1")}
           >
             <Icon
-              width="30.83px"
-              height="35.83px"
+              width="31.61px"
+              height="33.33px"
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 30.833332061767578,
-                height: 35.83333206176758,
+                width: 31.605220794677734,
+                height: 33.33333206176758,
               }}
               paths={[
                 {
-                  d: "M15.4167 35.8333C13.3097 35.8333 11.3184 35.363 9.44271 34.4224C7.56701 33.4818 5.92899 32.1977 4.52865 30.5703C3.1283 28.9429 2.02344 27.0392 1.21406 24.8594C0.404687 22.6795 0 20.3653 0 17.9167C0 15.4382 0.417535 13.109 1.2526 10.9292C2.08767 8.7493 3.21823 6.85312 4.64427 5.24062C6.07031 3.62812 7.73403 2.35156 9.63542 1.41094C11.5368 0.470312 13.5667 0 15.725 0C17.7806 0 19.7205 0.41059 21.5448 1.23177C23.3691 2.05295 24.9686 3.18767 26.3432 4.63594C27.7179 6.0842 28.8099 7.80122 29.6193 9.78698C30.4286 11.7727 30.8333 13.9153 30.8333 16.2146C30.8333 19.6486 29.934 22.2839 28.1354 24.1203C26.3368 25.9568 24.1528 26.875 21.5833 26.875L18.7312 26.875C18.5 26.875 18.3394 26.9497 18.2495 27.099C18.1595 27.2483 18.1146 27.4125 18.1146 27.5917C18.1146 27.95 18.3073 28.4651 18.6927 29.137C19.0781 29.8089 19.2708 30.5778 19.2708 31.4437C19.2708 32.9368 18.9175 34.0417 18.2109 34.7583C17.5043 35.475 16.5729 35.8333 15.4167 35.8333ZM6.9375 19.7083C7.60556 19.7083 8.15799 19.4545 8.59479 18.9469C9.0316 18.4392 9.25 17.7972 9.25 17.0208C9.25 16.2444 9.0316 15.6024 8.59479 15.0948C8.15799 14.5872 7.60556 14.3333 6.9375 14.3333C6.26944 14.3333 5.71701 14.5872 5.28021 15.0948C4.8434 15.6024 4.625 16.2444 4.625 17.0208C4.625 17.7972 4.8434 18.4392 5.28021 18.9469C5.71701 19.4545 6.26944 19.7083 6.9375 19.7083ZM11.5625 12.5417C12.2306 12.5417 12.783 12.2878 13.2198 11.7802C13.6566 11.2726 13.875 10.6306 13.875 9.85417C13.875 9.07778 13.6566 8.43576 13.2198 7.92812C12.783 7.42049 12.2306 7.16667 11.5625 7.16667C10.8944 7.16667 10.342 7.42049 9.90521 7.92812C9.4684 8.43576 9.25 9.07778 9.25 9.85417C9.25 10.6306 9.4684 11.2726 9.90521 11.7802C10.342 12.2878 10.8944 12.5417 11.5625 12.5417ZM19.2708 12.5417C19.9389 12.5417 20.4913 12.2878 20.9281 11.7802C21.3649 11.2726 21.5833 10.6306 21.5833 9.85417C21.5833 9.07778 21.3649 8.43576 20.9281 7.92812C20.4913 7.42049 19.9389 7.16667 19.2708 7.16667C18.6028 7.16667 18.0503 7.42049 17.6135 7.92812C17.1767 8.43576 16.9583 9.07778 16.9583 9.85417C16.9583 10.6306 17.1767 11.2726 17.6135 11.7802C18.0503 12.2878 18.6028 12.5417 19.2708 12.5417ZM23.8958 19.7083C24.5639 19.7083 25.1163 19.4545 25.5531 18.9469C25.9899 18.4392 26.2083 17.7972 26.2083 17.0208C26.2083 16.2444 25.9899 15.6024 25.5531 15.0948C25.1163 14.5872 24.5639 14.3333 23.8958 14.3333C23.2278 14.3333 22.6753 14.5872 22.2385 15.0948C21.8017 15.6024 21.5833 16.2444 21.5833 17.0208C21.5833 17.7972 21.8017 18.4392 22.2385 18.9469C22.6753 19.4545 23.2278 19.7083 23.8958 19.7083ZM15.4167 32.25C15.6479 32.25 15.8342 32.1753 15.9755 32.026C16.1168 31.8767 16.1875 31.6826 16.1875 31.4437C16.1875 31.0257 15.9948 30.533 15.6094 29.9656C15.224 29.3983 15.0312 28.5472 15.0312 27.4125C15.0312 26.1583 15.4038 25.158 16.149 24.4115C16.8941 23.6649 17.8062 23.2917 18.8854 23.2917L21.5833 23.2917C23.2792 23.2917 24.7309 22.7168 25.9385 21.5672C27.1462 20.4175 27.75 18.6333 27.75 16.2146C27.75 12.6014 26.5616 9.59288 24.1849 7.18906C21.8082 4.78524 18.9882 3.58333 15.725 3.58333C12.2306 3.58333 9.25 4.97187 6.78333 7.74896C4.31667 10.526 3.08333 13.9153 3.08333 17.9167C3.08333 21.8882 4.28455 25.27 6.68698 28.062C9.08941 30.854 11.9993 32.25 15.4167 32.25Z",
+                  d: "M15.8026 33.3333C13.6429 33.3333 11.6017 32.8958 9.6791 32.0208C7.75645 31.1458 6.07742 29.9514 4.64202 28.4375C3.20661 26.9236 2.07409 25.1528 1.24446 23.125C0.414819 21.0972 0 18.9444 0 16.6667C0 14.3611 0.427987 12.1944 1.28396 10.1667C2.13994 8.13889 3.29879 6.375 4.76054 4.875C6.22228 3.375 7.92764 2.1875 9.87663 1.3125C11.8256 0.4375 13.9063 0 16.1187 0C18.2257 0 20.2142 0.381944 22.0841 1.14583C23.9541 1.90972 25.5936 2.96528 27.0027 4.3125C28.4118 5.65972 29.5311 7.25694 30.3608 9.10417C31.1904 10.9514 31.6052 12.9444 31.6052 15.0833C31.6052 18.2778 30.6834 20.7292 28.8398 22.4375C26.9961 24.1458 24.7574 25 22.1237 25L19.2002 25C18.9631 25 18.7985 25.0694 18.7063 25.2083C18.6142 25.3472 18.5681 25.5 18.5681 25.6667C18.5681 26 18.7656 26.4792 19.1607 27.1042C19.5557 27.7292 19.7533 28.4444 19.7533 29.25C19.7533 30.6389 19.3911 31.6667 18.6668 32.3333C17.9425 33 16.9878 33.3333 15.8026 33.3333ZM7.11117 18.3333C7.79595 18.3333 8.36221 18.0972 8.80995 17.625C9.2577 17.1528 9.48157 16.5556 9.48157 15.8333C9.48157 15.1111 9.2577 14.5139 8.80995 14.0417C8.36221 13.5694 7.79595 13.3333 7.11117 13.3333C6.42639 13.3333 5.86013 13.5694 5.41239 14.0417C4.96465 14.5139 4.74078 15.1111 4.74078 15.8333C4.74078 16.5556 4.96465 17.1528 5.41239 17.625C5.86013 18.0972 6.42639 18.3333 7.11117 18.3333ZM11.852 11.6667C12.5367 11.6667 13.103 11.4306 13.5507 10.9583C13.9985 10.4861 14.2223 9.88889 14.2223 9.16667C14.2223 8.44444 13.9985 7.84722 13.5507 7.375C13.103 6.90278 12.5367 6.66667 11.852 6.66667C11.1672 6.66667 10.6009 6.90278 10.1532 7.375C9.70544 7.84722 9.48157 8.44444 9.48157 9.16667C9.48157 9.88889 9.70544 10.4861 10.1532 10.9583C10.6009 11.4306 11.1672 11.6667 11.852 11.6667ZM19.7533 11.6667C20.438 11.6667 21.0043 11.4306 21.452 10.9583C21.8998 10.4861 22.1237 9.88889 22.1237 9.16667C22.1237 8.44444 21.8998 7.84722 21.452 7.375C21.0043 6.90278 20.438 6.66667 19.7533 6.66667C19.0685 6.66667 18.5022 6.90278 18.0545 7.375C17.6067 7.84722 17.3829 8.44444 17.3829 9.16667C17.3829 9.88889 17.6067 10.4861 18.0545 10.9583C18.5022 11.4306 19.0685 11.6667 19.7533 11.6667ZM24.494 18.3333C25.1788 18.3333 25.7451 18.0972 26.1928 17.625C26.6406 17.1528 26.8644 16.5556 26.8644 15.8333C26.8644 15.1111 26.6406 14.5139 26.1928 14.0417C25.7451 13.5694 25.1788 13.3333 24.494 13.3333C23.8093 13.3333 23.243 13.5694 22.7953 14.0417C22.3475 14.5139 22.1237 15.1111 22.1237 15.8333C22.1237 16.5556 22.3475 17.1528 22.7953 17.625C23.243 18.0972 23.8093 18.3333 24.494 18.3333ZM15.8026 30C16.0396 30 16.2306 29.9306 16.3755 29.7917C16.5203 29.6528 16.5927 29.4722 16.5927 29.25C16.5927 28.8611 16.3952 28.4028 16.0001 27.875C15.6051 27.3472 15.4075 26.5556 15.4075 25.5C15.4075 24.3333 15.7894 23.4028 16.5532 22.7083C17.317 22.0139 18.252 21.6667 19.3582 21.6667L22.1237 21.6667C23.8619 21.6667 25.35 21.1319 26.5879 20.0625C27.8258 18.9931 28.4447 17.3333 28.4447 15.0833C28.4447 11.7222 27.2266 8.92361 24.7903 6.6875C22.3541 4.45139 19.4635 3.33333 16.1187 3.33333C12.5367 3.33333 9.48157 4.625 6.95315 7.20833C4.42473 9.79167 3.16052 12.9444 3.16052 16.6667C3.16052 20.3611 4.39181 23.5069 6.85438 26.1042C9.31696 28.7014 12.2997 30 15.8026 30Z",
                   fill: "rgba(0,0,0,1)",
                   fillRule: "nonzero",
                 },
@@ -405,17 +281,46 @@ export default function ConfigsAcessibilidade(props) {
             ></Icon>
           </View>
         </View>
-        <View
-          width="867px"
-          height="3px"
-          {...getOverrideProps(overrides, "Divider38512026")}
-        ></View>
-        <View
-          width="867px"
-          height="3px"
-          {...getOverrideProps(overrides, "Divider38512027")}
-        ></View>
       </View>
+      <SwitchField
+        width="unset"
+        height="unset"
+        label="Sim"
+        position="absolute"
+        top="728px"
+        left="1305px"
+        size="large"
+        defaultChecked={true}
+        isDisabled={false}
+        labelPosition="end"
+        {...getOverrideProps(overrides, "SwitchField38532358")}
+      ></SwitchField>
+      <SwitchField
+        width="unset"
+        height="unset"
+        label="Não"
+        position="absolute"
+        top="588px"
+        left="1303px"
+        size="large"
+        defaultChecked={false}
+        isDisabled={false}
+        labelPosition="end"
+        {...getOverrideProps(overrides, "SwitchField38532359")}
+      ></SwitchField>
+      <SelectField
+        width="458px"
+        height="46px"
+        placeholder="Seguir tema do sistema operacional"
+        position="absolute"
+        top="456px"
+        left="920px"
+        size="large"
+        isDisabled={false}
+        labelHidden={true}
+        variation="default"
+        {...getOverrideProps(overrides, "SelectField")}
+      ></SelectField>
       <View
         padding="0px 0px 0px 0px"
         width="404px"
@@ -425,9 +330,9 @@ export default function ConfigsAcessibilidade(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="362px"
-        left="112px"
-        {...getOverrideProps(overrides, "Group 481")}
+        top="367px"
+        left="166px"
+        {...getOverrideProps(overrides, "Group 484")}
       >
         <View
           width="404px"
@@ -439,20 +344,11 @@ export default function ConfigsAcessibilidade(props) {
           position="absolute"
           top="0px"
           left="0px"
+          border="1px SOLID rgba(0,0,0,1)"
           borderRadius="10px"
           padding="0px 0px 0px 0px"
           backgroundColor="rgba(255,255,255,1)"
           {...getOverrideProps(overrides, "Rectangle 205")}
-        ></View>
-        <View
-          width="404px"
-          height="2px"
-          {...getOverrideProps(overrides, "Divider38512030")}
-        ></View>
-        <View
-          width="404px"
-          height="2px"
-          {...getOverrideProps(overrides, "Divider38512031")}
         ></View>
         <Icon
           width="30px"
@@ -474,7 +370,7 @@ export default function ConfigsAcessibilidade(props) {
           bottom="83.27%"
           left="9.16%"
           right="83.42%"
-          {...getOverrideProps(overrides, "Vector38512032")}
+          {...getOverrideProps(overrides, "Vector38572761")}
         ></Icon>
         <Icon
           width="30px"
@@ -494,7 +390,7 @@ export default function ConfigsAcessibilidade(props) {
           position="absolute"
           top="171px"
           left="37px"
-          {...getOverrideProps(overrides, "Vector38512033")}
+          {...getOverrideProps(overrides, "Vector38572762")}
         ></Icon>
         <Icon
           width="30px"
@@ -516,13 +412,8 @@ export default function ConfigsAcessibilidade(props) {
           bottom="33.67%"
           left="9.16%"
           right="83.42%"
-          {...getOverrideProps(overrides, "Vector38512034")}
+          {...getOverrideProps(overrides, "Vector38572763")}
         ></Icon>
-        <View
-          width="404px"
-          height="2px"
-          {...getOverrideProps(overrides, "Divider38512035")}
-        ></View>
         <Icon
           width="30px"
           height="35px"
@@ -539,11 +430,11 @@ export default function ConfigsAcessibilidade(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="84.07%"
-          bottom="8.87%"
+          top="84.27%"
+          bottom="8.67%"
           left="9.16%"
           right="83.42%"
-          {...getOverrideProps(overrides, "Vector38512036")}
+          {...getOverrideProps(overrides, "Vector38572764")}
         ></Icon>
         <Text
           fontFamily="Poppins"
@@ -565,7 +456,7 @@ export default function ConfigsAcessibilidade(props) {
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Acessibilidade"
-          {...getOverrideProps(overrides, "Acessibilidade38512037")}
+          {...getOverrideProps(overrides, "Acessibilidade38572765")}
         ></Text>
         <Text
           fontFamily="Poppins"
@@ -626,13 +517,195 @@ export default function ConfigsAcessibilidade(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="416px"
+          top="421px"
           left="110px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Notificação"
           {...getOverrideProps(overrides, "Notifica\u00E7\u00E3o")}
         ></Text>
+        <Divider
+          width="404px"
+          position="absolute"
+          top="132px"
+          left="0px"
+          size="default"
+          orientation="horizontal"
+          {...getOverrideProps(overrides, "Divider38572769")}
+        ></Divider>
+        <Divider
+          width="404px"
+          position="absolute"
+          top="375px"
+          left="0px"
+          size="default"
+          orientation="horizontal"
+          {...getOverrideProps(overrides, "Divider38572770")}
+        ></Divider>
+        <Divider
+          width="404px"
+          position="absolute"
+          top="239px"
+          left="0px"
+          size="default"
+          orientation="horizontal"
+          {...getOverrideProps(overrides, "Divider38572771")}
+        ></Divider>
+      </View>
+      <Divider
+        width="823px"
+        height="1px"
+        position="absolute"
+        top="682px"
+        left="629px"
+        size="default"
+        orientation="horizontal"
+        {...getOverrideProps(overrides, "Divider38572798")}
+      ></Divider>
+      <Divider
+        width="823px"
+        height="1px"
+        position="absolute"
+        top="543px"
+        left="629px"
+        size="default"
+        orientation="horizontal"
+        {...getOverrideProps(overrides, "Divider38572819")}
+      ></Divider>
+      <View
+        padding="0px 0px 0px 0px"
+        width="1519px"
+        height="70px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="0px"
+        left="0px"
+        {...getOverrideProps(overrides, "Group 486")}
+      >
+        <View
+          padding="0px 0px 0px 0px"
+          width="1519px"
+          height="70px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="0px"
+          left="0px"
+          {...getOverrideProps(overrides, "NavHeader")}
+        >
+          <View
+            width="1519px"
+            height="70px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="0px"
+            left="0px"
+            padding="0px 0px 0px 0px"
+            backgroundColor="rgba(15,45,57,1)"
+            {...getOverrideProps(overrides, "Rectangle 206")}
+          ></View>
+          <Button
+            width="155.31px"
+            height="33px"
+            position="absolute"
+            border="1px SOLID rgba(255,255,255,1)"
+            top="24px"
+            left="1327.62px"
+            backgroundColor="rgba(0,0,0,0)"
+            size="default"
+            isDisabled={false}
+            variation="primary"
+            children="Cadastrar-se"
+            {...getOverrideProps(overrides, "Button38981943")}
+          ></Button>
+          <Image
+            width="182.36px"
+            height="24px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="27px"
+            left="37.07px"
+            padding="0px 0px 0px 0px"
+            objectFit="cover"
+            {...getOverrideProps(overrides, "logo_branca_conecta 2")}
+          ></Image>
+          <Button
+            width="unset"
+            height="unset"
+            position="absolute"
+            top="22px"
+            left="302.6px"
+            backgroundColor="rgba(0,0,0,0)"
+            size="small"
+            isDisabled={false}
+            variation="primary"
+            children="Home"
+            {...getOverrideProps(overrides, "Button38981945")}
+          ></Button>
+          <Button
+            width="unset"
+            height="unset"
+            position="absolute"
+            top="22px"
+            left="722.43px"
+            backgroundColor="rgba(0,0,0,0)"
+            size="small"
+            isDisabled={false}
+            variation="primary"
+            children="Comunidade"
+            {...getOverrideProps(overrides, "Button38981946")}
+          ></Button>
+          <Button
+            width="unset"
+            height="unset"
+            position="absolute"
+            top="22px"
+            left="478.95px"
+            backgroundColor="rgba(0,0,0,0)"
+            size="small"
+            isDisabled={false}
+            variation="primary"
+            children="Acessibilidade"
+            {...getOverrideProps(overrides, "Button38981947")}
+          ></Button>
+          <Button
+            width="unset"
+            height="unset"
+            position="absolute"
+            top="22px"
+            left="938.85px"
+            backgroundColor="rgba(0,0,0,0)"
+            size="small"
+            isDisabled={false}
+            variation="primary"
+            children="Ajuda"
+            {...getOverrideProps(overrides, "Button38981948")}
+          ></Button>
+          <Button
+            width="130.26px"
+            height="unset"
+            position="absolute"
+            top="24px"
+            left="1130.23px"
+            backgroundColor="rgba(191,128,64,1)"
+            size="small"
+            isDisabled={false}
+            variation="primary"
+            children="Entrar"
+            {...getOverrideProps(overrides, "Button38981949")}
+          ></Button>
+        </View>
       </View>
     </View>
   );

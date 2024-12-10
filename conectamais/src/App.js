@@ -1,7 +1,23 @@
 import logo from "./logo.svg";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import { CadastroUsuario1, ConfigsAcessibilidade, EscolhaDeConta, NovaHome, TelaDeLogin } from "./ui-components";
+import {
+  CadastroEmpresas,
+  CadastroUsuario1,
+  CadastroUsuario2,
+  CadastroUsuario3,
+  CadastroUsuario4,
+  CadastroUsuario5,
+  Configs,
+  ConfigsAcessibilidade,
+  ConfigsNotificacoes,
+  ConfigsPersonalizacao,
+  EscolhaDeConta,
+  MensagensNotificacoes,
+  MeuPerfil,
+  Premium,
+  TelaDeLogin,
+} from "./ui-components";
 import Home from "./ui-components/Home";
 
 function App() {
@@ -11,8 +27,9 @@ function App() {
       {/* O Router agora envolve toda a aplicação */}
       <div className="App">
         <Routes>
-          <Route path="/" element={<CadastroUsuario1 />} />
+          <Route path="/" element={<Premium />} />
           <Route path="/TelaDeLogin" element={<TelaDeLogin />} />
+          <Route path="/Home" element={<Home />} />
         </Routes>
       </div>
     </Router>

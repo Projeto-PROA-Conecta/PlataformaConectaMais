@@ -19,12 +19,8 @@ export declare type Variant = {
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type CadastroUsuario2OverridesProps = {
     CadastroUsuario2?: PrimitiveOverrideProps<ViewProps>;
-    Cadastro?: PrimitiveOverrideProps<ViewProps>;
-    Rectangle?: PrimitiveOverrideProps<ViewProps>;
-    "Group 457"?: PrimitiveOverrideProps<ViewProps>;
-    "J\u00E1 estamos quase l\u00E1"?: PrimitiveOverrideProps<TextProps>;
-    "image-removebg-preview (4) 4"?: PrimitiveOverrideProps<ViewProps>;
-    "Group 470"?: PrimitiveOverrideProps<ViewProps>;
+    "Fundo Novo"?: PrimitiveOverrideProps<ImageProps>;
+    "Group 486"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 1"?: PrimitiveOverrideProps<IconProps>;
     "Crie sua conta"?: PrimitiveOverrideProps<TextProps>;
     "Group 459"?: PrimitiveOverrideProps<ViewProps>;
@@ -88,15 +84,15 @@ export declare type CadastroUsuario2OverridesProps = {
     Vector38512366?: PrimitiveOverrideProps<IconProps>;
     Vector38512367?: PrimitiveOverrideProps<IconProps>;
     Vector38512368?: PrimitiveOverrideProps<IconProps>;
-    "Ellipse 10038512369"?: PrimitiveOverrideProps<IconProps>;
-    "Ellipse 10038512370"?: PrimitiveOverrideProps<IconProps>;
+    "Ellipse 101"?: PrimitiveOverrideProps<IconProps>;
+    "Ellipse 102"?: PrimitiveOverrideProps<IconProps>;
     PhoneNumberField?: PrimitiveOverrideProps<PhoneNumberFieldProps>;
-    "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"?: PrimitiveOverrideProps<ImageProps>;
+    CheckboxField?: PrimitiveOverrideProps<CheckboxFieldProps>;
     PasswordField?: PrimitiveOverrideProps<PasswordFieldProps>;
-    CheckboxField38545613?: PrimitiveOverrideProps<CheckboxFieldProps>;
-    CheckboxField38545622?: PrimitiveOverrideProps<CheckboxFieldProps>;
     Button38545630?: PrimitiveOverrideProps<ButtonProps>;
     Button38545631?: PrimitiveOverrideProps<ButtonProps>;
+    "J\u00E1 estamos quase l\u00E1"?: PrimitiveOverrideProps<TextProps>;
+    "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"?: PrimitiveOverrideProps<ImageProps>;
 } & EscapeHatchProps;
 export declare type CadastroUsuario2Props = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

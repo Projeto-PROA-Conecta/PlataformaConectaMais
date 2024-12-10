@@ -33,528 +33,161 @@ export default function CadastroUsuario2(props) {
       {...getOverrideProps(overrides, "CadastroUsuario2")}
       {...rest}
     >
-      <View
-        width="1519px"
-        height="1117px"
+      <Image
+        width="100%"
+        height="100%"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
-        overflow="hidden"
         position="absolute"
-        top="0px"
-        left="0px"
+        top="0%"
+        bottom="0%"
+        left="0%"
+        right="0%"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Cadastro")}
+        objectFit="cover"
+        {...getOverrideProps(overrides, "Fundo Novo")}
+      ></Image>
+      <View
+        padding="0px 0px 0px 0px"
+        width="691.45px"
+        height="844.44px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="12%"
+        bottom="12.41%"
+        left="44.04%"
+        right="10.44%"
+        {...getOverrideProps(overrides, "Group 486")}
       >
-        <View
-          width="1519px"
-          height="1117px"
+        <Icon
+          width="672.44px"
+          height="842.83px"
+          viewBox={{
+            minX: 0,
+            minY: 0,
+            width: 674.4487534020664,
+            height: 844.4354007705206,
+          }}
+          paths={[
+            {
+              d: "M0 12C0 5.3726 5.37258 0 12 0L660.44 0C667.068 0 672.44 5.37258 672.44 12L672.44 830.834C672.44 837.461 667.068 842.834 660.44 842.834L12 842.834C5.37258 842.834 0 837.461 0 830.834L0 12Z",
+              fill: "rgba(255,255,255,1)",
+              fillRule: "nonzero",
+            },
+          ]}
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
           top="0%"
-          bottom="0%"
-          left="0%"
+          bottom="0.19%"
+          left="2.75%"
           right="0%"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "Rectangle")}
-        ></View>
-      </View>
-      <View
-        padding="0px 0px 0px 0px"
-        width="1183.45px"
-        height="847.86px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="147px"
-        left="167px"
-        {...getOverrideProps(overrides, "Group 457")}
-      >
+          transformOrigin="top left"
+          transform="rotate(0.14deg)"
+          {...getOverrideProps(overrides, "Rectangle 1")}
+        ></Icon>
         <Text
           fontFamily="Poppins"
-          fontSize="44px"
+          fontSize="20px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
-          lineHeight="66px"
+          lineHeight="30px"
           textAlign="center"
           display="block"
           direction="column"
           justifyContent="unset"
-          width="384px"
-          height="117px"
+          width="151.29px"
+          height="24.46px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="374px"
-          left="117px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Já estamos&#xA;quase lá"
-          {...getOverrideProps(overrides, "J\u00E1 estamos quase l\u00E1")}
-        ></Text>
-        <View
-          width="423.64px"
-          height="139.66px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="165.45px"
-          left="0px"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "image-removebg-preview (4) 4")}
-        ></View>
-        <View
-          padding="0px 0px 0px 0px"
-          width="672.44px"
-          height="846.26px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="0px"
-          left="511.01px"
+          top="9.24%"
+          bottom="87.87%"
+          left="40.35%"
+          right="37.77%"
           transformOrigin="top left"
           transform="rotate(0.14deg)"
-          {...getOverrideProps(overrides, "Group 470")}
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="Crie sua conta "
+          {...getOverrideProps(overrides, "Crie sua conta")}
+        ></Text>
+        <View
+          padding="0px 0px 0px 0px"
+          width="298.94px"
+          height="257.08px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="69.46%"
+          bottom="0.09%"
+          left="29.59%"
+          right="27.17%"
+          transformOrigin="top left"
+          transform="rotate(0.14deg)"
+          {...getOverrideProps(overrides, "Group 459")}
         >
-          <Icon
-            width="672.44px"
-            height="842.83px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 674.4487534020664,
-              height: 844.4354007705206,
-            }}
-            paths={[
-              {
-                d: "M0 12C0 5.3726 5.37258 0 12 0L660.44 0C667.068 0 672.44 5.37258 672.44 12L672.44 830.834C672.44 837.461 667.068 842.834 660.44 842.834L12 842.834C5.37258 842.834 0 837.461 0 830.834L0 12Z",
-                fill: "rgba(255,255,255,1)",
-                fillRule: "nonzero",
-              },
-            ]}
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="0px"
-            left="0px"
-            transformOrigin="top left"
-            transform="rotate(0deg)"
-            {...getOverrideProps(overrides, "Rectangle 1")}
-          ></Icon>
           <Text
-            fontFamily="Poppins"
-            fontSize="20px"
+            fontFamily="Montserrat"
+            fontSize="12px"
             fontWeight="700"
-            color="rgba(0,0,0,1)"
-            lineHeight="30px"
-            textAlign="center"
+            color="rgba(255,255,255,1)"
+            lineHeight="14.628000259399414px"
+            textAlign="left"
             display="block"
             direction="column"
             justifyContent="unset"
-            width="151.29px"
-            height="24.46px"
+            width="38.69px"
+            height="12.72px"
             gap="unset"
             alignItems="unset"
             position="absolute"
-            top="calc(50% - 12.23px - 333.53px)"
-            left="calc(50% - 75.65px - 0.4px)"
-            transformOrigin="top left"
-            transform="rotate(0deg)"
+            top="12.48%"
+            bottom="82.57%"
+            left="44.03%"
+            right="43.02%"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
-            children="Crie sua conta "
-            {...getOverrideProps(overrides, "Crie sua conta")}
+            children="Pronto"
+            {...getOverrideProps(overrides, "Pronto")}
           ></Text>
           <View
             padding="0px 0px 0px 0px"
-            width="298.94px"
-            height="229.7px"
+            width="37.56px"
+            height="37.86px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="616.56px"
-            left="187.01px"
-            transformOrigin="top left"
-            transform="rotate(0deg)"
-            {...getOverrideProps(overrides, "Group 459")}
+            top="4.64%"
+            bottom="80.63%"
+            left="50.41%"
+            right="37.03%"
+            {...getOverrideProps(overrides, "Group38512311")}
           >
-            <Text
-              fontFamily="Montserrat"
-              fontSize="12px"
-              fontWeight="700"
-              color="rgba(255,255,255,1)"
-              lineHeight="14.628000259399414px"
-              textAlign="left"
-              display="block"
-              direction="column"
-              justifyContent="unset"
-              width="38.69px"
-              height="11.37px"
-              gap="unset"
-              alignItems="unset"
-              position="absolute"
-              top="28.68px"
-              left="131.64px"
-              transformOrigin="top left"
-              transform="rotate(0deg)"
-              padding="0px 0px 0px 0px"
-              whiteSpace="pre-wrap"
-              children="Pronto"
-              {...getOverrideProps(overrides, "Pronto")}
-            ></Text>
-            <View
-              padding="0px 0px 0px 0px"
-              width="37.56px"
-              height="33.83px"
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="4.64%"
-              bottom="80.63%"
-              left="50.41%"
-              right="37.03%"
-              transformOrigin="top left"
-              transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Group38512311")}
-            >
-              <Icon
-                width="37.56px"
-                height="33.83px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 37.64190966576825,
-                  height: 33.9197875458749,
-                }}
-                paths={[
-                  {
-                    d: "M23.8752 33.8303C23.8206 33.8303 23.766 33.8284 23.7112 33.8251C20.0972 33.6016 7.73112 31.918 0.345791 19.6278C-0.199759 18.7206 -0.0920302 17.5663 0.614131 16.7562C6.78169 11.9286 11.5995 6.7037 14.4432 0.898079C14.9568 0.309093 15.7274 -0.0128661 16.5074 0.000393916C17.3082 0.0186234 18.0461 0.38153 18.5322 0.996086C22.0384 5.43054 28.9608 13.2806 35.926 16.0328C36.7089 16.3424 37.2756 16.9707 37.481 17.7576C37.6849 18.5379 37.4963 19.3423 36.9637 19.9644L25.8853 32.9118C25.3872 33.4941 24.6453 33.8303 23.8752 33.8303Z",
-                    fill: "rgba(230,230,230,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="0%"
-                bottom="0%"
-                left="0%"
-                right="0%"
-                transformOrigin="top left"
-                transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector38512312")}
-              ></Icon>
-              <Icon
-                width="32.8px"
-                height="29.25px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 32.86928538918983,
-                  height: 29.331218544867625,
-                }}
-                paths={[
-                  {
-                    d: "M0.192836 15.6461C0.00418226 15.863 -0.030254 16.1721 0.10724 16.4164C6.78837 28.2573 18.7331 29.1862 21.0597 29.252C21.2838 29.2643 21.4938 29.1673 21.636 29.0011L32.635 16.147C32.7907 15.9647 32.8387 15.7323 32.7671 15.5078C32.6948 15.2825 32.5172 15.1144 32.2796 15.0481C24.8094 12.9469 16.9715 3.21438 14.7473 0.281277C14.6172 0.109881 14.4162 0.00714151 14.1963 3.88042e-05C13.9703 -0.00208958 13.7644 0.0833711 13.6205 0.248134C10.4379 6.22058 5.98181 11.3661 0.192836 15.6461Z",
-                    fill: "rgba(255,255,255,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="5.58%"
-                bottom="7.95%"
-                left="7.2%"
-                right="5.48%"
-                transformOrigin="top left"
-                transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector38512313")}
-              ></Icon>
-              <Icon
-                width="11.48px"
-                height="11.25px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 11.502882418477384,
-                  height: 11.274899260969448,
-                }}
-                paths={[
-                  {
-                    d: "M1.28727 11.0301L11.2574 1.24597C11.9389 0.577159 10.8712 -0.452158 10.1888 0.217499L0.218686 10.0016C-0.462853 10.6704 0.604881 11.6997 1.28727 11.0301Z",
-                    fill: "rgba(230,230,230,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="27.43%"
-                bottom="39.32%"
-                left="19.03%"
-                right="50.41%"
-                transformOrigin="top left"
-                transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector38512314")}
-              ></Icon>
-              <Icon
-                width="8.53px"
-                height="9.41px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 8.552203768958861,
-                  height: 9.427859648184182,
-                }}
-                paths={[
-                  {
-                    d: "M1.3103 9.21372C4.06192 6.84001 6.45307 4.09156 8.41105 1.07574C8.9279 0.279662 7.62096 -0.451281 7.10617 0.341637C5.21323 3.2573 2.9016 5.89067 0.241716 8.18525C-0.484015 8.81132 0.587622 9.83715 1.3103 9.21372Z",
-                    fill: "rgba(230,230,230,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="40.94%"
-                bottom="31.25%"
-                left="35%"
-                right="42.29%"
-                transformOrigin="top left"
-                transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector38512315")}
-              ></Icon>
-              <Icon
-                width="7.68px"
-                height="10.2px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 7.700164434880207,
-                  height: 10.220345419946028,
-                }}
-                paths={[
-                  {
-                    d: "M1.27129 9.9705C3.77656 7.2995 5.90909 4.3185 7.58801 1.10293C8.02355 0.268752 6.72036 -0.468582 6.28313 0.368825C4.661 3.47564 2.62376 6.36082 0.202703 8.94202C-0.447548 9.63529 0.617913 10.6671 1.27129 9.9705Z",
-                    fill: "rgba(230,230,230,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="48.47%"
-                bottom="21.37%"
-                left="49.54%"
-                right="30.02%"
-                transformOrigin="top left"
-                transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector38512316")}
-              ></Icon>
-            </View>
-            <View
-              padding="0px 0px 0px 0px"
-              width="37.56px"
-              height="33.83px"
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="6.33%"
-              bottom="78.94%"
-              left="53.44%"
-              right="33.99%"
-              transformOrigin="top left"
-              transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Group38512317")}
-            >
-              <Icon
-                width="37.56px"
-                height="33.83px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 37.64190966576825,
-                  height: 33.9197875458749,
-                }}
-                paths={[
-                  {
-                    d: "M23.8752 33.8303C23.8206 33.8303 23.766 33.8284 23.7112 33.8251C20.0972 33.6016 7.73112 31.918 0.345791 19.6278C-0.199759 18.7206 -0.0920302 17.5663 0.614131 16.7562C6.47363 11.8649 10.8852 6.51624 14.4432 0.898079C14.9568 0.309093 15.7274 -0.0128661 16.5074 0.000393916C17.3082 0.0186234 18.0461 0.38153 18.5322 0.996086C22.0384 5.43054 28.9608 13.2806 35.926 16.0328C36.7089 16.3424 37.2756 16.9707 37.481 17.7576C37.6849 18.5379 37.4963 19.3423 36.9637 19.9644L25.8853 32.9118C25.3872 33.4941 24.6453 33.8303 23.8752 33.8303Z",
-                    fill: "rgba(230,230,230,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="0%"
-                bottom="0%"
-                left="0%"
-                right="0%"
-                transformOrigin="top left"
-                transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector38512318")}
-              ></Icon>
-              <Icon
-                width="32.8px"
-                height="29.25px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 32.86928538918983,
-                  height: 29.331218544867625,
-                }}
-                paths={[
-                  {
-                    d: "M0.192836 15.6461C0.00418226 15.863 -0.030254 16.1721 0.10724 16.4164C6.78837 28.2573 18.7331 29.1862 21.0597 29.252C21.2838 29.2643 21.4938 29.1673 21.636 29.0011L32.635 16.147C32.7907 15.9647 32.8387 15.7323 32.7671 15.5078C32.6948 15.2825 32.5172 15.1144 32.2796 15.0481C24.8094 12.9469 16.9715 3.21438 14.7473 0.281277C14.6172 0.109881 14.4162 0.00714151 14.1963 3.88042e-05C13.9703 -0.00208958 13.7644 0.0833711 13.6205 0.248134C9.80794 6.34543 5.51919 11.7503 0.192836 15.6461Z",
-                    fill: "rgba(255,255,255,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="5.58%"
-                bottom="7.95%"
-                left="7.2%"
-                right="5.48%"
-                transformOrigin="top left"
-                transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector38512319")}
-              ></Icon>
-              <Icon
-                width="11.48px"
-                height="11.25px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 11.502882418477384,
-                  height: 11.274899260969448,
-                }}
-                paths={[
-                  {
-                    d: "M1.28727 11.0301L11.2574 1.24597C11.9389 0.577159 10.8712 -0.452158 10.1888 0.217499L0.218686 10.0016C-0.462853 10.6704 0.604881 11.6997 1.28727 11.0301Z",
-                    fill: "rgba(230,230,230,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="27.43%"
-                bottom="39.32%"
-                left="19.04%"
-                right="50.4%"
-                transformOrigin="top left"
-                transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector38512320")}
-              ></Icon>
-              <Icon
-                width="8.53px"
-                height="9.41px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 8.552203768958861,
-                  height: 9.427859648184182,
-                }}
-                paths={[
-                  {
-                    d: "M1.3103 9.21372C4.06192 6.84001 6.45307 4.09156 8.41105 1.07574C8.9279 0.279662 7.62095 -0.451281 7.10617 0.341637C5.21323 3.2573 2.9016 5.89067 0.241716 8.18525C-0.484015 8.81132 0.587622 9.83715 1.3103 9.21372Z",
-                    fill: "rgba(230,230,230,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="40.94%"
-                bottom="31.25%"
-                left="35%"
-                right="42.29%"
-                transformOrigin="top left"
-                transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector38512321")}
-              ></Icon>
-              <Icon
-                width="7.68px"
-                height="10.2px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 7.700166342223383,
-                  height: 10.220345424496088,
-                }}
-                paths={[
-                  {
-                    d: "M1.27128 9.9705C3.77655 7.2995 5.90909 4.3185 7.58801 1.10293C8.02355 0.268752 6.72035 -0.468582 6.28313 0.368825C4.661 3.47564 2.62376 6.36082 0.202704 8.94202C-0.447548 9.63529 0.617906 10.6671 1.27128 9.9705Z",
-                    fill: "rgba(230,230,230,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="48.47%"
-                bottom="21.37%"
-                left="49.54%"
-                right="30.02%"
-                transformOrigin="top left"
-                transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector38512322")}
-              ></Icon>
-            </View>
             <Icon
-              width="8.82px"
-              height="22.18px"
+              width="37.56px"
+              height="37.86px"
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 8.869719316468945,
-                height: 22.198869786726796,
+                width: 37.6515278406232,
+                height: 37.951640176878755,
               }}
               paths={[
                 {
-                  d: "M8.81564 22.1779L2.8418 22.1773L0 0L8.81684 0.000591829L8.81564 22.1779Z",
-                  fill: "rgba(255,182,182,1)",
+                  d: "M23.8752 37.8621C23.8206 37.8621 23.766 37.86 23.7112 37.8563C20.0972 37.6062 7.73112 35.7219 0.345791 21.967C-0.199759 20.9518 -0.0920302 19.6599 0.614131 18.7532C6.78169 13.3502 11.5995 7.50264 14.4432 1.00511C14.9568 0.34593 15.7274 -0.0143994 16.5074 0.000440862C17.3082 0.0208429 18.0461 0.427 18.5322 1.1148C22.0384 6.07775 28.9608 14.8633 35.926 17.9436C36.7089 18.2901 37.2756 18.9933 37.481 19.874C37.6849 20.7472 37.4963 21.6475 36.9637 22.3438L25.8853 36.8342C25.3872 37.4859 24.6453 37.8621 23.8752 37.8621Z",
+                  fill: "rgba(230,230,230,1)",
                   fillRule: "nonzero",
                 },
               ]}
@@ -563,206 +196,180 @@ export default function CadastroUsuario2(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="87.46%"
-              bottom="2.88%"
-              left="77.82%"
-              right="19.23%"
-              transformOrigin="top left"
-              transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector38512323")}
-            ></Icon>
-            <View
-              padding="0px 0px 0px 0px"
-              width="72.94px"
-              height="34.62px"
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="83.95%"
-              bottom="0.98%"
-              left="75.6%"
+              top="0%"
+              bottom="0%"
+              left="0%"
               right="0%"
               transformOrigin="top left"
               transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Group38512324")}
-            >
-              <Icon
-                width="19.58px"
-                height="21.9px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 19.63473814651843,
-                  height: 21.948582148593253,
-                }}
-                paths={[
-                  {
-                    d: "M19.5825 18.8897L14.4941 21.9019L0 4.44592L7.50992 0L19.5825 18.8897Z",
-                    fill: "rgba(255,182,182,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="0%"
-                bottom="36.73%"
-                left="69.94%"
-                right="3.21%"
-                transformOrigin="top left"
-                transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector38512325")}
-              ></Icon>
-              <Icon
-                width="19.85px"
-                height="15.83px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 19.88590897535505,
-                  height: 15.877682882145088,
-                }}
-                paths={[
-                  {
-                    d: "M0.000124799 13.3736C0.00584219 13.7242 0.452042 14.6025 0.642922 14.9012C1.22965 15.8191 2.47846 16.1055 3.43225 15.5408L19.1896 6.21087C19.8402 5.82564 20.0432 5.00566 19.6429 4.37942L19.2393 3.74801C19.2393 3.74801 18.8059 1.38877 15.706 0C15.706 0 14.882 3.01248 10.068 1.90863L8.20955 0.896606L4.70987 9.14188L1.45047 11.6477C0.737372 12.1959 -0.0142014 12.4953 0.000124799 13.3736Z",
-                    fill: "rgba(47,46,65,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="45.43%"
-                bottom="8.84%"
-                left="72.79%"
-                right="0%"
-                transformOrigin="top left"
-                transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector38512326")}
-              ></Icon>
-              <Icon
-                width="18.87px"
-                height="8px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 18.885743106725386,
-                  height: 8.042666054882062,
-                }}
-                paths={[
-                  {
-                    d: "M0.000118628 6.75648C0.0055533 6.93362 0.429688 7.37736 0.61113 7.52824C1.16885 7.99199 2.3559 8.13668 3.26253 7.85136L18.2407 3.1378C18.8591 2.94318 19.0521 2.52891 18.6716 2.21253L18.288 1.89353C18.288 1.89353 17.8759 0.701622 14.9293 0C14.9293 0 14.1461 1.52194 9.57013 0.964263L7.8036 0.452975L4.47696 4.61858L1.37874 5.88453C0.700909 6.16148 -0.0134992 6.31277 0.000118628 6.75648Z",
-                    fill: "rgba(47,46,65,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="76.9%"
-                bottom="0%"
-                left="0%"
-                right="74.13%"
-                {...getOverrideProps(overrides, "Vector38545689")}
-              ></Icon>
-            </View>
-            <View
-              padding="0px 0px 0px 0px"
-              width="40.4px"
-              height="83.4px"
+              {...getOverrideProps(overrides, "Vector38512312")}
+            ></Icon>
+            <Icon
+              width="32.8px"
+              height="32.74px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 32.87760222492943,
+                height: 32.817561490864136,
+              }}
+              paths={[
+                {
+                  d: "M0.192836 17.5108C0.00418226 17.7535 -0.030254 18.0995 0.10724 18.3729C6.78837 31.6249 18.7331 32.6646 21.0597 32.7382C21.2838 32.752 21.4938 32.6434 21.636 32.4574L32.635 18.0714C32.7907 17.8674 32.8387 17.6072 32.7671 17.3561C32.6948 17.1038 32.5172 16.9157 32.2796 16.8415C24.8094 14.4899 16.9715 3.59747 14.7473 0.314799C14.6172 0.122977 14.4162 0.00799263 14.1963 4.34289e-05C13.9703 -0.00233862 13.7644 0.0933072 13.6205 0.277707C10.4379 6.96194 5.98181 12.7207 0.192836 17.5108Z",
+                  fill: "rgba(255,255,255,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
               display="block"
               gap="unset"
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="17.58%"
-              bottom="46.12%"
-              left="75.51%"
-              right="10.98%"
+              top="5.58%"
+              bottom="7.95%"
+              left="7.2%"
+              right="5.48%"
+              {...getOverrideProps(overrides, "Vector38512313")}
+            ></Icon>
+            <Icon
+              width="11.48px"
+              height="12.59px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 11.506080173666305,
+                height: 12.615369554565348,
+              }}
+              paths={[
+                {
+                  d: "M1.28727 12.3446L11.2574 1.39447C11.9389 0.645944 10.8712 -0.506045 10.1888 0.24342L0.218686 11.1936C-0.462853 11.9421 0.604881 13.0941 1.28727 12.3446Z",
+                  fill: "rgba(230,230,230,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="27.43%"
+              bottom="39.32%"
+              left="19.04%"
+              right="50.41%"
+              {...getOverrideProps(overrides, "Vector38512314")}
+            ></Icon>
+            <Icon
+              width="8.53px"
+              height="10.53px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 8.55487839496891,
+                height: 10.54903888216694,
+              }}
+              paths={[
+                {
+                  d: "M1.3103 10.3118C4.06192 7.65519 6.45307 4.57919 8.41105 1.20395C8.9279 0.312992 7.62096 -0.505065 7.10617 0.382353C5.21323 3.64551 2.9016 6.59272 0.241716 9.16076C-0.484015 9.86144 0.587622 11.0095 1.3103 10.3118Z",
+                  fill: "rgba(230,230,230,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="40.94%"
+              bottom="31.25%"
+              left="35%"
+              right="42.29%"
+              {...getOverrideProps(overrides, "Vector38512315")}
+            ></Icon>
+            <Icon
+              width="7.68px"
+              height="11.42px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 7.703064950756016,
+                height: 11.436215659565164,
+              }}
+              paths={[
+                {
+                  d: "M1.27129 11.1588C3.77656 8.16945 5.90909 4.83318 7.58801 1.23438C8.02355 0.300782 6.72036 -0.524427 6.28313 0.412781C4.661 3.88986 2.62376 7.11889 0.202703 10.0077C-0.447548 10.7836 0.617913 11.9384 1.27129 11.1588Z",
+                  fill: "rgba(230,230,230,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="48.47%"
+              bottom="21.37%"
+              left="49.55%"
+              right="30.02%"
+              {...getOverrideProps(overrides, "Vector38512316")}
+            ></Icon>
+          </View>
+          <View
+            padding="0px 0px 0px 0px"
+            width="37.56px"
+            height="37.86px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="6.33%"
+            bottom="78.94%"
+            left="53.44%"
+            right="33.99%"
+            {...getOverrideProps(overrides, "Group38512317")}
+          >
+            <Icon
+              width="37.56px"
+              height="37.86px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 37.6515278406232,
+                height: 37.951640176878755,
+              }}
+              paths={[
+                {
+                  d: "M23.8752 37.8621C23.8206 37.8621 23.766 37.86 23.7112 37.8563C20.0972 37.6062 7.73112 35.7219 0.345791 21.967C-0.199759 20.9518 -0.0920302 19.6599 0.614131 18.7532C6.47363 13.279 10.8852 7.29283 14.4432 1.00511C14.9568 0.34593 15.7274 -0.0143994 16.5074 0.000440862C17.3082 0.0208429 18.0461 0.427 18.5322 1.1148C22.0384 6.07775 28.9608 14.8633 35.926 17.9436C36.7089 18.2901 37.2756 18.9933 37.481 19.874C37.6849 20.7472 37.4963 21.6475 36.9637 22.3438L25.8853 36.8342C25.3872 37.4859 24.6453 37.8621 23.8752 37.8621Z",
+                  fill: "rgba(230,230,230,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="0%"
+              bottom="0%"
+              left="0%"
+              right="0%"
               transformOrigin="top left"
               transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Group38512327")}
-            >
-              <Icon
-                width="10.65px"
-                height="21.04px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 10.704853449251459,
-                  height: 21.067551350366514,
-                }}
-                paths={[
-                  {
-                    d: "M3.59531 16.6238C3.29961 15.3823 3.32215 14.1772 3.59947 13.1786L0 1.52931L5.86053 0L8.88083 11.9817C9.58114 12.7588 10.146 13.8307 10.4417 15.0722C11.1173 17.9083 10.1323 20.5548 8.24165 20.9832C6.35105 21.4117 4.27084 19.4599 3.59531 16.6238Z",
-                    fill: "rgba(255,182,182,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="74.77%"
-                bottom="0%"
-                left="73.63%"
-                right="0%"
-                transformOrigin="top left"
-                transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector38512328")}
-              ></Icon>
-              <Icon
-                width="37.85px"
-                height="71.22px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 38.02477586574514,
-                  height: 71.3076148956823,
-                }}
-                paths={[
-                  {
-                    d: "M1.53728e-05 1.33347C1.53728e-05 1.33347 9.4447 -2.62313 14.7183 3.09447C19.5183 8.29865 29.2626 23.9588 28.262 25.4824L37.855 69.1093L30.7443 71.2175L11.882 21.0367L1.53728e-05 1.33347Z",
-                    fill: "rgba(211,152,74,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="0%"
-                bottom="14.61%"
-                left="0%"
-                right="6.3%"
-                transformOrigin="top left"
-                transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector38512329")}
-              ></Icon>
-            </View>
+              {...getOverrideProps(overrides, "Vector38512318")}
+            ></Icon>
             <Icon
-              width="29.2px"
-              height="105.85px"
+              width="32.8px"
+              height="32.74px"
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 29.44972365752801,
-                height: 105.91602058060803,
+                width: 32.87760222492943,
+                height: 32.817561490864136,
               }}
               paths={[
                 {
-                  d: "M0 0.466738L4.86622 55.1082L16.6263 105.847L29.1973 104.676L23.1145 49.2537L26.8377 0L0 0.466738Z",
-                  fill: "rgba(47,46,65,1)",
+                  d: "M0.192836 17.5108C0.00418226 17.7535 -0.030254 18.0995 0.10724 18.3729C6.78837 31.6249 18.7331 32.6646 21.0597 32.7382C21.2838 32.752 21.4938 32.6434 21.636 32.4574L32.635 18.0714C32.7907 17.8674 32.8387 17.6072 32.7671 17.3561C32.6948 17.1038 32.5172 16.9157 32.2796 16.8415C24.8094 14.4899 16.9715 3.59747 14.7473 0.314799C14.6172 0.122977 14.4162 0.00799263 14.1963 4.34289e-05C13.9703 -0.00233862 13.7644 0.0933072 13.6205 0.277707C9.80794 7.10168 5.51919 13.1507 0.192836 17.5108Z",
+                  fill: "rgba(255,255,255,1)",
                   fillRule: "nonzero",
                 },
               ]}
@@ -771,27 +378,25 @@ export default function CadastroUsuario2(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="46.1%"
-              bottom="7.82%"
-              left="72.03%"
-              right="18.21%"
-              transformOrigin="top left"
-              transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector38512330")}
+              top="5.58%"
+              bottom="7.95%"
+              left="7.2%"
+              right="5.48%"
+              {...getOverrideProps(overrides, "Vector38512319")}
             ></Icon>
             <Icon
-              width="75.51px"
-              height="98.61px"
+              width="11.48px"
+              height="12.59px"
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 75.74766169217855,
-                height: 98.7888880125001,
+                width: 11.506080173666305,
+                height: 12.615369554565348,
               }}
               paths={[
                 {
-                  d: "M1.53728e-05 12.2365L30.3093 58.6762L64.8921 98.609L75.5126 92.0306L43.7505 45.4328C38.8893 24.9069 33.5059 5.90638 23.6401 0L1.53728e-05 12.2365Z",
-                  fill: "rgba(47,46,65,1)",
+                  d: "M1.28727 12.3446L11.2574 1.39447C11.9389 0.645944 10.8712 -0.506045 10.1888 0.24342L0.218686 11.1936C-0.462853 11.9421 0.604881 13.0941 1.28727 12.3446Z",
+                  fill: "rgba(230,230,230,1)",
                   fillRule: "nonzero",
                 },
               ]}
@@ -800,27 +405,25 @@ export default function CadastroUsuario2(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="46.14%"
-              bottom="10.94%"
-              left="72.36%"
-              right="2.38%"
-              transformOrigin="top left"
-              transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector38512331")}
+              top="27.43%"
+              bottom="39.32%"
+              left="19.04%"
+              right="50.4%"
+              {...getOverrideProps(overrides, "Vector38512320")}
             ></Icon>
             <Icon
-              width="39.73px"
-              height="90.78px"
+              width="8.53px"
+              height="10.53px"
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 39.949065914007406,
-                height: 90.86972397827365,
+                width: 8.55487839496891,
+                height: 10.54903888216694,
               }}
               paths={[
                 {
-                  d: "M6.08934 90.7752C4.66767 90.7752 3.29076 90.2932 2.16867 89.3775C0.662385 88.1479 -0.122229 86.3557 0.0155119 84.4599L2.65961 60.0448L1.6497 33.3839L1.65609 33.355L4.79509 18.867C4.82608 18.4066 4.92644 17.9192 5.08828 17.4511L9.72471 4.03462C10.5585 1.62138 12.8937 0 15.5364 0L19.6361 0C21.6889 0 23.5941 0.981255 24.7325 2.62512L28.3216 7.8067C28.5602 8.1509 28.7614 8.52044 28.9198 8.90513L36.8433 28.1521C37.0946 28.7631 37.2378 29.4058 37.2683 30.0623L39.7265 83.4782C39.8086 85.2515 39.0673 86.9487 37.6933 88.1342C36.3277 89.3131 34.5056 89.8344 32.6988 89.566C22.352 88.0281 13.2966 89.2857 7.52136 90.6118C7.04419 90.7212 6.56405 90.7752 6.08934 90.7752Z",
-                  fill: "rgba(211,152,74,1)",
+                  d: "M1.3103 10.3118C4.06192 7.65519 6.45307 4.57919 8.41105 1.20395C8.9279 0.312992 7.62095 -0.505065 7.10617 0.382353C5.21323 3.64551 2.9016 6.59272 0.241716 9.16076C-0.484015 9.86144 0.587622 11.0095 1.3103 10.3118Z",
+                  fill: "rgba(230,230,230,1)",
                   fillRule: "nonzero",
                 },
               ]}
@@ -829,27 +432,25 @@ export default function CadastroUsuario2(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="12.04%"
-              bottom="48.44%"
-              left="70.91%"
-              right="15.79%"
-              transformOrigin="top left"
-              transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector38512332")}
+              top="40.94%"
+              bottom="31.25%"
+              left="35%"
+              right="42.29%"
+              {...getOverrideProps(overrides, "Vector38512321")}
             ></Icon>
             <Icon
-              width="48.14px"
-              height="48.59px"
+              width="7.68px"
+              height="11.42px"
               viewBox={{
                 minX: 0,
                 minY: 0,
-                width: 48.25486779010862,
-                height: 48.70655662619383,
+                width: 7.7030668580991914,
+                height: 11.436215664115196,
               }}
               paths={[
                 {
-                  d: "M6.89381 37.4684L0 32.3946C0 32.3946 3.24415 4.68355 11.76 4.68355C20.2759 4.68355 24.7366 0 24.7366 0C24.7366 0 55.1505 40.9811 46.6346 45.6646C38.1187 50.3482 26.3587 48.0064 26.3587 48.0064L22.2166 12.9977C21.7077 11.1471 19.0614 10.9467 18.258 12.6979L6.89381 37.4684Z",
-                  fill: "rgba(63,61,86,1)",
+                  d: "M1.27128 11.1588C3.77655 8.16945 5.90909 4.83318 7.58801 1.23438C8.02355 0.300782 6.72035 -0.524427 6.28313 0.412781C4.661 3.88986 2.62376 7.11889 0.202704 10.0077C-0.447548 10.7836 0.617906 11.9384 1.27128 11.1588Z",
+                  fill: "rgba(230,230,230,1)",
                   fillRule: "nonzero",
                 },
               ]}
@@ -858,971 +459,26 @@ export default function CadastroUsuario2(props) {
               alignItems="unset"
               justifyContent="unset"
               position="absolute"
-              top="12.15%"
-              bottom="66.7%"
-              left="70.26%"
-              right="13.64%"
-              transformOrigin="top left"
-              transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector38512333")}
+              top="48.47%"
+              bottom="21.37%"
+              left="49.54%"
+              right="30.02%"
+              {...getOverrideProps(overrides, "Vector38512322")}
             ></Icon>
-            <Icon
-              width="23.56px"
-              height="22.71px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 26.317420736552776,
-                height: 25.305006233928793,
-              }}
-              paths={[
-                {
-                  d: "M11.78 22.7057C18.2859 22.7057 23.56 17.6229 23.56 11.3529C23.56 5.08285 18.2859 0 11.78 0C5.27408 0 0 5.08285 0 11.3529C0 17.6229 5.27408 22.7057 11.78 22.7057Z",
-                  fill: "rgba(255,182,182,1)",
-                  fillRule: "nonzero",
-                },
-              ]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="2.25%"
-              bottom="87.86%"
-              left="72%"
-              right="20.12%"
-              transformOrigin="top left"
-              transform="rotate(-6.93deg)"
-              {...getOverrideProps(overrides, "Vector38512334")}
-            ></Icon>
-            <Icon
-              width="28.44px"
-              height="23.46px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 31.258253384773525,
-                height: 26.628747498883854,
-              }}
-              paths={[
-                {
-                  d: "M24.3966 22.0992C23.334 22.4816 21.7048 23.0761 20.6422 23.4584C19.6512 21.5545 20.8654 20.5665 20.9914 18.4399C21.0335 17.7302 21.1397 17.0198 21.0787 16.3114C21.0177 15.603 20.7651 14.8758 20.2106 14.407C19.3624 13.69 17.9498 13.8066 17.1286 14.5524C16.3075 15.2981 16.0734 16.5304 16.409 17.5685C13.1791 16.2229 11.0923 12.6927 11.5385 9.32886C10.5738 8.96445 9.58507 8.59511 8.54941 8.56722C7.51374 8.53934 6.40413 8.92023 5.85222 9.76529C5.46523 10.3578 5.38798 11.11 4.95369 11.6713C4.24802 12.5833 2.72296 12.654 1.78583 11.9622C0.848695 11.2704 0.490144 10.0132 0.690015 8.89195C0.889885 7.77072 -0.564359 5.48258 0.249712 4.65872C0.805053 4.09671 3.56137 4.89305 4.18093 4.39726C4.74616 3.94495 5.31355 3.49113 5.93658 3.11589C6.72742 2.63958 7.6032 2.29464 8.51383 2.10082C9.3752 1.91748 10.2605 1.86932 11.1413 1.82175C12.0355 1.77345 13.2724 0.0575541 14.1666 0.0092562C16.7992 -0.132935 19.152 1.39913 21.6778 2.12854C24.2036 2.85795 25.7926 4.95253 27.1908 7.10709C29.1823 10.1761 28.5054 13.5388 27.134 16.4733C26.795 17.1987 27.9325 17.961 27.7641 18.7398C27.6076 19.4637 26.9038 19.988 26.7393 20.7103C26.5986 21.3279 25.7669 20.6124 25.5685 21.2151C25.3973 21.7352 24.8927 22.1024 24.3533 22.2684C23.814 22.4344 23.2365 22.431 22.6704 22.4261",
-                  fill: "rgba(47,46,65,1)",
-                  fillRule: "nonzero",
-                },
-              ]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="1.49%"
-              bottom="88.29%"
-              left="70.81%"
-              right="19.68%"
-              transformOrigin="top left"
-              transform="rotate(-6.93deg)"
-              {...getOverrideProps(overrides, "Vector38512335")}
-            ></Icon>
-            <Icon
-              width="7px"
-              height="9.66px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 7.0231588568003644,
-                height: 9.674912753337281,
-              }}
-              paths={[
-                {
-                  d: "M3.34385 0L3.75933 0.291139L4.8067 1.02504C7.95564 3.23157 7.66287 7.83762 4.25794 9.65824L0 3.11234",
-                  fill: "rgba(63,61,86,1)",
-                  fillRule: "nonzero",
-                },
-              ]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="12.02%"
-              bottom="83.77%"
-              left="77.52%"
-              right="20.14%"
-              transformOrigin="top left"
-              transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector38512336")}
-            ></Icon>
-            <View
-              padding="0px 0px 0px 0px"
-              width="66.07px"
-              height="32.7px"
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="14.81%"
-              bottom="70.96%"
-              left="56.54%"
-              right="21.36%"
-              transformOrigin="top left"
-              transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Group38512337")}
-            >
-              <Icon
-                width="19.54px"
-                height="14.15px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 19.57532119564712,
-                  height: 14.192388915007172,
-                }}
-                paths={[
-                  {
-                    d: "M6.61686 1.18664C7.67989 1.8618 8.49632 2.71207 8.9929 3.57949L19.5416 9.39568L16.5193 14.1458L6.14404 7.73443C5.12012 7.63612 3.9868 7.24802 2.92378 6.57285C0.495317 5.03044 -0.646584 2.57434 0.373227 1.08698C1.39304 -0.400388 4.18841 -0.355761 6.61686 1.18664Z",
-                    fill: "rgba(255,182,182,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="18.11%"
-                bottom="38.64%"
-                left="0%"
-                right="70.42%"
-                transformOrigin="top left"
-                transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector38512338")}
-              ></Icon>
-              <Icon
-                width="54.83px"
-                height="32.7px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 54.90738493527897,
-                  height: 32.83474500730259,
-                }}
-                paths={[
-                  {
-                    d: "M45.0141 0.97697C51.7409 -2.99365 58.5009 6.09928 52.5198 11.0535L52.4994 11.0704L28.6008 32.704L0 19.1107L2.82807 11.7712L24.9867 20.2194L41.6088 3.61127C42.7658 2.49626 43.9043 1.63209 45.0141 0.97697Z",
-                    fill: "rgba(211,152,74,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="0%"
-                bottom="0%"
-                left="17.01%"
-                right="0%"
-                transformOrigin="top left"
-                transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector38512339")}
-              ></Icon>
-            </View>
-            <Icon
-              width="12.56px"
-              height="11.83px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 12.584574867797528,
-                height: 11.860336605176599,
-              }}
-              paths={[
-                {
-                  d: "M6.27819 11.8304C9.74554 11.8304 12.5564 9.18209 12.5564 5.91521C12.5564 2.64833 9.74554 0 6.27819 0C2.81085 0 0 2.64833 0 5.91521C0 9.18209 2.81085 11.8304 6.27819 11.8304Z",
-                  fill: "rgba(211,152,74,1)",
-                  fillRule: "nonzero",
-                },
-              ]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="6.33%"
-              bottom="88.52%"
-              left="56.86%"
-              right="38.94%"
-              transformOrigin="top left"
-              transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector38512340")}
-            ></Icon>
-            <Icon
-              width="12.35px"
-              height="24.66px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 19.55263242464389,
-                height: 26.72270832630531,
-              }}
-              paths={[
-                {
-                  d: "M0 0.00125393C2.06597 -0.0472847 3.94892 1.31952 4.90216 3.02699C5.8554 4.73445 6.02834 6.72532 5.98041 8.64922C5.93249 10.5731 5.6827 12.5 5.86475 14.417C6.25206 18.495 8.70329 22.3618 12.3505 24.6479C10.9759 24.7472 9.62678 24.1542 8.58824 23.3098C7.5497 22.4653 6.77233 21.3834 6.00762 20.3151C5.3605 19.4111 4.7098 18.501 4.24523 17.5044C3.56462 16.0443 3.30596 14.449 3.06134 12.8737C2.45906 8.99518 1.90371 5.11032 1.3954 1.22014",
-                  fill: "rgba(47,46,65,1)",
-                  fillRule: "nonzero",
-                },
-              ]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="7.38%"
-              bottom="81.89%"
-              left="17.77%"
-              right="78.09%"
-              transformOrigin="top left"
-              transform="rotate(15.26deg)"
-              {...getOverrideProps(overrides, "Vector38512341")}
-            ></Icon>
-            <View
-              padding="0px 0px 0px 0px"
-              width="26px"
-              height="28.72px"
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="85.98%"
-              bottom="1.52%"
-              left="3.31%"
-              right="88%"
-              transformOrigin="top left"
-              transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Group38512342")}
-            >
-              <Icon
-                width="10.36px"
-                height="24.86px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 10.41507252306019,
-                  height: 24.880172408602142,
-                }}
-                paths={[
-                  {
-                    d: "M0.00140995 24.8555L7.01799 24.8549L10.3558 0L0 0.000667448L0.00140995 24.8555Z",
-                    fill: "rgba(255,182,182,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="0%"
-                bottom="13.45%"
-                left="6.24%"
-                right="53.92%"
-                transformOrigin="top left"
-                transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector38512343")}
-              ></Icon>
-              <Icon
-                width="26px"
-                height="11.28px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 26.023424965499544,
-                  height: 11.340714047739581,
-                }}
-                paths={[
-                  {
-                    d: "M25.6629 7.27019C25.8813 7.6081 25.9966 8.69872 25.9966 9.09168C25.9966 10.2995 24.9304 11.2787 23.6152 11.2787L1.88564 11.2787C0.988401 11.2787 0.261005 10.6108 0.261005 9.78672L0.261005 8.95589C0.261005 8.95589 -0.813939 6.45885 1.39917 3.38112C1.39917 3.38112 4.14976 5.79103 8.25986 2.01645L9.47189 0L18.2453 5.89265L23.1083 6.44238C24.1722 6.56263 25.1156 6.42373 25.6629 7.27019Z",
-                    fill: "rgba(47,46,65,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="60.73%"
-                bottom="0%"
-                left="0%"
-                right="0%"
-                transformOrigin="top left"
-                transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector38512344")}
-              ></Icon>
-            </View>
-            <View
-              padding="0px 0px 0px 0px"
-              width="29.42px"
-              height="35.15px"
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="84.74%"
-              bottom="-0.04%"
-              left="13.69%"
-              right="76.47%"
-              transformOrigin="top left"
-              transform="rotate(-3.75deg)"
-              {...getOverrideProps(overrides, "Group38512345")}
-            >
-              <Icon
-                width="16.52px"
-                height="25.6px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 22.73579365920068,
-                  height: 28.82171905581299,
-                }}
-                paths={[
-                  {
-                    d: "M0 24.0922L6.86515 25.5991L16.5219 2.2243L6.38965 0L0 24.0922Z",
-                    fill: "rgba(255,182,182,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="8.76%"
-                bottom="18.42%"
-                left="0%"
-                right="43.84%"
-                transformOrigin="top left"
-                transform="rotate(-10.74deg)"
-                {...getOverrideProps(overrides, "Vector38512346")}
-              ></Icon>
-              <Icon
-                width="25.5px"
-                height="13.96px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 28.111516429911717,
-                  height: 19.218985017625755,
-                }}
-                paths={[
-                  {
-                    d: "M25.4516 10.4681C25.578 10.8405 25.4109 11.9165 25.3103 12.2953C25.0008 13.4597 23.7107 14.1758 22.4286 13.8948L1.24728 9.25173C0.372674 9.06001 -0.165256 8.26064 0.04585 7.46627L0.258699 6.66536C0.258699 6.66536 -0.149424 4.02851 2.79631 1.53445C2.79631 1.53445 4.86014 4.44535 9.83353 1.68487L11.5316 0L18.5741 7.55522L23.1736 9.12426C24.1798 9.46752 25.135 9.53516 25.4516 10.4681Z",
-                    fill: "rgba(47,46,65,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="60.85%"
-                bottom="-0.55%"
-                left="6.54%"
-                right="6.79%"
-                transformOrigin="top left"
-                transform="rotate(-9.16deg)"
-                {...getOverrideProps(overrides, "Vector38512347")}
-              ></Icon>
-            </View>
-            <View
-              padding="0px 0px 0px 0px"
-              width="47.68px"
-              height="46.5px"
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="35.78%"
-              bottom="43.98%"
-              left="14.71%"
-              right="69.34%"
-              transformOrigin="top left"
-              transform="rotate(-84.38deg)"
-              {...getOverrideProps(overrides, "Group38512348")}
-            >
-              <Icon
-                width="22.66px"
-                height="21.22px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 23.318126039214803,
-                  height: 24.449259668157765,
-                }}
-                paths={[
-                  {
-                    d: "M14.539 19.0752C13.3432 18.0103 12.4656 16.737 11.975 15.4819L0 6.12678L4.22064 0L15.9136 10.1495C17.1334 10.4176 18.449 11.0977 19.6448 12.1626C22.3766 14.5955 23.4481 18.1152 22.0382 20.0241C20.6282 21.933 17.2707 21.5081 14.539 19.0752Z",
-                    fill: "rgba(255,182,182,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="54.37%"
-                bottom="0%"
-                left="52.47%"
-                right="0%"
-                transformOrigin="top left"
-                transform="rotate(-0.22deg)"
-                {...getOverrideProps(overrides, "Vector38512349")}
-              ></Icon>
-              <Icon
-                width="37.12px"
-                height="40.21px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 43.62519184359189,
-                  height: 40.535953398755225,
-                }}
-                paths={[
-                  {
-                    d: "M37.1168 30.5358L36.5577 31.7914L33.6586 38.2898L32.8012 40.2076L24.3677 31.8914L17.5863 25.2067L1.64589 9.49173C0.540265 8.40177 0 6.92201 0 5.44917C0 3.68659 0.772693 1.9378 2.26465 0.875415C3.1881 0.216591 4.28429 -0.0834943 5.38049 0.020001C7.96866 0.264886 13.1826 0.789184 18.7139 1.51353L20.6173 7.56359L19.6845 12.9997L17.1466 12.1753L19.4583 14.3035L37.1168 30.5358Z",
-                    fill: "rgba(211,152,74,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="0.3%"
-                bottom="13.23%"
-                left="0.37%"
-                right="21.78%"
-                transformOrigin="top left"
-                transform="rotate(-0.22deg)"
-                {...getOverrideProps(overrides, "Vector38512350")}
-              ></Icon>
-            </View>
-            <Icon
-              width="33.5px"
-              height="25.53px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 33.56578360986623,
-                height: 25.612399501363313,
-              }}
-              paths={[
-                {
-                  d: "M1.45355e-05 5.36478C1.34449 5.37209 4.16428 22.098 2.06175 24.6149C0.336961 26.6796 31.9465 24.6149 31.9465 24.6149C28.9749 24.0599 30.3118 6.19086 33.505 5.36478L14.4323 0L1.45355e-05 5.36478Z",
-                  fill: "rgba(255,182,182,1)",
-                  fillRule: "nonzero",
-                },
-              ]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="32.41%"
-              bottom="56.47%"
-              left="8.33%"
-              right="80.46%"
-              transformOrigin="top left"
-              transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector38512351")}
-            ></Icon>
-            <Icon
-              width="60.14px"
-              height="105.25px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 60.38854450975123,
-                height: 105.39330460062709,
-              }}
-              paths={[
-                {
-                  d: "M44.6313 6.67448e-06L16.5295 6.67448e-06C16.5295 6.67448e-06 4.81078 17.0886 4.81078 50.2241L0 103.556L12.0269 104.187L31.4053 31.8919L42.0548 67.3849L34.7063 105.25L46.3517 105.25L60.1376 62.5531L57.3857 40.1256C57.3857 40.1256 54.5153 9.30645 44.6313 6.67448e-06Z",
-                  fill: "rgba(47,46,65,1)",
-                  fillRule: "nonzero",
-                },
-              ]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="42.15%"
-              bottom="12.03%"
-              left="3.62%"
-              right="76.27%"
-              transformOrigin="top left"
-              transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector38512352")}
-            ></Icon>
-            <Icon
-              width="42.61px"
-              height="44.87px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 42.716666059132876,
-                height: 44.97628616570705,
-              }}
-              paths={[
-                {
-                  d: "M42.6097 23.6682L41.5892 28.6417L41.3417 29.8345L39.2937 39.8099L36.5161 43.5625C36.5161 43.5625 16.7397 37.9321 7.4618 44.8748L0 22.7215L7.90342 6.94267L14.0887 3.78691L15.1196 0L28.2221 0L30.2392 3.78691L36.0808 6.31151L40.5273 18.133L42.6097 23.6682Z",
-                  fill: "rgba(211,152,74,1)",
-                  fillRule: "nonzero",
-                },
-              ]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="17.85%"
-              bottom="62.61%"
-              left="6.49%"
-              right="79.26%"
-              transformOrigin="top left"
-              transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector38512353")}
-            ></Icon>
-            <View
-              padding="0px 0px 0px 0px"
-              width="46.61px"
-              height="47.38px"
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="16.76%"
-              bottom="62.61%"
-              left="4.55%"
-              right="79.86%"
-              transformOrigin="top left"
-              transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Group38512354")}
-            >
-              <Icon
-                width="21.26px"
-                height="22.66px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 21.312678257002517,
-                  height: 22.714848408909546,
-                }}
-                paths={[
-                  {
-                    d: "M19.0821 8.16133C18.0113 9.35414 16.736 10.226 15.482 10.7094L6.0631 22.6642L0 18.3818L10.2073 6.71591C10.4849 5.49322 11.1736 4.17721 12.2443 2.9844C14.6905 0.259429 18.2042 -0.790671 20.0924 0.6389C21.9806 2.06848 21.5282 5.43637 19.0821 8.16133Z",
-                    fill: "rgba(255,182,182,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="0%"
-                bottom="52.17%"
-                left="54.39%"
-                right="0%"
-                transformOrigin="top left"
-                transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector38512355")}
-              ></Icon>
-              <Icon
-                width="40.3px"
-                height="39.97px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 40.393497502210266,
-                  height: 40.07047934239296,
-                }}
-                paths={[
-                  {
-                    d: "M19.0478 2.23836C19.0478 2.23836 9.07301 -2.79795 5.83444 2.23836C3.07126 6.53539 0.669563 28.2472 0.0240146 34.5288C-0.0892972 35.6313 0.200531 36.7337 0.847961 37.6681C2.76532 40.4351 7.02123 40.7737 9.42816 38.3507L40.2983 7.27467L30.7013 2.8679L14.2493 18.6064L19.0478 2.23836Z",
-                    fill: "rgba(211,152,74,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="15.64%"
-                bottom="0%"
-                left="0%"
-                right="13.55%"
-                transformOrigin="top left"
-                transform="rotate(0deg)"
-                {...getOverrideProps(overrides, "Vector38512356")}
-              ></Icon>
-            </View>
-            <Icon
-              width="24.92px"
-              height="23.21px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 31.2265758422991,
-                height: 28.683781834497324,
-              }}
-              paths={[
-                {
-                  d: "M12.4625 23.2098C19.3453 23.2098 24.925 18.0141 24.925 11.6049C24.925 5.1957 19.3453 0 12.4625 0C5.57965 0 0 5.1957 0 11.6049C0 18.0141 5.57965 23.2098 12.4625 23.2098Z",
-                  fill: "rgba(255,182,182,1)",
-                  fillRule: "nonzero",
-                },
-              ]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="5.47%"
-              bottom="84.42%"
-              left="11.34%"
-              right="80.32%"
-              transformOrigin="top left"
-              transform="rotate(15.26deg)"
-              {...getOverrideProps(overrides, "Vector38512357")}
-            ></Icon>
-            <Icon
-              width="46.35px"
-              height="49.25px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 59.95450429800803,
-                height: 59.12456688739019,
-              }}
-              paths={[
-                {
-                  d: "M43.1808 10.6312C41.2376 11.8528 39.9945 13.9 39.6786 16.9508C38.458 16.0482 38.2772 14.4064 38.7416 12.3058C37.8927 14.456 31.0037 25.399 30.5493 28.8585C30.2606 31.062 31.2072 33.2831 32.6601 35.0415C34.0184 36.6809 35.7884 37.9677 37.601 39.1753C34.1935 38.0162 31.3539 35.4646 30.005 32.3268C28.0552 27.7964 29.2147 22.7548 30.7481 18.0085C30.3884 18.6387 29.8725 19.7889 29.2762 20.2384C28.5095 20.8157 27.6009 20.635 26.9856 21.3534C26.2379 22.226 26.0959 23.4467 26.3278 24.544C26.5644 25.6414 27.1323 26.6462 27.6908 27.6333C19.7892 26.2499 17.44 17.8408 21.051 12.1119C18.7413 15.9724 18.2397 23.7464 21.1787 27.2103C22.8256 29.1537 25.2109 30.6698 26.0344 33.0231C26.6117 34.6757 26.2947 36.5178 25.4996 38.0911C24.7045 39.6644 23.4598 41.0042 22.1441 42.2381C21.6046 42.7449 21.0509 43.2341 20.4735 43.7101C19.8355 43.105 18.7527 43.3912 18.5171 44.2103C18.3861 44.6654 18.1795 45.1345 17.9179 45.6139C15.5797 46.1081 12.4222 45.4221 11.9405 48.4828C11.812 49.2991 10.2273 48.9368 9.34701 49.069C9.5841 48.4544 8.81829 47.9105 8.25837 48.3036C7.52671 48.8173 6.74759 49.1184 5.93001 49.2453C3.84766 49.1395 1.80788 48.6459 0 47.6852C5.76438 44.3403 10.8216 45.3055 13.0743 39.3384C13.4272 38.405 13.5408 36.458 13.5345 34.2678C13.5203 29.3021 12.2661 24.4277 10.1063 19.8875C9.84278 19.3336 9.64201 18.7984 9.55524 18.3302C8.92579 14.95 9.90545 10.305 11.4956 8.11917C13.0858 5.9377 15.8355 4.52745 18.6704 4.45695C20.0854 4.41727 20.9278 4.99459 22.1772 4.37322C23.5119 3.70776 23.8242 4.58033 24.7281 3.45214C26.342 1.43814 29.0917 0.398099 31.7893 0.309955C34.4869 0.22181 35.9966 -0.479091 38.4481 0.57419C39.9957 1.23965 41.7781 4.96752 43.4837 4.99022C47.0145 5.03724 47.6918 7.79516 43.1808 10.6312Z",
-                  fill: "rgba(47,46,65,1)",
-                  fillRule: "nonzero",
-                },
-              ]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="0.86%"
-              bottom="77.7%"
-              left="5.07%"
-              right="79.43%"
-              transformOrigin="top left"
-              transform="rotate(15.26deg)"
-              {...getOverrideProps(overrides, "Vector38512358")}
-            ></Icon>
-            <Icon
-              width="0.4px"
-              height="0.26px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 0.395922784292452,
-                height: 0.2590343013187919,
-              }}
-              paths={[
-                {
-                  d: "M0.395308 0.258092C0.261958 0.170604 0.13335 0.0874925 0 0C0.104772 0.0393808 0.209574 0.0743788 0.314345 0.104976L0.395308 0.258092Z",
-                  fill: "rgba(47,46,65,1)",
-                  fillRule: "nonzero",
-                },
-              ]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="21.41%"
-              bottom="78.48%"
-              left="14.56%"
-              right="85.31%"
-              transformOrigin="top left"
-              transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector38512359")}
-            ></Icon>
-            <Icon
-              width="32.84px"
-              height="41px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 32.93439510366261,
-                height: 41.078437179858085,
-              }}
-              paths={[]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="40.44%"
-              bottom="41.71%"
-              left="24.99%"
-              right="64.02%"
-              transformOrigin="top left"
-              transform="rotate(0deg)"
-              {...getOverrideProps(overrides, "Vector38512360")}
-            ></Icon>
-            <Icon
-              width="3.57px"
-              height="8.29px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 6.016208587753681,
-                height: 8.831571060411534,
-              }}
-              paths={[
-                {
-                  d: "M0.904012 8.29131L0 8.0305C0.134942 5.07714 0.992345 2.3884 2.66975 0L3.57376 0.260806L0.904012 8.29131Z",
-                  fill: "rgba(211,152,74,1)",
-                  fillRule: "nonzero",
-                },
-              ]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="2.33%"
-              bottom="94.06%"
-              left="12.6%"
-              right="86.2%"
-              transformOrigin="top left"
-              transform="rotate(15.26deg)"
-              {...getOverrideProps(overrides, "Vector38512361")}
-            ></Icon>
-            <Icon
-              width="7.71px"
-              height="5.85px"
-              viewBox={{
-                minX: 0,
-                minY: 0,
-                width: 9.247850503792506,
-                height: 7.612055484124994,
-              }}
-              paths={[
-                {
-                  d: "M7.70967 5.15775L7.12884 5.85355L0 0.695799L0.580823 0C3.72794 1.03462 6.02468 2.82451 7.70967 5.15775Z",
-                  fill: "rgba(211,152,74,1)",
-                  fillRule: "nonzero",
-                },
-              ]}
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="2.43%"
-              bottom="95.03%"
-              left="10.19%"
-              right="87.23%"
-              transformOrigin="top left"
-              transform="rotate(15.26deg)"
-              {...getOverrideProps(overrides, "Vector38512362")}
-            ></Icon>
-            <View
-              padding="0px 0px 0px 0px"
-              width="26.57px"
-              height="32.41px"
-              display="block"
-              gap="unset"
-              alignItems="unset"
-              justifyContent="unset"
-              position="absolute"
-              top="26.87%"
-              bottom="59.02%"
-              left="28.75%"
-              right="62.36%"
-              transformOrigin="top left"
-              transform="rotate(-130.9deg)"
-              {...getOverrideProps(overrides, "Group38512363")}
-            >
-              <Icon
-                width="26.54px"
-                height="32.39px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 43.50166224397708,
-                  height: 39.177237234938275,
-                }}
-                paths={[
-                  {
-                    d: "M16.8717 32.3909C16.8331 32.3909 16.7945 32.3891 16.7558 32.3859C14.2019 32.172 5.46327 30.5599 0.244355 18.7927C-0.141164 17.9241 -0.0650308 16.819 0.433985 16.0433L10.2065 0.85987C10.5694 0.295943 11.1139 -0.0123187 11.6651 0.000377155C12.231 0.017831 12.9574 0.236641 13.0959 0.953707C14.2217 6.78061 19.0704 14.347 25.3875 15.3507C25.9812 15.445 26.3412 16.2487 26.4863 17.0021C26.6304 17.7492 26.4971 18.5194 26.1208 19.115L18.2921 31.5115C17.9401 32.069 17.4159 32.3909 16.8717 32.3909Z",
-                    fill: "rgba(230,230,230,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="0%"
-                bottom="0.06%"
-                left="0%"
-                right="0.08%"
-                transformOrigin="top left"
-                transform="rotate(0.04deg)"
-                {...getOverrideProps(overrides, "Vector38512364")}
-              ></Icon>
-              <Icon
-                width="23.18px"
-                height="28.01px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 37.76469154971164,
-                  height: 34.049158307765424,
-                }}
-                paths={[
-                  {
-                    d: "M0.136263 14.9809C0.00294467 15.1885 -0.02138 15.4845 0.0757849 15.7184C4.79722 27.0558 13.2384 27.9453 14.8825 28.0083C15.0409 28.0201 15.1893 27.9271 15.2898 27.768L23.0626 15.4605C23.1726 15.2859 23.2065 15.0634 23.1559 14.8485C23.1048 14.6327 22.986 14.419 22.8114 14.4083C16.0918 13.9972 10.6945 4.52124 10.4216 0.269317C10.4086 0.06679 10.1877 0.00683787 10.0323 3.71548e-05C9.87254 -0.00200074 9.72705 0.0798254 9.62536 0.237583L0.136263 14.9809Z",
-                    fill: "rgba(255,255,255,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="5.58%"
-                bottom="7.99%"
-                left="7.22%"
-                right="5.53%"
-                transformOrigin="top left"
-                transform="rotate(0.04deg)"
-                {...getOverrideProps(overrides, "Vector38512365")}
-              ></Icon>
-              <Icon
-                width="8.11px"
-                height="10.77px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 13.992959357684413,
-                  height: 12.480032890624386,
-                }}
-                paths={[
-                  {
-                    d: "M0.909421 10.5581L7.95307 1.19265C8.43457 0.552461 7.68024 -0.432809 7.19815 0.208191L0.154497 9.57359C-0.326994 10.2138 0.427332 11.1991 0.909421 10.5581Z",
-                    fill: "rgba(230,230,230,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="27.47%"
-                bottom="39.31%"
-                left="18.95%"
-                right="50.53%"
-                transformOrigin="top left"
-                transform="rotate(0.04deg)"
-                {...getOverrideProps(overrides, "Vector38512366")}
-              ></Icon>
-              <Icon
-                width="6.02px"
-                height="9px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 11.20733004396061,
-                  height: 9.86249135867422,
-                }}
-                paths={[
-                  {
-                    d: "M0.925369 8.81632C2.86862 6.54497 4.55731 3.91509 5.94007 1.02934C6.30508 0.267604 5.38209 -0.431818 5.01853 0.326901C3.6817 3.11681 2.04917 5.6366 0.170706 7.83222C-0.341822 8.43129 0.415001 9.41286 0.925369 8.81632Z",
-                    fill: "rgba(230,230,230,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="40.92%"
-                bottom="31.3%"
-                left="34.99%"
-                right="42.33%"
-                transformOrigin="top left"
-                transform="rotate(0.04deg)"
-                {...getOverrideProps(overrides, "Vector38512367")}
-              ></Icon>
-              <Icon
-                width="5.42px"
-                height="9.76px"
-                viewBox={{
-                  minX: 0,
-                  minY: 0,
-                  width: 11.422575799659171,
-                  height: 9.847197581410427,
-                }}
-                paths={[
-                  {
-                    d: "M0.897308 9.53529C2.66561 6.98089 4.17082 4.13 5.35585 1.05479C5.66327 0.257021 4.74344 -0.448129 4.43482 0.352726C3.28987 3.32393 1.85193 6.08317 0.143073 8.55172C-0.315894 9.21473 0.436147 10.2015 0.897308 9.53529Z",
-                    fill: "rgba(230,230,230,1)",
-                    fillRule: "nonzero",
-                  },
-                ]}
-                display="block"
-                gap="unset"
-                alignItems="unset"
-                justifyContent="unset"
-                position="absolute"
-                top="48.4%"
-                bottom="21.5%"
-                left="49.61%"
-                right="30%"
-                transformOrigin="top left"
-                transform="rotate(0.04deg)"
-                {...getOverrideProps(overrides, "Vector38512368")}
-              ></Icon>
-            </View>
           </View>
           <Icon
-            width="10.69px"
-            height="11.84px"
+            width="8.82px"
+            height="24.82px"
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 10.721618284345823,
-              height: 11.863027764483604,
+              width: 8.876024644712743,
+              height: 24.842006832173354,
             }}
             paths={[
               {
-                d: "M10.6934 5.91878C10.6934 9.18763 8.29961 11.8376 5.3467 11.8376C2.3938 11.8376 0 9.18763 0 5.91878C0 2.64993 2.3938 0 5.3467 0C8.29961 0 10.6934 2.64993 10.6934 5.91878Z",
-                fill: "rgba(242,242,242,0.9)",
+                d: "M8.81564 24.821L2.8418 24.8204L0 0L8.81684 0.000662363L8.81564 24.821Z",
+                fill: "rgba(255,182,182,1)",
                 fillRule: "nonzero",
               },
             ]}
@@ -1831,25 +487,221 @@ export default function CadastroUsuario2(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="22.96px"
-            left="323.04px"
-            transformOrigin="top left"
-            transform="rotate(0deg)"
-            {...getOverrideProps(overrides, "Ellipse 10038512369")}
+            top="87.46%"
+            bottom="2.88%"
+            left="77.82%"
+            right="19.23%"
+            {...getOverrideProps(overrides, "Vector38512323")}
+          ></Icon>
+          <View
+            padding="0px 0px 0px 0px"
+            width="72.94px"
+            height="38.74px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="83.95%"
+            bottom="0.98%"
+            left="75.6%"
+            right="0%"
+            {...getOverrideProps(overrides, "Group38512324")}
+          >
+            <Icon
+              width="19.58px"
+              height="24.51px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 19.640965013574714,
+                height: 24.558828968315566,
+              }}
+              paths={[
+                {
+                  d: "M19.5825 21.141L14.4941 24.5122L0 4.97578L7.50992 0L19.5825 21.141Z",
+                  fill: "rgba(255,182,182,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="0%"
+              bottom="36.73%"
+              left="69.94%"
+              right="3.21%"
+              {...getOverrideProps(overrides, "Vector38512325")}
+            ></Icon>
+            <Icon
+              width="19.85px"
+              height="17.72px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 19.890409659903526,
+                height: 17.764329477188284,
+              }}
+              paths={[
+                {
+                  d: "M0.000124799 14.9674C0.00584219 15.3598 0.452042 16.3429 0.642922 16.6771C1.22965 17.7044 2.47846 18.0249 3.43225 17.3929L19.1896 6.95108C19.8402 6.51993 20.0432 5.60223 19.6429 4.90135L19.2393 4.19469C19.2393 4.19469 18.8059 1.55428 15.706 0C15.706 0 14.882 3.37151 10.068 2.1361L8.20955 1.00346L4.70987 10.2314L1.45047 13.0358C0.737372 13.6494 -0.0142014 13.9845 0.000124799 14.9674Z",
+                  fill: "rgba(47,46,65,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="45.43%"
+              bottom="8.84%"
+              left="72.79%"
+              right="0%"
+              {...getOverrideProps(overrides, "Vector38512326")}
+            ></Icon>
+            <Icon
+              width="18.87px"
+              height="8.95px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 18.888016902269555,
+                height: 8.995820752803553,
+              }}
+              paths={[
+                {
+                  d: "M0.000118628 7.56172C0.0055533 7.75996 0.429688 8.25659 0.61113 8.42544C1.16885 8.94447 2.3559 9.1064 3.26253 8.78708L18.2407 3.51176C18.8591 3.29394 19.0521 2.83031 18.6716 2.47622L18.288 2.1192C18.288 2.1192 17.8759 0.785241 14.9293 0C14.9293 0 14.1461 1.70332 9.57013 1.07918L7.8036 0.50696L4.47696 5.16902L1.37874 6.58584C0.700909 6.89581 -0.0134992 7.06512 0.000118628 7.56172Z",
+                  fill: "rgba(47,46,65,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="76.9%"
+              bottom="0%"
+              left="0%"
+              right="74.13%"
+              {...getOverrideProps(overrides, "Vector38545689")}
+            ></Icon>
+          </View>
+          <View
+            padding="0px 0px 0px 0px"
+            width="40.4px"
+            height="93.34px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="17.58%"
+            bottom="46.12%"
+            left="75.5%"
+            right="10.98%"
+            {...getOverrideProps(overrides, "Group38512327")}
+          >
+            <Icon
+              width="10.65px"
+              height="23.55px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 10.710835882684478,
+                height: 23.575333787339275,
+              }}
+              paths={[
+                {
+                  d: "M3.59531 18.605C3.29961 17.2156 3.32215 15.8668 3.59947 14.7492L0 1.71157L5.86053 0L8.88083 13.4096C9.58114 14.2793 10.146 15.4791 10.4417 16.8685C11.1173 20.0426 10.1323 23.0045 8.24165 23.484C6.35105 23.9635 4.27084 21.7791 3.59531 18.605Z",
+                  fill: "rgba(255,182,182,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="74.77%"
+              bottom="0%"
+              left="73.63%"
+              right="0%"
+              {...getOverrideProps(overrides, "Vector38512328")}
+            ></Icon>
+            <Icon
+              width="37.85px"
+              height="79.71px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 38.04502347477228,
+                height: 79.79523099320778,
+              }}
+              paths={[
+                {
+                  d: "M1.53728e-05 1.4924C1.53728e-05 1.4924 9.4447 -2.93575 14.7183 3.46326C19.5183 9.28767 29.2626 26.8142 28.262 28.5194L37.855 77.3456L30.7443 79.7052L11.882 23.5438L1.53728e-05 1.4924Z",
+                  fill: "rgba(211,152,74,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="0%"
+              bottom="14.61%"
+              left="0%"
+              right="6.3%"
+              transformOrigin="top left"
+              transform="rotate(0deg)"
+              {...getOverrideProps(overrides, "Vector38512329")}
+            ></Icon>
+          </View>
+          <Icon
+            width="29.2px"
+            height="118.46px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 29.479816589366237,
+              height: 118.53070769516185,
+            }}
+            paths={[
+              {
+                d: "M0 0.522364L4.86622 61.6759L16.6263 118.461L29.1973 117.151L23.1145 55.1238L26.8377 0L0 0.522364Z",
+                fill: "rgba(47,46,65,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="46.1%"
+            bottom="7.82%"
+            left="72.03%"
+            right="18.21%"
+            {...getOverrideProps(overrides, "Vector38512330")}
           ></Icon>
           <Icon
-            width="10.69px"
-            height="11.84px"
+            width="75.51px"
+            height="110.36px"
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 10.721618284345823,
-              height: 11.863027764483604,
+              width: 75.77569686973857,
+              height: 110.54098299046468,
             }}
             paths={[
               {
-                d: "M10.6934 5.91878C10.6934 9.18763 8.29961 11.8376 5.3467 11.8376C2.3938 11.8376 0 9.18763 0 5.91878C0 2.64993 2.3938 0 5.3467 0C8.29961 0 10.6934 2.64993 10.6934 5.91878Z",
-                fill: "rgba(255,255,255,1)",
+                d: "M1.53728e-05 13.6948L30.3093 65.6691L64.8921 110.361L75.5126 102.999L43.7505 50.8474C38.8893 27.8752 33.5059 6.61029 23.6401 0L1.53728e-05 13.6948Z",
+                fill: "rgba(47,46,65,1)",
                 fillRule: "nonzero",
               },
             ]}
@@ -1858,28 +710,1140 @@ export default function CadastroUsuario2(props) {
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="22.95px"
-            left="344.43px"
-            transformOrigin="top left"
-            transform="rotate(0deg)"
-            {...getOverrideProps(overrides, "Ellipse 10038512370")}
+            top="46.14%"
+            bottom="10.94%"
+            left="72.36%"
+            right="2.38%"
+            {...getOverrideProps(overrides, "Vector38512331")}
           ></Icon>
+          <Icon
+            width="39.73px"
+            height="101.59px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 39.97487389315938,
+              height: 101.68819735978059,
+            }}
+            paths={[
+              {
+                d: "M6.08934 101.594C4.66767 101.594 3.29076 101.054 2.16867 100.029C0.662385 98.6533 -0.122229 96.6474 0.0155119 94.5258L2.65961 67.2009L1.6497 37.3625L1.65609 37.3302L4.79509 21.1156C4.82608 20.6003 4.92644 20.0547 5.08828 19.531L9.72471 4.51546C10.5585 1.81461 12.8937 0 15.5364 0L19.6361 0C21.6889 0 23.5941 1.0982 24.7325 2.93798L28.3216 8.73709C28.5602 9.12232 28.7614 9.5359 28.9198 9.96643L36.8433 31.5073C37.0946 32.1911 37.2378 32.9104 37.2683 33.6451L39.7265 93.427C39.8086 95.4117 39.0673 97.3111 37.6933 98.638C36.3277 99.9574 34.5056 100.541 32.6988 100.24C22.352 98.5193 13.2966 99.9267 7.52136 101.411C7.04419 101.533 6.56405 101.594 6.08934 101.594Z",
+                fill: "rgba(211,152,74,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="12.04%"
+            bottom="48.44%"
+            left="70.91%"
+            right="15.79%"
+            {...getOverrideProps(overrides, "Vector38512332")}
+          ></Icon>
+          <Icon
+            width="48.14px"
+            height="54.38px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 48.26868277394078,
+              height: 54.497673938242144,
+            }}
+            paths={[
+              {
+                d: "M6.89381 41.9339L0 36.2553C0 36.2553 3.24415 5.24173 11.76 5.24173C20.2759 5.24173 24.7366 0 24.7366 0C24.7366 0 55.1505 45.8652 46.6346 51.1069C38.1187 56.3486 26.3587 53.7278 26.3587 53.7278L22.2166 14.5467C21.7077 12.4756 19.0614 12.2513 18.258 14.2112L6.89381 41.9339Z",
+                fill: "rgba(63,61,86,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="12.15%"
+            bottom="66.7%"
+            left="70.26%"
+            right="13.64%"
+            {...getOverrideProps(overrides, "Vector38512333")}
+          ></Icon>
+          <Icon
+            width="23.6px"
+            height="25.37px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 26.311832482102545,
+              height: 28.326636620543923,
+            }}
+            paths={[
+              {
+                d: "M11.8016 25.3677C18.3195 25.3677 23.6033 19.689 23.6033 12.6839C23.6033 5.67876 18.3195 0 11.8016 0C5.28377 0 0 5.67876 0 12.6839C0 19.689 5.28377 25.3677 11.8016 25.3677Z",
+                fill: "rgba(255,182,182,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="2.25%"
+            bottom="87.88%"
+            left="72%"
+            right="20.11%"
+            transformOrigin="top left"
+            transform="rotate(-7.75deg)"
+            {...getOverrideProps(overrides, "Vector38512334")}
+          ></Icon>
+          <Icon
+            width="28.49px"
+            height="26.21px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 31.252618760293444,
+              height: 29.809489822386467,
+            }}
+            paths={[
+              {
+                d: "M24.4414 24.6901C23.3769 25.1172 21.7447 25.7815 20.6802 26.2087C19.6874 24.0815 20.9037 22.9777 21.03 20.6018C21.0721 19.8089 21.1785 19.0152 21.1174 18.2237C21.0563 17.4322 20.8033 16.6198 20.2478 16.0961C19.398 15.295 17.9828 15.4253 17.1601 16.2584C16.3375 17.0916 16.103 18.4684 16.4392 19.6282C13.2033 18.1249 11.1127 14.1808 11.5597 10.4226C10.5933 10.0154 9.60269 9.60278 8.56513 9.57163C7.52756 9.54048 6.4159 9.96602 5.86298 10.9102C5.47528 11.5722 5.39789 12.4126 4.9628 13.0396C4.25583 14.0586 2.72796 14.1375 1.78911 13.3646C0.850255 12.5917 0.491046 11.1871 0.691284 9.93443C0.891522 8.68174 -0.565397 6.12535 0.250171 5.2049C0.806533 4.577 3.56792 5.4667 4.18862 4.91279C4.75489 4.40745 5.32332 3.90042 5.94749 3.48119C6.73979 2.94903 7.61718 2.56366 8.52948 2.34711C9.39244 2.14228 10.2794 2.08848 11.1617 2.03533C12.0576 1.98137 13.2968 0.0643016 14.1927 0.0103414C16.8301 -0.14852 19.1872 1.56316 21.7177 2.37809C24.2481 3.19301 25.84 5.53315 27.2408 7.94031C29.236 11.3691 28.5578 15.1261 27.1839 18.4046C26.8443 19.2151 27.9839 20.0667 27.8151 20.9368C27.6583 21.7456 26.9533 22.3314 26.7885 23.1383C26.6475 23.8283 25.8143 23.0289 25.6155 23.7023C25.444 24.2834 24.9385 24.6936 24.3981 24.8791C23.8578 25.0646 23.2792 25.0608 22.712 25.0553",
+                fill: "rgba(47,46,65,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="1.49%"
+            bottom="88.31%"
+            left="70.81%"
+            right="19.66%"
+            transformOrigin="top left"
+            transform="rotate(-7.75deg)"
+            {...getOverrideProps(overrides, "Vector38512335")}
+          ></Icon>
+          <Icon
+            width="7px"
+            height="10.81px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 7.025904759456353,
+              height: 10.82597051816964,
+            }}
+            paths={[
+              {
+                d: "M3.34385 0L3.75933 0.325837L4.8067 1.1472C7.95564 3.61671 7.66287 8.7717 4.25794 10.8093L0 3.48326",
+                fill: "rgba(63,61,86,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="12.02%"
+            bottom="83.77%"
+            left="77.52%"
+            right="20.14%"
+            {...getOverrideProps(overrides, "Vector38512336")}
+          ></Icon>
+          <View
+            padding="0px 0px 0px 0px"
+            width="66.07px"
+            height="36.6px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="14.81%"
+            bottom="70.96%"
+            left="56.54%"
+            right="21.36%"
+            {...getOverrideProps(overrides, "Group38512337")}
+          >
+            <Icon
+              width="19.54px"
+              height="15.83px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 19.579342943447955,
+                height: 15.878269521032564,
+              }}
+              paths={[
+                {
+                  d: "M6.61686 1.32806C7.67989 2.08369 8.49632 3.03529 8.9929 4.00609L19.5416 10.5155L16.5193 15.8317L6.14404 8.65621C5.12012 8.54619 3.9868 8.11183 2.92378 7.3562C0.495317 5.62996 -0.646584 2.88115 0.373227 1.21652C1.39304 -0.448106 4.18841 -0.398161 6.61686 1.32806Z",
+                  fill: "rgba(255,182,182,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="18.11%"
+              bottom="38.64%"
+              left="0%"
+              right="70.42%"
+              {...getOverrideProps(overrides, "Vector38512338")}
+            ></Icon>
+            <Icon
+              width="54.83px"
+              height="36.6px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 54.91668291350652,
+                height: 36.73237408433593,
+              }}
+              paths={[
+                {
+                  d: "M45.0141 1.0934C51.7409 -3.35043 58.5009 6.82619 52.5198 12.3709L52.4994 12.3897L28.6008 36.6017L0 21.3883L2.82807 13.1741L24.9867 22.6291L41.6088 4.04166C42.7658 2.79376 43.9043 1.8266 45.0141 1.0934Z",
+                  fill: "rgba(211,152,74,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="0%"
+              bottom="0%"
+              left="17.01%"
+              right="0%"
+              transformOrigin="top left"
+              transform="rotate(0deg)"
+              {...getOverrideProps(overrides, "Vector38512339")}
+            ></Icon>
+          </View>
+          <Icon
+            width="12.56px"
+            height="13.24px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 12.587938333795137,
+              height: 13.27027138356516,
+            }}
+            paths={[
+              {
+                d: "M6.27819 13.2404C9.74554 13.2404 12.5564 10.2764 12.5564 6.62018C12.5564 2.96395 9.74554 0 6.27819 0C2.81085 0 0 2.96395 0 6.62018C0 10.2764 2.81085 13.2404 6.27819 13.2404Z",
+                fill: "rgba(211,152,74,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="6.33%"
+            bottom="88.52%"
+            left="56.86%"
+            right="38.94%"
+            {...getOverrideProps(overrides, "Vector38512340")}
+          ></Icon>
+          <Icon
+            width="12.46px"
+            height="27.33px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 19.558379429921843,
+              height: 29.90627100103177,
+            }}
+            paths={[
+              {
+                d: "M0 0.00138991C2.08396 -0.0524122 3.98332 1.46261 4.94486 3.35523C5.90641 5.24785 6.08085 7.45461 6.03251 9.58713C5.98416 11.7197 5.7322 13.8555 5.91584 15.9803C6.30651 20.5006 8.7791 24.7866 12.458 27.3207C11.0715 27.4307 9.71064 26.7735 8.66305 25.8374C7.61547 24.9014 6.83132 23.7022 6.05995 22.5181C5.40719 21.516 4.75083 20.5072 4.2822 19.4025C3.59567 17.7842 3.33475 16.0158 3.088 14.2697C2.48048 9.97061 1.92029 5.66448 1.40756 1.35245",
+                fill: "rgba(47,46,65,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="7.38%"
+            bottom="81.99%"
+            left="17.77%"
+            right="78.06%"
+            transformOrigin="top left"
+            transform="rotate(16.98deg)"
+            {...getOverrideProps(overrides, "Vector38512341")}
+          ></Icon>
+          <View
+            padding="0px 0px 0px 0px"
+            width="26px"
+            height="32.14px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="85.98%"
+            bottom="1.52%"
+            left="3.31%"
+            right="88%"
+            {...getOverrideProps(overrides, "Group38512342")}
+          >
+            <Icon
+              width="10.36px"
+              height="27.82px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 10.422139116827566,
+                height: 27.842425133456032,
+              }}
+              paths={[
+                {
+                  d: "M0.00140995 27.8178L7.01799 27.8171L10.3558 0L0 0.000746994L0.00140995 27.8178Z",
+                  fill: "rgba(255,182,182,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="0%"
+              bottom="13.45%"
+              left="6.24%"
+              right="53.92%"
+              {...getOverrideProps(overrides, "Vector38512343")}
+            ></Icon>
+            <Icon
+              width="26px"
+              height="12.62px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 26.026631581925358,
+                height: 12.684898892170438,
+              }}
+              paths={[
+                {
+                  d: "M25.6629 8.13664C25.8813 8.51482 25.9966 9.73542 25.9966 10.1752C25.9966 11.527 24.9304 12.6229 23.6152 12.6229L1.88564 12.6229C0.988401 12.6229 0.261005 11.8753 0.261005 10.9531L0.261005 10.0232C0.261005 10.0232 -0.813939 7.22861 1.39917 3.78407C1.39917 3.78407 4.14976 6.4812 8.25986 2.25677L9.47189 0L18.2453 6.59494L23.1083 7.21017C24.1722 7.34476 25.1156 7.1893 25.6629 8.13664Z",
+                  fill: "rgba(47,46,65,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="60.73%"
+              bottom="0%"
+              left="0%"
+              right="0%"
+              {...getOverrideProps(overrides, "Vector38512344")}
+            ></Icon>
+          </View>
+          <View
+            padding="0px 0px 0px 0px"
+            width="29.43px"
+            height="39.32px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="84.74%"
+            bottom="-0.03%"
+            left="13.69%"
+            right="76.46%"
+            transformOrigin="top left"
+            transform="rotate(-4.2deg)"
+            {...getOverrideProps(overrides, "Group38512345")}
+          >
+            <Icon
+              width="16.6px"
+              height="28.52px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 22.72994165791897,
+                height: 32.25927414606781,
+              }}
+              paths={[
+                {
+                  d: "M0 26.8458L6.89862 28.5249L16.6025 2.47852L6.42081 0L0 26.8458Z",
+                  fill: "rgba(255,182,182,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="8.76%"
+              bottom="18.7%"
+              left="0%"
+              right="43.59%"
+              transformOrigin="top left"
+              transform="rotate(-11.98deg)"
+              {...getOverrideProps(overrides, "Vector38512346")}
+            ></Icon>
+            <Icon
+              width="25.59px"
+              height="15.57px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 28.109278058317614,
+                height: 21.515604981758543,
+              }}
+              paths={[
+                {
+                  d: "M25.5459 11.6772C25.6727 12.0926 25.5051 13.2929 25.4041 13.7155C25.0935 15.0143 23.7986 15.8132 22.5117 15.4997L1.2519 10.3203C0.374055 10.1064 -0.165869 9.21474 0.0460199 8.32862L0.259657 7.43521C0.259657 7.43521 -0.149978 4.49381 2.80667 1.71168C2.80667 1.71168 4.87815 4.95879 9.86996 1.87948L11.5743 0L18.6429 8.42784L23.2594 10.1781C24.2694 10.561 25.2281 10.6365 25.5459 11.6772Z",
+                  fill: "rgba(47,46,65,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="60.85%"
+              bottom="-0.44%"
+              left="6.54%"
+              right="6.51%"
+              transformOrigin="top left"
+              transform="rotate(-10.22deg)"
+              {...getOverrideProps(overrides, "Vector38512347")}
+            ></Icon>
+          </View>
+          <View
+            padding="0px 0px 0px 0px"
+            width="53.31px"
+            height="46.54px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="35.78%"
+            bottom="46.12%"
+            left="14.71%"
+            right="67.46%"
+            transformOrigin="top left"
+            transform="rotate(-84.98deg)"
+            {...getOverrideProps(overrides, "Group38512348")}
+          >
+            <Icon
+              width="25.34px"
+              height="21.24px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 23.324016571035827,
+                height: 27.357695891548047,
+              }}
+              paths={[
+                {
+                  d: "M16.256 19.0917C14.919 18.0259 13.9378 16.7515 13.3892 15.4953L0 6.13207L4.71908 0L17.793 10.1582C19.1568 10.4266 20.6278 11.1073 21.9648 12.1731C25.0192 14.6082 26.2172 18.1309 24.6408 20.0414C23.0643 21.9519 19.3104 21.5267 16.256 19.0917Z",
+                  fill: "rgba(255,182,182,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="54.37%"
+              bottom="0%"
+              left="52.47%"
+              right="0%"
+              transformOrigin="top left"
+              transform="rotate(-0.19deg)"
+              {...getOverrideProps(overrides, "Vector38512349")}
+            ></Icon>
+            <Icon
+              width="41.5px"
+              height="40.24px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 43.6346996293787,
+                height: 45.35660134412569,
+              }}
+              paths={[
+                {
+                  d: "M41.5002 30.5622L40.8751 31.8189L37.6336 38.3229L36.6749 40.2424L27.2454 31.919L19.6632 25.2285L1.84027 9.49994C0.604068 8.40903 0 6.92799 0 5.45388C0 3.68978 0.863945 1.93948 2.5321 0.876172C3.5646 0.216779 4.79025 -0.0835665 6.0159 0.0200183C8.90973 0.265115 14.7395 0.789867 20.9239 1.51484L23.0522 7.57013L22.0091 13.0109L19.1715 12.1858L21.7563 14.3159L41.5002 30.5622Z",
+                  fill: "rgba(211,152,74,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="0.3%"
+              bottom="13.23%"
+              left="0.37%"
+              right="21.78%"
+              transformOrigin="top left"
+              transform="rotate(-0.19deg)"
+              {...getOverrideProps(overrides, "Vector38512350")}
+            ></Icon>
+          </View>
+          <Icon
+            width="33.5px"
+            height="28.58px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 33.573042675603574,
+              height: 28.6553347498986,
+            }}
+            paths={[
+              {
+                d: "M1.45355e-05 6.00415C1.34449 6.01233 4.16428 24.7316 2.06175 27.5485C0.336961 29.8592 31.9465 27.5485 31.9465 27.5485C28.9749 26.9273 30.3118 6.92869 33.505 6.00415L14.4323 0L1.45355e-05 6.00415Z",
+                fill: "rgba(255,182,182,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="32.41%"
+            bottom="56.47%"
+            left="8.33%"
+            right="80.46%"
+            {...getOverrideProps(overrides, "Vector38512351")}
+          ></Icon>
+          <Icon
+            width="60.14px"
+            height="117.79px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 60.418467833655995,
+              height: 117.93689359095814,
+            }}
+            paths={[
+              {
+                d: "M44.6313 7.46994e-06L16.5295 7.46994e-06C16.5295 7.46994e-06 4.81078 19.1252 4.81078 56.2097L0 115.898L12.0269 116.604L31.4053 35.6928L42.0548 75.4157L34.7063 117.794L46.3517 117.794L60.1376 70.0082L57.3857 44.9078C57.3857 44.9078 54.5153 10.4156 44.6313 7.46994e-06Z",
+                fill: "rgba(47,46,65,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="42.15%"
+            bottom="12.03%"
+            left="3.62%"
+            right="76.27%"
+            {...getOverrideProps(overrides, "Vector38512352")}
+          ></Icon>
+          <Icon
+            width="42.61px"
+            height="50.22px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 42.729424255775484,
+              height: 50.32440776642011,
+            }}
+            paths={[
+              {
+                d: "M42.6097 26.4889L41.5892 32.0551L41.3417 33.3902L39.2937 44.5544L36.5161 48.7543C36.5161 48.7543 16.7397 42.4528 7.4618 50.2229L0 25.4294L7.90342 7.77009L14.0887 4.23823L15.1196 0L28.2221 0L30.2392 4.23823L36.0808 7.06371L40.5273 20.294L42.6097 26.4889Z",
+                fill: "rgba(211,152,74,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="17.85%"
+            bottom="62.61%"
+            left="6.49%"
+            right="79.26%"
+            {...getOverrideProps(overrides, "Vector38512353")}
+          ></Icon>
+          <View
+            padding="0px 0px 0px 0px"
+            width="46.61px"
+            height="53.03px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="16.76%"
+            bottom="62.61%"
+            left="4.55%"
+            right="79.86%"
+            {...getOverrideProps(overrides, "Group38512354")}
+          >
+            <Icon
+              width="21.26px"
+              height="25.37px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 21.319121838734645,
+                height: 25.41594007675414,
+              }}
+              paths={[
+                {
+                  d: "M19.0821 9.13399C18.0113 10.469 16.736 11.4447 15.482 11.9858L6.0631 25.3653L0 20.5725L10.2073 7.51631C10.4849 6.14789 11.1736 4.67504 12.2443 3.34008C14.6905 0.290348 18.2042 -0.884903 20.0924 0.715044C21.9806 2.31499 21.5282 6.08427 19.0821 9.13399Z",
+                  fill: "rgba(255,182,182,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="0%"
+              bottom="52.17%"
+              left="54.4%"
+              right="0%"
+              {...getOverrideProps(overrides, "Vector38512355")}
+            ></Icon>
+            <Icon
+              width="40.3px"
+              height="44.74px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 40.40486249863261,
+                height: 44.83458390672155,
+              }}
+              paths={[
+                {
+                  d: "M19.0478 2.50513C19.0478 2.50513 9.07301 -3.13141 5.83444 2.50513C3.07126 7.31427 0.669563 31.6137 0.0240146 38.6439C-0.0892972 39.8779 0.200531 41.1116 0.847961 42.1573C2.76532 45.2541 7.02123 45.6331 9.42816 42.9213L40.2983 8.14166L30.7013 3.20969L14.2493 20.8239L19.0478 2.50513Z",
+                  fill: "rgba(211,152,74,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="15.64%"
+              bottom="0%"
+              left="0%"
+              right="13.55%"
+              {...getOverrideProps(overrides, "Vector38512356")}
+            ></Icon>
+          </View>
+          <Icon
+            width="25.14px"
+            height="25.73px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 31.230990853740877,
+              height: 32.09749031142678,
+            }}
+            paths={[
+              {
+                d: "M12.571 25.7267C19.5138 25.7267 25.1421 19.9676 25.1421 12.8633C25.1421 5.75911 19.5138 0 12.571 0C5.62825 0 0 5.75911 0 12.8633C0 19.9676 5.62825 25.7267 12.571 25.7267Z",
+                fill: "rgba(255,182,182,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="5.47%"
+            bottom="84.52%"
+            left="11.34%"
+            right="80.25%"
+            transformOrigin="top left"
+            transform="rotate(16.98deg)"
+            {...getOverrideProps(overrides, "Vector38512357")}
+          ></Icon>
+          <Icon
+            width="46.75px"
+            height="54.59px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 59.96435662023305,
+              height: 66.16257946191752,
+            }}
+            paths={[
+              {
+                d: "M43.5569 11.784C41.5968 13.1381 40.3428 15.4073 40.0242 18.7889C38.793 17.7885 38.6106 15.9686 39.079 13.6402C38.2228 16.0235 31.2737 28.1532 30.8154 31.9879C30.5242 34.4303 31.479 36.8923 32.9446 38.8413C34.3147 40.6585 36.1001 42.0849 37.9285 43.4234C34.4913 42.1386 31.627 39.3103 30.2664 35.8323C28.2996 30.8106 29.4692 25.2223 31.0159 19.9613C30.6531 20.6598 30.1328 21.9348 29.5312 22.433C28.7579 23.073 27.8413 22.8727 27.2207 23.6689C26.4664 24.6361 26.3232 25.9892 26.5571 27.2055C26.7958 28.4219 27.3686 29.5356 27.932 30.6298C19.9616 29.0964 17.5919 19.7754 21.2343 13.4253C18.9045 17.7045 18.3985 26.3214 21.3631 30.1609C23.0244 32.3151 25.4305 33.9955 26.2611 36.6041C26.8435 38.4359 26.5237 40.4778 25.7217 42.2217C24.9197 43.9656 23.6641 45.4506 22.337 46.8184C21.7928 47.3801 21.2342 47.9224 20.6518 48.4499C20.0083 47.7792 18.916 48.0965 18.6784 49.0045C18.5463 49.5089 18.3378 50.0289 18.0739 50.5602C15.7154 51.108 12.5304 50.3476 12.0445 53.7403C11.9149 54.6451 10.3164 54.2434 9.42843 54.3899C9.66758 53.7088 8.8951 53.1059 8.3303 53.5416C7.59227 54.111 6.80636 54.4447 5.98166 54.5854C3.88117 54.4681 1.82363 53.921 0 52.8561C5.81459 49.1485 10.9159 50.2184 13.1882 43.6042C13.5442 42.5696 13.6587 40.4115 13.6524 37.9838C13.6381 32.4796 12.3729 27.0766 10.1943 22.0441C9.92851 21.4301 9.72599 20.8369 9.63847 20.3179C9.00354 16.5712 9.99173 11.4225 11.5958 8.9996C13.1998 6.58157 15.9734 5.01841 18.833 4.94026C20.2604 4.89628 21.1101 5.5362 22.3704 4.84745C23.7167 4.10982 24.0317 5.07702 24.9435 3.82649C26.5714 1.59409 29.3451 0.441268 32.0662 0.343566C34.7873 0.245863 36.3101 -0.531043 38.783 0.636454C40.3441 1.37408 42.142 5.50619 43.8625 5.53136C47.424 5.58348 48.1072 8.64046 43.5569 11.784Z",
+                fill: "rgba(47,46,65,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="0.86%"
+            bottom="77.91%"
+            left="5.07%"
+            right="79.29%"
+            transformOrigin="top left"
+            transform="rotate(16.98deg)"
+            {...getOverrideProps(overrides, "Vector38512358")}
+          ></Icon>
+          <Icon
+            width="0.4px"
+            height="0.29px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 0.39599617899057193,
+              height: 0.2898007004167198,
+            }}
+            paths={[
+              {
+                d: "M0.395308 0.288859C0.261958 0.190941 0.13335 0.0979222 0 0C0.104772 0.0440753 0.209574 0.0832452 0.314345 0.11749L0.395308 0.288859Z",
+                fill: "rgba(47,46,65,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="21.41%"
+            bottom="78.48%"
+            left="14.56%"
+            right="85.31%"
+            {...getOverrideProps(overrides, "Vector38512359")}
+          ></Icon>
+          <Icon
+            width="32.84px"
+            height="45.89px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 32.94605174055232,
+              height: 45.964794812385605,
+            }}
+            paths={[]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="40.44%"
+            bottom="41.71%"
+            left="24.99%"
+            right="64.02%"
+            {...getOverrideProps(overrides, "Vector38512360")}
+          ></Icon>
+          <Icon
+            width="3.6px"
+            height="9.19px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 6.018183818100624,
+              height: 9.883855438375747,
+            }}
+            paths={[
+              {
+                d: "M0.911886 9.19041L0 8.90132C0.136118 5.6277 1.00099 2.64739 2.693 0L3.60489 0.289088L0.911886 9.19041Z",
+                fill: "rgba(211,152,74,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="2.33%"
+            bottom="94.09%"
+            left="12.6%"
+            right="86.19%"
+            transformOrigin="top left"
+            transform="rotate(16.98deg)"
+            {...getOverrideProps(overrides, "Vector38512361")}
+          ></Icon>
+          <Icon
+            width="7.78px"
+            height="6.49px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 9.248857351994957,
+              height: 8.517651735958452,
+            }}
+            paths={[
+              {
+                d: "M7.77682 5.71706L7.19094 6.48831L0 0.77125L0.585882 0C3.76041 1.14681 6.07716 3.1308 7.77682 5.71706Z",
+                fill: "rgba(211,152,74,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="2.43%"
+            bottom="95.05%"
+            left="10.19%"
+            right="87.21%"
+            transformOrigin="top left"
+            transform="rotate(16.98deg)"
+            {...getOverrideProps(overrides, "Vector38512362")}
+          ></Icon>
+          <View
+            padding="0px 0px 0px 0px"
+            width="28.42px"
+            height="33.8px"
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="26.87%"
+            bottom="59.98%"
+            left="28.75%"
+            right="61.74%"
+            transformOrigin="top left"
+            transform="rotate(-127.74deg)"
+            {...getOverrideProps(overrides, "Group38512363")}
+          >
+            <Icon
+              width="28.39px"
+              height="33.78px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 43.50138786523621,
+                height: 43.84866945644126,
+              }}
+              paths={[
+                {
+                  d: "M18.0479 33.7844C18.0066 33.7844 17.9653 33.7825 17.9239 33.7792C15.192 33.556 5.84415 31.8747 0.26139 19.6012C-0.151005 18.6953 -0.0695644 17.5425 0.46424 16.7335L10.918 0.896862C11.3062 0.308674 11.8888 -0.0128486 12.4783 0.000393381C13.0837 0.0185981 13.8607 0.246821 14.0089 0.994736C15.2131 7.07232 20.3999 14.9642 27.1574 16.0111C27.7925 16.1095 28.1776 16.9477 28.3328 17.7335C28.487 18.5128 28.3444 19.3161 27.9418 19.9374L19.5673 32.8671C19.1908 33.4487 18.63 33.7844 18.0479 33.7844Z",
+                  fill: "rgba(230,230,230,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="0%"
+              bottom="0.06%"
+              left="0%"
+              right="0.08%"
+              transformOrigin="top left"
+              transform="rotate(0.04deg)"
+              {...getOverrideProps(overrides, "Vector38512364")}
+            ></Icon>
+            <Icon
+              width="24.79px"
+              height="29.21px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 37.764410756427424,
+                height: 38.109224365804835,
+              }}
+              paths={[
+                {
+                  d: "M0.145762 15.6253C0.00314995 15.8419 -0.0228705 16.1507 0.0810682 16.3947C5.13165 28.2198 14.1613 29.1475 15.9201 29.2132C16.0894 29.2255 16.2482 29.1286 16.3557 28.9626L24.6704 16.1256C24.7881 15.9436 24.8244 15.7114 24.7703 15.4873C24.7156 15.2622 24.5885 15.0393 24.4017 15.0282C17.2137 14.5994 11.4401 4.71574 11.1482 0.280903C11.1343 0.0696634 10.8979 0.00713204 10.7317 3.87532e-05C10.5608 -0.00208681 10.4052 0.0832596 10.2964 0.247804L0.145762 15.6253Z",
+                  fill: "rgba(255,255,255,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="5.58%"
+              bottom="7.99%"
+              left="7.22%"
+              right="5.53%"
+              transformOrigin="top left"
+              transform="rotate(0.04deg)"
+              {...getOverrideProps(overrides, "Vector38512365")}
+            ></Icon>
+            <Icon
+              width="8.67px"
+              height="11.23px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 13.993021752283312,
+                height: 13.968352121980217,
+              }}
+              paths={[
+                {
+                  d: "M0.972821 11.0123L8.50752 1.24396C9.02258 0.576228 8.21567 -0.451428 7.69997 0.217148L0.165267 9.98545C-0.34979 10.6532 0.457124 11.6808 0.972821 11.0123Z",
+                  fill: "rgba(230,230,230,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="27.48%"
+              bottom="39.3%"
+              left="18.95%"
+              right="50.53%"
+              transformOrigin="top left"
+              transform="rotate(0.04deg)"
+              {...getOverrideProps(overrides, "Vector38512366")}
+            ></Icon>
+            <Icon
+              width="6.44px"
+              height="9.39px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 11.207546450836162,
+                height: 11.038839900793448,
+              }}
+              paths={[
+                {
+                  d: "M0.989882 9.1956C3.06861 6.82654 4.87503 4.08352 6.35419 1.07363C6.74464 0.279116 5.7573 -0.450395 5.3684 0.340965C3.93837 3.2509 2.19203 5.87909 0.182607 8.16917C-0.365652 8.79401 0.443933 9.81781 0.989882 9.1956Z",
+                  fill: "rgba(230,230,230,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="40.92%"
+              bottom="31.3%"
+              left="34.99%"
+              right="42.33%"
+              transformOrigin="top left"
+              transform="rotate(0.04deg)"
+              {...getOverrideProps(overrides, "Vector38512367")}
+            ></Icon>
+            <Icon
+              width="5.8px"
+              height="10.18px"
+              viewBox={{
+                minX: 0,
+                minY: 0,
+                width: 11.423048541688331,
+                height: 11.022009123020098,
+              }}
+              paths={[
+                {
+                  d: "M0.959864 9.94551C2.85144 7.28122 4.46159 4.30768 5.72924 1.10017C6.05809 0.268079 5.07413 -0.467408 4.744 0.367901C3.51923 3.46693 1.98104 6.34487 0.153048 8.91962C-0.337917 9.61115 0.466553 10.6403 0.959864 9.94551Z",
+                  fill: "rgba(230,230,230,1)",
+                  fillRule: "nonzero",
+                },
+              ]}
+              display="block"
+              gap="unset"
+              alignItems="unset"
+              justifyContent="unset"
+              position="absolute"
+              top="48.4%"
+              bottom="21.5%"
+              left="49.61%"
+              right="30%"
+              transformOrigin="top left"
+              transform="rotate(0.04deg)"
+              {...getOverrideProps(overrides, "Vector38512368")}
+            ></Icon>
+          </View>
         </View>
+        <Icon
+          width="13.96px"
+          height="14.28px"
+          viewBox={{
+            minX: 0,
+            minY: 0,
+            width: 13.960917474869348,
+            height: 14.278229715425027,
+          }}
+          paths={[
+            {
+              d: "M13.9609 7.13911C13.9609 11.0819 10.8357 14.2782 6.98046 14.2782C3.12526 14.2782 0 11.0819 0 7.13911C0 3.19629 3.12526 0 6.98046 0C10.8357 0 13.9609 3.19629 13.9609 7.13911Z",
+              fill: "rgba(216,216,216,0.9)",
+              fillRule: "nonzero",
+            },
+          ]}
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="4.26%"
+          bottom="94.05%"
+          left="48.74%"
+          right="49.24%"
+          transformOrigin="top left"
+          transform="rotate(0deg)"
+          {...getOverrideProps(overrides, "Ellipse 101")}
+        ></Icon>
+        <Icon
+          width="13.96px"
+          height="14.28px"
+          viewBox={{
+            minX: 0,
+            minY: 0,
+            width: 13.960917474869348,
+            height: 14.278229715425027,
+          }}
+          paths={[
+            {
+              d: "M13.9609 7.13911C13.9609 11.0819 10.8357 14.2782 6.98046 14.2782C3.12526 14.2782 0 11.0819 0 7.13911C0 3.19629 3.12526 0 6.98046 0C10.8357 0 13.9609 3.19629 13.9609 7.13911Z",
+              fill: "rgba(211,152,74,0.9)",
+              fillRule: "nonzero",
+            },
+          ]}
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="4.26%"
+          bottom="94.05%"
+          left="52.06%"
+          right="45.92%"
+          transformOrigin="top left"
+          transform="rotate(0deg)"
+          {...getOverrideProps(overrides, "Ellipse 102")}
+        ></Icon>
         <PhoneNumberField
           width="416px"
-          height="unset"
+          height="72px"
           label="Telefone"
           placeholder="Insira seu número"
           position="absolute"
-          top="280px"
-          left="631px"
+          top="33.16%"
+          bottom="58.32%"
+          left="20.1%"
+          right="19.73%"
           size="default"
           isDisabled={false}
           labelHidden={false}
           variation="default"
           {...getOverrideProps(overrides, "PhoneNumberField")}
         ></PhoneNumberField>
+        <CheckboxField
+          width="672px"
+          height="21px"
+          label="Li e aceito as Condições Legais e a Política de Privacidade "
+          position="absolute"
+          top="47.49%"
+          bottom="50.03%"
+          left="0%"
+          right="2.81%"
+          size="large"
+          defaultChecked={false}
+          isDisabled={false}
+          labelPosition="end"
+          {...getOverrideProps(overrides, "CheckboxField")}
+        ></CheckboxField>
+        <PasswordField
+          width="416px"
+          height="72px"
+          label="Endereço"
+          placeholder="CEP"
+          position="absolute"
+          top="19.54%"
+          bottom="71.93%"
+          left="20.1%"
+          right="19.73%"
+          size="default"
+          isDisabled={false}
+          labelHidden={false}
+          variation="default"
+          hideShowPassword={true}
+          {...getOverrideProps(overrides, "PasswordField")}
+        ></PasswordField>
+        <Button
+          width="102px"
+          height="42px"
+          position="absolute"
+          top="59.92%"
+          bottom="35.1%"
+          left="28.06%"
+          right="57.19%"
+          size="default"
+          isDisabled={false}
+          variation="default"
+          children="Voltar"
+          {...getOverrideProps(overrides, "Button38545630")}
+        ></Button>
+        <Button
+          width="100px"
+          height="40px"
+          position="absolute"
+          top="60.04%"
+          bottom="35.22%"
+          left="56.55%"
+          right="28.99%"
+          backgroundColor="rgba(0,0,0,1)"
+          size="default"
+          isDisabled={false}
+          variation="primary"
+          children="Continuar"
+          {...getOverrideProps(overrides, "Button38545631")}
+        ></Button>
       </View>
+      <Text
+        fontFamily="Poppins"
+        fontSize="44px"
+        fontWeight="700"
+        color="rgba(0,0,0,1)"
+        lineHeight="66px"
+        textAlign="center"
+        display="block"
+        direction="column"
+        justifyContent="unset"
+        width="384px"
+        height="117px"
+        gap="unset"
+        alignItems="unset"
+        position="absolute"
+        top="43.51%"
+        bottom="46.02%"
+        left="16.39%"
+        right="58.33%"
+        padding="0px 0px 0px 0px"
+        whiteSpace="pre-wrap"
+        children="Já estamos&#xA;quase lá"
+        {...getOverrideProps(overrides, "J\u00E1 estamos quase l\u00E1")}
+      ></Text>
       <Image
         width="20.41%"
         height="13.43%"
@@ -1888,10 +1852,10 @@ export default function CadastroUsuario2(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="28.47%"
-        bottom="58.1%"
-        left="22.12%"
-        right="57.47%"
+        top="27.84%"
+        bottom="58.73%"
+        left="18.83%"
+        right="60.76%"
         padding="0px 0px 0px 0px"
         objectFit="cover"
         {...getOverrideProps(
@@ -1899,72 +1863,6 @@ export default function CadastroUsuario2(props) {
           "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"
         )}
       ></Image>
-      <PasswordField
-        width="416px"
-        height="unset"
-        label="Endereço"
-        placeholder="CEP"
-        position="absolute"
-        top="312px"
-        left="798px"
-        size="default"
-        isDisabled={false}
-        labelHidden={false}
-        variation="default"
-        hideShowPassword={true}
-        {...getOverrideProps(overrides, "PasswordField")}
-      ></PasswordField>
-      <CheckboxField
-        width="743px"
-        height="unset"
-        label="Li e aceito as Condições Legais e a Política de Privacidade.   "
-        position="absolute"
-        top="548px"
-        left="646px"
-        size="large"
-        defaultChecked={false}
-        isDisabled={false}
-        labelPosition="end"
-        {...getOverrideProps(overrides, "CheckboxField38545613")}
-      ></CheckboxField>
-      <CheckboxField
-        width="862px"
-        height="unset"
-        label="Autorizo a Conecta+ a enviar comunicações sobre produtos, serviços."
-        position="absolute"
-        top="596px"
-        left="488px"
-        size="large"
-        defaultChecked={false}
-        isDisabled={false}
-        labelPosition="end"
-        {...getOverrideProps(overrides, "CheckboxField38545622")}
-      ></CheckboxField>
-      <Button
-        width="102px"
-        height="unset"
-        position="absolute"
-        top="671px"
-        left="853px"
-        size="default"
-        isDisabled={false}
-        variation="default"
-        children="Voltar"
-        {...getOverrideProps(overrides, "Button38545630")}
-      ></Button>
-      <Button
-        width="100px"
-        height="unset"
-        position="absolute"
-        top="672px"
-        left="1052px"
-        backgroundColor="rgba(0,0,0,1)"
-        size="default"
-        isDisabled={false}
-        variation="primary"
-        children="Continuar"
-        {...getOverrideProps(overrides, "Button38545631")}
-      ></Button>
     </View>
   );
 }

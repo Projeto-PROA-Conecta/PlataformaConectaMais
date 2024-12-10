@@ -12,7 +12,6 @@ import {
   CheckboxField,
   Flex,
   Image,
-  PasswordField,
   PhoneNumberField,
   Text,
   TextField,
@@ -75,13 +74,13 @@ export default function CadastroEmpresas(props) {
         display="block"
         direction="column"
         justifyContent="unset"
-        width="591px"
+        width="454px"
         height="unset"
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="470px"
-        left="193px"
+        top="calc(50% - 150px - -58.76px)"
+        left="calc(50% - 227px - 270.5px)"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
         children="Conecte-se aos melhores talentos neurodiversos e fortaleça sua marca empregadora."
@@ -92,27 +91,27 @@ export default function CadastroEmpresas(props) {
       ></Text>
       <View
         padding="0px 0px 0px 0px"
-        width="743px"
-        height="855.68px"
+        width="615px"
+        height="830px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="172.7px"
-        left="696px"
+        top="173px"
+        left="748px"
         {...getOverrideProps(overrides, "Group 475")}
       >
         <View
-          width="591.17px"
-          height="855.68px"
+          width="602px"
+          height="830px"
           display="block"
           gap="unset"
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
           top="0px"
-          left="76px"
+          left="13px"
           borderRadius="12px"
           padding="0px 0px 0px 0px"
           backgroundColor="rgba(255,255,255,1)"
@@ -133,8 +132,8 @@ export default function CadastroEmpresas(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="634.48px"
-          left="422.12px"
+          top="634.19px"
+          left="370.12px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Pronto"
@@ -146,7 +145,7 @@ export default function CadastroEmpresas(props) {
           fontWeight="700"
           color="rgba(0,0,0,1)"
           lineHeight="36px"
-          textAlign="left"
+          textAlign="center"
           display="block"
           direction="column"
           justifyContent="unset"
@@ -155,8 +154,8 @@ export default function CadastroEmpresas(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="35.93px"
-          left="232.16px"
+          top="calc(50% - 12.12px - 367.25px)"
+          left="calc(50% - 142.59px - -12.09px)"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Cadastre sua Empresa"
@@ -168,98 +167,68 @@ export default function CadastroEmpresas(props) {
           {...getOverrideProps(overrides, "TextField38512053")}
         ></Flex>
         <TextField
-          width="416px"
-          height="72px"
-          label="Nome completo"
+          width="300px"
+          height="40px"
+          label="Nome da Empresa"
           placeholder="Nome da Empresa"
           position="absolute"
-          top="116.3px"
-          left="164px"
+          top="100px"
+          left="170px"
           size="default"
           isDisabled={false}
-          labelHidden={false}
+          labelHidden={true}
           variation="default"
           {...getOverrideProps(overrides, "TextField38572442")}
         ></TextField>
         <TextField
-          width="416px"
-          height="72px"
+          width="300px"
+          height="40px"
           label="Nome completo"
-          placeholder="Nome da Completo do Contato"
+          placeholder="Nome Completo do Contato"
           position="absolute"
-          top="205.3px"
-          left="164px"
+          top="180px"
+          left="170px"
           size="default"
           isDisabled={false}
-          labelHidden={false}
+          labelHidden={true}
           variation="default"
           {...getOverrideProps(overrides, "TextField38572462")}
         ></TextField>
         <TextField
-          width="416px"
-          height="72px"
-          label="Nome completo"
+          width="300px"
+          height="40px"
+          label="Cargo"
           placeholder="Cargo"
           position="absolute"
-          top="294.3px"
-          left="164px"
+          top="264px"
+          left="170px"
           size="default"
           isDisabled={false}
-          labelHidden={false}
+          labelHidden={true}
           variation="default"
           {...getOverrideProps(overrides, "TextField38572586")}
         ></TextField>
         <TextField
-          width="416px"
-          height="72px"
-          label="Nome completo"
+          width="300px"
+          height="40px"
+          label="Email"
           placeholder="Email"
           position="absolute"
-          top="440.3px"
-          left="164px"
+          top="344px"
+          left="170px"
           size="default"
           isDisabled={false}
-          labelHidden={false}
+          labelHidden={true}
           variation="default"
           {...getOverrideProps(overrides, "TextField38572628")}
         ></TextField>
-        <PasswordField
-          width="416px"
-          height="unset"
-          label="CPF"
-          placeholder="CNPJ"
-          position="absolute"
-          top="383.3px"
-          left="164px"
-          size="default"
-          isDisabled={false}
-          labelHidden={false}
-          variation="default"
-          hideShowPassword={true}
-          {...getOverrideProps(overrides, "PasswordField38572443")}
-        ></PasswordField>
-        <PasswordField
-          width="416px"
-          height="unset"
-          label="CPF"
-          placeholder="Quantidade de Funcionários"
-          position="absolute"
-          top="607.3px"
-          left="164px"
-          size="default"
-          isDisabled={false}
-          labelHidden={false}
-          variation="default"
-          hideShowPassword={true}
-          {...getOverrideProps(overrides, "PasswordField38572599")}
-        ></PasswordField>
         <CheckboxField
-          width="743px"
+          width="602px"
           height="unset"
-          label="Li e aceito as Condições Legais e a Política de Privacidade."
+          label="Li e aceito as Condições Legais e a Política de Privacidade "
           position="absolute"
-          top="693.3px"
-          left="0px"
+          top="calc(50% - 10.5px - -283.5px)"
+          left="calc(50% - 301px - 6.5px)"
           size="large"
           defaultChecked={false}
           isDisabled={false}
@@ -270,8 +239,8 @@ export default function CadastroEmpresas(props) {
           width="102px"
           height="unset"
           position="absolute"
-          top="769.3px"
-          left="170px"
+          top="751px"
+          left="118px"
           size="default"
           isDisabled={false}
           variation="default"
@@ -279,17 +248,17 @@ export default function CadastroEmpresas(props) {
           {...getOverrideProps(overrides, "Button38572644")}
         ></Button>
         <Button
-          width="122px"
+          width="100px"
           height="unset"
           position="absolute"
-          top="770.3px"
-          left="458px"
+          top="752px"
+          left="428px"
           backgroundColor="rgba(0,0,0,1)"
           size="default"
           isDisabled={false}
           variation="primary"
-          children="Cadastrar-se"
-          {...getOverrideProps(overrides, "Button38572645")}
+          children="Continuar"
+          {...getOverrideProps(overrides, "Button3872877")}
         ></Button>
       </View>
       <View
@@ -318,10 +287,10 @@ export default function CadastroEmpresas(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="28.43%"
-        bottom="58.16%"
-        left="22.12%"
-        right="57.47%"
+        top="29.24%"
+        bottom="57.35%"
+        left="21.99%"
+        right="57.6%"
         padding="0px 0px 0px 0px"
         objectFit="cover"
         {...getOverrideProps(
@@ -329,20 +298,48 @@ export default function CadastroEmpresas(props) {
           "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview38512064"
         )}
       ></Image>
+      <TextField
+        width="300px"
+        height="40px"
+        label="Email"
+        placeholder="CNPJ"
+        position="absolute"
+        top="597px"
+        left="918px"
+        size="default"
+        isDisabled={false}
+        labelHidden={true}
+        variation="default"
+        {...getOverrideProps(overrides, "TextField38761491")}
+      ></TextField>
       <PhoneNumberField
-        width="416px"
+        width="300px"
         height="unset"
         label="Telefone"
         placeholder="Telefone"
         position="absolute"
-        top="704px"
-        left="860px"
+        top="677px"
+        left="918px"
         size="default"
         isDisabled={false}
-        labelHidden={false}
+        labelHidden={true}
         variation="default"
         {...getOverrideProps(overrides, "PhoneNumberField")}
       ></PhoneNumberField>
+      <TextField
+        width="300px"
+        height="40px"
+        label="Email"
+        placeholder="Quantidade de funcionários"
+        position="absolute"
+        top="757px"
+        left="918px"
+        size="default"
+        isDisabled={false}
+        labelHidden={true}
+        variation="default"
+        {...getOverrideProps(overrides, "TextField38761525")}
+      ></TextField>
     </View>
   );
 }

@@ -8,6 +8,7 @@
 import * as React from "react";
 import { getOverrideProps } from "./utils";
 import {
+  Button,
   Icon,
   Image,
   PasswordField,
@@ -87,30 +88,6 @@ export default function TelaDeLogin(props) {
             backgroundColor="rgba(255,255,255,1)"
             {...getOverrideProps(overrides, "Rectangle 2")}
           ></View>
-          <Text
-            fontFamily="Poppins"
-            fontSize="12px"
-            fontWeight="700"
-            color="rgba(255,255,255,1)"
-            lineHeight="18px"
-            textAlign="left"
-            display="block"
-            direction="column"
-            justifyContent="unset"
-            width="46px"
-            height="14px"
-            gap="unset"
-            alignItems="unset"
-            position="absolute"
-            top="64.95%"
-            bottom="33.33%"
-            left="83.23%"
-            right="9.56%"
-            padding="0px 0px 0px 0px"
-            whiteSpace="pre-wrap"
-            children="Entrar"
-            {...getOverrideProps(overrides, "Entrar")}
-          ></Text>
           <Text
             fontFamily="Poppins"
             fontSize="14px"
@@ -1226,6 +1203,18 @@ export default function TelaDeLogin(props) {
               "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"
             )}
           ></Image>
+          <Button
+            width="100px"
+            height="unset"
+            position="absolute"
+            top="517px"
+            left="452px"
+            backgroundColor="rgba(0,0,0,1)"
+            size="default"
+            isDisabled={false}
+            variation="primary"
+            {...getOverrideProps(overrides, "Button")}
+          ></Button>
         </View>
         <Icon
           width="109px"

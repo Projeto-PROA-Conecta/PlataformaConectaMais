@@ -2287,14 +2287,14 @@ export default function CadastroUsuario4(props) {
           </View>
         </View>
         <SelectField
-          width="384px"
+          width="387px"
           height="72px"
           label="Enfrenta dificuldades em algum dos seguintes aspectos? (Selecione todas que se aplicam)"
           placeholder="Sensorial"
           position="absolute"
           top="calc(50% - 36px - 203.46px)"
-          left="18.53%"
-          right="18.52%"
+          left="17.87%"
+          right="18.68%"
           size="default"
           isDisabled={false}
           labelHidden={false}
@@ -2302,14 +2302,14 @@ export default function CadastroUsuario4(props) {
           {...getOverrideProps(overrides, "SelectField3857391")}
         ></SelectField>
         <SelectField
-          width="384px"
+          width="387px"
           height="unset"
           label="Qual ambiente de trabalho você prefere?"
           placeholder="Presencial"
           position="absolute"
-          top="calc(50% - 34.5px - 102.96px)"
-          left="18.53%"
-          right="18.52%"
+          top="calc(50% - 34.5px - 95.96px)"
+          left="17.87%"
+          right="18.68%"
           size="default"
           isDisabled={false}
           labelHidden={false}
@@ -2317,14 +2317,14 @@ export default function CadastroUsuario4(props) {
           {...getOverrideProps(overrides, "SelectField3857392")}
         ></SelectField>
         <SelectField
-          width="384px"
+          width="387px"
           height="unset"
           label="Já teve experiências de trabalho ou estágio?"
           placeholder="Sim"
           position="absolute"
-          top="calc(50% - 34.5px - -8.04px)"
-          left="17.71%"
-          right="19.34%"
+          top="calc(50% - 34.5px - 3.96px)"
+          left="17.87%"
+          right="18.68%"
           size="default"
           isDisabled={false}
           labelHidden={false}
@@ -2332,14 +2332,14 @@ export default function CadastroUsuario4(props) {
           {...getOverrideProps(overrides, "SelectField3857393")}
         ></SelectField>
         <SelectField
-          width="383px"
+          width="387px"
           height="unset"
           label="Se sim, quais foram as maiores dificuldades enfrentadas no seu ambiente de trabalho anterior?"
           placeholder="Falta de recursos"
           position="absolute"
-          top="calc(50% - 45px - -111.54px)"
+          top="calc(50% - 45px - -105.54px)"
           left="17.87%"
-          right="19.34%"
+          right="18.68%"
           size="default"
           isDisabled={false}
           labelHidden={false}
@@ -2347,14 +2347,14 @@ export default function CadastroUsuario4(props) {
           {...getOverrideProps(overrides, "SelectField3857419")}
         ></SelectField>
         <SelectField
-          width="384px"
+          width="387px"
           height="unset"
           label="Quais são suas principais habilidades profissionais? (Selecione todas que se aplicam)"
           placeholder="Criatividade"
           position="absolute"
-          top="calc(50% - 45px - -230.04px)"
-          left="18.53%"
-          right="18.52%"
+          top="calc(50% - 45px - -230.54px)"
+          left="17.87%"
+          right="18.68%"
           size="default"
           isDisabled={false}
           labelHidden={false}
@@ -2396,10 +2396,8 @@ export default function CadastroUsuario4(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="36.88%"
-        bottom="58.52%"
-        left="38.84%"
-        right="38.71%"
+        top="calc(50% - 25.66px - 120.84px)"
+        left="calc(50% - 170.5px - 0px)"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
         children="Questionário"

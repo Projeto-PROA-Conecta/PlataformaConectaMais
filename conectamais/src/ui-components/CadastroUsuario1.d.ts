@@ -30,9 +30,7 @@ export declare type CadastroUsuario1OverridesProps = {
     Pronto?: PrimitiveOverrideProps<TextProps>;
     "Crie sua conta"?: PrimitiveOverrideProps<TextProps>;
     "Ellipse 10038512153"?: PrimitiveOverrideProps<IconProps>;
-    "Ellipse 10038512154"?: PrimitiveOverrideProps<IconProps>;
-    "Que bom que voc\u00EA quer"?: PrimitiveOverrideProps<TextProps>;
-    "Se juntar a n\u00F3s"?: PrimitiveOverrideProps<TextProps>;
+    "Que bom que voc\u00EA quer Se juntar a n\u00F3s"?: PrimitiveOverrideProps<TextProps>;
     Button38545543?: PrimitiveOverrideProps<ButtonProps>;
     "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"?: PrimitiveOverrideProps<ImageProps>;
     TextField38545488?: PrimitiveOverrideProps<TextFieldProps>;
@@ -40,6 +38,9 @@ export declare type CadastroUsuario1OverridesProps = {
     PasswordField38545489?: PrimitiveOverrideProps<PasswordFieldProps>;
     PasswordField38545521?: PrimitiveOverrideProps<PasswordFieldProps>;
     Button38545552?: PrimitiveOverrideProps<ButtonProps>;
+    "Group 487"?: PrimitiveOverrideProps<ViewProps>;
+    "Ellipse 10038512154"?: PrimitiveOverrideProps<IconProps>;
+    "Ellipse 10038911649"?: PrimitiveOverrideProps<IconProps>;
 } & EscapeHatchProps;
 export declare type CadastroUsuario1Props = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

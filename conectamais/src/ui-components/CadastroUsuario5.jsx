@@ -33,44 +33,58 @@ export default function CadastroUsuario5(props) {
       {...getOverrideProps(overrides, "CadastroUsuario5")}
       {...rest}
     >
-      <View
-        width="1519px"
-        height="1115px"
+      <Image
+        width="100%"
+        height="100%"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
-        overflow="hidden"
         position="absolute"
-        top="2px"
-        left="0px"
+        top="0%"
+        bottom="0%"
+        left="0%"
+        right="0%"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Cadastro")}
+        objectFit="cover"
+        {...getOverrideProps(overrides, "Fundo Novo")}
+      ></Image>
+      <Text
+        fontFamily="Poppins"
+        fontSize="44px"
+        fontWeight="700"
+        color="rgba(0,0,0,1)"
+        lineHeight="66px"
+        textAlign="center"
+        display="block"
+        direction="column"
+        justifyContent="unset"
+        width="797.57px"
+        height="68.61px"
+        gap="unset"
+        alignItems="unset"
+        position="absolute"
+        top="240px"
+        left="361px"
+        padding="0px 0px 0px 0px"
+        whiteSpace="pre-wrap"
+        children="Últimas perguntas"
+        {...getOverrideProps(overrides, "\u00DAltimas perguntas")}
+      ></Text>
+      <View
+        padding="0px 0px 0px 0px"
+        width="525.08px"
+        height="662.87px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="364px"
+        left="497px"
+        {...getOverrideProps(overrides, "Group 476")}
       >
-        <Text
-          fontFamily="Poppins"
-          fontSize="44px"
-          fontWeight="700"
-          color="rgba(0,0,0,1)"
-          lineHeight="66px"
-          textAlign="center"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="797.57px"
-          height="68.61px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="238px"
-          left="361px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Últimas perguntas"
-          {...getOverrideProps(overrides, "\u00DAltimas perguntas")}
-        ></Text>
         <View
-          padding="0px 0px 0px 0px"
           width="525.08px"
           height="662.87px"
           display="block"
@@ -78,176 +92,163 @@ export default function CadastroUsuario5(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="362px"
-          left="497px"
-          {...getOverrideProps(overrides, "Group 476")}
-        >
-          <View
-            width="525.08px"
-            height="662.87px"
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="0px"
-            left="0px"
-            borderRadius="12px"
-            padding="0px 0px 0px 0px"
-            backgroundColor="rgba(255,255,255,1)"
-            {...getOverrideProps(overrides, "Rectangle 1")}
-          ></View>
-          <Icon
-            width="14.44px"
-            height="14.73px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 14.435802459716797,
-              height: 14.731194496154785,
-            }}
-            paths={[
-              {
-                d: "M14.4358 7.3656C14.4358 11.4335 11.2042 14.7312 7.2179 14.7312C3.23156 14.7312 0 11.4335 0 7.3656C0 3.29769 3.23156 0 7.2179 0C11.2042 0 14.4358 3.29769 14.4358 7.3656Z",
-                fill: "rgba(217,217,217,1)",
-                fillRule: "nonzero",
-              },
-            ]}
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="32.33px"
-            left="255.42px"
-            {...getOverrideProps(overrides, "Ellipse 109")}
-          ></Icon>
-          <Icon
-            width="14.44px"
-            height="14.73px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 14.435802459716797,
-              height: 14.731194496154785,
-            }}
-            paths={[
-              {
-                d: "M14.4358 7.3656C14.4358 11.4335 11.2042 14.7312 7.2179 14.7312C3.23156 14.7312 0 11.4335 0 7.3656C0 3.29769 3.23156 0 7.2179 0C11.2042 0 14.4358 3.29769 14.4358 7.3656Z",
-                fill: "rgba(217,217,217,1)",
-                fillRule: "nonzero",
-              },
-            ]}
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="32px"
-            left="215px"
-            {...getOverrideProps(overrides, "Ellipse 108")}
-          ></Icon>
-          <Icon
-            width="14.44px"
-            height="14.73px"
-            viewBox={{
-              minX: 0,
-              minY: 0,
-              width: 14.435802459716797,
-              height: 14.731194496154785,
-            }}
-            paths={[
-              {
-                d: "M14.4358 7.3656C14.4358 11.4335 11.2042 14.7312 7.2179 14.7312C3.23156 14.7312 0 11.4335 0 7.3656C0 3.29769 3.23156 0 7.2179 0C11.2042 0 14.4358 3.29769 14.4358 7.3656Z",
-                fill: "rgba(253,157,72,1)",
-                fillRule: "nonzero",
-              },
-            ]}
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="32px"
-            left="295.84px"
-            {...getOverrideProps(overrides, "Ellipse 110")}
-          ></Icon>
-          <Flex
-            width="464.26px"
-            height="120.3px"
-            {...getOverrideProps(overrides, "TextAreaField38512290")}
-          ></Flex>
-          <TextAreaField
-            width="408px"
-            height="unset"
-            label="Há algo mais que gostaria de compartilhar para que possamos entender melhor suas necessidades?"
-            placeholder="Compartilhe aqui..."
-            position="absolute"
-            top="395px"
-            left="59px"
-            size="default"
-            isDisabled={false}
-            labelHidden={false}
-            variation="default"
-            {...getOverrideProps(overrides, "TextAreaField38572087")}
-          ></TextAreaField>
-        </View>
-        <SelectField
-          width="384px"
-          height="72px"
-          label="9.Sente-se confortável em um ambiente que valoriza a diversidade e inclusão?"
-          placeholder="Sensorial"
+          top="0px"
+          left="0px"
+          borderRadius="12px"
+          padding="0px 0px 0px 0px"
+          backgroundColor="rgba(255,255,255,1)"
+          {...getOverrideProps(overrides, "Rectangle 1")}
+        ></View>
+        <Icon
+          width="14.44px"
+          height="14.73px"
+          viewBox={{
+            minX: 0,
+            minY: 0,
+            width: 14.435802459716797,
+            height: 14.731194496154785,
+          }}
+          paths={[
+            {
+              d: "M14.4358 7.3656C14.4358 11.4335 11.2042 14.7312 7.2179 14.7312C3.23156 14.7312 0 11.4335 0 7.3656C0 3.29769 3.23156 0 7.2179 0C11.2042 0 14.4358 3.29769 14.4358 7.3656Z",
+              fill: "rgba(217,217,217,1)",
+              fillRule: "nonzero",
+            },
+          ]}
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
           position="absolute"
-          top="calc(50% - 36px - -0.5px)"
-          left="37.39%"
-          right="37.33%"
+          top="32.33px"
+          left="255.42px"
+          {...getOverrideProps(overrides, "Ellipse 109")}
+        ></Icon>
+        <Icon
+          width="14.44px"
+          height="14.73px"
+          viewBox={{
+            minX: 0,
+            minY: 0,
+            width: 14.435802459716797,
+            height: 14.731194496154785,
+          }}
+          paths={[
+            {
+              d: "M14.4358 7.3656C14.4358 11.4335 11.2042 14.7312 7.2179 14.7312C3.23156 14.7312 0 11.4335 0 7.3656C0 3.29769 3.23156 0 7.2179 0C11.2042 0 14.4358 3.29769 14.4358 7.3656Z",
+              fill: "rgba(217,217,217,1)",
+              fillRule: "nonzero",
+            },
+          ]}
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="32px"
+          left="215px"
+          {...getOverrideProps(overrides, "Ellipse 108")}
+        ></Icon>
+        <Icon
+          width="14.44px"
+          height="14.73px"
+          viewBox={{
+            minX: 0,
+            minY: 0,
+            width: 14.435802459716797,
+            height: 14.731194496154785,
+          }}
+          paths={[
+            {
+              d: "M14.4358 7.3656C14.4358 11.4335 11.2042 14.7312 7.2179 14.7312C3.23156 14.7312 0 11.4335 0 7.3656C0 3.29769 3.23156 0 7.2179 0C11.2042 0 14.4358 3.29769 14.4358 7.3656Z",
+              fill: "rgba(253,157,72,1)",
+              fillRule: "nonzero",
+            },
+          ]}
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="32px"
+          left="295.84px"
+          {...getOverrideProps(overrides, "Ellipse 110")}
+        ></Icon>
+        <Flex
+          width="464.26px"
+          height="120.3px"
+          {...getOverrideProps(overrides, "TextAreaField38512290")}
+        ></Flex>
+        <TextAreaField
+          width="408px"
+          height="unset"
+          label="Há algo mais que gostaria de compartilhar para que possamos entender melhor suas necessidades?"
+          placeholder="Compartilhe aqui..."
+          position="absolute"
+          top="395px"
+          left="59px"
           size="default"
           isDisabled={false}
           labelHidden={false}
           variation="default"
-          {...getOverrideProps(overrides, "SelectField38572060")}
-        ></SelectField>
-        <SelectField
-          width="384px"
-          height="unset"
-          label="10.Faz parte de algum outro grupo de diversidade?"
-          placeholder="Presencial"
-          position="absolute"
-          top="calc(50% - 34.5px - -121px)"
-          left="37.39%"
-          right="37.33%"
-          size="default"
-          isDisabled={false}
-          labelHidden={false}
-          variation="default"
-          {...getOverrideProps(overrides, "SelectField38572061")}
-        ></SelectField>
-        <Button
-          width="102px"
-          height="unset"
-          position="absolute"
-          top="946px"
-          left="587px"
-          size="default"
-          isDisabled={false}
-          variation="default"
-          children="Voltar"
-          {...getOverrideProps(overrides, "Button38572062")}
-        ></Button>
-        <Button
-          width="100px"
-          height="unset"
-          position="absolute"
-          top="947px"
-          left="825px"
-          backgroundColor="rgba(234,191,62,1)"
-          size="default"
-          isDisabled={false}
-          variation="primary"
-          children="Continuar"
-          {...getOverrideProps(overrides, "Button38572063")}
-        ></Button>
+          {...getOverrideProps(overrides, "TextAreaField38572087")}
+        ></TextAreaField>
       </View>
+      <SelectField
+        width="384px"
+        height="72px"
+        label="9.Sente-se confortável em um ambiente que valoriza a diversidade e inclusão?"
+        placeholder="Sensorial"
+        position="absolute"
+        top="calc(50% - 36px - -1.5px)"
+        left="37.39%"
+        right="37.33%"
+        size="default"
+        isDisabled={false}
+        labelHidden={false}
+        variation="default"
+        {...getOverrideProps(overrides, "SelectField38572060")}
+      ></SelectField>
+      <SelectField
+        width="384px"
+        height="unset"
+        label="10.Faz parte de algum outro grupo de diversidade?"
+        placeholder="Presencial"
+        position="absolute"
+        top="calc(50% - 34.5px - -122px)"
+        left="37.39%"
+        right="37.33%"
+        size="default"
+        isDisabled={false}
+        labelHidden={false}
+        variation="default"
+        {...getOverrideProps(overrides, "SelectField38572061")}
+      ></SelectField>
+      <Button
+        width="102px"
+        height="unset"
+        position="absolute"
+        top="948px"
+        left="587px"
+        size="default"
+        isDisabled={false}
+        variation="default"
+        children="Voltar"
+        {...getOverrideProps(overrides, "Button38572062")}
+      ></Button>
+      <Button
+        width="100px"
+        height="unset"
+        position="absolute"
+        top="949px"
+        left="825px"
+        backgroundColor="rgba(234,191,62,1)"
+        size="default"
+        isDisabled={false}
+        variation="primary"
+        children="Continuar"
+        {...getOverrideProps(overrides, "Button38572063")}
+      ></Button>
       <Image
         width="20.41%"
         height="13.43%"
@@ -282,10 +283,8 @@ export default function CadastroUsuario5(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="38.59%"
-        bottom="56.82%"
-        left="38.84%"
-        right="38.71%"
+        top="calc(50% - 25.66px - 101.84px)"
+        left="calc(50% - 170.5px - 0px)"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
         children="Questionário"

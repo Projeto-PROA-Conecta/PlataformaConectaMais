@@ -5,7 +5,7 @@
  **************************************************************************/
 
 import * as React from "react";
-import { FlexProps, IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+import { ButtonProps, FlexProps, IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
 } | null;
@@ -20,8 +20,6 @@ export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes
 export declare type HomeOverridesProps = {
     Home?: PrimitiveOverrideProps<ViewProps>;
     "Fundo Novo"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 206"?: PrimitiveOverrideProps<ViewProps>;
-    "logo_branca_conecta 2"?: PrimitiveOverrideProps<ImageProps>;
     Button38512593?: PrimitiveOverrideProps<FlexProps>;
     Button38512594?: PrimitiveOverrideProps<FlexProps>;
     Button38512596?: PrimitiveOverrideProps<FlexProps>;
@@ -87,6 +85,16 @@ export declare type HomeOverridesProps = {
     SelectField38512660?: PrimitiveOverrideProps<FlexProps>;
     SelectField38512661?: PrimitiveOverrideProps<FlexProps>;
     Button38512662?: PrimitiveOverrideProps<FlexProps>;
+    NavHeader?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 206"?: PrimitiveOverrideProps<ViewProps>;
+    Button38604011?: PrimitiveOverrideProps<ButtonProps>;
+    "logo_branca_conecta 2"?: PrimitiveOverrideProps<ImageProps>;
+    Button38573258?: PrimitiveOverrideProps<ButtonProps>;
+    Button38573267?: PrimitiveOverrideProps<ButtonProps>;
+    Button38573263?: PrimitiveOverrideProps<ButtonProps>;
+    Button38573268?: PrimitiveOverrideProps<ButtonProps>;
+    Button38573275?: PrimitiveOverrideProps<ButtonProps>;
+    "robot-modern-flat-style-vector-removebg-preview 1"?: PrimitiveOverrideProps<ImageProps>;
 } & EscapeHatchProps;
 export declare type HomeProps = React.PropsWithChildren<Partial<ViewProps> & {
     overrides?: HomeOverridesProps | undefined | null;

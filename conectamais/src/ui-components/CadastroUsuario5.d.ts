@@ -19,7 +19,7 @@ export declare type Variant = {
 export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes<HTMLDivElement>;
 export declare type CadastroUsuario5OverridesProps = {
     CadastroUsuario5?: PrimitiveOverrideProps<ViewProps>;
-    Cadastro?: PrimitiveOverrideProps<ViewProps>;
+    "Fundo Novo"?: PrimitiveOverrideProps<ImageProps>;
     "\u00DAltimas perguntas"?: PrimitiveOverrideProps<TextProps>;
     "Group 476"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 1"?: PrimitiveOverrideProps<ViewProps>;

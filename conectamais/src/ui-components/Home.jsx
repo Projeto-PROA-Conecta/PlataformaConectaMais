@@ -7,7 +7,7 @@
 /* eslint-disable */
 import * as React from "react";
 import { getOverrideProps } from "./utils";
-import { Flex, Icon, Image, Text, View } from "@aws-amplify/ui-react";
+import { Button, Flex, Icon, Image, Text, View } from "@aws-amplify/ui-react";
 export default function Home(props) {
   const { overrides, ...rest } = props;
   return (
@@ -40,34 +40,6 @@ export default function Home(props) {
         backgroundColor="rgba(255,255,255,1)"
         {...getOverrideProps(overrides, "Fundo Novo")}
       ></View>
-      <View
-        width="1516px"
-        height="70px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="0px"
-        left="-1px"
-        padding="0px 0px 0px 0px"
-        backgroundColor="rgba(15,45,57,1)"
-        {...getOverrideProps(overrides, "Rectangle 206")}
-      ></View>
-      <Image
-        width="182px"
-        height="24px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="27px"
-        left="36px"
-        padding="0px 0px 0px 0px"
-        objectFit="cover"
-        {...getOverrideProps(overrides, "logo_branca_conecta 2")}
-      ></Image>
       <Flex
         width="124.75px"
         height="unset"
@@ -85,13 +57,13 @@ export default function Home(props) {
       ></Flex>
       <Image
         width="1519px"
-        height="336px"
+        height="338px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="72px"
+        top="70px"
         left="-1px"
         padding="0px 0px 0px 0px"
         objectFit="unset"
@@ -525,7 +497,7 @@ export default function Home(props) {
           paths={[
             {
               d: "M0 15C0 6.71573 6.71573 0 15 0L547 0C555.284 0 562 6.71573 562 15L562 222C562 230.284 555.284 237 547 237L15 237C6.71571 237 0 230.284 0 222L0 15Z",
-              fill: "rgba(207,209,208,1)",
+              fill: "rgba(47,46,65,1)",
               fillRule: "nonzero",
             },
           ]}
@@ -542,7 +514,7 @@ export default function Home(props) {
           fontFamily="Poppins"
           fontSize="22px"
           fontWeight="700"
-          color="rgba(0,0,0,1)"
+          color="rgba(255,255,255,1)"
           lineHeight="33px"
           textAlign="left"
           display="block"
@@ -564,7 +536,7 @@ export default function Home(props) {
           fontFamily="Montserrat"
           fontSize="20px"
           fontWeight="700"
-          color="rgba(0,0,0,1)"
+          color="rgba(255,255,255,1)"
           lineHeight="24.3799991607666px"
           textAlign="left"
           display="block"
@@ -652,7 +624,7 @@ export default function Home(props) {
           fontFamily="Poppins"
           fontSize="18px"
           fontWeight="300"
-          color="rgba(0,0,0,1)"
+          color="rgba(255,255,255,1)"
           lineHeight="27px"
           textAlign="left"
           display="block"
@@ -674,7 +646,7 @@ export default function Home(props) {
           fontFamily="Poppins"
           fontSize="20px"
           fontWeight="400"
-          color="rgba(0,0,0,1)"
+          color="rgba(255,255,255,1)"
           lineHeight="30px"
           textAlign="left"
           display="block"
@@ -696,7 +668,7 @@ export default function Home(props) {
           fontFamily="Montserrat"
           fontSize="20px"
           fontWeight="400"
-          color="rgba(0,0,0,1)"
+          color="rgba(255,255,255,1)"
           lineHeight="24.3799991607666px"
           textAlign="left"
           display="block"
@@ -718,7 +690,7 @@ export default function Home(props) {
           fontFamily="Montserrat"
           fontSize="20px"
           fontWeight="400"
-          color="rgba(0,0,0,1)"
+          color="rgba(255,255,255,1)"
           lineHeight="24.3799991607666px"
           textAlign="left"
           display="block"
@@ -743,7 +715,7 @@ export default function Home(props) {
           paths={[
             {
               d: "M0 22L0 4.88889L4.88889 4.88889L4.88889 0L17.1111 0L17.1111 9.77778L22 9.77778L22 22L12.2222 22L12.2222 17.1111L9.77778 17.1111L9.77778 22L0 22ZM2.44444 19.5556L4.88889 19.5556L4.88889 17.1111L2.44444 17.1111L2.44444 19.5556ZM2.44444 14.6667L4.88889 14.6667L4.88889 12.2222L2.44444 12.2222L2.44444 14.6667ZM2.44444 9.77778L4.88889 9.77778L4.88889 7.33333L2.44444 7.33333L2.44444 9.77778ZM7.33333 14.6667L9.77778 14.6667L9.77778 12.2222L7.33333 12.2222L7.33333 14.6667ZM7.33333 9.77778L9.77778 9.77778L9.77778 7.33333L7.33333 7.33333L7.33333 9.77778ZM7.33333 4.88889L9.77778 4.88889L9.77778 2.44444L7.33333 2.44444L7.33333 4.88889ZM12.2222 14.6667L14.6667 14.6667L14.6667 12.2222L12.2222 12.2222L12.2222 14.6667ZM12.2222 9.77778L14.6667 9.77778L14.6667 7.33333L12.2222 7.33333L12.2222 9.77778ZM12.2222 4.88889L14.6667 4.88889L14.6667 2.44444L12.2222 2.44444L12.2222 4.88889ZM17.1111 19.5556L19.5556 19.5556L19.5556 17.1111L17.1111 17.1111L17.1111 19.5556ZM17.1111 14.6667L19.5556 14.6667L19.5556 12.2222L17.1111 12.2222L17.1111 14.6667Z",
-              fill: "rgba(0,0,0,1)",
+              fill: "rgba(255,255,255,1)",
               fillRule: "nonzero",
             },
           ]}
@@ -752,7 +724,7 @@ export default function Home(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="171px"
+          top="173px"
           left="20px"
           {...getOverrideProps(overrides, "Vector38512630")}
         ></Icon>
@@ -1128,12 +1100,12 @@ export default function Home(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="54px"
+          width="65px"
           height="22px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="77px"
+          top="75px"
           left="1209px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -1155,7 +1127,7 @@ export default function Home(props) {
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="104px"
+          top="103px"
           left="1209px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
@@ -1333,6 +1305,145 @@ export default function Home(props) {
         height="unset"
         {...getOverrideProps(overrides, "Button38512662")}
       ></Flex>
+      <View
+        padding="0px 0px 0px 0px"
+        width="1518px"
+        height="70px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="0px"
+        left="-1px"
+        {...getOverrideProps(overrides, "NavHeader")}
+      >
+        <View
+          width="1518px"
+          height="70px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="0px"
+          left="0px"
+          padding="0px 0px 0px 0px"
+          backgroundColor="rgba(15,45,57,1)"
+          {...getOverrideProps(overrides, "Rectangle 206")}
+        ></View>
+        <Button
+          width="155.2px"
+          height="33px"
+          position="absolute"
+          border="1px SOLID rgba(255,255,255,1)"
+          top="24px"
+          left="1326.75px"
+          backgroundColor="rgba(0,0,0,0)"
+          size="default"
+          isDisabled={false}
+          variation="primary"
+          children="Cadastrar-se"
+          {...getOverrideProps(overrides, "Button38604011")}
+        ></Button>
+        <Image
+          width="182.24px"
+          height="24px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="27px"
+          left="37.05px"
+          padding="0px 0px 0px 0px"
+          objectFit="cover"
+          {...getOverrideProps(overrides, "logo_branca_conecta 2")}
+        ></Image>
+        <Button
+          width="65.09px"
+          height="unset"
+          position="absolute"
+          top="22px"
+          left="302.4px"
+          backgroundColor="rgba(0,0,0,0)"
+          size="small"
+          isDisabled={false}
+          variation="primary"
+          children="Home"
+          {...getOverrideProps(overrides, "Button38573258")}
+        ></Button>
+        <Button
+          width="61.08px"
+          height="unset"
+          position="absolute"
+          top="22px"
+          left="721.95px"
+          backgroundColor="rgba(0,0,0,0)"
+          size="small"
+          isDisabled={false}
+          variation="primary"
+          children="Comunidade"
+          {...getOverrideProps(overrides, "Button38573267")}
+        ></Button>
+        <Button
+          width="125.16px"
+          height="unset"
+          position="absolute"
+          top="22px"
+          left="478.63px"
+          backgroundColor="rgba(0,0,0,0)"
+          size="small"
+          isDisabled={false}
+          variation="primary"
+          children="Acessibilidade"
+          {...getOverrideProps(overrides, "Button38573263")}
+        ></Button>
+        <Button
+          width="65.09px"
+          height="unset"
+          position="absolute"
+          top="22px"
+          left="938.24px"
+          backgroundColor="rgba(0,0,0,0)"
+          size="small"
+          isDisabled={false}
+          variation="primary"
+          children="Ajuda"
+          {...getOverrideProps(overrides, "Button38573268")}
+        ></Button>
+        <Button
+          width="130.17px"
+          height="unset"
+          position="absolute"
+          top="24px"
+          left="1129.49px"
+          backgroundColor="rgba(191,128,64,1)"
+          size="small"
+          isDisabled={false}
+          variation="primary"
+          children="Entrar"
+          {...getOverrideProps(overrides, "Button38573275")}
+        ></Button>
+      </View>
+      <Image
+        width="120px"
+        height="120px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="859px"
+        left="1352px"
+        borderRadius="100px"
+        padding="0px 0px 0px 0px"
+        objectFit="cover"
+        {...getOverrideProps(
+          overrides,
+          "robot-modern-flat-style-vector-removebg-preview 1"
+        )}
+      ></Image>
     </View>
   );
 }

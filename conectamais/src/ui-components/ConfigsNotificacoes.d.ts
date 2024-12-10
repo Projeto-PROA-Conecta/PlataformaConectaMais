@@ -5,7 +5,7 @@
  **************************************************************************/
 
 import * as React from "react";
-import { FlexProps, IconProps, ImageProps, SwitchFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+import { ButtonProps, DividerProps, FlexProps, IconProps, ImageProps, SwitchFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
 } | null;
@@ -20,27 +20,6 @@ export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes
 export declare type ConfigsNotificacoesOverridesProps = {
     ConfigsNotificacoes?: PrimitiveOverrideProps<ViewProps>;
     "Fundo Novo"?: PrimitiveOverrideProps<ImageProps>;
-    "Group 480"?: PrimitiveOverrideProps<ViewProps>;
-    "Rectangle 205"?: PrimitiveOverrideProps<ViewProps>;
-    Divider38511938?: PrimitiveOverrideProps<ViewProps>;
-    Divider38511939?: PrimitiveOverrideProps<ViewProps>;
-    Vector38511940?: PrimitiveOverrideProps<IconProps>;
-    Vector38511941?: PrimitiveOverrideProps<IconProps>;
-    Vector38511942?: PrimitiveOverrideProps<IconProps>;
-    Divider38511943?: PrimitiveOverrideProps<ViewProps>;
-    Vector38511944?: PrimitiveOverrideProps<IconProps>;
-    Acessibilidade?: PrimitiveOverrideProps<TextProps>;
-    "Acesso e Seguran\u00E7a"?: PrimitiveOverrideProps<TextProps>;
-    "Apar\u00EAncia"?: PrimitiveOverrideProps<TextProps>;
-    "Notifica\u00E7\u00E3o38511948"?: PrimitiveOverrideProps<TextProps>;
-    NavBarHeaderConecta?: PrimitiveOverrideProps<FlexProps>;
-    "Frame 322"?: PrimitiveOverrideProps<FlexProps>;
-    "logo_branca_conecta 2"?: PrimitiveOverrideProps<ImageProps>;
-    "Frame 321"?: PrimitiveOverrideProps<FlexProps>;
-    Vector38511951?: PrimitiveOverrideProps<IconProps>;
-    Vector38511952?: PrimitiveOverrideProps<IconProps>;
-    Vector38511953?: PrimitiveOverrideProps<IconProps>;
-    Vector38511954?: PrimitiveOverrideProps<IconProps>;
     Vector38511961?: PrimitiveOverrideProps<IconProps>;
     SwitchField38511962?: PrimitiveOverrideProps<FlexProps>;
     "Notifica\u00E7\u00E3o38511969"?: PrimitiveOverrideProps<TextProps>;
@@ -53,17 +32,41 @@ export declare type ConfigsNotificacoesOverridesProps = {
     Mensagens?: PrimitiveOverrideProps<TextProps>;
     Vagas?: PrimitiveOverrideProps<TextProps>;
     "N\u00E3o Peturbe"?: PrimitiveOverrideProps<TextProps>;
-    Divider38511984?: PrimitiveOverrideProps<ViewProps>;
-    Divider38511985?: PrimitiveOverrideProps<ViewProps>;
-    Divider38511986?: PrimitiveOverrideProps<ViewProps>;
-    Divider38511987?: PrimitiveOverrideProps<ViewProps>;
     Divider38511988?: PrimitiveOverrideProps<ViewProps>;
     SwitchField38531836?: PrimitiveOverrideProps<SwitchFieldProps>;
+    SwitchField38532405?: PrimitiveOverrideProps<SwitchFieldProps>;
+    SwitchField38532411?: PrimitiveOverrideProps<SwitchFieldProps>;
     SwitchField38531843?: PrimitiveOverrideProps<SwitchFieldProps>;
-    SwitchField38531855?: PrimitiveOverrideProps<SwitchFieldProps>;
-    SwitchField38531849?: PrimitiveOverrideProps<SwitchFieldProps>;
-    SwitchField38531856?: PrimitiveOverrideProps<SwitchFieldProps>;
+    SwitchField38572723?: PrimitiveOverrideProps<SwitchFieldProps>;
     SwitchField38531867?: PrimitiveOverrideProps<SwitchFieldProps>;
+    "Group 484"?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 205"?: PrimitiveOverrideProps<ViewProps>;
+    Vector38572778?: PrimitiveOverrideProps<IconProps>;
+    Vector38572779?: PrimitiveOverrideProps<IconProps>;
+    Vector38572780?: PrimitiveOverrideProps<IconProps>;
+    Vector38572781?: PrimitiveOverrideProps<IconProps>;
+    Acessibilidade?: PrimitiveOverrideProps<TextProps>;
+    "Acesso e Seguran\u00E7a"?: PrimitiveOverrideProps<TextProps>;
+    "Apar\u00EAncia"?: PrimitiveOverrideProps<TextProps>;
+    "Notifica\u00E7\u00E3o38572785"?: PrimitiveOverrideProps<TextProps>;
+    Divider38572786?: PrimitiveOverrideProps<DividerProps>;
+    Divider38572787?: PrimitiveOverrideProps<DividerProps>;
+    Divider38572788?: PrimitiveOverrideProps<DividerProps>;
+    Divider38532446?: PrimitiveOverrideProps<DividerProps>;
+    Divider38532449?: PrimitiveOverrideProps<DividerProps>;
+    Divider38532451?: PrimitiveOverrideProps<DividerProps>;
+    Divider38532453?: PrimitiveOverrideProps<DividerProps>;
+    Divider38532455?: PrimitiveOverrideProps<DividerProps>;
+    "Group 485"?: PrimitiveOverrideProps<ViewProps>;
+    NavHeader?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 206"?: PrimitiveOverrideProps<ViewProps>;
+    Button38982001?: PrimitiveOverrideProps<ButtonProps>;
+    "logo_branca_conecta 2"?: PrimitiveOverrideProps<ImageProps>;
+    Button38982003?: PrimitiveOverrideProps<ButtonProps>;
+    Button38982004?: PrimitiveOverrideProps<ButtonProps>;
+    Button38982005?: PrimitiveOverrideProps<ButtonProps>;
+    Button38982006?: PrimitiveOverrideProps<ButtonProps>;
+    Button38982007?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type ConfigsNotificacoesProps = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

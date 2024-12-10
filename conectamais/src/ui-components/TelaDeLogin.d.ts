@@ -5,7 +5,7 @@
  **************************************************************************/
 
 import * as React from "react";
-import { IconProps, ImageProps, PasswordFieldProps, TextFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+import { ButtonProps, IconProps, ImageProps, PasswordFieldProps, TextFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
 } | null;
@@ -23,7 +23,6 @@ export declare type TelaDeLoginOverridesProps = {
     "Fundo Novo"?: PrimitiveOverrideProps<ImageProps>;
     "Group 479"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 2"?: PrimitiveOverrideProps<ViewProps>;
-    Entrar?: PrimitiveOverrideProps<TextProps>;
     "Esqueci a senha"?: PrimitiveOverrideProps<TextProps>;
     "Group 1"?: PrimitiveOverrideProps<ViewProps>;
     "Novo por aqui? Inscreva-se"?: PrimitiveOverrideProps<TextProps>;
@@ -73,6 +72,7 @@ export declare type TelaDeLoginOverridesProps = {
     Vector38512519?: PrimitiveOverrideProps<IconProps>;
     Vector38512520?: PrimitiveOverrideProps<IconProps>;
     "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"?: PrimitiveOverrideProps<ImageProps>;
+    Button?: PrimitiveOverrideProps<ButtonProps>;
     "Line 76"?: PrimitiveOverrideProps<IconProps>;
     TextField?: PrimitiveOverrideProps<TextFieldProps>;
     PasswordField?: PrimitiveOverrideProps<PasswordFieldProps>;

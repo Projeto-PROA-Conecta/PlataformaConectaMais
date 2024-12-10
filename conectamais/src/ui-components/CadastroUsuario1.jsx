@@ -33,7 +33,7 @@ export default function CadastroUsuario1(props) {
       {...rest}
     >
       <Image
-        width="100vw"
+        width="1523px"
         height="1117px"
         display="block"
         gap="unset"
@@ -204,7 +204,7 @@ export default function CadastroUsuario1(props) {
             alignItems="unset"
             position="absolute"
             top="calc(50% - 9.5px - 250.46px)"
-            left="calc(50% - 84.5px - -3.74px)"
+            left="calc(50% - 84.5px - 0.26px)"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="Crie sua conta "
@@ -238,80 +238,30 @@ export default function CadastroUsuario1(props) {
           right="26.78%"
           {...getOverrideProps(overrides, "Ellipse 10038512153")}
         ></Icon>
-        <Icon
-          width="13.96px"
-          height="14.28px"
-          viewBox={{
-            minX: 0,
-            minY: 0,
-            width: 13.960917472839355,
-            height: 14.278229713439941,
-          }}
-          paths={[
-            {
-              d: "M13.9609 7.13911C13.9609 11.0819 10.8357 14.2782 6.98046 14.2782C3.12526 14.2782 0 11.0819 0 7.13911C0 3.19629 3.12526 0 6.98046 0C10.8357 0 13.9609 3.19629 13.9609 7.13911Z",
-              fill: "rgba(216,216,216,0.9)",
-              fillRule: "nonzero",
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="4.13%"
-          bottom="93.75%"
-          left="74.07%"
-          right="24.63%"
-          {...getOverrideProps(overrides, "Ellipse 10038512154")}
-        ></Icon>
         <Text
           fontFamily="Montserrat"
           fontSize="34px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
           lineHeight="41.44599914550781px"
-          textAlign="left"
+          textAlign="center"
           display="block"
           direction="column"
           justifyContent="unset"
-          width="506.16px"
-          height="37.81px"
+          width="360px"
+          height="91px"
           gap="unset"
           alignItems="unset"
           position="absolute"
-          top="58.94%"
-          bottom="35.44%"
-          left="0.65%"
-          right="52.06%"
+          top="calc(50% - 45.5px - -98.54px)"
+          left="calc(50% - 180px - 311.2px)"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children="Que bom que você quer"
-          {...getOverrideProps(overrides, "Que bom que voc\u00EA quer")}
-        ></Text>
-        <Text
-          fontFamily="Poppins"
-          fontSize="34px"
-          fontWeight="700"
-          color="rgba(0,0,0,1)"
-          lineHeight="51px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="448.18px"
-          height="36.96px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="68.76%"
-          bottom="25.74%"
-          left="7.89%"
-          right="50.25%"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children=" Se juntar a nós "
-          {...getOverrideProps(overrides, "Se juntar a n\u00F3s")}
+          children="Que bom que você quer Se juntar a nós "
+          {...getOverrideProps(
+            overrides,
+            "Que bom que voc\u00EA quer Se juntar a n\u00F3s"
+          )}
         ></Text>
         <Button
           width="102px"
@@ -416,6 +366,74 @@ export default function CadastroUsuario1(props) {
         children="Próxima"
         {...getOverrideProps(overrides, "Button38545552")}
       ></Button>
+      <View
+        padding="0px 0px 0px 0px"
+        width="39.96px"
+        height="14.28px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="251px"
+        left="1034px"
+        {...getOverrideProps(overrides, "Group 487")}
+      >
+        <Icon
+          width="13.96px"
+          height="14.28px"
+          viewBox={{
+            minX: 0,
+            minY: 0,
+            width: 13.960917472839355,
+            height: 14.278229713439941,
+          }}
+          paths={[
+            {
+              d: "M13.9609 7.13911C13.9609 11.0819 10.8357 14.2782 6.98046 14.2782C3.12526 14.2782 0 11.0819 0 7.13911C0 3.19629 3.12526 0 6.98046 0C10.8357 0 13.9609 3.19629 13.9609 7.13911Z",
+              fill: "rgba(211,152,74,0.9)",
+              fillRule: "nonzero",
+            },
+          ]}
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="0%"
+          bottom="0%"
+          left="0%"
+          right="65.06%"
+          {...getOverrideProps(overrides, "Ellipse 10038512154")}
+        ></Icon>
+        <Icon
+          width="13.96px"
+          height="14.28px"
+          viewBox={{
+            minX: 0,
+            minY: 0,
+            width: 13.960917472839355,
+            height: 14.278229713439941,
+          }}
+          paths={[
+            {
+              d: "M13.9609 7.13911C13.9609 11.0819 10.8357 14.2782 6.98046 14.2782C3.12526 14.2782 0 11.0819 0 7.13911C0 3.19629 3.12526 0 6.98046 0C10.8357 0 13.9609 3.19629 13.9609 7.13911Z",
+              fill: "rgba(216,216,216,0.9)",
+              fillRule: "nonzero",
+            },
+          ]}
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="0%"
+          bottom="0%"
+          left="65.06%"
+          right="0%"
+          {...getOverrideProps(overrides, "Ellipse 10038911649")}
+        ></Icon>
+      </View>
     </View>
   );
 }

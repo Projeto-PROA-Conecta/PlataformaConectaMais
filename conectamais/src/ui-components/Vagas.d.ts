@@ -5,7 +5,7 @@
  **************************************************************************/
 
 import * as React from "react";
-import { ButtonProps, FlexProps, IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+import { ButtonProps, IconProps, ImageProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
 } | null;
@@ -20,14 +20,6 @@ export declare type PrimitiveOverrideProps<T> = Partial<T> & React.DOMAttributes
 export declare type VagasOverridesProps = {
     Vagas?: PrimitiveOverrideProps<ViewProps>;
     "share_windows_24dp_4B77D1_FILL0_wght400_GRAD0_opsz24 138512376"?: PrimitiveOverrideProps<ViewProps>;
-    NavBarHeaderConecta?: PrimitiveOverrideProps<FlexProps>;
-    "Frame 322"?: PrimitiveOverrideProps<FlexProps>;
-    "logo_branca_conecta 2"?: PrimitiveOverrideProps<ImageProps>;
-    "Frame 321"?: PrimitiveOverrideProps<FlexProps>;
-    Vector38512379?: PrimitiveOverrideProps<IconProps>;
-    Vector38512380?: PrimitiveOverrideProps<IconProps>;
-    Vector38512381?: PrimitiveOverrideProps<IconProps>;
-    Vector38512382?: PrimitiveOverrideProps<IconProps>;
     "share_windows_24dp_4B77D1_FILL0_wght400_GRAD0_opsz24 138512389"?: PrimitiveOverrideProps<ViewProps>;
     "AvatarPerfil 1"?: PrimitiveOverrideProps<ImageProps>;
     "back gorund"?: PrimitiveOverrideProps<ViewProps>;
@@ -92,6 +84,15 @@ export declare type VagasOverridesProps = {
     Button38531399?: PrimitiveOverrideProps<ButtonProps>;
     Button38531403?: PrimitiveOverrideProps<ButtonProps>;
     Button38531407?: PrimitiveOverrideProps<ButtonProps>;
+    NavHeader?: PrimitiveOverrideProps<ViewProps>;
+    "Rectangle 206"?: PrimitiveOverrideProps<ViewProps>;
+    Button39012839?: PrimitiveOverrideProps<ButtonProps>;
+    "logo_branca_conecta 2"?: PrimitiveOverrideProps<ImageProps>;
+    Button39012841?: PrimitiveOverrideProps<ButtonProps>;
+    Button39012842?: PrimitiveOverrideProps<ButtonProps>;
+    Button39012843?: PrimitiveOverrideProps<ButtonProps>;
+    Button39012844?: PrimitiveOverrideProps<ButtonProps>;
+    Button39012845?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type VagasProps = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

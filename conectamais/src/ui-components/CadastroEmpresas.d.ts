@@ -5,7 +5,7 @@
  **************************************************************************/
 
 import * as React from "react";
-import { ButtonProps, CheckboxFieldProps, FlexProps, ImageProps, PasswordFieldProps, PhoneNumberFieldProps, TextFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
+import { ButtonProps, CheckboxFieldProps, FlexProps, ImageProps, PhoneNumberFieldProps, TextFieldProps, TextProps, ViewProps } from "@aws-amplify/ui-react";
 export declare type EscapeHatchProps = {
     [elementHierarchy: string]: Record<string, unknown>;
 } | null;
@@ -31,14 +31,14 @@ export declare type CadastroEmpresasOverridesProps = {
     TextField38572462?: PrimitiveOverrideProps<TextFieldProps>;
     TextField38572586?: PrimitiveOverrideProps<TextFieldProps>;
     TextField38572628?: PrimitiveOverrideProps<TextFieldProps>;
-    PasswordField38572443?: PrimitiveOverrideProps<PasswordFieldProps>;
-    PasswordField38572599?: PrimitiveOverrideProps<PasswordFieldProps>;
     CheckboxField?: PrimitiveOverrideProps<CheckboxFieldProps>;
     Button38572644?: PrimitiveOverrideProps<ButtonProps>;
-    Button38572645?: PrimitiveOverrideProps<ButtonProps>;
+    Button3872877?: PrimitiveOverrideProps<ButtonProps>;
     "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview38512063"?: PrimitiveOverrideProps<ViewProps>;
     "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview38512064"?: PrimitiveOverrideProps<ImageProps>;
+    TextField38761491?: PrimitiveOverrideProps<TextFieldProps>;
     PhoneNumberField?: PrimitiveOverrideProps<PhoneNumberFieldProps>;
+    TextField38761525?: PrimitiveOverrideProps<TextFieldProps>;
 } & EscapeHatchProps;
 export declare type CadastroEmpresasProps = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;
