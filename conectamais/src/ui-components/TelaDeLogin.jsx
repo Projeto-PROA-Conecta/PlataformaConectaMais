@@ -115,16 +115,16 @@ export default function TelaDeLogin(props) {
           <View
             padding="0px 0px 0px 0px"
             width="285.08px"
-            height="17.07px"
+            height="17.38px"
             display="block"
             gap="unset"
             alignItems="unset"
             justifyContent="unset"
             position="absolute"
-            top="71.5%"
-            bottom="26.41%"
-            left="17.08%"
-            right="38.23%"
+            top="72.67%"
+            bottom="25.2%"
+            left="17.55%"
+            right="37.76%"
             {...getOverrideProps(overrides, "Group 1")}
           >
             <Text
@@ -138,7 +138,7 @@ export default function TelaDeLogin(props) {
               direction="column"
               justifyContent="unset"
               width="285.08px"
-              height="17.07px"
+              height="17.38px"
               gap="unset"
               alignItems="unset"
               position="absolute"
@@ -1208,12 +1208,13 @@ export default function TelaDeLogin(props) {
             height="unset"
             position="absolute"
             top="517px"
-            left="452px"
+            left="487px"
             backgroundColor="rgba(0,0,0,1)"
             size="default"
             isDisabled={false}
             variation="primary"
-            {...getOverrideProps(overrides, "Button")}
+            children="Entrar"
+            {...getOverrideProps(overrides, "Button39164195")}
           ></Button>
         </View>
         <Icon
@@ -1233,10 +1234,22 @@ export default function TelaDeLogin(props) {
           alignItems="unset"
           justifyContent="unset"
           position="absolute"
-          top="684px"
-          left="671px"
+          top="694px"
+          left="674px"
           {...getOverrideProps(overrides, "Line 76")}
         ></Icon>
+        <Button
+          width="102px"
+          height="unset"
+          position="absolute"
+          top="594px"
+          left="784px"
+          size="default"
+          isDisabled={false}
+          variation="default"
+          children="Voltar"
+          {...getOverrideProps(overrides, "Button39214200")}
+        ></Button>
       </View>
       <TextField
         width="416px"

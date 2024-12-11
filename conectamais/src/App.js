@@ -8,6 +8,7 @@ import {
   CadastroUsuario3,
   CadastroUsuario4,
   CadastroUsuario5,
+  Comunidade,
   Configs,
   ConfigsAcessibilidade,
   ConfigsNotificacoes,
@@ -17,6 +18,7 @@ import {
   MeuPerfil,
   Premium,
   TelaDeLogin,
+  Vagas,
 } from "./ui-components";
 import Home from "./ui-components/Home";
 
@@ -27,7 +29,7 @@ function App() {
       {/* O Router agora envolve toda a aplicação */}
       <div className="App">
         <Routes>
-          <Route path="/" element={<Premium />} />
+          <Route path="/" element={<Comunidade />} />
           <Route path="/TelaDeLogin" element={<TelaDeLogin />} />
           <Route path="/Home" element={<Home />} />
         </Routes>

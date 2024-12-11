@@ -72,7 +72,7 @@ export declare type HomeOverridesProps = {
     Vector38512645?: PrimitiveOverrideProps<IconProps>;
     "In\u00EDcio"?: PrimitiveOverrideProps<TextProps>;
     Vagas?: PrimitiveOverrideProps<TextProps>;
-    Perfil?: PrimitiveOverrideProps<TextProps>;
+    Comunidade?: PrimitiveOverrideProps<TextProps>;
     Plus?: PrimitiveOverrideProps<TextProps>;
     Ajuda?: PrimitiveOverrideProps<TextProps>;
     SearchField?: PrimitiveOverrideProps<FlexProps>;
@@ -94,7 +94,6 @@ export declare type HomeOverridesProps = {
     Button38573263?: PrimitiveOverrideProps<ButtonProps>;
     Button38573268?: PrimitiveOverrideProps<ButtonProps>;
     Button38573275?: PrimitiveOverrideProps<ButtonProps>;
-    "robot-modern-flat-style-vector-removebg-preview 1"?: PrimitiveOverrideProps<ImageProps>;
 } & EscapeHatchProps;
 export declare type HomeProps = React.PropsWithChildren<Partial<ViewProps> & {
     overrides?: HomeOverridesProps | undefined | null;

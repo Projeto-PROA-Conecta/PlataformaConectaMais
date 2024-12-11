@@ -561,7 +561,7 @@ export default function Home(props) {
           paths={[
             {
               d: "M5.48 12.4842L8 10.8842L10.52 12.5053L9.86 9.47368L12.08 7.45263L9.16 7.17895L8 4.31579L6.84 7.1579L3.92 7.43158L6.14 9.47368L5.48 12.4842ZM3.06 16L4.36 10.0842L0 6.10526L5.76 5.57895L8 0L10.24 5.57895L16 6.10526L11.64 10.0842L12.94 16L8 12.8632L3.06 16Z",
-              fill: "rgba(255,255,0,1)",
+              fill: "rgba(243,237,34,1)",
               fillRule: "nonzero",
             },
           ]}
@@ -819,7 +819,7 @@ export default function Home(props) {
           )}
         ></Text>
         <Text
-          fontFamily="Montserrat"
+          fontFamily="Poppins"
           fontSize="18px"
           fontWeight="700"
           color="rgba(255,255,255,1)"
@@ -1069,7 +1069,7 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "Vector38512645")}
         ></Icon>
         <Text
-          fontFamily="Montserrat"
+          fontFamily="Poppins"
           fontSize="18px"
           fontWeight="400"
           color="rgba(255,255,255,1)"
@@ -1122,7 +1122,7 @@ export default function Home(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="47px"
+          width="120px"
           height="22px"
           gap="unset"
           alignItems="unset"
@@ -1131,11 +1131,11 @@ export default function Home(props) {
           left="1209px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children="Perfil"
-          {...getOverrideProps(overrides, "Perfil")}
+          children="Comunidade"
+          {...getOverrideProps(overrides, "Comunidade")}
         ></Text>
         <Text
-          fontFamily="Montserrat"
+          fontFamily="Poppins"
           fontSize="18px"
           fontWeight="400"
           color="rgba(255,255,255,1)"
@@ -1426,24 +1426,6 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "Button38573275")}
         ></Button>
       </View>
-      <Image
-        width="120px"
-        height="120px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="859px"
-        left="1352px"
-        borderRadius="100px"
-        padding="0px 0px 0px 0px"
-        objectFit="cover"
-        {...getOverrideProps(
-          overrides,
-          "robot-modern-flat-style-vector-removebg-preview 1"
-        )}
-      ></Image>
     </View>
   );
 }

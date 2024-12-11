@@ -66,16 +66,15 @@ export declare type PremiumOverridesProps = {
     "Recomenda\u00E7\u00F5es de vagas mais aprofundadas"?: PrimitiveOverrideProps<TextProps>;
     Vector38512587?: PrimitiveOverrideProps<IconProps>;
     Button38532422?: PrimitiveOverrideProps<ButtonProps>;
-    "Group 485"?: PrimitiveOverrideProps<ViewProps>;
     NavHeader?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 206"?: PrimitiveOverrideProps<ViewProps>;
-    Button38982030?: PrimitiveOverrideProps<ButtonProps>;
+    Button39214302?: PrimitiveOverrideProps<ButtonProps>;
     "logo_branca_conecta 2"?: PrimitiveOverrideProps<ImageProps>;
-    Button38982032?: PrimitiveOverrideProps<ButtonProps>;
-    Button38982033?: PrimitiveOverrideProps<ButtonProps>;
-    Button38982034?: PrimitiveOverrideProps<ButtonProps>;
-    Button38982035?: PrimitiveOverrideProps<ButtonProps>;
-    Button38982036?: PrimitiveOverrideProps<ButtonProps>;
+    Button39214304?: PrimitiveOverrideProps<ButtonProps>;
+    Button39214305?: PrimitiveOverrideProps<ButtonProps>;
+    Button39214306?: PrimitiveOverrideProps<ButtonProps>;
+    Button39214307?: PrimitiveOverrideProps<ButtonProps>;
+    Button39214308?: PrimitiveOverrideProps<ButtonProps>;
 } & EscapeHatchProps;
 export declare type PremiumProps = React.PropsWithChildren<Partial<ViewProps> & {
     bancoImagens?: any;

@@ -964,12 +964,11 @@ export default function Premium(props) {
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="0px"
+        top="-2px"
         left="0px"
-        {...getOverrideProps(overrides, "Group 485")}
+        {...getOverrideProps(overrides, "NavHeader")}
       >
         <View
-          padding="0px 0px 0px 0px"
           width="1519px"
           height="70px"
           display="block"
@@ -979,116 +978,103 @@ export default function Premium(props) {
           position="absolute"
           top="0px"
           left="0px"
-          {...getOverrideProps(overrides, "NavHeader")}
-        >
-          <View
-            width="1519px"
-            height="70px"
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="0px"
-            left="0px"
-            padding="0px 0px 0px 0px"
-            backgroundColor="rgba(15,45,57,1)"
-            {...getOverrideProps(overrides, "Rectangle 206")}
-          ></View>
-          <Button
-            width="155.31px"
-            height="33px"
-            position="absolute"
-            border="1px SOLID rgba(255,255,255,1)"
-            top="24px"
-            left="1327.62px"
-            backgroundColor="rgba(0,0,0,0)"
-            size="default"
-            isDisabled={false}
-            variation="primary"
-            children="Cadastrar-se"
-            {...getOverrideProps(overrides, "Button38982030")}
-          ></Button>
-          <Image
-            width="182.36px"
-            height="24px"
-            display="block"
-            gap="unset"
-            alignItems="unset"
-            justifyContent="unset"
-            position="absolute"
-            top="27px"
-            left="37.07px"
-            padding="0px 0px 0px 0px"
-            objectFit="cover"
-            {...getOverrideProps(overrides, "logo_branca_conecta 2")}
-          ></Image>
-          <Button
-            width="unset"
-            height="unset"
-            position="absolute"
-            top="22px"
-            left="302.6px"
-            backgroundColor="rgba(0,0,0,0)"
-            size="small"
-            isDisabled={false}
-            variation="primary"
-            children="Home"
-            {...getOverrideProps(overrides, "Button38982032")}
-          ></Button>
-          <Button
-            width="unset"
-            height="unset"
-            position="absolute"
-            top="22px"
-            left="722.43px"
-            backgroundColor="rgba(0,0,0,0)"
-            size="small"
-            isDisabled={false}
-            variation="primary"
-            children="Comunidade"
-            {...getOverrideProps(overrides, "Button38982033")}
-          ></Button>
-          <Button
-            width="unset"
-            height="unset"
-            position="absolute"
-            top="22px"
-            left="478.95px"
-            backgroundColor="rgba(0,0,0,0)"
-            size="small"
-            isDisabled={false}
-            variation="primary"
-            children="Acessibilidade"
-            {...getOverrideProps(overrides, "Button38982034")}
-          ></Button>
-          <Button
-            width="unset"
-            height="unset"
-            position="absolute"
-            top="22px"
-            left="938.85px"
-            backgroundColor="rgba(0,0,0,0)"
-            size="small"
-            isDisabled={false}
-            variation="primary"
-            children="Ajuda"
-            {...getOverrideProps(overrides, "Button38982035")}
-          ></Button>
-          <Button
-            width="130.26px"
-            height="unset"
-            position="absolute"
-            top="24px"
-            left="1130.23px"
-            backgroundColor="rgba(191,128,64,1)"
-            size="small"
-            isDisabled={false}
-            variation="primary"
-            children="Entrar"
-            {...getOverrideProps(overrides, "Button38982036")}
-          ></Button>
-        </View>
+          padding="0px 0px 0px 0px"
+          backgroundColor="rgba(15,45,57,1)"
+          {...getOverrideProps(overrides, "Rectangle 206")}
+        ></View>
+        <Button
+          width="155.31px"
+          height="33px"
+          position="absolute"
+          border="1px SOLID rgba(255,255,255,1)"
+          top="24px"
+          left="1327.62px"
+          backgroundColor="rgba(0,0,0,0)"
+          size="default"
+          isDisabled={false}
+          variation="primary"
+          children="Cadastrar-se"
+          {...getOverrideProps(overrides, "Button39214302")}
+        ></Button>
+        <Image
+          width="182.36px"
+          height="24px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="27px"
+          left="37.07px"
+          padding="0px 0px 0px 0px"
+          objectFit="cover"
+          {...getOverrideProps(overrides, "logo_branca_conecta 2")}
+        ></Image>
+        <Button
+          width="65.13px"
+          height="unset"
+          position="absolute"
+          top="22px"
+          left="302.6px"
+          backgroundColor="rgba(0,0,0,0)"
+          size="small"
+          isDisabled={false}
+          variation="primary"
+          children="Home"
+          {...getOverrideProps(overrides, "Button39214304")}
+        ></Button>
+        <Button
+          width="61.12px"
+          height="unset"
+          position="absolute"
+          top="22px"
+          left="722.43px"
+          backgroundColor="rgba(0,0,0,0)"
+          size="small"
+          isDisabled={false}
+          variation="primary"
+          children="Comunidade"
+          {...getOverrideProps(overrides, "Button39214305")}
+        ></Button>
+        <Button
+          width="125.25px"
+          height="unset"
+          position="absolute"
+          top="22px"
+          left="478.95px"
+          backgroundColor="rgba(0,0,0,0)"
+          size="small"
+          isDisabled={false}
+          variation="primary"
+          children="Acessibilidade"
+          {...getOverrideProps(overrides, "Button39214306")}
+        ></Button>
+        <Button
+          width="65.13px"
+          height="unset"
+          position="absolute"
+          top="22px"
+          left="938.85px"
+          backgroundColor="rgba(0,0,0,0)"
+          size="small"
+          isDisabled={false}
+          variation="primary"
+          children="Ajuda"
+          {...getOverrideProps(overrides, "Button39214307")}
+        ></Button>
+        <Button
+          width="130.26px"
+          height="unset"
+          position="absolute"
+          top="24px"
+          left="1130.23px"
+          backgroundColor="rgba(191,128,64,1)"
+          size="small"
+          isDisabled={false}
+          variation="primary"
+          children="Entrar"
+          {...getOverrideProps(overrides, "Button39214308")}
+        ></Button>
       </View>
     </View>
   );

@@ -88,7 +88,7 @@ export default function Vagas(props) {
         {...getOverrideProps(overrides, "back gorund")}
       >
         <Image
-          width="1519px"
+          width="1523px"
           height="1049px"
           display="block"
           gap="unset"
@@ -380,30 +380,6 @@ export default function Vagas(props) {
         ></Text>
         <Text
           fontFamily="Poppins"
-          fontSize="16px"
-          fontWeight="500"
-          color="rgba(0,0,0,1)"
-          lineHeight="24px"
-          textAlign="center"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="90px"
-          height="20.62px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="53.21%"
-          bottom="44.83%"
-          left="12.57%"
-          right="81.5%"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Empresa"
-          {...getOverrideProps(overrides, "Empresa")}
-        ></Text>
-        <Text
-          fontFamily="Poppins"
           fontSize="13px"
           fontWeight="400"
           color="rgba(0,0,0,1)"
@@ -428,30 +404,6 @@ export default function Vagas(props) {
             overrides,
             "-Descri\u00E7\u00E3o: Uma empresa busca um Analista de Dados para integrar sua equipe de tecnologia e inova\u00E7\u00E3o. O profissional ser\u00E1 respons\u00E1vel por coletar, organizar e analisar grandes volumes de dados, fornecendo insights valiosos para a tomada de decis\u00F5es estrat\u00E9gicas. Entre as principais responsabilidades est\u00E3o a cria\u00E7\u00E3o de relat\u00F3rios, identifica\u00E7\u00E3o de padr\u00F5es e tend\u00EAncias, e o desenvolvimento de solu\u00E7\u00F5es para otimizar processos internos. O Analista de Dados trabalhar\u00E1 em colabora\u00E7\u00E3o com diferentes departamentos, como marketing, vendas e opera\u00E7\u00F5es, para garantir que as decis\u00F5es baseadas em dados sejam precisas e eficazes. -Requisitos: Gradua\u00E7\u00E3o em Ci\u00EAncia de Dados, Engenharia, Estat\u00EDstica, TI ou \u00E1reas relacionadas; Experi\u00EAncia em an\u00E1lise de dados e utiliza\u00E7\u00E3o de ferramentas como Excel, SQL, Python, R ou Power BI;"
           )}
-        ></Text>
-        <Text
-          fontFamily="Poppins"
-          fontSize="16px"
-          fontWeight="500"
-          color="rgba(0,0,0,1)"
-          lineHeight="24px"
-          textAlign="center"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="113px"
-          height="20.62px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="53.21%"
-          bottom="44.83%"
-          left="20.61%"
-          right="71.96%"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Valorações"
-          {...getOverrideProps(overrides, "Valora\u00E7\u00F5es")}
         ></Text>
         <View
           width="91px"
@@ -496,7 +448,7 @@ export default function Vagas(props) {
           paths={[
             {
               d: "M9.41875 20.9749L13.75 18.2868L18.0813 21.0103L16.9469 15.9169L20.7625 12.5213L15.7438 12.0615L13.75 7.25104L11.7563 12.0261L6.7375 12.4859L10.5531 15.9169L9.41875 20.9749ZM5.25938 26.8819L7.49375 16.9427L0 10.2576L9.9 9.37329L13.75 0L17.6 9.37329L27.5 10.2576L20.0063 16.9427L22.2406 26.8819L13.75 21.6116L5.25938 26.8819Z",
-              fill: "rgba(255,255,0,1)",
+              fill: "rgba(243,237,34,1)",
               fillRule: "nonzero",
             },
           ]}
@@ -1147,7 +1099,7 @@ export default function Vagas(props) {
               paths={[
                 {
                   d: "M9.85829 18.0724L14.3917 15.7562L18.925 18.1029L17.7377 13.7143L21.7314 10.7886L16.4785 10.3924L14.3917 6.24762L12.3049 10.3619L7.05192 10.7581L11.0456 13.7143L9.85829 18.0724ZM5.50481 23.1619L7.84346 14.5981L0 8.8381L10.362 8.07619L14.3917 0L18.4213 8.07619L28.7833 8.8381L20.9399 14.5981L23.2785 23.1619L14.3917 18.621L5.50481 23.1619Z",
-                  fill: "rgba(255,255,0,1)",
+                  fill: "rgba(243,237,34,1)",
                   fillRule: "nonzero",
                 },
               ]}
@@ -1365,7 +1317,7 @@ export default function Vagas(props) {
             paths={[
               {
                 d: "M9.85829 18.0724L14.3917 15.7562L18.925 18.1029L17.7377 13.7143L21.7314 10.7886L16.4785 10.3924L14.3917 6.24762L12.3049 10.3619L7.05192 10.7581L11.0456 13.7143L9.85829 18.0724ZM5.50481 23.1619L7.84346 14.5981L0 8.8381L10.362 8.07619L14.3917 0L18.4213 8.07619L28.7833 8.8381L20.9399 14.5981L23.2785 23.1619L14.3917 18.621L5.50481 23.1619Z",
-                fill: "rgba(255,255,0,1)",
+                fill: "rgba(243,237,34,1)",
                 fillRule: "nonzero",
               },
             ]}
@@ -1393,7 +1345,7 @@ export default function Vagas(props) {
           paths={[
             {
               d: "M9.85829 18.0724L14.3917 15.7562L18.925 18.1029L17.7377 13.7143L21.7314 10.7886L16.4785 10.3924L14.3917 6.24762L12.3049 10.3619L7.05192 10.7581L11.0456 13.7143L9.85829 18.0724ZM5.50481 23.1619L7.84346 14.5981L0 8.8381L10.362 8.07619L14.3917 0L18.4213 8.07619L28.7833 8.8381L20.9399 14.5981L23.2785 23.1619L14.3917 18.621L5.50481 23.1619Z",
-              fill: "rgba(255,255,0,1)",
+              fill: "rgba(243,237,34,1)",
               fillRule: "nonzero",
             },
           ]}
@@ -1427,7 +1379,7 @@ export default function Vagas(props) {
         height="unset"
         position="absolute"
         borderRadius="20px"
-        top="416px"
+        top="389px"
         left="1173px"
         size="large"
         isDisabled={false}
@@ -1440,7 +1392,7 @@ export default function Vagas(props) {
         height="unset"
         position="absolute"
         borderRadius="20px"
-        top="615px"
+        top="594px"
         left="1173px"
         size="large"
         isDisabled={false}

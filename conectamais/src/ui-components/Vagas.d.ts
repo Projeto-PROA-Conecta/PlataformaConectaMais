@@ -36,9 +36,7 @@ export declare type VagasOverridesProps = {
     "REKTR TEC"?: PrimitiveOverrideProps<TextProps>;
     "Line 33"?: PrimitiveOverrideProps<IconProps>;
     Vaga?: PrimitiveOverrideProps<TextProps>;
-    Empresa?: PrimitiveOverrideProps<TextProps>;
     "-Descri\u00E7\u00E3o: Uma empresa busca um Analista de Dados para integrar sua equipe de tecnologia e inova\u00E7\u00E3o. O profissional ser\u00E1 respons\u00E1vel por coletar, organizar e analisar grandes volumes de dados, fornecendo insights valiosos para a tomada de decis\u00F5es estrat\u00E9gicas. Entre as principais responsabilidades est\u00E3o a cria\u00E7\u00E3o de relat\u00F3rios, identifica\u00E7\u00E3o de padr\u00F5es e tend\u00EAncias, e o desenvolvimento de solu\u00E7\u00F5es para otimizar processos internos. O Analista de Dados trabalhar\u00E1 em colabora\u00E7\u00E3o com diferentes departamentos, como marketing, vendas e opera\u00E7\u00F5es, para garantir que as decis\u00F5es baseadas em dados sejam precisas e eficazes. -Requisitos: Gradua\u00E7\u00E3o em Ci\u00EAncia de Dados, Engenharia, Estat\u00EDstica, TI ou \u00E1reas relacionadas; Experi\u00EAncia em an\u00E1lise de dados e utiliza\u00E7\u00E3o de ferramentas como Excel, SQL, Python, R ou Power BI;"?: PrimitiveOverrideProps<TextProps>;
-    "Valora\u00E7\u00F5es"?: PrimitiveOverrideProps<TextProps>;
     "Rectangle 157"?: PrimitiveOverrideProps<ViewProps>;
     "star_24dp_000000_FILL0_wght400_GRAD0_opsz24 138512417"?: PrimitiveOverrideProps<ViewProps>;
     Vector38512418?: PrimitiveOverrideProps<IconProps>;

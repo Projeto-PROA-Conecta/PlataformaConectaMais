@@ -72,8 +72,9 @@ export declare type TelaDeLoginOverridesProps = {
     Vector38512519?: PrimitiveOverrideProps<IconProps>;
     Vector38512520?: PrimitiveOverrideProps<IconProps>;
     "WhatsApp_Image_2024-09-20_at_19.01.06-removebg-preview"?: PrimitiveOverrideProps<ImageProps>;
-    Button?: PrimitiveOverrideProps<ButtonProps>;
+    Button39164195?: PrimitiveOverrideProps<ButtonProps>;
     "Line 76"?: PrimitiveOverrideProps<IconProps>;
+    Button39214200?: PrimitiveOverrideProps<ButtonProps>;
     TextField?: PrimitiveOverrideProps<TextFieldProps>;
     PasswordField?: PrimitiveOverrideProps<PasswordFieldProps>;
 } & EscapeHatchProps;
