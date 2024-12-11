@@ -22,7 +22,7 @@ export default function ConfigsAcessibilidade(props) {
   const { bancoImagens, overrides, ...rest } = props;
   return (
     <View
-      width="1519px"
+      width="100vw"
       height="1117px"
       display="block"
       gap="unset"
@@ -35,7 +35,8 @@ export default function ConfigsAcessibilidade(props) {
       {...rest}
     >
       <Image
-        width="1519px"
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/BackgroundConecta.jpg?raw=true"
+        width="100vw"
         height="1047px"
         display="block"
         gap="unset"
@@ -49,7 +50,6 @@ export default function ConfigsAcessibilidade(props) {
         {...getOverrideProps(overrides, "Fundo Novo")}
       ></Image>
       <Text
-        fontFamily="Poppins"
         fontSize="44px"
         fontWeight="700"
         color="rgba(0,0,0,1)"
@@ -147,7 +147,6 @@ export default function ConfigsAcessibilidade(props) {
             {...getOverrideProps(overrides, "Group 76")}
           >
             <Text
-              fontFamily="Poppins"
               fontSize="30px"
               fontWeight="500"
               color="rgba(0,0,0,1)"
@@ -185,7 +184,6 @@ export default function ConfigsAcessibilidade(props) {
             ></View>
           </View>
           <Text
-            fontFamily="Poppins"
             fontSize="30px"
             fontWeight="500"
             color="rgba(0,0,0,1)"
@@ -207,7 +205,6 @@ export default function ConfigsAcessibilidade(props) {
             {...getOverrideProps(overrides, "Desativar Anima\u00E7\u00F5es")}
           ></Text>
           <Text
-            fontFamily="Poppins"
             fontSize="30px"
             fontWeight="500"
             color="rgba(0,0,0,1)"
@@ -298,7 +295,7 @@ export default function ConfigsAcessibilidade(props) {
       <SwitchField
         width="unset"
         height="unset"
-        label="Não"
+        label="Sim"
         position="absolute"
         top="588px"
         left="1303px"
@@ -437,7 +434,6 @@ export default function ConfigsAcessibilidade(props) {
           {...getOverrideProps(overrides, "Vector38572764")}
         ></Icon>
         <Text
-          fontFamily="Poppins"
           fontSize="24px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
@@ -459,7 +455,6 @@ export default function ConfigsAcessibilidade(props) {
           {...getOverrideProps(overrides, "Acessibilidade38572765")}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="24px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
@@ -481,7 +476,6 @@ export default function ConfigsAcessibilidade(props) {
           {...getOverrideProps(overrides, "Acesso e Seguran\u00E7a")}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="24px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
@@ -503,7 +497,6 @@ export default function ConfigsAcessibilidade(props) {
           {...getOverrideProps(overrides, "Apar\u00EAncia")}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="24px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
@@ -587,7 +580,7 @@ export default function ConfigsAcessibilidade(props) {
       >
         <View
           padding="0px 0px 0px 0px"
-          width="1519px"
+          width="1530px"
           height="70px"
           display="block"
           gap="unset"
@@ -599,7 +592,7 @@ export default function ConfigsAcessibilidade(props) {
           {...getOverrideProps(overrides, "NavHeader")}
         >
           <View
-            width="1519px"
+            width="100vw"
             height="70px"
             display="block"
             gap="unset"
@@ -627,8 +620,9 @@ export default function ConfigsAcessibilidade(props) {
             {...getOverrideProps(overrides, "Button38981943")}
           ></Button>
           <Image
+            src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/LogoBrancaConecta.svg"
             width="182.36px"
-            height="24px"
+            height="37px"
             display="block"
             gap="unset"
             alignItems="unset"

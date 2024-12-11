@@ -21,7 +21,7 @@ export default function Configs(props) {
   const { bancoImagens, overrides, ...rest } = props;
   return (
     <View
-      width="1519px"
+      width="100vw"
       height="1117px"
       display="block"
       gap="unset"
@@ -47,7 +47,8 @@ export default function Configs(props) {
         {...getOverrideProps(overrides, "Frame 322")}
       ></Flex>
       <Image
-        width="1519px"
+      src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/BackgroundConecta.jpg?raw=true"
+        width="100vw"
         height="1047px"
         display="block"
         gap="unset"
@@ -231,7 +232,6 @@ export default function Configs(props) {
           ></Icon>
         </View>
         <Text
-          fontFamily="Poppins"
           fontSize="36px"
           fontWeight="600"
           color="rgba(0,0,0,1)"
@@ -253,7 +253,6 @@ export default function Configs(props) {
           {...getOverrideProps(overrides, "Acesso \u00E0 conta")}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="30px"
           fontWeight="500"
           color="rgba(0,0,0,1)"
@@ -275,7 +274,6 @@ export default function Configs(props) {
           {...getOverrideProps(overrides, "Endere\u00E7o de e-mail")}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="30px"
           fontWeight="500"
           color="rgba(0,0,0,1)"
@@ -297,7 +295,6 @@ export default function Configs(props) {
           {...getOverrideProps(overrides, "Trocar de senha")}
         ></Text>
         <Text
-          fontFamily="Montserrat"
           fontSize="30px"
           fontWeight="500"
           color="rgba(0,0,0,1)"
@@ -319,7 +316,6 @@ export default function Configs(props) {
           {...getOverrideProps(overrides, "N\u00FAmeros de telefone")}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="30px"
           fontWeight="500"
           color="rgba(0,0,0,1)"
@@ -344,7 +340,6 @@ export default function Configs(props) {
           )}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="30px"
           fontWeight="500"
           color="rgba(0,0,0,1)"
@@ -498,7 +493,7 @@ export default function Configs(props) {
           {...getOverrideProps(overrides, "NavHeader")}
         >
           <View
-            width="1519px"
+            width="100vw"
             height="70px"
             display="block"
             gap="unset"
@@ -526,8 +521,9 @@ export default function Configs(props) {
             {...getOverrideProps(overrides, "Button38981750")}
           ></Button>
           <Image
+          src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/LogoBrancaConecta.svg"
             width="182.36px"
-            height="24px"
+            height="37px"
             display="block"
             gap="unset"
             alignItems="unset"
@@ -722,7 +718,6 @@ export default function Configs(props) {
           {...getOverrideProps(overrides, "Vector38572747")}
         ></Icon>
         <Text
-          fontFamily="Poppins"
           fontSize="24px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
@@ -744,7 +739,6 @@ export default function Configs(props) {
           {...getOverrideProps(overrides, "Acessibilidade")}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="24px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
@@ -766,7 +760,6 @@ export default function Configs(props) {
           {...getOverrideProps(overrides, "Acesso e Seguran\u00E7a")}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="24px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
@@ -788,7 +781,6 @@ export default function Configs(props) {
           {...getOverrideProps(overrides, "Apar\u00EAncia")}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="24px"
           fontWeight="700"
           color="rgba(0,0,0,1)"

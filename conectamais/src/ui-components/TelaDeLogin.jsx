@@ -20,7 +20,7 @@ export default function TelaDeLogin(props) {
   const { bancoImagens, overrides, ...rest } = props;
   return (
     <View
-      width="1519px"
+      width="100vw"
       height="1040px"
       display="block"
       gap="unset"
@@ -33,7 +33,7 @@ export default function TelaDeLogin(props) {
       {...rest}
     >
       <View
-        width="1519px"
+        width="100vw"
         height="1040px"
         display="block"
         gap="unset"
@@ -47,7 +47,8 @@ export default function TelaDeLogin(props) {
         {...getOverrideProps(overrides, "Login")}
       >
         <Image
-          width="1519px"
+          src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/BackgroundConecta.jpg?raw=true"
+          width="100vw"
           height="1040px"
           display="block"
           gap="unset"
@@ -89,7 +90,6 @@ export default function TelaDeLogin(props) {
             {...getOverrideProps(overrides, "Rectangle 2")}
           ></View>
           <Text
-            fontFamily="Poppins"
             fontSize="14px"
             fontWeight="600"
             color="rgba(0,0,0,1)"
@@ -128,7 +128,6 @@ export default function TelaDeLogin(props) {
             {...getOverrideProps(overrides, "Group 1")}
           >
             <Text
-              fontFamily="Poppins"
               fontSize="15px"
               fontWeight="400"
               color="rgba(0,0,0,1)"
@@ -153,7 +152,6 @@ export default function TelaDeLogin(props) {
             ></Text>
           </View>
           <Text
-            fontFamily="Poppins"
             fontSize="34px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
@@ -175,7 +173,6 @@ export default function TelaDeLogin(props) {
             {...getOverrideProps(overrides, "Obrigado por nos escolher")}
           ></Text>
           <Text
-            fontFamily="Poppins"
             fontSize="44px"
             fontWeight="700"
             color="rgba(0,0,0,1)"
@@ -1187,6 +1184,7 @@ export default function TelaDeLogin(props) {
             ></Icon>
           </View>
           <Image
+            src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/LogoPretaConecta.png?raw=true"
             width="269px"
             height="118px"
             display="block"

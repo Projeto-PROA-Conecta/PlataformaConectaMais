@@ -7,12 +7,20 @@
 /* eslint-disable */
 import * as React from "react";
 import { getOverrideProps } from "./utils";
-import { Button, Flex, Icon, Image, Text, View } from "@aws-amplify/ui-react";
+import {
+  Button,
+  Flex,
+  Icon,
+  Image,
+  Text,
+  View,
+  SelectField,
+} from "@aws-amplify/ui-react";
 export default function Home(props) {
   const { overrides, ...rest } = props;
   return (
     <View
-      width="1519px"
+      width="100vw"
       height="2263px"
       display="block"
       gap="unset"
@@ -56,7 +64,8 @@ export default function Home(props) {
         {...getOverrideProps(overrides, "Button38512596")}
       ></Flex>
       <Image
-        width="1519px"
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/Frame%20436.jpg?raw=true"
+        width="100vw"
         height="338px"
         display="block"
         gap="unset"
@@ -70,7 +79,6 @@ export default function Home(props) {
         {...getOverrideProps(overrides, "BackgroundDaHome")}
       ></Image>
       <Text
-        fontFamily="Poppins"
         fontSize="32px"
         fontWeight="700"
         color="rgba(255,255,255,1)"
@@ -95,7 +103,6 @@ export default function Home(props) {
         )}
       ></Text>
       <Text
-        fontFamily="Montserrat"
         fontSize="34px"
         fontWeight="700"
         color="rgba(0,0,0,1)"
@@ -113,11 +120,10 @@ export default function Home(props) {
         left="102px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
-        children="Sobre nós nós"
+        children="Sobre nós"
         {...getOverrideProps(overrides, "Sobre n\u00F3s n\u00F3s")}
       ></Text>
       <Text
-        fontFamily="Poppins"
         fontSize="24px"
         fontWeight="400"
         color="rgba(0,0,0,1)"
@@ -142,7 +148,6 @@ export default function Home(props) {
         )}
       ></Text>
       <Text
-        fontFamily="Poppins"
         fontSize="34px"
         fontWeight="700"
         color="rgba(0,0,0,1)"
@@ -164,6 +169,7 @@ export default function Home(props) {
         {...getOverrideProps(overrides, "Categorias de vagas")}
       ></Text>
       <Image
+      src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/SobreNosimg.png?raw=true"
         width="372px"
         height="266px"
         display="block"
@@ -235,7 +241,6 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "image")}
         ></Icon>
         <Text
-          fontFamily="Poppins"
           fontSize="20px"
           fontWeight="600"
           color="rgba(255,255,255,1)"
@@ -259,7 +264,6 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "Sa\u00FAde")}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="20px"
           fontWeight="600"
           color="rgba(255,255,255,1)"
@@ -320,7 +324,6 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "Rectangle 94")}
         ></View>
         <Text
-          fontFamily="Montserrat"
           fontSize="20px"
           fontWeight="600"
           color="rgba(255,255,255,1)"
@@ -442,7 +445,6 @@ export default function Home(props) {
         ></Icon>
       </View>
       <Text
-        fontFamily="Poppins"
         fontSize="34px"
         fontWeight="700"
         color="rgba(0,0,0,1)"
@@ -464,6 +466,7 @@ export default function Home(props) {
         {...getOverrideProps(overrides, "Recomenda\u00E7\u00E3o de vaga")}
       ></Text>
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/RecomendacaoImg.png?raw=true"
         width="444px"
         height="309px"
         display="block"
@@ -511,7 +514,6 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "Rectangle 202")}
         ></Icon>
         <Text
-          fontFamily="Poppins"
           fontSize="22px"
           fontWeight="700"
           color="rgba(255,255,255,1)"
@@ -533,7 +535,6 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "ANALISTA DE DADOS")}
         ></Text>
         <Text
-          fontFamily="Montserrat"
           fontSize="20px"
           fontWeight="700"
           color="rgba(255,255,255,1)"
@@ -577,7 +578,6 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "Vector38512623")}
         ></Icon>
         <Text
-          fontFamily="Montserrat"
           fontSize="20px"
           fontWeight="700"
           color="rgba(0,148,255,1)"
@@ -621,7 +621,6 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "Vector38512625")}
         ></Icon>
         <Text
-          fontFamily="Poppins"
           fontSize="18px"
           fontWeight="300"
           color="rgba(255,255,255,1)"
@@ -643,7 +642,6 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "1.783 avalia\u00E7\u00F5es")}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="20px"
           fontWeight="400"
           color="rgba(255,255,255,1)"
@@ -665,7 +663,6 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "S\u00E3o Paulo - SP")}
         ></Text>
         <Text
-          fontFamily="Montserrat"
           fontSize="20px"
           fontWeight="400"
           color="rgba(255,255,255,1)"
@@ -687,7 +684,6 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "R$ 5.200,00")}
         ></Text>
         <Text
-          fontFamily="Montserrat"
           fontSize="20px"
           fontWeight="400"
           color="rgba(255,255,255,1)"
@@ -745,7 +741,6 @@ export default function Home(props) {
         ></View>
       </View>
       <Text
-        fontFamily="Montserrat"
         fontSize="15px"
         fontWeight="700"
         color="rgba(255,255,255,1)"
@@ -780,7 +775,7 @@ export default function Home(props) {
         {...getOverrideProps(overrides, "HomeFooter")}
       >
         <View
-          width="1519px"
+          width="100vw"
           height="309px"
           display="block"
           gap="unset"
@@ -794,7 +789,6 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "Rectangle 204")}
         ></View>
         <Text
-          fontFamily="Poppins"
           fontSize="15px"
           fontWeight="400"
           color="rgba(255,255,255,1)"
@@ -819,7 +813,6 @@ export default function Home(props) {
           )}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="18px"
           fontWeight="700"
           color="rgba(255,255,255,1)"
@@ -841,7 +834,6 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "Suporte")}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="14px"
           fontWeight="400"
           color="rgba(255,255,255,1)"
@@ -863,7 +855,6 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "Contato")}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="18px"
           fontWeight="700"
           color="rgba(255,255,255,1)"
@@ -885,7 +876,6 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "Mapa do site")}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="18px"
           fontWeight="700"
           color="rgba(255,255,255,1)"
@@ -1069,7 +1059,6 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "Vector38512645")}
         ></Icon>
         <Text
-          fontFamily="Poppins"
           fontSize="18px"
           fontWeight="400"
           color="rgba(255,255,255,1)"
@@ -1091,29 +1080,6 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "In\u00EDcio")}
         ></Text>
         <Text
-          fontFamily="Poppins"
-          fontSize="18px"
-          fontWeight="400"
-          color="rgba(255,255,255,1)"
-          lineHeight="27px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="65px"
-          height="22px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="75px"
-          left="1209px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Vagas"
-          {...getOverrideProps(overrides, "Vagas")}
-        ></Text>
-        <Text
-          fontFamily="Montserrat"
           fontSize="18px"
           fontWeight="400"
           color="rgba(255,255,255,1)"
@@ -1135,7 +1101,48 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "Comunidade")}
         ></Text>
         <Text
-          fontFamily="Poppins"
+          fontSize="18px"
+          fontWeight="400"
+          color="rgba(255,255,255,1)"
+          lineHeight="27px"
+          textAlign="left"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="65px"
+          height="22px"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="75px"
+          left="1209px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="Vagas"
+          {...getOverrideProps(overrides, "Vagas")}
+        ></Text>
+        <Text
+          fontSize="18px"
+          fontWeight="400"
+          color="rgba(255,255,255,1)"
+          lineHeight="27px"
+          textAlign="left"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="120px"
+          height="22px"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="103px"
+          left="1209px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="Comunidade"
+          {...getOverrideProps(overrides, "Comunidade")}
+        ></Text>
+        <Text
           fontSize="18px"
           fontWeight="400"
           color="rgba(255,255,255,1)"
@@ -1157,7 +1164,6 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "Plus")}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="18px"
           fontWeight="400"
           color="rgba(255,255,255,1)"
@@ -1199,6 +1205,60 @@ export default function Home(props) {
         backgroundColor="rgba(255,255,255,1)"
         {...getOverrideProps(overrides, "Rectangle 184")}
       ></View>
+      <SelectField
+        width="220px"
+        height="unset"
+        placeholder="Cargo"
+        position="absolute"
+        top="275px"
+        left="160px"
+        size="large"
+        isDisabled={false}
+        labelHidden={false}
+        variation="default"
+        {...getOverrideProps(overrides, "SelectField38531446")}
+      ></SelectField>
+      <SelectField
+        width="220px"
+        height="unset"
+        placeholder="Estado"
+        position="absolute"
+        top="275px"
+        left="435px"
+        size="large"
+        isDisabled={false}
+        labelHidden={false}
+        variation="default"
+        {...getOverrideProps(overrides, "SelectField38531446")}
+      ></SelectField>
+      <SelectField
+        width="280px"
+        height="unset"
+        placeholder="Todas as categorias"
+        position="absolute"
+        top="275px"
+        left="718px"
+        size="large"
+        isDisabled={false}
+        labelHidden={false}
+        variation="default"
+        {...getOverrideProps(overrides, "SelectField38531446")}
+      ></SelectField>
+
+      <Button
+        width="100px"
+        height="unset"
+        position="absolute"
+        top="289px"
+        left="1030px"
+        backgroundColor="rgba(22,70,89,100)"
+        size="default"
+        isDisabled={false}
+        variation="primary"
+        children="Buscar"
+        {...getOverrideProps(overrides, "Button39164195")}
+      ></Button>
+
       <Icon
         width="20px"
         height="20px"
@@ -1319,7 +1379,7 @@ export default function Home(props) {
         {...getOverrideProps(overrides, "NavHeader")}
       >
         <View
-          width="1518px"
+          width="100vw"
           height="70px"
           display="block"
           gap="unset"
@@ -1347,8 +1407,9 @@ export default function Home(props) {
           {...getOverrideProps(overrides, "Button38604011")}
         ></Button>
         <Image
+          src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/LogoBrancaConecta.svg"
           width="182.24px"
-          height="24px"
+          height="37px"
           display="block"
           gap="unset"
           alignItems="unset"
@@ -1370,7 +1431,7 @@ export default function Home(props) {
           size="small"
           isDisabled={false}
           variation="primary"
-          children="Home"
+          children="Início"
           {...getOverrideProps(overrides, "Button38573258")}
         ></Button>
         <Button

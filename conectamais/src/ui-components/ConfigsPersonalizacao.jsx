@@ -20,7 +20,7 @@ export default function ConfigsPersonalizacao(props) {
   const { bancoImagens, overrides, ...rest } = props;
   return (
     <View
-      width="1519px"
+      width="100vw"
       height="1117px"
       display="block"
       gap="unset"
@@ -33,7 +33,8 @@ export default function ConfigsPersonalizacao(props) {
       {...rest}
     >
       <Image
-        width="1519px"
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/BackgroundConecta.jpg?raw=true"
+        width="100vw"
         height="1047px"
         display="block"
         gap="unset"
@@ -76,7 +77,6 @@ export default function ConfigsPersonalizacao(props) {
           {...getOverrideProps(overrides, "Rectangle 104")}
         ></View>
         <Text
-          fontFamily="Poppins"
           fontSize="44px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
@@ -300,7 +300,6 @@ export default function ConfigsPersonalizacao(props) {
           {...getOverrideProps(overrides, "Vector38512092")}
         ></Icon>
         <Text
-          fontFamily="Poppins"
           fontSize="24px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
@@ -322,7 +321,6 @@ export default function ConfigsPersonalizacao(props) {
           {...getOverrideProps(overrides, "Acessibilidade")}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="24px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
@@ -344,7 +342,6 @@ export default function ConfigsPersonalizacao(props) {
           {...getOverrideProps(overrides, "Acesso e Seguran\u00E7a")}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="24px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
@@ -366,7 +363,6 @@ export default function ConfigsPersonalizacao(props) {
           {...getOverrideProps(overrides, "Apar\u00EAncia")}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="24px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
@@ -442,7 +438,7 @@ export default function ConfigsPersonalizacao(props) {
           {...getOverrideProps(overrides, "NavHeader")}
         >
           <View
-            width="1519px"
+            width="100vw"
             height="70px"
             display="block"
             gap="unset"
@@ -470,8 +466,9 @@ export default function ConfigsPersonalizacao(props) {
             {...getOverrideProps(overrides, "Button38981972")}
           ></Button>
           <Image
+            src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/LogoBrancaConecta.svg"
             width="182.36px"
-            height="24px"
+            height="37px"
             display="block"
             gap="unset"
             alignItems="unset"

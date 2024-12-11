@@ -41,7 +41,8 @@ export default function EscolhaDeConta(props) {
         {...getOverrideProps(overrides, "Login")}
       >
         <Image
-          width="100%"
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/BackgroundConecta.jpg?raw=true"
+          width="100vw"
           height="100%"
           display="block"
           gap="unset"
@@ -98,6 +99,7 @@ export default function EscolhaDeConta(props) {
               {...getOverrideProps(overrides, "Rectangle 1")}
             ></View>
             <Image
+            src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/LogoPretaConecta.png?raw=true"
               width="309px"
               height="147px"
               display="block"
@@ -601,7 +603,6 @@ export default function EscolhaDeConta(props) {
           ></Icon>
         </View>
         <Text
-          fontFamily="Poppins"
           fontSize="34px"
           fontWeight="400"
           color="rgba(0,0,0,1)"
@@ -623,7 +624,6 @@ export default function EscolhaDeConta(props) {
           {...getOverrideProps(overrides, "Qual seu tipo de conta?")}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="44px"
           fontWeight="700"
           color="rgba(0,0,0,1)"

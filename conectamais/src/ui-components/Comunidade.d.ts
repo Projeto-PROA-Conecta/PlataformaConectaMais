@@ -33,10 +33,10 @@ export declare type ComunidadeOverridesProps = {
     "Tive a honra de participar do Tech Future Summit 2024, um evento cheio de insights sobre tecnologia e inova\u00E7\u00E3o. Foi incr\u00EDvel ... mais"?: PrimitiveOverrideProps<TextProps>;
     "Estar no EducaInova 2024 foi uma experi\u00EAncia enriquecedora! Discutir novas metodologias e ferramentas para a educa\u00E7\u00E3o moderna me trouxe insights valiosos para aplicar ... mais"?: PrimitiveOverrideProps<TextProps>;
     "Rectangle 141"?: PrimitiveOverrideProps<ViewProps>;
-    "Jo\u00E3o Pedro Borges"?: PrimitiveOverrideProps<TextProps>;
+    "Jo\u00E3o"?: PrimitiveOverrideProps<TextProps>;
     "Gabriel Augusto"?: PrimitiveOverrideProps<TextProps>;
     "Aurora Seles"?: PrimitiveOverrideProps<TextProps>;
-    "AvatarPerfil 1"?: PrimitiveOverrideProps<ImageProps>;
+    "image 8"?: PrimitiveOverrideProps<ImageProps>;
     image39013402?: PrimitiveOverrideProps<ImageProps>;
     image39013403?: PrimitiveOverrideProps<ImageProps>;
     "Boa tarde amigos! Hoje tive a incr\u00EDvel oportunidade de visitar a sede da CityCorp, e posso dizer que essa experi\u00EAncia foi ...mais"?: PrimitiveOverrideProps<TextProps>;
@@ -63,10 +63,9 @@ export declare type ComunidadeOverridesProps = {
     "5 d"?: PrimitiveOverrideProps<TextProps>;
     "Rectangle 12239013426"?: PrimitiveOverrideProps<ViewProps>;
     image39013427?: PrimitiveOverrideProps<ImageProps>;
-    "Lucas Silva Rodrigues"?: PrimitiveOverrideProps<TextProps>;
+    Lucas?: PrimitiveOverrideProps<TextProps>;
     "\u201CMeu sonho \u00E9 ser um m\u00E9dico conhecido um dia !\u201D"?: PrimitiveOverrideProps<TextProps>;
     "Sugest\u00E3o"?: PrimitiveOverrideProps<TextProps>;
-    "Group 490"?: PrimitiveOverrideProps<ViewProps>;
     "Rectangle 12239013432"?: PrimitiveOverrideProps<ViewProps>;
     image39013433?: PrimitiveOverrideProps<ImageProps>;
     Evoflui?: PrimitiveOverrideProps<TextProps>;

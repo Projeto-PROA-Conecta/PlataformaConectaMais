@@ -12,7 +12,7 @@ export default function MensagensNotificacoes(props) {
   const { bancoImagens, overrides, ...rest } = props;
   return (
     <View
-      width="1519px"
+      width="100vw"
       height="1100px"
       display="block"
       gap="unset"
@@ -25,7 +25,8 @@ export default function MensagensNotificacoes(props) {
       {...rest}
     >
       <Image
-        width="1519px"
+      src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/BackgroundConecta.jpg?raw=true"
+        width="100vw"
         height="1030px"
         display="block"
         gap="unset"
@@ -94,7 +95,6 @@ export default function MensagensNotificacoes(props) {
           {...getOverrideProps(overrides, "Rectangle 107")}
         ></View>
         <Text
-          fontFamily="Montserrat"
           fontSize="30px"
           fontWeight="600"
           color="rgba(0,0,0,1)"
@@ -119,7 +119,6 @@ export default function MensagensNotificacoes(props) {
           )}
         ></Text>
         <Text
-          fontFamily="Montserrat"
           fontSize="30px"
           fontWeight="600"
           color="rgba(0,0,0,1)"
@@ -144,7 +143,6 @@ export default function MensagensNotificacoes(props) {
           )}
         ></Text>
         <Text
-          fontFamily="Montserrat"
           fontSize="24px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
@@ -169,7 +167,6 @@ export default function MensagensNotificacoes(props) {
           )}
         ></Text>
         <Text
-          fontFamily="Montserrat"
           fontSize="16px"
           fontWeight="200"
           color="rgba(0,0,0,1)"
@@ -191,7 +188,6 @@ export default function MensagensNotificacoes(props) {
           {...getOverrideProps(overrides, "59 min")}
         ></Text>
         <Text
-          fontFamily="Montserrat"
           fontSize="16px"
           fontWeight="200"
           color="rgba(0,0,0,1)"
@@ -213,7 +209,6 @@ export default function MensagensNotificacoes(props) {
           {...getOverrideProps(overrides, "2 h")}
         ></Text>
         <Text
-          fontFamily="Montserrat"
           fontSize="16px"
           fontWeight="200"
           color="rgba(0,0,0,1)"
@@ -251,7 +246,6 @@ export default function MensagensNotificacoes(props) {
           {...getOverrideProps(overrides, "Rectangle 108")}
         ></View>
         <Text
-          fontFamily="Poppins"
           fontSize="24px"
           fontWeight="400"
           color="rgba(0,0,0,1)"
@@ -276,7 +270,6 @@ export default function MensagensNotificacoes(props) {
           )}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="20px"
           fontWeight="300"
           color="rgba(0,0,0,1)"
@@ -301,7 +294,6 @@ export default function MensagensNotificacoes(props) {
           )}
         ></Text>
         <Text
-          fontFamily="Montserrat"
           fontSize="20px"
           fontWeight="400"
           color="rgba(0,0,0,1)"
@@ -450,7 +442,7 @@ export default function MensagensNotificacoes(props) {
         {...getOverrideProps(overrides, "NavHeader")}
       >
         <View
-          width="1518px"
+          width="100vw"
           height="70px"
           display="block"
           gap="unset"
@@ -478,8 +470,9 @@ export default function MensagensNotificacoes(props) {
           {...getOverrideProps(overrides, "Button39012867")}
         ></Button>
         <Image
+        src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/LogoBrancaConecta.svg"
           width="182.24px"
-          height="24px"
+          height="37px"
           display="block"
           gap="unset"
           alignItems="unset"
@@ -558,6 +551,7 @@ export default function MensagensNotificacoes(props) {
         ></Button>
       </View>
       <Image
+      src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/PerfilSemFoto.png?raw=true"
         width="90px"
         height="90px"
         display="block"
@@ -572,6 +566,7 @@ export default function MensagensNotificacoes(props) {
         {...getOverrideProps(overrides, "image 839044187")}
       ></Image>
       <Image
+      src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/PerfilSemFoto.png?raw=true"
         width="90px"
         height="90px"
         display="block"
@@ -586,6 +581,7 @@ export default function MensagensNotificacoes(props) {
         {...getOverrideProps(overrides, "image 839044189")}
       ></Image>
       <Image
+      src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/PerfilSemFoto.png?raw=true"
         width="90px"
         height="90px"
         display="block"
@@ -600,6 +596,7 @@ export default function MensagensNotificacoes(props) {
         {...getOverrideProps(overrides, "image 839044191")}
       ></Image>
       <Image
+      src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/PerfilSemFoto.png?raw=true"
         width="60px"
         height="60px"
         display="block"

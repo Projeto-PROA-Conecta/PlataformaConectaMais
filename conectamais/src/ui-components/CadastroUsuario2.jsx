@@ -21,7 +21,7 @@ export default function CadastroUsuario2(props) {
   const { bancoImagens, overrides, ...rest } = props;
   return (
     <View
-      width="1519px"
+      width="100vw"
       height="1117px"
       display="block"
       gap="unset"
@@ -34,6 +34,7 @@ export default function CadastroUsuario2(props) {
       {...rest}
     >
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/BackgroundConecta.jpg?raw=true"
         width="100%"
         height="100%"
         display="block"
@@ -94,7 +95,6 @@ export default function CadastroUsuario2(props) {
           {...getOverrideProps(overrides, "Rectangle 1")}
         ></Icon>
         <Text
-          fontFamily="Poppins"
           fontSize="20px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
@@ -137,7 +137,6 @@ export default function CadastroUsuario2(props) {
           {...getOverrideProps(overrides, "Group 459")}
         >
           <Text
-            fontFamily="Montserrat"
             fontSize="12px"
             fontWeight="700"
             color="rgba(255,255,255,1)"
@@ -1765,7 +1764,7 @@ export default function CadastroUsuario2(props) {
           position="absolute"
           top="47.49%"
           bottom="50.03%"
-          left="0%"
+          left="-5%"
           right="2.81%"
           size="large"
           defaultChecked={false}
@@ -1821,7 +1820,6 @@ export default function CadastroUsuario2(props) {
         ></Button>
       </View>
       <Text
-        fontFamily="Poppins"
         fontSize="44px"
         fontWeight="700"
         color="rgba(0,0,0,1)"
@@ -1845,6 +1843,7 @@ export default function CadastroUsuario2(props) {
         {...getOverrideProps(overrides, "J\u00E1 estamos quase l\u00E1")}
       ></Text>
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/LogoPretaConecta.png?raw=true"
         width="20.41%"
         height="13.43%"
         display="block"

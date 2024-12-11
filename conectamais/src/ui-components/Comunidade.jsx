@@ -19,7 +19,7 @@ export default function Comunidade(props) {
   const { overrides, ...rest } = props;
   return (
     <View
-      width="1514px"
+      width="100vw"
       height="1879px"
       display="block"
       gap="unset"
@@ -31,6 +31,7 @@ export default function Comunidade(props) {
       {...rest}
     >
       <Image
+      src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/BackgroundConecta.jpg?raw=true"
         width="100%"
         height="100%"
         display="block"
@@ -47,7 +48,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "Fundo Novo")}
       ></Image>
       <SearchField
-        width="690px"
+        width="692.28px"
         height="unset"
         placeholder="Faça uma pesquisa incrível"
         position="absolute"
@@ -56,13 +57,13 @@ export default function Comunidade(props) {
         left="23.32%"
         right="31.11%"
         size="large"
-        isDisabled={true}
+        isDisabled={false}
         labelHidden={true}
         variation="default"
         {...getOverrideProps(overrides, "SearchField")}
       ></SearchField>
       <View
-        width="24px"
+        width="24.08px"
         height="24px"
         display="block"
         gap="unset"
@@ -82,7 +83,7 @@ export default function Comunidade(props) {
       ></View>
       <View
         padding="0px 0px 0px 0px"
-        width="301px"
+        width="301.99px"
         height="377px"
         display="block"
         gap="unset"
@@ -96,7 +97,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "Group 488")}
       >
         <View
-          width="301px"
+          width="301.99px"
           height="377px"
           display="block"
           gap="unset"
@@ -115,6 +116,7 @@ export default function Comunidade(props) {
           {...getOverrideProps(overrides, "Rectangle 12239013388")}
         ></View>
         <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/anoni.png?raw=true"
           width="53.16%"
           height="42.44%"
           display="block"
@@ -133,7 +135,6 @@ export default function Comunidade(props) {
           {...getOverrideProps(overrides, "image39013389")}
         ></Image>
         <Text
-          fontFamily="Montserrat"
           fontSize="24px"
           fontWeight="600"
           color="rgba(0,0,0,1)"
@@ -142,7 +143,7 @@ export default function Comunidade(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="174px"
+          width="174.57px"
           height="23px"
           gap="unset"
           alignItems="unset"
@@ -158,7 +159,7 @@ export default function Comunidade(props) {
         ></Text>
       </View>
       <View
-        width="35px"
+        width="35.12px"
         height="34.01px"
         display="block"
         gap="unset"
@@ -173,7 +174,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "Male User")}
       ></View>
       <View
-        width="685px"
+        width="687.26px"
         height="421px"
         display="block"
         gap="unset"
@@ -191,7 +192,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "Rectangle 143")}
       ></View>
       <View
-        width="691px"
+        width="693.28px"
         height="527px"
         display="block"
         gap="unset"
@@ -209,7 +210,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "Rectangle 140")}
       ></View>
       <View
-        width="685px"
+        width="687.26px"
         height="485px"
         display="block"
         gap="unset"
@@ -227,7 +228,6 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "Rectangle 142")}
       ></View>
       <Text
-        fontFamily="Montserrat"
         fontSize="20px"
         fontWeight="500"
         color="rgba(0,0,0,1)"
@@ -236,7 +236,7 @@ export default function Comunidade(props) {
         display="block"
         direction="column"
         justifyContent="unset"
-        width="566px"
+        width="567.87px"
         height="88px"
         gap="unset"
         alignItems="unset"
@@ -263,7 +263,7 @@ export default function Comunidade(props) {
         display="block"
         direction="column"
         justifyContent="unset"
-        width="642px"
+        width="644.12px"
         height="88px"
         gap="unset"
         alignItems="unset"
@@ -281,7 +281,7 @@ export default function Comunidade(props) {
         )}
       ></Text>
       <View
-        width="691px"
+        width="693.28px"
         height="518px"
         display="block"
         gap="unset"
@@ -299,7 +299,6 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "Rectangle 141")}
       ></View>
       <Text
-        fontFamily="Montserrat"
         fontSize="28px"
         fontWeight="700"
         color="rgba(0,0,0,1)"
@@ -308,7 +307,7 @@ export default function Comunidade(props) {
         display="block"
         direction="column"
         justifyContent="unset"
-        width="298px"
+        width="92.3px"
         height="31px"
         gap="unset"
         alignItems="unset"
@@ -316,14 +315,13 @@ export default function Comunidade(props) {
         top="16.98%"
         bottom="81.37%"
         left="31.57%"
-        right="48.75%"
+        right="62.35%"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
-        children="João Pedro Borges"
-        {...getOverrideProps(overrides, "Jo\u00E3o Pedro Borges")}
+        children="João"
+        {...getOverrideProps(overrides, "Jo\u00E3o")}
       ></Text>
       <Text
-        fontFamily="Montserrat"
         fontSize="28px"
         fontWeight="700"
         color="rgba(0,0,0,1)"
@@ -332,7 +330,7 @@ export default function Comunidade(props) {
         display="block"
         direction="column"
         justifyContent="unset"
-        width="327.87px"
+        width="328.95px"
         height="31.36px"
         gap="unset"
         alignItems="unset"
@@ -347,7 +345,6 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "Gabriel Augusto")}
       ></Text>
       <Text
-        fontFamily="Montserrat"
         fontSize="28px"
         fontWeight="700"
         color="rgba(0,0,0,1)"
@@ -356,7 +353,7 @@ export default function Comunidade(props) {
         display="block"
         direction="column"
         justifyContent="unset"
-        width="325px"
+        width="326.07px"
         height="32px"
         gap="unset"
         alignItems="unset"
@@ -371,20 +368,21 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "Aurora Seles")}
       ></Text>
       <Image
-        width="6.08%"
-        height="5.16%"
+      src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/PerfilSemFoto.png?raw=true"
+        width="5.28%"
+        height="4.26%"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         position="absolute"
-        top="15.38%"
-        bottom="79.46%"
-        left="24.11%"
-        right="69.82%"
+        top="15.7%"
+        bottom="80.04%"
+        left="24.7%"
+        right="70.01%"
         padding="0px 0px 0px 0px"
         objectFit="cover"
-        {...getOverrideProps(overrides, "AvatarPerfil 1")}
+        {...getOverrideProps(overrides, "image 8")}
       ></Image>
       <Image
         width="5.26%"
@@ -421,7 +419,6 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "image39013403")}
       ></Image>
       <Text
-        fontFamily="Montserrat"
         fontSize="16px"
         fontWeight="500"
         color="rgba(0,0,0,1)"
@@ -430,7 +427,7 @@ export default function Comunidade(props) {
         display="block"
         direction="column"
         justifyContent="unset"
-        width="647px"
+        width="649.14px"
         height="88px"
         gap="unset"
         alignItems="unset"
@@ -703,7 +700,6 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "image39013419")}
       ></Image>
       <Text
-        fontFamily="Montserrat"
         fontSize="40px"
         fontWeight="700"
         color="rgba(255,255,255,1)"
@@ -712,7 +708,7 @@ export default function Comunidade(props) {
         display="block"
         direction="column"
         justifyContent="unset"
-        width="unset"
+        width="63.21px"
         height="unset"
         gap="unset"
         alignItems="unset"
@@ -727,7 +723,6 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "+ 4")}
       ></Text>
       <Text
-        fontFamily="Montserrat"
         fontSize="40px"
         fontWeight="700"
         color="rgba(255,255,255,1)"
@@ -736,7 +731,7 @@ export default function Comunidade(props) {
         display="block"
         direction="column"
         justifyContent="unset"
-        width="unset"
+        width="59.19px"
         height="unset"
         gap="unset"
         alignItems="unset"
@@ -751,7 +746,6 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "+ 3")}
       ></Text>
       <Text
-        fontFamily="Montserrat"
         fontSize="24px"
         fontWeight="700"
         color="rgba(255,255,255,1)"
@@ -760,7 +754,7 @@ export default function Comunidade(props) {
         display="block"
         direction="column"
         justifyContent="unset"
-        width="58px"
+        width="58.19px"
         height="unset"
         gap="unset"
         alignItems="unset"
@@ -775,7 +769,6 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "+ 7")}
       ></Text>
       <Text
-        fontFamily="Montserrat"
         fontSize="15px"
         fontWeight="300"
         color="rgba(0,0,0,1)"
@@ -784,7 +777,7 @@ export default function Comunidade(props) {
         display="block"
         direction="column"
         justifyContent="unset"
-        width="84.54px"
+        width="84.82px"
         height="18.81px"
         gap="unset"
         alignItems="unset"
@@ -799,7 +792,6 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "4 min")}
       ></Text>
       <Text
-        fontFamily="Montserrat"
         fontSize="15px"
         fontWeight="300"
         color="rgba(0,0,0,1)"
@@ -808,7 +800,7 @@ export default function Comunidade(props) {
         display="block"
         direction="column"
         justifyContent="unset"
-        width="37px"
+        width="37.12px"
         height="19px"
         gap="unset"
         alignItems="unset"
@@ -823,7 +815,6 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "5 h")}
       ></Text>
       <Text
-        fontFamily="Montserrat"
         fontSize="15px"
         fontWeight="300"
         color="rgba(0,0,0,1)"
@@ -832,7 +823,7 @@ export default function Comunidade(props) {
         display="block"
         direction="column"
         justifyContent="unset"
-        width="84px"
+        width="84.28px"
         height="19px"
         gap="unset"
         alignItems="unset"
@@ -847,7 +838,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "5 d")}
       ></Text>
       <View
-        width="430px"
+        width="431.42px"
         height="287px"
         display="block"
         gap="unset"
@@ -883,7 +874,6 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "image39013427")}
       ></Image>
       <Text
-        fontFamily="Montserrat"
         fontSize="24px"
         fontWeight="600"
         color="rgba(0,0,0,1)"
@@ -892,7 +882,7 @@ export default function Comunidade(props) {
         display="block"
         direction="column"
         justifyContent="unset"
-        width="283px"
+        width="100.33px"
         height="24px"
         gap="unset"
         alignItems="unset"
@@ -900,14 +890,13 @@ export default function Comunidade(props) {
         top="19.64%"
         bottom="79.08%"
         left="73.84%"
-        right="7.46%"
+        right="19.55%"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
-        children="Lucas Silva Rodrigues"
-        {...getOverrideProps(overrides, "Lucas Silva Rodrigues")}
+        children="Lucas"
+        {...getOverrideProps(overrides, "Lucas")}
       ></Text>
       <Text
-        fontFamily="Montserrat"
         fontSize="14px"
         fontWeight="400"
         color="rgba(0,0,0,1)"
@@ -916,7 +905,7 @@ export default function Comunidade(props) {
         display="block"
         direction="column"
         justifyContent="unset"
-        width="242px"
+        width="242.8px"
         height="47px"
         gap="unset"
         alignItems="unset"
@@ -934,7 +923,6 @@ export default function Comunidade(props) {
         )}
       ></Text>
       <Text
-        fontFamily="Montserrat"
         fontSize="15px"
         fontWeight="400"
         color="rgba(0,0,0,1)"
@@ -943,7 +931,7 @@ export default function Comunidade(props) {
         display="block"
         direction="column"
         justifyContent="unset"
-        width="86px"
+        width="86.28px"
         height="24px"
         gap="unset"
         alignItems="unset"
@@ -958,8 +946,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "Sugest\u00E3o")}
       ></Text>
       <View
-        padding="0px 0px 0px 0px"
-        width="430px"
+        width="431.42px"
         height="298px"
         display="block"
         gap="unset"
@@ -970,124 +957,106 @@ export default function Comunidade(props) {
         bottom="60.03%"
         left="71.07%"
         right="0.53%"
-        {...getOverrideProps(overrides, "Group 490")}
-      >
-        <View
-          width="430px"
-          height="298px"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="0%"
-          bottom="0%"
-          left="0%"
-          right="0%"
-          border="1px SOLID rgba(0,0,0,1)"
-          boxShadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
-          borderRadius="8px"
-          padding="0px 0px 0px 0px"
-          backgroundColor="rgba(255,255,255,1)"
-          {...getOverrideProps(overrides, "Rectangle 12239013432")}
-        ></View>
-        <Image
-          width="30.47%"
-          height="43.96%"
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="12.75%"
-          bottom="43.29%"
-          left="34.88%"
-          right="34.65%"
-          border="1px SOLID rgba(0,0,0,1)"
-          borderRadius="300px"
-          padding="0px 0px 0px 0px"
-          objectFit="cover"
-          {...getOverrideProps(overrides, "image39013433")}
-        ></Image>
-        <Text
-          fontFamily="Montserrat"
-          fontSize="24px"
-          fontWeight="600"
-          color="rgba(0,0,0,1)"
-          lineHeight="29.256000518798828px"
-          textAlign="center"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="96px"
-          height="24px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="65.77%"
-          bottom="26.17%"
-          left="38.84%"
-          right="38.84%"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Evoflui"
-          {...getOverrideProps(overrides, "Evoflui")}
-        ></Text>
-        <Text
-          fontFamily="Montserrat"
-          fontSize="16px"
-          fontWeight="400"
-          color="rgba(0,0,0,1)"
-          lineHeight="19.503999710083008px"
-          textAlign="center"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="342px"
-          height="24px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="81.21%"
-          bottom="10.74%"
-          left="11.63%"
-          right="8.84%"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Seja único, Seja você mesmo, Seja Evoflui."
-          {...getOverrideProps(
-            overrides,
-            "Seja \u00FAnico, Seja voc\u00EA mesmo, Seja Evoflui."
-          )}
-        ></Text>
-        <Text
-          fontFamily="Montserrat"
-          fontSize="15px"
-          fontWeight="400"
-          color="rgba(0,0,0,1)"
-          lineHeight="18.28499984741211px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="69.49px"
-          height="24px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="11.74%"
-          bottom="80.2%"
-          left="81.01%"
-          right="2.83%"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Parceria"
-          {...getOverrideProps(overrides, "Parceria")}
-        ></Text>
-      </View>
+        border="1px SOLID rgba(0,0,0,1)"
+        boxShadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
+        borderRadius="8px"
+        padding="0px 0px 0px 0px"
+        backgroundColor="rgba(255,255,255,1)"
+        {...getOverrideProps(overrides, "Rectangle 12239013432")}
+      ></View>
+      <Image
+        width="8.65%"
+        height="6.97%"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="26.13%"
+        bottom="66.9%"
+        left="80.98%"
+        right="10.37%"
+        border="1px SOLID rgba(0,0,0,1)"
+        borderRadius="300px"
+        padding="0px 0px 0px 0px"
+        objectFit="cover"
+        {...getOverrideProps(overrides, "image39013433")}
+      ></Image>
+      <Text
+        fontSize="24px"
+        fontWeight="600"
+        color="rgba(0,0,0,1)"
+        lineHeight="29.256000518798828px"
+        textAlign="center"
+        display="block"
+        direction="column"
+        justifyContent="unset"
+        width="96.32px"
+        height="24px"
+        gap="unset"
+        alignItems="unset"
+        position="absolute"
+        top="34.54%"
+        bottom="64.18%"
+        left="82.1%"
+        right="11.56%"
+        padding="0px 0px 0px 0px"
+        whiteSpace="pre-wrap"
+        children="Evoflui"
+        {...getOverrideProps(overrides, "Evoflui")}
+      ></Text>
+      <Text
+        fontSize="16px"
+        fontWeight="400"
+        color="rgba(0,0,0,1)"
+        lineHeight="19.503999710083008px"
+        textAlign="center"
+        display="block"
+        direction="column"
+        justifyContent="unset"
+        width="343.13px"
+        height="24px"
+        gap="unset"
+        alignItems="unset"
+        position="absolute"
+        top="36.99%"
+        bottom="61.73%"
+        left="74.37%"
+        right="3.04%"
+        padding="0px 0px 0px 0px"
+        whiteSpace="pre-wrap"
+        children="Seja único, Seja você mesmo, Seja Evoflui."
+        {...getOverrideProps(
+          overrides,
+          "Seja \u00FAnico, Seja voc\u00EA mesmo, Seja Evoflui."
+        )}
+      ></Text>
+      <Text
+        fontSize="15px"
+        fontWeight="400"
+        color="rgba(0,0,0,1)"
+        lineHeight="18.28499984741211px"
+        textAlign="left"
+        display="block"
+        direction="column"
+        justifyContent="unset"
+        width="69.72px"
+        height="24px"
+        gap="unset"
+        alignItems="unset"
+        position="absolute"
+        top="25.97%"
+        bottom="72.75%"
+        left="94.08%"
+        right="1.33%"
+        padding="0px 0px 0px 0px"
+        whiteSpace="pre-wrap"
+        children="Parceria"
+        {...getOverrideProps(overrides, "Parceria")}
+      ></Text>
       <View
         padding="0px 0px 0px 0px"
-        width="301px"
+        width="301.99px"
         height="214px"
         display="block"
         gap="unset"
@@ -1101,7 +1070,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "Group 491")}
       >
         <View
-          width="301px"
+          width="301.99px"
           height="214px"
           display="block"
           gap="unset"
@@ -1120,12 +1089,12 @@ export default function Comunidade(props) {
           {...getOverrideProps(overrides, "Rectangle 12239013438")}
         ></View>
         <Icon
-          width="20px"
+          width="20.07px"
           height="20px"
-          viewBox={{ minX: 0, minY: 0, width: 20, height: 20 }}
+          viewBox={{ minX: 0, minY: 0, width: 20.066049575805664, height: 20 }}
           paths={[
             {
-              d: "M10 16.0737L16.18 20L14.54 12.6L20 7.62105L12.81 6.97895L10 0L7.19 6.97895L0 7.62105L5.46 12.6L3.82 20L10 16.0737Z",
+              d: "M10.033 16.0737L16.2334 20L14.588 12.6L20.066 7.62105L12.8523 6.97895L10.033 0L7.21374 6.97895L0 7.62105L5.47803 12.6L3.83262 20L10.033 16.0737Z",
               fill: "rgba(191,191,64,1)",
               fillRule: "nonzero",
             },
@@ -1151,7 +1120,7 @@ export default function Comunidade(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="166px"
+          width="166.55px"
           height="33px"
           gap="unset"
           alignItems="unset"
@@ -1166,6 +1135,7 @@ export default function Comunidade(props) {
           {...getOverrideProps(overrides, "ANALISTA DE DADOS")}
         ></Text>
         <Image
+        src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/EmpresaExemplo.svg"
           width="29.57%"
           height="30.37%"
           display="block"
@@ -1184,7 +1154,6 @@ export default function Comunidade(props) {
           {...getOverrideProps(overrides, "image 7")}
         ></Image>
         <Text
-          fontFamily="Montserrat"
           fontSize="14px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
@@ -1193,7 +1162,7 @@ export default function Comunidade(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="34px"
+          width="34.11px"
           height="19px"
           gap="unset"
           alignItems="unset"
@@ -1208,7 +1177,6 @@ export default function Comunidade(props) {
           {...getOverrideProps(overrides, "4,5")}
         ></Text>
         <Text
-          fontFamily="Montserrat"
           fontSize="15px"
           fontWeight="400"
           color="rgba(0,0,0,1)"
@@ -1217,7 +1185,7 @@ export default function Comunidade(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="130px"
+          width="130.43px"
           height="20px"
           gap="unset"
           alignItems="unset"
@@ -1232,7 +1200,6 @@ export default function Comunidade(props) {
           {...getOverrideProps(overrides, "Recomenda\u00E7\u00F5es")}
         ></Text>
         <Text
-          fontFamily="Montserrat"
           fontSize="16px"
           fontWeight="700"
           color="rgba(0,148,255,1)"
@@ -1241,7 +1208,7 @@ export default function Comunidade(props) {
           display="block"
           direction="column"
           justifyContent="unset"
-          width="117px"
+          width="117.39px"
           height="20px"
           gap="unset"
           alignItems="unset"
@@ -1257,7 +1224,7 @@ export default function Comunidade(props) {
         ></Text>
       </View>
       <Button
-        width="137px"
+        width="137.45px"
         height="unset"
         position="absolute"
         top="23.36%"
@@ -1272,7 +1239,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "Button39013445")}
       ></Button>
       <View
-        width="24px"
+        width="24.08px"
         height="24px"
         display="block"
         gap="unset"
@@ -1292,7 +1259,7 @@ export default function Comunidade(props) {
       ></View>
       <View
         padding="0px 0px 0px 0px"
-        width="1518px"
+        width="1523.01px"
         height="70px"
         display="block"
         gap="unset"
@@ -1306,7 +1273,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "NavHeader")}
       >
         <View
-          width="1518px"
+          width="1523.01px"
           height="70px"
           display="block"
           gap="unset"
@@ -1322,7 +1289,7 @@ export default function Comunidade(props) {
           {...getOverrideProps(overrides, "Rectangle 206")}
         ></View>
         <Button
-          width="155.2px"
+          width="155.72px"
           height="33px"
           position="absolute"
           border="1px SOLID rgba(255,255,255,1)"
@@ -1338,8 +1305,9 @@ export default function Comunidade(props) {
           {...getOverrideProps(overrides, "Button39013774")}
         ></Button>
         <Image
+        src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/LogoBrancaConecta.svg"
           width="12.01%"
-          height="34.29%"
+          height="37px"
           display="block"
           gap="unset"
           alignItems="unset"
@@ -1354,7 +1322,7 @@ export default function Comunidade(props) {
           {...getOverrideProps(overrides, "logo_branca_conecta 2")}
         ></Image>
         <Button
-          width="65.09px"
+          width="65.3px"
           height="unset"
           position="absolute"
           top="calc(50% - 16.5px - -3.5px)"
@@ -1368,7 +1336,7 @@ export default function Comunidade(props) {
           {...getOverrideProps(overrides, "Button39013776")}
         ></Button>
         <Button
-          width="61.08px"
+          width="61.28px"
           height="unset"
           position="absolute"
           top="calc(50% - 16.5px - -3.5px)"
@@ -1382,7 +1350,7 @@ export default function Comunidade(props) {
           {...getOverrideProps(overrides, "Button39013777")}
         ></Button>
         <Button
-          width="125.16px"
+          width="125.58px"
           height="unset"
           position="absolute"
           top="calc(50% - 16.5px - -3.5px)"
@@ -1396,7 +1364,7 @@ export default function Comunidade(props) {
           {...getOverrideProps(overrides, "Button39013778")}
         ></Button>
         <Button
-          width="65.09px"
+          width="65.3px"
           height="unset"
           position="absolute"
           top="calc(50% - 16.5px - -3.5px)"
@@ -1410,7 +1378,7 @@ export default function Comunidade(props) {
           {...getOverrideProps(overrides, "Button39013779")}
         ></Button>
         <Button
-          width="130.17px"
+          width="130.6px"
           height="unset"
           position="absolute"
           top="calc(50% - 16.5px - -5.5px)"

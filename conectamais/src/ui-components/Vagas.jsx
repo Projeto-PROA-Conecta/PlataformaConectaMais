@@ -12,7 +12,7 @@ export default function Vagas(props) {
   const { bancoImagens, overrides, ...rest } = props;
   return (
     <View
-      width="1519px"
+      width="100vw"
       height="1117px"
       display="block"
       gap="unset"
@@ -59,20 +59,7 @@ export default function Vagas(props) {
           "share_windows_24dp_4B77D1_FILL0_wght400_GRAD0_opsz24 138512389"
         )}
       ></View>
-      <Image
-        width="104px"
-        height="103px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="100px"
-        left="1601px"
-        padding="0px 0px 0px 0px"
-        objectFit="cover"
-        {...getOverrideProps(overrides, "AvatarPerfil 1")}
-      ></Image>
+      
       <View
         width="1519px"
         height="1049px"
@@ -88,7 +75,8 @@ export default function Vagas(props) {
         {...getOverrideProps(overrides, "back gorund")}
       >
         <Image
-          width="1523px"
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/BackgroundConecta.jpg?raw=true"
+          width="100vw"
           height="1049px"
           display="block"
           gap="unset"
@@ -120,7 +108,6 @@ export default function Vagas(props) {
           {...getOverrideProps(overrides, "Rectangle 152")}
         ></View>
         <Text
-          fontFamily="Poppins"
           fontSize="16px"
           fontWeight="300"
           color="rgba(0,0,0,1)"
@@ -144,7 +131,6 @@ export default function Vagas(props) {
           {...getOverrideProps(overrides, "1.783 avalia\u00E7\u00F5es")}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="20px"
           fontWeight="400"
           color="rgba(0,0,0,1)"
@@ -168,7 +154,6 @@ export default function Vagas(props) {
           {...getOverrideProps(overrides, "S\u00E3o Paulo - SP38512402")}
         ></Text>
         <Text
-          fontFamily="Montserrat"
           fontSize="20px"
           fontWeight="400"
           color="rgba(0,0,0,1)"
@@ -192,7 +177,6 @@ export default function Vagas(props) {
           {...getOverrideProps(overrides, "R$ 5.200,00")}
         ></Text>
         <Text
-          fontFamily="Montserrat"
           fontSize="20px"
           fontWeight="400"
           color="rgba(0,0,0,1)"
@@ -216,7 +200,6 @@ export default function Vagas(props) {
           {...getOverrideProps(overrides, "H\u00EDbrido38512404")}
         ></Text>
         <Text
-          fontFamily="Montserrat"
           fontSize="20px"
           fontWeight="300"
           color="rgba(0,0,0,1)"
@@ -240,7 +223,6 @@ export default function Vagas(props) {
           {...getOverrideProps(overrides, "Hoje")}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="34px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
@@ -264,6 +246,7 @@ export default function Vagas(props) {
           {...getOverrideProps(overrides, "ANALISTA DE DADOS")}
         ></Text>
         <Image
+        src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/EmpresaExemplo.svg"
           width="9.61%"
           height="12.95%"
           display="block"
@@ -282,7 +265,6 @@ export default function Vagas(props) {
           {...getOverrideProps(overrides, "image 7")}
         ></Image>
         <Text
-          fontFamily="Montserrat"
           fontSize="20px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
@@ -306,7 +288,6 @@ export default function Vagas(props) {
           {...getOverrideProps(overrides, "4,5")}
         ></Text>
         <Text
-          fontFamily="Montserrat"
           fontSize="20px"
           fontWeight="700"
           color="rgba(0,148,255,1)"
@@ -355,7 +336,6 @@ export default function Vagas(props) {
           {...getOverrideProps(overrides, "Line 33")}
         ></Icon>
         <Text
-          fontFamily="Poppins"
           fontSize="16px"
           fontWeight="500"
           color="rgba(0,0,0,1)"
@@ -379,7 +359,6 @@ export default function Vagas(props) {
           {...getOverrideProps(overrides, "Vaga")}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="13px"
           fontWeight="400"
           color="rgba(0,0,0,1)"
@@ -573,8 +552,7 @@ export default function Vagas(props) {
           {...getOverrideProps(overrides, "Group 474")}
         >
           <Text
-            fontFamily="Poppins"
-            fontSize="34px"
+              fontSize="34px"
             fontWeight="600"
             color="rgba(0,0,0,1)"
             lineHeight="51px"
@@ -615,8 +593,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "Rectangle 15338512428")}
           ></View>
           <Text
-            fontFamily="Montserrat"
-            fontSize="24px"
+              fontSize="24px"
             fontWeight="600"
             color="rgba(0,0,0,1)"
             lineHeight="29.256000518798828px"
@@ -639,8 +616,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "DESIGN GR\u00C1FICO")}
           ></Text>
           <Text
-            fontFamily="Montserrat"
-            fontSize="20px"
+              fontSize="20px"
             fontWeight="700"
             color="rgba(0,0,0,1)"
             lineHeight="24.3799991607666px"
@@ -663,8 +639,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "4,1")}
           ></Text>
           <Text
-            fontFamily="Montserrat"
-            fontSize="20px"
+              fontSize="20px"
             fontWeight="700"
             color="rgba(0,148,255,1)"
             lineHeight="24.3799991607666px"
@@ -687,8 +662,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "New Berg")}
           ></Text>
           <Text
-            fontFamily="Poppins"
-            fontSize="15px"
+              fontSize="15px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
             lineHeight="22.5px"
@@ -711,8 +685,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "S\u00E3o Paulo - SP38512432")}
           ></Text>
           <Text
-            fontFamily="Montserrat"
-            fontSize="15px"
+              fontSize="15px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
             lineHeight="18.28499984741211px"
@@ -735,8 +708,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "09 out")}
           ></Text>
           <Text
-            fontFamily="Montserrat"
-            fontSize="15px"
+              fontSize="15px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
             lineHeight="18.28499984741211px"
@@ -829,8 +801,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "Rectangle 15338512438")}
           ></View>
           <Text
-            fontFamily="Poppins"
-            fontSize="24px"
+              fontSize="24px"
             fontWeight="600"
             color="rgba(0,0,0,1)"
             lineHeight="36px"
@@ -856,8 +827,7 @@ export default function Vagas(props) {
             )}
           ></Text>
           <Text
-            fontFamily="Montserrat"
-            fontSize="20px"
+              fontSize="20px"
             fontWeight="700"
             color="rgba(0,0,0,1)"
             lineHeight="24.3799991607666px"
@@ -880,8 +850,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "4,9")}
           ></Text>
           <Text
-            fontFamily="Montserrat"
-            fontSize="20px"
+              fontSize="20px"
             fontWeight="700"
             color="rgba(0,148,255,1)"
             lineHeight="24.3799991607666px"
@@ -904,8 +873,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "City Corp")}
           ></Text>
           <Text
-            fontFamily="Poppins"
-            fontSize="15px"
+              fontSize="15px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
             lineHeight="22.5px"
@@ -928,8 +896,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "S\u00E3o Paulo - SP38512442")}
           ></Text>
           <Text
-            fontFamily="Montserrat"
-            fontSize="15px"
+              fontSize="15px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
             lineHeight="18.28499984741211px"
@@ -952,8 +919,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "01 set")}
           ></Text>
           <Text
-            fontFamily="Montserrat"
-            fontSize="15px"
+              fontSize="15px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
             lineHeight="18.28499984741211px"
@@ -1021,8 +987,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "Rectangle 15338512447")}
           ></View>
           <Text
-            fontFamily="Montserrat"
-            fontSize="24px"
+              fontSize="24px"
             fontWeight="600"
             color="rgba(0,0,0,1)"
             lineHeight="29.256000518798828px"
@@ -1045,8 +1010,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "ENGENHEIRO DE REDES")}
           ></Text>
           <Text
-            fontFamily="Montserrat"
-            fontSize="20px"
+              fontSize="20px"
             fontWeight="700"
             color="rgba(0,0,0,1)"
             lineHeight="24.3799991607666px"
@@ -1116,8 +1080,7 @@ export default function Vagas(props) {
             ></Icon>
           </View>
           <Text
-            fontFamily="Poppins"
-            fontSize="20px"
+              fontSize="20px"
             fontWeight="700"
             color="rgba(0,148,255,1)"
             lineHeight="30px"
@@ -1187,8 +1150,7 @@ export default function Vagas(props) {
             ></Icon>
           </View>
           <Text
-            fontFamily="Poppins"
-            fontSize="15px"
+              fontSize="15px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
             lineHeight="22.5px"
@@ -1211,8 +1173,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "S\u00E3o Paulo - SP38512455")}
           ></Text>
           <Text
-            fontFamily="Poppins"
-            fontSize="15px"
+              fontSize="15px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
             lineHeight="22.5px"
@@ -1235,8 +1196,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "26 ago")}
           ></Text>
           <Text
-            fontFamily="Poppins"
-            fontSize="15px"
+              fontSize="15px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
             lineHeight="22.5px"
@@ -1415,7 +1375,7 @@ export default function Vagas(props) {
       ></Button>
       <View
         padding="0px 0px 0px 0px"
-        width="1518px"
+        width="1520px"
         height="70px"
         display="block"
         gap="unset"
@@ -1427,7 +1387,7 @@ export default function Vagas(props) {
         {...getOverrideProps(overrides, "NavHeader")}
       >
         <View
-          width="1518px"
+          width="100vw"
           height="70px"
           display="block"
           gap="unset"
@@ -1455,8 +1415,9 @@ export default function Vagas(props) {
           {...getOverrideProps(overrides, "Button39012839")}
         ></Button>
         <Image
+        src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/LogoBrancaConecta.svg"
           width="182.24px"
-          height="24px"
+          height="37px"
           display="block"
           gap="unset"
           alignItems="unset"
@@ -1478,7 +1439,7 @@ export default function Vagas(props) {
           size="small"
           isDisabled={false}
           variation="primary"
-          children="Home"
+          children="Início"
           {...getOverrideProps(overrides, "Button39012841")}
         ></Button>
         <Button

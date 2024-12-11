@@ -12,7 +12,7 @@ export default function Premium(props) {
   const { bancoImagens, overrides, ...rest } = props;
   return (
     <View
-      width="1519px"
+      width="100vw"
       height="1017px"
       display="block"
       gap="unset"
@@ -26,7 +26,8 @@ export default function Premium(props) {
       {...rest}
     >
       <Image
-        width="1519px"
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/BackgroundConecta.jpg?raw=true"
+        width="100vw"
         height="947px"
         display="block"
         gap="unset"
@@ -39,20 +40,7 @@ export default function Premium(props) {
         objectFit="cover"
         {...getOverrideProps(overrides, "Fundo Novo")}
       ></Image>
-      <Image
-        width="104px"
-        height="103px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="104px"
-        left="1569px"
-        padding="0px 0px 0px 0px"
-        objectFit="cover"
-        {...getOverrideProps(overrides, "AvatarPerfil 1")}
-      ></Image>
+
       <View
         padding="0px 0px 0px 0px"
         width="1037px"
@@ -101,7 +89,6 @@ export default function Premium(props) {
           ></Icon>
         </View>
         <Text
-          fontFamily="Poppins"
           fontSize="34px"
           fontWeight="600"
           color="rgba(0,0,0,1)"
@@ -564,7 +551,6 @@ export default function Premium(props) {
           {...getOverrideProps(overrides, "Frame 429")}
         >
           <Text
-            fontFamily="Poppins"
             fontSize="16px"
             fontWeight="600"
             color="rgba(0,0,0,1)"
@@ -585,7 +571,6 @@ export default function Premium(props) {
             {...getOverrideProps(overrides, "ConectaPlus")}
           ></Text>
           <Text
-            fontFamily="Inter"
             fontSize="32px"
             fontWeight="600"
             color="rgba(13,26,38,1)"
@@ -606,7 +591,6 @@ export default function Premium(props) {
             {...getOverrideProps(overrides, "R$49,99/M")}
           ></Text>
           <Text
-            fontFamily="Poppins"
             fontSize="16px"
             fontWeight="600"
             color="rgba(92,102,112,1)"
@@ -697,7 +681,6 @@ export default function Premium(props) {
             </View>
           </Flex>
           <Text
-            fontFamily="Poppins"
             fontSize="16px"
             fontWeight="400"
             color="rgba(13,26,38,1)"
@@ -794,7 +777,6 @@ export default function Premium(props) {
             </View>
           </Flex>
           <Text
-            fontFamily="Poppins"
             fontSize="16px"
             fontWeight="400"
             color="rgba(13,26,38,1)"
@@ -891,7 +873,6 @@ export default function Premium(props) {
             </View>
           </Flex>
           <Text
-            fontFamily="Poppins"
             fontSize="16px"
             fontWeight="400"
             color="rgba(13,26,38,1)"
@@ -969,7 +950,7 @@ export default function Premium(props) {
         {...getOverrideProps(overrides, "NavHeader")}
       >
         <View
-          width="1519px"
+          width="100vw"
           height="70px"
           display="block"
           gap="unset"
@@ -997,8 +978,9 @@ export default function Premium(props) {
           {...getOverrideProps(overrides, "Button39214302")}
         ></Button>
         <Image
+          src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/LogoBrancaConecta.svg"
           width="182.36px"
-          height="24px"
+          height="37px"
           display="block"
           gap="unset"
           alignItems="unset"

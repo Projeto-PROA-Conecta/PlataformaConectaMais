@@ -19,7 +19,7 @@ export default function CadastroUsuario3(props) {
   const { bancoImagens, overrides, ...rest } = props;
   return (
     <View
-      width="1519px"
+      width="100vw"
       height="1117px"
       display="block"
       gap="unset"
@@ -32,7 +32,8 @@ export default function CadastroUsuario3(props) {
       {...rest}
     >
       <Image
-        width="100%"
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/BackgroundConecta.jpg?raw=true"
+        width="100vw"
         height="100%"
         display="block"
         gap="unset"
@@ -48,7 +49,6 @@ export default function CadastroUsuario3(props) {
         {...getOverrideProps(overrides, "Fundo Novo")}
       ></Image>
       <Text
-        fontFamily="Poppins"
         fontSize="44px"
         fontWeight="700"
         color="rgba(0,0,0,1)"
@@ -122,7 +122,6 @@ export default function CadastroUsuario3(props) {
           {...getOverrideProps(overrides, "Rectangle 201")}
         ></View>
         <Text
-          fontFamily="Poppins"
           fontSize="13px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
@@ -149,7 +148,6 @@ export default function CadastroUsuario3(props) {
           )}
         ></Text>
         <Text
-          fontFamily="Poppins"
           fontSize="32px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
@@ -278,6 +276,7 @@ export default function CadastroUsuario3(props) {
         ></Button>
       </View>
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/LogoPretaConecta.png?raw=true"
         width="20.41%"
         height="13.43%"
         display="block"

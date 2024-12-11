@@ -19,7 +19,7 @@ export default function CadastroUsuario4(props) {
   const { bancoImagens, overrides, ...rest } = props;
   return (
     <View
-      width="1519px"
+      width="100vw"
       height="1117px"
       display="block"
       gap="unset"
@@ -32,7 +32,8 @@ export default function CadastroUsuario4(props) {
       {...rest}
     >
       <Image
-        width="100%"
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/BackgroundConecta.jpg?raw=true"
+        width="100vw"
         height="100%"
         display="block"
         gap="unset"
@@ -48,7 +49,6 @@ export default function CadastroUsuario4(props) {
         {...getOverrideProps(overrides, "Fundo Novo")}
       ></Image>
       <Text
-        fontFamily="Poppins"
         fontSize="34px"
         fontWeight="700"
         color="rgba(0,0,0,1)"
@@ -161,7 +161,6 @@ export default function CadastroUsuario4(props) {
           {...getOverrideProps(overrides, "Ellipse 110")}
         ></Icon>
         <Text
-          fontFamily="Montserrat"
           fontSize="32px"
           fontWeight="700"
           color="rgba(255,255,255,1)"
@@ -2363,6 +2362,7 @@ export default function CadastroUsuario4(props) {
         ></SelectField>
       </View>
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/LogoPretaConecta.png?raw=true"
         width="20.41%"
         height="13.43%"
         display="block"
@@ -2382,7 +2382,6 @@ export default function CadastroUsuario4(props) {
         )}
       ></Image>
       <Text
-        fontFamily="Montserrat"
         fontSize="32px"
         fontWeight="700"
         color="rgba(0,0,0,1)"
@@ -2397,7 +2396,7 @@ export default function CadastroUsuario4(props) {
         alignItems="unset"
         position="absolute"
         top="calc(50% - 25.66px - 120.84px)"
-        left="calc(50% - 170.5px - 0px)"
+        left="38%"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
         children="Questionário"

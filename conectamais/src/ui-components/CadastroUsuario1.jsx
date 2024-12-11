@@ -20,7 +20,7 @@ export default function CadastroUsuario1(props) {
   const { bancoImagens, overrides, ...rest } = props;
   return (
     <View
-      width="1519px"
+      width="100vw"
       height="1117px"
       display="block"
       gap="unset"
@@ -33,7 +33,8 @@ export default function CadastroUsuario1(props) {
       {...rest}
     >
       <Image
-        width="1523px"
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/BackgroundConecta.jpg?raw=true"
+        width="100vw"
         height="1117px"
         display="block"
         gap="unset"
@@ -46,21 +47,7 @@ export default function CadastroUsuario1(props) {
         objectFit="cover"
         {...getOverrideProps(overrides, "Fundo Novo")}
       ></Image>
-      <View
-        width="1519px"
-        height="1117px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="0%"
-        bottom="0%"
-        left="0%"
-        right="0%"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Rectangle")}
-      ></View>
+
       <View
         padding="0px 0px 0px 0px"
         width="1070.41px"
@@ -108,7 +95,6 @@ export default function CadastroUsuario1(props) {
           {...getOverrideProps(overrides, "Group 6")}
         >
           <Text
-            fontFamily="Montserrat"
             fontSize="44px"
             fontWeight="700"
             color="rgba(0,0,0,1)"
@@ -165,7 +151,6 @@ export default function CadastroUsuario1(props) {
             {...getOverrideProps(overrides, "Rectangle 1")}
           ></View>
           <Text
-            fontFamily="Montserrat"
             fontSize="12px"
             fontWeight="700"
             color="rgba(255,255,255,1)"
@@ -189,7 +174,6 @@ export default function CadastroUsuario1(props) {
             {...getOverrideProps(overrides, "Pronto")}
           ></Text>
           <Text
-            fontFamily="Poppins"
             fontSize="20px"
             fontWeight="700"
             color="rgba(0,0,0,1)"
@@ -239,7 +223,6 @@ export default function CadastroUsuario1(props) {
           {...getOverrideProps(overrides, "Ellipse 10038512153")}
         ></Icon>
         <Text
-          fontFamily="Montserrat"
           fontSize="34px"
           fontWeight="700"
           color="rgba(0,0,0,1)"
@@ -277,6 +260,7 @@ export default function CadastroUsuario1(props) {
         ></Button>
       </View>
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/LogoPretaConecta.png?raw=true"
         width="20.41%"
         height="13.43%"
         display="block"
