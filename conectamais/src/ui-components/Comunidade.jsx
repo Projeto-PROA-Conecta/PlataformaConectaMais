@@ -6,6 +6,7 @@
 
 /* eslint-disable */
 import * as React from "react";
+import { useNavigate } from "react-router-dom";
 import { getOverrideProps } from "./utils";
 import {
   Button,
@@ -17,6 +18,7 @@ import {
 } from "@aws-amplify/ui-react";
 export default function Comunidade(props) {
   const { overrides, ...rest } = props;
+  const navigate = useNavigate();
   return (
     <View
       width="100vw"
@@ -31,7 +33,7 @@ export default function Comunidade(props) {
       {...rest}
     >
       <Image
-      src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/BackgroundConecta.jpg?raw=true"
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/BackgroundConecta.jpg?raw=true"
         width="100%"
         height="100%"
         display="block"
@@ -54,6 +56,7 @@ export default function Comunidade(props) {
         position="absolute"
         top="8.2%"
         bottom="89.36%"
+        backgroundColor={"white"}
         left="23.32%"
         right="31.11%"
         size="large"
@@ -116,7 +119,7 @@ export default function Comunidade(props) {
           {...getOverrideProps(overrides, "Rectangle 12239013388")}
         ></View>
         <Image
-        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/anoni.png?raw=true"
+          src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/anoni.png?raw=true"
           width="53.16%"
           height="42.44%"
           display="block"
@@ -254,7 +257,6 @@ export default function Comunidade(props) {
         )}
       ></Text>
       <Text
-        fontFamily="Poppins"
         fontSize="20px"
         fontWeight="500"
         color="rgba(0,0,0,1)"
@@ -368,7 +370,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "Aurora Seles")}
       ></Text>
       <Image
-      src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/PerfilSemFoto.png?raw=true"
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/PerfilSemFoto.png?raw=true"
         width="5.28%"
         height="4.26%"
         display="block"
@@ -385,7 +387,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "image 8")}
       ></Image>
       <Image
-        width="5.26%"
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/image.png?raw=true"
         height="4.24%"
         display="block"
         gap="unset"
@@ -402,6 +404,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "image39013402")}
       ></Image>
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/image-1.png?raw=true"
         width="5.22%"
         height="4.2%"
         display="block"
@@ -445,6 +448,7 @@ export default function Comunidade(props) {
         )}
       ></Text>
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/image-2.png?raw=true"
         width="10.63%"
         height="12.67%"
         display="block"
@@ -462,6 +466,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "image39013405")}
       ></Image>
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/image-3.png?raw=true"
         width="10.63%"
         height="12.67%"
         display="block"
@@ -479,6 +484,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "image39013406")}
       ></Image>
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/image-4.png?raw=true"
         width="10.5%"
         height="10.38%"
         display="block"
@@ -496,6 +502,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "image39013407")}
       ></Image>
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/image-5.png?raw=true"
         width="12.43%"
         height="6.17%"
         display="block"
@@ -513,6 +520,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "image39013408")}
       ></Image>
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/image-6.png?raw=true"
         width="12.43%"
         height="6.17%"
         display="block"
@@ -530,6 +538,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "image39013409")}
       ></Image>
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/image-7.png?raw=true"
         width="12.29%"
         height="6.17%"
         display="block"
@@ -547,6 +556,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "image39013410")}
       ></Image>
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/image-15.png?raw=true"
         width="12.42%"
         height="5.8%"
         display="block"
@@ -564,6 +574,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "image39013411")}
       ></Image>
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/image-13.png?raw=true"
         width="12.42%"
         height="5.8%"
         display="block"
@@ -581,6 +592,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "image39013412")}
       ></Image>
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/image-10.png?raw=true"
         width="12.29%"
         height="5.8%"
         display="block"
@@ -598,6 +610,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "image39013413")}
       ></Image>
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/image-11.png?raw=true"
         width="12.43%"
         height="5.97%"
         display="block"
@@ -615,6 +628,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "image39013414")}
       ></Image>
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/image-12.png?raw=true"
         width="12.43%"
         height="5.97%"
         display="block"
@@ -632,6 +646,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "image39013415")}
       ></Image>
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/image-13.png?raw=true"
         width="12.42%"
         height="3.73%"
         display="block"
@@ -649,6 +664,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "image39013416")}
       ></Image>
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/image-14.png?raw=true"
         width="12.43%"
         height="5.97%"
         display="block"
@@ -666,6 +682,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "image39013417")}
       ></Image>
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/image-15.png?raw=true"
         width="12.43%"
         height="5.97%"
         display="block"
@@ -683,6 +700,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "image39013418")}
       ></Image>
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/image-8.png?raw=true"
         width="12.35%"
         height="3.73%"
         display="block"
@@ -736,13 +754,13 @@ export default function Comunidade(props) {
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="65.39%"
+        top="1227px"
         bottom="32%"
         left="53.17%"
         right="42.93%"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
-        children="+ 3"
+        children="+3"
         {...getOverrideProps(overrides, "+ 3")}
       ></Text>
       <Text
@@ -857,6 +875,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "Rectangle 12239013426")}
       ></View>
       <Image
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/image-16.png?raw=true"
         width="8.59%"
         height="6.97%"
         display="block"
@@ -965,7 +984,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "Rectangle 12239013432")}
       ></View>
       <Image
-        width="8.65%"
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/evofluiLogo.png?raw=true"
         height="6.97%"
         display="block"
         gap="unset"
@@ -1111,7 +1130,6 @@ export default function Comunidade(props) {
           {...getOverrideProps(overrides, "Vector")}
         ></Icon>
         <Text
-          fontFamily="Poppins"
           fontSize="14px"
           fontWeight="600"
           color="rgba(0,0,0,1)"
@@ -1132,10 +1150,11 @@ export default function Comunidade(props) {
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="ANALISTA DE DADOS"
+          onClick={() => navigate("/Vagas")}
           {...getOverrideProps(overrides, "ANALISTA DE DADOS")}
         ></Text>
         <Image
-        src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/EmpresaExemplo.svg"
+          src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/EmpresaExemplo.svg"
           width="29.57%"
           height="30.37%"
           display="block"
@@ -1236,6 +1255,7 @@ export default function Comunidade(props) {
         isDisabled={false}
         variation="primary"
         children="Criar Conta"
+        onClick={() => navigate("/EscolhaDeConta")}
         {...getOverrideProps(overrides, "Button39013445")}
       ></Button>
       <View
@@ -1273,7 +1293,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "NavHeader")}
       >
         <View
-          width="1523.01px"
+          width="100vw"
           height="70px"
           display="block"
           gap="unset"
@@ -1302,10 +1322,13 @@ export default function Comunidade(props) {
           isDisabled={false}
           variation="primary"
           children="Cadastrar-se"
+          onClick={() => navigate("/EscolhaDeConta")}
           {...getOverrideProps(overrides, "Button39013774")}
         ></Button>
         <Image
-        src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/LogoBrancaConecta.svg"
+          src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/LogoBrancaConecta.svg"
+          style={{ cursor: "pointer" }}
+          onClick={() => navigate("/Home")}
           width="12.01%"
           height="37px"
           display="block"
@@ -1332,7 +1355,8 @@ export default function Comunidade(props) {
           size="small"
           isDisabled={false}
           variation="primary"
-          children="Home"
+          children="Início"
+          onClick={() => navigate("/Home")}
           {...getOverrideProps(overrides, "Button39013776")}
         ></Button>
         <Button
@@ -1360,7 +1384,8 @@ export default function Comunidade(props) {
           size="small"
           isDisabled={false}
           variation="primary"
-          children="Acessibilidade"
+          children="Vagas"
+          onClick={() => navigate("/Vagas")}
           {...getOverrideProps(overrides, "Button39013778")}
         ></Button>
         <Button
@@ -1374,7 +1399,8 @@ export default function Comunidade(props) {
           size="small"
           isDisabled={false}
           variation="primary"
-          children="Ajuda"
+          children="Acessibilidade"
+          onClick={() => navigate("/ConfigsAcessibilidade")}
           {...getOverrideProps(overrides, "Button39013779")}
         ></Button>
         <Button
@@ -1389,6 +1415,7 @@ export default function Comunidade(props) {
           isDisabled={false}
           variation="primary"
           children="Entrar"
+          onClick={() => navigate("/TelaDeLogin")}
           {...getOverrideProps(overrides, "Button39013780")}
         ></Button>
       </View>

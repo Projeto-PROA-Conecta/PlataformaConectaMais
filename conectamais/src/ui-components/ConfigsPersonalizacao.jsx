@@ -6,6 +6,7 @@
 
 /* eslint-disable */
 import * as React from "react";
+import { useNavigate } from "react-router-dom";
 import { getOverrideProps } from "./utils";
 import {
   Button,
@@ -18,6 +19,8 @@ import {
 } from "@aws-amplify/ui-react";
 export default function ConfigsPersonalizacao(props) {
   const { bancoImagens, overrides, ...rest } = props;
+  const navigate = useNavigate();
+
   return (
     <View
       width="100vw"
@@ -318,6 +321,8 @@ export default function ConfigsPersonalizacao(props) {
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Acessibilidade"
+          onClick={() => navigate("/ConfigsAcessibilidade")}
+          style={{ cursor: "pointer" }}
           {...getOverrideProps(overrides, "Acessibilidade")}
         ></Text>
         <Text
@@ -339,6 +344,8 @@ export default function ConfigsPersonalizacao(props) {
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Acesso e Segurança"
+          onClick={() => navigate("/Configs")}
+          style={{ cursor: "pointer" }}
           {...getOverrideProps(overrides, "Acesso e Seguran\u00E7a")}
         ></Text>
         <Text
@@ -360,6 +367,8 @@ export default function ConfigsPersonalizacao(props) {
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Aparência"
+          onClick={() => navigate("/ConfigsPersonalizacao")}
+          style={{ cursor: "pointer" }}
           {...getOverrideProps(overrides, "Apar\u00EAncia")}
         ></Text>
         <Text
@@ -381,6 +390,8 @@ export default function ConfigsPersonalizacao(props) {
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Notificação"
+          onClick={() => navigate("/ConfigsNotificacoes")}
+          style={{ cursor: "pointer" }}
           {...getOverrideProps(overrides, "Notifica\u00E7\u00E3o")}
         ></Text>
         <Divider
@@ -463,10 +474,13 @@ export default function ConfigsPersonalizacao(props) {
             isDisabled={false}
             variation="primary"
             children="Cadastrar-se"
+            onClick={() => navigate("/EscolhaDeConta")}
             {...getOverrideProps(overrides, "Button38981972")}
           ></Button>
           <Image
             src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/LogoBrancaConecta.svg"
+            onClick={() => navigate("/Home")}
+            style={{ cursor: "pointer" }}
             width="182.36px"
             height="37px"
             display="block"
@@ -490,7 +504,8 @@ export default function ConfigsPersonalizacao(props) {
             size="small"
             isDisabled={false}
             variation="primary"
-            children="Home"
+            children="Início"
+            onClick={() => navigate("/Home")}
             {...getOverrideProps(overrides, "Button38981974")}
           ></Button>
           <Button
@@ -498,12 +513,13 @@ export default function ConfigsPersonalizacao(props) {
             height="unset"
             position="absolute"
             top="22px"
-            left="722.43px"
+            left="670.43px"
             backgroundColor="rgba(0,0,0,0)"
             size="small"
             isDisabled={false}
             variation="primary"
             children="Comunidade"
+            onClick={() => navigate("/Comunidade")}
             {...getOverrideProps(overrides, "Button38981975")}
           ></Button>
           <Button
@@ -516,7 +532,8 @@ export default function ConfigsPersonalizacao(props) {
             size="small"
             isDisabled={false}
             variation="primary"
-            children="Acessibilidade"
+            children="Vagas"
+            onClick={() => navigate("/Vagas")}
             {...getOverrideProps(overrides, "Button38981976")}
           ></Button>
           <Button
@@ -524,12 +541,13 @@ export default function ConfigsPersonalizacao(props) {
             height="unset"
             position="absolute"
             top="22px"
-            left="938.85px"
+            left="908.85px"
             backgroundColor="rgba(0,0,0,0)"
             size="small"
             isDisabled={false}
             variation="primary"
-            children="Ajuda"
+            children="Acessibilidade"
+            onClick={() => navigate("/ConfigsAcessibilidade")}
             {...getOverrideProps(overrides, "Button38981977")}
           ></Button>
           <Button
@@ -543,6 +561,7 @@ export default function ConfigsPersonalizacao(props) {
             isDisabled={false}
             variation="primary"
             children="Entrar"
+            onClick={() => navigate("/TelaDeLogin")}
             {...getOverrideProps(overrides, "Button38981978")}
           ></Button>
         </View>

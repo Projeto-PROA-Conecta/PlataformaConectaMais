@@ -7,6 +7,7 @@
 /* eslint-disable */
 import * as React from "react";
 import { getOverrideProps } from "./utils";
+import { useNavigate } from "react-router-dom";
 import {
   Button,
   Icon,
@@ -17,6 +18,48 @@ import {
 } from "@aws-amplify/ui-react";
 export default function CadastroUsuario4(props) {
   const { bancoImagens, overrides, ...rest } = props;
+  const navigate = useNavigate();
+  const negativa = ["não"];
+  const ambiente = ["remoto", "híbrido"];
+  const aspectos = ["auditivo"];
+  const dificuldades = [
+    "Carga de Trabalho Excessiva",
+    "Comunicação Ineficiente",
+    "Conflitos com Colegas de Trabalho",
+    "Falta de Reconhecimento",
+    "Gestão Ineficaz",
+    "Prazos Irrealistas",
+    "Falta de Treinamento Adequado",
+    "Ambiente de Trabalho Tóxico",
+    "Falta de Autonomia",
+    "Resistência à Mudança",
+    "Falta de Planejamento",
+    "Problemas com Ferramentas de Trabalho",
+    "Falta de Oportunidades de Crescimento",
+    "Pressão por Resultados",
+    "Falta de Clareza nas Tarefas",
+    "Baixo Moral da Equipe",
+    "Problemas Técnicos Constantes",
+    "Falta de Equilíbrio entre Vida Profissional e Pessoal",
+    "Mudanças Constantes de Prioridades",
+    "Falta de Apoio da Liderança",
+    "Falta de Diversidade ou Inclusão",
+  ];
+
+  const habilidades = [
+    "Inteligente",
+    "Proativo",
+    "Organizado",
+    "Comunicativo",
+    "Empático",
+    "Ágil",
+    "Responsável",
+    "Resiliente",
+    "Flexível",
+    "Liderança",
+    "Colaborativo",
+  ];
+
   return (
     <View
       width="100vw"
@@ -2299,7 +2342,13 @@ export default function CadastroUsuario4(props) {
           labelHidden={false}
           variation="default"
           {...getOverrideProps(overrides, "SelectField3857391")}
-        ></SelectField>
+        >
+          {aspectos.map((aspectos) => (
+            <option key={aspectos} value={aspectos}>
+              {aspectos}
+            </option>
+          ))}
+        </SelectField>
         <SelectField
           width="387px"
           height="unset"
@@ -2314,7 +2363,13 @@ export default function CadastroUsuario4(props) {
           labelHidden={false}
           variation="default"
           {...getOverrideProps(overrides, "SelectField3857392")}
-        ></SelectField>
+        >
+          {ambiente.map((ambiente) => (
+            <option key={ambiente} value={ambiente}>
+              {ambiente}
+            </option>
+          ))}
+        </SelectField>
         <SelectField
           width="387px"
           height="unset"
@@ -2329,7 +2384,13 @@ export default function CadastroUsuario4(props) {
           labelHidden={false}
           variation="default"
           {...getOverrideProps(overrides, "SelectField3857393")}
-        ></SelectField>
+        >
+          {negativa.map((negativa) => (
+            <option key={negativa} value={negativa}>
+              {negativa}
+            </option>
+          ))}
+        </SelectField>
         <SelectField
           width="387px"
           height="unset"
@@ -2344,11 +2405,17 @@ export default function CadastroUsuario4(props) {
           labelHidden={false}
           variation="default"
           {...getOverrideProps(overrides, "SelectField3857419")}
-        ></SelectField>
+        >
+          {dificuldades.map((dificuldades) => (
+            <option key={dificuldades} value={dificuldades}>
+              {dificuldades}
+            </option>
+          ))}
+        </SelectField>
         <SelectField
           width="387px"
           height="unset"
-          label="Quais são suas principais habilidades profissionais? (Selecione todas que se aplicam)"
+          label="Quais são suas principais habilidades profissionais?"
           placeholder="Criatividade"
           position="absolute"
           top="calc(50% - 45px - -230.54px)"
@@ -2359,7 +2426,13 @@ export default function CadastroUsuario4(props) {
           labelHidden={false}
           variation="default"
           {...getOverrideProps(overrides, "SelectField3857428")}
-        ></SelectField>
+        >
+          {habilidades.map((habilidades) => (
+            <option key={habilidades} value={habilidades}>
+              {habilidades}
+            </option>
+          ))}
+        </SelectField>
       </View>
       <Image
         src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/LogoPretaConecta.png?raw=true"
@@ -2412,6 +2485,7 @@ export default function CadastroUsuario4(props) {
         isDisabled={false}
         variation="default"
         children="Voltar"
+        onClick={() => navigate("/CadastroUsuario3")}
         {...getOverrideProps(overrides, "Button3857478")}
       ></Button>
       <Button
@@ -2425,6 +2499,7 @@ export default function CadastroUsuario4(props) {
         isDisabled={false}
         variation="primary"
         children="Continuar"
+        onClick={() => navigate("/CadastroUsuario5")}
         {...getOverrideProps(overrides, "Button3857479")}
       ></Button>
     </View>

@@ -6,6 +6,7 @@
 
 /* eslint-disable */
 import * as React from "react";
+import { useNavigate } from "react-router-dom";
 import { getOverrideProps } from "./utils";
 import {
   Button,
@@ -19,6 +20,7 @@ import {
 } from "@aws-amplify/ui-react";
 export default function CadastroEmpresas(props) {
   const { bancoImagens, overrides, ...rest } = props;
+  const navigate = useNavigate();
   return (
     <View
       width="100vw"
@@ -243,6 +245,7 @@ export default function CadastroEmpresas(props) {
           isDisabled={false}
           variation="default"
           children="Voltar"
+          onClick={() => navigate("/EscolhaDeConta")}
           {...getOverrideProps(overrides, "Button38572644")}
         ></Button>
         <Button
@@ -256,6 +259,7 @@ export default function CadastroEmpresas(props) {
           isDisabled={false}
           variation="primary"
           children="Continuar"
+          onClick={() => navigate("/Home")}
           {...getOverrideProps(overrides, "Button3872877")}
         ></Button>
       </View>

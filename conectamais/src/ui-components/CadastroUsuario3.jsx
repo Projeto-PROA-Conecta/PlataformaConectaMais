@@ -7,6 +7,7 @@
 /* eslint-disable */
 import * as React from "react";
 import { getOverrideProps } from "./utils";
+import { useNavigate } from "react-router-dom";
 import {
   Button,
   Icon,
@@ -17,6 +18,9 @@ import {
 } from "@aws-amplify/ui-react";
 export default function CadastroUsuario3(props) {
   const { bancoImagens, overrides, ...rest } = props;
+  const navigate = useNavigate();
+  const negativa = ["não"];
+  const nivel = ["nível 2"];
   return (
     <View
       width="100vw"
@@ -259,6 +263,7 @@ export default function CadastroUsuario3(props) {
           isDisabled={false}
           variation="default"
           children="Voltar"
+          onClick={() => navigate("/CadastroUsuario2")}
           {...getOverrideProps(overrides, "Button3857382")}
         ></Button>
         <Button
@@ -272,6 +277,7 @@ export default function CadastroUsuario3(props) {
           isDisabled={false}
           variation="primary"
           children="Continuar"
+          onClick={() => navigate("/CadastroUsuario4")}
           {...getOverrideProps(overrides, "Button3857383")}
         ></Button>
       </View>
@@ -309,7 +315,13 @@ export default function CadastroUsuario3(props) {
         labelHidden={false}
         variation="default"
         {...getOverrideProps(overrides, "SelectField3857352")}
-      ></SelectField>
+      >
+        {negativa.map((negativa) => (
+          <option key={negativa} value={negativa}>
+            {negativa}
+          </option>
+        ))}
+      </SelectField>
       <SelectField
         width="384px"
         height="unset"
@@ -324,7 +336,13 @@ export default function CadastroUsuario3(props) {
         labelHidden={false}
         variation="default"
         {...getOverrideProps(overrides, "SelectField3857363")}
-      ></SelectField>
+      >
+        {nivel.map((nivel) => (
+          <option key={nivel} value={nivel}>
+            {nivel}
+          </option>
+        ))}
+      </SelectField>
       <SelectField
         width="384px"
         height="unset"
@@ -339,7 +357,13 @@ export default function CadastroUsuario3(props) {
         labelHidden={false}
         variation="default"
         {...getOverrideProps(overrides, "SelectField3857372")}
-      ></SelectField>
+      >
+        {negativa.map((negativa) => (
+          <option key={negativa} value={negativa}>
+            {negativa}
+          </option>
+        ))}
+      </SelectField>
     </View>
   );
 }

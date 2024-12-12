@@ -7,6 +7,7 @@
 /* eslint-disable */
 import * as React from "react";
 import { getOverrideProps } from "./utils";
+import { useNavigate } from "react-router-dom";
 import {
   Button,
   Icon,
@@ -18,6 +19,7 @@ import {
 } from "@aws-amplify/ui-react";
 export default function TelaDeLogin(props) {
   const { bancoImagens, overrides, ...rest } = props;
+  const navigate = useNavigate();
   return (
     <View
       width="100vw"
@@ -109,7 +111,9 @@ export default function TelaDeLogin(props) {
             right="63.48%"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
-            children="Esqueci a senha"
+            children="Inscreva-se"
+            style={{ cursor: "pointer", textDecoration: "underline" }}
+            onClick={() => navigate("/CadastroUsuario1")}
             {...getOverrideProps(overrides, "Esqueci a senha")}
           ></Text>
           <View
@@ -126,31 +130,7 @@ export default function TelaDeLogin(props) {
             left="17.55%"
             right="37.76%"
             {...getOverrideProps(overrides, "Group 1")}
-          >
-            <Text
-              fontSize="15px"
-              fontWeight="400"
-              color="rgba(0,0,0,1)"
-              lineHeight="22.5px"
-              textAlign="left"
-              display="block"
-              direction="column"
-              justifyContent="unset"
-              width="285.08px"
-              height="17.38px"
-              gap="unset"
-              alignItems="unset"
-              position="absolute"
-              top="0%"
-              bottom="0%"
-              left="0%"
-              right="0%"
-              padding="0px 0px 0px 0px"
-              whiteSpace="pre-wrap"
-              children="Novo por aqui?    Inscreva-se"
-              {...getOverrideProps(overrides, "Novo por aqui? Inscreva-se")}
-            ></Text>
-          </View>
+          ></View>
           <Text
             fontSize="34px"
             fontWeight="400"
@@ -1212,6 +1192,7 @@ export default function TelaDeLogin(props) {
             isDisabled={false}
             variation="primary"
             children="Entrar"
+            onClick={() => navigate("/Home")}
             {...getOverrideProps(overrides, "Button39164195")}
           ></Button>
         </View>
@@ -1246,6 +1227,7 @@ export default function TelaDeLogin(props) {
           isDisabled={false}
           variation="default"
           children="Voltar"
+          onClick={() => navigate("/Home")}
           {...getOverrideProps(overrides, "Button39214200")}
         ></Button>
       </View>

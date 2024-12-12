@@ -8,8 +8,10 @@
 import * as React from "react";
 import { getOverrideProps } from "./utils";
 import { Button, Icon, Image, Text, View } from "@aws-amplify/ui-react";
+import { useNavigate } from "react-router-dom";
 export default function EscolhaDeConta(props) {
   const { bancoImagens, overrides, ...rest } = props;
+  const navigate = useNavigate();
   return (
     <View
       width="1519px"
@@ -41,7 +43,7 @@ export default function EscolhaDeConta(props) {
         {...getOverrideProps(overrides, "Login")}
       >
         <Image
-        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/BackgroundConecta.jpg?raw=true"
+          src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/BackgroundConecta.jpg?raw=true"
           width="100vw"
           height="100%"
           display="block"
@@ -99,7 +101,7 @@ export default function EscolhaDeConta(props) {
               {...getOverrideProps(overrides, "Rectangle 1")}
             ></View>
             <Image
-            src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/LogoPretaConecta.png?raw=true"
+              src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/LogoPretaConecta.png?raw=true"
               width="309px"
               height="147px"
               display="block"
@@ -654,6 +656,7 @@ export default function EscolhaDeConta(props) {
           isDisabled={false}
           variation="default"
           children="Voltar"
+          onClick={() => navigate("/Home")}
           {...getOverrideProps(overrides, "Button38544097")}
         ></Button>
       </View>
@@ -668,6 +671,7 @@ export default function EscolhaDeConta(props) {
         isDisabled={false}
         variation="primary"
         children="Pessoal"
+        onClick={() => navigate("/CadastroUsuario1")}
         {...getOverrideProps(overrides, "Button38544320")}
       ></Button>
       <Button
@@ -681,6 +685,7 @@ export default function EscolhaDeConta(props) {
         isDisabled={false}
         variation="primary"
         children="Empresa"
+        onClick={() => navigate("/CadastroEmpresas")}
         {...getOverrideProps(overrides, "Button38544328")}
       ></Button>
       <Icon

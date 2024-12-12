@@ -8,8 +8,11 @@
 import * as React from "react";
 import { getOverrideProps } from "./utils";
 import { Button, Icon, Image, Text, View } from "@aws-amplify/ui-react";
+import { useNavigate } from "react-router-dom";
 export default function Vagas(props) {
   const { bancoImagens, overrides, ...rest } = props;
+  const navigate = useNavigate();
+
   return (
     <View
       width="100vw"
@@ -59,7 +62,7 @@ export default function Vagas(props) {
           "share_windows_24dp_4B77D1_FILL0_wght400_GRAD0_opsz24 138512389"
         )}
       ></View>
-      
+
       <View
         width="1519px"
         height="1049px"
@@ -75,7 +78,7 @@ export default function Vagas(props) {
         {...getOverrideProps(overrides, "back gorund")}
       >
         <Image
-        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/BackgroundConecta.jpg?raw=true"
+          src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/BackgroundConecta.jpg?raw=true"
           width="100vw"
           height="1049px"
           display="block"
@@ -246,7 +249,7 @@ export default function Vagas(props) {
           {...getOverrideProps(overrides, "ANALISTA DE DADOS")}
         ></Text>
         <Image
-        src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/EmpresaExemplo.svg"
+          src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/EmpresaExemplo.svg"
           width="9.61%"
           height="12.95%"
           display="block"
@@ -359,7 +362,7 @@ export default function Vagas(props) {
           {...getOverrideProps(overrides, "Vaga")}
         ></Text>
         <Text
-          fontSize="13px"
+          fontSize="16px"
           fontWeight="400"
           color="rgba(0,0,0,1)"
           lineHeight="19.5px"
@@ -552,7 +555,7 @@ export default function Vagas(props) {
           {...getOverrideProps(overrides, "Group 474")}
         >
           <Text
-              fontSize="34px"
+            fontSize="34px"
             fontWeight="600"
             color="rgba(0,0,0,1)"
             lineHeight="51px"
@@ -593,7 +596,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "Rectangle 15338512428")}
           ></View>
           <Text
-              fontSize="24px"
+            fontSize="24px"
             fontWeight="600"
             color="rgba(0,0,0,1)"
             lineHeight="29.256000518798828px"
@@ -616,7 +619,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "DESIGN GR\u00C1FICO")}
           ></Text>
           <Text
-              fontSize="20px"
+            fontSize="20px"
             fontWeight="700"
             color="rgba(0,0,0,1)"
             lineHeight="24.3799991607666px"
@@ -639,7 +642,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "4,1")}
           ></Text>
           <Text
-              fontSize="20px"
+            fontSize="20px"
             fontWeight="700"
             color="rgba(0,148,255,1)"
             lineHeight="24.3799991607666px"
@@ -662,7 +665,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "New Berg")}
           ></Text>
           <Text
-              fontSize="15px"
+            fontSize="15px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
             lineHeight="22.5px"
@@ -685,7 +688,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "S\u00E3o Paulo - SP38512432")}
           ></Text>
           <Text
-              fontSize="15px"
+            fontSize="15px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
             lineHeight="18.28499984741211px"
@@ -708,7 +711,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "09 out")}
           ></Text>
           <Text
-              fontSize="15px"
+            fontSize="15px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
             lineHeight="18.28499984741211px"
@@ -801,7 +804,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "Rectangle 15338512438")}
           ></View>
           <Text
-              fontSize="24px"
+            fontSize="24px"
             fontWeight="600"
             color="rgba(0,0,0,1)"
             lineHeight="36px"
@@ -827,7 +830,7 @@ export default function Vagas(props) {
             )}
           ></Text>
           <Text
-              fontSize="20px"
+            fontSize="20px"
             fontWeight="700"
             color="rgba(0,0,0,1)"
             lineHeight="24.3799991607666px"
@@ -850,7 +853,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "4,9")}
           ></Text>
           <Text
-              fontSize="20px"
+            fontSize="20px"
             fontWeight="700"
             color="rgba(0,148,255,1)"
             lineHeight="24.3799991607666px"
@@ -873,7 +876,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "City Corp")}
           ></Text>
           <Text
-              fontSize="15px"
+            fontSize="15px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
             lineHeight="22.5px"
@@ -896,7 +899,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "S\u00E3o Paulo - SP38512442")}
           ></Text>
           <Text
-              fontSize="15px"
+            fontSize="15px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
             lineHeight="18.28499984741211px"
@@ -919,7 +922,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "01 set")}
           ></Text>
           <Text
-              fontSize="15px"
+            fontSize="15px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
             lineHeight="18.28499984741211px"
@@ -987,7 +990,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "Rectangle 15338512447")}
           ></View>
           <Text
-              fontSize="24px"
+            fontSize="24px"
             fontWeight="600"
             color="rgba(0,0,0,1)"
             lineHeight="29.256000518798828px"
@@ -1010,7 +1013,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "ENGENHEIRO DE REDES")}
           ></Text>
           <Text
-              fontSize="20px"
+            fontSize="20px"
             fontWeight="700"
             color="rgba(0,0,0,1)"
             lineHeight="24.3799991607666px"
@@ -1080,7 +1083,7 @@ export default function Vagas(props) {
             ></Icon>
           </View>
           <Text
-              fontSize="20px"
+            fontSize="20px"
             fontWeight="700"
             color="rgba(0,148,255,1)"
             lineHeight="30px"
@@ -1150,7 +1153,7 @@ export default function Vagas(props) {
             ></Icon>
           </View>
           <Text
-              fontSize="15px"
+            fontSize="15px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
             lineHeight="22.5px"
@@ -1173,7 +1176,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "S\u00E3o Paulo - SP38512455")}
           ></Text>
           <Text
-              fontSize="15px"
+            fontSize="15px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
             lineHeight="22.5px"
@@ -1196,7 +1199,7 @@ export default function Vagas(props) {
             {...getOverrideProps(overrides, "26 ago")}
           ></Text>
           <Text
-              fontSize="15px"
+            fontSize="15px"
             fontWeight="400"
             color="rgba(0,0,0,1)"
             lineHeight="22.5px"
@@ -1332,47 +1335,10 @@ export default function Vagas(props) {
         isDisabled={false}
         variation="primary"
         children="Quero me candidatar"
+        onClick={() => navigate("/TelaDeLogin")}
         {...getOverrideProps(overrides, "Button38531373")}
       ></Button>
-      <Button
-        width="252px"
-        height="unset"
-        position="absolute"
-        borderRadius="20px"
-        top="389px"
-        left="1173px"
-        size="large"
-        isDisabled={false}
-        variation="primary"
-        children="Saiba mais"
-        {...getOverrideProps(overrides, "Button38531399")}
-      ></Button>
-      <Button
-        width="252px"
-        height="unset"
-        position="absolute"
-        borderRadius="20px"
-        top="594px"
-        left="1173px"
-        size="large"
-        isDisabled={false}
-        variation="primary"
-        children="Saiba mais"
-        {...getOverrideProps(overrides, "Button38531403")}
-      ></Button>
-      <Button
-        width="252px"
-        height="unset"
-        position="absolute"
-        borderRadius="20px"
-        top="791px"
-        left="1173px"
-        size="large"
-        isDisabled={false}
-        variation="primary"
-        children="Saiba mais"
-        {...getOverrideProps(overrides, "Button38531407")}
-      ></Button>
+
       <View
         padding="0px 0px 0px 0px"
         width="1520px"
@@ -1415,7 +1381,9 @@ export default function Vagas(props) {
           {...getOverrideProps(overrides, "Button39012839")}
         ></Button>
         <Image
-        src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/LogoBrancaConecta.svg"
+          src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/LogoBrancaConecta.svg"
+          style={{ cursor: "pointer" }}
+          onClick={() => navigate("/Home")}
           width="182.24px"
           height="37px"
           display="block"
@@ -1440,6 +1408,7 @@ export default function Vagas(props) {
           isDisabled={false}
           variation="primary"
           children="Início"
+          onClick={() => navigate("/Home")}
           {...getOverrideProps(overrides, "Button39012841")}
         ></Button>
         <Button
@@ -1453,6 +1422,7 @@ export default function Vagas(props) {
           isDisabled={false}
           variation="primary"
           children="Comunidade"
+          onClick={() => navigate("/Comunidade")}
           {...getOverrideProps(overrides, "Button39012842")}
         ></Button>
         <Button
@@ -1465,7 +1435,7 @@ export default function Vagas(props) {
           size="small"
           isDisabled={false}
           variation="primary"
-          children="Acessibilidade"
+          children="Vagas"
           {...getOverrideProps(overrides, "Button39012843")}
         ></Button>
         <Button
@@ -1478,7 +1448,8 @@ export default function Vagas(props) {
           size="small"
           isDisabled={false}
           variation="primary"
-          children="Ajuda"
+          children="Acessibilidade"
+          onClick={() => navigate("/ConfigsAcessibilidade")}
           {...getOverrideProps(overrides, "Button39012844")}
         ></Button>
         <Button

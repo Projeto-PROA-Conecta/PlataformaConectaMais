@@ -6,6 +6,7 @@
 
 /* eslint-disable */
 import * as React from "react";
+import { useNavigate } from "react-router-dom";
 import { getOverrideProps } from "./utils";
 import {
   Button,
@@ -18,6 +19,121 @@ import {
 } from "@aws-amplify/ui-react";
 export default function Home(props) {
   const { overrides, ...rest } = props;
+  const navigate = useNavigate();
+  const estados = [
+    "AC",
+    "AL",
+    "AP",
+    "AM",
+    "BA",
+    "CE",
+    "DF",
+    "ES",
+    "GO",
+    "MA",
+    "MT",
+    "MS",
+    "MG",
+    "PA",
+    "PB",
+    "PR",
+    "PE",
+    "PI",
+    "RJ",
+    "RN",
+    "RS",
+    "RO",
+    "RR",
+    "SC",
+    "SP",
+    "SE",
+    "TO",
+  ];
+
+  const cargos = [
+    "Administrador",
+    "Engenheiro de Software",
+    "Analista de Dados",
+    "Médico Veterinário",
+    "Designer Gráfico",
+    "Arquiteto",
+    "Consultor Financeiro",
+    "Professor de Inglês",
+    "Chefe de Cozinha",
+    "Motorista de Caminhão",
+    "Analista de Marketing Digital",
+    "Enfermeiro",
+    "Advogado",
+    "Técnico em Informática",
+    "Psicólogo",
+    "Engenheiro Civil",
+    "Gerente de Projetos",
+    "Recepcionista",
+    "Especialista em Recursos Humanos (RH)",
+    "Fotógrafo Profissional",
+    "Cientista de Dados",
+    "Vendedor Externo",
+    "Técnico em Eletrônica",
+    "Barista",
+    "Desenvolvedor de Jogos",
+    "Auditor Contábil",
+    "Personal Trainer",
+    "Piloto de Avião",
+    "Engenheiro Mecânico",
+    "Instrutor de Yoga",
+    "Tradutor e Intérprete",
+    "Desenvolvedor Front-End",
+    "Gestor de Mídias Sociais",
+    "Técnico em Enfermagem",
+    "Zelador",
+    "Analista de Suporte Técnico",
+    "Corretor de Imóveis",
+    "Biólogo",
+    "Esteticista",
+    "Cabeleireiro",
+    "Especialista em Segurança da Informação",
+    "Atendente de Loja",
+    "Consultor de Negócios",
+    "Desenhista Industrial",
+    "Nutricionista",
+    "Engenheiro de Produção",
+    "Chef Pâtissier",
+    "Artesão",
+    "Publicitário",
+    "Jornalista",
+  ];
+
+  const categorias = [
+    "Varejista",
+    "Empresarial",
+    "Tecnologia da Informação (TI)",
+    "Educação",
+    "Saúde",
+    "Engenharia",
+    "Construção Civil",
+    "Marketing e Publicidade",
+    "Recursos Humanos (RH)",
+    "Turismo e Hospitalidade",
+    "Financeiro",
+    "Logística e Transporte",
+    "Alimentação e Bebidas",
+    "Arte e Entretenimento",
+    "Jurídico",
+    "Ciências e Pesquisa",
+    "Agronegócio",
+    "Mídias e Comunicações",
+    "Segurança e Defesa",
+    "Serviços Domésticos e Manutenção",
+    "Energia e Meio Ambiente",
+    "Comércio Exterior e Relações Internacionais",
+    "Moda e Beleza",
+    "Esportes e Atividades Físicas",
+    "Indústria Automotiva",
+    "Consultoria e Estratégia",
+    "Desenvolvimento Imobiliário",
+    "Setor Público e Governamental",
+    "Tecnologias Limpas e Sustentáveis",
+  ];
   return (
     <View
       width="100vw"
@@ -169,7 +285,7 @@ export default function Home(props) {
         {...getOverrideProps(overrides, "Categorias de vagas")}
       ></Text>
       <Image
-      src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/SobreNosimg.png?raw=true"
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/SobreNosimg.png?raw=true"
         width="372px"
         height="266px"
         display="block"
@@ -211,10 +327,14 @@ export default function Home(props) {
           borderRadius="27px"
           padding="0px 0px 0px 0px"
           backgroundColor="rgba(38,25,13,1)"
+          style={{ cursor: "pointer" }}
+          onClick={() => navigate("/Vagas")}
           {...getOverrideProps(overrides, "Rectangle 112")}
         ></View>
         <Icon
           width="225px"
+          style={{ cursor: "pointer" }}
+          onClick={() => navigate("/Vagas")}
           height="190px"
           viewBox={{
             minX: 0,
@@ -308,6 +428,8 @@ export default function Home(props) {
         ></Icon>
         <View
           width="225px"
+          style={{ cursor: "pointer" }}
+          onClick={() => navigate("/Vagas")}
           height="190px"
           display="block"
           gap="unset"
@@ -495,6 +617,8 @@ export default function Home(props) {
       >
         <Icon
           width="562px"
+          style={{ cursor: "pointer" }}
+          onClick={() => navigate("/Vagas")}
           height="237px"
           viewBox={{ minX: 0, minY: 0, width: 562, height: 237 }}
           paths={[
@@ -833,48 +957,55 @@ export default function Home(props) {
           children="Suporte"
           {...getOverrideProps(overrides, "Suporte")}
         ></Text>
-        <Text
-          fontSize="14px"
-          fontWeight="400"
-          color="rgba(255,255,255,1)"
-          lineHeight="21px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="74px"
-          height="22px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="47px"
-          left="718px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Contato"
-          {...getOverrideProps(overrides, "Contato")}
-        ></Text>
-        <Text
-          fontSize="18px"
-          fontWeight="700"
-          color="rgba(255,255,255,1)"
-          lineHeight="27px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="120px"
-          height="22px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="23px"
-          left="1209px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Mapa do site"
-          {...getOverrideProps(overrides, "Mapa do site")}
-        ></Text>
+        <a
+          href="https://linktr.ee/conectamaisproa"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Text
+            fontSize="14px"
+            fontWeight="400"
+            color="rgba(255,255,255,1)"
+            lineHeight="21px"
+            textAlign="left"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="74px"
+            height="22px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="47px"
+            left="718px"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="Contato"
+            style={{ cursor: "pointer" }}
+            {...getOverrideProps(overrides, "Contato")}
+          ></Text>
+          <Text
+            fontSize="18px"
+            fontWeight="700"
+            color="rgba(255,255,255,1)"
+            lineHeight="27px"
+            textAlign="left"
+            display="block"
+            direction="column"
+            justifyContent="unset"
+            width="120px"
+            height="22px"
+            gap="unset"
+            alignItems="unset"
+            position="absolute"
+            top="23px"
+            left="1209px"
+            padding="0px 0px 0px 0px"
+            whiteSpace="pre-wrap"
+            children="Mapa do site"
+            {...getOverrideProps(overrides, "Mapa do site")}
+          ></Text>
+        </a>
         <Text
           fontSize="18px"
           fontWeight="700"
@@ -950,60 +1081,73 @@ export default function Home(props) {
           right="85.68%"
           {...getOverrideProps(overrides, "Vector38512641")}
         ></Icon>
-        <Icon
-          width="26.24px"
-          height="20.99px"
-          viewBox={{
-            minX: 0,
-            minY: 0,
-            width: 26.243385314941406,
-            height: 20.994709014892578,
-          }}
-          paths={[
-            {
-              d: "M24.127 1.73545C22.7513 0.592592 20.7936 0 18.5714 0L7.67196 0C3.06878 0 0 2.45503 0 6.13757L0 14.8148C0 16.6349 0.740741 18.2011 2.22222 19.3439C3.65079 20.4444 5.55556 20.9947 7.72487 20.9947L18.5185 20.9947C20.7937 20.9947 22.6984 20.4021 24.0741 19.3439C25.5026 18.2434 26.2434 16.6772 26.2434 14.8571L26.2434 6.13757C26.2434 4.35979 25.5026 2.83598 24.127 1.73545ZM23.9153 14.8571C23.9153 16.1693 23.3333 17.2275 22.381 17.9471C21.4286 18.6667 20.1058 19.0476 18.5185 19.0476L7.72487 19.0476C6.13757 19.0476 4.81481 18.6667 3.86243 17.9471C2.91005 17.1852 2.43386 16.127 2.43386 14.8148L2.43386 6.13757C2.43386 4.86772 2.91005 3.80952 3.86243 3.04762C4.7619 2.32804 6.13757 1.94709 7.72487 1.94709L18.6243 1.94709C20.2116 1.94709 21.5344 2.32804 22.4868 3.08995C23.3862 3.85185 23.9153 4.91005 23.9153 6.13757L23.9153 14.8571Z",
-              fill: "rgba(255,255,255,1)",
-              fillRule: "nonzero",
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="18.13%"
-          bottom="75.07%"
-          left="12.89%"
-          right="85.38%"
-          {...getOverrideProps(overrides, "Vector38512642")}
-        ></Icon>
-        <Icon
-          width="29.57px"
-          height="21.69px"
-          viewBox={{
-            minX: 0,
-            minY: 0,
-            width: 29.571428298950195,
-            height: 21.685712814331055,
-          }}
-          paths={[
-            {
-              d: "M21.5314 21.6857L8.04 21.6857C5.90836 21.684 3.86467 21.0623 2.35737 19.957C0.850067 18.8516 0.00226892 17.3529 0 15.7897L0 5.896C0.00226892 4.33279 0.850067 2.83409 2.35737 1.72874C3.86467 0.623382 5.90836 0.00166387 8.04 0L21.5314 0C23.6631 0.00166387 25.7068 0.623382 27.2141 1.72874C28.7214 2.83409 29.5692 4.33279 29.5714 5.896L29.5714 15.7897C29.5692 17.3529 28.7214 18.8516 27.2141 19.957C25.7068 21.0623 23.6631 21.684 21.5314 21.6857ZM8.04 1.57143C6.47668 1.57309 4.97803 2.02925 3.87259 2.8399C2.76716 3.65056 2.14512 4.74956 2.14286 5.896L2.14286 15.7897C2.14512 16.9362 2.76716 18.0352 3.87259 18.8458C4.97803 19.6565 6.47668 20.1126 8.04 20.1143L21.5314 20.1143C23.0948 20.1126 24.5934 19.6565 25.6988 18.8458C26.8043 18.0352 27.4263 16.9362 27.4286 15.7897L27.4286 5.896C27.4263 4.74956 26.8043 3.65056 25.6988 2.8399C24.5934 2.02925 23.0948 1.57309 21.5314 1.57143L8.04 1.57143Z",
-              fill: "rgba(255,255,255,1)",
-              fillRule: "nonzero",
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="18.17%"
-          bottom="74.81%"
-          left="15.88%"
-          right="82.17%"
-          {...getOverrideProps(overrides, "Vector38512643")}
-        ></Icon>
+        <a
+          href="https://www.instagram.com/conectamais_proa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Icon
+            style={{ cursor: "pointer" }}
+            width="26.24px"
+            height="20.99px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 26.243385314941406,
+              height: 20.994709014892578,
+            }}
+            paths={[
+              {
+                d: "M24.127 1.73545C22.7513 0.592592 20.7936 0 18.5714 0L7.67196 0C3.06878 0 0 2.45503 0 6.13757L0 14.8148C0 16.6349 0.740741 18.2011 2.22222 19.3439C3.65079 20.4444 5.55556 20.9947 7.72487 20.9947L18.5185 20.9947C20.7937 20.9947 22.6984 20.4021 24.0741 19.3439C25.5026 18.2434 26.2434 16.6772 26.2434 14.8571L26.2434 6.13757C26.2434 4.35979 25.5026 2.83598 24.127 1.73545ZM23.9153 14.8571C23.9153 16.1693 23.3333 17.2275 22.381 17.9471C21.4286 18.6667 20.1058 19.0476 18.5185 19.0476L7.72487 19.0476C6.13757 19.0476 4.81481 18.6667 3.86243 17.9471C2.91005 17.1852 2.43386 16.127 2.43386 14.8148L2.43386 6.13757C2.43386 4.86772 2.91005 3.80952 3.86243 3.04762C4.7619 2.32804 6.13757 1.94709 7.72487 1.94709L18.6243 1.94709C20.2116 1.94709 21.5344 2.32804 22.4868 3.08995C23.3862 3.85185 23.9153 4.91005 23.9153 6.13757L23.9153 14.8571Z",
+                fill: "rgba(255,255,255,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="18.13%"
+            bottom="75.07%"
+            left="12.89%"
+            right="85.38%"
+            {...getOverrideProps(overrides, "Vector38512642")}
+          ></Icon>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/conecta-mais-a78065341/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Icon
+            width="29.57px"
+            height="21.69px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 29.571428298950195,
+              height: 21.685712814331055,
+            }}
+            paths={[
+              {
+                d: "M21.5314 21.6857L8.04 21.6857C5.90836 21.684 3.86467 21.0623 2.35737 19.957C0.850067 18.8516 0.00226892 17.3529 0 15.7897L0 5.896C0.00226892 4.33279 0.850067 2.83409 2.35737 1.72874C3.86467 0.623382 5.90836 0.00166387 8.04 0L21.5314 0C23.6631 0.00166387 25.7068 0.623382 27.2141 1.72874C28.7214 2.83409 29.5692 4.33279 29.5714 5.896L29.5714 15.7897C29.5692 17.3529 28.7214 18.8516 27.2141 19.957C25.7068 21.0623 23.6631 21.684 21.5314 21.6857ZM8.04 1.57143C6.47668 1.57309 4.97803 2.02925 3.87259 2.8399C2.76716 3.65056 2.14512 4.74956 2.14286 5.896L2.14286 15.7897C2.14512 16.9362 2.76716 18.0352 3.87259 18.8458C4.97803 19.6565 6.47668 20.1126 8.04 20.1143L21.5314 20.1143C23.0948 20.1126 24.5934 19.6565 25.6988 18.8458C26.8043 18.0352 27.4263 16.9362 27.4286 15.7897L27.4286 5.896C27.4263 4.74956 26.8043 3.65056 25.6988 2.8399C24.5934 2.02925 23.0948 1.57309 21.5314 1.57143L8.04 1.57143Z",
+                fill: "rgba(255,255,255,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="18.17%"
+            bottom="74.81%"
+            left="15.88%"
+            right="82.17%"
+            {...getOverrideProps(overrides, "Vector38512643")}
+          ></Icon>
+        </a>
         <Icon
           width="2.94px"
           height="6.89px"
@@ -1031,33 +1175,39 @@ export default function Home(props) {
           right="83.45%"
           {...getOverrideProps(overrides, "Vector38512644")}
         ></Icon>
-        <Icon
-          width="14.99px"
-          height="10.41px"
-          viewBox={{
-            minX: 0,
-            minY: 0,
-            width: 14.991403579711914,
-            height: 10.409161567687988,
-          }}
-          paths={[
-            {
-              d: "M1.48283 1.81752e-05C1.19052 -0.00122452 0.904309 0.0612841 0.660555 0.179602C0.416801 0.29792 0.226511 0.466706 0.113865 0.664514C0.00121894 0.862321 -0.0286987 1.08022 0.0279134 1.29053C0.0845255 1.50083 0.225112 1.69405 0.43181 1.84563C0.638507 1.9972 0.901984 2.1003 1.18876 2.14182C1.47554 2.18333 1.77268 2.16139 2.04242 2.07878C2.31215 1.99618 2.54232 1.85663 2.70366 1.67788C2.865 1.49913 2.95024 1.28924 2.94855 1.07488C2.9463 0.790314 2.79115 0.517877 2.51676 0.316659C2.24238 0.115441 1.87087 0.00166785 1.48283 1.81752e-05ZM9.65998 4.99087C9.94572 4.93194 10.2465 4.92401 10.5373 4.96775C10.8281 5.01149 11.1004 5.10563 11.3314 5.2423C11.6007 5.47395 11.8034 5.74317 11.9271 6.03376C12.0508 6.32434 12.0931 6.63028 12.0514 6.93316L12.0514 9.3343C12.0537 9.61995 12.21 9.89333 12.4862 10.0947C12.7625 10.2961 13.1362 10.4092 13.5257 10.4092C13.9144 10.4092 14.2872 10.2959 14.5621 10.0943C14.837 9.89277 14.9914 9.61937 14.9914 9.3343L14.9914 6.19145C14.9861 5.52692 14.7375 4.87564 14.2714 4.30573L14.2285 4.26802C13.9021 3.96699 13.4859 3.72489 13.0119 3.56034C12.5378 3.39579 12.0187 3.31319 11.4943 3.31888C10.9139 3.28832 10.333 3.37112 9.81049 3.55883C9.28801 3.74654 8.84272 4.03245 8.51998 4.38745L8.12569 4.80859L8.12569 4.55716C8.12569 4.27209 7.97127 3.9987 7.69639 3.79712C7.42152 3.59555 7.04871 3.4823 6.65998 3.4823C6.27124 3.4823 5.89844 3.59555 5.62356 3.79712C5.34869 3.9987 5.19426 4.27209 5.19426 4.55716L5.19426 9.29659C5.19426 9.58166 5.34869 9.85505 5.62356 10.0566C5.89844 10.2582 6.27124 10.3714 6.65998 10.3714C6.85277 10.3723 7.04388 10.345 7.22222 10.2913C7.40057 10.2376 7.5626 10.1585 7.69893 10.0585C7.83526 9.95851 7.94318 9.83969 8.01644 9.7089C8.08969 9.57812 8.12683 9.43797 8.12569 9.29659L8.12569 6.14745C8.69998 5.07887 9.65998 4.99716 9.65998 4.99087Z",
-              fill: "rgba(255,255,255,1)",
-              fillRule: "nonzero",
-            },
-          ]}
-          display="block"
-          gap="unset"
-          alignItems="unset"
-          justifyContent="unset"
-          position="absolute"
-          top="20%"
-          bottom="76.63%"
-          left="16.36%"
-          right="82.65%"
-          {...getOverrideProps(overrides, "Vector38512645")}
-        ></Icon>
+        <a
+          href="https://www.linkedin.com/in/conecta-mais-a78065341/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Icon
+            width="14.99px"
+            height="10.41px"
+            viewBox={{
+              minX: 0,
+              minY: 0,
+              width: 14.991403579711914,
+              height: 10.409161567687988,
+            }}
+            paths={[
+              {
+                d: "M1.48283 1.81752e-05C1.19052 -0.00122452 0.904309 0.0612841 0.660555 0.179602C0.416801 0.29792 0.226511 0.466706 0.113865 0.664514C0.00121894 0.862321 -0.0286987 1.08022 0.0279134 1.29053C0.0845255 1.50083 0.225112 1.69405 0.43181 1.84563C0.638507 1.9972 0.901984 2.1003 1.18876 2.14182C1.47554 2.18333 1.77268 2.16139 2.04242 2.07878C2.31215 1.99618 2.54232 1.85663 2.70366 1.67788C2.865 1.49913 2.95024 1.28924 2.94855 1.07488C2.9463 0.790314 2.79115 0.517877 2.51676 0.316659C2.24238 0.115441 1.87087 0.00166785 1.48283 1.81752e-05ZM9.65998 4.99087C9.94572 4.93194 10.2465 4.92401 10.5373 4.96775C10.8281 5.01149 11.1004 5.10563 11.3314 5.2423C11.6007 5.47395 11.8034 5.74317 11.9271 6.03376C12.0508 6.32434 12.0931 6.63028 12.0514 6.93316L12.0514 9.3343C12.0537 9.61995 12.21 9.89333 12.4862 10.0947C12.7625 10.2961 13.1362 10.4092 13.5257 10.4092C13.9144 10.4092 14.2872 10.2959 14.5621 10.0943C14.837 9.89277 14.9914 9.61937 14.9914 9.3343L14.9914 6.19145C14.9861 5.52692 14.7375 4.87564 14.2714 4.30573L14.2285 4.26802C13.9021 3.96699 13.4859 3.72489 13.0119 3.56034C12.5378 3.39579 12.0187 3.31319 11.4943 3.31888C10.9139 3.28832 10.333 3.37112 9.81049 3.55883C9.28801 3.74654 8.84272 4.03245 8.51998 4.38745L8.12569 4.80859L8.12569 4.55716C8.12569 4.27209 7.97127 3.9987 7.69639 3.79712C7.42152 3.59555 7.04871 3.4823 6.65998 3.4823C6.27124 3.4823 5.89844 3.59555 5.62356 3.79712C5.34869 3.9987 5.19426 4.27209 5.19426 4.55716L5.19426 9.29659C5.19426 9.58166 5.34869 9.85505 5.62356 10.0566C5.89844 10.2582 6.27124 10.3714 6.65998 10.3714C6.85277 10.3723 7.04388 10.345 7.22222 10.2913C7.40057 10.2376 7.5626 10.1585 7.69893 10.0585C7.83526 9.95851 7.94318 9.83969 8.01644 9.7089C8.08969 9.57812 8.12683 9.43797 8.12569 9.29659L8.12569 6.14745C8.69998 5.07887 9.65998 4.99716 9.65998 4.99087Z",
+                fill: "rgba(255,255,255,1)",
+                fillRule: "nonzero",
+              },
+            ]}
+            display="block"
+            gap="unset"
+            alignItems="unset"
+            justifyContent="unset"
+            position="absolute"
+            top="20%"
+            bottom="76.63%"
+            left="16.36%"
+            right="82.65%"
+            {...getOverrideProps(overrides, "Vector38512645")}
+          ></Icon>
+        </a>
         <Text
           fontSize="18px"
           fontWeight="400"
@@ -1077,6 +1227,8 @@ export default function Home(props) {
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Início"
+          style={{ cursor: "pointer" }}
+          onClick={() => navigate("/Home")}
           {...getOverrideProps(overrides, "In\u00EDcio")}
         ></Text>
         <Text
@@ -1098,6 +1250,7 @@ export default function Home(props) {
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Comunidade"
+          onClick={() => navigate("/Comunidade")}
           {...getOverrideProps(overrides, "Comunidade")}
         ></Text>
         <Text
@@ -1119,6 +1272,8 @@ export default function Home(props) {
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Vagas"
+          style={{ cursor: "pointer" }}
+          onClick={() => navigate("/Vagas")}
           {...getOverrideProps(overrides, "Vagas")}
         ></Text>
         <Text
@@ -1140,6 +1295,8 @@ export default function Home(props) {
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Comunidade"
+          style={{ cursor: "pointer" }}
+          onClick={() => navigate("/Comunidade")}
           {...getOverrideProps(overrides, "Comunidade")}
         ></Text>
         <Text
@@ -1161,28 +1318,9 @@ export default function Home(props) {
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Plus"
+          style={{ cursor: "pointer" }}
+          onClick={() => navigate("/Premium")}
           {...getOverrideProps(overrides, "Plus")}
-        ></Text>
-        <Text
-          fontSize="18px"
-          fontWeight="400"
-          color="rgba(255,255,255,1)"
-          lineHeight="27px"
-          textAlign="left"
-          display="block"
-          direction="column"
-          justifyContent="unset"
-          width="53px"
-          height="22px"
-          gap="unset"
-          alignItems="unset"
-          position="absolute"
-          top="158px"
-          left="1209px"
-          padding="0px 0px 0px 0px"
-          whiteSpace="pre-wrap"
-          children="Ajuda"
-          {...getOverrideProps(overrides, "Ajuda")}
         ></Text>
       </View>
       <Flex
@@ -1217,10 +1355,15 @@ export default function Home(props) {
         labelHidden={false}
         variation="default"
         {...getOverrideProps(overrides, "SelectField38531446")}
-      ></SelectField>
+      >
+        {cargos.map((cargo) => (
+          <option key={cargo} value={cargo}>
+            {cargo}
+          </option>
+        ))}
+      </SelectField>
       <SelectField
         width="220px"
-        height="unset"
         placeholder="Estado"
         position="absolute"
         top="275px"
@@ -1230,7 +1373,13 @@ export default function Home(props) {
         labelHidden={false}
         variation="default"
         {...getOverrideProps(overrides, "SelectField38531446")}
-      ></SelectField>
+      >
+        {estados.map((estado) => (
+          <option key={estado} value={estado}>
+            {estado}
+          </option>
+        ))}
+      </SelectField>
       <SelectField
         width="280px"
         height="unset"
@@ -1243,7 +1392,13 @@ export default function Home(props) {
         labelHidden={false}
         variation="default"
         {...getOverrideProps(overrides, "SelectField38531446")}
-      ></SelectField>
+      >
+        {categorias.map((categorias) => (
+          <option key={categorias} value={categorias}>
+            {categorias}
+          </option>
+        ))}
+      </SelectField>
 
       <Button
         width="100px"
@@ -1256,6 +1411,7 @@ export default function Home(props) {
         isDisabled={false}
         variation="primary"
         children="Buscar"
+        onClick={() => navigate("/Vagas")}
         {...getOverrideProps(overrides, "Button39164195")}
       ></Button>
 
@@ -1404,11 +1560,14 @@ export default function Home(props) {
           isDisabled={false}
           variation="primary"
           children="Cadastrar-se"
+          onClick={() => navigate("/EscolhaDeConta")}
           {...getOverrideProps(overrides, "Button38604011")}
         ></Button>
         <Image
           src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/LogoBrancaConecta.svg"
           width="182.24px"
+          style={{ cursor: "pointer" }}
+          onClick={() => navigate("/Home")}
           height="37px"
           display="block"
           gap="unset"
@@ -1432,6 +1591,7 @@ export default function Home(props) {
           isDisabled={false}
           variation="primary"
           children="Início"
+          onClick={() => navigate("/Home")}
           {...getOverrideProps(overrides, "Button38573258")}
         ></Button>
         <Button
@@ -1445,6 +1605,7 @@ export default function Home(props) {
           isDisabled={false}
           variation="primary"
           children="Comunidade"
+          onClick={() => navigate("/Comunidade")}
           {...getOverrideProps(overrides, "Button38573267")}
         ></Button>
         <Button
@@ -1457,22 +1618,25 @@ export default function Home(props) {
           size="small"
           isDisabled={false}
           variation="primary"
-          children="Acessibilidade"
+          children="Vagas"
+          onClick={() => navigate("/Vagas")}
           {...getOverrideProps(overrides, "Button38573263")}
         ></Button>
         <Button
-          width="65.09px"
+          width="125.16px"
           height="unset"
           position="absolute"
           top="22px"
-          left="938.24px"
+          left="908.24px"
           backgroundColor="rgba(0,0,0,0)"
           size="small"
           isDisabled={false}
           variation="primary"
-          children="Ajuda"
-          {...getOverrideProps(overrides, "Button38573268")}
+          children="Acessibilidade"
+          onClick={() => navigate("/ConfigsAcessibilidade")}
+          {...getOverrideProps(overrides, "Button38573263")}
         ></Button>
+
         <Button
           width="130.17px"
           height="unset"
@@ -1484,6 +1648,7 @@ export default function Home(props) {
           isDisabled={false}
           variation="primary"
           children="Entrar"
+          onClick={() => navigate("/TelaDeLogin")}
           {...getOverrideProps(overrides, "Button38573275")}
         ></Button>
       </View>

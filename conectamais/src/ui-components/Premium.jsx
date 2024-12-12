@@ -8,8 +8,10 @@
 import * as React from "react";
 import { getOverrideProps } from "./utils";
 import { Button, Flex, Icon, Image, Text, View } from "@aws-amplify/ui-react";
+import { useNavigate } from "react-router-dom";
 export default function Premium(props) {
   const { bancoImagens, overrides, ...rest } = props;
+  const navigate = useNavigate();
   return (
     <View
       width="100vw"
@@ -979,6 +981,8 @@ export default function Premium(props) {
         ></Button>
         <Image
           src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/LogoBrancaConecta.svg"
+          style={{ cursor: "pointer" }}
+          onClick={() => navigate("/Home")}
           width="182.36px"
           height="37px"
           display="block"
@@ -1002,7 +1006,8 @@ export default function Premium(props) {
           size="small"
           isDisabled={false}
           variation="primary"
-          children="Home"
+          children="Início"
+          onClick={() => navigate("/Home")}
           {...getOverrideProps(overrides, "Button39214304")}
         ></Button>
         <Button
@@ -1016,6 +1021,7 @@ export default function Premium(props) {
           isDisabled={false}
           variation="primary"
           children="Comunidade"
+          onClick={() => navigate("/Comunidade")}
           {...getOverrideProps(overrides, "Button39214305")}
         ></Button>
         <Button
@@ -1028,7 +1034,8 @@ export default function Premium(props) {
           size="small"
           isDisabled={false}
           variation="primary"
-          children="Acessibilidade"
+          children="Vagas"
+          onClick={() => navigate("/Vagas")}
           {...getOverrideProps(overrides, "Button39214306")}
         ></Button>
         <Button
@@ -1041,7 +1048,8 @@ export default function Premium(props) {
           size="small"
           isDisabled={false}
           variation="primary"
-          children="Ajuda"
+          children="Acessibilidade"
+          onClick={() => navigate("/ConfigsAcessibilidade")}
           {...getOverrideProps(overrides, "Button39214307")}
         ></Button>
         <Button

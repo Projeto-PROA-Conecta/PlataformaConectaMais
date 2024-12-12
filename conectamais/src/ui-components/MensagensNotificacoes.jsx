@@ -7,9 +7,11 @@
 /* eslint-disable */
 import * as React from "react";
 import { getOverrideProps } from "./utils";
+import { useNavigate } from "react-router-dom";
 import { Button, Icon, Image, Text, View } from "@aws-amplify/ui-react";
 export default function MensagensNotificacoes(props) {
   const { bancoImagens, overrides, ...rest } = props;
+  const navigate = useNavigate();
   return (
     <View
       width="100vw"
@@ -25,7 +27,7 @@ export default function MensagensNotificacoes(props) {
       {...rest}
     >
       <Image
-      src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/BackgroundConecta.jpg?raw=true"
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/BackgroundConecta.jpg?raw=true"
         width="100vw"
         height="1030px"
         display="block"
@@ -470,7 +472,7 @@ export default function MensagensNotificacoes(props) {
           {...getOverrideProps(overrides, "Button39012867")}
         ></Button>
         <Image
-        src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/LogoBrancaConecta.svg"
+          src="https://raw.githubusercontent.com/Projeto-PROA-Conecta/imagens/9d4199ac05a2459b18928e253bab87cfaa3f1082/LogoBrancaConecta.svg"
           width="182.24px"
           height="37px"
           display="block"
@@ -551,7 +553,7 @@ export default function MensagensNotificacoes(props) {
         ></Button>
       </View>
       <Image
-      src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/PerfilSemFoto.png?raw=true"
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/PerfilSemFoto.png?raw=true"
         width="90px"
         height="90px"
         display="block"
@@ -566,7 +568,7 @@ export default function MensagensNotificacoes(props) {
         {...getOverrideProps(overrides, "image 839044187")}
       ></Image>
       <Image
-      src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/PerfilSemFoto.png?raw=true"
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/PerfilSemFoto.png?raw=true"
         width="90px"
         height="90px"
         display="block"
@@ -581,7 +583,7 @@ export default function MensagensNotificacoes(props) {
         {...getOverrideProps(overrides, "image 839044189")}
       ></Image>
       <Image
-      src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/PerfilSemFoto.png?raw=true"
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/PerfilSemFoto.png?raw=true"
         width="90px"
         height="90px"
         display="block"
@@ -596,7 +598,7 @@ export default function MensagensNotificacoes(props) {
         {...getOverrideProps(overrides, "image 839044191")}
       ></Image>
       <Image
-      src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/PerfilSemFoto.png?raw=true"
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/PerfilSemFoto.png?raw=true"
         width="60px"
         height="60px"
         display="block"

@@ -7,6 +7,7 @@
 /* eslint-disable */
 import * as React from "react";
 import { getOverrideProps } from "./utils";
+import { useNavigate } from "react-router-dom";
 import {
   Button,
   Flex,
@@ -19,6 +20,9 @@ import {
 } from "@aws-amplify/ui-react";
 export default function CadastroUsuario5(props) {
   const { bancoImagens, overrides, ...rest } = props;
+  const navigate = useNavigate();
+  const negativa = ["não"];
+
   return (
     <View
       width="100vw"
@@ -198,7 +202,7 @@ export default function CadastroUsuario5(props) {
         width="384px"
         height="72px"
         label="9.Sente-se confortável em um ambiente que valoriza a diversidade e inclusão?"
-        placeholder="Sensorial"
+        placeholder="Sim"
         position="absolute"
         top="calc(50% - 36px - -1.5px)"
         left="37.39%"
@@ -208,12 +212,18 @@ export default function CadastroUsuario5(props) {
         labelHidden={false}
         variation="default"
         {...getOverrideProps(overrides, "SelectField38572060")}
-      ></SelectField>
+      >
+        {negativa.map((negativa) => (
+          <option key={negativa} value={negativa}>
+            {negativa}
+          </option>
+        ))}
+      </SelectField>
       <SelectField
         width="384px"
         height="unset"
         label="10.Faz parte de algum outro grupo de diversidade?"
-        placeholder="Presencial"
+        placeholder="Sim"
         position="absolute"
         top="calc(50% - 34.5px - -122px)"
         left="37.39%"
@@ -223,7 +233,13 @@ export default function CadastroUsuario5(props) {
         labelHidden={false}
         variation="default"
         {...getOverrideProps(overrides, "SelectField38572061")}
-      ></SelectField>
+      >
+        {negativa.map((negativa) => (
+          <option key={negativa} value={negativa}>
+            {negativa}
+          </option>
+        ))}
+      </SelectField>
       <Button
         width="102px"
         height="unset"
@@ -234,6 +250,7 @@ export default function CadastroUsuario5(props) {
         isDisabled={false}
         variation="default"
         children="Voltar"
+        onClick={() => navigate("/CadastroUsuario4")}
         {...getOverrideProps(overrides, "Button38572062")}
       ></Button>
       <Button
@@ -247,10 +264,11 @@ export default function CadastroUsuario5(props) {
         isDisabled={false}
         variation="primary"
         children="Continuar"
+        onClick={() => navigate("/Home")}
         {...getOverrideProps(overrides, "Button38572063")}
       ></Button>
       <Image
-      src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/LogoPretaConecta.png?raw=true"
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/LogoPretaConecta.png?raw=true"
         width="20.41%"
         height="13.43%"
         display="block"

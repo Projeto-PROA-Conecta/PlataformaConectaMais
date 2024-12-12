@@ -7,6 +7,7 @@
 /* eslint-disable */
 import * as React from "react";
 import { getOverrideProps } from "./utils";
+import { useNavigate } from "react-router-dom";
 import {
   Button,
   CheckboxField,
@@ -19,6 +20,8 @@ import {
 } from "@aws-amplify/ui-react";
 export default function CadastroUsuario2(props) {
   const { bancoImagens, overrides, ...rest } = props;
+  const navigate = useNavigate();
+
   return (
     <View
       width="100vw"
@@ -1801,6 +1804,7 @@ export default function CadastroUsuario2(props) {
           isDisabled={false}
           variation="default"
           children="Voltar"
+          onClick={() => navigate("/CadastroUsuario1")}
           {...getOverrideProps(overrides, "Button38545630")}
         ></Button>
         <Button
@@ -1816,6 +1820,7 @@ export default function CadastroUsuario2(props) {
           isDisabled={false}
           variation="primary"
           children="Continuar"
+          onClick={() => navigate("/CadastroUsuario3")}
           {...getOverrideProps(overrides, "Button38545631")}
         ></Button>
       </View>
