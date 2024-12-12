@@ -1378,6 +1378,7 @@ export default function Vagas(props) {
           isDisabled={false}
           variation="primary"
           children="Cadastrar-se"
+          onClick={() => navigate("/EscolhaDeConta")} 
           {...getOverrideProps(overrides, "Button39012839")}
         ></Button>
         <Image
@@ -1463,6 +1464,7 @@ export default function Vagas(props) {
           isDisabled={false}
           variation="primary"
           children="Entrar"
+          onClick={() => navigate("/TelaDeLogin")} 
           {...getOverrideProps(overrides, "Button39012845")}
         ></Button>
       </View>

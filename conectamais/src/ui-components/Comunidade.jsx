@@ -387,7 +387,7 @@ export default function Comunidade(props) {
         {...getOverrideProps(overrides, "image 8")}
       ></Image>
       <Image
-        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/image.png?raw=true"
+        src="https://github.com/Projeto-PROA-Conecta/imagens/blob/main/image-gabs.png?raw=true"
         height="4.24%"
         display="block"
         gap="unset"
